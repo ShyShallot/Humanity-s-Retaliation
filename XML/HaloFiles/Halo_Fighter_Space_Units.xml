@@ -362,7 +362,12 @@
 
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			
+			<Unit_Ability>
+                <Type>ROCKET_ATTACK</Type>
+                <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+            </Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Population_Value>1</Population_Value>
@@ -421,7 +426,12 @@
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 			
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+			<Unit_Ability>
+                <Type>ROCKET_ATTACK</Type>
+                <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+            </Unit_Ability>
 		</Unit_Abilities_Data>
 		
 		<Encyclopedia_Text>TEXT_TOOLTIP_BROADSWORD</Encyclopedia_Text>
@@ -466,7 +476,12 @@
 
 		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+			<Unit_Ability>
+                <Type>ROCKET_ATTACK</Type>
+                <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+            </Unit_Ability>
 		</Unit_Abilities_Data>
 		
 		<Abilities SubObjectList="Yes">
