@@ -2,7 +2,7 @@
 <Factions>
 
 	<Faction Name="Underworld">
-		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
+		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
 		<Text_ID> TEXT_FACTION_UNDERWORLD </Text_ID>
 		<Text_Nickname_ID> TEXT_FACTION_UNDERWORLD_NICKNAME </Text_Nickname_ID>
@@ -21,7 +21,7 @@
 		<Credits_Accumulation_Factor> 0.95 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 10.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>true</Is_Playable>
+		<Is_Playable>false</Is_Playable>
 		<Primary_Enemy />
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral> No </Is_Neutral>
