@@ -21,12 +21,12 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>2.2</Max_Speed>
-		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
-		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.4</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<OverrideAcceleration> .04 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
 
@@ -81,7 +81,6 @@
 			UNSC_GLAD_01, UNSC_GLAD_02, UNSC_GLAD_03, UNSC_GLAD_04, UNSC_GLAD_05, UNSC_GLAD_06
 		</HardPoints>
 
-		<Target_Bones> MISSILE_TARGET00, MISSILE_TARGET01 </Target_Bones>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>i_button_escort_frigate.tga</Icon_Name>
@@ -149,17 +148,8 @@
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-		</Unit_Abilities_Data>
-		
-			
-		
-		
-
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_GLADIUS </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CORVETTE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -178,7 +168,7 @@
 		<Text_ID>TEXT_UNSC_GLADIUS</Text_ID>
 		<Space_Model_Name>UNSC_Gladius.ALO</Space_Model_Name>
 		<xxxSpace_Model_Name>UNSC_Gladius.ALO</xxxSpace_Model_Name>
-		<Death_SFXEvent_Start_Die>Unit_COVN_CAS_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>UNIT_STAR_DESTROYER_DEATH_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Scale_Factor>0.76</Scale_Factor>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
@@ -366,7 +356,7 @@
 		<Text_ID>TEXT_UNSC_HALBERD</Text_ID>
 		<Space_Model_Name>UNSC_Halberd.ALO</Space_Model_Name>
 		<xxxSpace_Model_Name>UNSC_Halberd.ALO</xxxSpace_Model_Name>
-		<Death_SFXEvent_Start_Die>Unit_COVN_CAS_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_SFXEvent_Start_Die>UNIT_STAR_DESTROYER_DEATH_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Scale_Factor>14.0</Scale_Factor>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>

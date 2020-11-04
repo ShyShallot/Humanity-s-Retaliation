@@ -58,8 +58,15 @@
 	<Projectile Name="Proj_UNSC_Fighter_Missile_Light">	<!-- Normal Missiles used by Fighters and not bombers -->
 		<Variant_Of_Existing_Type>Proj_UNSC_Fighter_Missile</Variant_Of_Existing_Type>
 		<Projectile_Damage>8</Projectile_Damage>
+		<Projectile_Category>Rocket</Projectile_Category>
 		<Projectile_Blast_Area_Damage>4.0</Projectile_Blast_Area_Damage>
         <Projectile_Blast_Area_Range>10.0</Projectile_Blast_Area_Range>
+		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
+		to lag and/or crash. -->
+		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
+        <Projectile_Rocket_Curve_Offset>60</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
+		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	
 	</Projectile>
 
@@ -71,9 +78,9 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Max_Speed>12.0</Max_Speed>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>15.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Torpedo</Projectile_Category>
+		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
 		<Projectile_Damage>3</Projectile_Damage>
@@ -88,20 +95,23 @@
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Projectile_Rocket_Curve_Distance>0</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>400</Projectile_Rocket_Curve_Offset>
-        <Projectile_Rocket_Straight_Distance>0</Projectile_Rocket_Straight_Distance>
+		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
+		to lag and/or crash. -->
+		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
+        <Projectile_Rocket_Curve_Offset>60</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
+		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_Ship_Missile_Heavy">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>1.8</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
-		<Max_Speed>12.0</Max_Speed>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Speed>8.0</Max_Speed>
+		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Torpedo</Projectile_Category>
+		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
 		<Projectile_Damage>9.5</Projectile_Damage>
@@ -116,9 +126,12 @@
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Projectile_Rocket_Curve_Distance>0</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>400</Projectile_Rocket_Curve_Offset>
-        <Projectile_Rocket_Straight_Distance>0</Projectile_Rocket_Straight_Distance>
+		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
+		to lag and/or crash. -->
+		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
+        <Projectile_Rocket_Curve_Offset>60</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
+		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	</Projectile>
 
 	
@@ -212,7 +225,7 @@
 		<Scale_Factor>25.0</Scale_Factor>
 		<Max_Speed>15.0</Max_Speed>
 		<Damage_Type> Damage_Station_Turbolaser </Damage_Type>
-		<Projectile_Damage>18.0</Projectile_Damage>
+		<Projectile_Damage>16.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>

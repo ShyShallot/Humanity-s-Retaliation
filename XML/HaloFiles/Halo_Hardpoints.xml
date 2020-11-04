@@ -17,7 +17,7 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions><Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 			
     </HardPoint>
 
@@ -1220,8 +1220,8 @@
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>350.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_18_BONE</Attachment_Bone>
-			<Fire_Bone_A>FB_POA_ARCHER_18</Fire_Bone_A>
-            <Fire_Bone_B>FB_POA_ARCHER_18</Fire_Bone_B>
+			<Fire_Bone_A>FB_POA_ARCHER_18_BONE</Fire_Bone_A>
+            <Fire_Bone_B>FB_POA_ARCHER_18_BONE</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
@@ -2735,8 +2735,8 @@
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_01_BONE</Attachment_Bone>
-			<Fire_Bone_A>FB_HAL_ARCHER_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_HAL_ARCHER_01</Fire_Bone_B>
+			<Fire_Bone_A>HP_HALC_ARCHER_01_BONE</Fire_Bone_A>
+            <Fire_Bone_B>HP_HALC_ARCHER_01_BONE</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
@@ -2757,8 +2757,8 @@
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_02_BONE</Attachment_Bone>
-			<Fire_Bone_A>FB_HAL_ARCHER_02</Fire_Bone_A>
-            <Fire_Bone_B>FB_HAL_ARCHER_02</Fire_Bone_B>
+			<Fire_Bone_A>HP_HALC_ARCHER_02_BONE</Fire_Bone_A>
+            <Fire_Bone_B>HP_HALC_ARCHER_02_BONE</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
@@ -2779,8 +2779,8 @@
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_03_BONE</Attachment_Bone>
-			<Fire_Bone_A>FB_HAL_ARCHER_03</Fire_Bone_A>
-            <Fire_Bone_B>FB_HAL_ARCHER_03</Fire_Bone_B>
+			<Fire_Bone_A>HP_HALC_ARCHER_03_BONE</Fire_Bone_A>
+            <Fire_Bone_B>HP_HALC_ARCHER_03_BONE</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
@@ -2801,8 +2801,8 @@
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_04_BONE</Attachment_Bone>
-			<Fire_Bone_A>FB_HAL_ARCHER_04</Fire_Bone_A>
-            <Fire_Bone_B>FB_HAL_ARCHER_04</Fire_Bone_B>
+			<Fire_Bone_A>HP_HALC_ARCHER_04_BONE</Fire_Bone_A>
+            <Fire_Bone_B>HP_HALC_ARCHER_04_BONE</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
@@ -2823,8 +2823,8 @@
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_05_BONE</Attachment_Bone>
-			<Fire_Bone_A>FB_HAL_ARCHER_05</Fire_Bone_A>
-            <Fire_Bone_B>FB_HAL_ARCHER_05</Fire_Bone_B>
+			<Fire_Bone_A>HP_HALC_ARCHER_05_BONE</Fire_Bone_A>
+            <Fire_Bone_B>HP_HALC_ARCHER_05_BONE</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
@@ -2845,8 +2845,8 @@
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_06_BONE</Attachment_Bone>
-			<Fire_Bone_A>FB_HAL_ARCHER_06</Fire_Bone_A>
-            <Fire_Bone_B>FB_HAL_ARCHER_06</Fire_Bone_B>
+			<Fire_Bone_A>HP_HALC_ARCHER_06_BONE</Fire_Bone_A>
+            <Fire_Bone_B>HP_HALC_ARCHER_06_BONE</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
@@ -2862,9 +2862,9 @@
     <HardPoint Name="UNSC_HALC_MK3_01">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>550.0</Health>
 
             <Model_To_Attach>UNSC_HALC_MK33_01.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2900,9 +2900,9 @@
     <HardPoint Name="UNSC_HALC_MK3_02">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>550.0</Health>
 
             <Model_To_Attach>UNSC_HALC_MK33_02.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2938,9 +2938,9 @@
     <HardPoint Name="UNSC_HALC_MK3_03">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>550.0</Health>
 
             <Model_To_Attach>UNSC_HALC_MK33_03.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2976,9 +2976,9 @@
     <HardPoint Name="UNSC_HALC_MK3_04">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>550.0</Health>
 
             <Model_To_Attach>UNSC_HALC_MK33_04.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3014,9 +3014,9 @@
     <HardPoint Name="UNSC_HALC_MK3_05">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>550.0</Health>
 
             <Model_To_Attach>UNSC_HALC_MK33_05.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3052,9 +3052,9 @@
     <HardPoint Name="UNSC_HALC_MK3_06">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>550.0</Health>
 
             <Model_To_Attach>UNSC_HALC_MK33_06.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
