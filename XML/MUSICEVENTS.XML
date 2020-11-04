@@ -3,7 +3,7 @@
 <MusicEvents>
 
 	<MusicEvent Name="Main_Menu_Music_Event">
-		<Files>UND_Zann_Consortium_Theme.MP3</Files>
+		<Files>halo3menumuisc.MP3</Files>
         <Volume_Percent>80</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -636,4 +636,3 @@
 	</MusicEvent>
 
 </MusicEvents>
-
