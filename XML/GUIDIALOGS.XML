@@ -2866,8 +2866,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.5</Stretch_Factor>
 			<Size>10</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>2, 130, 199,255</Top_Color>
+			<Bottom_Color>2, 130, 199,255</Bottom_Color>
 			<Emboss>Yes</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_OPTIONS>
