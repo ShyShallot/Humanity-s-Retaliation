@@ -2237,6 +2237,7 @@
 			Empire,
 				TIE_Interceptor_Squadron,
 				TIE_Bomber_Squadron,
+				COVN_CCS,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Level_Two_Starbase_Upgrade,
