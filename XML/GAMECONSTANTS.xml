@@ -616,13 +616,13 @@
 	<SpacePathfindMaxExpansions> 3500 </SpacePathfindMaxExpansions>
 	<CurrentPathCostCoefficientSpace> .66 </CurrentPathCostCoefficientSpace>	
 
-	<SpacePathfindFrameDelayDelta> 1 </SpacePathfindFrameDelayDelta>
+	<SpacePathfindFrameDelayDelta> 4 </SpacePathfindFrameDelayDelta>
 	
 	<SpacePathFailureDistanceCutoffCoefficient> .25 </SpacePathFailureDistanceCutoffCoefficient>
 	<SpacePathFailureMaxExpansionsCoefficient> 1.7 </SpacePathFailureMaxExpansionsCoefficient>
 	<SpacePathFailureRotationExpansionIncrement> .5 </SpacePathFailureRotationExpansionIncrement>
 	<SpacePathFailureForwardExpansionIncrement> .5 </SpacePathFailureForwardExpansionIncrement>
-	<SpacePathingTries> 6 </SpacePathingTries>
+	<SpacePathingTries> 3 </SpacePathingTries>
 
 	<SpaceStaticObstacleAvoidanceBonusDistance> 4 </SpaceStaticObstacleAvoidanceBonusDistance>		
 		
@@ -679,8 +679,8 @@
 	<Destination_Collision_Query_Extension> 20 </Destination_Collision_Query_Extension>
 	
 	<FramesPerPositionApproximationRebuild>8</FramesPerPositionApproximationRebuild>
-	<FramesPerCollisionCheck> 3 </FramesPerCollisionCheck>  <!-- each object only checks for pathfind collisions every 'n' frames -->	
-	<MovementReevaluationFrameCount> 5 </MovementReevaluationFrameCount>
+	<FramesPerCollisionCheck> 7 </FramesPerCollisionCheck>  <!-- each object only checks for pathfind collisions every 'n' frames -->	
+	<MovementReevaluationFrameCount> 8 </MovementReevaluationFrameCount>
 	
 	<DynamicLandComplexityQuota> 100 </DynamicLandComplexityQuota>
 	<DynamicLandQuotaResetInterval> 5 </DynamicLandQuotaResetInterval>

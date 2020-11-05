@@ -38,11 +38,11 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -197,11 +197,11 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 1</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
@@ -353,11 +353,11 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 1</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
@@ -514,11 +514,11 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 2</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
@@ -688,11 +688,11 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 10</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 2</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
