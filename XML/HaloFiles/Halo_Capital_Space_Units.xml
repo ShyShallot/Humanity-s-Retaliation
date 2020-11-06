@@ -148,8 +148,12 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			
+			<Unit_Ability>
+                <Type>ROCKET_ATTACK</Type>
+                <Alternate_Name_Text>HALO_TOGGLE_MAC</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_TOGGLE_MAC_ENC</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+            </Unit_Ability>
 		</Unit_Abilities_Data>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_POA </Encyclopedia_Text>
@@ -164,7 +168,7 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>4</Population_Value>
+		<Population_Value>8</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_POA_Death_Clone">
@@ -340,9 +344,12 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			
+
 		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+    
+        </Abilities>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_INFINITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SSD </Encyclopedia_Unit_Class>
@@ -505,8 +512,12 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			
+			<Unit_Ability>
+                <Type>ROCKET_ATTACK</Type>
+                <Alternate_Name_Text>HALO_TOGGLE_MAC</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_TOGGLE_MAC_ENC</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+            </Unit_Ability>
 		</Unit_Abilities_Data>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_HALCYON </Encyclopedia_Text>

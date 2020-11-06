@@ -37,7 +37,7 @@
 		<Projectile_Laser_Color>140, 31, 173,255</Projectile_Laser_Color>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Max_Speed>25.0</Max_Speed>
-		<Projectile_Damage>35.0</Projectile_Damage>
+		<Projectile_Damage>65.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -141,7 +141,7 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>16.5</Projectile_Damage>
+		<Projectile_Damage>13.5</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -202,7 +202,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
-		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Damage>6.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -228,7 +228,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
-		<Projectile_Damage>30.0</Projectile_Damage>
+		<Projectile_Damage>10.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -252,7 +252,7 @@
 		<Scale_Factor>25.0</Scale_Factor>
 		<Max_Speed>15.0</Max_Speed>
 		<Damage_Type> Damage_Station_Turbolaser </Damage_Type>
-		<Projectile_Damage>27.0</Projectile_Damage>
+		<Projectile_Damage>11.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
