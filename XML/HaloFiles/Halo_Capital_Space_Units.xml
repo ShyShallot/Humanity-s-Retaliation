@@ -659,7 +659,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
-		<Icon_Name>i_button_imperator.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_CAS.tga</Icon_Name>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -863,7 +863,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
-		<Icon_Name>i_button_imperator.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_CCS.tga</Icon_Name>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
