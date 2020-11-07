@@ -83,7 +83,7 @@
 
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
-		<Icon_Name>i_button_escort_frigate.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_GLADIUS.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_Gladius.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -138,7 +138,8 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Scale_Space>2.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>I_RADAR_GLADIUS.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
@@ -320,7 +321,8 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Scale_Space>2.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>I_RADAR_HALB.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>

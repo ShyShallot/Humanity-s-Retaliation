@@ -1385,8 +1385,7 @@
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
-			<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
+
 
     </HardPoint>
 
@@ -2818,6 +2817,29 @@
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_HALC_MAC">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>450.0</Health>
+            <Attachment_Bone>HP_HALC_MAC_BONE</Attachment_Bone>
+			<Fire_Bone_A>FB_HALC_MAC_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_HALC_MAC_01</Fire_Bone_B>
+            <Fire_Cone_Width>45.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+
     </HardPoint>
 
     <HardPoint Name="UNSC_HALC_AP_01">

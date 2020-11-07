@@ -95,7 +95,7 @@
 
 		<CategoryMask> Bomber | AntiCapital</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_LONGSWORD.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -160,7 +160,7 @@
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_LONGSWORD.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -209,7 +209,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_LONGSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_UNSC_LONGSWORD</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_LONGSWORD.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_Longsword.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -333,7 +333,7 @@
 
 		<CategoryMask> Fighter | AntiCapital</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_BROADSWORD.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -402,7 +402,7 @@
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_BROADSWORD.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_BROAD.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -456,7 +456,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_BROADSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_UNSC_BROADSWORD</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_BROADSWORD.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_BROAD.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

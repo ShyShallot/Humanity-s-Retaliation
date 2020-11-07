@@ -85,7 +85,7 @@
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 
-		<Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_AUTUMN.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -137,8 +137,8 @@
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+		<Radar_Icon_Scale_Space>4.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>I_RADAR_CAPITAL_UNSC.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
@@ -148,12 +148,7 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-                <Type>ROCKET_ATTACK</Type>
-                <Alternate_Name_Text>HALO_TOGGLE_MAC</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_TOGGLE_MAC_ENC</Alternate_Description_Text>
-                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
-            </Unit_Ability>
+			
 		</Unit_Abilities_Data>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_POA </Encyclopedia_Text>
@@ -332,9 +327,9 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+		<Radar_Icon_Scale_Land>0.5</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>3.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>I_RADAR_INFINITY.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
@@ -449,7 +444,7 @@
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 
-		<Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_HALCYON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -501,8 +496,8 @@
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+		<Radar_Icon_Scale_Space>4.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>I_RADAR_CAPITAL_UNSC.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
@@ -512,12 +507,7 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-                <Type>ROCKET_ATTACK</Type>
-                <Alternate_Name_Text>HALO_TOGGLE_MAC</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_TOGGLE_MAC_ENC</Alternate_Description_Text>
-                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
-            </Unit_Ability>
+
 		</Unit_Abilities_Data>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_HALCYON </Encyclopedia_Text>
@@ -686,9 +676,9 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+		<Radar_Icon_Name>I_RADAR_CAS.tga</Radar_Icon_Name>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Scale_Space>2.0</Radar_Icon_Scale_Space>
 
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
@@ -890,9 +880,9 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+		<Radar_Icon_Name>I_RADAR_CAPITAL_COVN.tga</Radar_Icon_Name>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Scale_Space>2.0</Radar_Icon_Scale_Space>
 
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
