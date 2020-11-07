@@ -70,7 +70,7 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>200.0</Targeting_Min_Attack_Distance>
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
@@ -136,8 +136,7 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>4.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPITAL_UNSC.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -152,7 +151,7 @@
 		</Unit_Abilities_Data>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_POA </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -327,8 +326,7 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>0.5</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>3.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.2  0.2</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_INFINITY.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -347,7 +345,7 @@
         </Abilities>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_INFINITY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SSD </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPER_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -495,8 +493,7 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>4.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.06  0.06</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPITAL_UNSC.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -676,16 +673,16 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.15  0.15</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAS.tga</Radar_Icon_Name>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>2.0</Radar_Icon_Scale_Space>
+		
 
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CAS </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SSD </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ASSAULT_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -880,10 +877,8 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Name>I_RADAR_CAPITAL_COVN.tga</Radar_Icon_Name>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>2.0</Radar_Icon_Scale_Space>
-
+		<Radar_Icon_Size>0.065  0.065</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 
