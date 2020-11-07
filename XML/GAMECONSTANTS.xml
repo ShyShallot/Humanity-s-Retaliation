@@ -555,10 +555,10 @@
 	<Evil_Side_Name>EMPIRE</Evil_Side_Name>
 	<Good_Side_Leader_Name>Mon_Mothma</Good_Side_Leader_Name>
 	<Evil_Side_Leader_Name>Emperor_Palpatine</Evil_Side_Leader_Name>
-	<!-- DO NOT REMOVE Corrupt_Side_Name and Corrupt_Side_Leader_Name, It causes Heros Not to Spawn, to display Underworld Tech
-	Use the Underworld_Tech_Display_Master.xml as a base-->
+	<!-- Corrupt doesnt matter, since we will use only 2 factions, for submods and maybe future use, will be left commented 
 	<Corrupt_Side_Name>UNDERWORLD</Corrupt_Side_Name>
 	<Corrupt_Side_Leader_Name>Tyber_Zann</Corrupt_Side_Leader_Name> 
+	-->
 
 
 	<Ships_Per_Stack>5</Ships_Per_Stack>
@@ -809,7 +809,7 @@
 	<ReinforcementOverlayBadColor>128,0,0,128</ReinforcementOverlayBadColor>
 
 	<!-- Per unit probability of destruction during a retreat -->
-	<Space_Retreat_Attrition_Factor>0.0</Space_Retreat_Attrition_Factor>
+	<Space_Retreat_Attrition_Factor>0.3</Space_Retreat_Attrition_Factor>
  	<Land_Retreat_Attrition_Factor>0.0</Land_Retreat_Attrition_Factor>
  	<Blockade_Run_Attrition_Factor>0.2</Blockade_Run_Attrition_Factor>
 
@@ -1098,7 +1098,7 @@
 	<Damage_To_Armor_Mod> Damage_Default, Armor_Bunker, 1 </Damage_To_Armor_Mod>
 
 
-	<!-- Fighter lasers -->
+	<!-- Fighter lasers, Currently Unused by New Fighters -->
 	<Damage_To_Armor_Mod> Damage_Fighter, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Fighter, Shield_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Fighter, Armor_Transport, 1 </Damage_To_Armor_Mod>
@@ -1120,11 +1120,11 @@
 	<Damage_To_Armor_Mod> Damage_Fighter, Armor_Calamari_Cruiser, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Fighter, Armor_Star_Destroyer, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Fighter, Armor_Station, 0.1 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Fighter, Shield_Capital, 0.1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Fighter, Shield_Frigate, 0.2</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Fighter, Shield_Corvette, 0.6</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Fighter, Shield_Fighter, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Fighter, Shield_SSD, 0.01 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Fighter, Shield_Capital, 0.3</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Fighter, Shield_Frigate, 0.5</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Fighter, Shield_Corvette, 0.7</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Fighter, Shield_Fighter, 0.75 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Fighter, Shield_SSD, 0.1 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Fighter, Armor_Vengeance, 0.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Fighter, Armor_MC30_Frigate, 0.2 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Fighter, Armor_SSD, 0.0</Damage_To_Armor_Mod>
@@ -1470,33 +1470,33 @@
     <Damage_To_Armor_Mod> Damage_IonCannon_LRG, Armor_MC30_Frigate, 1 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_IonCannon_LRG, Armor_SSD, 3 </Damage_To_Armor_Mod>
 
-	<!-- Proton Torpedo Damage Type - Space Only - Y-Wing and Tie Bomber -->
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Transport, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Bomber, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Fighter, 1 </Damage_To_Armor_Mod>
+	<!-- Proton Torpedo Damage Type - Space Only - Used by MAC, Longsword Bomber, Plasma Torps -->
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Default, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Default, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Transport, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Bomber, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Fighter, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Hero_Transport, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Corellian_Corvette, 3.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Missile_Cruiser, 2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Tartan, 3.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Interdictor, 2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Corellian_Gunboat, 2.6 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Nebulon_B, 4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Acclamator, 4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Pirate_Frigate, 4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Satellite, 4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Frigate, 4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Victory_Class, 4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Assault_Frigate, 4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Calamari_Cruiser, 3.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Star_Destroyer, 3.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Nebulon_B, 2.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Acclamator, 2.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Pirate_Frigate, 2.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Satellite, 2.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Frigate, 2.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Victory_Class, 2.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Assault_Frigate, 2.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Calamari_Cruiser, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Star_Destroyer, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Station, 1.5 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Capital, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Frigate, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Corvette, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Fighter, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_SSD, 1.0 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Frigate, 2</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Corvette, 2.5</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Fighter, 3</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_SSD, 0.7 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Vengeance, 8.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_MC30_Frigate, 5.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_SSD, 2.5 </Damage_To_Armor_Mod>
@@ -1532,7 +1532,7 @@
     <Damage_To_Armor_Mod> Damage_Proton_Torp_Light, Armor_MC30_Frigate, 2 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Proton_Torp_Light, Armor_SSD, 1.5 </Damage_To_Armor_Mod>
 
-	<!-- Concussion Missile Damage Type - Space Only -->
+	<!-- Concussion Missile Damage Type - Space Only, Used by Archer Pods and Bullets -->
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Transport, 1 </Damage_To_Armor_Mod>
@@ -1551,45 +1551,45 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Frigate, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Victory_Class, 0.75 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Assault_Frigate, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Calamari_Cruiser, 0.55 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Star_Destroyer, 0.34 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Calamari_Cruiser, 0.45 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Star_Destroyer, 0.45 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Station, 0.2 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Capital, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Frigate, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Corvette, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Fighter, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_SSD, 1.0 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Capital, 0.4</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Frigate, 0.45</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Corvette, 0.5</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Fighter, 0.6</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_SSD, 0.25 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Vengeance, 5.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_MC30_Frigate, 5.8 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_SSD, 0.3 </Damage_To_Armor_Mod>
 
-	<!-- Turbolaser Damage Type - Space Only -->
+	<!-- Turbolaser Damage Type - Space Only, Turbolaser Damage is used by Plasma Weapons, keep this in mind -->
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Transport, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Bomber, 0.2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Fighter, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Bomber, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Fighter, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Hero_Transport, 0.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Corellian_Corvette, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Missile_Cruiser, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Tartan, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Interdictor, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Corellian_Gunboat, 4.75 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Nebulon_B, 3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Acclamator, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Nebulon_B, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Acclamator, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Pirate_Frigate, 3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Satellite, 5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Frigate, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Frigate, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Victory_Class, 2.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Assault_Frigate, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Calamari_Cruiser, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Star_Destroyer, 0.42 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Station, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Calamari_Cruiser, 0.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Star_Destroyer, 0.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Station, 0.65 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Capital, 0.75</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Frigate, 2</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Corvette, 1</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Fighter, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_SSD, 0.7 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_SSD, 0.45 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Vengeance, 1.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Armor_MC30_Frigate, 2.5 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Armor_SSD, 0.5 </Damage_To_Armor_Mod>

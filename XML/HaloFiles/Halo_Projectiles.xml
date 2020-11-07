@@ -9,6 +9,7 @@
 		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
 		<Projectile_Laser_Color>140, 31, 173,255</Projectile_Laser_Color>
 		<Scale_Factor>3.0</Scale_Factor>
+		<Damage_Type>Damage_Turbolaser</Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
 		<Projectile_Damage>10.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -40,6 +41,7 @@
 		<Projectile_Damage>65.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
+		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -59,7 +61,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Damage_Type> Damage_Proton_Torp </Damage_Type>
 		<Max_Speed>12.0</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -85,6 +87,7 @@
 	<Projectile Name="Proj_UNSC_Fighter_Missile_Light">	<!-- Normal Missiles used by Fighters and not bombers -->
 		<Variant_Of_Existing_Type>Proj_UNSC_Fighter_Missile</Variant_Of_Existing_Type>
 		<Projectile_Damage>8</Projectile_Damage>
+		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Projectile_Category>Rocket</Projectile_Category>
 		<Projectile_Blast_Area_Damage>4.0</Projectile_Blast_Area_Damage>
         <Projectile_Blast_Area_Range>10.0</Projectile_Blast_Area_Range>
@@ -167,7 +170,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>15.0</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Damage_Type> Damage_Proton_Torp </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
@@ -201,7 +204,7 @@
 		<Max_Speed>15.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Projectile_Damage>6.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
@@ -227,7 +230,7 @@
 		<Max_Speed>15.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Projectile_Damage>10.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
@@ -251,7 +254,7 @@
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>25.0</Scale_Factor>
 		<Max_Speed>15.0</Max_Speed>
-		<Damage_Type> Damage_Station_Turbolaser </Damage_Type>
+		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Projectile_Damage>11.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>

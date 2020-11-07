@@ -2,16 +2,16 @@
 <Difficulty_Adjustments>
 
 	<Difficulty_Adjustment Name="Easy_Default">
-		<Credit_Multiplier>0.5</Credit_Multiplier>
+		<Credit_Multiplier>0.7</Credit_Multiplier>
 		<Galactic_AI_Contrast_Multiplier>0.67</Galactic_AI_Contrast_Multiplier>
 		<Space_AI_Contrast_Multiplier>0.75</Space_AI_Contrast_Multiplier>
 		<Land_AI_Contrast_Multiplier>0.67</Land_AI_Contrast_Multiplier>
-		<Galactic_Build_Time_Multiplier>1.5</Galactic_Build_Time_Multiplier>
-		<Space_Build_Time_Multiplier>1.5</Space_Build_Time_Multiplier>
-		<Land_Build_Time_Multiplier>1.5</Land_Build_Time_Multiplier>
+		<Galactic_Build_Time_Multiplier>1.25</Galactic_Build_Time_Multiplier>
+		<Space_Build_Time_Multiplier>1.25</Space_Build_Time_Multiplier>
+		<Land_Build_Time_Multiplier>1.25</Land_Build_Time_Multiplier>
 		<Damage_Multiplier>0.6</Damage_Multiplier>
-		<Health_Multiplier>0.4</Health_Multiplier>
-		<Shield_Multiplier>0.3</Shield_Multiplier>
+		<Health_Multiplier>0.6</Health_Multiplier>
+		<Shield_Multiplier>0.6</Shield_Multiplier>
 		<Galactic_AI_Goal_Cycle_Sleep_Duration>0.0</Galactic_AI_Goal_Cycle_Sleep_Duration>
 		<Space_AI_Goal_Cycle_Sleep_Duration>15.0</Space_AI_Goal_Cycle_Sleep_Duration>
 		<Land_AI_Goal_Cycle_Sleep_Duration>15.0</Land_AI_Goal_Cycle_Sleep_Duration>
@@ -36,16 +36,16 @@
 	</Difficulty_Adjustment>
 	
 	<Difficulty_Adjustment Name="Hard_Default">
-		<Credit_Multiplier>1.2</Credit_Multiplier>
+		<Credit_Multiplier>1.5</Credit_Multiplier>
 		<Galactic_AI_Contrast_Multiplier>1.15</Galactic_AI_Contrast_Multiplier>
 		<Space_AI_Contrast_Multiplier>1.15</Space_AI_Contrast_Multiplier>
 		<Land_AI_Contrast_Multiplier>1.15</Land_AI_Contrast_Multiplier>
-		<Galactic_Build_Time_Multiplier>0.6</Galactic_Build_Time_Multiplier>
-		<Space_Build_Time_Multiplier>0.9</Space_Build_Time_Multiplier>
-		<Land_Build_Time_Multiplier>0.9</Land_Build_Time_Multiplier>
+		<Galactic_Build_Time_Multiplier>0.7</Galactic_Build_Time_Multiplier>
+		<Space_Build_Time_Multiplier>0.7</Space_Build_Time_Multiplier>
+		<Land_Build_Time_Multiplier>0.7</Land_Build_Time_Multiplier>
 		<Damage_Multiplier>1.8</Damage_Multiplier>
-		<Health_Multiplier>0.75</Health_Multiplier>
-		<Shield_Multiplier>0.5</Shield_Multiplier>
+		<Health_Multiplier>1.75</Health_Multiplier>
+		<Shield_Multiplier>1.5</Shield_Multiplier>
 		<Galactic_AI_Goal_Cycle_Sleep_Duration>0.0</Galactic_AI_Goal_Cycle_Sleep_Duration>
 		<Space_AI_Goal_Cycle_Sleep_Duration>0.0</Space_AI_Goal_Cycle_Sleep_Duration>
 		<Land_AI_Goal_Cycle_Sleep_Duration>0.0</Land_AI_Goal_Cycle_Sleep_Duration>
