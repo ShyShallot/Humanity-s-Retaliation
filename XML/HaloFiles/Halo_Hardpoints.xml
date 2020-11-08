@@ -288,7 +288,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>      
+            <Health>600.0</Health>      
 
             <Attachment_Bone>HP_HAL_ARCHER_01_BONE</Attachment_Bone>
             <Collision_Mesh>HP_HAL_ARCHER_01_BONE</Collision_Mesh>
@@ -311,7 +311,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>          
+            <Health>600.0</Health>          
 
             <Attachment_Bone>HP_HAL_ARCHER_02_BONE</Attachment_Bone>
             <Collision_Mesh>HP_HAL_ARCHER_02_BONE</Collision_Mesh>
@@ -334,7 +334,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>       
+            <Health>600.0</Health>       
 
             <Attachment_Bone>HP_HAL_ARCHER_03_BONE</Attachment_Bone>
             <Collision_Mesh>HP_HAL_ARCHER_03_BONE</Collision_Mesh>
@@ -357,7 +357,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>   
+            <Health>600.0</Health>   
 
             <Attachment_Bone>HP_HAL_ARCHER_04_BONE</Attachment_Bone>
             <Collision_Mesh>HP_HAL_ARCHER_04_BONE</Collision_Mesh>
@@ -380,7 +380,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>      
+            <Health>600.0</Health>      
 
             <Model_To_Attach>UNSC_HALBERD_T_01.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -412,7 +412,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>     
+            <Health>600.0</Health>     
 
             <Model_To_Attach>UNSC_HALBERD_T_02.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -444,7 +444,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>     
+            <Health>600.0</Health>     
 
             <Model_To_Attach>UNSC_HALBERD_T_03.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -476,7 +476,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>           
+            <Health>600.0</Health>           
 
             <Model_To_Attach>UNSC_HALBERD_T_04.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -508,7 +508,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>           
+            <Health>600.0</Health>           
 
             <Model_To_Attach>UNSC_HALBERD_T_05.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -540,7 +540,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_HALBERD_T_06.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -571,7 +571,7 @@
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>600.0</Health>            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
             <Health>325.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -588,7 +588,7 @@
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>600.0</Health>            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
             <Health>325.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -630,7 +630,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_POA_T_01.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -662,7 +662,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_POA_T_02.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -694,7 +694,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_POA_T_03.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -726,7 +726,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_POA_T_04.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -758,7 +758,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_POA_T_05.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -790,7 +790,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_POA_T_06.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -822,7 +822,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_POA_T_07.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -854,7 +854,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_POA_T_08.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -882,13 +882,14 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_AP_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_SPECIAL </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_01_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_01_BONE</Collision_Mesh>
+            <Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
 			<Fire_Bone_A>FB_POA_ARCHER_01</Fire_Bone_A>
             <Fire_Bone_B>FB_POA_ARCHER_01</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
@@ -901,16 +902,18 @@
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+            
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_AP_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_SPECIAL </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_02_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_02_BONE</Collision_Mesh>
+            <Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
 			<Fire_Bone_A>FB_POA_ARCHER_02</Fire_Bone_A>
             <Fire_Bone_B>FB_POA_ARCHER_02</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
@@ -930,7 +933,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_03_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_03_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_03</Fire_Bone_A>
@@ -952,7 +955,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_04_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_04_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_04</Fire_Bone_A>
@@ -974,7 +977,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_05_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_05_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_05</Fire_Bone_A>
@@ -996,7 +999,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_06_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_06_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_06</Fire_Bone_A>
@@ -1018,7 +1021,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_07_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_07_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_07</Fire_Bone_A>
@@ -1040,7 +1043,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_08_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_08_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_08</Fire_Bone_A>
@@ -1062,7 +1065,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_09_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_09_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_09</Fire_Bone_A>
@@ -1084,7 +1087,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_10_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_10_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_10</Fire_Bone_A>
@@ -1106,7 +1109,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_11_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_11_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_11</Fire_Bone_A>
@@ -1124,13 +1127,14 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_AP_12">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_SPECIAL </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_12_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_12_BONE</Collision_Mesh>
+            <Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
 			<Fire_Bone_A>FB_POA_ARCHER_12</Fire_Bone_A>
             <Fire_Bone_B>FB_POA_ARCHER_12</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
@@ -1146,13 +1150,14 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_AP_13">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_SPECIAL </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_13_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_13_BONE</Collision_Mesh>
+            <Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
 			<Fire_Bone_A>FB_POA_ARCHER_13</Fire_Bone_A>
             <Fire_Bone_B>FB_POA_ARCHER_13</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
@@ -1172,7 +1177,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_14_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_14_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_14</Fire_Bone_A>
@@ -1194,7 +1199,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_15_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_15_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_15</Fire_Bone_A>
@@ -1216,7 +1221,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_16_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_16_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_16</Fire_Bone_A>
@@ -1238,7 +1243,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_17_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_17_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_17</Fire_Bone_A>
@@ -1260,7 +1265,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_18_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_18_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_18_BONE</Fire_Bone_A>
@@ -1282,7 +1287,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_19_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_19_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_19</Fire_Bone_A>
@@ -1304,7 +1309,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_20_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_20_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_20</Fire_Bone_A>
@@ -1326,7 +1331,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_21_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_21_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_21</Fire_Bone_A>
@@ -1348,7 +1353,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_22_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_22_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_POA_ARCHER_22</Fire_Bone_A>
@@ -1394,7 +1399,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>325.0</Health>
+            <Health>750.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -1412,7 +1417,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>325.0</Health>
+            <Health>600.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -1430,7 +1435,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>325.0</Health>
+            <Health>600.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -1438,6 +1443,848 @@
 
             <Attachment_Bone>HP_POA_ENGINE_03_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
             <Collision_Mesh>HP_POA_ENGINE_03_BONE</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles/>
+            <Engine_Particles/>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_HANAGR_01">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+        <Health>850.0</Health>		
+        <Attachment_Bone>HP_AUTUMN_HANGER_01</Attachment_Bone>             
+		<Collision_Mesh>HP_AUTUMN_HANGER_01</Collision_Mesh>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	</HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_HANAGR_02">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+        <Health>850.0</Health>		
+        <Attachment_Bone>HP_AUTUMN_HANGER_02</Attachment_Bone>             
+		<Collision_Mesh>HP_AUTUMN_HANGER_02</Collision_Mesh>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	</HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_01">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_AUTUMN_T_01.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_AUTUMN_TURRET_01_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_TURRET_01_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_02">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_AUTUMN_T_02.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_AUTUMN_TURRET_02_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_TURRET_02_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_03">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_AUTUMN_T_03.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_AUTUMN_TURRET_03_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_TURRET_03_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_04">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_AUTUMN_T_04.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_AUTUMN_TURRET_04_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_TURRET_04_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_05">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_AUTUMN_T_05.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_AUTUMN_TURRET_05_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_TURRET_05_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_06">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_AUTUMN_T_06.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_AUTUMN_TURRET_06_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_TURRET_06_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_07">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_AUTUMN_T_07.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_AUTUMN_TURRET_07_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_TURRET_07_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_08">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_AUTUMN_T_08.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_AUTUMN_TURRET_08_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_TURRET_08_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_01">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_01_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_01_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_01</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_02">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_02_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_02_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_02</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_03">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_03_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_03_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_03</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_03</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_04">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_04_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_04_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_04</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_04</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_05">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_05_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_05_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_05</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_05</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_06">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_06_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_06_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_06</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_06</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_07">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_07_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_07_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_07</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_07</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_08">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_08_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_08_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_08</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_08</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_09">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_09_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_09_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_09</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_09</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_10">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_10_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_10_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_10</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_10</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_11">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_11_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_11_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_11</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_11</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_12">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_12_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_12_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_12</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_12</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_13">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_13_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_13_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_13</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_13</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_14">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_14_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_14_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_14</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_14</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_15">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_15_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_15_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_15</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_15</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_16">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_16_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_16_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_16</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_16</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_17">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_17_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_17_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_17</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_17</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_18">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_18_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_18_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_18_BONE</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_18_BONE</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_19">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_19_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_19_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_19</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_19</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_20">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_20_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_20_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_20</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_20</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_21">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_21_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_21_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_21</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_21</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_AP_22">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>
+            <Attachment_Bone>HP_AUTUMN_ARCHER_22_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_AUTUMN_ARCHER_22_BONE</Collision_Mesh>
+			<Fire_Bone_A>FB_AUTUMN_ARCHER_22</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_ARCHER_22</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_MAC">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>450.0</Health>
+            <Attachment_Bone>HP_AUTUMN_MAC_BONE</Attachment_Bone>
+			<Fire_Bone_A>FB_AUTUMN_MAC_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_AUTUMN_MAC_01</Fire_Bone_B>
+            <Fire_Cone_Width>45.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_EG_01">
+			<Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>900.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+
+            <Attachment_Bone>HP_AUTUMN_ENGINE_01_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>HP_AUTUMN_ENGINE_01_BONE</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles/>
+            <Engine_Particles/>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_EG_02">
+			<Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>650.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+
+            <Attachment_Bone>HP_AUTUMN_ENGINE_02_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>HP_AUTUMN_ENGINE_02_BONE</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles/>
+            <Engine_Particles/>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_AUTUMN_EG_03">
+			<Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>650.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+
+            <Attachment_Bone>HP_AUTUMN_ENGINE_03_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>HP_AUTUMN_ENGINE_03_BONE</Collision_Mesh>
             <Damage_Decal />
             <Damage_Particles/>
             <Engine_Particles/>
@@ -1994,7 +2841,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_01.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2033,7 +2880,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_02.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2072,7 +2919,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_03.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2111,7 +2958,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_04.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2150,7 +2997,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_05.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2189,7 +3036,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_06.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2228,7 +3075,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_07.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2267,7 +3114,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_08.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2306,7 +3153,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_09.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2345,7 +3192,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>350.0</Health>
+            <Health>600.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_10.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4073,7 +4920,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.7</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -4103,7 +4950,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.7</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -4133,7 +4980,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.7</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -4163,7 +5010,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.7</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -4193,7 +5040,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.7</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -4223,7 +5070,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.7</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
