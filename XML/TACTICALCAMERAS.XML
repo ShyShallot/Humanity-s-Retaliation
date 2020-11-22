@@ -95,7 +95,7 @@
 		<Yaw_Max>1000</Yaw_Max>
 		<Yaw_Per_Mouse_Unit>1.5</Yaw_Per_Mouse_Unit>
 
-		<Fov_Default>90.0</Fov_Default>
+		<Fov_Default>70.0</Fov_Default>
 		<Fov_Max>90.0</Fov_Max>
 		<Fov_Min>60.0</Fov_Min>
 		<Fov_Smooth_Time>0.1</Fov_Smooth_Time>
@@ -103,7 +103,7 @@
 
 		<Distance_Default>1000.0</Distance_Default>
 		<Distance_Max>1900.0</Distance_Max>
-		<Distance_Min>200.0</Distance_Min>
+		<Distance_Min>-400.0</Distance_Min>
 		<Distance_Smooth_Time>0.1</Distance_Smooth_Time>
 		<Distance_Per_Mouse_Unit>300.0</Distance_Per_Mouse_Unit>
 
@@ -114,7 +114,7 @@
 
         <Tactical_Overview_Distance2>2900.0</Tactical_Overview_Distance2>
         <Tactical_Overview_Pitch2>100.0</Tactical_Overview_Pitch2>
-        <Tactical_Overview_FOV2>90.0</Tactical_Overview_FOV2>
+        <Tactical_Overview_FOV2>75.0</Tactical_Overview_FOV2>
 
         <!-- smoothness of terrain height following -->
 		<Location_Follows_Terrain>0</Location_Follows_Terrain>

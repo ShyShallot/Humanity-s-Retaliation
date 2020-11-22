@@ -66,7 +66,7 @@
 		<Projectile_Laser_Color>140, 31, 173,255</Projectile_Laser_Color>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Max_Speed>40.0</Max_Speed>
-		<Projectile_Damage>115.0</Projectile_Damage>
+		<Projectile_Damage>95.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
