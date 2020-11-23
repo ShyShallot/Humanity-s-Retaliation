@@ -630,7 +630,7 @@
 	<MaxObstacleCostSpace> 15.0 </MaxObstacleCostSpace>
 	<ObstacleAreaOverlapForMaxSpace> 1.0 </ObstacleAreaOverlapForMaxSpace>
 	<XYExpansionDistanceSpace> 300.0 </XYExpansionDistanceSpace>
-	<MaxRotationsSpace> 24.0 </MaxRotationsSpace>
+	<MaxRotationsSpace> 10.0 </MaxRotationsSpace>
 	<MatchFacingDeltaSpace> 10.0 </MatchFacingDeltaSpace>
 	<OccupationRadiusCoefficientSpace> 1.2 </OccupationRadiusCoefficientSpace>
 	<DestinationSearchRadiusIncrementSpace> 50.0 </DestinationSearchRadiusIncrementSpace>
@@ -662,9 +662,9 @@
 	<DynamicAvoidanceRectangleBound> 3 </DynamicAvoidanceRectangleBound>
 	<ShouldDisplayPotentialPath> true </ShouldDisplayPotentialPath>
 	
-	<TurnInPlaceSlowdownCorvette> 2.0 </TurnInPlaceSlowdownCorvette>
-	<TurnInPlaceSlowdownFrigate> 3.0 </TurnInPlaceSlowdownFrigate>
-	<TurnInPlaceSlowdownCapital> 4.0 </TurnInPlaceSlowdownCapital>
+	<TurnInPlaceSlowdownCorvette> 3.0 </TurnInPlaceSlowdownCorvette>
+	<TurnInPlaceSlowdownFrigate> 4.0 </TurnInPlaceSlowdownFrigate>
+	<TurnInPlaceSlowdownCapital> 8.0 </TurnInPlaceSlowdownCapital>
 	
 	<FormationMinimumSideError> .1 </FormationMinimumSideError>
 	<FormationMaximumSideError> 30.0 </FormationMaximumSideError>
@@ -679,7 +679,7 @@
 	<Destination_Collision_Query_Extension> 20 </Destination_Collision_Query_Extension>
 	
 	<FramesPerPositionApproximationRebuild>8</FramesPerPositionApproximationRebuild>
-	<FramesPerCollisionCheck> 7 </FramesPerCollisionCheck>  <!-- each object only checks for pathfind collisions every 'n' frames -->	
+	<FramesPerCollisionCheck> 5 </FramesPerCollisionCheck>  <!-- each object only checks for pathfind collisions every 'n' frames -->	
 	<MovementReevaluationFrameCount> 8 </MovementReevaluationFrameCount>
 	
 	<DynamicLandComplexityQuota> 100 </DynamicLandComplexityQuota>

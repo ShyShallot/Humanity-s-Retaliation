@@ -4263,16 +4263,16 @@
             <Type>TextButton</Type>
             <Blank_Texture_Name>i_button_unit_frame_gripper.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_temp_fleet.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_unit_frame_gripper_select.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_unit_frame_gripper_select.tga</Selected_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_unit_frame_gripper.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_unit_frame_gripper.tga</Selected_Texture_Name>
             <No_Shell>True</No_Shell>
             <Scale>0.6</Scale>
             <Color>255 255 255 255</Color>
             <Drag_And_Drop>False</Drag_And_Drop>
             <Base_Layer>0</Base_Layer>
             <Group>Grab Bar</Group>
-            <Blink_Duration>65536</Blink_Duration>
-            <Blink_Rate>0.4</Blink_Rate>
+            <Blink_Duration>0</Blink_Duration>
+            <Blink_Rate>0.0</Blink_Rate>
             <Blink_Fade>True</Blink_Fade>
             <Text_Color>255 255 255 255</Text_Color>
             <Text_Outline>True</Text_Outline>
