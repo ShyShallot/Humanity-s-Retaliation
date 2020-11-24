@@ -10,7 +10,7 @@
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>UNSC_Longsword.alo</Space_Model_Name>
-		<Scale_Factor>2.0</Scale_Factor>
+		<Scale_Factor>1.6</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -247,7 +247,7 @@
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>UNSC_BROAD.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>13.0</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 

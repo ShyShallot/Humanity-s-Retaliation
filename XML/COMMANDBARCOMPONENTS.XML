@@ -4266,7 +4266,7 @@
             <Mouse_Over_Texture_Name>i_button_unit_frame_gripper.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>i_button_unit_frame_gripper.tga</Selected_Texture_Name>
             <No_Shell>True</No_Shell>
-            <Scale>0.9</Scale>
+            <Scale>0.65</Scale>
             <Color>255 255 255 255</Color>
             <Drag_And_Drop>False</Drag_And_Drop>
             <Base_Layer>0</Base_Layer>
