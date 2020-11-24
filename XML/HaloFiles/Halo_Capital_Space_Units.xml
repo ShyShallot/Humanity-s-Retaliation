@@ -175,14 +175,14 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>9500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>11500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>8</Population_Value>
+		<Population_Value>10</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_POA_Death_Clone">
@@ -355,7 +355,7 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>12000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>12500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -374,7 +374,7 @@
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1.3</Mass>
-		<Scale_Factor>0.85</Scale_Factor>
+		<Scale_Factor>0.77</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
@@ -525,7 +525,7 @@
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>8</Population_Value>
+		<Population_Value>10</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_INFINITY">
@@ -702,7 +702,7 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>17</Population_Value>
+		<Population_Value>20</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_HALCYON">
@@ -714,7 +714,7 @@
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
-		<Scale_Factor>9.5</Scale_Factor>
+		<Scale_Factor>8.0</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
@@ -858,14 +858,14 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>8400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>9</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Generic_COVN_CAS">
@@ -1032,7 +1032,7 @@
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>11500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>21500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>70</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1049,7 +1049,7 @@
 		<HardPoints> 
 			HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25
 		</HardPoints>
-		<Population_Value>11</Population_Value>
+		<Population_Value>19</Population_Value>
 	</SpaceUnit>
 
 	
@@ -1087,7 +1087,7 @@
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>1.4</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -1232,10 +1232,10 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CCS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>8</Population_Value>
+		<Population_Value>11</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>7500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1259,7 +1259,7 @@
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>2.2</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -1325,7 +1325,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
-		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>125.0</Targeting_Min_Attack_Distance>
 
@@ -1404,10 +1404,10 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_RCS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARMORED_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>6</Population_Value>
+		<Population_Value>9</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>6550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>6850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
