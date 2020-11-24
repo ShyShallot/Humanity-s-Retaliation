@@ -38,7 +38,7 @@
 		<Projectile_Laser_Color>140, 31, 173,255</Projectile_Laser_Color>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Max_Speed>25.0</Max_Speed>
-		<Projectile_Damage>65.0</Projectile_Damage>
+		<Projectile_Damage>40.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -66,7 +66,7 @@
 		<Projectile_Laser_Color>140, 31, 173,255</Projectile_Laser_Color>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Max_Speed>40.0</Max_Speed>
-		<Projectile_Damage>95.0</Projectile_Damage>
+		<Projectile_Damage>50.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -142,7 +142,7 @@
 
 	<Projectile Name="Proj_UNSC_Fighter_Missile_Light">	<!-- Normal Missiles used by Fighters and not bombers -->
 		<Variant_Of_Existing_Type>Proj_UNSC_Fighter_Missile</Variant_Of_Existing_Type>
-		<Projectile_Damage>8</Projectile_Damage>
+		<Projectile_Damage>4</Projectile_Damage>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Projectile_Category>Rocket</Projectile_Category>
 		<Projectile_Blast_Area_Damage>4.0</Projectile_Blast_Area_Damage>
@@ -208,7 +208,7 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>12</Projectile_Damage>
+		<Projectile_Damage>10.4</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
