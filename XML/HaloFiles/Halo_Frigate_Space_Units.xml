@@ -9,7 +9,7 @@
 		<Space_Model_Name>UNSC_Gladius.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>6.0</Scale_Factor>
+		<Scale_Factor>5.0</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3600</Autoresolve_Health>
@@ -192,7 +192,7 @@
 		<Select_Box_Scale>20</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>9.3</Scale_Factor>
+		<Scale_Factor>10.5</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Ranking_In_Category>6</Ranking_In_Category>
@@ -394,7 +394,7 @@
 		<Select_Box_Scale>20</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.85</Scale_Factor>
+		<Scale_Factor>1.1</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Ranking_In_Category>6</Ranking_In_Category>
@@ -534,9 +534,7 @@
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 		
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-		</Unit_Abilities_Data>
+
 		
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_MAKO</Encyclopedia_Text>
@@ -562,7 +560,7 @@
 		<Space_Model_Name>UNSC_MUSASHI.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>0.5</Scale_Factor>
+		<Scale_Factor>0.9</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3250</Autoresolve_Health>
@@ -736,7 +734,7 @@
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.4</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -807,7 +805,7 @@
 		<Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance>
 
 		<HardPoints> 
-			HP_CRS_AF_01, HP_CRS_AF_02, HP_CRS_AF_03, HP_CRS_AF_04, HP_CRS_AF_05, HP_CRS_AF_06, HP_CRS_AS_01, HP_CRS_AS_02, HP_CRS_AS_03, HP_CRS_AS_04, HP_CRS_ENGINES, HP_CRS_HANGAR_01, HP_CRS_HANGAR_02, HP_CRS_SHIELD
+			HP_CRS_BOARD_POINT, HP_CRS_AF_01, HP_CRS_AF_02, HP_CRS_AF_03, HP_CRS_AF_04, HP_CRS_AF_05, HP_CRS_AF_06, HP_CRS_AS_01, HP_CRS_AS_02, HP_CRS_AS_03, HP_CRS_AS_04, HP_CRS_ENGINES, HP_CRS_HANGAR_01, HP_CRS_HANGAR_02, HP_CRS_SHIELD
 		</HardPoints>
 
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -872,16 +870,48 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.03  0.03</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
+		<Unit_Abilities_Data SubObjectList="Yes">
+			
+			<Unit_Ability>
+	            <Type>TRACTOR_BEAM</Type>
+	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.6</Mod_Multiplier>
+	            <GUI_Activated_Ability_Name>CRS_BOARD_ABILITY</GUI_Activated_Ability_Name>
+	            <Recharge_Seconds>120</Recharge_Seconds>
+	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Alternate_Name_Text>HALO_BOARD</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_BOARD_ENC</Alternate_Description_Text>
+			</Unit_Ability>
 
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+
+			<Tractor_Beam_Attack_Ability Name="CRS_BOARD_ABILITY">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories> Corvette | Frigate | Capital </Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+				<Activation_Min_Range>5</Activation_Min_Range>
+	            <Activation_Max_Range>800</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>.7</Target_Speed_Decrease_Percent>
+				<Stacking_Category>1</Stacking_Category>			
+			</Tractor_Beam_Attack_Ability>
+
+		</Abilities>		
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CRS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 		<Population_Value>6</Population_Value>
+		<Lua_Script>BoardingAbility</Lua_Script>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3450</Tactical_Build_Cost_Multiplayer>

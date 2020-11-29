@@ -11,7 +11,7 @@
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
-		<Scale_Factor>8.5</Scale_Factor>
+		<Scale_Factor>9.0</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
@@ -211,7 +211,7 @@
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1.3</Mass>
-		<Scale_Factor>7.7</Scale_Factor>
+		<Scale_Factor>8.7</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
@@ -374,7 +374,7 @@
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1.3</Mass>
-		<Scale_Factor>0.47</Scale_Factor>
+		<Scale_Factor>0.55</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
@@ -1087,7 +1087,7 @@
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>1.4</Scale_Factor>
+		<Scale_Factor>1.2</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -1259,7 +1259,7 @@
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>2.2</Scale_Factor>
+		<Scale_Factor>1.22</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>

@@ -224,8 +224,6 @@
 		<Music_Event_Tactical_Win_Vs_Faction> Underworld, Rebel_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
 
 		<Music_Event_Tactical_Lose_Vs_Faction> Empire,     Lose_To_Empire_Event </Music_Event_Tactical_Lose_Vs_Faction>
-		<Music_Event_Tactical_Lose_Vs_Faction> Pirates,     Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction>
-		<Music_Event_Tactical_Lose_Vs_Faction> Underworld, Lose_To_Underworld_Event</Music_Event_Tactical_Lose_Vs_Faction>
 		<Music_Event_Tactical_Lose_Vs_Faction> Rebel,        Lose_To_Rebel_Event</Music_Event_Tactical_Lose_Vs_Faction>
 
 		<Music_Event_Strategic_Win_Vs_Faction> Empire,     Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
@@ -233,8 +231,6 @@
 		<Music_Event_Strategic_Win_Vs_Faction> Underworld, Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
 
 		<Music_Event_Strategic_Lose_Vs_Faction> Empire,     Lose_To_Empire_Event</Music_Event_Strategic_Lose_Vs_Faction>
-		<Music_Event_Strategic_Lose_Vs_Faction> Pirates,    Lose_To_Underworld_Event</Music_Event_Strategic_Lose_Vs_Faction>
-		<Music_Event_Strategic_Lose_Vs_Faction> Underworld, Lose_To_Underworld_Event</Music_Event_Strategic_Lose_Vs_Faction>
 		<Music_Event_Strategic_Lose_Vs_Faction> Rebel,       Lose_To_Rebel_Event</Music_Event_Strategic_Lose_Vs_Faction>
 
 
@@ -248,10 +244,10 @@
 		<!-- REBEL SUPERWEAPON PRESENT MUSIC EVENTS - Overrides to map events below -->
 		<!-- ====================================================================== -->
 
-		<Music_Event_Space_Ambient_Super_Weapon> </Music_Event_Space_Ambient_Super_Weapon>
-		<Music_Event_Space_Battle_Super_Weapon> Space_Map_Rebel_Battle_Death_Star_Music_Event </Music_Event_Space_Battle_Super_Weapon>
-		<Music_Event_Land_Ambient_Super_Weapon> </Music_Event_Land_Ambient_Super_Weapon>
-		<Music_Event_Land_Battle_Super_Weapon> </Music_Event_Land_Battle_Super_Weapon>
+		<Music_Event_Space_Ambient_Super_Weapon/>
+		<Music_Event_Space_Battle_Super_Weapon/>
+		<Music_Event_Land_Ambient_Super_Weapon/>
+		<Music_Event_Land_Battle_Super_Weapon/>
 
 		<!-- ====================================================================== -->
 		<!-- REBEL TACTICAL BATTLE PENDING AUDIO EVENTS                             -->
@@ -1014,8 +1010,6 @@
 		<Music_Event_Tactical_Win_Vs_Faction> Underworld, Empire_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
 
 		<Music_Event_Tactical_Lose_Vs_Faction> Rebel,      Lose_To_Rebel_Event </Music_Event_Tactical_Lose_Vs_Faction>
-		<Music_Event_Tactical_Lose_Vs_Faction> Pirates,    Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction>
-		<Music_Event_Tactical_Lose_Vs_Faction> Underworld, Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction>
 		<Music_Event_Tactical_Lose_Vs_Faction> Empire,    Lose_To_Empire_Event </Music_Event_Tactical_Lose_Vs_Faction>
 
 		<Music_Event_Strategic_Win_Vs_Faction> Rebel,      Empire_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
@@ -1023,8 +1017,6 @@
 		<Music_Event_Strategic_Win_Vs_Faction> Underworld, Empire_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
 
 		<Music_Event_Strategic_Lose_Vs_Faction> Rebel,      Lose_To_Rebel_Event </Music_Event_Strategic_Lose_Vs_Faction>
-		<Music_Event_Strategic_Lose_Vs_Faction> Pirates,    Lose_To_Underworld_Event</Music_Event_Strategic_Lose_Vs_Faction>
-		<Music_Event_Strategic_Lose_Vs_Faction> Underworld, Lose_To_Underworld_Event </Music_Event_Strategic_Lose_Vs_Faction>
 		<Music_Event_Strategic_Lose_Vs_Faction> Empire,    Lose_To_Empire_Event </Music_Event_Strategic_Lose_Vs_Faction>
 
 

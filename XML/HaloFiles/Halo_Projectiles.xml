@@ -150,7 +150,7 @@
 		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
 		to lag and/or crash. -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>60</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	
@@ -181,7 +181,7 @@
 		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
 		to lag and/or crash. -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>60</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
 		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
 		
@@ -223,7 +223,7 @@
 		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
 		to lag and/or crash. -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>60</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	</Projectile>
@@ -254,7 +254,7 @@
 		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
 		to lag and/or crash. -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>60</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	</Projectile>

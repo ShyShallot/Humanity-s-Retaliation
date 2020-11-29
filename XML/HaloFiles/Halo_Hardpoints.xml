@@ -7513,7 +7513,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
-    <HardPoint Name="HP_CCS_HANGAR_02">
+    <HardPoint Name="HP_CCS_HANGER_02">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -8289,6 +8289,64 @@
 
     </HardPoint>
 
+    <HardPoint Name="HP_RCS_AF_05">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>750.0</Health>
+            <Attachment_Bone>HP_RCS_ANTIFIGHTER_LASER_05</Attachment_Bone>
+            <Collision_Mesh>HP_RCS_ANTIFIGHTER_LASER_0</Collision_Mesh>
+			<Fire_Bone_A>HP_RCS_ANTIFIGHTER_LASER_05</Fire_Bone_A>
+            <Fire_Bone_B>HP_RCS_ANTIFIGHTER_LASER_05</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_RCS_AF_06">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>750.0</Health>
+            <Attachment_Bone>HP_RCS_ANTIFIGHTER_LASER_06</Attachment_Bone>
+            <Collision_Mesh>HP_RCS_ANTIFIGHTER_LASER_06</Collision_Mesh>
+			<Fire_Bone_A>HP_RCS_ANTIFIGHTER_LASER_06</Fire_Bone_A>
+            <Fire_Bone_B>HP_RCS_ANTIFIGHTER_LASER_06</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
     <HardPoint Name="HP_RCS_ENGINE">
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -8677,6 +8735,22 @@
 			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>600.0</Health>            
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+			<Death_Breakoff_Prop> Hardpoint_Breakoff_Star_Dest_Shield_Gen </Death_Breakoff_Prop>
+
+            <Attachment_Bone>HP_SHIELDGEN</Attachment_Bone>
+            <Collision_Mesh>HP_SHIELDGEN</Collision_Mesh>
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_BOARD_POINT">
+			<Type> HARD_POINT_TRACTOR_BEAM </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>            
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 

@@ -838,7 +838,7 @@
 	<Land_Collidable_Grid_Cull_Size>64.0f</Land_Collidable_Grid_Cull_Size>
 	
 	<!-- Settings to define a "Raid Force" (ie. a land combat force that can bypass space combat) -->
-	<Raid_Force_Required_Faction> Rebel | Empire</Raid_Force_Required_Faction>
+	<Raid_Force_Required_Faction> Rebel </Raid_Force_Required_Faction>
 	<Raid_Force_Limited_Object_Category_Mask> Infantry | Vehicle </Raid_Force_Limited_Object_Category_Mask>
 	<Raid_Force_Max_Limited_Objects> 3 </Raid_Force_Max_Limited_Objects>
     <Raid_Force_Max_Heros> 1 </Raid_Force_Max_Heros>
@@ -3769,10 +3769,10 @@
 	<!-- Common list of object model bone names to look for when trying to attach visual status particles, like stun, heal, corrupted, invulnerable, etc. -->
 	<Object_Visual_Status_Particle_Attach_Bone_Names> B_HEAD, Turret_00, B_Turret_00, B_Turret, B_Turret_Base, ROOT </Object_Visual_Status_Particle_Attach_Bone_Names>
 
-	<Tractor_Beam_Width>10.0</Tractor_Beam_Width>
-	<Tractor_Beam_Frames>10</Tractor_Beam_Frames>
+	<Tractor_Beam_Width>0</Tractor_Beam_Width>
+	<Tractor_Beam_Frames>0</Tractor_Beam_Frames>
 	<Tractor_Beam_Texture>tractor_beam00.tga</Tractor_Beam_Texture>
-	<Tractor_Beam_Color>0, 75, 0</Tractor_Beam_Color>
+	<Tractor_Beam_Color>0, 0, 0</Tractor_Beam_Color>
 	
 	<Energy_Beam_Width>30.0</Energy_Beam_Width>
 	<Energy_Beam_Frames>10</Energy_Beam_Frames>

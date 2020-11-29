@@ -190,7 +190,7 @@
 		<SFXEvent_Sabotage_Success> Unit_Sabotage_Death_SFX </SFXEvent_Sabotage_Success>
 		<SFXEvent_Hack_Success> Planet_Death_SFX </SFXEvent_Hack_Success>
 		<!-- MusicEvents -->
-		<Strategic_Map_Music_Event> Galactic_Map_Underworld_Music_Event </Strategic_Map_Music_Event>
+		<Strategic_Map_Music_Event/>
 		<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen>
 
 		<!-- ============================================= -->
@@ -198,35 +198,26 @@
 		<!-- ============================================= -->
 
 		<!-- Specific vs. Factions -->
-		<Music_Event_Tactical_Win_Vs_Faction> Rebel,  	Underworld_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
-		<Music_Event_Tactical_Win_Vs_Faction> Empire, 	Underworld_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
-		<Music_Event_Tactical_Win_Vs_Faction> Pirates,	Underworld_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
+	
 
 		<Music_Event_Tactical_Lose_Vs_Faction> Rebel,  	Lose_To_Rebel_Event </Music_Event_Tactical_Lose_Vs_Faction>
 		<Music_Event_Tactical_Lose_Vs_Faction> Empire, 	Lose_To_Empire_Event </Music_Event_Tactical_Lose_Vs_Faction>
-		<Music_Event_Tactical_Lose_Vs_Faction> Pirates,  Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction>
-		<Music_Event_Tactical_Lose_Vs_Faction> Underworld,  Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction>
 
-		<Music_Event_Strategic_Win_Vs_Faction> Rebel,  	Underworld_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
-		<Music_Event_Strategic_Win_Vs_Faction> Empire, 	Underworld_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
-		<Music_Event_Strategic_Win_Vs_Faction> Pirates, Underworld_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
 
 		<Music_Event_Strategic_Lose_Vs_Faction> Rebel,  	 Lose_To_Rebel_Event </Music_Event_Strategic_Lose_Vs_Faction>
 		<Music_Event_Strategic_Lose_Vs_Faction> Empire, 	 Lose_To_Empire_Event</Music_Event_Strategic_Lose_Vs_Faction>
-		<Music_Event_Strategic_Lose_Vs_Faction> Pirates,	 Lose_To_Underworld_Event </Music_Event_Strategic_Lose_Vs_Faction>
-		<Music_Event_Strategic_Lose_Vs_Faction> Underworld,	 Lose_To_Underworld_Event </Music_Event_Strategic_Lose_Vs_Faction>
 
 		<!-- Generic -->
-		<Music_Event_Tactical_Win> Underworld_Win_Tactical_Event </Music_Event_Tactical_Win>
+		<Music_Event_Tactical_Win>  </Music_Event_Tactical_Win>
 		<Music_Event_Tactical_Lose> Rebel_Lose_Tactical_Event </Music_Event_Tactical_Lose>
-		<Music_Event_Strategic_Win> Underworld_Win_Strategic_Event </Music_Event_Strategic_Win>
+		<Music_Event_Strategic_Win>  </Music_Event_Strategic_Win>
 		<Music_Event_Strategic_Lose> Rebel_Lose_Strategic_Event </Music_Event_Strategic_Lose>
 
 		<!-- ====================================================================== -->
 		<!-- UNDERWORLD SUPERWEAPON PRESENT MUSIC EVENTS - Overrides to map events below -->
 		<!-- ====================================================================== -->
 		<Music_Event_Space_Ambient_Super_Weapon />
-		<Music_Event_Space_Battle_Super_Weapon> Space_Map_Rebel_Battle_Death_Star_Music_Event </Music_Event_Space_Battle_Super_Weapon>
+		<Music_Event_Space_Battle_Super_Weapon/>
 		<Music_Event_Land_Ambient_Super_Weapon />
 		<Music_Event_Land_Battle_Super_Weapon />
 
