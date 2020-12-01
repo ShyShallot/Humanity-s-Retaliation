@@ -159,7 +159,7 @@
 	<Projectile Name="Proj_UNSC_Shiva_Missiles">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
-		<Scale_Factor>4.</Scale_Factor>
+		<Scale_Factor>4.0</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -200,7 +200,7 @@
 	<Projectile Name="Proj_UNSC_Ship_Missile">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Max_Speed>12.0</Max_Speed>
 		<Max_Rate_Of_Turn>15.0</Max_Rate_Of_Turn>
@@ -231,7 +231,7 @@
 	<Projectile Name="Proj_UNSC_Ship_Missile_Heavy">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.5</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Max_Speed>8.0</Max_Speed>
 		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>

@@ -192,7 +192,7 @@
 		<Select_Box_Scale>20</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>10.5</Scale_Factor>
+		<Scale_Factor>9.5</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Ranking_In_Category>6</Ranking_In_Category>
@@ -394,7 +394,7 @@
 		<Select_Box_Scale>20</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>1.1</Scale_Factor>
+		<Scale_Factor>0.8</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Ranking_In_Category>6</Ranking_In_Category>
@@ -560,7 +560,7 @@
 		<Space_Model_Name>UNSC_MUSASHI.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>0.9</Scale_Factor>
+		<Scale_Factor>1.1</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3250</Autoresolve_Health>
@@ -747,7 +747,7 @@
 		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
-		<Layer_Z_Adjust>-450.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
@@ -870,7 +870,7 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05  0.1</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
@@ -886,6 +886,7 @@
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
 				<Alternate_Name_Text>HALO_BOARD</Alternate_Name_Text>
 				<Alternate_Description_Text>HALO_BOARD_ENC</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_blast.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>

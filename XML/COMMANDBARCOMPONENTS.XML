@@ -77,7 +77,7 @@
             <Icon_Texture_Name>i_icon_planet_Pop.tga</Icon_Texture_Name>
             <Font_Name>Arial Bold</Font_Name>
             <Font_Point_Size>6</Font_Point_Size>
-            <Text_Color>255 212 33 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Right_Justified>True</Right_Justified>
             <Text_Offset>-10 0</Text_Offset>
     </CommandBarComponent>
@@ -87,7 +87,7 @@
             <Font_Name>EmpireAtWar-Bold</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
             <Text_Outline>True</Text_Outline>
-            <Text_Color>255 212 33 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
     </CommandBarComponent>
 
@@ -109,7 +109,7 @@
             <Tooltip_Text>TEXT_TOOLTIP_GALACTIC_RESERVE</Tooltip_Text>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-            <Text_Color>255 212 33 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Right_Justified>True</Right_Justified>
             <Text_Offset>0 0</Text_Offset>
             <Blink_Duration>3.0</Blink_Duration>
@@ -765,7 +765,7 @@
             <Type>TextButton</Type>
             <Font_Name>Arial bold</Font_Name>
             <Font_Point_Size>8</Font_Point_Size>
-            <Text_Color>255 212 33 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Tooltip_Text />
             <Text_Offset>0 0</Text_Offset>
             <Left_Justified>True</Left_Justified>
@@ -775,7 +775,7 @@
             <Type>TextButton</Type>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-            <Text_Color>255 212 33 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Tooltip_Text>TEXT_TOOLTIP_TOTAL_INCOME</Tooltip_Text>
             <Right_Justified>True</Right_Justified>
             <Text_Offset>0 0</Text_Offset>
@@ -788,7 +788,7 @@
             <Icon_Texture_Name>i_icon_planet_pop.tga</Icon_Texture_Name>
             <Font_Name>Arial bold</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-            <Text_Color>255 212 33 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Tooltip_Text>TEXT_TOOLTIP_MAX_UNIT</Tooltip_Text>
             <Right_Justified>True</Right_Justified>
             <Text_Offset>0 0</Text_Offset>
@@ -1001,7 +1001,7 @@
             <Group>Tech_Level</Group>
             <Font_Name>Arial Bold</Font_Name>
             <Font_Point_Size>8</Font_Point_Size>
-            <Text_Color>255 212 33 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Left_Justified>True</Left_Justified>
             <Scale>1.0</Scale>
     </CommandBarComponent>
@@ -4147,7 +4147,7 @@
             <Group>Tactical_Tech_Level</Group>
             <Font_Name>Arial Bold</Font_Name>
             <Font_Point_Size>8</Font_Point_Size>
-            <Text_Color>255 212 33 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Left_Justified>True</Left_Justified>
             <Scale>1.0</Scale>
     </CommandBarComponent>
@@ -4252,7 +4252,7 @@
             <Icon_Texture_Name>i_icon_money_big.tga</Icon_Texture_Name>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-            <Text_Color>255 212 33 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Right_Justified>True</Right_Justified>
             <Text_Offset>-10 0</Text_Offset>
             <Blink_Duration>3.0</Blink_Duration>
@@ -11228,7 +11228,7 @@
            <Type>TextButton</Type>
            <Font_Name>EmpireAtWar-Medium</Font_Name>
            <Font_Point_Size>10</Font_Point_Size>
-           <Text_Color>255 212 33 255</Text_Color>
+           <Text_Color>255 255 255 255</Text_Color>
            <Text_Offset>0 0</Text_Offset>
            <Base_Layer>7</Base_Layer>
            <Left_Justified>True</Left_Justified>
@@ -11238,7 +11238,7 @@
            <Type>TextButton</Type>
            <Font_Name>EmpireAtWar-Medium</Font_Name>
            <Font_Point_Size>8</Font_Point_Size>
-           <Text_Color>255 212 33 255</Text_Color>
+           <Text_Color>255 255 255 255</Text_Color>
            <Text_Offset>0 0</Text_Offset>
            <Base_Layer>7</Base_Layer>
            <Left_Justified>True</Left_Justified>

@@ -49,7 +49,9 @@ function Definitions()
 	{
 		{
 			"MainForce"
-			,"Fighter | Corvette | Frigate | Capital = 1, 5"
+			,"Fighter | Corvette = 2, 5"
+			,"Frigate | Capital = 1, 3"
+			
 		}
 	}
 

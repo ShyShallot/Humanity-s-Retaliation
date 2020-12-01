@@ -3774,8 +3774,8 @@
 	<Tractor_Beam_Texture>tractor_beam00.tga</Tractor_Beam_Texture>
 	<Tractor_Beam_Color>0, 0, 0</Tractor_Beam_Color>
 	
-	<Energy_Beam_Width>30.0</Energy_Beam_Width>
-	<Energy_Beam_Frames>10</Energy_Beam_Frames>
+	<Energy_Beam_Width>0.0</Energy_Beam_Width>
+	<Energy_Beam_Frames>0</Energy_Beam_Frames>
 	<Energy_Beam_Texture>tractor_beam00.tga</Energy_Beam_Texture>
 	<Energy_Beam_Color>255, 75, 0</Energy_Beam_Color>
 	

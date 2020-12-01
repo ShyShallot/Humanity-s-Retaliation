@@ -2244,6 +2244,7 @@
 				COVN_RCS,
 				COVN_CAS,
 				COVN_CRS,
+				COVN_CPV,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Level_Two_Starbase_Upgrade,

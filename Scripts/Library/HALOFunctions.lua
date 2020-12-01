@@ -11,15 +11,15 @@ function Return_Chance(value_to_check) -- Returns true or false
         DebugMessage("Current Value to Check: %s", tostring(value_to_check))
         ScriptExit()
     end
-    Chance = GameRandom(0, 1)
-    if Chance >= value_to_check then
+    Chance = GameRandom(0, 1) 
+    if Chance >= value_to_check then 
         return true
     end
 end
 
 function Deal_Unit_Damage(object, damage_to_deal, time_to_sleep, sfx_event_to_play) -- Already a function but this looks better
     if Get_Game_Mode() == "Galactic" then
-        DebugMessage("%s -- This function is unsable in Galactic Conquest", tostring(Script))
+        DebugMessage("%s -- This function is unusable in Galactic Conquest", tostring(Script))
         ScriptExit()
     end
     object.Take_Damage(damage_to_deal)

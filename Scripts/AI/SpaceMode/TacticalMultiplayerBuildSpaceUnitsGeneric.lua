@@ -51,10 +51,10 @@ function Definitions()
 		"ReserveForce"
 		
 		,"Fighter | Bomber = 0,4"
-		,"Corvette | Frigate = 0,5"
-		,"Capital = 0,5"
-		,"SpaceHero = 0,1"
-		,"Upgrade = 0,2"
+		,"Corvette | Frigate = 0,10"
+		,"Capital = 0,8"
+		,"SpaceHero = 0,5"
+		,"Upgrade = 0,3"
 		,"Super = 0,1"
 		}
 	}

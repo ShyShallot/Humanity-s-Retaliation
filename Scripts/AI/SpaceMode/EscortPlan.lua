@@ -56,7 +56,8 @@ function Definitions()
 	{
 		"MainForce"
 		,"Fighter = 1,4"
-		,"Interdictor_Cruiser = 0,1"
+		,"COVN_CRS = 0,1"
+		,"UNSC_GLADIUS = 0,2"
 	}
 	}
 end

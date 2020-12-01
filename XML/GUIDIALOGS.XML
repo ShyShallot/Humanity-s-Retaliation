@@ -1294,8 +1294,8 @@
 			<Global_Default>
 				<Name>EmpireAtWar-Medium</Name>
 				<Size>7</Size>
-				<Top_Color>195,171,2,255</Top_Color>
-				<Bottom_Color>195,171,2,255</Bottom_Color>
+				<Top_Color>255,255,255,255</Top_Color>
+				<Bottom_Color>255,255,255,255</Bottom_Color>
 				<Emboss>No</Emboss>
 				<Outline>No</Outline>
 			</Global_Default>
@@ -1681,8 +1681,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT0>
@@ -1692,8 +1692,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT1>
@@ -1703,8 +1703,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT2>
@@ -1714,8 +1714,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT3>
@@ -1725,8 +1725,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT4>
@@ -1736,8 +1736,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT5>
@@ -1747,8 +1747,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT6>
@@ -1758,8 +1758,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT7>
@@ -1769,8 +1769,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT8>
@@ -1780,8 +1780,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT9>
@@ -1791,8 +1791,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT10>
@@ -1802,8 +1802,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT11>
@@ -1813,8 +1813,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT12>
@@ -1824,8 +1824,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT13>
@@ -1835,8 +1835,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT14>
@@ -1846,8 +1846,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT15>
@@ -1857,8 +1857,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT16>
@@ -1868,8 +1868,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT17>
@@ -1879,8 +1879,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT18>
@@ -1890,8 +1890,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT19>
@@ -1901,8 +1901,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT20>
@@ -1912,8 +1912,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT21>
@@ -1923,8 +1923,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT22>
@@ -1934,8 +1934,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT23>
@@ -1945,8 +1945,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT24>
@@ -1956,8 +1956,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PA_TEXT25>
@@ -1967,8 +1967,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_WSTATIC0>
@@ -1978,8 +1978,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_WSTATIC1>
@@ -1989,8 +1989,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_WSTATIC2>
@@ -2000,8 +2000,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_WSTATIC3>
@@ -2011,8 +2011,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_WSTATIC4>
@@ -2379,8 +2379,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1</Stretch_Factor>
 			<Size>8</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_HINTS>
@@ -2526,8 +2526,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>Yes</Outline>
 		</IDC_STATIC_WEATHER>
@@ -2537,8 +2537,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>Yes</Outline>
 		</IDC_STATIC_TERRAIN>
@@ -2548,8 +2548,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_WILDLIFE>
@@ -2559,8 +2559,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>Yes</Outline>
 		</IDC_STATIC_NATIVE>
@@ -2819,8 +2819,8 @@
 		<IDC_STATIC_BIG>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_BIG>
@@ -2828,8 +2828,8 @@
 		<IDC_STATIC_MED1>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>8</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>Yes</Outline>
 		</IDC_STATIC_MED1>
@@ -2837,8 +2837,8 @@
 		<IDC_STATIC_MED2>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>8</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>Yes</Outline>
 		</IDC_STATIC_MED2>
@@ -2846,8 +2846,8 @@
 		<IDC_STATIC_MED3>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>8</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>Yes</Outline>
 		</IDC_STATIC_MED3>
@@ -2855,8 +2855,8 @@
 		<IDC_VICTORY_STATIC>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>20</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_VICTORY_STATIC>
@@ -2877,8 +2877,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.5</Stretch_Factor>
 			<Size>10</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>Yes</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_MAIN_MENU>
@@ -2888,8 +2888,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.5</Stretch_Factor>
 			<Size>9</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>Yes</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_MULTIPLAYER>
@@ -2897,8 +2897,8 @@
 		<IDC_STATIC_IN_GAME_OPTIONS>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_IN_GAME_OPTIONS>
@@ -2906,8 +2906,8 @@
 		<IDC_STATIC_MEDIUM>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_MEDIUM>
@@ -2915,8 +2915,8 @@
 		<IDC_TITLE_STATIC>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>12</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_TITLE_STATIC>
@@ -2924,8 +2924,8 @@
 		<IDC_TIME_STATIC>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>10</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_TIME_STATIC>
@@ -2942,8 +2942,8 @@
 		<IDC_VICTORY_LIST>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>10</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_VICTORY_LIST>
@@ -2951,8 +2951,8 @@
 		<IDC_STATIC_MEDIUM2>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_MEDIUM2>
@@ -2960,8 +2960,8 @@
 		<IDC_STATIC_LOSS1>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>11</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_LOSS1>
@@ -2969,8 +2969,8 @@
 		<IDC_STATIC_LOSS2>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>11</Size>
-			<Top_Color>220,193,2,255</Top_Color>
-			<Bottom_Color>220,193,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_LOSS2>
@@ -2978,8 +2978,8 @@
 		<IDC_INTERNET_DIALOG_HEADER>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>12</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_INTERNET_DIALOG_HEADER>
@@ -2987,8 +2987,8 @@
 		<IDC_DIFFICULT_HEADER>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>9</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_DIFFICULT_HEADER>
@@ -2996,8 +2996,8 @@
 		<IDC_DIFFICULT_HEADER2>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>8</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_DIFFICULT_HEADER2>
@@ -3006,7 +3006,7 @@
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>8</Size>
 			<Top_Color>234,197,144,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_SMALL>
@@ -3059,8 +3059,8 @@
 		<IDC_STATIC_INTERNET_STAGING_CAPTION>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>12</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_INTERNET_STAGING_CAPTION>
@@ -3068,8 +3068,8 @@
 		<IDC_STATIC_SKIRMISH_STAGING_CAPTION>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>12</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_SKIRMISH_STAGING_CAPTION>
@@ -3149,8 +3149,8 @@
 		<IDC_STATIC_DIFFICULTY_DESCRIPTION>
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>6</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>			
 		</IDC_STATIC_DIFFICULTY_DESCRIPTION>
@@ -3160,8 +3160,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>11</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>			
 		</IDC_CAMPAIGN_DIR>
@@ -3171,8 +3171,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>18</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>			
 		</IDC_CAMPAIGN_DIR2>
@@ -3182,8 +3182,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>			
 		</IDC_CAMPAIGN_FACTION>
@@ -3193,8 +3193,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1.3</Stretch_Factor>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>			
 		</IDC_CAMPAIGN_FACTION2>
@@ -3203,8 +3203,8 @@
 			<L_Text>
 				<Name>EmpireAtWar-Medium</Name>
 				<Size>8</Size>
-				<Top_Color>195,171,2,255</Top_Color>
-				<Bottom_Color>195,171,2,255</Bottom_Color>
+				<Top_Color>255,255,255,255</Top_Color>
+				<Bottom_Color>255,255,255,255</Bottom_Color>
 				<Emboss>No</Emboss>
 				<Outline>No</Outline>
 			</L_Text>
@@ -3214,8 +3214,8 @@
 			<L_Text>
 				<Name>EmpireAtWar-Medium</Name>
 				<Size>8</Size>
-				<Top_Color>195,171,2,255</Top_Color>
-				<Bottom_Color>195,171,2,255</Bottom_Color>
+				<Top_Color>255,255,255,255</Top_Color>
+				<Bottom_Color>255,255,255,255</Bottom_Color>
 				<Emboss>No</Emboss>
 				<Outline>No</Outline>
 			</L_Text>
@@ -3225,7 +3225,7 @@
 			<L_Text>
 				<Name>EmpireAtWar-Medium</Name>
 				<Size>8</Size>
-				<Top_Color>195,171,2,255</Top_Color>
+				<Top_Color>255,255,255,255</Top_Color>
 				<Bottom_Color>229,177,159,255</Bottom_Color>
 				<Outline>No</Outline>
 			</L_Text>
@@ -3243,8 +3243,8 @@
 		<IDC_REMEMBER_PASSWORD>
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>8</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_REMEMBER_PASSWORD>
@@ -3353,8 +3353,8 @@
 		<IDC_INTERNET_HOME_TITLE>
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_INTERNET_HOME_TITLE>
@@ -3380,8 +3380,8 @@
 		<IDC_GAME_TYPE_DESCRIPTION_TEXT>
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>8</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_GAME_TYPE_DESCRIPTION_TEXT>
@@ -3407,8 +3407,8 @@
 		<IDC_INTERNET_DIALOG_HEADER>
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_INTERNET_DIALOG_HEADER>
@@ -3416,8 +3416,8 @@
 		<IDC_SELECT_CLAN_DIALOG_HEADER>
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>14</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_SELECT_CLAN_DIALOG_HEADER>
@@ -3425,8 +3425,8 @@
 		<IDC_CAPTION>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>10</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_CAPTION>
@@ -3438,8 +3438,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1</Stretch_Factor>
 			<Size>7</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_GAME_OPTIONS_CLIENT_DISPLAY_RIGHT>
@@ -3450,8 +3450,8 @@
 			<Character_Padding>0</Character_Padding>
 			<Stretch_Factor>1</Stretch_Factor>
 			<Size>7</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_GAME_OPTIONS_CLIENT_DISPLAY_LEFT>
@@ -3470,8 +3470,8 @@
 		<IDC_PLAYER_PROFILE_TEXT_BOX_RIGHT>
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>7</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PLAYER_PROFILE_TEXT_BOX_RIGHT>
@@ -3479,8 +3479,8 @@
 		<IDC_PLAYER_PROFILE_TEXT_BOX_LEFT>
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>7</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_PLAYER_PROFILE_TEXT_BOX_LEFT>
@@ -4194,8 +4194,8 @@
 		<IDC_CAMPAIGN_DESCRIPTION>
 			<Name>EmpireAtWar-Medium</Name>
 			<Size>8</Size>
-			<Top_Color>195,171,2,255</Top_Color>
-			<Bottom_Color>195,171,2,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_CAMPAIGN_DESCRIPTION>

@@ -103,9 +103,9 @@
 
 		<Distance_Default>1000.0</Distance_Default>
 		<Distance_Max>1900.0</Distance_Max>
-		<Distance_Min>-400.0</Distance_Min>
+		<Distance_Min>-800.0</Distance_Min>
 		<Distance_Smooth_Time>0.1</Distance_Smooth_Time>
-		<Distance_Per_Mouse_Unit>300.0</Distance_Per_Mouse_Unit>
+		<Distance_Per_Mouse_Unit>100.0</Distance_Per_Mouse_Unit>
 
         <Tactical_Overview_Distance>2200.0</Tactical_Overview_Distance>
         <Tactical_Overview_FOV>70.0</Tactical_Overview_FOV>
@@ -120,7 +120,7 @@
 		<Location_Follows_Terrain>0</Location_Follows_Terrain>
 		<Location_Height_Smooth_Time>0.1</Location_Height_Smooth_Time>
 		
-		<Near_Clip>10.0</Near_Clip>
+		<Near_Clip>0.1</Near_Clip>
 		<Far_Clip>9000.0</Far_Clip>
 
         <Object_Fade_Begin>8000.0f</Object_Fade_Begin>
