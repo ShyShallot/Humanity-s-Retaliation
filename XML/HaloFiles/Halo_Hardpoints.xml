@@ -178,7 +178,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -187,7 +187,7 @@
             <Collision_Mesh>M870_TURRET_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_U_01</Fire_Bone_A>
             <Fire_Bone_B>FB_U_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -218,7 +218,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -227,7 +227,7 @@
             <Collision_Mesh>M870_TURRET_BONE_02</Collision_Mesh>
 			<Fire_Bone_A>FB_U_01</Fire_Bone_A>
             <Fire_Bone_B>FB_U_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -257,7 +257,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -266,7 +266,7 @@
             <Collision_Mesh>M870_TURRET_BONE_03</Collision_Mesh>
 			<Fire_Bone_A>FB_U_01</Fire_Bone_A>
             <Fire_Bone_B>FB_U_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -296,7 +296,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -305,7 +305,7 @@
             <Collision_Mesh>M870_TURRET_BONE_04</Collision_Mesh>
 			<Fire_Bone_A>FB_U_01</Fire_Bone_A>
             <Fire_Bone_B>FB_U_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -456,7 +456,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -465,7 +465,7 @@
             <Collision_Mesh>HP_HAL_TURRET_01_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -495,7 +495,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -504,7 +504,7 @@
             <Collision_Mesh>HP_HAL_TURRET_02_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -534,7 +534,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -543,7 +543,7 @@
             <Collision_Mesh>HP_HAL_TURRET_03_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -573,7 +573,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -582,7 +582,7 @@
             <Collision_Mesh>HP_HAL_TURRET_04_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -612,7 +612,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -621,7 +621,7 @@
             <Collision_Mesh>HP_HAL_TURRET_05_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -651,7 +651,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -660,7 +660,7 @@
             <Collision_Mesh>HP_HAL_TURRET_06_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -748,7 +748,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -757,7 +757,7 @@
             <Collision_Mesh>HP_POA_TURRET_01_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -787,7 +787,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -796,7 +796,7 @@
             <Collision_Mesh>HP_POA_TURRET_02_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -826,7 +826,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -835,7 +835,7 @@
             <Collision_Mesh>HP_POA_TURRET_03_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -865,7 +865,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -874,7 +874,7 @@
             <Collision_Mesh>HP_POA_TURRET_04_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -904,7 +904,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -913,7 +913,7 @@
             <Collision_Mesh>HP_POA_TURRET_05_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -943,7 +943,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -952,7 +952,7 @@
             <Collision_Mesh>HP_POA_TURRET_06_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
@@ -982,7 +982,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -991,7 +991,7 @@
             <Collision_Mesh>HP_POA_TURRET_07_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -1021,7 +1021,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -1030,7 +1030,7 @@
             <Collision_Mesh>HP_POA_TURRET_08_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -1812,7 +1812,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -1821,7 +1821,7 @@
             <Collision_Mesh>HP_AUTUMN_TURRET_01_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -1851,7 +1851,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -1860,7 +1860,7 @@
             <Collision_Mesh>HP_AUTUMN_TURRET_02_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -1890,7 +1890,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -1899,7 +1899,7 @@
             <Collision_Mesh>HP_AUTUMN_TURRET_03_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -1929,7 +1929,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -1938,7 +1938,7 @@
             <Collision_Mesh>HP_AUTUMN_TURRET_04_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -1968,7 +1968,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -1977,7 +1977,7 @@
             <Collision_Mesh>HP_AUTUMN_TURRET_05_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -2007,7 +2007,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -2016,7 +2016,7 @@
             <Collision_Mesh>HP_AUTUMN_TURRET_06_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
@@ -2046,7 +2046,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -2055,7 +2055,7 @@
             <Collision_Mesh>HP_AUTUMN_TURRET_07_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -2085,7 +2085,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -2094,7 +2094,7 @@
             <Collision_Mesh>HP_AUTUMN_TURRET_08_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -3021,7 +3021,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3030,8 +3030,8 @@
             <Collision_Mesh>HP_BREAKWATER_BONE_01</Collision_Mesh>
 			<Fire_Bone_A>FB_TURRET_01</Fire_Bone_A>
             <Fire_Bone_B>FB_TURRET_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>110.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Break</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
@@ -3061,7 +3061,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3070,8 +3070,8 @@
             <Collision_Mesh>HP_BREAKWATER_BONE_02</Collision_Mesh>
 			<Fire_Bone_A>FB_TURRET_01</Fire_Bone_A>
             <Fire_Bone_B>FB_TURRET_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>110.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Break</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
@@ -3101,7 +3101,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3110,8 +3110,8 @@
             <Collision_Mesh>HP_BREAKWATER_BONE_03</Collision_Mesh>
 			<Fire_Bone_A>FB_TURRET_01</Fire_Bone_A>
             <Fire_Bone_B>FB_TURRET_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>110.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Break</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
@@ -3141,7 +3141,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3150,8 +3150,8 @@
             <Collision_Mesh>HP_BREAKWATER_BONE_04</Collision_Mesh>
 			<Fire_Bone_A>FB_TURRET_01</Fire_Bone_A>
             <Fire_Bone_B>FB_TURRET_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>110.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Break</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
@@ -3181,7 +3181,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3190,8 +3190,8 @@
             <Collision_Mesh>HP_BREAKWATER_BONE_05</Collision_Mesh>
 			<Fire_Bone_A>FB_TURRET_01</Fire_Bone_A>
             <Fire_Bone_B>FB_TURRET_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>110.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Break</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
@@ -3221,7 +3221,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3230,8 +3230,8 @@
             <Collision_Mesh>HP_BREAKWATER_BONE_06</Collision_Mesh>
 			<Fire_Bone_A>FB_TURRET_01</Fire_Bone_A>
             <Fire_Bone_B>FB_TURRET_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>110.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Break</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
@@ -3261,7 +3261,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3270,8 +3270,8 @@
             <Collision_Mesh>HP_BREAKWATER_BONE_07</Collision_Mesh>
 			<Fire_Bone_A>FB_TURRET_01</Fire_Bone_A>
             <Fire_Bone_B>FB_TURRET_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>110.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Break</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
@@ -3301,7 +3301,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3310,8 +3310,8 @@
             <Collision_Mesh>HP_BREAKWATER_BONE_08</Collision_Mesh>
 			<Fire_Bone_A>FB_TURRET_01</Fire_Bone_A>
             <Fire_Bone_B>FB_TURRET_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>110.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Break</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
@@ -3341,7 +3341,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3350,8 +3350,8 @@
             <Collision_Mesh>HP_BREAKWATER_BONE_09</Collision_Mesh>
 			<Fire_Bone_A>FB_TURRET_01</Fire_Bone_A>
             <Fire_Bone_B>FB_TURRET_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>110.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Break</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
@@ -3381,7 +3381,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3390,8 +3390,8 @@
             <Collision_Mesh>HP_BREAKWATER_BONE_10</Collision_Mesh>
 			<Fire_Bone_A>FB_TURRET_01</Fire_Bone_A>
             <Fire_Bone_B>FB_TURRET_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>110.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Break</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
@@ -3421,7 +3421,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3430,7 +3430,7 @@
             <Collision_Mesh>HP_MK33_01</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -3460,7 +3460,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3469,7 +3469,7 @@
             <Collision_Mesh>HP_MK33_02</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -3499,7 +3499,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3508,7 +3508,7 @@
             <Collision_Mesh>HP_MK33_03</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -3538,7 +3538,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3547,7 +3547,7 @@
             <Collision_Mesh>HP_MK33_04</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -3577,7 +3577,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3586,7 +3586,7 @@
             <Collision_Mesh>HP_MK33_05</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -3616,7 +3616,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3625,7 +3625,7 @@
             <Collision_Mesh>HP_MK33_06</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -3655,7 +3655,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3664,7 +3664,7 @@
             <Collision_Mesh>HP_MK33_07</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -3694,7 +3694,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3703,7 +3703,7 @@
             <Collision_Mesh>HP_MK33_09</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -3733,7 +3733,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3742,7 +3742,7 @@
             <Collision_Mesh>HP_MK33_09</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -3772,7 +3772,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -3781,7 +3781,7 @@
             <Collision_Mesh>HP_MK33_10</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -4516,7 +4516,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4525,7 +4525,7 @@
             <Collision_Mesh>HP_HALC_TURRET_01_Bone</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -4555,7 +4555,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4564,7 +4564,7 @@
             <Collision_Mesh>HP_HALC_TURRET_02_Bone</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -4594,7 +4594,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4603,7 +4603,7 @@
             <Collision_Mesh>HP_HALC_TURRET_03_Bone</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -4633,7 +4633,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4642,7 +4642,7 @@
             <Collision_Mesh>HP_HALC_TURRET_04_Bone</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -4672,7 +4672,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4681,7 +4681,7 @@
             <Collision_Mesh>HP_HALC_TURRET_05_Bone</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -4711,7 +4711,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4720,7 +4720,7 @@
             <Collision_Mesh>HP_HALC_TURRET_06_Bone</Collision_Mesh>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -4819,7 +4819,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4828,8 +4828,8 @@
             <Collision_Mesh>HP_MAKO_M66_01</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -4859,7 +4859,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4868,8 +4868,8 @@
             <Collision_Mesh>HP_MAKO_M66_02</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
@@ -4899,7 +4899,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4908,8 +4908,8 @@
             <Collision_Mesh>HP_MAKO_M870_01</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -4939,7 +4939,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4948,8 +4948,8 @@
             <Collision_Mesh>HP_MAKO_M870_02</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -4979,7 +4979,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -4988,8 +4988,8 @@
             <Collision_Mesh>HP_MAKO_M870_03</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -5019,7 +5019,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5028,8 +5028,8 @@
             <Collision_Mesh>HP_MAKO_M870_04</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -5163,7 +5163,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5172,7 +5172,7 @@
             <Collision_Mesh>HP_MK44_01</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5202,7 +5202,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5211,7 +5211,7 @@
             <Collision_Mesh>HP_MK44_02</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5241,7 +5241,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5250,7 +5250,7 @@
             <Collision_Mesh>HP_MK44_03</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5280,7 +5280,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5289,7 +5289,7 @@
             <Collision_Mesh>HP_MK44_04</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5319,7 +5319,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5328,7 +5328,7 @@
             <Collision_Mesh>HP_MK44_05</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5358,7 +5358,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5367,7 +5367,7 @@
             <Collision_Mesh>HP_MK44_06</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5397,7 +5397,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5406,7 +5406,7 @@
             <Collision_Mesh>HP_MK44_07</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5436,7 +5436,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5445,7 +5445,7 @@
             <Collision_Mesh>HP_MK44_08</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5475,7 +5475,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5484,7 +5484,7 @@
             <Collision_Mesh>HP_MK44_09</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5514,7 +5514,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5523,7 +5523,7 @@
             <Collision_Mesh>HP_MK44_10</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5553,7 +5553,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5562,7 +5562,7 @@
             <Collision_Mesh>HP_MK44_11</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -5592,7 +5592,7 @@
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
             <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 4.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name> TURRET </Turret_Bone_Name>
@@ -5601,7 +5601,7 @@
             <Collision_Mesh>HP_MK44_12</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6023,7 +6023,7 @@
             <Collision_Mesh>HP_M910_01</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6062,7 +6062,7 @@
             <Collision_Mesh>HP_M910_02</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6101,7 +6101,7 @@
             <Collision_Mesh>HP_M910_03</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6140,7 +6140,7 @@
             <Collision_Mesh>HP_M910_04</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6179,7 +6179,7 @@
             <Collision_Mesh>HP_M910_05</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6218,7 +6218,7 @@
             <Collision_Mesh>HP_M910_06</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6257,7 +6257,7 @@
             <Collision_Mesh>HP_M910_07</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6296,7 +6296,7 @@
             <Collision_Mesh>HP_M910_08</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6335,7 +6335,7 @@
             <Collision_Mesh>HP_M910_09</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6374,7 +6374,7 @@
             <Collision_Mesh>HP_M910_10</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -6488,6 +6488,832 @@
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_ENGINES">
+			<Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>1550.0</Health>            
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_ENGINES</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>HP_ENGINES</Collision_Mesh>
+            <Damage_Decal />
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_01">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_01.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_01</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_01</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_02">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_02.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_02</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_02</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_03">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_03.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_03</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_03</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_04">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_04.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_04</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_04</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_05">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_05.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_05</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_05</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_06">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_06.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_06</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_06</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_07">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_07.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_07</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_07</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_08">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_08.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_08</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_08</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_09">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_09.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_09</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_09</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_10">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_10.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_10</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_10</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_11">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_11.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_11</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_11</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_12">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_12.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_12</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_12</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_13">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_13.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_13</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_13</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_14">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_14.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_14</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_14</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_15">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_15.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_15</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_15</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_16">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_16.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_16</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_16</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_MK33_17">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>950.0</Health>
+
+            <Model_To_Attach>UNSC_VINDICATION_MK33_17.ALO</Model_To_Attach>
+            <Is_Turret> Yes </Is_Turret>
+            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Attachment_Bone>HP_MK33_17</Attachment_Bone>
+            <Collision_Mesh>HP_MK33_17</Collision_Mesh>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+            
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_AP_01">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>650.0</Health>
+            <Attachment_Bone>HP_ARCHER_01</Attachment_Bone>
+            <Collision_Mesh>HP_ARCHER_01</Collision_Mesh>
+			<Fire_Bone_A>HP_ARCHER_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_ARCHER_01</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette </Fire_Category_Restrictions>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_AP_02">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>650.0</Health>
+            <Attachment_Bone>HP_ARCHER_02</Attachment_Bone>
+            <Collision_Mesh>HP_ARCHER_02</Collision_Mesh>
+			<Fire_Bone_A>HP_ARCHER_02</Fire_Bone_A>
+            <Fire_Bone_B>HP_ARCHER_02</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette </Fire_Category_Restrictions>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_AP_03">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>650.0</Health>
+            <Attachment_Bone>HP_ARCHER_03</Attachment_Bone>
+            <Collision_Mesh>HP_ARCHER_03</Collision_Mesh>
+			<Fire_Bone_A>FP_01</Fire_Bone_A>
+            <Fire_Bone_B>FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette </Fire_Category_Restrictions>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_AP_04">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>650.0</Health>
+            <Attachment_Bone>HP_ARCHER_04</Attachment_Bone>
+            <Collision_Mesh>HP_ARCHER_04</Collision_Mesh>
+			<Fire_Bone_A>FP_03</Fire_Bone_A>
+            <Fire_Bone_B>FP_04</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette </Fire_Category_Restrictions>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="UNSC_VINDICATION_AP_05">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>650.0</Health>
+            <Attachment_Bone>HP_ARCHER_05</Attachment_Bone>
+            <Collision_Mesh>HP_ARCHER_05</Collision_Mesh>
+			<Fire_Bone_A>FP_05</Fire_Bone_A>
+            <Fire_Bone_B>FP_06</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette </Fire_Category_Restrictions>
+            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+    
+
+    <!-- Start of Covenant Hardpoints -->
 
     <HardPoint Name="HP_CAS_BFG">
             <Type> HARD_POINT_WEAPON_SPECIAL </Type>
@@ -7095,8 +7921,8 @@
             <Collision_Mesh>HP_CAS_HC_01_BONE</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -7136,8 +7962,8 @@
             <Collision_Mesh>HP_CAS_HC_02_BONE</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -7177,8 +8003,8 @@
             <Collision_Mesh>HP_CAS_HC_03_BONE</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -7218,8 +8044,8 @@
             <Collision_Mesh>HP_CAS_HC_04_BONE</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -7259,8 +8085,8 @@
             <Collision_Mesh>HP_CAS_HC_05_BONE</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -7300,8 +8126,8 @@
             <Collision_Mesh>HP_CAS_HC_06_BONE</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -7341,8 +8167,8 @@
             <Collision_Mesh>HP_CAS_HC_07_BONE</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -7382,8 +8208,8 @@
             <Collision_Mesh>HP_CAS_HC_08_BONE</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -7423,8 +8249,8 @@
             <Collision_Mesh>HP_CAS_HC_09_BONE</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -7464,8 +8290,8 @@
             <Collision_Mesh>HP_CAS_HC_10_BONE</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -8783,8 +9609,8 @@
             <Collision_Mesh>HP_HEAVYPLASMA_01</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -8824,8 +9650,8 @@
             <Collision_Mesh>HP_HEAVYPLASMA_02</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -8865,8 +9691,8 @@
             <Collision_Mesh>HP_HEAVYPLASMA_03</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -8906,8 +9732,8 @@
             <Collision_Mesh>HP_HEAVYPLASMA_04</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -8947,8 +9773,8 @@
             <Collision_Mesh>HP_HEAVYPLASMA_05</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -8988,8 +9814,8 @@
             <Collision_Mesh>HP_HEAVYPLASMA_06</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -9029,8 +9855,8 @@
             <Collision_Mesh>HP_HEAVYPLASMA_07</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -9070,8 +9896,8 @@
             <Collision_Mesh>HP_HEAVYPLASMA_08</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -9111,8 +9937,8 @@
             <Collision_Mesh>HP_HEAVYPLASMA_09</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
@@ -9152,8 +9978,8 @@
             <Collision_Mesh>HP_HEAVYPLASMA_10</Collision_Mesh>
 			<Fire_Bone_A>FP_01</Fire_Bone_A>
             <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>10.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Width>1.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>

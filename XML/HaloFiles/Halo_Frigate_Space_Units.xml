@@ -560,7 +560,7 @@
 		<Space_Model_Name>UNSC_MUSASHI.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>1.1</Scale_Factor>
+		<Scale_Factor>1.4</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>3250</Autoresolve_Health>
@@ -718,6 +718,8 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>6</Population_Value>
 	</SpaceUnit>
+
+	
 
 	<SpaceUnit Name="COVN_CRS">
 		<Text_ID>TEXT_UNIT_COVN_CRS</Text_ID>
