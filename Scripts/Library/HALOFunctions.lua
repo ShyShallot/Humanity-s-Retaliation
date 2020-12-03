@@ -17,19 +17,27 @@ function Return_Chance(value_to_check) -- Returns true or false
     end
 end
 
-function Deal_Unit_Damage(object, damage_to_deal, time_to_sleep, sfx_event_to_play) -- Already a function but this looks better
+function Deal_Unit_Damage(object, damage_to_deal, hardpoint_to_damage, time_to_sleep, sfx_event_to_play) -- Already a function but this looks better
     if Get_Game_Mode() == "Galactic" then
         DebugMessage("%s -- This function is unusable in Galactic Conquest", tostring(Script))
         ScriptExit()
     end
-    object.Take_Damage(damage_to_deal)
+    if hardpoint_to_damage ~= nil then
+        object.Take_Damage(damage_to_deal, tostring(hardpoint_to_damage))
+    else 
+        object.Take_Damage(damage_to_deal) 
+    end
+
     if sfx_event_to_play ~= nil then
         object.Play_SFX_Event(tostring(sfx_event_to_play))
     else DebugMessage("%s -- No SFX Set, Continuing Script", tostring(Script)) end
 end
 
-function Deal_Unit_Damage_Seconds(object, damage_to_deal, time_to_sleep, sfx_event_to_play) -- Uses Deal_Unit_Damage but with SFX and Sleep
-    Deal_Unit_Damage(object, damage_to_deal)
+function Deal_Unit_Damage_Seconds(object, damage_to_deal, hardpoint_to_damage, time_to_sleep, sfx_event_to_play) -- Uses Deal_Unit_Damage but with SFX and Sleep
+    if hardpoint_to_damage ~= nil then
+        object.Take_Damage(damage_to_deal, tostring(hardpoint_to_damage))
+    else object.Take_Damage(damage_to_deal) end
+
     if sfx_event_to_play ~= nil then
         object.Play_SFX_Event(tostring(sfx_event_to_play))
     else DebugMessage("%s -- No SFX Set, Continuing Script", tostring(Script)) end

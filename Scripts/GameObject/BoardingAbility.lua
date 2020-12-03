@@ -27,7 +27,9 @@ function State_Init(message)
         DebugMessage("%s -- In Init", tostring(Script))
         ability_name = "TRACTOR_BEAM" -- Check if the object calling the script has the ability in the first place
         UntilBoardChances = 0  
+        TotalBoardUses = 0
         ShouldRun = 1
+        CRSFRIGATE = Find_Object_Type("COVN_CRS")
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
         
    
@@ -69,7 +71,7 @@ function BoardingFunction()
                     while boardingActive == true do
                         Object.Set_Selectable(false)
                         DebugMessage("%s -- Boarding Active, Running Boarding Damage", tostring(Script))
-                        Deal_Unit_Damage_Seconds(target, BoardingDamage, 0, "Unit_Hardpoint_Turbo_Laser_Death")
+                        Deal_Unit_Damage_Seconds(target, BoardingDamage, nil, 0, "Unit_Hardpoint_Turbo_Laser_Death")
                         UntilBoardChances = UntilBoardChances + 1
                         Sleep(3)
                         if UntilBoardChances >= 8 then
@@ -84,19 +86,24 @@ function BoardingFunction()
                             if Return_Chance(0.95) and boardingActive == true then -- If the boarding Take over chance succeeds and boarding is active, take over ship
                                 target.Change_Owner(Find_Player("Empire")) -- Switch target ship owner from enemy to covies
                                 Object.Cancel_Ability(ability_name) -- Stop the "Tractor Beam" Ability
+                                boardingActive = false
                                 Object.Play_SFX_Event("Unit_Select_Vader_Executor")
                                 ShouldRun = 0
                                 Object.Set_Selectable(true)
                             end
                             if target.Get_Health() <= ShipHealthThreshold then -- If the Ship health is below a value then just straight up blow up the ship
-                                Deal_Unit_Damage(target, 10000000)
+                                Deal_Unit_Damage(target, 10000000, nil)
                                 boardingActive = false -- Boarding no Longer active exit loop
                                 Object.Cancel_Ability(ability_name)
                                 ShouldRun = 0
                                 Object.Set_Selectable(true)
                             end
+                            TotalBoardUses = TotalBoardUses + 1
                             UntilBoardChances = 0
                             Object.Set_Selectable(true)
+                            if TotalBoardUses >= 3 then
+                                Deal_Unit_Damage(Object, 1, HP_BOARD_POINT)
+                            end
                         end
                     end
                 else 

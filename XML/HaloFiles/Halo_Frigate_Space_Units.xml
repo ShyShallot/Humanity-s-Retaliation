@@ -807,7 +807,7 @@
 		<Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance>
 
 		<HardPoints> 
-			HP_CRS_BOARD_POINT, HP_CRS_AF_01, HP_CRS_AF_02, HP_CRS_AF_03, HP_CRS_AF_04, HP_CRS_AF_05, HP_CRS_AF_06, HP_CRS_AS_01, HP_CRS_AS_02, HP_CRS_AS_03, HP_CRS_AS_04, HP_CRS_ENGINES, HP_CRS_HANGAR_01, HP_CRS_HANGAR_02, HP_CRS_SHIELD
+			HP_BOARD_POINT, HP_CRS_AF_01, HP_CRS_AF_02, HP_CRS_AF_03, HP_CRS_AF_04, HP_CRS_AF_05, HP_CRS_AF_06, HP_CRS_AS_01, HP_CRS_AS_02, HP_CRS_AS_03, HP_CRS_AS_04, HP_CRS_ENGINES, HP_CRS_HANGAR_01, HP_CRS_HANGAR_02, HP_CRS_SHIELD
 		</HardPoints>
 
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -894,9 +894,8 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
-			<Tractor_Beam_Attack_Ability Name="CRS_BOARD_ABILITY">
-				<Activation_Style> User_Input </Activation_Style>
+			<Tractor_Beam_Attack_Ability Name="CRS_BOARD_ABILITY"> 
+				<Activation_Style> User_Input </Activation_Style> 
 				<Applicable_Unit_Categories> Corvette | Frigate | Capital </Applicable_Unit_Categories>
 	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
 				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
@@ -904,7 +903,7 @@
 	            <Activation_Max_Range>800</Activation_Max_Range>
 
 				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<Target_Speed_Decrease_Percent>.7</Target_Speed_Decrease_Percent>
+				<Target_Speed_Decrease_Percent>.5</Target_Speed_Decrease_Percent>
 				<Stacking_Category>1</Stacking_Category>			
 			</Tractor_Beam_Attack_Ability>
 

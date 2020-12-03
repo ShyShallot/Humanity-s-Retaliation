@@ -72,24 +72,25 @@
 	<!-- A testing value to turn off weapon behavior and hard point weapon firing SFX. Default is False. -->
 	<Test_Disable_Weapon_Fire_SFX> False </Test_Disable_Weapon_Fire_SFX>
 
-	<!-- List of supported 3D providers for Miles Sound System 6.6H / 6.6G -->
+		<!-- List of supported 3D providers for Miles Sound System 6.6H / 6.6G -->
 	<MSS_3D_Provider_Name> "Miles Fast 2D Positional Audio" </MSS_3D_Provider_Name>
-	<MSS_3D_Provider_Name> "Creative Labs EAX 4 (TM)" </MSS_3D_Provider_Name>
-	<MSS_3D_Provider_Name> "Creative Labs EAX 3 (TM)" </MSS_3D_Provider_Name>
-	<MSS_3D_Provider_Name> "Creative Labs EAX 2 (TM)" </MSS_3D_Provider_Name>
-	<MSS_3D_Provider_Name> "Creative Labs EAX (TM)" </MSS_3D_Provider_Name>
+	<MSS_3D_Provider_Name> "RAD Game Tools RSX 3D Audio" </MSS_3D_Provider_Name>
 	<MSS_3D_Provider_Name> "Dolby Surround" </MSS_3D_Provider_Name>
+	<MSS_3D_Provider_Name> "DirectSound3D Software Emulation" </MSS_3D_Provider_Name>
 	<!-- Not supported per LucasArts...
 		<MSS_3D_Provider_Name> "Aureal A3D Interactive (TM)" </MSS_3D_Provider_Name>
 		<MSS_3D_Provider_Name> "Aureal A3D 2.0 (TM)" </MSS_3D_Provider_Name>
-		<MSS_3D_Provider_Name> "DirectSound3D Software Emulation" </MSS_3D_Provider_Name>
+		
 		<MSS_3D_Provider_Name> "DirectSound3D Hardware Support" </MSS_3D_Provider_Name>
 		<MSS_3D_Provider_Name> "DirectSound3D 7+ Software - Pan and Volume" </MSS_3D_Provider_Name>
 		<MSS_3D_Provider_Name> "DirectSound3D 7+ Software - Light HRTF" </MSS_3D_Provider_Name>
 		<MSS_3D_Provider_Name> "DirectSound3D 7+ Software - Full HRTF" </MSS_3D_Provider_Name>
-		<MSS_3D_Provider_Name> "RAD Game Tools RSX 3D Audio" </MSS_3D_Provider_Name>
+		
+		<MSS_3D_Provider_Name> "Creative Labs EAX 4 (TM)" </MSS_3D_Provider_Name>
+	<MSS_3D_Provider_Name> "Creative Labs EAX 3 (TM)" </MSS_3D_Provider_Name>
+	<MSS_3D_Provider_Name> "Creative Labs EAX 2 (TM)" </MSS_3D_Provider_Name>
+	<MSS_3D_Provider_Name> "Creative Labs EAX (TM)" </MSS_3D_Provider_Name>
 	-->
-
 	<!-- MSS Mixahead settings for dealing with times of sustained disk I/O -->
 
 	<!-- From MSS 6.6G/H:
