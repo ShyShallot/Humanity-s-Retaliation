@@ -22,8 +22,8 @@
 	<!-- Unit Response -->
     <SFXEvent Name="Preset_UR">
   			<Is_Preset> Yes </Is_Preset>
-			<Is_2D> No </Is_2D>
-			<Is_3D> Yes </Is_3D>
+			<Is_2D> Yes </Is_2D>
+			<Is_3D> No </Is_3D>
 			<Is_Unit_Response_VO> Yes </Is_Unit_Response_VO>
 			<Is_Ambient_VO> No </Is_Ambient_VO>
 			<Priority> 1 </Priority>
@@ -35,8 +35,8 @@
 	 <!-- Unit Response VO -->
     <SFXEvent Name="Preset_URC">
   			<Is_Preset> Yes </Is_Preset>
-			<Is_2D> No </Is_2D>
-			<Is_3D> Yes </Is_3D>
+			<Is_2D> Yes </Is_2D>
+			<Is_3D> No </Is_3D>
 			<Is_Unit_Response_VO> Yes </Is_Unit_Response_VO>
 			<Is_Ambient_VO> No </Is_Ambient_VO>
 			<Priority> 2 </Priority>
