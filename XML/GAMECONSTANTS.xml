@@ -3869,21 +3869,23 @@
 	
 	<!-- Files for custom ship names -->
    <ShipNameTextFiles> 
-		Calamari_Cruiser, 					Data\Calamari_Cruiser.txt,
-		Generic_Star_Destroyer, 			Data\Star_Destroyer.txt,
-		Star_Destroyer, 						Data\Star_Destroyer.txt,
-		Star_Destroyer_Tractor_Fighters,	Data\Star_Destroyer.txt,
-		Corellian_Corvette, 					Data\Corellian_Corvette.txt,
-		Corellian_Gunboat, 					Data\Corellian_Gunboat.txt,
-		Broadside_Class_Cruiser, 			Data\Broadside_Class_Cruiser.txt,
-		Marauder_Missile_Cruiser, 			Data\Marauder_Missile_Cruiser.txt,
-		Nebulon_B_Frigate, 					Data\Nebulon_B_Frigate.txt,
-		Alliance_Assault_Frigate, 			Data\Alliance_Assault_Frigate.txt,
-		Victory_Destroyer_No_Fighters, 	Data\Victory_Destroyer.txt,
-		Victory_Destroyer, 					Data\Victory_Destroyer.txt,
-		Acclamator_Assault_Ship, 			Data\Acclamator_Assault_Ship.txt,
-		Interdictor_Cruiser, 				Data\Interdictor_Cruiser.txt,
-        Tartan_Patrol_Cruiser,          Data\Tartan_Patrol_Cruiser.txt
+		UNSC_POA, Data\ship_nicknames_capital_unsc.txt,
+		UNSC_AUTUMN, Data\ship_nicknames_capital_unsc.txt,
+		UNSC_MARATHON, Data\ship_nicknames_capital_unsc.txt,
+		UNSC_INFINITY, Data\ship_nicknames_capital_unsc.txt,
+		UNSC_HALCYON, Data\ship_nicknames_capital_unsc.txt,
+		UNSC_VINDICATION, Data\ship_nicknames_capital_unsc.txt,
+		UNSC_GLADIUS, Data\ship_nicknames_frigate_unsc.txt,
+		UNSC_HALBERD, Data\ship_nicknames_frigate_unsc.txt,
+		UNSC_MAKO, Data\ship_nicknames_frigate_unsc.txt,
+		UNSC_MUSASHI, Data\ship_nicknames_frigate_unsc.txt,
+
+		COVN_CAS, Data\ship_nicknames_capital_covies.txt,
+		COVN_CCS, Data\ship_nicknames_capital_covies.txt,
+		COVN_CRS, Data\ship_nicknames_capital_covies.txt,
+		COVN_CPV, Data\ship_nicknames_capital_covies.txt,
+		COVN_CRS, Data\ship_nicknames_frigate_covies.txt,
+
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->

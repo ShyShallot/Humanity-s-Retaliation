@@ -1,0 +1,2 @@
+the file must be encoded in UCS-2 LE BOM
+if you're using Notepad++ you can easily change this under the Encoding dropdown menu
