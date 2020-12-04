@@ -736,12 +736,11 @@
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>1.2</Scale_Factor>
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
-		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+	
 		<Armor_Type> Armor_Nebulon_B </Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 
@@ -802,8 +801,8 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+		<Space_FOW_Reveal_Range>1700.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance>
 
 		<HardPoints> 

@@ -9238,8 +9238,8 @@
             <Collision_Mesh>HP_AF_01</Collision_Mesh>
 			<Fire_Bone_A>HP_AF_01</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Long_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -9267,8 +9267,8 @@
             <Collision_Mesh>HP_AF_02</Collision_Mesh>
 			<Fire_Bone_A>HP_AF_02</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Long_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -9296,8 +9296,8 @@
             <Collision_Mesh>HP_AF_03</Collision_Mesh>
 			<Fire_Bone_A>HP_AF_03</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_03</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Long_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -9325,8 +9325,8 @@
             <Collision_Mesh>HP_AF_04</Collision_Mesh>
 			<Fire_Bone_A>HP_AF_04</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_04</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Long_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -9354,8 +9354,8 @@
             <Collision_Mesh>HP_AF_05</Collision_Mesh>
 			<Fire_Bone_A>HP_AF_05</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_05</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Long_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -9383,8 +9383,8 @@
             <Collision_Mesh>HP_AF_06</Collision_Mesh>
 			<Fire_Bone_A>HP_AF_06</Fire_Bone_A>
             <Fire_Bone_B>HP_AF_06</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Long_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
@@ -9412,7 +9412,7 @@
             <Collision_Mesh>HP_AS_01</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_01</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_01</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.3</Fire_Min_Recharge_Seconds>
@@ -9441,7 +9441,7 @@
             <Collision_Mesh>HP_AS_02</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_02</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_02</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.3</Fire_Min_Recharge_Seconds>
@@ -9470,7 +9470,7 @@
             <Collision_Mesh>HP_AS_03</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_03</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_03</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.3</Fire_Min_Recharge_Seconds>
@@ -9499,7 +9499,7 @@
             <Collision_Mesh>HP_AS_04</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_04</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_04</Fire_Bone_B>
-            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.3</Fire_Min_Recharge_Seconds>
