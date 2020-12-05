@@ -54,7 +54,7 @@
 			<ShadowDetail>2</ShadowDetail>	
 			<HeatDistortions>Yes</HeatDistortions>
 			<Bloom>Yes</Bloom>
-			<DynamicLighting>No</DynamicLighting>
+			<DynamicLighting>Yes</DynamicLighting>
 			<ParticleDetail>0.8</ParticleDetail>
 			<MeshDetail>1.0</MeshDetail>
 			<EnvironmentDetail>0.6</EnvironmentDetail>
@@ -68,12 +68,12 @@
 			<TextureMipLevel>0</TextureMipLevel>
 			<ShaderDetailLevel>3</ShaderDetailLevel>
 			<WaterDetailLevel>2</WaterDetailLevel>
-			<ShadowDetail>3</ShadowDetail>	
+			<ShadowDetail>4</ShadowDetail>	
 			<ShadowVolumes>Yes</ShadowVolumes>
 			<SoftShadows>Yes</SoftShadows>
 			<HeatDistortions>Yes</HeatDistortions>
 			<Bloom>Yes</Bloom>
-			<DynamicLighting>No</DynamicLighting>
+			<DynamicLighting>Yes</DynamicLighting>
 			<ParticleDetail>1.0</ParticleDetail>
 			<MeshDetail>1.0</MeshDetail>
 			<EnvironmentDetail>1.0</EnvironmentDetail>
@@ -247,4 +247,3 @@
 	</HardwareConfigurations>
         
 </GraphicDetailSettings>
-
