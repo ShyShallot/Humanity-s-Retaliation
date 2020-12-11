@@ -38,7 +38,7 @@
 		<Projectile_Laser_Color>140, 31, 173,255</Projectile_Laser_Color>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Max_Speed>25.0</Max_Speed>
-		<Projectile_Damage>40.0</Projectile_Damage>
+		<Projectile_Damage>48.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -66,7 +66,7 @@
 		<Projectile_Laser_Color>140, 31, 173,255</Projectile_Laser_Color>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Max_Speed>40.0</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>80.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -147,10 +147,10 @@
 		<Projectile_Category>Rocket</Projectile_Category>
 		<Projectile_Blast_Area_Damage>4.0</Projectile_Blast_Area_Damage>
         <Projectile_Blast_Area_Range>10.0</Projectile_Blast_Area_Range>
-		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
-		to lag and/or crash. -->
+		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
+		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>40</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	
@@ -166,7 +166,7 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Damage>100.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>Large_Explosion_Space</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Large_Explosion_Space </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -178,10 +178,10 @@
 		<Projectile_Ground_Detonation_Particle>Large_Explosion_Space</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Large_Explosion_Space</Projectile_Lifetime_Detonation_Particle>
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
-		to lag and/or crash. -->
+		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
+		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>40</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
 		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
 		
@@ -208,7 +208,7 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>10.4</Projectile_Damage>
+		<Projectile_Damage>13.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -220,10 +220,10 @@
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
-		to lag and/or crash. -->
+		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
+		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>40</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	</Projectile>
@@ -239,7 +239,7 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>14.5</Projectile_Damage>
+		<Projectile_Damage>16.5</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -251,10 +251,10 @@
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<!-- When Setting Curve Distances for Both Curve and Straight, Values too Close to Each other or too low will cause the game
-		to lag and/or crash. -->
+		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
+		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>100</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>40</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	</Projectile>
