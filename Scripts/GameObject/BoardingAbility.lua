@@ -30,7 +30,11 @@ function State_Init(message)
         TotalBoardUses = 0
         ShouldRun = 1
         AIRUN = 0
-        CRSFRIGATE = Find_Object_Type("COVN_CRS")
+        InitalBoardingChance = 0.45
+        TakeOverChance =  0.95
+        FailChance = 0.6
+
+
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
         
    
@@ -56,7 +60,10 @@ function Find_Nearest_Board_Target()
     target = Find_Nearest(Object, "Corvette | Frigate | Capital", player, false) -- Find_Nearest(Object to Search around, Optinal Catergory Filter: "Frigate | Capital", player object, if its owned by the player)
     if TestValid(target) then
         if AIRUN == 1 then
-            BoardingFunction_AI() -- Run a variation of the Boarding function for AI so that events are less likley to happen
+            InitalBoardingChance = 0.65 
+            TakeOverChance =  0.93
+            FailChance = 0.3
+            BoardingFunction()
         else
             BoardingFunction()
             ShouldRun = 1
@@ -79,7 +86,7 @@ function BoardingFunction()
             if Object.Is_Ability_Active(ability_name) then -- Double check if the ability is active 
                 DebugMessage("%s -- Abiltiy Active running Main Function", tostring(Script))
                 Object.Turn_To_Face(target)
-                if Return_Chance(0.45)  then -- 55% Percent Chance
+                if Return_Chance(InitalBoardingChance)  then -- 55% Percent Chance
                     DebugMessage("%s -- Boarding Successful running Boarding", tostring(Script))
                     boardingActive = true -- set board to active and run loop
                     Object.Play_SFX_Event("SFX_UMP_EmpireKesselAlarm")
@@ -89,19 +96,21 @@ function BoardingFunction()
                         Deal_Unit_Damage_Seconds(target, BoardingDamage, nil, 0, "Unit_Hardpoint_Turbo_Laser_Death")
                         UntilBoardChances = UntilBoardChances + 1
                         Sleep(3)
-                        if UntilBoardChances >= 8 then
-                            if Return_Chance(0.6)  then -- If the boarding units die by chance
+                        if UntilBoardChances >= 10 then
+                            if Return_Chance(FailChance)  then -- If the boarding units die by chance
                                 Sleep(3)
                                 ShouldRun = 0
+                                target = nil
                                 boardingActive = false -- Boarding No Longer active, exit loop
                                 Object.Cancel_Ability(ability_name) -- Make sure the "Tractor Beam" ability stops
                                 Object.Play_SFX_Event("SFX_UM02_MagneticSealedDoor")
                                 Object.Set_Selectable(true)
                             end
-                            if Return_Chance(0.95) and boardingActive == true then -- If the boarding Take over chance succeeds and boarding is active, take over ship
+                            if Return_Chance(TakeOverChance) and boardingActive == true then -- If the boarding Take over chance succeeds and boarding is active, take over ship
                                 target.Change_Owner(Find_Player("Empire")) -- Switch target ship owner from enemy to covies
                                 Object.Cancel_Ability(ability_name) -- Stop the "Tractor Beam" Ability
                                 boardingActive = false
+                                target = nil
                                 Object.Play_SFX_Event("Unit_Select_Vader_Executor")
                                 ShouldRun = 0
                                 Object.Set_Selectable(true)
@@ -111,6 +120,7 @@ function BoardingFunction()
                                 boardingActive = false -- Boarding no Longer active exit loop
                                 Object.Cancel_Ability(ability_name)
                                 ShouldRun = 0
+                                target = nil
                                 Object.Set_Selectable(true)
                             end
                             TotalBoardUses = TotalBoardUses + 1
@@ -132,64 +142,3 @@ function BoardingFunction()
     end
 end
 
-function BoardingFunction_AI()
-    DebugMessage("%s -- In Boarding AI Function", tostring(Script))
-    BoardingDamage = target.Get_Health() / 95 -- 5% of its total health
-    ShipHealthThreshold = target.Get_Health() / 90 -- 10% of its total health
-    ShouldRun = 1
-    if Is_Target_Affected_By_Ability(target, ability_name) then  -- If target is alive and is being affected by tractor beam then run
-        DebugMessage("%s -- Found Target", tostring(target))
-        while TestValid(target) and ShouldRun == 1 do -- using a Var and test valid prevents a recursion loop which crashes the game
-            DebugMessage("%s -- Found Nearest Target", tostring(target))
-            boardingActive = false -- Boarding is not active, used for loop 
-            if Object.Is_Ability_Active(ability_name) then -- Double check if the ability is active 
-                DebugMessage("%s -- Abiltiy Active running Main Function", tostring(Script))
-                Object.Turn_To_Face(target)
-                if Return_Chance(0.70)  then -- 30% Percent Chance
-                    DebugMessage("%s -- Boarding Successful running Boarding", tostring(Script))
-                    boardingActive = true -- set board to active and run loop
-                    while boardingActive == true do
-                        Object.Set_Selectable(false)
-                        DebugMessage("%s -- Boarding Active, Running Boarding Damage", tostring(Script))
-                        Deal_Unit_Damage_Seconds(target, BoardingDamage, nil, 0)
-                        UntilBoardChances = UntilBoardChances + 1
-                        Sleep(3)
-                        if UntilBoardChances >= 8 then
-                            if Return_Chance(0.5)  then -- If the boarding units die by chance
-                                Sleep(3)
-                                ShouldRun = 0
-                                boardingActive = false -- Boarding No Longer active, exit loop
-                                Object.Cancel_Ability(ability_name) -- Make sure the "Tractor Beam" ability stops
-                                Object.Set_Selectable(true)
-                            end
-                            if Return_Chance(0.98) and boardingActive == true then -- If the boarding Take over chance succeeds and boarding is active, take over ship
-                                target.Change_Owner(Find_Player("Empire")) -- Switch target ship owner from enemy to covies
-                                Object.Cancel_Ability(ability_name) -- Stop the "Tractor Beam" Ability
-                                boardingActive = false
-                                ShouldRun = 0
-                                Object.Set_Selectable(true)
-                            end
-                            if target.Get_Health() <= ShipHealthThreshold then -- If the Ship health is below a value then just straight up blow up the ship
-                                Deal_Unit_Damage(target, 10000000, nil)
-                                boardingActive = false -- Boarding no Longer active exit loop
-                                Object.Cancel_Ability(ability_name)
-                                ShouldRun = 0
-                                Object.Set_Selectable(true)
-                            end
-                            TotalBoardUses = TotalBoardUses + 1
-                            UntilBoardChances = 0
-                            Object.Set_Selectable(true)
-                            if TotalBoardUses >= 3 then
-                                Deal_Unit_Damage(Object, 1, HP_BOARD_POINT)
-                            end
-                        end
-                    end
-                else 
-                    Object.Cancel_Ability(ability_name) 
-                    ShouldRun = 0
-                    DebugMessage("%s -- Canceling Ability Chance Failed", tostring(Script)) 
-                end
-            end
-        end
-    end
-end

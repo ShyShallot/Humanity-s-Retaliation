@@ -8,6 +8,7 @@
 		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_POA.ALO</Space_Model_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
