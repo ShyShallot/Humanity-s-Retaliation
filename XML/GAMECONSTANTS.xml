@@ -3869,10 +3869,8 @@
 	
 	<!-- Files for custom ship names -->
    <ShipNameTextFiles> 
-		UNSC_POA, Data\ship_nicknames_capital_unsc.txt,
 		UNSC_AUTUMN, Data\ship_nicknames_capital_unsc.txt,
 		UNSC_MARATHON, Data\ship_nicknames_capital_unsc.txt,
-		UNSC_INFINITY, Data\ship_nicknames_capital_unsc.txt,
 		UNSC_HALCYON, Data\ship_nicknames_capital_unsc.txt,
 		UNSC_VINDICATION, Data\ship_nicknames_capital_unsc.txt,
 		UNSC_GLADIUS, Data\ship_nicknames_frigate_unsc.txt,

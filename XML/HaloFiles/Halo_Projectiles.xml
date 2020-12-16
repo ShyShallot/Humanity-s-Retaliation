@@ -3,12 +3,8 @@
 
     <Projectile Name="Proj_Covie_Long_Beam">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>5</Projectile_Width>
-		<Projectile_Length>20</Projectile_Length>
-		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
-		<Projectile_Laser_Color>140, 31, 173,255</Projectile_Laser_Color>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
 		<Damage_Type>Damage_Turbolaser</Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
 		<Projectile_Damage>10.0</Projectile_Damage>
@@ -31,12 +27,8 @@
 
 	<Projectile Name="Proj_Covie_Plasma_Beam">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>5</Projectile_Width>
-		<Projectile_Length>35</Projectile_Length>
-		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
-		<Projectile_Laser_Color>140, 31, 173,255</Projectile_Laser_Color>
-		<Scale_Factor>5.0</Scale_Factor>
+		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
 		<Max_Speed>25.0</Max_Speed>
 		<Projectile_Damage>48.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -59,12 +51,8 @@
 
 	<Projectile Name="Proj_CAS_Heavy_Plasma">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>5</Projectile_Width>
-		<Projectile_Length>55</Projectile_Length>
-		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
-		<Projectile_Laser_Color>140, 31, 173,255</Projectile_Laser_Color>
-		<Scale_Factor>5.0</Scale_Factor>
+		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
 		<Max_Speed>40.0</Max_Speed>
 		<Projectile_Damage>80.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
