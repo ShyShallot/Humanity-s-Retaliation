@@ -1786,6 +1786,8 @@
 	<StarBase Name="Skirmish_Rebel_Star_Base_1">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>2000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -1855,6 +1857,8 @@
 	<StarBase Name="Skirmish_Rebel_Star_Base_2">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>5000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -1935,6 +1939,8 @@
 	<StarBase Name="Skirmish_Rebel_Star_Base_3">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>6500</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -2009,6 +2015,8 @@
 	<StarBase Name="Skirmish_Rebel_Star_Base_4">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>7500</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -2089,6 +2097,8 @@
 	<StarBase Name="Skirmish_Rebel_Star_Base_5">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>10500</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -2191,6 +2201,8 @@
 	<!-- Empire Skirmish Starbases -->
 	<StarBase Name="Skirmish_Empire_Star_Base_1">
 		<Variant_Of_Existing_Type>Empire_Star_Base_1</Variant_Of_Existing_Type>
+		<Shield_Points>1000</Shield_Points>
+		<Tactical_Health>2000</Tactical_Health>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
@@ -2261,6 +2273,8 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_2">
 		<Variant_Of_Existing_Type>Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>1850</Shield_Points>
+		<Tactical_Health>3500</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -2332,6 +2346,8 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_3">
 		<Variant_Of_Existing_Type>Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>3200</Shield_Points>
+		<Tactical_Health>5000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -2409,6 +2425,8 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_4">
 		<Variant_Of_Existing_Type>Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>5000</Shield_Points>
+		<Tactical_Health>7600</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -2425,6 +2443,7 @@
 				TIE_Interceptor_Squadron,
 				TIE_Bomber_Squadron,
 				COVN_CCS,
+				COVN_RCS,
 				COVN_CRS,
 				COVN_CPV,
 				ES_Enhanced_Reactors_L1_Upgrade,
@@ -2489,6 +2508,8 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_5">
 		<Variant_Of_Existing_Type>Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>8000</Shield_Points>
+		<Tactical_Health>10800</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>

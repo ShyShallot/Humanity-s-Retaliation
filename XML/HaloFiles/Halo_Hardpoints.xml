@@ -1534,8 +1534,8 @@
     <HardPoint Name="UNSC_POA_AP_03">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_03_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_03_BONE</Collision_Mesh>
@@ -1563,8 +1563,8 @@
     <HardPoint Name="UNSC_POA_AP_04">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_04_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_04_BONE</Collision_Mesh>
@@ -1592,8 +1592,8 @@
     <HardPoint Name="UNSC_POA_AP_05">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_05_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_05_BONE</Collision_Mesh>
@@ -1621,8 +1621,8 @@
     <HardPoint Name="UNSC_POA_AP_06">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_06_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_06_BONE</Collision_Mesh>
@@ -1650,8 +1650,8 @@
     <HardPoint Name="UNSC_POA_AP_07">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_07_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_07_BONE</Collision_Mesh>
@@ -1679,8 +1679,8 @@
     <HardPoint Name="UNSC_POA_AP_08">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_08_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_08_BONE</Collision_Mesh>
@@ -1708,8 +1708,8 @@
     <HardPoint Name="UNSC_POA_AP_09">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_09_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_09_BONE</Collision_Mesh>
@@ -1737,8 +1737,8 @@
     <HardPoint Name="UNSC_POA_AP_10">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_10_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_10_BONE</Collision_Mesh>
@@ -1766,8 +1766,8 @@
     <HardPoint Name="UNSC_POA_AP_11">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_11_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_11_BONE</Collision_Mesh>
@@ -1795,8 +1795,8 @@
     <HardPoint Name="UNSC_POA_AP_12">
             <Type> HARD_POINT_WEAPON_SPECIAL </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>600.0</Health>
             <Attachment_Bone>HP_POA_ARCHER_12_BONE</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_12_BONE</Collision_Mesh>

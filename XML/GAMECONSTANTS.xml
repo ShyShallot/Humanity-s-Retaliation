@@ -3791,16 +3791,6 @@
 
 	<!-- Localized splash screen asset names -->
 	<Localized_Splash_Screen> ENGLISH, 	Splash.TGA </Localized_Splash_Screen>
-	<Localized_Splash_Screen> GERMAN, 	Splash_german.TGA </Localized_Splash_Screen>
-	<Localized_Splash_Screen> FRENCH, 	Splash_french.TGA </Localized_Splash_Screen>
-	<Localized_Splash_Screen> SPANISH, 	Splash_spanish.TGA </Localized_Splash_Screen>
-	<Localized_Splash_Screen> ITALIAN, 	Splash_italian.TGA </Localized_Splash_Screen>
-	<Localized_Splash_Screen> JAPANESE, 	Splash_uk.TGA </Localized_Splash_Screen>
-	<Localized_Splash_Screen> KOREAN, 	Splash_uk.TGA </Localized_Splash_Screen>
-	<Localized_Splash_Screen> CHINESE, 	Splash_uk.TGA </Localized_Splash_Screen>
-	<Localized_Splash_Screen> POLISH, 	Splash_polish.TGA </Localized_Splash_Screen>
-	<Localized_Splash_Screen> RUSSIAN, 	Splash_russian.TGA </Localized_Splash_Screen>
-	<Localized_Splash_Screen> THAI, 	Splash_uk.TGA </Localized_Splash_Screen>
 	<Localized_UK_English_Splash_Screen>splash_uk.dds </Localized_UK_English_Splash_Screen>
 
 
