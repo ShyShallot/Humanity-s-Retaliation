@@ -487,7 +487,7 @@
 	<Max_Ground_Forces_On_Planet> 50 </Max_Ground_Forces_On_Planet>
 	<!-- UNUSED - unit cap is now per faction in Factions.xml
 	<Space_Tactical_Unit_Cap>40</Space_Tactical_Unit_Cap> -->
-	<Allow_Reinforcement_Percentage_Normalized> 0.0 </Allow_Reinforcement_Percentage_Normalized> 
+	<Allow_Reinforcement_Percentage_Normalized> 50.0 </Allow_Reinforcement_Percentage_Normalized> 
 	<Default_Hero_Respawn_Time>360.0</Default_Hero_Respawn_Time>
 	<LandFOWColor>130,130,130,0</LandFOWColor>
 	<SpaceFOWColor>255,255,255,255</SpaceFOWColor>
@@ -753,7 +753,7 @@
 	
 	<!-- Shield flashing effect -->
 	<Shield_Flash_Scale> 2.5, 3.1, 3.8 </Shield_Flash_Scale>
-	<Shield_Flash_Duration> 1.6 </Shield_Flash_Duration>
+	<Shield_Flash_Duration> 0.6 </Shield_Flash_Duration>
 	
 	<!-- How closely to tie hull vs. hard point healths together in releation to one another -->
 	<Hull_Vs_Hard_Points_Health_Constraint> 0.5 </Hull_Vs_Hard_Points_Health_Constraint>
@@ -787,20 +787,20 @@
 	
 	<Max_Move_Frame_Delay> 6 </Max_Move_Frame_Delay>
 	
-	<Spread_Out_Spacing_Coefficient> 1.8 </Spread_Out_Spacing_Coefficient>
+	<Spread_Out_Spacing_Coefficient> 2.4 </Spread_Out_Spacing_Coefficient>
 
-	<Max_Formation_Area> 14.0 </Max_Formation_Area>	
+	<Max_Formation_Area> 25.0 </Max_Formation_Area>	
 	
 	<Short_Range_Attack_Formation_Coefficient> 1.6 </Short_Range_Attack_Formation_Coefficient>
 
-	<Solo_Attack_Range> 60.0 </Solo_Attack_Range>
+	<Solo_Attack_Range> 120.0 </Solo_Attack_Range>
 
 	<Base_Land_Targeting_Arc_Angle_Coefficient> .2 </Base_Land_Targeting_Arc_Angle_Coefficient>	
 	
 	<Rotate_Formation_Facing_Moves> true </Rotate_Formation_Facing_Moves>
 	
-	<ShouldUseSpaceIdleMovement> false </ShouldUseSpaceIdleMovement>
-	<SpaceIdleMovementSpeed> 0.0 </SpaceIdleMovementSpeed>
+	<ShouldUseSpaceIdleMovement> true </ShouldUseSpaceIdleMovement>
+	<SpaceIdleMovementSpeed> 0.2 </SpaceIdleMovementSpeed>
 	<SpaceIdlePathCullCoefficient> 3.0 </SpaceIdlePathCullCoefficient>
 	<IdleMovementFrames> 30.0 </IdleMovementFrames>
 
@@ -3685,9 +3685,9 @@
 	<Ion_Storm_Shield_Disable_Time>5.0</Ion_Storm_Shield_Disable_Time>
 	<Nebula_Ability_Disable_Time>5.0</Nebula_Ability_Disable_Time>
     <Force_Ability_Disable_Time>0.0</Force_Ability_Disable_Time>
-	<Depleted_Shield_Disable_Time>25.0</Depleted_Shield_Disable_Time>
+	<Depleted_Shield_Disable_Time>40.0</Depleted_Shield_Disable_Time>
 	<Depleted_Shield_Damage_Increment>0.0</Depleted_Shield_Damage_Increment>
-	<Depleted_Shield_Regen_Cap>0.25</Depleted_Shield_Regen_Cap>
+	<Depleted_Shield_Regen_Cap>0.50</Depleted_Shield_Regen_Cap>
 	
 	<!-- when ships go into nebula, they are tinted/faded using the following settings -->
 	<Nebula_Effect_Color>255, 255, 255, 64</Nebula_Effect_Color>
@@ -3984,7 +3984,7 @@
     <Space_Station_Destruction_Forces_Retreat>False</Space_Station_Destruction_Forces_Retreat>
     
     <!-- Clear space required along hyperspace in path for space reinforcements -->
-    <Space_Reinforcement_Collision_Check_Distance>150.0</Space_Reinforcement_Collision_Check_Distance>
+    <Space_Reinforcement_Collision_Check_Distance>80.0</Space_Reinforcement_Collision_Check_Distance>
 
     <Health_Bar_Spacing>2.0</Health_Bar_Spacing>
     

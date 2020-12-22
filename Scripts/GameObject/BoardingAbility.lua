@@ -139,6 +139,6 @@ function BoardingFunction()
                 end
             end
         end
-    end
+    else ShouldRun = 0 end
 end
 

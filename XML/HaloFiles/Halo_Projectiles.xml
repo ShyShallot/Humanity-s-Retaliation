@@ -251,13 +251,13 @@
 
 	<Projectile Name="Proj_UNSC_MAC_SHELL">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Space_Model_Name>W_UNSC_MAC.alo</Space_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
-		<Projectile_Category>Torpedo</Projectile_Category>
+		<Projectile_Category>Missile</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
 		<Projectile_Damage>3000.0</Projectile_Damage>

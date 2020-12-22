@@ -2218,8 +2218,6 @@
 			Empire,
 				TIE_Interceptor_Squadron,
 				TIE_Bomber_Squadron,
-				ES_Enhanced_Reactors_L1_Upgrade,
-				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -2291,8 +2289,6 @@
 				TIE_Interceptor_Squadron,
 				TIE_Bomber_Squadron,
 				COVN_CRS,
-				ES_Enhanced_Reactors_L1_Upgrade,
-				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Level_Three_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2365,14 +2361,10 @@
 				TIE_Bomber_Squadron,
 				COVN_CCS,
 				COVN_CRS,
-				ES_Enhanced_Reactors_L1_Upgrade,
-				ES_Enhanced_Reactors_L2_Upgrade,
-				ES_Reinforced_Armor_L1_Upgrade,
-				ES_Reinforced_Armor_L2_Upgrade,
+				ES_Enhanced_Shielding_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
-				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Four_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -2446,17 +2438,12 @@
 				COVN_RCS,
 				COVN_CRS,
 				COVN_CPV,
-				ES_Enhanced_Reactors_L1_Upgrade,
-				ES_Enhanced_Reactors_L2_Upgrade,
-				ES_Reinforced_Armor_L1_Upgrade,
-				ES_Reinforced_Armor_L2_Upgrade,
+				ES_Enhanced_Shielding_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
-				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Five_Starbase_Upgrade,
-
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2550,19 +2537,13 @@
 				COVN_CAS,
 				COVN_CRS,
 				COVN_CPV,
-				ES_Enhanced_Reactors_L1_Upgrade,
-				ES_Enhanced_Reactors_L2_Upgrade,
-				ES_Enhanced_Reactors_L3_Upgrade,
-				ES_Reinforced_Armor_L1_Upgrade,
-				ES_Reinforced_Armor_L2_Upgrade,
-				ES_Reinforced_Armor_L3_Upgrade,
+				ES_Enhanced_Shielding_L1_Upgrade,
+				ES_Enhanced_Shielding_L2_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Weapons_L3_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
-				ES_Improved_Defenses_L3_Upgrade,
-				ES_Hypervelocity_Gun_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	

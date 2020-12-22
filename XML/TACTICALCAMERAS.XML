@@ -113,7 +113,7 @@
         <Tactical_Overview_Click_Time>1.8</Tactical_Overview_Click_Time>    
 
         <Tactical_Overview_Distance2>2900.0</Tactical_Overview_Distance2>
-        <Tactical_Overview_Pitch2>100.0</Tactical_Overview_Pitch2>
+        <Tactical_Overview_Pitch2>80.0</Tactical_Overview_Pitch2>
         <Tactical_Overview_FOV2>75.0</Tactical_Overview_FOV2>
 
         <!-- smoothness of terrain height following -->

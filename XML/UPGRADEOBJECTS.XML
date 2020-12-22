@@ -2065,7 +2065,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L1_Bonus">
-				<Income_Multiplier>1.20</Income_Multiplier>
+				<Income_Multiplier>1.40</Income_Multiplier>
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
@@ -2138,9 +2138,9 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L2_Bonus">
-				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Multiplier>2.40</Income_Multiplier>
 				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Interval_Multiplier>1.2</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -2497,6 +2497,85 @@
 
 	<!-- ================== EMPIRE SPACE SKIRMISH GENERAL UPGRADE OBJECTS =================== -->
 
+	<UpgradeObject Name="ES_Enhanced_Shielding_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 950 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> ES_Enhanced_Shielding_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_SHIELDING_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_SHIELDING_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="ES_Enhanced_Shielding_L1_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories> Fighter | Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>-0.05</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.20</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Enhanced Shielding (Level 2): Fighters and Frigates gain a 25% bonus to shield strength. -->
+	<UpgradeObject Name="ES_Enhanced_Shielding_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2550 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>260</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> ES_Enhanced_Shielding_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> ES_Enhanced_Shielding_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_enhanced_shield2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_SHIELDING_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_SHIELDING_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="ES_Enhanced_Shielding_L2_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories> Fighter | Bomber | Corvette </Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>-0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.40</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
 	<!-- Enhanced Reactors (Level 1): Fighters gain a 25% movement speed increase. -->
 	<UpgradeObject Name="ES_Enhanced_Reactors_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -2786,7 +2865,7 @@
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L1_Bonus">
-				<Income_Multiplier>1.20</Income_Multiplier>
+				<Income_Multiplier>1.40</Income_Multiplier>
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
@@ -2859,9 +2938,9 @@
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L2_Bonus">
-				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Multiplier>2.40</Income_Multiplier>
 				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Interval_Multiplier>1.2</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -2933,12 +3012,12 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="ES_Improved_Weapons_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>TIE_Phantom, TIE_Interceptor, TIE_Fighter, TIE_Bomber, TIE_Scout</Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Applicable_Unit_Categories> Fighter </Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>-0.05</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Shield_Bonus_Percentage>-0.05</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
@@ -2973,12 +3052,12 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="ES_Improved_Weapons_L2_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>TIE_Defender, TIE_Phantom, TIE_Interceptor, TIE_Fighter, TIE_Bomber, TIE_Scout, Tartan_Patrol_Cruiser, Broadside_Class_Cruiser</Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Applicable_Unit_Categories>Fighter | Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>-0.10</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Shield_Bonus_Percentage>-0.10</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
@@ -3013,12 +3092,12 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="ES_Improved_Weapons_L3_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>TIE_Defender, TIE_Phantom, TIE_Interceptor, TIE_Fighter, TIE_Bomber, TIE_Scout, Tartan_Patrol_Cruiser, Broadside_Class_Cruiser, Star_Destroyer, Accuser_Star_Destroyer, Admonitor_Star_Destroyer</Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Applicable_Unit_Categories>Fighter | Bomber | Corvette</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>-0.15</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Shield_Bonus_Percentage>-0.15</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
