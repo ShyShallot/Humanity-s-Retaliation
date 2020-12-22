@@ -1946,9 +1946,9 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="RS_Improved_Weapons_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel</Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Applicable_Unit_Categories>Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>-0.10</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
@@ -1986,10 +1986,10 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="RS_Improved_Weapons_L2_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>B-Wing, X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Nebulon_B_Frigate, Alliance_Assault_Frigate</Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>-0.15</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
@@ -2028,8 +2028,8 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>B-Wing, X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Nebulon_B_Frigate, Alliance_Assault_Frigate, Calamari_Cruiser, Home_One, MC30_Frigate</Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Health_Bonus_Percentage>-0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.40</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
