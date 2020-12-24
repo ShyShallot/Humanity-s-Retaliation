@@ -2140,7 +2140,7 @@
 			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L2_Bonus">
 				<Income_Multiplier>2.40</Income_Multiplier>
 				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.2</Interval_Multiplier>
+				<Interval_Multiplier>0.8</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -2940,7 +2940,7 @@
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L2_Bonus">
 				<Income_Multiplier>2.40</Income_Multiplier>
 				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.2</Interval_Multiplier>
+				<Interval_Multiplier>0.8</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>

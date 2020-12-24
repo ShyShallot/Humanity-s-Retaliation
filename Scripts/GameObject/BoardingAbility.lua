@@ -48,8 +48,8 @@ function State_Init(message)
         else 
             if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
                 DebugMessage("%s -- Tractor Beam is now active running function", tostring(Script))
-                Find_Nearest_Board_Target()
                 AIRUN = 1
+                Find_Nearest_Board_Target()
             else Sleep(2) end
         end
     end
@@ -63,6 +63,7 @@ function Find_Nearest_Board_Target()
             InitalBoardingChance = 0.65 
             TakeOverChance =  0.93
             FailChance = 0.3
+            ShouldRun = 1
             BoardingFunction()
         else
             BoardingFunction()

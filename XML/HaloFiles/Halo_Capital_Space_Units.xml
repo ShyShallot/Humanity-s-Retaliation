@@ -1006,7 +1006,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.07  0.07</Radar_Icon_Size>
+		<Radar_Icon_Size>0.07  0.035</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_VINDICATION.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -1746,7 +1746,7 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.035  0.035</Radar_Icon_Size>
+		<Radar_Icon_Size>0.07  0.07</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CPV.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
@@ -1758,7 +1758,7 @@
 		<Population_Value>13</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>7500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>8500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
