@@ -185,6 +185,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>10</Population_Value>
+		
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_POA_Death_Clone">

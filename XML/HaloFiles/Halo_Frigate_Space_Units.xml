@@ -909,6 +909,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>7</Population_Value>
+		
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_STRIDENT">
@@ -1098,6 +1099,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>6</Population_Value>
+		
 	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_CRS">

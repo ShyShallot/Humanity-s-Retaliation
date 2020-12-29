@@ -176,13 +176,19 @@
 		<!-- Scatter radius and damage -->
 		<Projectile_Blast_Area_Damage> 600 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 400 </Projectile_Blast_Area_Range>
-		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>20</Max_Secs_For_AE_Delayed_Damage>
 		
 		<!-- determines the range of barrage mode -->
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
 		
 		<!-- Make it fly faster so that the barrage mode is more dynamic and has more effect -->
 		<Max_Speed>12.0</Max_Speed>
+
+		<Projectile_Stun_On_Detonation>Yes</Projectile_Stun_On_Detonation>
+		<Projectile_Stun_Duration_Frames>300</Projectile_Stun_Duration_Frames>
+		<Projectile_Stun_Radius>300</Projectile_Stun_Radius>
+		<Projectile_Stun_Spawn_Effect> Stunned_Infantry </Projectile_Stun_Spawn_Effect> 									
+		<Projectile_Stun_Victims_Category_Mask> Fighter, Bomber, Transport, Corvette </Projectile_Stun_Victims_Category_Mask>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_Ship_Missile">

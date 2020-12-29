@@ -3969,7 +3969,7 @@
 	<Indigenous_Spawn_Destruction_Reward>500</Indigenous_Spawn_Destruction_Reward>
 	
 	<Advisor_Hint_Interval>300</Advisor_Hint_Interval>
-	<Advisor_Hint_Duration>0.1</Advisor_Hint_Duration>
+	<Advisor_Hint_Duration>0.3</Advisor_Hint_Duration>
 
 	<Radar_Colorize_Selected_Units>Yes</Radar_Colorize_Selected_Units>
 	<Radar_Selected_Units_Color>209, 255, 209, 255</Radar_Selected_Units_Color>
