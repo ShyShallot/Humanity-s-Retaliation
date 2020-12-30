@@ -800,7 +800,7 @@
 	<Rotate_Formation_Facing_Moves> true </Rotate_Formation_Facing_Moves>
 	
 	<ShouldUseSpaceIdleMovement> true </ShouldUseSpaceIdleMovement>
-	<SpaceIdleMovementSpeed> 0.2 </SpaceIdleMovementSpeed>
+	<SpaceIdleMovementSpeed> 0.01 </SpaceIdleMovementSpeed>
 	<SpaceIdlePathCullCoefficient> 3.0 </SpaceIdlePathCullCoefficient>
 	<IdleMovementFrames> 30.0 </IdleMovementFrames>
 

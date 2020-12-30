@@ -77,8 +77,8 @@
         <Texture_Repeat>0.0</Texture_Repeat>
         <Texture_Scroll>0.0</Texture_Scroll>
 
-        <Width_Max>1</Width_Max>
-        <Width_Min>1</Width_Min>
+        <Width_Max>0</Width_Max>
+        <Width_Min>0</Width_Min>
         <Displace>0.01, 0.01, 0.01</Displace>
         <Detail>0.1</Detail>	
         <Color_Start>255, 255,0,0</Color_Start>

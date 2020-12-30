@@ -16,8 +16,6 @@ function Definitions()
 
 	Define_State("State_Init", State_Init);
     DebugMessage("%s -- In Definitions", tostring(Script))
-    enemy_player = Find_Player("Rebel") -- Enemy Player for reference of finding target
-    target = nil -- Target Var for future reference
     
 
 end
@@ -87,7 +85,7 @@ function BoardingFunction()
             if Object.Is_Ability_Active(ability_name) then -- Double check if the ability is active 
                 DebugMessage("%s -- Abiltiy Active running Main Function", tostring(Script))
                 Object.Turn_To_Face(target)
-                if Return_Chance(InitalBoardingChance)  then -- 55% Percent Chance
+                if Return_Chance(InitalBoardingChance)  then -- 55% Percent Chance for players, 45% for AI
                     DebugMessage("%s -- Boarding Successful running Boarding", tostring(Script))
                     boardingActive = true -- set board to active and run loop
                     Object.Play_SFX_Event("SFX_UMP_EmpireKesselAlarm")
