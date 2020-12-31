@@ -14,7 +14,8 @@ require("HALOFunctions")
 function Definitions()
     ServiceRate = 1
 
-	Define_State("State_Init", State_Init);
+    Define_State("State_Init", State_Init);
+    Define_State("State_AI_Autofire", State_AI_Autofire)
     DebugMessage("%s -- In Definitions", tostring(Script))
     
 
@@ -31,8 +32,6 @@ function State_Init(message)
         InitalBoardingChance = 0.45
         TakeOverChance =  0.95
         FailChance = 0.6
-
-
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
         
    
@@ -41,31 +40,42 @@ function State_Init(message)
         if player.Is_Human() then 
             if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
                 DebugMessage("%s -- Tractor Beam is now active running function", tostring(Script))
-                Find_Nearest_Board_Target()
+                Find_Nearest_Board_Target(false)
             else Sleep(2) end
         else 
-            if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
-                DebugMessage("%s -- Tractor Beam is now active running function", tostring(Script))
-                AIRUN = 1
-                Find_Nearest_Board_Target()
-            else Sleep(2) end
+            DebugMessage("%s -- Running AI Ability", tostring(Script))
+            Set_Next_State("State_AI_Autofire")
         end
     end
 end
 
-function Find_Nearest_Board_Target() 
+function State_AI_Autofire(message)
+    if message == OnUpdate then
+        DebugMessage("%s -- Is AI Checking for Ability", tostring(Script))
+        if Object.Is_Ability_Ready(ability_name) then
+            DebugMessage("%s -- Running Ability from AI", tostring(Script))
+            Object.Activate_Ability(ability_name, true)
+            if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
+                DebugMessage("%s -- Tractor Beam is now active running function from AI", tostring(Script))
+                Find_Nearest_Board_Target(true)
+            else Sleep(2) end
+		end
+	end		
+end
+
+function Find_Nearest_Board_Target(AIRUN) 
     DebugMessage("%s -- Running Find_Nearest_Board_Target", tostring(Script))
     target = Find_Nearest(Object, "Corvette | Frigate | Capital", player, false) -- Find_Nearest(Object to Search around, Optinal Catergory Filter: "Frigate | Capital", player object, if its owned by the player)
     if TestValid(target) then
-        if AIRUN == 1 then
+        if AIRUN == true then
             InitalBoardingChance = 0.65 
             TakeOverChance =  0.93
             FailChance = 0.3
             ShouldRun = 1
             BoardingFunction()
         else
-            BoardingFunction()
             ShouldRun = 1
+            BoardingFunction()
         end
     else Sleep(2) end  
 end

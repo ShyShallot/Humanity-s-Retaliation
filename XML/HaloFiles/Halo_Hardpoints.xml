@@ -188,7 +188,7 @@
 			<Fire_Bone_A>FB_U_01</Fire_Bone_A>
             <Fire_Bone_B>FB_U_02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>

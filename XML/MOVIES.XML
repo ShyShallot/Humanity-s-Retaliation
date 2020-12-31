@@ -2,7 +2,10 @@
 <Movies>
 
 
-
+	<Movie Name="Logo1">
+		<Movie_File>Data\Art\Movies\Binked\HRIntroVideo.bik</Movie_File>
+        <Cannot_Skip>false</Cannot_Skip>
+	</Movie>
 	
 	<Movie Name="Default_Incoming_Transmission">
 		<Movie_File>Data\Art\Movies\Binked\incoming_transmission.bik</Movie_File>
