@@ -3867,6 +3867,9 @@
 		UNSC_HALBERD, Data\ship_nicknames_frigate_unsc.txt,
 		UNSC_MAKO, Data\ship_nicknames_frigate_unsc.txt,
 		UNSC_MUSASHI, Data\ship_nicknames_frigate_unsc.txt,
+		UNSC_PARIS, Data\ship_nicknames_frigate_unsc.txt,
+		UNSC_STRIDENT, Data\ship_nicknames_frigate_unsc.txt,
+		
 
 		COVN_CAS, Data\ship_nicknames_capital_covies.txt,
 		COVN_CCS, Data\ship_nicknames_capital_covies.txt,

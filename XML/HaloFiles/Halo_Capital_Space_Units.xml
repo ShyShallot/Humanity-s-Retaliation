@@ -1027,8 +1027,9 @@
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,    1.5f</Mod_Multiplier>
 				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>6</Expiration_Seconds>
+				<Expiration_Seconds>5</Expiration_Seconds>
 				<Alternate_Name_Text>HALO_WEAPON_OVERIDE</Alternate_Name_Text>
 				<Alternate_Description_Text>HALO_WEAPON_OVERIDE_ENC</Alternate_Description_Text>
 				
@@ -1205,7 +1206,7 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.15  0.15</Radar_Icon_Size>
+		<Radar_Icon_Size>0.7  0.35</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAS.tga</Radar_Icon_Name>
 		
 

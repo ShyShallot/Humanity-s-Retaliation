@@ -141,7 +141,7 @@
 		<Land_Skirmish_Unit_Cap_By_Player_Count>
 			0,10,
 			1,10,
-			8,5,
+			5,30,
 		</Land_Skirmish_Unit_Cap_By_Player_Count>
 
 		<Debug_Ground_Structures>
@@ -926,7 +926,7 @@
 		<Land_Skirmish_Unit_Cap_By_Player_Count>
 			0,10,
 			1,10,
-			8,5,
+			5,30,
 		</Land_Skirmish_Unit_Cap_By_Player_Count>
 
 		<Debug_Ground_Structures>

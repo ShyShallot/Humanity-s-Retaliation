@@ -84,7 +84,7 @@
 
 		<Pitch_Default>50</Pitch_Default>
 		<Pitch_Min>-10.0</Pitch_Min>
-		<Pitch_Max>85.0</Pitch_Max>
+		<Pitch_Max>50.0</Pitch_Max>
 		<Pitch_Per_Mouse_Unit>-1.5</Pitch_Per_Mouse_Unit>
         <Pitch_Per_Zoom_Unit>0.0</Pitch_Per_Zoom_Unit>
         <Pitch_When_Zoomed_In>50</Pitch_When_Zoomed_In>
@@ -113,7 +113,7 @@
         <Tactical_Overview_Click_Time>1.8</Tactical_Overview_Click_Time>    
 
         <Tactical_Overview_Distance2>2900.0</Tactical_Overview_Distance2>
-        <Tactical_Overview_Pitch2>80.0</Tactical_Overview_Pitch2>
+        <Tactical_Overview_Pitch2>70.0</Tactical_Overview_Pitch2>
         <Tactical_Overview_FOV2>75.0</Tactical_Overview_FOV2>
 
         <!-- smoothness of terrain height following -->

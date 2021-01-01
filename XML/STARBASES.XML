@@ -71,7 +71,7 @@
 			HP_Rebel_Station_One_CCM,
 			HP_Rebel_Station_One_LC,
 			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
+			
 			HP_Rebel_Station_One_Fighter_Bay,
 			HP_Rebel_Station_One_Supply_Dock_Dummy,
 			HP_Rebel_Station_One_Comm_Array_Dummy
@@ -223,7 +223,7 @@
 			HP_Rebel_Station_One_CCM,
 			HP_Rebel_Station_One_LC,
 			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
+			
 			HP_Rebel_Station_One_Fighter_Bay,
 			HP_Rebel_Station_Two_LC,
 			HP_Rebel_Station_Two_PRT,
@@ -382,7 +382,7 @@
 			HP_Rebel_Station_One_CCM,
 			HP_Rebel_Station_One_LC,
 			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
+			
 			HP_Rebel_Station_One_Fighter_Bay,
 			HP_Rebel_Station_Two_LC,
 			HP_Rebel_Station_Two_PRT,
@@ -1791,7 +1791,7 @@
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock, HP_Rebel_Station_One_Comm_Array, HP_Rebel_Station_One_CCM, HP_Rebel_Station_One_LC, HP_Rebel_Station_One_TBL, HP_Rebel_Station_One_ShieldGen, HP_Rebel_Station_One_Fighter_Bay
+			HP_Rebel_Station_One_Supply_Dock, HP_Rebel_Station_One_Comm_Array, HP_Rebel_Station_One_CCM, HP_Rebel_Station_One_LC, HP_Rebel_Station_One_TBL,  HP_Rebel_Station_One_Fighter_Bay
 		</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -1867,7 +1867,7 @@
 			HP_Rebel_Station_One_CCM,
 			HP_Rebel_Station_One_LC,
 			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
+			
 			HP_Rebel_Station_One_Fighter_Bay,
 			HP_Rebel_Station_Two_LC,
 			HP_Rebel_Station_Two_PRT,
@@ -1884,6 +1884,7 @@
 			Rebel,
 				UNSC_GLADIUS,
 				UNSC_MAKO,
+				UNSC_PARIS,
 				Longsword_Squadron,
 				Broadsword_Squadron,
 				RS_Improved_Weapons_L1_Upgrade,
@@ -1944,7 +1945,7 @@
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock, HP_Rebel_Station_One_Comm_Array, HP_Rebel_Station_One_CCM, HP_Rebel_Station_One_LC, HP_Rebel_Station_One_TBL, HP_Rebel_Station_One_ShieldGen, HP_Rebel_Station_One_Fighter_Bay, HP_Rebel_Station_Two_LC, HP_Rebel_Station_Two_PRT, HP_Rebel_Station_Two_TBL, HP_Rebel_Station_Three_CCM, HP_Rebel_Station_Three_IC, HP_Rebel_Station_Three_PRT		
+			HP_Rebel_Station_One_Supply_Dock, HP_Rebel_Station_One_Comm_Array, HP_Rebel_Station_One_CCM, HP_Rebel_Station_One_LC, HP_Rebel_Station_One_TBL,  HP_Rebel_Station_One_Fighter_Bay, HP_Rebel_Station_Two_LC, HP_Rebel_Station_Two_PRT, HP_Rebel_Station_Two_TBL, HP_Rebel_Station_Three_CCM, HP_Rebel_Station_Three_IC, HP_Rebel_Station_Three_PRT		
 		</HardPoints>
 		
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -1955,9 +1956,12 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
+				UNSC_IROQUOIS,
 				UNSC_HALBERD,
 				UNSC_MAKO,
 				UNSC_MUSASHI,
+				UNSC_STRIDENT,
+				UNSC_PARIS,
 				Longsword_Squadron,
 				Broadsword_Squadron,
 				RS_Improved_Weapons_L1_Upgrade,
@@ -2034,9 +2038,12 @@
 				UNSC_POA,
 				UNSC_GLADIUS,
 				UNSC_HALBERD,
+				UNSC_IROQUOIS,
 				UNSC_HALCYON,
 				UNSC_MAKO,
+				UNSC_STRIDENT,
 				UNSC_MARATHON,
+				UNSC_PARIS,
 				UNSC_MUSASHI,
 				UNSC_VINDICATION,
 				Longsword_Squadron,
@@ -2136,8 +2143,11 @@
 				UNSC_INFINITY,
 				UNSC_GLADIUS,
 				UNSC_HALBERD,
+				UNSC_IROQUOIS,
+				UNSC_PARIS,
 				UNSC_HALCYON,
 				UNSC_MAKO,
+				UNSC_STRIDENT,
 				UNSC_MARATHON,
 				UNSC_MUSASHI,
 				UNSC_VINDICATION,
