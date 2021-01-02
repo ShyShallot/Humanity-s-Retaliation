@@ -128,7 +128,7 @@
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
 		<Victory_Relevant>No</Victory_Relevant>
 
-		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
+		<Text_ID>TEXT_HALO_PLASMA_PLATFORM</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_LDS_build.ALO</Space_Model_Name>
@@ -165,8 +165,8 @@
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
-		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_PAD_00 </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_PAD_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_HALO_PLASMA_PLATFORM_ENC </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_HALO_PLASMA_PLATFORM_ENC </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -177,6 +177,9 @@
 	
 	<SpaceBuildable Name="UC_Rebel_Defense_Satellite_Laser">
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HALO_SMAC_PLATFORM</Text_ID>
+		<Encyclopedia_Text> TEXT_HALO_SMAC_PLATFORM_ENC </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_HALO_SMAC_PLATFORM_ENC </MP_Encyclopedia_Text>
 
 		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Laser </Tactical_Buildable_Constructed>
 		<Tactical_Build_Cost_Multiplayer> 1400 </Tactical_Build_Cost_Multiplayer>
@@ -1083,6 +1086,24 @@
 
 	<SpaceBuildable Name="Rebel_Defense_Satellite_Missile">
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HALO_ARCHER_PLATFORM</Text_ID>
+		<Encyclopedia_Text> TEXT_HALO_ARCHER_PLATFORM_ENC </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_HALO_ARCHER_PLATFORM_ENC </MP_Encyclopedia_Text>
+		<SpaceBehavior> TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL </SpaceBehavior>
+
+
+		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 8.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		<Projectile_Damage>17.5</Projectile_Damage>
+		<Projectile_Types>Proj_UNSC_Ship_Missile</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.6</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>7.5</Projectile_Fire_Recharge_Seconds>
 		<Affiliation>Rebel</Affiliation>
 	</SpaceBuildable>
 

@@ -173,6 +173,7 @@
 	<File>Corruption_Special_Units.XML</File>
 
 	<!-- NEW HALO UNITS GO BELOW THIS LINE -->
+	<File>HaloFiles\Halo_Super_Space_Units.xml</File>
 	<File>HaloFiles\Halo_Capital_Space_Units.xml</File>
 	<File>HaloFiles\Halo_Frigate_Space_Units.xml</File>
 	<File>HaloFiles\Halo_Fighter_Space_Units.xml</File>
