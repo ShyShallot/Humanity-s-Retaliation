@@ -1044,22 +1044,24 @@
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 		<Population_Value>11</Population_Value>
 
-		<Unit_Ability>
-				<Type>DEFEND</Type>
-				<Expiration_Seconds>7</Expiration_Seconds>
-				<Recharge_Seconds>90</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.65f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.8f</Mod_Multiplier> <!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.8f</Mod_Multiplier> <!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
-				<Alternate_Name_Text>HALO_PREPARE_FIRE</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_PREPARE_FIRE_ENC</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_SPREAD_OUT.TGA</Alternate_Icon_Name>
-				
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-		</Unit_Ability>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+					<Type>DEFEND</Type>
+					<Expiration_Seconds>7</Expiration_Seconds>
+					<Recharge_Seconds>90</Recharge_Seconds>
+					<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.65f</Mod_Multiplier>
+					<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.5f</Mod_Multiplier>
+					<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.8f</Mod_Multiplier> <!-- make it faster to recharge -->
+					<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.8f</Mod_Multiplier> <!-- make it faster to recharge -->
+					<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+					<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
+					<Alternate_Name_Text>HALO_PREPARE_FIRE</Alternate_Name_Text>
+					<Alternate_Description_Text>HALO_PREPARE_FIRE_ENC</Alternate_Description_Text>
+					<Alternate_Icon_Name>I_SA_SPREAD_OUT.TGA</Alternate_Icon_Name>
+					
+					<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>7850</Tactical_Build_Cost_Multiplayer>
