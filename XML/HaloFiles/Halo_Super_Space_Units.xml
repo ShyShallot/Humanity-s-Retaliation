@@ -146,7 +146,7 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.2  0.2</Radar_Icon_Size>
+		<Radar_Icon_Size>0.2  0.3</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_INFINITY.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -331,7 +331,7 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.7  0.35</Radar_Icon_Size>
+		<Radar_Icon_Size>0.3  0.4</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAS.tga</Radar_Icon_Name>
 		
 

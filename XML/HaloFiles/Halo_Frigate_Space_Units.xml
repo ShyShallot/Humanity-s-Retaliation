@@ -693,7 +693,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.7  0.35</Radar_Icon_Size>
+		<Radar_Icon_Size>0.35  0.7</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_MUSASHI.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -857,7 +857,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.07  0.035</Radar_Icon_Size>
+		<Radar_Icon_Size>0.035  0.07</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_HALB.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -1048,7 +1048,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>1.0  0.5</Radar_Icon_Size>
+		<Radar_Icon_Size>0.2  0.4</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_STRIDENT.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -1438,7 +1438,7 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.7  0.35</Radar_Icon_Size>
+		<Radar_Icon_Size>0.04  0.08</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 

@@ -137,7 +137,7 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.06  0.08</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPITAL_UNSC.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -339,7 +339,7 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.05  0.08</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPITAL_UNSC.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -502,7 +502,7 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.06  0.08</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPITAL_UNSC.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -667,7 +667,7 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.06  0.06</Radar_Icon_Size>
+		<Radar_Icon_Size>0.03  0.06</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPITAL_UNSC.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -832,7 +832,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.07  0.035</Radar_Icon_Size>
+		<Radar_Icon_Size>0.035  0.07</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_VINDICATION.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -894,7 +894,7 @@
 	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Select_Box_Scale>150</Select_Box_Scale>
+		<Select_Box_Scale>700</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
 		<Scale_Factor>0.8</Scale_Factor>
@@ -1033,7 +1033,7 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.065  0.065</Radar_Icon_Size>
+		<Radar_Icon_Size>0.055  0.065</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
@@ -1085,7 +1085,7 @@
 	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Select_Box_Scale>350</Select_Box_Scale>
+		<Select_Box_Scale>400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
 		<Scale_Factor>0.9</Scale_Factor>
@@ -1224,7 +1224,7 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.065  0.065</Radar_Icon_Size>
+		<Radar_Icon_Size>0.055  0.065</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 

@@ -54,3 +54,12 @@ function Is_Target_Affected_By_Ability(object, ability_name)
         return true
     end
 end
+
+function Check_Game_Mode(game_mode_to_check_for) 
+    gamemode_string = tostring(game_mode_to_check_for, function_to_run)
+    if Get_Game_Mode() ~= gamemode_string then 
+        return false
+    else 
+        return true
+    end
+end

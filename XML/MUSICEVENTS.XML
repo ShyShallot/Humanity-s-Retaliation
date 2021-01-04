@@ -269,7 +269,7 @@
 	<!-- ===================================== -->
 
 	<MusicEvent Name="Desert_Land_Rebel_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -277,7 +277,7 @@
     </MusicEvent>
 	
 	<MusicEvent Name="Ice_Land_Rebel_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -285,7 +285,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Swamp_Land_Rebel_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -293,7 +293,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Volcanic_Land_Rebel_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -301,7 +301,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Temperate_Land_Rebel_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -309,7 +309,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Urban_Land_Rebel_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -327,7 +327,7 @@
 	<!-- ======================================= -->
 
 	<MusicEvent Name="Desert_Land_Empire_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -335,7 +335,7 @@
     </MusicEvent>
 	
 	<MusicEvent Name="Ice_Land_Empire_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>0.5</Fade_Out_Previous_Seconds>
@@ -343,7 +343,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Swamp_Land_Empire_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -351,7 +351,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Volcanic_Land_Empire_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -359,7 +359,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Temperate_Land_Empire_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -367,7 +367,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Urban_Land_Empire_Battle_Music_Event">
-        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -405,7 +405,7 @@
 
 
 	<MusicEvent Name="Space_Map_Rebel_Battle_Music_Event">
-		 <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+		 <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
 		 <Volume_Percent>55</Volume_Percent>
 		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -413,7 +413,7 @@
 	</MusicEvent>
 
 	<MusicEvent Name="Space_Map_Empire_Battle_Music_Event">
-		<Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+		<Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
 		 <Volume_Percent>55</Volume_Percent>
 		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -538,7 +538,7 @@
 
 
 	 <MusicEvent Name="Game_Credits_Music_Event">
-		 <Files>halo3battlemusicfinaleffort.MP3, halo3battlemusicthreegates.MP3, halo3menumuisc.MP3 </Files>
+		 <Files>halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicthreegates.MP3, halo3menumuisc.MP3 </Files>
 		  <Volume_Percent> 100 </Volume_Percent>
 		  <Fade_In_Seconds> 0.0 </Fade_In_Seconds>
 		  <Fade_Out_Previous_Seconds> 0.0 </Fade_Out_Previous_Seconds>

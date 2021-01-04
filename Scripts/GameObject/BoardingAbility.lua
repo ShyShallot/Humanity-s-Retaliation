@@ -39,6 +39,10 @@ function State_Init(message)
    
     elseif message == OnUpdate then
         DebugMessage("%s -- In OnEnter", tostring(Script))
+        if not Check_Game_Mode(Space) then
+            ScriptExit()
+        end
+
         if player.Is_Human() then 
             if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
                 DebugMessage("%s -- Tractor Beam is now active running function", tostring(Script))
@@ -65,11 +69,11 @@ function State_AI_Autofire(message)
 	end		
 end
 
-function Find_Nearest_Board_Target(AIRUN) 
+function Find_Nearest_Board_Target(is_owner_ai) 
     DebugMessage("%s -- Running Find_Nearest_Board_Target", tostring(Script))
     target = Find_Nearest(Object, "Corvette | Frigate | Capital", player, false) -- Find_Nearest(Object to Search around, Optinal Catergory Filter: "Frigate | Capital", player object, if its owned by the player)
     if TestValid(target) then
-        if AIRUN == true then
+        if is_owner_ai == true then
             InitalBoardingChance = 0.65 
             TakeOverChance =  0.93
             FailChance = 0.3
@@ -105,9 +109,9 @@ function BoardingFunction()
                         Object.Set_Selectable(false)
                         DebugMessage("%s -- Boarding Active, Running Boarding Damage", tostring(Script))
                         Deal_Unit_Damage_Seconds(target, BoardingDamage, nil, 0, "Unit_Hardpoint_Turbo_Laser_Death")
-                        UntilBoardChances = UntilBoardChances + 1
+                        local chances = UntilBoardChances + 1
                         Sleep(3)
-                        if UntilBoardChances >= 10 then
+                        if chances >= 10 then
                             if Return_Chance(FailChance)  then -- If the boarding units die by chance
                                 Sleep(3)
                                 ShouldRun = 0
@@ -134,10 +138,10 @@ function BoardingFunction()
                                 target = nil
                                 Object.Set_Selectable(true)
                             end
-                            TotalBoardUses = TotalBoardUses + 1
-                            UntilBoardChances = 0
+                            local uses = TotalBoardUses + 1
+                            chances = 0
                             Object.Set_Selectable(true)
-                            if TotalBoardUses >= 3 then
+                            if uses >= 3 then
                                 Deal_Unit_Damage(Object, 1, HP_BOARD_POINT)
                             end
                         end
@@ -150,6 +154,8 @@ function BoardingFunction()
                 end
             end
         end
-    else ShouldRun = 0 end -- If the target we found isnt Alive and/or Not being affected by the Tractor Beam essentially restart the script
+    else 
+        ShouldRun = 0 
+    end -- If the target we found isnt Alive and/or Not being affected by the Tractor Beam essentially restart the script
 end
 
