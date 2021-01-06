@@ -7,7 +7,7 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<Damage_Type>Damage_Turbolaser</Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>10.0</Projectile_Damage>
+		<Projectile_Damage>4.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -29,8 +29,8 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
-		<Max_Speed>25.0</Max_Speed>
-		<Projectile_Damage>48.0</Projectile_Damage>
+		<Max_Speed>50.0</Max_Speed>
+		<Projectile_Damage>20.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -52,9 +52,9 @@
 	<Projectile Name="Proj_CAS_Heavy_Plasma">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
-		<Scale_Factor>8.0</Scale_Factor>
-		<Max_Speed>40.0</Max_Speed>
-		<Projectile_Damage>80.0</Projectile_Damage>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Max_Speed>45.0</Max_Speed>
+		<Projectile_Damage>30.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -260,7 +260,7 @@
 		<Space_Model_Name>W_UNSC_MAC.alo</Space_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>70.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Missile</Projectile_Category>
@@ -287,7 +287,7 @@
 		<Space_Model_Name>W_UNSC_MAC.alo</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>100.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Missile</Projectile_Category>

@@ -75,7 +75,7 @@
 		<TSW_SFXEvent_GUI_Bttton_Press> GUI_Death_Star_Button_Press </TSW_SFXEvent_GUI_Bttton_Press>
 		<TSW_SFXEvent_Activate_Voice> EHD_Death_Star_Activate </TSW_SFXEvent_Activate_Voice>
 		<TSW_SFXEvent_Weapon_Power_Up> GUI_Death_Star_Activate </TSW_SFXEvent_Weapon_Power_Up>
-		<TSW_MusicEvent_Activation_Start> Space_Map_Activate_Death_Star_Music_Event </TSW_MusicEvent_Activation_Start>
+		<TSW_MusicEvent_Activation_Start/>
 		<TSW_Post_Music_Wait_Frames> 1 </TSW_Post_Music_Wait_Frames> <!-- Now unused -->
 		<TSW_Post_Destruction_Wait_Frames> 350 </TSW_Post_Destruction_Wait_Frames> <!-- Music is 19.15 seconds: 19.15 * 30 FPS = 575 -->
 		<TSW_Z_Adjust_Relative_To_Target_Pos> 1200.0 </TSW_Z_Adjust_Relative_To_Target_Pos>
@@ -203,4 +203,3 @@
 	
 	
 </SpaceUnitsSupers>
-

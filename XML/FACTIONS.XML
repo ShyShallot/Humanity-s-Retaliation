@@ -1031,7 +1031,7 @@
 		<!-- ======================================================================= -->
 
 		<Music_Event_Space_Ambient_Super_Weapon> </Music_Event_Space_Ambient_Super_Weapon>
-		<Music_Event_Space_Battle_Super_Weapon> Space_Map_Empire_Battle_Death_Star_Music_Event </Music_Event_Space_Battle_Super_Weapon>
+		<Music_Event_Space_Battle_Super_Weapon/>
 		<Music_Event_Land_Ambient_Super_Weapon> </Music_Event_Land_Ambient_Super_Weapon>
 		<Music_Event_Land_Battle_Super_Weapon> </Music_Event_Land_Battle_Super_Weapon>
 

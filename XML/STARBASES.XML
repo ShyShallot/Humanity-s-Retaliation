@@ -2019,7 +2019,7 @@
 	<StarBase Name="Skirmish_Rebel_Star_Base_4">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>7000</Shield_Points>
 		<Tactical_Health>7500</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
@@ -2104,7 +2104,7 @@
 	<StarBase Name="Skirmish_Rebel_Star_Base_5">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>14000</Shield_Points>
 		<Tactical_Health>10500</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
