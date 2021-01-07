@@ -362,6 +362,53 @@
 			HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25
 		</HardPoints>
 		<Population_Value>40</Population_Value>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<Unit_Ability>
+				<Type>SUPER_LASER</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.4f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name> Death_Star_Super_Laser_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Recharge_Seconds>200</Recharge_Seconds>
+				<Expiration_Seconds>3</Expiration_Seconds>
+				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
+				<Alternate_Name_Text>HALO_FIRE_PLASMA_LANCE</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_PLASMA_LANCE_ENC</Alternate_Description_Text>
+			</Unit_Ability>
+
+
+			
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+
+			<Super_Laser_Ability Name="Death_Star_Super_Laser_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories> Capital | Frigate | Super </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+                <!-- <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect> -->
+                <Owner_Particle_Bone_Name>HP_HUGEFUCKINGLASER</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+	            <Activation_Max_Range>3000</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Damage_Per_Frame>75</Damage_Per_Frame>			
+				<Fire_Frame>30</Fire_Frame>
+				<Attack_Anim_Sub_Index>0</Attack_Anim_Sub_Index>
+				<Beam_Texture_Name>COVN_PLASMALANCE.DDS</Beam_Texture_Name>
+				<Num_Anim_Frames>0</Num_Anim_Frames>
+				<Line_Width>200</Line_Width>
+				<Line_Color>198 47 224 255</Line_Color>
+				<Face_Target>true</Face_Target>
+				<Turn_Rate>-1.0f</Turn_Rate>
+				<Firing_Cone>10.0f</Firing_Cone>
+            <Fire_Delay>1</Fire_Delay>
+            <Fire_Continuation>0.01</Fire_Continuation>
+			</Super_Laser_Ability>
+
+		</Abilities>
 	</SpaceUnit>
 
 	

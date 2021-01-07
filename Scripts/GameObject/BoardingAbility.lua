@@ -39,9 +39,7 @@ function State_Init(message)
    
     elseif message == OnUpdate then
         DebugMessage("%s -- In OnEnter", tostring(Script))
-        if not Check_Game_Mode(Space) then
-            ScriptExit()
-        end
+
 
         if player.Is_Human() then 
             if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
@@ -60,7 +58,7 @@ function State_AI_Autofire(message)
         DebugMessage("%s -- Is AI Checking for Ability", tostring(Script))
         if Object.Is_Ability_Ready(ability_name) then -- Is the Boarding Ability ready to use
             DebugMessage("%s -- Running Ability from AI", tostring(Script))
-            Object.Activate_Ability(ability_name, true)
+            Object.Activate_Ability(ability_name)
             if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
                 DebugMessage("%s -- Tractor Beam is now active running function from AI", tostring(Script))
                 Find_Nearest_Board_Target(true) -- Run this function with true to let the Function know the AI is using it
