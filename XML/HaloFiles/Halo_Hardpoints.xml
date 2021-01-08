@@ -9043,7 +9043,7 @@
 			<Fire_Bone_A>FB_CAS_MT_01</Fire_Bone_A>
             <Fire_Bone_B>FB_CAS_MT_01</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>250.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
@@ -9065,7 +9065,7 @@
 			<Fire_Bone_A>FB_CAS_MT_02</Fire_Bone_A>
             <Fire_Bone_B>FB_CAS_MT_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>250.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
@@ -9087,7 +9087,7 @@
 			<Fire_Bone_A>FB_CAS_MT_03</Fire_Bone_A>
             <Fire_Bone_B>FB_CAS_MT_03</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>250.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
@@ -9109,7 +9109,7 @@
 			<Fire_Bone_A>FB_CAS_MT_04</Fire_Bone_A>
             <Fire_Bone_B>FB_CAS_MT_04</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>250.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
@@ -9131,7 +9131,7 @@
 			<Fire_Bone_A>FB_CAS_MT_05</Fire_Bone_A>
             <Fire_Bone_B>FB_CAS_MT_05</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>250.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
@@ -9153,7 +9153,7 @@
 			<Fire_Bone_A>FB_CAS_MT_06</Fire_Bone_A>
             <Fire_Bone_B>FB_CAS_MT_06</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>250.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
@@ -9175,7 +9175,7 @@
 			<Fire_Bone_A>FB_CAS_MT_07</Fire_Bone_A>
             <Fire_Bone_B>FB_CAS_MT_07</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>250.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
@@ -9197,7 +9197,7 @@
 			<Fire_Bone_A>FB_CAS_MT_08</Fire_Bone_A>
             <Fire_Bone_B>FB_CAS_MT_08</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>250.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
@@ -9219,7 +9219,7 @@
 			<Fire_Bone_A>FB_CAS_MT_09</Fire_Bone_A>
             <Fire_Bone_B>FB_CAS_MT_09</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>250.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
@@ -9241,7 +9241,7 @@
 			<Fire_Bone_A>FB_CAS_MT_10</Fire_Bone_A>
             <Fire_Bone_B>FB_CAS_MT_10</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Cone_Height>250.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>

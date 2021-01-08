@@ -877,6 +877,7 @@
 		Damage_Proton_Torp, 
 		Damage_Proton_Torp_Light, 
 		Damage_Con_Missile, 
+		Damage_Con_Missile_Heavy,
 		Damage_Turbolaser, 
 		Damage_Blaster_Hand, 
 		Damage_PLEX, 
@@ -1552,16 +1553,47 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Victory_Class, 0.75 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Assault_Frigate, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Calamari_Cruiser, 0.45 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Star_Destroyer, 0.45 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Star_Destroyer, 0.55 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Station, 0.2 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Capital, 0.4</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Frigate, 0.45</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Corvette, 0.5</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Fighter, 0.6</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_SSD, 0.25 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Capital, 0.50</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Frigate, 0.70</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Corvette, 1.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Fighter, 1.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_SSD, 0.40 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Vengeance, 5.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_MC30_Frigate, 5.8 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_SSD, 0.3 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_SSD, 0.4 </Damage_To_Armor_Mod>
+
+	<!-- Concussion Missile Damage Type - Space Only, Used by Archer Pods and Bullets -->
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Transport, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Bomber, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Fighter, 1.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Hero_Transport, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Corellian_Corvette, 1.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Missile_Cruiser, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Tartan, 1.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Interdictor, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Corellian_Gunboat, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Nebulon_B, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Acclamator, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Pirate_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Satellite, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Victory_Class, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Assault_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Calamari_Cruiser, 0.45 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Star_Destroyer, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Station, 0.2 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_Capital, 0.80</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_Frigate, 1.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_Corvette, 1.5</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_Fighter, 1.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_SSD, 0.70 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Vengeance, 5.0 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_MC30_Frigate, 5.8 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_SSD, 0.5 </Damage_To_Armor_Mod>
 
 	<!-- Turbolaser Damage Type - Space Only, Turbolaser Damage is used by Plasma Weapons, keep this in mind -->
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Default, 1 </Damage_To_Armor_Mod>
