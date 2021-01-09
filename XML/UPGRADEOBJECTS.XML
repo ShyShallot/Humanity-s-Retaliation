@@ -2938,7 +2938,7 @@
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L2_Bonus">
-				<Income_Multiplier>3</Income_Multiplier>
+				<Income_Multiplier>2.2</Income_Multiplier>
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>2.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
