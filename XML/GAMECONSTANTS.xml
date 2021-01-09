@@ -1549,7 +1549,7 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Acclamator, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Pirate_Frigate, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Satellite, 1.2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Frigate, 0.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Victory_Class, 0.75 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Assault_Frigate, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Calamari_Cruiser, 0.45 </Damage_To_Armor_Mod>
