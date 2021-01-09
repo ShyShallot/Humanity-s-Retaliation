@@ -138,7 +138,7 @@
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>20</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	
@@ -169,7 +169,7 @@
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>20</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
 		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
 		
@@ -217,7 +217,7 @@
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>20</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	</Projectile>
@@ -248,7 +248,7 @@
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>20</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 	</Projectile>

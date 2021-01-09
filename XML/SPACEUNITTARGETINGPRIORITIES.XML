@@ -71,11 +71,12 @@
 
 	<Priority_Set Name="Frigate">
 		<Attack_Priorities>
-			Transport, 1.0,
-			Bomber, 2.0,
-			Corvette, 3.0,
-			SpaceHero, 3.5,
+			Transport, 3.0,
+			Bomber, 3.5,
+			Corvette, 2.0,
+			SpaceHero, 2.5,
 			Fighter, 4.0,
+			Frigate, 1.0,
 		</Attack_Priorities>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>

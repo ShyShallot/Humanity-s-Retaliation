@@ -210,11 +210,11 @@
 			+
 			3.0 * (1.0 - Variable_Target.Location.EnemyForce)
 			+
-			2.0 * (1.0 - (Variable_Target.Shield > 0.66))
+			2.0 * (1.0 - (Variable_Target.Shield > 0.40))
 			+
 			2.0 * (1.0 - Variable_Target.Health)
 			+
-			5.0 * (1.0 - Variable_Target.Health > 0.8)
+			5.0 * (1.0 - Variable_Target.Health > 0.7)
 			+ 
 			(1.0 - Variable_Target.ForceNBTD)
 			+
@@ -953,7 +953,7 @@
 		*
 		Function_Is_Starbase.Evaluate
 		*
-		(2500 > Variable_Target.DistanceToNearestEnemy {Parameter_Category = GameObjectCategoryType[Frigate | Capital]})
+		(2500 > Variable_Target.DistanceToNearestEnemy {Parameter_Category = GameObjectCategoryType[Corvette | Frigate | Capital | Super]})
 	</Need_To_Defend_Space_Station>
 
 </Equations>

@@ -2272,6 +2272,17 @@
 			<Outline>No</Outline>
 		</IDC_GAME_TYPE_LIST>
 
+		<IDC_MAIN_MENU_NOTICE>
+			<Name>EmpireAtWar-Bold</Name>
+			<Character_Padding>0</Character_Padding>
+			<Stretch_Factor>1</Stretch_Factor>
+			<Size>7</Size>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
+			<Emboss>No</Emboss>
+			<Outline>No</Outline>
+		</IDC_MAIN_MENU_NOTICE>
+
 		<!-- R2 Help Menu Fonts -->
 		<IDC_BUTTON_PLANETARY>
 			<Name>EmpireAtWar-Bold</Name>
