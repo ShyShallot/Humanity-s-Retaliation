@@ -17,8 +17,8 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.6</Max_Speed>
-		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
+		<Max_Speed>0.8</Max_Speed>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-850.0</Layer_Z_Adjust>
@@ -155,15 +155,27 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-
+	    <Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+			
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-1.5f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.6f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,    2.4f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>7</Expiration_Seconds>
+				<Alternate_Name_Text>HALO_HARD_OFFENSIVE</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_HARD_OFFENSIVE_ENC</Alternate_Description_Text>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+			
 		</Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
-    
-        </Abilities>
-       
 		<Encyclopedia_Text> TEXT_TOOLTIP_INFINITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPER_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
@@ -205,7 +217,7 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<Max_Speed>0.73</Max_Speed>
-		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-960.0</Layer_Z_Adjust>
@@ -369,7 +381,7 @@
 				<Type>SUPER_LASER</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.4f</Mod_Multiplier>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name> Death_Star_Super_Laser_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name> CAS_PLASMA_LANCE </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Recharge_Seconds>200</Recharge_Seconds>
 				<Expiration_Seconds>3</Expiration_Seconds>
 				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
@@ -384,7 +396,7 @@
 
 		<Abilities SubObjectList="Yes">
 
-			<Super_Laser_Ability Name="Death_Star_Super_Laser_Attack_Ability">
+			<Super_Laser_Ability Name="CAS_PLASMA_LANCE">
 				<Activation_Style> User_Input </Activation_Style>
 				<Applicable_Unit_Categories> Capital | Frigate | Super </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
@@ -394,7 +406,7 @@
 	            <Activation_Max_Range>3000</Activation_Max_Range>
 
 				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<Damage_Per_Frame>75</Damage_Per_Frame>			
+				<Damage_Per_Frame>200</Damage_Per_Frame>			
 				<Fire_Frame>30</Fire_Frame>
 				<Attack_Anim_Sub_Index>0</Attack_Anim_Sub_Index>
 				<Beam_Texture_Name>COVN_PLASMALANCE.DDS</Beam_Texture_Name>

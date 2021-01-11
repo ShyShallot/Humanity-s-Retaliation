@@ -3323,9 +3323,9 @@
             <Attachment_Bone>HP_MAC_CANNON_01</Attachment_Bone>
 			<Fire_Bone_A>HP_MAC_CANNON_01</Fire_Bone_A>
             <Fire_Bone_B>HP_MAC_CANNON_01</Fire_Bone_B>
-            <Fire_Cone_Width>45.0</Fire_Cone_Width>
+            <Fire_Cone_Width>2.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_UNSC_MAC</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3352,9 +3352,9 @@
             <Attachment_Bone>HP_MAC_CANNON_02</Attachment_Bone>
 			<Fire_Bone_A>HP_MAC_CANNON_02</Fire_Bone_A>
             <Fire_Bone_B>HP_MAC_CANNON_02</Fire_Bone_B>
-            <Fire_Cone_Width>45.0</Fire_Cone_Width>
+            <Fire_Cone_Width>2.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_UNSC_MAC</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3381,9 +3381,9 @@
             <Attachment_Bone>HP_MAC_CANNON_03</Attachment_Bone>
 			<Fire_Bone_A>HP_MAC_CANNON_03</Fire_Bone_A>
             <Fire_Bone_B>HP_MAC_CANNON_03</Fire_Bone_B>
-            <Fire_Cone_Width>45.0</Fire_Cone_Width>
+            <Fire_Cone_Width>2.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_UNSC_MAC</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3410,9 +3410,9 @@
             <Attachment_Bone>HP_MAC_CANNON_04</Attachment_Bone>
 			<Fire_Bone_A>HP_MAC_CANNON_04</Fire_Bone_A>
             <Fire_Bone_B>HP_MAC_CANNON_04</Fire_Bone_B>
-            <Fire_Cone_Width>45.0</Fire_Cone_Width>
+            <Fire_Cone_Width>2.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_UNSC_MAC</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>

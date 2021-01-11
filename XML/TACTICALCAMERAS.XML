@@ -90,7 +90,7 @@
         <Pitch_When_Zoomed_In>50</Pitch_When_Zoomed_In>
         <Pitch_Zoom_Begin_Fraction>-1.0</Pitch_Zoom_Begin_Fraction> <!-- disabled -->
 
-		<Yaw_Default>60.0</Yaw_Default>
+		<Yaw_Default>0.0</Yaw_Default>
 		<Yaw_Min>-1000</Yaw_Min>
 		<Yaw_Max>1000</Yaw_Max>
 		<Yaw_Per_Mouse_Unit>1.5</Yaw_Per_Mouse_Unit>

@@ -35,7 +35,6 @@ function State_Init(message)
         TakeOverChance =  0.95 -- Used for the chance of taking over the ship
         FailChance = 0.6 -- The Chance for the boarding to fail and stop
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
-        
    
     elseif message == OnUpdate then
         DebugMessage("%s -- In OnEnter", tostring(Script))
@@ -58,11 +57,7 @@ function State_AI_Autofire(message)
         DebugMessage("%s -- Is AI Checking for Ability", tostring(Script))
         if Object.Is_Ability_Ready(ability_name) then -- Is the Boarding Ability ready to use
             DebugMessage("%s -- Running Ability from AI", tostring(Script))
-            Object.Activate_Ability(ability_name, true)
-            if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
-                DebugMessage("%s -- Tractor Beam is now active running function from AI", tostring(Script))
-                Find_Nearest_Board_Target(true) -- Run this function with true to let the Function know the AI is using it
-            else Sleep(2) end
+            Find_Nearest_Board_Target(true) -- Run this function with true to let the Function know the AI is using it
 		end
 	end		
 end
@@ -72,6 +67,8 @@ function Find_Nearest_Board_Target(is_owner_ai)
     target = Find_Nearest(Object, "Corvette | Frigate | Capital", player, false) -- Find_Nearest(Object to Search around, Optinal Catergory Filter: "Frigate | Capital", player object, if its owned by the player)
     if TestValid(target) then
         if is_owner_ai == true then
+            Object.Activate_Ability(ability_name, target)
+            Sleep(1)
             InitalBoardingChance = 0.65 
             TakeOverChance =  0.93
             FailChance = 0.3
@@ -81,7 +78,10 @@ function Find_Nearest_Board_Target(is_owner_ai)
             ShouldRun = 1
             BoardingFunction()
         end
-    else Sleep(1) end  -- Cant find Target sleeping for 1 seconds to give time to find one.
+    else 
+        DebugMessage("%s -- Cant Find Targeting Sleeping Script", tostring(Script))
+        Sleep(1)
+    end  -- Cant find Target sleeping for 1 seconds to give time to find one.
 end
 
 
