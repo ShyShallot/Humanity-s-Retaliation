@@ -381,11 +381,11 @@
 			<Is_3D> Yes </Is_3D>
 			<Is_2D> No </Is_2D>
 			<Priority> 2 </Priority>
-			<Max_Instances>3</Max_Instances>
+			<Max_Instances>7</Max_Instances>
   			<Min_Pitch>100</Min_Pitch>
 			<Max_Pitch>105</Max_Pitch>
-			<Min_Volume>80</Min_Volume>
-			<Max_Volume>80</Max_Volume>
+			<Min_Volume>50</Min_Volume>
+			<Max_Volume>100</Max_Volume>
 			<Volume_Saturation_Distance>750.0</Volume_Saturation_Distance>
 	 </SFXEvent>
 

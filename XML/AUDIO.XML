@@ -11,9 +11,9 @@
 	<Audio_Galactic_3D_Listener_Z_Pullback_Dist> 0.0 </Audio_Galactic_3D_Listener_Z_Pullback_Dist>
 
 	<!-- Audio 3D distance factors for Space mode -->
-	<Audio_Space_3D_Saturation_Distance_Mod> 1.5 </Audio_Space_3D_Saturation_Distance_Mod>			<!-- The higher the multiplier, the larger the saturation distances are scaled -->
-	<Audio_Space_3D_Rolloff_Distance_Mod> 2.0 </Audio_Space_3D_Rolloff_Distance_Mod>					<!-- The higher the multiplier, the quicker the rolloff over distance -->
-	<Audio_Space_3D_Listener_Z_Pullback_Dist> 60.0 </Audio_Space_3D_Listener_Z_Pullback_Dist>	<!-- The higher the Z elevation, this higher above the map the listener is -->
+	<Audio_Space_3D_Saturation_Distance_Mod> 2.5 </Audio_Space_3D_Saturation_Distance_Mod>			<!-- The higher the multiplier, the larger the saturation distances are scaled -->
+	<Audio_Space_3D_Rolloff_Distance_Mod> 3.0 </Audio_Space_3D_Rolloff_Distance_Mod>					<!-- The higher the multiplier, the quicker the rolloff over distance -->
+	<Audio_Space_3D_Listener_Z_Pullback_Dist> 100.0 </Audio_Space_3D_Listener_Z_Pullback_Dist>	<!-- The higher the Z elevation, this higher above the map the listener is -->
 
 	<!-- Audio 3D distance factors for Land mode -->
 	<Audio_Land_3D_Saturation_Distance_Mod> 1.0 </Audio_Land_3D_Saturation_Distance_Mod>			<!-- The higher the multiplier, the larger the saturation distances are scaled -->
@@ -43,8 +43,8 @@
 	<SFXEvent_MP_Give_Teammate_Credits> GUI_Credits </SFXEvent_MP_Give_Teammate_Credits>
 
 	<!-- Delay duing "peace" to wait before transitioning tactical battle music back to ambient music -->
-	<Music_Land_Battle_To_Ambient_Peace_Seconds> 15.0 </Music_Land_Battle_To_Ambient_Peace_Seconds>
-	<Music_Space_Battle_To_Ambient_Peace_Seconds> 15.0 </Music_Space_Battle_To_Ambient_Peace_Seconds>
+	<Music_Land_Battle_To_Ambient_Peace_Seconds> 7.0 </Music_Land_Battle_To_Ambient_Peace_Seconds>
+	<Music_Space_Battle_To_Ambient_Peace_Seconds> 7.0 </Music_Space_Battle_To_Ambient_Peace_Seconds>
 
 	<!-- Battle load screen music -->
 	<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event </Music_Event_Battle_Load_Screen> 
