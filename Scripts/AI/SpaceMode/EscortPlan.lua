@@ -57,7 +57,7 @@ function Definitions()
 		"MainForce"
 		,"Fighter = 1,4"
 		,"COVN_CRS = 0,1"
-		,"UNSC_GLADIUS = 0,2"
+		,"UNSC_MAKO = 0,2"
 	}
 	}
 end

@@ -95,7 +95,7 @@ function BoardingFunction()
     if Is_Target_Affected_By_Ability(target, ability_name) then  -- If target is alive and is being affected by tractor beam then run
         DebugMessage("%s -- Found Target", tostring(target))
         while TestValid(target) and ShouldRun == 1 do -- using a Var and test valid prevents a recursion loop which crashes the game
-            if Get_Distance(Object, target) <= 800 then 
+            if Get_Target_Distance(Object, target) <= 800 then 
                 DebugMessage("%s -- Found Nearest Target", tostring(target))
                 boardingActive = false -- Boarding is not active, used for loop 
                 if Object.Is_Ability_Active(ability_name) then -- Double check if the ability is active 

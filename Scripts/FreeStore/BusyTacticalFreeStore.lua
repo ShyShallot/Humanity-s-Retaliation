@@ -52,7 +52,7 @@ function Base_Definitions()
 		Definitions()
 	end
 	
-	FREE_STORE_ATTACK_RANGE = 600.0
+	FREE_STORE_ATTACK_RANGE = 800.0
 end
 
 function main()
@@ -72,6 +72,14 @@ end
 
 
 function FreeStoreService()
+	diff = PlayerObject.Get_Difficulty()
+	if diff == "Easy" then
+		Difftime = 60
+	elseif diff == "Normal" then
+		Difftime = 30
+	elseif diff == "Hard" then
+		Difftime = 1
+	end
 	enemy_location = FindTarget.Reachable_Target(PlayerObject, "Current_Enemy_Location", "Tactical_Location", "Any_Threat", 0.5)
 	friendly_location = FindTarget.Reachable_Target(PlayerObject, "Current_Friendly_Location", "Tactical_Location", "Any_Threat", 0.5)
 	aggressive_mode = (EvaluatePerception("Allowed_As_Defender_Land", PlayerObject) > 0.0)
@@ -80,7 +88,7 @@ function FreeStoreService()
 	if Get_Game_Mode() == "Space" then
 		if TestValid(space_station) then
 			station_threat = FindDeadlyEnemy(space_station)
-			if station_threat then
+			if station_threat and (EvaluatePerception("Game_Age", PlayerObject) > Difftime) then
 				space_station.Attack_Target(station_threat)
 			end
 			

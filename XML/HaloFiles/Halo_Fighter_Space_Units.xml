@@ -108,7 +108,6 @@
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>75</AI_Combat_Power>
-		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -346,7 +345,6 @@
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>75</AI_Combat_Power>
-		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		

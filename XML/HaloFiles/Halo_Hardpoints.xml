@@ -172,7 +172,7 @@
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-
+            <Health>500.0</Health>
 
             <Model_To_Attach>UNSC_GladiusTurretLeftF.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -204,15 +204,13 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             
-    
-    
     </HardPoint>
 
     <HardPoint Name="UNSC_GLAD_04">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-
+            <Health>500.0</Health>
 
             <Model_To_Attach>UNSC_GladiusTurretLeftB.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -251,7 +249,7 @@
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-
+            <Health>500.0</Health>
 
             <Model_To_Attach>UNSC_GladiusTurretRightF.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -290,7 +288,7 @@
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-
+            <Health>500.0</Health>
 
             <Model_To_Attach>UNSC_GladiusTurretRightB.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -12036,7 +12034,6 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
-			<Death_Breakoff_Prop> Hardpoint_Breakoff_Star_Dest_Shield_Gen </Death_Breakoff_Prop>
 
             <Attachment_Bone>HP_SHIELDGEN</Attachment_Bone>
             <Collision_Mesh>HP_SHIELDGEN</Collision_Mesh>

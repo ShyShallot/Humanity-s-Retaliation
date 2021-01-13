@@ -58,7 +58,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>1</Build_Cost_Credits>
-		<AI_Combat_Power>4250</AI_Combat_Power>
+		<AI_Combat_Power>8000</AI_Combat_Power>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -164,7 +164,7 @@
 		<Abilities SubObjectList="Yes">
 			<Blast_Ability Name="Fire_Shiva_Nuke">
 				<Activation_Style> User_Input </Activation_Style>
-                <Charge_Up_Seconds>5</Charge_Up_Seconds>
+                <Charge_Up_Seconds>1</Charge_Up_Seconds>
                 <Damage_Multiplier>1</Damage_Multiplier>
                 <Charging_Effect />
                 <Charged_Effect />
@@ -260,7 +260,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>1</Build_Cost_Credits>
-		<AI_Combat_Power>4250</AI_Combat_Power>
+		<AI_Combat_Power>8500</AI_Combat_Power>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -423,7 +423,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>1</Build_Cost_Credits>
-		<AI_Combat_Power>4250</AI_Combat_Power>
+		<AI_Combat_Power>7000</AI_Combat_Power>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -588,7 +588,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>1</Build_Cost_Credits>
-		<AI_Combat_Power>4250</AI_Combat_Power>
+		<AI_Combat_Power>6500</AI_Combat_Power>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -755,7 +755,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>3250</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>2500</AI_Combat_Power>
+		<AI_Combat_Power>8500</AI_Combat_Power>
 		<Build_Time_Seconds>55</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -942,7 +942,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>11000</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>5900</AI_Combat_Power>
+		<AI_Combat_Power>8000</AI_Combat_Power>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1049,6 +1049,7 @@
 					<Type>DEFEND</Type>
 					<Expiration_Seconds>7</Expiration_Seconds>
 					<Recharge_Seconds>90</Recharge_Seconds>
+					<Supports_Autofire>True</Supports_Autofire>
 					<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.65f</Mod_Multiplier>
 					<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.5f</Mod_Multiplier>
 					<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.8f</Mod_Multiplier> <!-- make it faster to recharge -->
@@ -1062,7 +1063,7 @@
 					<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
+		<Lua_Script>DesperateStrike</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>7850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
@@ -1133,7 +1134,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>11000</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>5900</AI_Combat_Power>
+		<AI_Combat_Power>7600</AI_Combat_Power>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1305,7 +1306,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>11000</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>5900</AI_Combat_Power>
+		<AI_Combat_Power>8500</AI_Combat_Power>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
