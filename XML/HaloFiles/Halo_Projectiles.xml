@@ -31,7 +31,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		<Max_Speed>50.0</Max_Speed>
-		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Damage>10.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -49,6 +49,8 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_Blast_Area_Range>40</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>8</Projectile_Blast_Area_Damage>
 	</Projectile>
 
 	<Projectile Name="Proj_CAS_Heavy_Plasma">
@@ -56,7 +58,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>30.0</Projectile_Damage>
+		<Projectile_Damage>15.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -74,6 +76,9 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>800</AI_Combat_Power>
+		<Projectile_Blast_Area_Range>60</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>15</Projectile_Blast_Area_Damage>
+
 	</Projectile>
 
 	<Projectile Name="Proj_Plasma_Lance">
@@ -164,17 +169,17 @@
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Large_Explosion_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Large_Explosion_Space</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Large_Explosion_Space</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Harmonic_Bomb_Explosion_Slave_I</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Harmonic_Bomb_Explosion_Slave_I</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Harmonic_Bomb_Explosion_Slave_I</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Harmonic_Bomb_Explosion_Slave_I</Projectile_Lifetime_Detonation_Particle>
 		<AI_Combat_Power>600</AI_Combat_Power>
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
         <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
-		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
+		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 		
 		<!-- Scatter radius and damage -->
 		<Projectile_Blast_Area_Damage> 600 </Projectile_Blast_Area_Damage>

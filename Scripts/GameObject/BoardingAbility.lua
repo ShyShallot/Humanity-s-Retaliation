@@ -47,7 +47,8 @@ function State_Init(message)
             end
         else 
             DebugMessage("%s -- Running AI Ability", tostring(Script))
-            Set_Next_State("State_AI_Autofire")
+            -- DO NOT ENABLE THIS YET refer to Line 71 and 72
+            --Set_Next_State("State_AI_Autofire")
         end
     end
 end
@@ -67,14 +68,18 @@ function Find_Nearest_Board_Target(is_owner_ai)
     target = Find_Nearest(Object, "Corvette | Frigate | Capital", player, false) -- Find_Nearest(Object to Search around, Optinal Catergory Filter: "Frigate | Capital", player object, if its owned by the player)
     if TestValid(target) then
         if is_owner_ai == true then
-            Object.Activate_Ability(ability_name, target)
-            Sleep(1)
-            InitalBoardingChance = 0.65 
-            TakeOverChance =  0.93
-            FailChance = 0.3
-            ShouldRun = 1
-            BoardingFunction()
-            is_owner_ai = false
+            -- IGNORE this for now, cause fuck this, freezes the game for no damn reason
+            -- Have to fix later
+            --Object.Activate_Ability(ability_name, target)
+            --Sleep(1)
+            --InitalBoardingChance = 0.65 
+            --TakeOverChance =  0.93
+            --FailChance = 0.3
+            --ShouldRun = 1
+            --Sleep(1)
+            --BoardingFunction()
+            --Sleep(1)
+            --is_owner_ai = false 
         else
             ShouldRun = 1
             BoardingFunction()
