@@ -5,7 +5,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
-		<Damage_Type>Damage_Turbolaser</Damage_Type>
+		<Damage_Type> Damage_Turbolaser_Light </Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
 		<Projectile_Damage>4.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -31,7 +31,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		<Max_Speed>50.0</Max_Speed>
-		<Projectile_Damage>10.0</Projectile_Damage>
+		<Projectile_Damage>8.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -61,7 +61,7 @@
 		<Projectile_Damage>15.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Damage_Type> Damage_Turbolaser_Heavy </Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -114,13 +114,13 @@
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>20.0</Max_Speed>
+		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Torpedo</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>38.0</Projectile_Damage>
+		<Projectile_Damage>60.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Concussion_Missile_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -142,7 +142,7 @@
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Projectile_Category>Rocket</Projectile_Category>
 		<Projectile_Blast_Area_Damage>4.0</Projectile_Blast_Area_Damage>
-        <Projectile_Blast_Area_Range>10.0</Projectile_Blast_Area_Range>
+        <Projectile_Blast_Area_Range>80</Projectile_Blast_Area_Range>
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
@@ -156,13 +156,13 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>4.0</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Damage_Type> Damage_Con_Missile_Heavy </Damage_Type>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>250.0</Projectile_Damage>
+		<Projectile_Damage>400.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Concussion_Missile_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -191,12 +191,6 @@
 		
 		<!-- Make it fly faster so that the barrage mode is more dynamic and has more effect -->
 		<Max_Speed>12.0</Max_Speed>
-
-		<Projectile_Stun_On_Detonation>Yes</Projectile_Stun_On_Detonation>
-		<Projectile_Stun_Duration_Frames>300</Projectile_Stun_Duration_Frames>
-		<Projectile_Stun_Radius>300</Projectile_Stun_Radius>
-		<Projectile_Stun_Spawn_Effect> Stunned_Infantry </Projectile_Stun_Spawn_Effect> 									
-		<Projectile_Stun_Victims_Category_Mask> Fighter, Bomber, Transport, Corvette </Projectile_Stun_Victims_Category_Mask>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_Ship_Missile">
@@ -210,7 +204,7 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>12.0</Projectile_Damage>
+		<Projectile_Damage>7.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -375,7 +369,7 @@
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>15.0</Scale_Factor>
-		<Max_Speed>50.0</Max_Speed>
+		<Max_Speed>30.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>

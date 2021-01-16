@@ -173,8 +173,30 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>BLAST</Type>
+				<Recharge_Seconds>140.0</Recharge_Seconds>
+				<Alternate_Name_Text>HALO_FIRE_MAC</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_MAC</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_CONTAMINATE.TGA</Alternate_Icon_Name>
+				<GUI_Activated_Ability_Name> Fire_Multi_MAC </GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+			<Blast_Ability Name="Fire_Multi_MAC">
+				<Activation_Style> User_Input </Activation_Style>
+                <Charge_Up_Seconds>1</Charge_Up_Seconds>
+                <Damage_Multiplier>1</Damage_Multiplier>
+                <Charging_Effect />
+                <Charged_Effect />
+				<SFXEvent_Activate />
+			</Blast_Ability>
+		</Abilities>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_INFINITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPER_CARRIER </Encyclopedia_Unit_Class>

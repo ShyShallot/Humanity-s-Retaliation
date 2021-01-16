@@ -14,25 +14,23 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>3600</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>3600</Tactical_Health>
+		<Tactical_Health>1900</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>2.2</Max_Speed>
-		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+		<Max_Speed>282</Max_Speed>
+		<Max_Rate_Of_Turn>1.8</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.4</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>1.4</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
-		<OverrideAcceleration> .04 </OverrideAcceleration>
-		<OverrideDeceleration> .04 </OverrideDeceleration>
 
 		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Thrust>1.9</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -153,7 +151,7 @@
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>21</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -202,7 +200,7 @@
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>1.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
@@ -212,12 +210,12 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
-		<Armor_Type> Armor_Assault_Frigate </Armor_Type>
+		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>5000</Tactical_Health> <!-- was 2800 -->
+		<Tactical_Health>3500</Tactical_Health> <!-- was 2800 -->
 		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -400,26 +398,26 @@
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>3.9</Max_Speed>
-		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>2.1</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>1.4</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		
-		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Thrust>2.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
-		<Armor_Type> Armor_Assault_Frigate </Armor_Type>
+		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>2750</Tactical_Health> <!-- was 2800 -->
+		<Tactical_Health>2200</Tactical_Health> <!-- was 2800 -->
 		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -523,7 +521,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.07  0.035</Radar_Icon_Size>
+		<Radar_Icon_Size>0.4  0.7</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_HALB.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -572,11 +570,11 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>1.8</Max_Speed>
-		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>0.7</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<OverrideAcceleration> .04 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
@@ -709,14 +707,14 @@
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>36</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>9</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_IROQUOIS">
@@ -740,7 +738,7 @@
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>1.4</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
@@ -750,12 +748,12 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
-		<Armor_Type> Armor_Assault_Frigate </Armor_Type>
+		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>5200</Tactical_Health> <!-- was 2800 -->
+		<Tactical_Health>4200</Tactical_Health> <!-- was 2800 -->
 		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -931,7 +929,7 @@
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>1.1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
@@ -1117,11 +1115,11 @@
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>2.4</Max_Speed>
-		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>1.1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
@@ -1261,7 +1259,7 @@
 				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,    1.5f</Mod_Multiplier>
 
 				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>4</Expiration_Seconds>
+				<Expiration_Seconds>7</Expiration_Seconds>
 				<Alternate_Name_Text>HALO_WEAPON_OVERIDE</Alternate_Name_Text>
 				<Alternate_Description_Text>HALO_WEAPON_OVERIDE_ENC</Alternate_Description_Text>
 				
@@ -1308,7 +1306,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 	
-		<Armor_Type> Armor_Nebulon_B </Armor_Type>
+		<Armor_Type> Armor_Victory_Class</Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 
 		<Max_Speed>2.3</Max_Speed>
@@ -1316,7 +1314,7 @@
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>1.5</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
@@ -1447,7 +1445,7 @@
 			<Unit_Ability>
 	            <Type>TRACTOR_BEAM</Type>
 	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.6</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.6f</Mod_Multiplier>
 	            <GUI_Activated_Ability_Name>CRS_BOARD_ABILITY</GUI_Activated_Ability_Name>
 	            <Recharge_Seconds>120</Recharge_Seconds>
 	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
