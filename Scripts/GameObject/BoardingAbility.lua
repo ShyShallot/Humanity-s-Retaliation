@@ -116,7 +116,7 @@ function BoardingFunction()
                             Deal_Unit_Damage_Seconds(target, BoardingDamage, nil, 0, "Unit_Hardpoint_Turbo_Laser_Death")
                             local chances = UntilBoardChances + 1
                             Sleep(3)
-                            if chances >= 10 then
+                            if chances >= 5 then
                                 if Return_Chance(FailChance)  then -- If the boarding units die by chance
                                     Sleep(3)
                                     ShouldRun = 0

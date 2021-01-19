@@ -5,4 +5,5 @@
 	<File>CIN_HardPoints.xml</File>
 	<File>HardPoints_Underworld.xml</File>
 	<File>HaloFiles\Halo_Hardpoints.xml</File>
+	<File>HaloFiles\Halo_StationHardpoints.xml</File>
 </Hard_Point_Files>

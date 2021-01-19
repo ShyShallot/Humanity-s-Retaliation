@@ -1397,6 +1397,18 @@
 		
 		<!-- Insert override fonts here.  Use the gadget ID from the .rc file -->
 
+		<IDC_MEC_WELCOME>
+			<Name>EmpireAtWar-Bold</Name>
+			<Size>10</Size>
+		
+		</IDC_MEC_WELCOME>
+
+		<IDC_MEC_AINORM>
+			<Name>EmpireAtWar-Medium</Name>
+			<Size>8</Size>
+		
+		</IDC_MEC_AINORM>
+
 		<IDC_HINT_LIST>
 			<!-- Oksana: need a unicode font here -->
 			<Name>Arial Unicode MS</Name>

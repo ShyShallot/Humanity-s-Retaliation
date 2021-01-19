@@ -281,7 +281,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
-		<AI_Combat_Power>900</AI_Combat_Power>
+		<AI_Combat_Power>8000</AI_Combat_Power>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_MAC_SHELL_LIGHT"> <!-- Used on Frigates and Things smaller than a capitial -->
@@ -308,7 +308,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
-		<AI_Combat_Power>800</AI_Combat_Power>
+		<AI_Combat_Power>8000</AI_Combat_Power>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_Bullet">

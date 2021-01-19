@@ -826,8 +826,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_EB_STATION_LEVEL1.ALO</Galactic_Model_Name>
+		<Space_Model_Name>COVN_STATION_TIER1.ALO</Space_Model_Name>
+		<Galactic_Model_Name>COVN_STATION_TIER1.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -849,8 +849,8 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>750</Autoresolve_Health>
 		<Damage>35</Damage>
-		<Shield_Points>300</Shield_Points>
-		<Tactical_Health>1600</Tactical_Health>
+		<Shield_Points>1000</Shield_Points>
+		<Tactical_Health>5000</Tactical_Health>
 		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
@@ -881,13 +881,7 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_03,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04
 		</HardPoints>
 		
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
@@ -963,8 +957,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>EB_STATION_02.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_EB_STATION_LEVEL2.ALO</Galactic_Model_Name>
+		<Space_Model_Name>COVN_STATION_TIER2.ALO</Space_Model_Name>
+		<Galactic_Model_Name>COVN_STATION_TIER2.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>900</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -1109,8 +1103,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>EB_STATION_03.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_EB_STATION_LEVEL3.ALO</Galactic_Model_Name>
+		<Space_Model_Name>COVN_STATION_TIER3.ALO</Space_Model_Name>
+		<Galactic_Model_Name>COVN_STATION_TIER3.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -1172,19 +1166,7 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_03,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04
 		</HardPoints>
 		
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
@@ -1262,8 +1244,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>EB_STATION_04.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_EB_STATION_LEVEL4.ALO</Galactic_Model_Name>
+		<Space_Model_Name>COVN_STATION_TIER4.ALO</Space_Model_Name>
+		<Galactic_Model_Name>COVN_STATION_TIER4.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -1329,22 +1311,7 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04, HP_COVSTATION_T4_AS_15, HP_COVSTATION_T4_AS_16, HP_COVSTATION_T4_AS_17, HP_COVSTATION_T4_AS_18, HP_COVSTATION_T4_HC_05, HP_COVSTATION_T4_HC_06, HP_COVSTATION_T4_HC_07, HP_COVSTATION_T4_HC_08
 		</HardPoints>
 		
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
@@ -1416,8 +1383,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>EB_STATION_05.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_EB_STATION_LEVEL5.ALO</Galactic_Model_Name>
+		<Space_Model_Name>COVN_STATION_TIER5.ALO</Space_Model_Name>
+		<Galactic_Model_Name>COVN_STATION_TIER5.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -1487,26 +1454,7 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03,
-			HP_Empire_Station_Five_00,
-			HP_Empire_Station_Five_01,
-			HP_Empire_Station_Five_02,
-			HP_Empire_Station_Five_03,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04, HP_COVSTATION_T4_AS_15, HP_COVSTATION_T4_AS_16, HP_COVSTATION_T4_AS_17, HP_COVSTATION_T4_AS_18, HP_COVSTATION_T4_HC_05, HP_COVSTATION_T4_HC_06, HP_COVSTATION_T4_HC_07, HP_COVSTATION_T4_HC_08, HP_COVSTATION_T5_AF_15, HP_COVSTATION_T5_AF_16, HP_COVSTATION_T5_AF_17, HP_COVSTATION_T5_AF_18, HP_COVSTATION_T5_AS_19, HP_COVSTATION_T5_AS_20, HP_COVSTATION_T5_AS_21, HP_COVSTATION_T5_AS_22, HP_COVSTATION_T5_HC_09, HP_COVSTATION_T5_HC_10
 		</HardPoints>
 
 <!-- Comm array and supply dock should be replaced by dummy hard points -->
@@ -2211,13 +2159,13 @@
 	<!-- Empire Skirmish Starbases -->
 	<StarBase Name="Skirmish_Empire_Star_Base_1">
 		<Variant_Of_Existing_Type>Empire_Star_Base_1</Variant_Of_Existing_Type>
-		<Shield_Points>1000</Shield_Points>
+		<Shield_Points>1800</Shield_Points>
 		<Tactical_Health>2000</Tactical_Health>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
-			HP_Empire_Station_One_Supply_Dock, HP_Empire_Station_One_Comm_Array, HP_Empire_Station_One_00, HP_Empire_Station_One_01, HP_Empire_Station_One_02, HP_Empire_Station_One_03, HP_Empire_Station_One_Fighter_Bay
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04
 		</HardPoints>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
@@ -2281,12 +2229,12 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_2">
 		<Variant_Of_Existing_Type>Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>1850</Shield_Points>
-		<Tactical_Health>3500</Tactical_Health>
+		<Shield_Points>4000</Shield_Points>
+		<Tactical_Health>8000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
-			HP_Empire_Station_One_Supply_Dock, HP_Empire_Station_One_Comm_Array, HP_Empire_Station_One_00, HP_Empire_Station_One_01, HP_Empire_Station_One_02, HP_Empire_Station_One_03, HP_Empire_Station_One_Fighter_Bay, HP_Empire_Station_Two_00, HP_Empire_Station_Two_01, HP_Empire_Station_Two_02
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10
 		</HardPoints>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
@@ -2352,12 +2300,12 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_3">
 		<Variant_Of_Existing_Type>Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>3200</Shield_Points>
+		<Shield_Points>7000</Shield_Points>
 		<Tactical_Health>5000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
-			HP_Empire_Station_One_Supply_Dock, HP_Empire_Station_One_Comm_Array, HP_Empire_Station_One_00, HP_Empire_Station_One_01, HP_Empire_Station_One_02, HP_Empire_Station_One_03, HP_Empire_Station_One_Fighter_Bay, HP_Empire_Station_Two_00, HP_Empire_Station_Two_01, HP_Empire_Station_Two_02, HP_Empire_Station_Three_00, HP_Empire_Station_Three_01, HP_Empire_Station_Three_02
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04
 		</HardPoints>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
@@ -2427,12 +2375,12 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_4">
 		<Variant_Of_Existing_Type>Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>5000</Shield_Points>
+		<Shield_Points>9000</Shield_Points>
 		<Tactical_Health>7600</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
-			HP_Empire_Station_One_Supply_Dock, HP_Empire_Station_One_Comm_Array, HP_Empire_Station_One_00, HP_Empire_Station_One_01, HP_Empire_Station_One_02, HP_Empire_Station_One_Fighter_Bay, HP_Empire_Station_Two_00, HP_Empire_Station_Two_01, HP_Empire_Station_Two_02, HP_Empire_Station_Three_00, HP_Empire_Station_Three_01, HP_Empire_Station_Three_02, HP_Empire_Station_Four_00, HP_Empire_Station_Four_01, HP_Empire_Station_Four_02, HP_Empire_Station_Four_03
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04, HP_COVSTATION_T4_AS_15, HP_COVSTATION_T4_AS_16, HP_COVSTATION_T4_AS_17, HP_COVSTATION_T4_AS_18, HP_COVSTATION_T4_HC_05, HP_COVSTATION_T4_HC_06, HP_COVSTATION_T4_HC_07, HP_COVSTATION_T4_HC_08
 		</HardPoints>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
@@ -2505,32 +2453,14 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_5">
 		<Variant_Of_Existing_Type>Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>8000</Shield_Points>
+		<Shield_Points>12000</Shield_Points>
 		<Tactical_Health>10800</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
-			HP_Empire_Station_One_Supply_Dock,
-			HP_Empire_Station_One_Comm_Array,
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_Two_00, 
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03,
-			HP_Empire_Station_Five_00,
-			HP_Empire_Station_Five_01,
-			HP_Empire_Station_Five_02,
-			HP_Empire_Station_Five_03
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04, HP_COVSTATION_T4_AS_15, HP_COVSTATION_T4_AS_16, HP_COVSTATION_T4_AS_17, HP_COVSTATION_T4_AS_18, HP_COVSTATION_T4_HC_05, HP_COVSTATION_T4_HC_06, HP_COVSTATION_T4_HC_07, HP_COVSTATION_T4_HC_08, HP_COVSTATION_T5_AF_15, HP_COVSTATION_T5_AF_16, HP_COVSTATION_T5_AF_17, HP_COVSTATION_T5_AF_18, HP_COVSTATION_T5_AS_19, HP_COVSTATION_T5_AS_20, HP_COVSTATION_T5_AS_21, HP_COVSTATION_T5_AS_22, HP_COVSTATION_T5_HC_09, HP_COVSTATION_T5_HC_10
 		</HardPoints>
+
 		
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
