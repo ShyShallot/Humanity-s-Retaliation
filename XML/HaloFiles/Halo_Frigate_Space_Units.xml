@@ -20,7 +20,7 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>282</Max_Speed>
+		<Max_Speed>2.8</Max_Speed>
 		<Max_Rate_Of_Turn>1.8</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
@@ -135,7 +135,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.2  0.4</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1  0.2</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_GLAD.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
