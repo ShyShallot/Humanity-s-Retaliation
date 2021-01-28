@@ -15,8 +15,8 @@
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Covie</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Covie</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle />
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
@@ -31,7 +31,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		<Max_Speed>50.0</Max_Speed>
-		<Projectile_Damage>10.0</Projectile_Damage>
+		<Projectile_Damage>14.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -40,8 +40,8 @@
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Covie</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Covie</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle />
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
@@ -49,8 +49,9 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>500</AI_Combat_Power>
-		<Projectile_Blast_Area_Range>40</Projectile_Blast_Area_Range>
-		<Projectile_Blast_Area_Damage>8</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>100</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>11</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
 	</Projectile>
 
 	<Projectile Name="Proj_CAS_Heavy_Plasma">
@@ -58,7 +59,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>15.0</Projectile_Damage>
+		<Projectile_Damage>22.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser_Heavy </Damage_Type>
@@ -67,8 +68,8 @@
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Covie</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Covie</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle />
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
@@ -76,8 +77,9 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>800</AI_Combat_Power>
-		<Projectile_Blast_Area_Range>60</Projectile_Blast_Area_Range>
-		<Projectile_Blast_Area_Damage>15</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>120</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>17</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
 
 	</Projectile>
 

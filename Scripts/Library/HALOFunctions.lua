@@ -17,7 +17,7 @@ function Return_Chance(value_to_check) -- Returns true or false
     end
 end
 
-function Deal_Unit_Damage(object, damage_to_deal, hardpoint_to_damage, time_to_sleep, sfx_event_to_play) -- Already a function but this looks better
+function Deal_Unit_Damage(object, damage_to_deal, hardpoint_to_damage, sfx_event_to_play) -- Already a function but this looks better
     if Get_Game_Mode() == "Galactic" then
         DebugMessage("%s -- This function is unusable in Galactic Conquest", tostring(Script))
         ScriptExit()
@@ -33,17 +33,6 @@ function Deal_Unit_Damage(object, damage_to_deal, hardpoint_to_damage, time_to_s
     else DebugMessage("%s -- No SFX Set, Continuing Script", tostring(Script)) end
 end
 
-function Deal_Unit_Damage_Seconds(object, damage_to_deal, hardpoint_to_damage, time_to_sleep, sfx_event_to_play) -- Uses Deal_Unit_Damage but with SFX and Sleep
-    if hardpoint_to_damage ~= nil then
-        object.Take_Damage(damage_to_deal, tostring(hardpoint_to_damage))
-    else object.Take_Damage(damage_to_deal) end
-
-    if sfx_event_to_play ~= nil then
-        object.Play_SFX_Event(tostring(sfx_event_to_play))
-    else DebugMessage("%s -- No SFX Set, Continuing Script", tostring(Script)) end
-    Sleep(time_to_sleep)
-end
-
 function Get_Target_Distance(point_a, point_b) -- Already a function but looks cleaner
     distance = point_a.Get_Distance(point_b)
     return distance
@@ -56,10 +45,51 @@ function Is_Target_Affected_By_Ability(object, ability_name)
 end
 
 function Check_Game_Mode(game_mode_to_check_for) 
-    gamemode_string = tostring(game_mode_to_check_for, function_to_run)
+    gamemode_string = tostring(game_mode_to_check_for)
     if Get_Game_Mode() ~= gamemode_string then 
         return false
     else 
         return true
     end
+end
+
+function Is_Valid_Category(object, cat_1, cat_2, cat_3, cat_4, cat_5)
+    category_valid = 0
+
+    if cat_1 ~= nil then
+        if object.Is_Category(cat_1) then
+            category_valid = category_valid + 1
+        end
+    end
+
+    if cat_2 ~= nil then
+        if object.Is_Category(cat_2) then
+            category_valid = category_valid + 1
+        end
+    end
+
+    if cat_3 ~= nil then
+        if object.Is_Category(cat_3) then
+            category_valid = category_valid + 1
+        end
+    end
+
+    if cat_4 ~= nil then 
+        if object.Is_Category(cat_4) then
+            category_valid = category_valid + 1
+        end
+    end
+
+    if cat_5 ~= nil then 
+        if object.Is_Category(cat_5) then
+            category_valid = category_valid + 1
+        end
+    end
+
+    if category_valid >= 1 then
+        return true
+    else
+        return false
+    end
+
 end
