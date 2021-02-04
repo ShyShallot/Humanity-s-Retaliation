@@ -24,7 +24,7 @@
 
 
     <HardPoint Name="UNSC_LS_HP_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
@@ -44,7 +44,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_LS_HP_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
@@ -64,7 +64,7 @@
     </HardPoint>
     
     <HardPoint Name="UNSC_BS_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
@@ -75,7 +75,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -108,6 +108,25 @@
 
     </HardPoint>
 
+    <HardPoint Name="COVN_SER_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+			<Fire_Bone_A>HP_PLASMA_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_PLASMA_02</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Fighter</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.7</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>20</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+    
+    </HardPoint>
+
     <HardPoint Name="UNSC_GLAD_01">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -120,9 +139,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -150,9 +169,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -169,7 +188,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_GLAD_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Health>500.0</Health>
@@ -207,7 +226,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_GLAD_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Health>500.0</Health>
@@ -246,7 +265,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_GLAD_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Health>500.0</Health>
@@ -285,7 +304,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_GLAD_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Health>500.0</Health>
@@ -337,9 +356,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -367,9 +386,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -397,9 +416,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -427,9 +446,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -444,7 +463,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALB_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -483,7 +502,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALB_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -522,7 +541,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALB_07">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -561,7 +580,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALB_08">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -600,7 +619,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALB_09">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -639,7 +658,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALB_10">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -785,9 +804,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -816,9 +835,9 @@
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -847,9 +866,9 @@
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -877,9 +896,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -894,7 +913,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_IROQ_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -933,7 +952,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_IROQ_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -972,7 +991,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_IROQ_07">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -1011,7 +1030,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_IROQ_08">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -1050,7 +1069,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_IROQ_09">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -1089,7 +1108,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_IROQ_10">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -1187,7 +1206,7 @@
 	</HardPoint>
 
     <HardPoint Name="UNSC_POA_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1226,7 +1245,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1265,7 +1284,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1304,7 +1323,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1343,7 +1362,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1382,7 +1401,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1421,7 +1440,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_07">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1460,7 +1479,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_08">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1512,9 +1531,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1543,9 +1562,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1572,9 +1591,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1601,9 +1620,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1630,9 +1649,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1659,9 +1678,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1688,9 +1707,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1717,9 +1736,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1746,9 +1765,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1775,9 +1794,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1804,9 +1823,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1834,9 +1853,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1864,9 +1883,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1893,9 +1912,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1922,9 +1941,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1951,9 +1970,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -1980,9 +1999,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2009,9 +2028,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2038,9 +2057,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2067,9 +2086,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2096,9 +2115,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2125,9 +2144,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2251,7 +2270,7 @@
 	</HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2290,7 +2309,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2329,7 +2348,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2368,7 +2387,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2407,7 +2426,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2446,7 +2465,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2485,7 +2504,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_07">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2524,7 +2543,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_08">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2575,9 +2594,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2604,9 +2623,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2633,9 +2652,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2662,9 +2681,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2691,9 +2710,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2720,9 +2739,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2749,9 +2768,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2778,9 +2797,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2807,9 +2826,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2836,9 +2855,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2865,9 +2884,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2894,9 +2913,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2923,9 +2942,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2952,9 +2971,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -2981,9 +3000,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3010,9 +3029,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3039,9 +3058,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3068,9 +3087,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3097,9 +3116,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3126,9 +3145,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3155,9 +3174,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3184,9 +3203,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3482,9 +3501,9 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>7.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.4</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3522,9 +3541,9 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>7.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.4</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3562,9 +3581,9 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>7.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.4</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3602,9 +3621,9 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>7.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.4</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3642,9 +3661,9 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>7.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.4</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3682,9 +3701,9 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>7.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.4</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3722,9 +3741,9 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>7.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.4</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3762,9 +3781,9 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>7.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.4</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3802,9 +3821,9 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>7.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.4</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3842,9 +3861,9 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>6.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>7.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.4</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -3860,7 +3879,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -3900,7 +3919,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -3940,7 +3959,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -3980,7 +3999,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4020,7 +4039,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4060,7 +4079,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4100,7 +4119,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_07">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4140,7 +4159,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_08">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4180,7 +4199,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_09">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4220,7 +4239,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_10">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4260,7 +4279,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_11">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4300,7 +4319,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_12">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4340,7 +4359,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_13">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4380,7 +4399,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_14">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4420,7 +4439,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_15">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4460,7 +4479,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_BK_16">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -4500,7 +4519,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4539,7 +4558,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4578,7 +4597,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4617,7 +4636,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4656,7 +4675,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4695,7 +4714,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4734,7 +4753,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_07">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4773,7 +4792,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_08">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4812,7 +4831,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_09">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4851,7 +4870,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_10">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4890,7 +4909,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_11">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4929,7 +4948,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_12">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4968,7 +4987,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_13">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -5007,7 +5026,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_14">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -5046,7 +5065,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_15">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -5085,7 +5104,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_MK3_16">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -5136,9 +5155,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5165,9 +5184,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5194,9 +5213,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5223,9 +5242,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5245,9 +5264,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5274,9 +5293,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5303,9 +5322,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5332,9 +5351,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5361,9 +5380,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5390,9 +5409,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5419,9 +5438,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5448,9 +5467,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5477,9 +5496,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5506,9 +5525,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5535,9 +5554,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5564,9 +5583,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5593,9 +5612,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5615,9 +5634,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5644,9 +5663,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5673,9 +5692,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5704,9 +5723,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5734,9 +5753,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5764,9 +5783,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5794,9 +5813,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5824,9 +5843,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5854,9 +5873,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -5871,7 +5890,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALC_MK3_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5910,7 +5929,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALC_MK3_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5949,7 +5968,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALC_MK3_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5988,7 +6007,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALC_MK3_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6027,7 +6046,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALC_MK3_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6066,7 +6085,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALC_MK3_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6174,7 +6193,7 @@
 	</HardPoint>
 
     <HardPoint Name="UNSC_MAKO_M66_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -6214,7 +6233,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MAKO_M66_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -6254,7 +6273,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MAKO_M870_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -6294,7 +6313,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MAKO_M870_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -6334,7 +6353,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MAKO_M870_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -6374,7 +6393,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MAKO_M870_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -6429,7 +6448,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -6459,7 +6478,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -6489,7 +6508,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -6519,7 +6538,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -6546,7 +6565,7 @@
 	</HardPoint>
 
     <HardPoint Name="UNSC_MARA_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6585,7 +6604,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6624,7 +6643,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6663,7 +6682,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6702,7 +6721,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6741,7 +6760,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6780,7 +6799,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_07">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6819,7 +6838,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_08">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6858,7 +6877,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_09">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6897,7 +6916,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_10">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6936,7 +6955,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_11">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6975,7 +6994,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MARA_12">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -7031,7 +7050,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>8.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7061,7 +7080,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7091,7 +7110,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7121,7 +7140,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7151,7 +7170,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7181,7 +7200,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7211,7 +7230,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7241,7 +7260,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>8.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>9.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7271,7 +7290,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7301,7 +7320,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7331,7 +7350,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7361,7 +7380,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7391,7 +7410,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7421,7 +7440,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -7502,7 +7521,7 @@
 	</HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_T_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -7541,7 +7560,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_T_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -7580,7 +7599,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_T_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -7619,7 +7638,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_T_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -7658,7 +7677,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_T_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -7697,7 +7716,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_T_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -7736,7 +7755,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_T_07">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -7775,7 +7794,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_T_08">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -7814,7 +7833,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_T_09">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -7853,7 +7872,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_T_10">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8003,7 +8022,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8042,7 +8061,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8081,7 +8100,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8120,7 +8139,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8159,7 +8178,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8198,7 +8217,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8237,7 +8256,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_07">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8276,7 +8295,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_08">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8315,7 +8334,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_09">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8354,7 +8373,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_10">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8393,7 +8412,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_11">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8432,7 +8451,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_12">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8471,7 +8490,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_13">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8510,7 +8529,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_14">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8549,7 +8568,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_15">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8588,7 +8607,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_16">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8640,9 +8659,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -8669,9 +8688,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -8698,9 +8717,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -8727,9 +8746,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -8756,9 +8775,9 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <FIre_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -8773,7 +8792,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8813,7 +8832,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8853,7 +8872,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8893,7 +8912,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8933,7 +8952,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -8973,7 +8992,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -9029,7 +9048,7 @@
             <Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -9060,7 +9079,7 @@
             <Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -9136,7 +9155,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_MK33_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9175,7 +9194,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_MK33_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9214,7 +9233,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_MK33_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9253,7 +9272,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_MK33_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9292,7 +9311,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_MK33_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9331,7 +9350,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_MK33_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9370,7 +9389,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_01">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9387,9 +9406,9 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_MK66_01</Attachment_Bone>
             <Collision_Mesh>HP_MK66_01</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -9409,7 +9428,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_02">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9426,9 +9445,9 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_MK66_02</Attachment_Bone>
             <Collision_Mesh>HP_MK66_02</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -9448,7 +9467,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_03">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9465,9 +9484,9 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_MK66_03</Attachment_Bone>
             <Collision_Mesh>HP_MK66_03</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -9487,7 +9506,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_04">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9504,9 +9523,9 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_MK66_04</Attachment_Bone>
             <Collision_Mesh>HP_MK66_04</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -9526,7 +9545,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_05">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9543,9 +9562,9 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_MK66_05</Attachment_Bone>
             <Collision_Mesh>HP_MK66_05</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -9565,7 +9584,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_06">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9582,9 +9601,9 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_MK66_06</Attachment_Bone>
             <Collision_Mesh>HP_MK66_06</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -9604,7 +9623,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_07">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9621,9 +9640,9 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_MK66_07</Attachment_Bone>
             <Collision_Mesh>HP_MK66_07</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -9643,7 +9662,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_08">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9660,9 +9679,9 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_MK66_08</Attachment_Bone>
             <Collision_Mesh>HP_MK66_08</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -9682,7 +9701,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_09">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9699,9 +9718,9 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_MK66_09</Attachment_Bone>
             <Collision_Mesh>HP_MK66_09</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -9721,7 +9740,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_10">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -9738,9 +9757,9 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_MK66_10</Attachment_Bone>
             <Collision_Mesh>HP_MK66_10</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
@@ -9775,7 +9794,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -9805,7 +9824,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -9835,7 +9854,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -9865,7 +9884,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <FIre_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
