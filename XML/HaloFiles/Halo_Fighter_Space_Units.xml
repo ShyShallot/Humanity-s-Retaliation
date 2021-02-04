@@ -246,7 +246,7 @@
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>UNSC_BROAD.alo</Space_Model_Name>
-		<Scale_Factor>9.0</Scale_Factor>
+		<Scale_Factor>7.0</Scale_Factor>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -509,7 +509,7 @@
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>16.0</Max_Speed>
+		<Max_Speed>13.0</Max_Speed>
 		<Min_Speed>9.0</Min_Speed>
 		<Max_Rate_Of_Turn>3.3</Max_Rate_Of_Turn>
 		<Max_Thrust>5.0</Max_Thrust>
