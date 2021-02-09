@@ -52,7 +52,7 @@ function Base_Definitions()
 		Definitions()
 	end
 	
-	FREE_STORE_ATTACK_RANGE = 800.0
+	FREE_STORE_ATTACK_RANGE = 1500.0
 end
 
 function main()

@@ -494,6 +494,9 @@
 	
 	<SpaceBuildable Name="UC_Rebel_Defense_Satellite_Missile">
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HALO_ARCHER_PLATFORM</Text_ID>
+		<Encyclopedia_Text> TEXT_HALO_ARCHER_PLATFORM_ENC </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_HALO_ARCHER_PLATFORM_ENC </MP_Encyclopedia_Text>
 
 		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Missile </Tactical_Buildable_Constructed>
 		<Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>

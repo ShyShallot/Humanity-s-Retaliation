@@ -130,7 +130,7 @@
 
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
-			Broadsword_Squadron, Broadsword_Squadron, Broadsword_Squadron
+			Sabre_Squadron, Sabre_Squadron
 		</Space_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>

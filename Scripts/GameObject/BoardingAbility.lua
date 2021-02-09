@@ -63,7 +63,7 @@ end
 
 function Find_Nearest_Board_Target(self_obj, trigger_obj) 
     DebugMessage("%s -- Running Find_Nearest_Board_Target", tostring(Script))
-    if not TestValid(self_obj)
+    if not TestValid(self_obj) then
         ship_object = Object
     else
         ship_object = self_obj
@@ -104,7 +104,6 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                 DebugMessage("%s -- Found Nearest Target", tostring(target))
                 boardingActive = false -- Boarding is not active, used for loop 
                 DebugMessage("%s -- Abiltiy Active running Main Function", tostring(Script))
-                self_obj.Turn_To_Face(target)
                 if Return_Chance(InitalBoardingChance)  then -- 55% Percent Chance for players, 45% for AI
                     DebugMessage("%s -- Boarding Successful running Boarding", tostring(Script))
                     boardingActive = true -- set board to active and run loop
