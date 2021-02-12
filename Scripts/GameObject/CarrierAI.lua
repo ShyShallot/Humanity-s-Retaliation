@@ -36,7 +36,7 @@ function Search_For_Protection()
         nearestFriendly = Find_Nearest(Object, "Capital | Super", player, true)
         findInfinity = Find_First_Object("UNSC_INFINITY")
         --DebugMessage("Nearest Friendly: %s ", tostring(nearestFriendly))
-        if TestValid(findInfinity) then
+        if TestValid(findInfinity) and player.Get_Faction_Name() == "REBEL" then
             Object.Move_To(findInfinity)
             if Object.Get_Distance(findInfinity) < 300 then
                 Object.Stop()
