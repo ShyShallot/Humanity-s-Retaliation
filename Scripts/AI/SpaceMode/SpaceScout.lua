@@ -49,7 +49,7 @@ function Definitions()
 	{
 		{
 			"MainForce",
-			"Fighter = 1,3"
+			"Fighter = 1,2"
 		}
 	}
 

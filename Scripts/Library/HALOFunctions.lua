@@ -93,3 +93,11 @@ function Is_Valid_Category(object, cat_1, cat_2, cat_3, cat_4, cat_5)
     end
 
 end
+
+function Get_Unit_Props_From_Table(table)
+    for k, unit in pairs(table) do
+        if TestValid(unit) then
+            return unit
+        end
+    end
+end

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Projectiles>
 
-    <Projectile Name="Proj_Covie_Long_Beam">
+    <Projectile Name="Proj_Covie_Long_Beam"> <!--Used for Anti Fighter Hardpoints-->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser_Light </Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>7.0</Projectile_Damage>
+		<Projectile_Damage>9.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -24,6 +24,7 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>150</AI_Combat_Power>
+		
 	</Projectile>
 
 	<Projectile Name="Proj_Covie_Fighter">
@@ -49,14 +50,15 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>150</AI_Combat_Power>
+		
 	</Projectile>
 
-	<Projectile Name="Proj_Covie_Plasma_Beam">
+	<Projectile Name="Proj_Covie_Plasma_Beam"> <!-- Anti Ship-->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		<Max_Speed>50.0</Max_Speed>
-		<Projectile_Damage>9.0</Projectile_Damage>
+		<Projectile_Damage>13.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -77,9 +79,10 @@
 		<Projectile_Blast_Area_Range>100</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>5</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
+		
 	</Projectile>
 
-	<Projectile Name="Proj_CAS_Heavy_Plasma">
+	<Projectile Name="Proj_CAS_Heavy_Plasma"> <!-- Used for Heavy Plasma Turrets-->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
@@ -105,10 +108,11 @@
 		<Projectile_Blast_Area_Range>120</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>10</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
+		
 
 	</Projectile>
 
-	<Projectile Name="Proj_Plasma_Lance">
+	<Projectile Name="Proj_Plasma_Lance"> <!-- Unused -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Projectile_Custom_Render>2</Projectile_Custom_Render>
 		<Projectile_Width>20</Projectile_Width>
@@ -159,7 +163,7 @@
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
 		<AI_Combat_Power>150</AI_Combat_Power>
-	
+		
 	
 	</Projectile>
 
@@ -219,9 +223,10 @@
 		
 		<!-- Make it fly faster so that the barrage mode is more dynamic and has more effect -->
 		<Max_Speed>12.0</Max_Speed>
+		
 	</Projectile>
 
-	<Projectile Name="Proj_UNSC_Ship_Missile">
+	<Projectile Name="Proj_UNSC_Ship_Missile"> <!-- Used for Normal Archer Pods-->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -250,9 +255,10 @@
         <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
+		
 	</Projectile>
 
-	<Projectile Name="Proj_UNSC_Ship_Missile_Heavy">
+	<Projectile Name="Proj_UNSC_Ship_Missile_Heavy"> <!-- Used for the Infinity or ships of same size or variant-->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
@@ -281,6 +287,7 @@
         <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
+		
 	</Projectile>
 
 	
@@ -363,6 +370,7 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_Bullet_Break">
@@ -389,6 +397,7 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_COIL">
@@ -415,6 +424,7 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_Bullet_Cap">
@@ -441,6 +451,7 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 	</Projectile>
 
 	<Projectile Name="Proj_COV_TORPEDO_CAP">
@@ -482,7 +493,7 @@
 		<Projectile_Laser_Color>196,41,178,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>10</Max_Speed>
+		<Max_Speed>20</Max_Speed>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Torpedo</Projectile_Category>

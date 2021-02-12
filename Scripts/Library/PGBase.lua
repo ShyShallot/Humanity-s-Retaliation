@@ -51,14 +51,14 @@ function ScriptExit()
 	end
 end
 
-function Sleep(time)
+function Sleep(timeToSleep)
 
-	--DebugMessage("Sleeping...  SleepTime: %.3f, CurTime: %.3f\n", time, GetCurrentTime())
+	DebugMessage("Sleeping...  SleepTime: %.3f, CurTime: %.3f\n", timeToSleep, GetCurrentTime())
 	ThreadValue.Set("StartTime", GetCurrentTime())
-	while GetCurrentTime() - ThreadValue("StartTime") < time do
+	while GetCurrentTime() - ThreadValue("StartTime") < timeToSleep do
 		PumpEvents()
 	end
-	--DebugMessage("Done with Sleep.  Continuing, CurTime: %.3f\n", GetCurrentTime())
+	DebugMessage("Done with Sleep.  Continuing, CurTime: %.3f\n", GetCurrentTime())
 end
 
 -- Service the block until optional max duration has expired or alternate break function returns true
@@ -177,7 +177,7 @@ function Clamp(value, min, max)
 	end
 end
 
--- Nasty hack of a floor function to be replaced if a math library floor funciton is exposed
+-- Nasty hack of a floor function to be replaced if a math library floor function is exposed
 function Dirty_Floor(val)
 	return string.format("%d", val) -- works on implicit string to int conversion
 end

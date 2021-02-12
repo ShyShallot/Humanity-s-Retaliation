@@ -1323,7 +1323,19 @@
 		<!--<Lua_Script>Demo_Felucia_Controller</Lua_Script>-->
 	</Marker>
 
-
+	<Marker Name="Shield Shine Script">
+		<Text_ID>TEXT_ATTACKER_ENTRY_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
+		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
+		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
+		<Behavior>MARKER, HINT</Behavior>
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
+		<Reveal_For_Attacker>false</Reveal_For_Attacker>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Neutral</Affiliation>
+		<Lua_Script>ShineShield</Lua_Script>
+	</Marker>
 
 	<Marker Name="Team_00_Base_Position_Marker">
 		<Text_ID>TEXT_TEAM_0_START_POSITION_MARKER</Text_ID>

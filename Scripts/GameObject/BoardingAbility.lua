@@ -1,6 +1,7 @@
 require("PGBaseDefinitions")
 require("PGStateMachine")
 require("HALOFunctions")
+require("PGBase")
 -- Script is used for Humanity's Retaliation 
 -- Boarding Script is written by ShyShallot, If you wish to use this script please contact the Project Gold Team via Discord
 -- Any use of this script without permission will not be fun for offending party.
@@ -41,11 +42,11 @@ function State_Init(message)
         if player.Is_Human() then 
             if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
                 DebugMessage("%s -- Tractor Beam is now active running function", tostring(Script))
-                Register_Prox(Object, Find_Nearest_Board_Target, 800) -- Register a Proximity for a Target 800 Units around our Object, this will help us find the target the player supplied
+                Find_Nearest_Board_Target(Object) -- Register a Proximity for a Target 800 Units around our Object, this will help us find the target the player supplied
             end
         else 
             DebugMessage("%s -- Running AI Ability", tostring(Script))
-            --Set_Next_State("State_AI_Autofire") -- Object Calling this script is an AI set our state to AI Autofire for AI use
+            Set_Next_State("State_AI_Autofire") -- Object Calling this script is an AI set our state to AI Autofire for AI use
         end
     end
 end
@@ -56,23 +57,14 @@ function State_AI_Autofire(message)
         if Object.Is_Ability_Ready(ability_name) then -- Is the Boarding Ability ready to use
             DebugMessage("%s -- Running Ability from AI", tostring(Script))
             is_owner_ai = true -- Let Find Nearest Target function know its an AI running it to set proper chances
-            Register_Prox(Object, Find_Nearest_Board_Target, 800)
+            Create_Thread("Find_Nearest_Board_Target", Object)
         end
 	end		
 end
 
-function Find_Nearest_Board_Target(self_obj, trigger_obj) 
+function Find_Nearest_Board_Target(self_obj) 
     DebugMessage("%s -- Running Find_Nearest_Board_Target", tostring(Script))
-    if not TestValid(self_obj) then
-        ship_object = Object
-    else
-        ship_object = self_obj
-    end
-    if Is_Valid_Category(trigger_obj, "Frigate", "Capital", "Corvette") then
-        target = trigger_obj
-    else
-        Set_Next_State("Init") -- Set the script back to the Initial Startup so the rest of the script doesnt run when a target is invalid
-    end
+    target = Find_Nearest(Object, "Corvette | Frigate | Capital", player, false) -- Find_Nearest(Object to Search around, Optinal Catergory Filter: "Frigate | Capital", player object, if its owned by the player)
     if TestValid(target) then
         if is_owner_ai == true then
             Object.Activate_Ability(ability_name, target)
@@ -80,9 +72,9 @@ function Find_Nearest_Board_Target(self_obj, trigger_obj)
             TakeOverChance =  0.93
             FailChance = 0.3
             Sleep(1)
-            BoardingFunction(ship_object, target)
+            BoardingFunction(self_obj, target)
         else
-            BoardingFunction(ship_object, target)
+            BoardingFunction(self_obj, target)
         end
     else 
         DebugMessage("%s -- Cant Find Targeting Sleeping Script", tostring(Script))
@@ -90,13 +82,30 @@ function Find_Nearest_Board_Target(self_obj, trigger_obj)
     end  -- Cant find Target sleeping for 1 seconds to give time to find one.
 end
 
+function Is_Target_Being_Boarded(target, self_obj)
+    if TestValid(target) then
+        nearbyShips = Find_All_Objects_Of_Type("COVN_CRS")
+        if Get_Unit_Props_From_Table(nearbyShips).Is_Ability_Active(ability_name) then
+            if Get_Units_Boarding_Target(target, Get_Unit_Props_From_Table(nearbyShips)) then
+                return true
+            end
+        end
+    end
+end
+
+function Get_Units_Boarding_Target(unit, target) 
+    if TestValid(unit) and TestValid(target) then
+        if Is_Target_Affected_By_Ability(target, ability_name) and target.Get_Distance(unit) <= 800 then
+            return target
+        end
+    end
+end
 
 function BoardingFunction(self_obj, target) -- This is where shit gets messy, Overall Function Script, could be optimized but it works
     DebugMessage("%s -- In Boarding Function", tostring(Script))
     BoardingDamage = target.Get_Health() / 90 -- 10% of its total health
-    ShipHealthThreshold = target.Get_Health() / 90 -- 10% of its total health
     ShouldRun = 1
-    if Is_Target_Affected_By_Ability(target, ability_name) then  -- If target is alive and is being affected by tractor beam then run
+    if Is_Target_Affected_By_Ability(target, ability_name) and not Is_Target_Being_Boarded(target, self_obj) then  -- If target is alive and is being affected by tractor beam then run
         DebugMessage("%s -- Found Target", tostring(target))
         while TestValid(target) and ShouldRun == 1 and Object.Is_Ability_Active(ability_name) do -- using a Var and test valid prevents a recursion loop which crashes the game
             Sleep(1)
@@ -112,9 +121,9 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                         self_obj.Set_Selectable(false)
                         DebugMessage("%s -- Boarding Active, Running Boarding Damage", tostring(Script))
                         Deal_Unit_Damage(target, BoardingDamage, nil, "Unit_Hardpoint_Turbo_Laser_Death")
-                        chances = UntilBoardChances + 1
+                        UntilBoardChances = UntilBoardChances + 1
                         Sleep(3)
-                        if chances >= 5 then
+                        if UntilBoardChances >= 3 then
                             if Return_Chance(FailChance)  then -- If the boarding units die by chance
                                 Sleep(3)
                                 ShouldRun = 0
@@ -133,19 +142,22 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                                 ShouldRun = 0
                                 self_obj.Set_Selectable(true)
                             end
-                            if target.Get_Health() <= ShipHealthThreshold then -- If the Ship health is below a value then just straight up blow up the ship
-                                Deal_Unit_Damage(target, 10000000, nil)
-                                boardingActive = false -- Boarding no Longer active exit loop
-                                self_obj.Cancel_Ability(ability_name)
-                                ShouldRun = 0
-                                target = nil
-                                self_obj.Set_Selectable(true)
+                            if TestValid(target) then 
+                                if target.Get_Hull() <= 0.2 then -- If the Ship health is below a value then just straight up blow up the ship
+                                    Deal_Unit_Damage(target, 10000000, nil)
+                                    boardingActive = false -- Boarding no Longer active exit loop
+                                    self_obj.Cancel_Ability(ability_name)
+                                    ShouldRun = 0
+                                    target = nil
+                                    self_obj.Set_Selectable(true)
+                                end
                             end
                             uses = TotalBoardUses + 1
                             chances = 0
                             self_obj.Set_Selectable(true)
                             if uses >= 3 then
                                 Deal_Unit_Damage(self_obj, 1, HP_BOARD_POINT)
+                                ScriptExit()
                             end
                         end
                     end
