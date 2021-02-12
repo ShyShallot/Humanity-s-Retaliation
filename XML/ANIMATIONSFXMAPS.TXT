@@ -1638,3 +1638,8 @@ SOUND	ev_executorstardestroyer_d_die_00	106785	Unit_Cruiser_Death_SFX
 SOUND	ev_executorstardestroyer_d_die_00	101456	Unit_Cruiser_Death_SFX
 
 SOUND	COVN_CRS_D_DIE_00	0	Unit_Space_Station_Death_SFX
+SOUND   COVN_CRS_D_DIE_00   850 Unit_Space_Station_Break_Death_SFX
+
+SOUND	COVN_CCS_D_DIE_00	0	Unit_Space_Station_Death_SFX
+SOUND   COVN_CCS_D_DIE_00   800 Unit_Space_Station_Break_Death_SFX
+

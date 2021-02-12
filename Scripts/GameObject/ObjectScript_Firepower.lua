@@ -16,9 +16,6 @@ function State_Init(message)
 	if message == OnEnter then
         
         ability_name = "POWER_TO_WEAPONS"
-        if not Object.Has_Ability(ability_name) then
-            ability_name = "TURBO"
-	    end
 		-- prevent this from doing anything in galactic mode
 		if Get_Game_Mode() == "Galactic" then
 			ScriptExit()

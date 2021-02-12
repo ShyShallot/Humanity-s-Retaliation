@@ -190,7 +190,7 @@
 	<AutoResolveLoserAttrition>0.80</AutoResolveLoserAttrition>
 	<AutoResolveWinnerAttrition>0.75</AutoResolveWinnerAttrition>
 	<Minimum_Tactical_Overrun_Time_In_Secs> 15.0 </Minimum_Tactical_Overrun_Time_In_Secs>
-	<Tactical_Overrun_Multiple>5.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
+	<Tactical_Overrun_Multiple>10.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
 
 	<Overrun_Auto_Resolve_Multiple>8.0f</Overrun_Auto_Resolve_Multiple> 		<!-- Comment out to disable overrun auto-resolve -->
 
@@ -1658,7 +1658,7 @@
     <Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Shield_SSD, 0.45 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Armor_Vengeance, 1.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Armor_MC30_Frigate, 2.5 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Armor_SSD, 0.5 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Armor_SSD, 0.3 </Damage_To_Armor_Mod>
 
 	<!-- Turbolaser Damage Type - Space Only, Turbolaser Damage is used by Plasma Weapons, keep this in mind -->
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Default, 1 </Damage_To_Armor_Mod>

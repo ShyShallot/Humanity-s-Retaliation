@@ -53,9 +53,9 @@ function Activate_Desperate_Strike(ability_name)
     nearestFriendly = Find_Nearest(Object, "Corvette | Frigate | Capital | Super", player, true)
     nearestEnemy = Find_Nearest(Object, "Corvette | Frigate | Capital | Super", player, false)
     if TestValid(nearestEnemy) and TestValid(nearestFriendly) then
-        enemypower = nearestEnemy.Get_Type().Get_Combat_Rating() / 2
-        power = Object.Get_Type().Get_Combat_Rating()
-        if nearestFriendly.Get_Distance(Object) > 1000 and enemypower > power then
+        enemypower = Object_Firepower(nearestEnemy)
+        power = Object_Firepower(Object)
+        if nearestFriendly.Get_Distance(Object) > 1000 and enemypower > (power / 2) then
             Object.Activate_Ability(ability_name)
         end
     end

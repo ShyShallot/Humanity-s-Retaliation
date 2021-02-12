@@ -3528,7 +3528,7 @@
             <Tooltip_Text>UNSC_ARCHER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_ARCHERTURRET_01.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3568,7 +3568,7 @@
             <Tooltip_Text>UNSC_ARCHER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_ARCHERTURRET_02.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3608,7 +3608,7 @@
             <Tooltip_Text>UNSC_ARCHER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_ARCHERTURRET_03.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3648,7 +3648,7 @@
             <Tooltip_Text>UNSC_ARCHER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_ARCHERTURRET_04.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3688,7 +3688,7 @@
             <Tooltip_Text>UNSC_ARCHER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_ARCHERTURRET_05.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3728,7 +3728,7 @@
             <Tooltip_Text>UNSC_ARCHER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_ARCHERTURRET_06.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3768,7 +3768,7 @@
             <Tooltip_Text>UNSC_ARCHER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_ARCHERTURRET_07.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3808,7 +3808,7 @@
             <Tooltip_Text>UNSC_ARCHER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_ARCHERTURRET_08.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3848,7 +3848,7 @@
             <Tooltip_Text>UNSC_ARCHER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_ARCHERTURRET_09.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3888,7 +3888,7 @@
             <Tooltip_Text>UNSC_ARCHER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_ARCHERTURRET_10s.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3928,7 +3928,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_01.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3968,7 +3968,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_02.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4008,7 +4008,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_03.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4048,7 +4048,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_04.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4088,7 +4088,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_05.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4128,7 +4128,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_06.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4168,7 +4168,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_07.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4208,7 +4208,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_08.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4248,7 +4248,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_09.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4288,7 +4288,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_10.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4328,7 +4328,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_11.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4368,7 +4368,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_12.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4408,7 +4408,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_13.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4448,7 +4448,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_14.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4488,7 +4488,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_15.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4528,7 +4528,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>
+            <Health>1200.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_BREAKWATER_16.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4568,7 +4568,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_01.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4607,7 +4607,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_02.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4646,7 +4646,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_03.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4685,7 +4685,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_04.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4724,7 +4724,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_05.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4763,7 +4763,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_06.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4802,7 +4802,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_07.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4841,7 +4841,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_08.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4880,7 +4880,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_09.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4919,7 +4919,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_10.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4958,7 +4958,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_11.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -4997,7 +4997,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_12.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -5036,7 +5036,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_13.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -5075,7 +5075,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_14.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -5114,7 +5114,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1000.0</Health>
 
             <Model_To_Attach>UNSC_INFINITY_MK33_15.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>

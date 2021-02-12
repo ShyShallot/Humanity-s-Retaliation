@@ -531,8 +531,6 @@
 		<Population_Value>10</Population_Value>
 	</SpaceUnit>
 
-	
-
 	<SpaceUnit Name="UNSC_HALCYON">
 		<Text_ID>TEXT_UNIT_UNSC_HALCYON</Text_ID>
 		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
@@ -881,8 +879,6 @@
 		<Population_Value>10</Population_Value>
 	</SpaceUnit>
 
-	
-
 	<SpaceUnit Name="COVN_CCS">
 		<Text_ID>TEXT_UNIT_COVN_CCS</Text_ID>
 		<Encyclopedia_Good_Against> Corellian_Corvette Interceptor4_Frigate UNSC_GLADIUS </Encyclopedia_Good_Against>
@@ -963,8 +959,8 @@
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
-		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
-		<Space_FOW_Reveal_Range>1850.0</Space_FOW_Reveal_Range>
+		<Death_Clone>Damage_Normal, COVN_CCS_DEATH</Death_Clone>
+		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 
 
@@ -1038,8 +1034,6 @@
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
-
-
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CCS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
@@ -1073,6 +1067,23 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+	<SpaceUnit Name="COVN_CCS_DEATH">
+		<Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
+		<Space_Model_Name>COVN_CCS_D.ALO</Space_Model_Name>
+		<Death_SFXEvent_Start_Die> Unit_Star_Destroyer_Death_SFX </Death_SFXEvent_Start_Die>
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Layer_Z_Adjust> -650.0 </Layer_Z_Adjust>
+		<Max_Speed> 0.8 </Max_Speed>
+		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
+		<Max_Thrust> 0.05 </Max_Thrust>
+		<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+		<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+		<Affiliation> Empire </Affiliation>
+		<Ship_Class> frigate </Ship_Class>
+		<Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_RCS">
