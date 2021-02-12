@@ -12583,6 +12583,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
             <Attachment_Bone>ROOT</Attachment_Bone>
+            <Collision_Mesh>ROOT</Collision_Mesh>
     </HardPoint>
 
     <HardPoint Name="HP_CPV_HC_01">
