@@ -107,7 +107,7 @@
 		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>75</AI_Combat_Power>
+		<AI_Combat_Power>110</AI_Combat_Power>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -271,8 +271,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>60</Shield_Points>
-		<Tactical_Health>135</Tactical_Health>
+		<Shield_Points>45</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -343,7 +343,7 @@
 		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>75</AI_Combat_Power>
+		<AI_Combat_Power>95</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -520,8 +520,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>40</Shield_Points>
-		<Tactical_Health>95</Tactical_Health>
+		<Shield_Points>28</Shield_Points>
+		<Tactical_Health>65</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -592,7 +592,7 @@
 		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
-		<AI_Combat_Power>75</AI_Combat_Power>
+		<AI_Combat_Power>60</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		
@@ -770,8 +770,8 @@
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Shield_Points>90</Shield_Points>
-		<Tactical_Health>128</Tactical_Health>
+		<Shield_Points>100</Shield_Points>
+		<Tactical_Health>148</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>

@@ -72,7 +72,7 @@
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>200.0</Targeting_Min_Attack_Distance>
+
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
@@ -274,7 +274,7 @@
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>200.0</Targeting_Min_Attack_Distance>
+
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
@@ -437,7 +437,7 @@
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>200.0</Targeting_Min_Attack_Distance>
+
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
@@ -602,7 +602,7 @@
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>200.0</Targeting_Min_Attack_Distance>
+
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
@@ -857,12 +857,13 @@
 				<Expiration_Seconds>7</Expiration_Seconds>
 				<Alternate_Name_Text>HALO_WEAPON_OVERIDE</Alternate_Name_Text>
 				<Alternate_Description_Text>HALO_WEAPON_OVERIDE_ENC</Alternate_Description_Text>
-				
+				<Supports_Autofire>True</Supports_Autofire>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
+		<Lua_Script>ObjectScript_Firepower</Lua_Script>
 		
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_VINDICATION </Encyclopedia_Text>
@@ -965,7 +966,7 @@
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1850.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>250.0</Targeting_Min_Attack_Distance>
+
 
 		<HardPoints> 
 			HP_CCS_SHIELD, HP_CCS_ENGINE, HP_CCS_HANGER_01, HP_CCS_HANGER_02, HP_CCS_AF_01, HP_CCS_AF_02, HP_CCS_AF_03, HP_CCS_AF_04, HP_CCS_AF_05, HP_CCS_AF_06, HP_CCS_AS_01, HP_CCS_AS_02, HP_CCS_AS_03, HP_CCS_AS_04, HP_CCS_AS_05, HP_CCS_AS_06, HP_CCS_TP_01, HP_CCS_TP_02
@@ -1157,7 +1158,7 @@
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>125.0</Targeting_Min_Attack_Distance>
+
 
 		<HardPoints> 
 			HP_RCS_AS_01, HP_RCS_AS_02, HP_RCS_AS_03, HP_RCS_AS_04, HP_RCS_AS_05, HP_RCS_AS_06, HP_RCS_AS_07, HP_RCS_AS_08, HP_RCS_AF_01, HP_RCS_AF_02, HP_RCS_AF_03, HP_RCS_AF_04, HP_RCS_AF_05, HP_RCS_AF_06, HP_RCS_ENGINE, HP_RCS_HANGER_01, HP_RCS_HANGER_02, HP_RCS_SHIELD
@@ -1323,7 +1324,6 @@
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1850.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>250.0</Targeting_Min_Attack_Distance>
 
 		<HardPoints> 
 			HP_CPV_HC_01, HP_CPV_HC_02, HP_CPV_HC_03, HP_CPV_HC_04, HP_CPV_HC_05, HP_CPV_HC_06, HP_CPV_HC_07, HP_CPV_HC_08, HP_CPV_HC_09, HP_CPV_HC_10, HP_CPV_AS_01, HP_CPV_AS_02, HP_CPV_AS_03, HP_CPV_AS_04, HP_CPV_AS_05, HP_CPV_AS_06, HP_CPV_AF_01, HP_CPV_AF_02, HP_CPV_AF_03, HP_CPV_AF_04, HP_CPV_ENGINES, HP_CPV_SHIELD 

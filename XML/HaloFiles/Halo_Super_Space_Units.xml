@@ -57,7 +57,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>1</Build_Cost_Credits>
-		<AI_Combat_Power>900</AI_Combat_Power>
+		<AI_Combat_Power>9000</AI_Combat_Power>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -71,7 +71,7 @@
 
 		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>250.0</Targeting_Min_Attack_Distance>
+
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
@@ -173,35 +173,13 @@
 				<Expiration_Seconds>7</Expiration_Seconds>
 				<Alternate_Name_Text>HALO_HARD_OFFENSIVE</Alternate_Name_Text>
 				<Alternate_Description_Text>HALO_HARD_OFFENSIVE_ENC</Alternate_Description_Text>
-				
+				<Supports_Autofire>True</Supports_Autofire>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>BLAST</Type>
-				<Recharge_Seconds>140.0</Recharge_Seconds>
-				<Alternate_Name_Text>HALO_FIRE_MAC</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_MAC</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_CONTAMINATE.TGA</Alternate_Icon_Name>
-				<GUI_Activated_Ability_Name> Fire_Multi_MAC </GUI_Activated_Ability_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
-			
-		</Unit_Abilities_Data>
 		
-		<Abilities SubObjectList="Yes">
-			<Blast_Ability Name="Fire_Multi_MAC">
-				<Activation_Style> User_Input </Activation_Style>
-                <Charge_Up_Seconds>1</Charge_Up_Seconds>
-                <Damage_Multiplier>1</Damage_Multiplier>
-                <Charging_Effect />
-                <Charged_Effect />
-				<SFXEvent_Activate />
-			</Blast_Ability>
-		</Abilities>
-
+		</Unit_Abilities_Data>
+		<Lua_Script>ObjectScript_Firepower</Lua_Script>
 		<Encyclopedia_Text> TEXT_TOOLTIP_INFINITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPER_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
@@ -301,7 +279,6 @@
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>300.0</Targeting_Min_Attack_Distance>
 
 		<HardPoints> 
 			HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25

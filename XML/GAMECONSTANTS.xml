@@ -190,7 +190,7 @@
 	<AutoResolveLoserAttrition>0.80</AutoResolveLoserAttrition>
 	<AutoResolveWinnerAttrition>0.75</AutoResolveWinnerAttrition>
 	<Minimum_Tactical_Overrun_Time_In_Secs> 15.0 </Minimum_Tactical_Overrun_Time_In_Secs>
-	<Tactical_Overrun_Multiple>2.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
+	<Tactical_Overrun_Multiple>5.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
 
 	<Overrun_Auto_Resolve_Multiple>8.0f</Overrun_Auto_Resolve_Multiple> 		<!-- Comment out to disable overrun auto-resolve -->
 

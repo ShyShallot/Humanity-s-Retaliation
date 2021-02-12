@@ -339,7 +339,6 @@
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		2.2f</Mod_Multiplier>
-				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
@@ -608,7 +607,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2650</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>2700</AI_Combat_Power>
+		<AI_Combat_Power>2300</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -632,13 +631,13 @@
 
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 10</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 12</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 15</Reserve_Spawned_Units_Tech_0>
 
-		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
+		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_MUSASHI.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_Gladius.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -695,7 +694,27 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.2</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_MUSASHI.tga</Radar_Icon_Name>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>TURBO</Type>
+			
+				<Expiration_Seconds>0</Expiration_Seconds>
+				<Recharge_Seconds>80</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Name_Text>HALO_PROTECTION</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_PROTECTION_ENC</Alternate_Description_Text>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
 
+		<Lua_Script>CarrierAI</Lua_Script>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
@@ -1136,7 +1155,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>1200</Tactical_Health> <!-- was 2800 -->
+		<Tactical_Health>1500</Tactical_Health> <!-- was 2800 -->
 		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1259,7 +1278,7 @@
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
 				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,    1.5f</Mod_Multiplier>
-
+				<Supports_Autofire>True</Supports_Autofire>
 				<Recharge_Seconds>60</Recharge_Seconds>
 				<Expiration_Seconds>7</Expiration_Seconds>
 				<Alternate_Name_Text>HALO_WEAPON_OVERIDE</Alternate_Name_Text>
@@ -1270,7 +1289,7 @@
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
-
+		<Lua_Script>ObjectScript_Firepower</Lua_Script>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_PARIS</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
@@ -1532,7 +1551,6 @@
 		<Death_Clone>Damage_Normal, COVN_CRS_DEATH</Death_Clone>
 		<Space_FOW_Reveal_Range>1700.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance>
 
 		<HardPoints> 
 			HP_BOARD_POINT, HP_CRS_AF_01, HP_CRS_AF_02, HP_CRS_AF_03, HP_CRS_AF_04, HP_CRS_AF_05, HP_CRS_AF_06, HP_CRS_AS_01, HP_CRS_AS_02, HP_CRS_AS_03, HP_CRS_AS_04, HP_CRS_ENGINES, HP_CRS_HANGAR_01, HP_CRS_HANGAR_02, HP_CRS_SHIELD

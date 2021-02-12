@@ -173,4 +173,3 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
         ShouldRun = 0 
     end -- If the target we found isnt Alive and/or Not being affected by the Tractor Beam essentially restart the script
 end
-

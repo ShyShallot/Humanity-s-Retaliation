@@ -57,7 +57,7 @@ function Definitions()
 	{
 		"EscortForce"
 --		,"EscortForce"
-		,"Fighter = 1,4"
+		,"Fighter = 2,4"
 	}
 	}
 	

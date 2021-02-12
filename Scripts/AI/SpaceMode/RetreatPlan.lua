@@ -62,6 +62,10 @@ function MainForce_Thread()
 		ScriptExit()
 	end
 
+	if PlayerObject.Get_Faction_Name() == "EMPIRE" then
+		ScriptExit()
+	end
+
 	Purge_Goals(PlayerObject)
 
 	Try_Ability(MainForce, "STEALTH")

@@ -101,3 +101,10 @@ function Get_Unit_Props_From_Table(table)
         end
     end
 end
+
+function Object_Firepower(object) 
+    if TestValid(object) then
+        firepower = object.Get_Type().Get_Combat_Rating()
+    end
+    return firepower
+end

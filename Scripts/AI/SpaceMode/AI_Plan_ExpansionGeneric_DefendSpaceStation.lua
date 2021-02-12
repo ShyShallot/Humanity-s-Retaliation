@@ -58,7 +58,7 @@ end
 
 function MainForce_Thread()
 
-	focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital", PlayerObject, false)
+	focus_fire_on_target = Find_Nearest(Target, "Corvette | Frigate | Capital", PlayerObject, false)
 	
 	while TestValid(focus_fire_on_target) do
 		-- Cancel all goals
@@ -77,7 +77,7 @@ function MainForce_Thread()
 		Sleep(1)
 		MainForce.Set_Plan_Result(true)
 		
-		focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital", PlayerObject, false)
+		focus_fire_on_target = Find_Nearest(Target, "Corvette | Frigate | Capital", PlayerObject, false)
 	
 	end
 end

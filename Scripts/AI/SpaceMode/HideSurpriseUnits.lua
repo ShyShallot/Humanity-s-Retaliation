@@ -50,7 +50,6 @@ function Definitions()
 	{
 		{
 			"MainForce",
-			"Marauder_Missile_Cruiser | Broadside_Class_Cruiser = 0,2",
 			"Bomber = 0, 2"
 		},
 		{
