@@ -915,11 +915,11 @@
 		*
 		((Game.Age > 60.0) * (Variable_Self.BaseLevel == 1.0)
 		+
-		(Game.Age > 180.0) * (Variable_Self.BaseLevel == 2.0)
+		(Game.Age > 120.0) * (Variable_Self.BaseLevel == 2.0)
 		+
-		(Game.Age > 600.0) * (Variable_Self.BaseLevel == 3.0)
+		(Game.Age > 300.0) * (Variable_Self.BaseLevel == 3.0)
 		+
-		(Game.Age > 1200.0) * (Variable_Self.BaseLevel == 4.0)
+		(Game.Age > 600.0) * (Variable_Self.BaseLevel == 4.0)
 		+
 		(5.0 > Variable_Self.BaseLevel) * (Variable_Self.FriendlyForce > (2.0 * Variable_Self.EnemyForce))
 		+
