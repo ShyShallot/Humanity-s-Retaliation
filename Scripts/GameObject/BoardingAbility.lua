@@ -114,13 +114,14 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                     boardingActive = true -- set board to active and run loop
                     self_obj.Play_SFX_Event("SFX_UMP_EmpireKesselAlarm")
                     while boardingActive == true do
-                        self_obj.Set_Selectable(false)
+                        Set_Boarding_Unit_Props(self_obj, target, false, true)
                         DebugMessage("%s -- Boarding Active, Running Boarding Damage", tostring(Script))
                         Deal_Unit_Damage(target, BoardingDamage, nil, "Unit_Hardpoint_Turbo_Laser_Death")
                         UntilBoardChances = UntilBoardChances + 1
                         Sleep(3)
                         if UntilBoardChances >= 3 then
                             if Return_Chance(FailChance)  then -- If the boarding units die by chance
+                                Set_Boarding_Unit_Props(self_obj, target, true, false)
                                 Sleep(3)
                                 ShouldRun = 0
                                 target = nil -- Set our target as Null or Nil so the script stops damaging the ship
@@ -130,6 +131,7 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                                 self_obj.Set_Selectable(true)
                             end
                             if Return_Chance(TakeOverChance) and boardingActive == true then -- If the boarding Take over chance succeeds and boarding is active, take over ship
+                                Set_Boarding_Unit_Props(self_obj, target, true, false)
                                 target.Change_Owner(Find_Player("Empire")) -- Switch target ship owner from enemy to covies
                                 self_obj.Cancel_Ability(ability_name) -- Stop the "Tractor Beam" Ability
                                 boardingActive = false
@@ -140,6 +142,7 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                             end
                             if TestValid(target) then 
                                 if target.Get_Hull() <= 0.2 then -- If the Ship health is below a value then just straight up blow up the ship
+                                    Set_Boarding_Unit_Props(self_obj, target, true, false)
                                     Deal_Unit_Damage(target, 10000000, nil)
                                     boardingActive = false -- Boarding no Longer active exit loop
                                     self_obj.Cancel_Ability(ability_name)
@@ -191,4 +194,14 @@ function BoardingChances(self_obj) -- For Chance Scaling, cleans up shtuff
         FailChance = 0.7
     end
     return InitalBoardingChance, TakeOverChance, FailChance
+end
+
+function Set_Boarding_Unit_Props(self_obj, target, bool1, bool2) -- A Simple function to keep things organised
+    if TestValid(self_obj) and TestValid(target) then
+        self_obj.Set_Selectable(bool1)
+        self_obj.Prevent_All_Fire(bool2)
+        target.Prevent_All_Fire(bool2)
+        self_obj.Set_Cannot_Be_Killed(bool2)
+        target.Set_Cannot_Be_Killed(bool2)
+    end
 end
