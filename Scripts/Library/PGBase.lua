@@ -210,9 +210,9 @@ end
 
 function GetChanceAllowed(difficulty)
 	--Possibly change these back, but randomness makes things hard to test
-	chance = 100
+	chance = 65
 	if difficulty == "Easy" then
-		chance = 100
+		chance = 50
 	elseif difficulty == "Hard" then
 		chance = 100
 	end

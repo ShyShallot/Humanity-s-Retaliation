@@ -30,9 +30,6 @@ function State_Init(message)
         UntilBoardChances = 0  -- Used to check if we should start using chances during the building, like to cancel or take over the ship
         TotalBoardUses = 0 -- Used to destory the Tractor Beam Hardpoint after X amount of uses
         ShouldRun = 0 -- Should we loop the Damage and Chance functions during boarding
-        InitalBoardingChance = 0.45 -- The Intial Chance for the boarding to begin
-        TakeOverChance =  0.95 -- Used for the chance of taking over the ship
-        FailChance = 0.6 -- The Chance for the boarding to fail and stop
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
    
     elseif message == OnUpdate then
@@ -68,12 +65,11 @@ function Find_Nearest_Board_Target(self_obj)
     if TestValid(target) then
         if is_owner_ai == true then
             Object.Activate_Ability(ability_name, target)
-            InitalBoardingChance = 0.65 
-            TakeOverChance =  0.93
-            FailChance = 0.3
+            InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj)
             Sleep(1)
             BoardingFunction(self_obj, target)
         else
+            InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj)
             BoardingFunction(self_obj, target)
         end
     else 
@@ -172,4 +168,27 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
     else 
         ShouldRun = 0 
     end -- If the target we found isnt Alive and/or Not being affected by the Tractor Beam essentially restart the script
+end
+
+function BoardingChances(self_obj) -- For Chance Scaling, cleans up shtuff
+    player = self_obj.Get_Owner()
+    diff = player.Get_Difficulty()
+    if player.Is_Human() then
+        InitalBoardingChance = 0.45 -- The Intial Chance for the boarding to begin
+        TakeOverChance =  0.95 -- Used for the chance of taking over the ship
+        FailChance = 0.6 -- The Chance for the boarding to fail and stop
+    elseif diff == "Easy" then
+        InitalBoardingChance = 0.65 
+        TakeOverChance =  0.95
+        FailChance = 0.55
+    elseif diff == "Normal" then
+        InitalBoardingChance = 0.5 
+        TakeOverChance =  0.9
+        FailChance = 0.65
+    elseif diff == "Hard" then
+        InitalBoardingChance = 0.30 
+        TakeOverChance =  0.80
+        FailChance = 0.7
+    end
+    return InitalBoardingChance, TakeOverChance, FailChance
 end

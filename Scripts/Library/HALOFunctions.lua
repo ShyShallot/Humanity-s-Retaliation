@@ -44,15 +44,6 @@ function Is_Target_Affected_By_Ability(object, ability_name)
     end
 end
 
-function Check_Game_Mode(game_mode_to_check_for) 
-    gamemode_string = tostring(game_mode_to_check_for)
-    if Get_Game_Mode() ~= gamemode_string then 
-        return false
-    else 
-        return true
-    end
-end
-
 function Is_Valid_Category(object, cat_1, cat_2, cat_3, cat_4, cat_5)
     category_valid = 0
 
@@ -102,7 +93,7 @@ function Get_Unit_Props_From_Table(table)
     end
 end
 
-function Object_Firepower(object) 
+function Object_Firepower(object) -- Easier then Object.Get_Type().Get_Combat_Rating()
     if TestValid(object) then
         firepower = object.Get_Type().Get_Combat_Rating()
     end
