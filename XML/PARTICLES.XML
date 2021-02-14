@@ -525,7 +525,7 @@
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
 	
-	<Particle Name="Projectile_Shield_Absorb_Small">
+	<Particle Name="Projectile_Shield_Absorb_Small_Covie">
         <Land_Model_Name>P_SHIELD_BLAST_SMALL_COVIE.ALO</Land_Model_Name>
         <Space_Model_Name>P_SHIELD_BLAST_SMALL_COVIE.ALO</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>

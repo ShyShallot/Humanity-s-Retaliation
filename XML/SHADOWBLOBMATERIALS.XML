@@ -107,13 +107,13 @@ Format:
 	</Material>
 
     <Material name="Selection_Rebel_Space">
-        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name>i_selection_rebel.tga</Texture_Name>
         <Texture_Name_2>i_selection_rebel.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 
     <Material name="Selection_Empire_Space">
-        <Texture_Name>i_selection_cutout_space.tga</Texture_Name>
+        <Texture_Name>i_selection_empire.tga</Texture_Name>
         <Texture_Name_2>i_selection_empire.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>

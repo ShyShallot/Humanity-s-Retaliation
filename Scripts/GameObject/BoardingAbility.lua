@@ -19,7 +19,6 @@ function Definitions()
     Define_State("State_Init", State_Init);
     Define_State("State_AI_Autofire", State_AI_Autofire)
     DebugMessage("%s -- In Definitions", tostring(Script))
-    
 
 end
 

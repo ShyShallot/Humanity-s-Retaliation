@@ -33,7 +33,7 @@ function Shine_Shield(units)
         else 
             for k, unit in pairs(units) do
                 if TestValid(units) then
-                    if unit.Get_Rate_Of_Damage_Taken() > 1 then
+                    if unit.Get_Rate_Of_Damage_Taken() > 0 then
                         Hide_Sub_Object(unit, 0, "SHIELD")
                         Sleep(0.6)
                         Hide_Sub_Object(unit, 1, "SHIELD")

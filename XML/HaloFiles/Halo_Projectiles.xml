@@ -31,9 +31,9 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Turbolaser_Light </Damage_Type>
+		<Damage_Type> Damage_Turbolaser_Fighter </Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>3.0</Projectile_Damage>
+		<Projectile_Damage>9.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -171,7 +171,8 @@
 		<Variant_Of_Existing_Type>Proj_UNSC_Fighter_Missile</Variant_Of_Existing_Type>
 		<Projectile_Damage>4</Projectile_Damage>
 		<Max_Speed>20.0</Max_Speed>
-		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Scale_Factor>0.7</Scale_Factor>
+		<Damage_Type> Damage_Con_Missile_Light </Damage_Type>
 		<Projectile_Category>Rocket</Projectile_Category>
 		<Projectile_Blast_Area_Damage>2.0</Projectile_Blast_Area_Damage>
         <Projectile_Blast_Area_Range>80</Projectile_Blast_Area_Range>
@@ -216,7 +217,7 @@
 		<!-- Scatter radius and damage -->
 		<Projectile_Blast_Area_Damage> 600 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 400 </Projectile_Blast_Area_Range>
-		<Max_Secs_For_AE_Delayed_Damage>20</Max_Secs_For_AE_Delayed_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		
 		<!-- determines the range of barrage mode -->
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -225,6 +226,42 @@
 		<Max_Speed>12.0</Max_Speed>
 		
 	</Projectile>
+
+	<Projectile Name="Proj_UNSC_Cluster_Bomb">
+        <Text_ID>TEXT_NONE</Text_ID>
+        <Land_Model_Name>W_THERMAL_DETONATOR.ALO</Land_Model_Name>
+        <Space_Model_Name>W_THERMAL_DETONATOR.ALO</Space_Model_Name>
+        <Scale_Factor>10.0</Scale_Factor>
+        <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+        <Max_Speed>12.0</Max_Speed>
+        <Damage_Type>Damage_Bomb</Damage_Type>
+        <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+        <Behavior>PROJECTILE, BOMB</Behavior>
+        <Projectile_Category>CLUSTER_BOMB</Projectile_Category>
+        <Projectile_Blast_Area_Range>200.0</Projectile_Blast_Area_Range>
+        <Projectile_Blast_Area_Damage>95.0</Projectile_Blast_Area_Damage>
+        < >0</Max_Secs_For_AE_Delayed_Damage>
+
+        <Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+        <Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+
+        <Projectile_Damage>75.0</Projectile_Damage>
+        <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+        <Death_Explosions> Large_Explosion_Space </Death_Explosions>
+        <AI_Combat_Power>450</AI_Combat_Power>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+		<Projectile_Stun_On_Detonation>Yes</Projectile_Stun_On_Detonation>
+		<Projectile_Stun_Duration_Frames>250</Projectile_Stun_Duration_Frames>
+		<Projectile_Stun_Radius>200</Projectile_Stun_Radius>
+		<Projectile_Stun_Spawn_Effect> Han_Solo_Target_Stun_Effect </Projectile_Stun_Spawn_Effect> 									
+		<Projectile_Stun_Victims_Category_Mask> Fighter | Bomber | Transport </Projectile_Stun_Victims_Category_Mask>
+		<Projectile_Stun_Victims_Unit_Types/>
+
+    </Projectile>
 
 	<Projectile Name="Proj_UNSC_Ship_Missile"> <!-- Used for Normal Archer Pods-->
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -378,7 +415,7 @@
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>6.0</Projectile_Length>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>8.0</Scale_Factor>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
