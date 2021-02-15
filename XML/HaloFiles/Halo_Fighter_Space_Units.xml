@@ -409,7 +409,7 @@
                 <Type>CLUSTER_BOMB</Type>
                 <Recharge_Seconds>70.0</Recharge_Seconds>
                 <GUI_Activated_Ability_Name> Shortsword_Cluster_Bomb </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 500.0 </Effective_Radius>
+                <Effective_Radius> 300.0 </Effective_Radius>
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
 				<Alternate_Name_Text>HALO_CLUSTERBOMB</Alternate_Name_Text>
 				<Alternate_Description_Text>HALO_CLUSTERBOMB_ENC</Alternate_Description_Text>
@@ -424,7 +424,7 @@
                 <Activation_Style> User_Input </Activation_Style>
                 <Detonation_Time_In_Secs> 1.5 </Detonation_Time_In_Secs>
                 <Bomb_Type>Proj_UNSC_Cluster_Bomb</Bomb_Type>
-                <Number_Of_Bombs> 8 </Number_Of_Bombs>
+                <Number_Of_Bombs> 3 </Number_Of_Bombs>
                 <SFXEvent_Activate>Unit_MC30_Launch_Cluster_Bomb</SFXEvent_Activate>
             </Cluster_Bomb_Ability>
 
@@ -490,10 +490,12 @@
 
             <Unit_Ability>
                 <Type>CLUSTER_BOMB</Type>
-                <Recharge_Seconds>50.0</Recharge_Seconds>
+                <Recharge_Seconds>70.0</Recharge_Seconds>
                 <GUI_Activated_Ability_Name> Shortsword_Cluster_Bomb </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 500.0 </Effective_Radius>
+                <Effective_Radius> 300.0 </Effective_Radius>
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>HALO_CLUSTERBOMB</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_CLUSTERBOMB_ENC</Alternate_Description_Text>
                 <Supports_Autofire>True</Supports_Autofire>
             </Unit_Ability>
 
@@ -503,9 +505,9 @@
 
             <Cluster_Bomb_Ability Name="Shortsword_Cluster_Bomb">
                 <Activation_Style> User_Input </Activation_Style>
-                <Detonation_Time_In_Secs> 2.5 </Detonation_Time_In_Secs>
-                <Bomb_Type>Proj_Cluster_Bomb</Bomb_Type>
-                <Number_Of_Bombs> 8 </Number_Of_Bombs>
+                <Detonation_Time_In_Secs> 1.5 </Detonation_Time_In_Secs>
+                <Bomb_Type>Proj_UNSC_Cluster_Bomb</Bomb_Type>
+                <Number_Of_Bombs> 3 </Number_Of_Bombs>
                 <SFXEvent_Activate>Unit_MC30_Launch_Cluster_Bomb</SFXEvent_Activate>
             </Cluster_Bomb_Ability>
 
@@ -554,10 +556,12 @@
 
             <Unit_Ability>
                 <Type>CLUSTER_BOMB</Type>
-                <Recharge_Seconds>50.0</Recharge_Seconds>
+                <Recharge_Seconds>70.0</Recharge_Seconds>
                 <GUI_Activated_Ability_Name> Shortsword_Cluster_Bomb </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 500.0 </Effective_Radius>
+                <Effective_Radius> 300.0 </Effective_Radius>
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>HALO_CLUSTERBOMB</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_CLUSTERBOMB_ENC</Alternate_Description_Text>
                 <Supports_Autofire>True</Supports_Autofire>
             </Unit_Ability>
 
@@ -567,9 +571,9 @@
 
             <Cluster_Bomb_Ability Name="Shortsword_Cluster_Bomb">
                 <Activation_Style> User_Input </Activation_Style>
-                <Detonation_Time_In_Secs> 2.5 </Detonation_Time_In_Secs>
-                <Bomb_Type>Proj_Cluster_Bomb</Bomb_Type>
-                <Number_Of_Bombs> 8 </Number_Of_Bombs>
+                <Detonation_Time_In_Secs> 1.5 </Detonation_Time_In_Secs>
+                <Bomb_Type>Proj_UNSC_Cluster_Bomb</Bomb_Type>
+                <Number_Of_Bombs> 3 </Number_Of_Bombs>
                 <SFXEvent_Activate>Unit_MC30_Launch_Cluster_Bomb</SFXEvent_Activate>
             </Cluster_Bomb_Ability>
 

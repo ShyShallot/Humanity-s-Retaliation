@@ -231,36 +231,29 @@
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>W_THERMAL_DETONATOR.ALO</Land_Model_Name>
         <Space_Model_Name>W_THERMAL_DETONATOR.ALO</Space_Model_Name>
-        <Scale_Factor>10.0</Scale_Factor>
+        <Scale_Factor>5.0</Scale_Factor>
         <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
         <Max_Speed>12.0</Max_Speed>
         <Damage_Type>Damage_Bomb</Damage_Type>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
         <Behavior>PROJECTILE, BOMB</Behavior>
         <Projectile_Category>CLUSTER_BOMB</Projectile_Category>
-        <Projectile_Blast_Area_Range>200.0</Projectile_Blast_Area_Range>
-        <Projectile_Blast_Area_Damage>95.0</Projectile_Blast_Area_Damage>
-        < >0</Max_Secs_For_AE_Delayed_Damage>
+        <Projectile_Blast_Area_Range>300.0</Projectile_Blast_Area_Range>
+        <Projectile_Blast_Area_Damage>45.0</Projectile_Blast_Area_Damage>
 
         <Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
-        <Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
-
-        <Projectile_Damage>75.0</Projectile_Damage>
+        <Projectile_Blast_Area_Dropoff_Tiers>2</Projectile_Blast_Area_Dropoff_Tiers>
+        <Projectile_Damage>45.0</Projectile_Damage>
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
         <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
         <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-        <Death_Explosions> Large_Explosion_Space </Death_Explosions>
+        <Death_Explosions> Harmonic_Bomb_Explosion_Slave_I </Death_Explosions>
+		<Projectile_Object_Detonation_Particle>Harmonic_Bomb_Explosion_Slave_I</Projectile_Object_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Harmonic_Bomb_Explosion_Slave_I</Projectile_Lifetime_Detonation_Particle>
         <AI_Combat_Power>450</AI_Combat_Power>
-		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>300.0</Projectile_Max_Flight_Distance>
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
-		<Projectile_Stun_On_Detonation>Yes</Projectile_Stun_On_Detonation>
-		<Projectile_Stun_Duration_Frames>250</Projectile_Stun_Duration_Frames>
-		<Projectile_Stun_Radius>200</Projectile_Stun_Radius>
-		<Projectile_Stun_Spawn_Effect> Han_Solo_Target_Stun_Effect </Projectile_Stun_Spawn_Effect> 									
-		<Projectile_Stun_Victims_Category_Mask> Fighter | Bomber | Transport </Projectile_Stun_Victims_Category_Mask>
-		<Projectile_Stun_Victims_Unit_Types/>
-
     </Projectile>
 
 	<Projectile Name="Proj_UNSC_Ship_Missile"> <!-- Used for Normal Archer Pods-->
@@ -272,7 +265,7 @@
 		<Max_Rate_Of_Turn>15.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
-		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
 		<Projectile_Damage>10.5</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
@@ -304,7 +297,7 @@
 		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
-		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
 		<Projectile_Damage>45.5</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
