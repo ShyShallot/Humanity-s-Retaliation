@@ -2,6 +2,14 @@
 
 <Game_Object_Files>
 
+
+	<!-- NEW HALO UNITS GO BELOW THIS LINE -->
+	<File>HaloFiles\Halo_SkirmishSpaceBuilds.xml</File>
+	<File>HaloFiles\Halo_Super_Space_Units.xml</File>
+	<File>HaloFiles\Halo_Capital_Space_Units.xml</File>
+	<File>HaloFiles\Halo_Frigate_Space_Units.xml</File>
+	<File>HaloFiles\Halo_Fighter_Space_Units.xml</File>
+
 	<File>TransportUnits.xml</File>
 
 	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
@@ -27,7 +35,21 @@
 	<File>SpaceUnitsSupers.xml</File>
 	<File>SpacePrimarySkydomes.xml</File>
 	<File>SpaceSecondarySkydomes.xml</File>
-	<File>SpaceBuildablesSkirmish.xml</File>
+	<!--<File>SpaceBuildablesSkirmish.xml</File> 
+	<File>CIN_SpaceUnitsCapital.xml</File>
+	<File>CIN_SpaceUnitsFighters.xml</File>
+	<File>CIN_SpaceUnitsCorvettes.xml</File>
+	<File>CIN_SpaceUnitsFrigates.xml</File>
+	<File>CIN_GroundInfantry.xml</File>
+	<File>CIN_GroundVehicles.xml</File>
+	<File>CIN_SpaceProps.xml</File>
+	<File>CIN_TransportUnits.xml</File>
+	<File>CIN_Projectiles.xml</File>
+	<File>CIN_GroundProps.xml</File>
+	<File>CIN_GroundTurrets.xml</File>
+	
+	-->
+
 	
 	<File>NamedHeroUnits.xml</File>
 	<File>GenericHeroUnits.xml</File>
@@ -69,17 +91,7 @@
 	<File>Props_Generic.xml</File>
 	<File>Props_Story.xml</File>	
 
-	<File>CIN_SpaceUnitsCapital.xml</File>
-	<File>CIN_SpaceUnitsFighters.xml</File>
-	<File>CIN_SpaceUnitsCorvettes.xml</File>
-	<File>CIN_SpaceUnitsFrigates.xml</File>
-	<File>CIN_GroundInfantry.xml</File>
-	<File>CIN_GroundVehicles.xml</File>
-	<File>CIN_SpaceProps.xml</File>
-	<File>CIN_TransportUnits.xml</File>
-	<File>CIN_Projectiles.xml</File>
-	<File>CIN_GroundProps.xml</File>
-	<File>CIN_GroundTurrets.xml</File>
+	
 
 	<File>MOV_Cinematics.xml</File>
 
@@ -172,11 +184,6 @@
 	<File>UpgradeObjects_Underworld.XML</File>
 	<File>Corruption_Special_Units.XML</File>
 
-	<!-- NEW HALO UNITS GO BELOW THIS LINE -->
-	<File>HaloFiles\Halo_Super_Space_Units.xml</File>
-	<File>HaloFiles\Halo_Capital_Space_Units.xml</File>
-	<File>HaloFiles\Halo_Frigate_Space_Units.xml</File>
-	<File>HaloFiles\Halo_Fighter_Space_Units.xml</File>
 
 
 

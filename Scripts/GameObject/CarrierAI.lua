@@ -1,6 +1,7 @@
 require("PGStateMachine")
 require("HALOFunctions")
 require("PGBaseDefinitions")
+require("HALOAIFunctions") 
 -- Script is used for Humanity's Retaliation 
 -- CarrierAI Script is written by ShyShallot, If you wish to use this script please contact the Project Gold Team via Discord
 -- Any use of this script without permission will not be fun for offending party.
@@ -71,17 +72,4 @@ function Search_For_Protection()
             end
         end
     end
-end
-
-function Get_Total_Unit_Table_Combat_Power(unitTable)
-    --DebugMessage("%s -- Get_Total_Unit_Table_Combat_Power Called, Calculating", tostring(Script))
-    local combatPower = 0
-    for k, unit in pairs(unitTable) do
-        if TestValid(unit) then
-            --DebugMessage("%s -- Adding Combat Power", tostring(Script))
-            combatPower = combatPower + Object_Firepower(unit)
-        end
-    end
-    --DebugMessage("%s -- Combat Power", tostring(combatPower))
-    return combatPower
 end

@@ -131,6 +131,7 @@
 				<Alternate_Description_Text>HALO_LONGSWORD_SHIVA_ENC</Alternate_Description_Text>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
+
 		</Unit_Abilities_Data>
 		
 		<Abilities SubObjectList="Yes">
@@ -415,7 +416,6 @@
 				<Alternate_Description_Text>HALO_CLUSTERBOMB_ENC</Alternate_Description_Text>
                 <Supports_Autofire>True</Supports_Autofire>
             </Unit_Ability>
-
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
