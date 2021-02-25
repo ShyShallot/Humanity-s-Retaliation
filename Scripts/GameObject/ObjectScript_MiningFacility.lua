@@ -199,7 +199,7 @@ function Transport_Move(target_location, object, ability_name)
     if TestValid(target_location) and TestValid(object) then
         DebugMessage("%s -- Transport is Valid to move", tostring(Script))
         if target_location.Get_Type() == Object.Get_Type() then
-            distance_till_arrived = 605
+            distance_till_arrived = 460
         else
             distance_till_arrived = 400
         end
