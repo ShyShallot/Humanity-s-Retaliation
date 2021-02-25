@@ -121,7 +121,7 @@
 		<Location_Height_Smooth_Time>0.1</Location_Height_Smooth_Time>
 		
 		<Near_Clip>0.1</Near_Clip>
-		<Far_Clip>9000.0</Far_Clip>
+		<Far_Clip>90000.0</Far_Clip>
 
         <Object_Fade_Begin>8000.0f</Object_Fade_Begin>
         <Object_Fade_End>9000.0f</Object_Fade_End>
@@ -169,7 +169,7 @@
         <MinHeightAboveTerrain>0.0</MinHeightAboveTerrain>
 
 		<Near_Clip>1.0</Near_Clip>
-		<Far_Clip>60000.0</Far_Clip>
+		<Far_Clip>90000.0</Far_Clip>
 
         <Object_Fade_Begin>10000.0f</Object_Fade_Begin>
         <Object_Fade_End>11000.0f</Object_Fade_End>
