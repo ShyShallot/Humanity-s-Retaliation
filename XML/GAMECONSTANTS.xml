@@ -805,8 +805,8 @@
 	<IdleMovementFrames> 30.0 </IdleMovementFrames>
 
 	<!-- Colors to use for the reinforcements terrain overlay (a,r,g,b) -->
-	<ReinforcementOverlayGoodColor>0,128,0,128</ReinforcementOverlayGoodColor>
-	<ReinforcementOverlayBadColor>128,0,0,128</ReinforcementOverlayBadColor>
+	<ReinforcementOverlayGoodColor>0,255,0,128</ReinforcementOverlayGoodColor>
+	<ReinforcementOverlayBadColor>255,0,0,128</ReinforcementOverlayBadColor>
 
 	<!-- Per unit probability of destruction during a retreat -->
 	<Space_Retreat_Attrition_Factor>0.3</Space_Retreat_Attrition_Factor>
@@ -4060,6 +4060,8 @@
 		UNSC_MUSASHI, Data\ship_nicknames_frigate_unsc.txt,
 		UNSC_PARIS, Data\ship_nicknames_frigate_unsc.txt,
 		UNSC_STRIDENT, Data\ship_nicknames_frigate_unsc.txt,
+		UNSC_STALWART, Data\ship_nicknames_frigate_unsc.txt,
+		UNSC_POSEIDON, Data\ship_nicknames_frigate_unsc.txt,
 		
 
 		COVN_CAS, Data\ship_nicknames_capital_covies.txt,

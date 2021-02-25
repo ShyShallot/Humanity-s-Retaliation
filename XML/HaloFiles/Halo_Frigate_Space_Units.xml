@@ -1862,11 +1862,11 @@
 			<Tractor_Beam_Attack_Ability Name="CRS_BOARD_ABILITY"> 
 				<Activation_Style> User_Input </Activation_Style> 
 				<Applicable_Unit_Categories> Corvette | Frigate | Capital </Applicable_Unit_Categories>
-				<Excluded_Unit_Types>Skirmish_Empire_Star_Base_1, Skirmish_Empire_Star_Base_2, Skirmish_Empire_Star_Base_3, Skirmish_Empire_Star_Base_4, Skirmish_Empire_Star_Base_5, Skirmish_Rebel_Star_Base_1, Skirmish_Rebel_Star_Base_2, Skirmish_Rebel_Star_Base_3, Skirmish_Rebel_Star_Base_4, Skirmish_Rebel_Star_Base_5</Excluded_Unit_Types>
+				<Excluded_Unit_Types>Skirmish_Empire_Star_Base_1, Skirmish_Empire_Star_Base_2, Skirmish_Empire_Star_Base_3, Skirmish_Empire_Star_Base_4, Skirmish_Empire_Star_Base_5, Skirmish_Rebel_Star_Base_1, Skirmish_Rebel_Star_Base_2, Skirmish_Rebel_Star_Base_3, Skirmish_Rebel_Star_Base_4, Skirmish_Rebel_Star_Base_5, COVN_Mining_Transport, UNSC_Mining_Transport, UNSC_POA, UNSC_IROQUOIS</Excluded_Unit_Types>
 	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
 				<Activation_Min_Range>5</Activation_Min_Range>
 	            <Activation_Max_Range>800</Activation_Max_Range>
-				<Supports_Autofire>True</Supports_Autofire>
+				<Supports_Autofire>true</Supports_Autofire>
 
 				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
 				<Target_Speed_Decrease_Percent>.5</Target_Speed_Decrease_Percent>

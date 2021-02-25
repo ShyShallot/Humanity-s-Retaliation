@@ -50,6 +50,43 @@
 		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
+	<SpaceProp Name="Reach_Back_Large">
+		<Text_ID />
+		<Space_Model_Name>W_PLANET_REACH.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>20.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-5000.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+	</SpaceProp>
+
+	<SpaceProp Name="Reach_Glassed_Back_Large">
+		<Text_ID />
+		<Space_Model_Name>W_PLANET_REACH_GLASSED.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>20.0</Scale_Factor>
+		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<In_Background> Yes </In_Background>
+		<Layer_Z_Adjust>-5000.0</Layer_Z_Adjust>
+		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+	</SpaceProp>
 	
 	<SpaceProp Name="Bonadan_Backdrop_Large">
 		<Text_ID />

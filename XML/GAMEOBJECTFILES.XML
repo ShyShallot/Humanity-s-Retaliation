@@ -4,11 +4,12 @@
 
 
 	<!-- NEW HALO UNITS GO BELOW THIS LINE -->
-	<File>HaloFiles\Halo_SkirmishSpaceBuilds.xml</File>
 	<File>HaloFiles\Halo_Super_Space_Units.xml</File>
 	<File>HaloFiles\Halo_Capital_Space_Units.xml</File>
 	<File>HaloFiles\Halo_Frigate_Space_Units.xml</File>
 	<File>HaloFiles\Halo_Fighter_Space_Units.xml</File>
+	<File>HaloFiles\Halo_EconomyTransports.xml</File>
+	<File>HaloFiles\HALO_Planets.xml</File>
 
 	<File>TransportUnits.xml</File>
 
@@ -35,7 +36,8 @@
 	<File>SpaceUnitsSupers.xml</File>
 	<File>SpacePrimarySkydomes.xml</File>
 	<File>SpaceSecondarySkydomes.xml</File>
-	<!--<File>SpaceBuildablesSkirmish.xml</File> 
+	<File>SpaceBuildablesSkirmish.xml</File> 
+	<!--
 	<File>CIN_SpaceUnitsCapital.xml</File>
 	<File>CIN_SpaceUnitsFighters.xml</File>
 	<File>CIN_SpaceUnitsCorvettes.xml</File>
@@ -181,7 +183,7 @@
 	<File>GroundStructures_Underworld.xml</File>
 	<File>Mobile_Defense_Units.XML</File>
 	<File>Multiplayer_Structure_Markers.XML</File>
-	<File>UpgradeObjects_Underworld.XML</File>
+	<File>UpgradeObjects_Underworld.XML</File> 
 	<File>Corruption_Special_Units.XML</File>
 
 

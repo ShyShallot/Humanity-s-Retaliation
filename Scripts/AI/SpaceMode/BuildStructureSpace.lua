@@ -51,7 +51,6 @@ function Definitions()
 		"MainForce"
 		,"UC_Empire_Defense_Satellite_Laser | UC_Empire_Defense_Satellite_Missile | UC_Empire_Defense_Satellite_Tractor = 0,1"
 		,"UC_Rebel_Defense_Satellite_Laser | UC_Rebel_Defense_Satellite_Missile | UC_Rebel_Defense_Satellite_Repair = 0,1"
-		,"UC_Underworld_Defense_Satellite_Plasma | UC_Underworld_Defense_Satellite_DBM | UC_Underworld_Defense_Satellite_Sensor = 0,1"
 	}
 	}
 	RequiredCategories = {"Structure"}

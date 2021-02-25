@@ -20,7 +20,6 @@ function State_Init(message)
 		if Get_Game_Mode() == "Galactic" then
 			ScriptExit()
 		end
-		
 		if Object.Get_Owner().Is_Human() then
 			Set_Next_State("State_Human_No_Autofire")
 		else
@@ -31,6 +30,7 @@ end
 
 function State_AI_Autofire(message)
 	if message == OnUpdate then
+		Sleep(1)
 		if Object.Is_Ability_Ready(ability_name) then
 			enemy = FindDeadlyEnemy(Object)
 			if TestValid(enemy) then
@@ -49,6 +49,7 @@ end
 
 function State_Human_No_Autofire(message)
 	if message == OnUpdate then
+		Sleep(1)
 		if Object.Is_Ability_Autofire(ability_name) then
 			Set_Next_State("State_Human_Autofire")
 		end		
@@ -57,6 +58,7 @@ end
 
 function State_Human_Autofire(message)
 	if message == OnUpdate then
+		Sleep(1)
 		if Object.Is_Ability_Autofire(ability_name) then
 			if Object.Is_Ability_Ready(ability_name) then
 				enemy = FindDeadlyEnemy(Object)

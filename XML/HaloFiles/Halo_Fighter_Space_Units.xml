@@ -1440,10 +1440,10 @@
 		<Max_Lift>3</Max_Lift>
 		<Max_Speed>9.5</Max_Speed>
 		<Min_Speed>4.0</Min_Speed>
-		<Max_Rate_Of_Turn>3.3</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>1.8</Max_Rate_Of_Turn>
 		<Max_Thrust>5.0</Max_Thrust>
-		<Max_Rate_Of_Roll>10.0</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>140</Bank_Turn_Angle>
+		<Max_Rate_Of_Roll>4.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>110</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>

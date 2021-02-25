@@ -716,9 +716,10 @@
 	</Need_To_Secure_Contestable_Space>
 
 	<Number_Resource_Structures_Space>
-		Variable_Self.TacticalBuiltStructureCount{Parameter_Type = "Empire_Mineral_Extractor"
-													,Parameter_Type = "Rebel_Mineral_Extractor"
-													,Parameter_Type = "Underworld_Mineral_Extractor"}
+		Variable_Self.TacticalBuiltStructureCount{Parameter_Type = "Empire_Mineral_Extractor",
+		Parameter_Type = "Rebel_Mineral_Extractor"
+		}
+
 	</Number_Resource_Structures_Space>
 
 

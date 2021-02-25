@@ -61,7 +61,7 @@ end
 function Find_Nearest_Board_Target(self_obj) 
     DebugMessage("%s -- Running Find_Nearest_Board_Target", tostring(Script))
     target = Find_Nearest(Object, "Corvette | Frigate | Capital", player, false) -- Find_Nearest(Object to Search around, Optinal Catergory Filter: "Frigate | Capital", player object, if its owned by the player)
-    if TestValid(target) then
+    if (TestValid(target)) and (not Is_Boardable_Unit(target)) then
         if is_owner_ai == true then
             Object.Activate_Ability(ability_name, target)
             InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj)
@@ -202,5 +202,23 @@ function Set_Boarding_Unit_Props(self_obj, target, bool1, bool2) -- A Simple fun
         target.Prevent_All_Fire(bool2)
         self_obj.Set_Cannot_Be_Killed(bool2)
         target.Set_Cannot_Be_Killed(bool2)
+    end
+end
+
+function Is_Boardable_Unit(target)
+    exluded_units = {
+        UNSC_IROQUOIS,
+        UNSC_POA,
+        UNSC_Mining_Transport,
+        COVN_Mining_Transport
+    }
+    for k, exluded in pairs(exluded_units) do
+        if (TestValid(target)) and (TestValid(exluded)) then
+            if target.Get_Type() == Find_Object_Type(exluded) then
+                return false
+            else
+                return true
+            end
+        end
     end
 end

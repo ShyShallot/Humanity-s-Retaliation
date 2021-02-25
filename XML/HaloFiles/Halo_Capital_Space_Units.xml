@@ -28,6 +28,7 @@
 
 		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Reinforcement_Prevention_Radius> 600 </Reinforcement_Prevention_Radius>
 		<Max_Rate_Of_Roll>1.5</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
 		<Max_Thrust>0.2</Max_Thrust>
@@ -230,6 +231,7 @@
 
 		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Reinforcement_Prevention_Radius> 550 </Reinforcement_Prevention_Radius>
 		<Max_Rate_Of_Roll>1.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
 		<Max_Thrust>0.2</Max_Thrust>
@@ -393,6 +395,7 @@
 
 		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Reinforcement_Prevention_Radius> 385 </Reinforcement_Prevention_Radius>
 		<Max_Rate_Of_Roll>1.4</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
 		<Max_Thrust>0.4</Max_Thrust>
@@ -556,6 +559,7 @@
 
 		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Reinforcement_Prevention_Radius> 710 </Reinforcement_Prevention_Radius>
 		<Max_Rate_Of_Roll>1.1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
 		<Max_Thrust>0.2</Max_Thrust>
@@ -725,6 +729,7 @@
 
 		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
         <Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Reinforcement_Prevention_Radius> 500 </Reinforcement_Prevention_Radius>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
@@ -902,6 +907,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Reinforcement_Prevention_Radius> 525 </Reinforcement_Prevention_Radius>
 
 		<Max_Speed>1.1</Max_Speed>
 		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
@@ -1109,6 +1115,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Reinforcement_Prevention_Radius> 400 </Reinforcement_Prevention_Radius>
 
 		<Max_Speed>1.4</Max_Speed>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
@@ -1281,6 +1288,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Reinforcement_Prevention_Radius> 600 </Reinforcement_Prevention_Radius>
 
 		<Max_Speed>0.8</Max_Speed>
 		<Max_Rate_Of_Turn>1.1</Max_Rate_Of_Turn>
