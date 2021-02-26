@@ -413,7 +413,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_Light </Damage_Type>
-		<Projectile_Damage>4.0</Projectile_Damage>
+		<Projectile_Damage>7.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -467,7 +467,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
-		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Damage>12.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>

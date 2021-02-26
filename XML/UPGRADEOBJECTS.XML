@@ -780,7 +780,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="RL_Increased_Production_L1_Bonus">
-				<Income_Multiplier>1.20</Income_Multiplier>
+				<Income_Multiplier>1.50</Income_Multiplier>
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
@@ -817,7 +817,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="RL_Increased_Production_L2_Bonus">
-				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Multiplier>1.90</Income_Multiplier>
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
