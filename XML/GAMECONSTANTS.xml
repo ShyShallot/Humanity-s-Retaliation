@@ -1568,6 +1568,37 @@
     <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_MC30_Frigate, 5.8 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_SSD, 0.4 </Damage_To_Armor_Mod>
 
+	<!-- Concussion Missile Damage Type - Used by Shiva Nuke -->
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Transport, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Bomber, 1.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Fighter, 2.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Hero_Transport, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Corellian_Corvette, 1.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Missile_Cruiser, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Tartan, 1.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Interdictor, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Corellian_Gunboat, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Nebulon_B, 2.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Acclamator, 2.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Pirate_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Satellite, 3.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Frigate, 2.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Victory_Class, 1.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Assault_Frigate, 1.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Calamari_Cruiser, 1.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Star_Destroyer, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Station, 0.7 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Capital, 1.5</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Frigate, 1.8</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Corvette, 2.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Fighter, 2.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_SSD, 0.8 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Vengeance, 5.0 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_MC30_Frigate, 5.8 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_SSD, 0.6 </Damage_To_Armor_Mod>
+
 	<!-- Concussion Missile Damage Type - Space Only, Fighter Shit -->
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Shield_Default, 1 </Damage_To_Armor_Mod>
@@ -1680,11 +1711,11 @@
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Frigate, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Victory_Class, 0.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Assault_Frigate, 1.2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Calamari_Cruiser, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Star_Destroyer, 0.35 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Calamari_Cruiser, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Star_Destroyer, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Station, 0.5 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Capital, 0.5</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Frigate, 1</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Capital, 0.7</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Frigate, 1.8</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Corvette, 1</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Fighter, 1</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_SSD, 0.45 </Damage_To_Armor_Mod>
