@@ -404,32 +404,6 @@
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 
- 		<Unit_Abilities_Data SubObjectList="Yes">
-
-            <Unit_Ability>
-                <Type>CLUSTER_BOMB</Type>
-                <Recharge_Seconds>70.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Shortsword_Cluster_Bomb </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 300.0 </Effective_Radius>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-				<Alternate_Name_Text>HALO_CLUSTERBOMB</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_CLUSTERBOMB_ENC</Alternate_Description_Text>
-                <Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
-		</Unit_Abilities_Data>
-
-        <Abilities SubObjectList="Yes">
-
-            <Cluster_Bomb_Ability Name="Shortsword_Cluster_Bomb">
-                <Activation_Style> User_Input </Activation_Style>
-                <Detonation_Time_In_Secs> 1.5 </Detonation_Time_In_Secs>
-                <Bomb_Type>Proj_UNSC_Cluster_Bomb</Bomb_Type>
-                <Number_Of_Bombs> 3 </Number_Of_Bombs>
-                <SFXEvent_Activate>Unit_MC30_Launch_Cluster_Bomb</SFXEvent_Activate>
-            </Cluster_Bomb_Ability>
-
-		</Abilities>
-
 		<Strafe_Distance>650.0</Strafe_Distance>
 		<Population_Value>1</Population_Value>
 
@@ -485,33 +459,7 @@
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
 		<Create_Team_Type>Shortsword_Squadron_Container </Create_Team_Type>
      	<Max_Squad_Size> 6 </Max_Squad_Size>
-			
-		<Unit_Abilities_Data SubObjectList="Yes">
 
-            <Unit_Ability>
-                <Type>CLUSTER_BOMB</Type>
-                <Recharge_Seconds>70.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Shortsword_Cluster_Bomb </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 300.0 </Effective_Radius>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-				<Alternate_Name_Text>HALO_CLUSTERBOMB</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_CLUSTERBOMB_ENC</Alternate_Description_Text>
-                <Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
-
-		</Unit_Abilities_Data>
-
-        <Abilities SubObjectList="Yes">
-
-            <Cluster_Bomb_Ability Name="Shortsword_Cluster_Bomb">
-                <Activation_Style> User_Input </Activation_Style>
-                <Detonation_Time_In_Secs> 1.5 </Detonation_Time_In_Secs>
-                <Bomb_Type>Proj_UNSC_Cluster_Bomb</Bomb_Type>
-                <Number_Of_Bombs> 3 </Number_Of_Bombs>
-                <SFXEvent_Activate>Unit_MC30_Launch_Cluster_Bomb</SFXEvent_Activate>
-            </Cluster_Bomb_Ability>
-
-		</Abilities>
 		
 		<Encyclopedia_Text>TEXT_TOOLTIP_SHORTSWORD</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
@@ -552,32 +500,6 @@
 		<Hyperspace>yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
-		<Unit_Abilities_Data SubObjectList="Yes">
-
-            <Unit_Ability>
-                <Type>CLUSTER_BOMB</Type>
-                <Recharge_Seconds>70.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Shortsword_Cluster_Bomb </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 300.0 </Effective_Radius>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-				<Alternate_Name_Text>HALO_CLUSTERBOMB</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_CLUSTERBOMB_ENC</Alternate_Description_Text>
-                <Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
-
-		</Unit_Abilities_Data>
-
-        <Abilities SubObjectList="Yes">
-
-            <Cluster_Bomb_Ability Name="Shortsword_Cluster_Bomb">
-                <Activation_Style> User_Input </Activation_Style>
-                <Detonation_Time_In_Secs> 1.5 </Detonation_Time_In_Secs>
-                <Bomb_Type>Proj_UNSC_Cluster_Bomb</Bomb_Type>
-                <Number_Of_Bombs> 3 </Number_Of_Bombs>
-                <SFXEvent_Activate>Unit_MC30_Launch_Cluster_Bomb</SFXEvent_Activate>
-            </Cluster_Bomb_Ability>
-
-		</Abilities>
 		
 	</Container>
 <!-- End of Shortsword -->
@@ -1438,7 +1360,7 @@
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>9.5</Max_Speed>
+		<Max_Speed>10.5</Max_Speed>
 		<Min_Speed>4.0</Min_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Max_Thrust>5.0</Max_Thrust>
