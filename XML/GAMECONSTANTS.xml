@@ -1559,7 +1559,7 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Calamari_Cruiser, 0.6 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Star_Destroyer, 0.55 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Station, 0.6 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Capital, 0.50</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Capital, 0.7</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Frigate, 1.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Corvette, 1.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Fighter, 1.0</Damage_To_Armor_Mod>
@@ -1652,7 +1652,7 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Calamari_Cruiser, 0.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Star_Destroyer, 0.7 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Armor_Station, 0.7 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_Capital, 0.80</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_Capital, 1.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_Frigate, 1.8</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_Corvette, 1.5</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy, Shield_Fighter, 1.0</Damage_To_Armor_Mod>

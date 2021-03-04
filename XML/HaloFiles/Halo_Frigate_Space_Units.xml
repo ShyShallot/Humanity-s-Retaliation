@@ -1124,7 +1124,7 @@
 		<Abilities SubObjectList="Yes">
 			<Blast_Ability Name="Fire_Shiva_Nuke">
 				<Activation_Style> User_Input </Activation_Style>
-                <Charge_Up_Seconds>1</Charge_Up_Seconds>
+                <Charge_Up_Seconds>0</Charge_Up_Seconds>
                 <Damage_Multiplier>1</Damage_Multiplier>
                 <Charging_Effect />
                 <Charged_Effect />
@@ -1315,7 +1315,7 @@
 		<Abilities SubObjectList="Yes">
 			<Blast_Ability Name="Fire_Shiva_Nuke">
 				<Activation_Style> User_Input </Activation_Style>
-                <Charge_Up_Seconds>1</Charge_Up_Seconds>
+                <Charge_Up_Seconds>0</Charge_Up_Seconds>
                 <Damage_Multiplier>1</Damage_Multiplier>
                 <Charging_Effect />
                 <Charged_Effect />
@@ -1769,7 +1769,7 @@
 
 		<Death_Clone>Damage_Normal, COVN_CRS_DEATH</Death_Clone>
 		<Space_FOW_Reveal_Range>1700.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints> 
 			HP_BOARD_POINT, HP_CRS_AF_01, HP_CRS_AF_02, HP_CRS_AF_03, HP_CRS_AF_04, HP_CRS_AF_05, HP_CRS_AF_06, HP_CRS_AS_01, HP_CRS_AS_02, HP_CRS_AS_03, HP_CRS_AS_04, HP_CRS_ENGINES, HP_CRS_HANGAR_01, HP_CRS_HANGAR_02, HP_CRS_SHIELD

@@ -388,7 +388,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<GUI_Activated_Ability_Name> CAS_PLASMA_LANCE </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Recharge_Seconds>200</Recharge_Seconds>
-				<Expiration_Seconds>3</Expiration_Seconds>
+				<Expiration_Seconds>2</Expiration_Seconds>
 				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
 				<Alternate_Name_Text>HALO_FIRE_PLASMA_LANCE</Alternate_Name_Text>
@@ -418,11 +418,11 @@
 				<Num_Anim_Frames>0</Num_Anim_Frames>
 				<Line_Width>200</Line_Width>
 				<Line_Color>198 47 224 255</Line_Color>
-				<Face_Target>true</Face_Target>
+				<Face_Target>false</Face_Target>
 				<Turn_Rate>-1.0f</Turn_Rate>
-				<Firing_Cone>10.0f</Firing_Cone>
-            <Fire_Delay>1</Fire_Delay>
-            <Fire_Continuation>0.01</Fire_Continuation>
+				<Firing_Cone>360.0f</Firing_Cone>
+            	<Fire_Delay>1</Fire_Delay>
+            	<Fire_Continuation>0.01</Fire_Continuation>
 			</Super_Laser_Ability>
 
 		</Abilities>
