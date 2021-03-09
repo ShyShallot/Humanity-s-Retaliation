@@ -119,8 +119,14 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
+		<Strafe_Distance>650.0</Strafe_Distance>
+		<Population_Value>1</Population_Value>
 
- 		<Unit_Abilities_Data SubObjectList="Yes">
+	</SpaceUnit>
+
+	<SpaceUnit Name="Longsword_Shiva"> <!-- We dont want every longsword to shoot a shiva nuke so we have only one that can use the ability-->
+		<Variant_Of_Existing_Type>Longsword</Variant_Of_Existing_Type>
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
@@ -142,10 +148,6 @@
 				<Applicable_Unit_Types />
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
-
-		<Strafe_Distance>650.0</Strafe_Distance>
-		<Population_Value>1</Population_Value>
-
 	</SpaceUnit>
 
 	<Squadron Name="Longsword_Squadron">
@@ -173,7 +175,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Longsword, Longsword, Longsword</Squadron_Units>
+		<Squadron_Units>Longsword_Shiva, Longsword, Longsword</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>

@@ -158,7 +158,7 @@ function UNSC_Credits_To_Give()
     unsc_upgrade_l2 = Find_First_Object("RS_Increased_Supplies_L2_Upgrade")
     if (not TestValid(unsc_upgrade_l1) and (not TestValid(unsc_upgrade_l2))) then
         DebugMessage("%s -- Player has no Econ Upgrades", tostring(Script))
-        unsc_credits_to_give = 900
+        unsc_credits_to_give = 1350
         sleepTime = 15
         DebugMessage("%s -- Credits to give", tostring(unsc_credits_to_give))
         DebugMessage("%s -- Sleep Time", tostring(sleepTime))
@@ -166,7 +166,7 @@ function UNSC_Credits_To_Give()
     end
     if TestValid(unsc_upgrade_l1) and (not TestValid(unsc_upgrade_l2)) then
         DebugMessage("%s -- Player has Level 1 Econ Upgrade", tostring(Script))
-        unsc_credits_to_give = 1350
+        unsc_credits_to_give = 1650
         sleepTime = 11
         DebugMessage("%s -- Credits to give", tostring(unsc_credits_to_give))
         DebugMessage("%s -- Sleep Time", tostring(sleepTime))
@@ -174,7 +174,7 @@ function UNSC_Credits_To_Give()
     end
     if TestValid(unsc_upgrade_l2) then
         DebugMessage("%s -- Player has Level 2 Econ Upgrade", tostring(Script))
-        unsc_credits_to_give = 1750
+        unsc_credits_to_give = 2150
         sleepTime = 8
         DebugMessage("%s -- Credits to give", tostring(unsc_credits_to_give))
         DebugMessage("%s -- Sleep Time", tostring(sleepTime))
@@ -198,11 +198,7 @@ function Transport_Move(target_location, object, ability_name)
     DebugMessage("%s -- Transport being called to move", tostring(Script))
     if TestValid(target_location) and TestValid(object) then
         DebugMessage("%s -- Transport is Valid to move", tostring(Script))
-        if target_location.Get_Type() == Object.Get_Type() then
-            distance_till_arrived = 460
-        else
-            distance_till_arrived = 400
-        end
+        distance_till_arrived = 415
         object.Activate_Ability(ability_name, false)
         move_to = object.Move_To(target_location)
         moving = true

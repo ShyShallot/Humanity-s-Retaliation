@@ -2084,7 +2084,7 @@
 	<UpgradeObject Name="RS_Increased_Supplies_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 900 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1450 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
@@ -2105,9 +2105,9 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L1_Bonus">
-				<Income_Multiplier>1.40</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Income_Multiplier>1.35</Income_Multiplier>
+				<Income_Additive_Value>95.0</Income_Additive_Value>
+				<Interval_Multiplier>0.95</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -2157,7 +2157,7 @@
 	<UpgradeObject Name="RS_Increased_Supplies_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 2850 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 65 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> RS_Increased_Supplies_L1_Upgrade </Tactical_Build_Prerequisites>
@@ -2178,9 +2178,9 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L2_Bonus">
-				<Income_Multiplier>1.8</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>0.8</Interval_Multiplier>
+				<Income_Multiplier>1.85</Income_Multiplier>
+				<Income_Additive_Value>105.0</Income_Additive_Value>
+				<Interval_Multiplier>0.75</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -2924,7 +2924,7 @@
 	<UpgradeObject Name="ES_Increased_Supplies_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 900 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1850 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
@@ -2945,9 +2945,9 @@
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L1_Bonus">
-				<Income_Multiplier>1.5</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.5</Interval_Multiplier>
+				<Income_Multiplier>1.6</Income_Multiplier>
+				<Income_Additive_Value>125.0</Income_Additive_Value>
+				<Interval_Multiplier>1.15</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -2997,7 +2997,7 @@
 	<UpgradeObject Name="ES_Increased_Supplies_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 3450 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 65 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> ES_Increased_Supplies_L1_Upgrade </Tactical_Build_Prerequisites>
@@ -3018,9 +3018,9 @@
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L2_Bonus">
-				<Income_Multiplier>2.2</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>2.25</Interval_Multiplier>
+				<Income_Multiplier>1.95</Income_Multiplier>
+				<Income_Additive_Value>200.0</Income_Additive_Value>
+				<Interval_Multiplier>1.45</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
