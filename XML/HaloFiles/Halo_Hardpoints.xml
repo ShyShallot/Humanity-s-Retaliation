@@ -201,7 +201,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Fighter</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -265,15 +265,15 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -295,15 +295,15 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -341,8 +341,8 @@
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -379,8 +379,8 @@
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -418,8 +418,8 @@
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -457,8 +457,8 @@
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -482,15 +482,15 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -512,15 +512,15 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -542,15 +542,15 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -572,15 +572,15 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -823,7 +823,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_HALB_MAC">
-            <Type> HARD_POINT_WEAPON_SPECIAL </Type>
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -848,6 +848,8 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 
 
     </HardPoint>
@@ -887,7 +889,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_IROQ_MAC">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -912,6 +914,8 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 
 
     </HardPoint>
@@ -930,8 +934,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -961,8 +965,8 @@
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -992,8 +996,8 @@
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1022,8 +1026,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1657,8 +1661,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1688,8 +1692,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1717,8 +1721,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1746,8 +1750,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1775,8 +1779,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1804,8 +1808,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1833,8 +1837,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1862,8 +1866,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1891,8 +1895,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1920,8 +1924,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1949,8 +1953,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -1979,8 +1983,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2009,8 +2013,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2038,8 +2042,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2067,8 +2071,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2096,8 +2100,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2125,8 +2129,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2154,8 +2158,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2183,8 +2187,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2212,8 +2216,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2241,8 +2245,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2270,8 +2274,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2299,10 +2303,10 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>210.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Min_Recharge_Seconds>100.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>100.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
@@ -2313,6 +2317,8 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 
     <HardPoint Name="UNSC_POA_EG_01">
@@ -2718,8 +2724,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2747,8 +2753,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2776,8 +2782,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2805,8 +2811,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2834,8 +2840,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2863,8 +2869,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2892,8 +2898,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2921,8 +2927,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2950,8 +2956,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -2979,8 +2985,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3008,8 +3014,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3037,8 +3043,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3066,8 +3072,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3095,8 +3101,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3124,8 +3130,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3153,8 +3159,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3182,8 +3188,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3211,8 +3217,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3240,8 +3246,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3269,8 +3275,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3298,8 +3304,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3327,8 +3333,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -3345,7 +3351,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_MAC">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -3356,8 +3362,8 @@
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>80.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>80.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
@@ -3370,6 +3376,8 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 
 
     </HardPoint>
@@ -4672,8 +4680,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -4711,8 +4719,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -4750,8 +4758,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -4789,8 +4797,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -4828,8 +4836,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -4867,8 +4875,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -4906,8 +4914,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -4945,8 +4953,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -4984,8 +4992,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -5023,8 +5031,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -5062,8 +5070,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -5101,8 +5109,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -5140,8 +5148,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -5179,8 +5187,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -5218,8 +5226,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -5257,8 +5265,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -5279,8 +5287,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5308,8 +5316,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5337,8 +5345,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5366,8 +5374,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5388,8 +5396,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5417,8 +5425,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5446,8 +5454,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5475,8 +5483,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5504,8 +5512,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5533,8 +5541,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5562,8 +5570,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5591,8 +5599,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5620,8 +5628,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5649,8 +5657,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5678,8 +5686,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5707,8 +5715,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5736,8 +5744,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5758,8 +5766,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5787,8 +5795,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5816,8 +5824,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -5847,8 +5855,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
@@ -5877,8 +5885,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
@@ -5907,8 +5915,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
@@ -5937,8 +5945,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
@@ -5967,8 +5975,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
@@ -5997,8 +6005,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
@@ -6346,8 +6354,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
@@ -6386,8 +6394,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
@@ -6426,8 +6434,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
@@ -6466,8 +6474,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
@@ -6506,8 +6514,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
@@ -6546,8 +6554,8 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
@@ -9072,8 +9080,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -9101,8 +9109,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -9130,8 +9138,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -9159,8 +9167,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -9188,8 +9196,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -9509,20 +9517,20 @@
     
 
     <HardPoint Name="UNSC_STRIDENT_MAC">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Attachment_Bone>HP_MAC</Attachment_Bone>
 			<Fire_Bone_A>HP_MAC</Fire_Bone_A>
             <Fire_Bone_B>HP_MAC</Fire_Bone_B>
-            <Fire_Cone_Width>45.0</Fire_Cone_Width>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_EMPTY</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>55.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>55.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
@@ -9533,6 +9541,8 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 
     <HardPoint Name="UNSC_STRIDENT_EG">
@@ -10312,7 +10322,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MAC">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -10336,6 +10346,8 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 
     <HardPoint Name="UNSC_STALWART_MK33_01">
@@ -10367,8 +10379,8 @@
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -10406,8 +10418,8 @@
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -10445,8 +10457,8 @@
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -10484,8 +10496,8 @@
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -10523,8 +10535,8 @@
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -10562,8 +10574,8 @@
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -10584,8 +10596,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -10612,8 +10624,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -10640,8 +10652,8 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>3.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.9</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1700.0</Fire_Range_Distance>
@@ -10657,7 +10669,7 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_STALWART_MAC">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -10667,8 +10679,8 @@
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>55.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>55.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>3500.0</Fire_Range_Distance>
@@ -10681,6 +10693,8 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
     
     <!-- Start of Covenant Hardpoints -->
@@ -12644,8 +12658,8 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 7.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
@@ -12673,8 +12687,8 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 7.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
@@ -12702,8 +12716,8 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 7.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
@@ -12731,8 +12745,8 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 7.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
@@ -12760,8 +12774,8 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 7.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>

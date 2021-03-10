@@ -2105,8 +2105,8 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L1_Bonus">
-				<Income_Multiplier>1.35</Income_Multiplier>
-				<Income_Additive_Value>95.0</Income_Additive_Value>
+				<Income_Multiplier>1.2</Income_Multiplier>
+				<Income_Additive_Value>45.0</Income_Additive_Value>
 				<Interval_Multiplier>0.95</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
@@ -2178,9 +2178,9 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L2_Bonus">
-				<Income_Multiplier>1.85</Income_Multiplier>
-				<Income_Additive_Value>105.0</Income_Additive_Value>
-				<Interval_Multiplier>0.75</Interval_Multiplier>
+				<Income_Multiplier>1.4</Income_Multiplier>
+				<Income_Additive_Value>75.0</Income_Additive_Value>
+				<Interval_Multiplier>0.85</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -2945,9 +2945,9 @@
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L1_Bonus">
-				<Income_Multiplier>1.6</Income_Multiplier>
-				<Income_Additive_Value>125.0</Income_Additive_Value>
-				<Interval_Multiplier>1.15</Interval_Multiplier>
+				<Income_Multiplier>1.45</Income_Multiplier>
+				<Income_Additive_Value>65.0</Income_Additive_Value>
+				<Interval_Multiplier>1.10</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -3018,9 +3018,9 @@
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L2_Bonus">
-				<Income_Multiplier>1.95</Income_Multiplier>
-				<Income_Additive_Value>200.0</Income_Additive_Value>
-				<Interval_Multiplier>1.45</Interval_Multiplier>
+				<Income_Multiplier>1.70</Income_Multiplier>
+				<Income_Additive_Value>110.0</Income_Additive_Value>
+				<Interval_Multiplier>1.25</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>

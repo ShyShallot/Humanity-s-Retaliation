@@ -1660,6 +1660,30 @@
 		
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
+		<!-- Unit abilities description 
+		<Unit_Abilities_Data SubObjectList="Yes">
+			Primary ability 
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>120.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>FIRE_STALWART_MAC</GUI_Activated_Ability_Name> 
+				<Projectile_Types_Override>Proj_UNSC_MAC_SHELL_LIGHT</Projectile_Types_Override>
+				<Alternate_Name_Text>HALO_FIRE_MAC</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_FIRE_MAC_ENC</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="FIRE_STALWART_MAC">
+				<Activation_Style> User_Input </Activation_Style>
+				We only consider the following unit types "valid targets": 
+				<Applicable_Unit_Categories>Corvette | Frigate | Capital | Super | Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+		</Abilities>-->
+
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.06  0.1</Radar_Icon_Size> <!-- Width by Height -->

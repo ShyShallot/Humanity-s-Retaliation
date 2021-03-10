@@ -1424,7 +1424,7 @@
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		
 		<SpaceBehavior> SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, UNIT_AI, DAMAGE_TRACKING, IDLE, HIDE_WHEN_FOGGED </SpaceBehavior>
-		<Scale_Factor>2 </Scale_Factor>
+		<Scale_Factor> 2 </Scale_Factor>
 
 		<Text_ID> TEXT_ASTEROID_MINING_FACILITY </Text_ID>
 		<GUI_Row> 0 </GUI_Row>
@@ -1440,7 +1440,7 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Victory_Relevant>no</Victory_Relevant>
 		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
+		<GUI_Distance>200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1458,8 +1458,6 @@
 		
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Abilities SubObjectList="Yes">			
 			<Force_Healing_Ability Name="E_Mineral_Extractor_Self_Repair">
@@ -1702,7 +1700,7 @@
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<CategoryMask> Structure </CategoryMask>
-		
+		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Show_Facing>No</Radar_Show_Facing>
 		<Radar_Icon_Name>mini_map_mining_facilities.tga</Radar_Icon_Name>

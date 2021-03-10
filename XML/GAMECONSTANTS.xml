@@ -1541,8 +1541,8 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Transport, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Bomber, 1.2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Fighter, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Bomber, 0.45 </Damage_To_Armor_Mod><!-- We want to do less damage against fighters, so they -->
+	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Fighter, 0.4 </Damage_To_Armor_Mod> <!-- dont insta die -->
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Hero_Transport, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Corellian_Corvette, 1.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Missile_Cruiser, 1 </Damage_To_Armor_Mod>
@@ -1562,7 +1562,7 @@
     <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Capital, 0.7</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Frigate, 1.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Corvette, 1.0</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Fighter, 1.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_Fighter, 0.8</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Shield_SSD, 0.40 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_Vengeance, 5.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_MC30_Frigate, 5.8 </Damage_To_Armor_Mod>
@@ -1696,8 +1696,8 @@
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Transport, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Bomber, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Fighter, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Bomber, 0.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Fighter, 0.6 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Hero_Transport, 0.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Corellian_Corvette, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Missile_Cruiser, 5 </Damage_To_Armor_Mod>
@@ -1717,7 +1717,7 @@
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Capital, 0.7</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Frigate, 1.8</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Corvette, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Fighter, 1</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Fighter, 0.5</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_SSD, 0.45 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Vengeance, 1.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Armor_MC30_Frigate, 2.5 </Damage_To_Armor_Mod>
@@ -1727,8 +1727,8 @@
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Light, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Light, Shield_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Light, Armor_Transport, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser_Light, Armor_Bomber, 1.2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser_Light, Armor_Fighter, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser_Light, Armor_Bomber, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser_Light, Armor_Fighter, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Light, Armor_Hero_Transport, 0.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Light, Armor_Corellian_Corvette, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Light, Armor_Missile_Cruiser, 5 </Damage_To_Armor_Mod>
@@ -1797,15 +1797,15 @@
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Tartan, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Interdictor, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Corellian_Gunboat, 4.75 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Nebulon_B, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Nebulon_B, 0.15 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Acclamator, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Pirate_Frigate, 3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Satellite, 0.7 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Frigate, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Victory_Class, 0.2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Assault_Frigate, 0.15 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Calamari_Cruiser, 0.15 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Star_Destroyer, 0.15 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Assault_Frigate, 0.10 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Calamari_Cruiser, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Star_Destroyer, 0.05 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Station, 0.1 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Shield_Capital, 0.2</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Shield_Frigate, 0.4</Damage_To_Armor_Mod>
