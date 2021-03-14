@@ -1213,7 +1213,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Sabre, Sabre, Sabre, Sabre</Squadron_Units>
+		<Squadron_Units>Sabre, Sabre</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -1346,14 +1346,14 @@
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
-		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>10.5</Max_Speed>
+		<Max_Speed>12.5</Max_Speed>
 		<Min_Speed>4.0</Min_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Max_Thrust>5.0</Max_Thrust>
@@ -1499,7 +1499,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Seraph, Seraph</Squadron_Units>
+		<Squadron_Units>Seraph, Seraph, Seraph</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>

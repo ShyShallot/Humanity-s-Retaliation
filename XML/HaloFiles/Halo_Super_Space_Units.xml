@@ -25,6 +25,7 @@
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
+		<Damage_Type>Damage_UNSC_Super</Damage_Type>
 		<Armor_Type> Armor_SSD </Armor_Type>
 		<Shield_Armor_Type>Shield_SSD</Shield_Armor_Type>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
@@ -49,7 +50,7 @@
 		<Required_Planets/>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>20000</Tactical_Health>
-		<Shield_Points>12500</Shield_Points>
+		<Shield_Points>17500</Shield_Points>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -218,6 +219,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Damage_Type>Damage_COVIE_Super</Damage_Type>
 		<Armor_Type> Armor_SSD </Armor_Type>
 		<Shield_Armor_Type>Shield_SSD</Shield_Armor_Type>
 

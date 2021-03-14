@@ -411,7 +411,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 			<Model_To_Attach>EV_ExecutorStarDestroyer_hp_L_trb00.alo</Model_To_Attach>
             <Attachment_Bone>HP_L_TRB00_BONE</Attachment_Bone>
             <Collision_Mesh>HP_L_TRB00_COLL</Collision_Mesh>
@@ -452,7 +452,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 			<Model_To_Attach>EV_ExecutorStarDestroyer_hp_L_trb01.alo</Model_To_Attach>
             <Attachment_Bone>HP_L_TRB01_BONE</Attachment_Bone>
             <Collision_Mesh>HP_L_TRB01_COLL</Collision_Mesh>
@@ -493,7 +493,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 			<Model_To_Attach>EV_ExecutorStarDestroyer_hp_L_trb02.alo</Model_To_Attach>
             <Attachment_Bone>HP_L_TRB02_BONE</Attachment_Bone>
             <Collision_Mesh>HP_L_TRB02_COLL</Collision_Mesh>
@@ -534,7 +534,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 			<Model_To_Attach>EV_ExecutorStarDestroyer_hp_L_trb03.alo</Model_To_Attach>
             <Attachment_Bone>HP_L_TRB03_BONE</Attachment_Bone>
             <Collision_Mesh>HP_L_TRB03_COLL</Collision_Mesh>
@@ -575,7 +575,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 			<Model_To_Attach>EV_ExecutorStarDestroyer_hp_L_trb04.alo</Model_To_Attach>
             <Attachment_Bone>HP_L_TRB04_BONE</Attachment_Bone>
             <Collision_Mesh>HP_L_TRB04_COLL</Collision_Mesh>
@@ -824,7 +824,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 			<Model_To_Attach>EV_ExecutorStarDestroyer_hp_R_trb00.alo</Model_To_Attach>
             <Attachment_Bone>HP_R_TRB00_BONE</Attachment_Bone>
             <Collision_Mesh>HP_R_TRB00_COLL</Collision_Mesh>
@@ -866,7 +866,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 			<Model_To_Attach>EV_ExecutorStarDestroyer_hp_R_trb01.alo</Model_To_Attach>
             <Attachment_Bone>HP_R_TRB01_BONE</Attachment_Bone>
             <Collision_Mesh>HP_R_TRB01_COLL</Collision_Mesh>
@@ -907,7 +907,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 			<Model_To_Attach>EV_ExecutorStarDestroyer_hp_R_trb02.alo</Model_To_Attach>
             <Attachment_Bone>HP_R_TRB02_BONE</Attachment_Bone>
             <Collision_Mesh>HP_R_TRB02_COLL</Collision_Mesh>
@@ -948,7 +948,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 			<Model_To_Attach>EV_ExecutorStarDestroyer_hp_R_trb03.alo</Model_To_Attach>
             <Attachment_Bone>HP_R_TRB03_BONE</Attachment_Bone>
             <Collision_Mesh>HP_R_TRB03_COLL</Collision_Mesh>
@@ -989,7 +989,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+			<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 			<Model_To_Attach>EV_ExecutorStarDestroyer_hp_R_trb04.alo</Model_To_Attach>
             <Attachment_Bone>HP_R_TRB04_BONE</Attachment_Bone>
             <Collision_Mesh>HP_R_TRB04_COLL</Collision_Mesh>
@@ -1846,7 +1846,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Special_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 		<Model_To_Attach>UV_KraytClassDestroyer_HP_SW_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_SW_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_SW_00_COLL</Collision_Mesh>
@@ -1895,7 +1895,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_L_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_LC_L_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_LC_L_00_COLL</Collision_Mesh>
@@ -1937,7 +1937,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_L_00_Tyber.alo</Model_To_Attach>
 		<Attachment_Bone>HP_LC_L_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_LC_L_00_COLL</Collision_Mesh>
@@ -1978,7 +1978,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_R_00.alo</Model_To_Attach>
 		<Attachment_Bone>HP_LC_R_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_LC_R_00_COLL</Collision_Mesh>
@@ -2020,7 +2020,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_COVIE_Capital </Damage_Type>
 		<Model_To_Attach>UV_KraytClassDestroyer_HP_LC_R_00_Tyber.alo</Model_To_Attach>
 		<Attachment_Bone>HP_LC_R_00_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_LC_R_00_COLL</Collision_Mesh>
@@ -4854,7 +4854,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_COVIE_Capital </Damage_Type>
         <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_L-F.alo</Model_To_Attach>
         <Attachment_Bone>HP_F-L_BONE</Attachment_Bone>
         <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
@@ -4897,7 +4897,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_COVIE_Capital </Damage_Type>
         <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_F-R.alo</Model_To_Attach>
         <Attachment_Bone>HP_F-R_BONE</Attachment_Bone>
         <Collision_Mesh>HP_F-R_COLL</Collision_Mesh>
@@ -4940,7 +4940,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_COVIE_Capital </Damage_Type>
         <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_B-L.alo</Model_To_Attach>
         <Attachment_Bone>HP_B-L_BONE</Attachment_Bone>
         <Collision_Mesh>HP_B-L_COLL</Collision_Mesh>
@@ -4984,7 +4984,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-		<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+		<Damage_Type> Damage_COVIE_Capital </Damage_Type>
         <Model_To_Attach>EV_StarDestroyer_Thrawn_HP00_B-R.alo</Model_To_Attach>
         <Attachment_Bone>HP_B-R_BONE</Attachment_Bone>
         <Collision_Mesh>HP_B-R_COLL</Collision_Mesh>

@@ -68,7 +68,7 @@
 			<TextureMipLevel>0</TextureMipLevel>
 			<ShaderDetailLevel>3</ShaderDetailLevel>
 			<WaterDetailLevel>2</WaterDetailLevel>
-			<ShadowDetail>4</ShadowDetail>	
+			<ShadowDetail>3</ShadowDetail>	
 			<ShadowVolumes>Yes</ShadowVolumes>
 			<SoftShadows>Yes</SoftShadows>
 			<HeatDistortions>Yes</HeatDistortions>

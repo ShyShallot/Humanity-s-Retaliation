@@ -28,6 +28,7 @@
 		<Max_Rate_Of_Roll>1.4</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Max_Thrust>1.9</Max_Thrust>
@@ -210,6 +211,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
@@ -411,6 +413,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
@@ -578,6 +581,7 @@
 		<OverrideAcceleration> .04 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
 
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Max_Thrust>1.1</Max_Thrust>
@@ -767,6 +771,7 @@
 		<OverrideAcceleration> .04 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
 
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Max_Thrust>1.4</Max_Thrust>
@@ -988,6 +993,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
@@ -1178,7 +1184,8 @@
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
-
+		
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_Assault_Frigate </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
@@ -1369,6 +1376,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_Assault_Frigate </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
@@ -1555,6 +1563,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
+		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_Nebulon_B </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
@@ -1714,89 +1723,128 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_CRS">
-		<Text_ID>TEXT_UNIT_COVN_CRS</Text_ID>
-		<Encyclopedia_Good_Against> Corellian_Corvette Interceptor4_Frigate UNSC_GLADIUS </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat MC30_Frigate </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<!-- Model -->
 		<Space_Model_Name>COVN_CRS.ALO</Space_Model_Name>
-
-		<Ranking_In_Category>5</Ranking_In_Category>
-	
-	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-
-		<Select_Box_Scale>350</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
-
+		<Death_Clone>Damage_Normal, COVN_CRS_DEATH</Death_Clone>
 		<Scale_Factor>0.8</Scale_Factor>
-		<Mass>0.999</Mass>
-		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
-		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-	
+		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
+
+		<!-- Naming -->
+		<Text_ID>TEXT_UNIT_COVN_CRS</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CRS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
+
+		<!-- Classes -->
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Ship_Class>frigate</Ship_Class>
+		<CategoryMask> Frigate | AntiFrigate </CategoryMask>
+
+		<!-- Class Shield and Damage -->
+		<Damage_Type>Damage_COVIE_Frigate</Damage_Type>
 		<Armor_Type> Armor_Victory_Class</Armor_Type>
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 
-		<Max_Speed>2.3</Max_Speed>
-		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
+		<!-- GUI -->
+		<Encyclopedia_Good_Against> Corellian_Corvette Interceptor4_Frigate UNSC_GLADIUS </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat MC30_Frigate </Encyclopedia_Vulnerable_To>
+		<GUI_Row> 1 </GUI_Row>
+		<GUI_Bracket_Height>500</GUI_Bracket_Height>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Icon_Name>I_BUTTON_CRS.tga</Icon_Name>
+		
+		<!-- Radar -->
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.08</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
+
+		<!-- Visual -->
+		<Select_Box_Scale>350</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Space_FOW_Reveal_Range>1700.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
+
+		<!-- Stats -->
+		<Population_Value>6</Population_Value>
+	   	<Max_Speed>2.3</Max_Speed>
+		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
+		<Autoresolve_Health>7500</Autoresolve_Health>
+		<Shield_Points>3650</Shield_Points>
+		<Tactical_Health>4500</Tactical_Health>
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Max_Rate_Of_Roll>1.5</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
-		
 		<Max_Thrust>0.5</Max_Thrust>
-		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1</Hyperspace_Speed>
-		<Maintenance_Cost>0.3</Maintenance_Cost>
-
+		<Energy_Capacity>8000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		
+		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Damage>70</Damage>
-		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>3650</Shield_Points>
-		<Tactical_Health>4500</Tactical_Health>
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
-		<Ship_Class>frigate</Ship_Class>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
-		<!--<Political_Control>1</Political_Control>-->
-		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>11000</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Size_Value>8</Size_Value>
-		
-		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Maintenance_Cost>0.3</Maintenance_Cost>
 
+		<!-- AI Control -->
+		<Damage>70</Damage>
+		<AI_Combat_Power>3000</AI_Combat_Power>
+
+		<!--Squadron / Fighter Sets-->
+		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds> <!-- Time until ship deploys its fighters, counts down on ship spawn-->
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
 		
+		<!-- Misc-->
+		<Lua_Script>BoardingAbility</Lua_Script>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
-		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator> <!-- If set to false the game will ignore this for victory condition even if ship is alive-->
+		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
-		<Death_Clone>Damage_Normal, COVN_CRS_DEATH</Death_Clone>
-		<Space_FOW_Reveal_Range>1700.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
-
+		<!-- Hardpoints -->
 		<HardPoints> 
 			HP_BOARD_POINT, HP_CRS_AF_01, HP_CRS_AF_02, HP_CRS_AF_03, HP_CRS_AF_04, HP_CRS_AF_05, HP_CRS_AF_06, HP_CRS_AS_01, HP_CRS_AS_02, HP_CRS_AS_03, HP_CRS_AS_04, HP_CRS_ENGINES, HP_CRS_HANGAR_01, HP_CRS_HANGAR_02, HP_CRS_SHIELD
 		</HardPoints>
-
+		
+		<!-- Unit Targeting -->
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+		
+		<!-- Unknown Don't touch unless experiementing-->
+		<Mass>0.999</Mass>
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<!--<Political_Control>1</Political_Control>-->
+		<Political_Faction>Empire</Political_Faction>
+		<Size_Value>8</Size_Value>
+		<Score_Cost_Credits> 45000</Score_Cost_Credits>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<GUI_Distance>2300</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		
+		<!-- Sound Effect Events-->
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Star_Destroyer</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Star_Destroyer</SFXEvent_Fleet_Move>
@@ -1811,15 +1859,13 @@
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
-
+		<!-- Hardpoint Specific SFX-->
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Star_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Star_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Star_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Star_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Star_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Star_Destroyer </SFXEvent_Attack_Hardpoint>
-
-		<SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
@@ -1832,6 +1878,9 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
+		
+		<SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
+
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
          
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -1841,27 +1890,6 @@
 		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
-		<CategoryMask> Frigate | AntiFrigate </CategoryMask>
-		<Icon_Name>I_BUTTON_CRS.tga</Icon_Name>
-		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
-		<GUI_Distance>2300</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		 
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.04  0.08</Radar_Icon_Size>
-		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
-		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			
@@ -1896,12 +1924,6 @@
 			</Tractor_Beam_Attack_Ability>
 
 		</Abilities>		
-
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CRS </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
-		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>6</Population_Value>
-		<Lua_Script>BoardingAbility</Lua_Script>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3450</Tactical_Build_Cost_Multiplayer>
