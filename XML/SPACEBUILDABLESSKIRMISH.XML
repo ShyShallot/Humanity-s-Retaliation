@@ -1700,7 +1700,7 @@
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<CategoryMask> Structure </CategoryMask>
-		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Show_Facing>No</Radar_Show_Facing>
 		<Radar_Icon_Name>mini_map_mining_facilities.tga</Radar_Icon_Name>

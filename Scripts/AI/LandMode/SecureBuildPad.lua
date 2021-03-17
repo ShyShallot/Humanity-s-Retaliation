@@ -88,7 +88,7 @@ function MainForce_Thread()
 		
 	MainForce.Set_As_Goal_System_Removable(false)
 						
-	if TestValid(Target) then
+	if TestValid(Target) and EvaluatePerception("Distance_To_Nearest_Enemy_Starbase", PlayerObject, Target) > 2000  then
         if (EvaluatePerception("Is_Build_Pad", PlayerObject, Target) == 1) then
 
 			-- Build pads may have an existing enemy structure than needs to be removed

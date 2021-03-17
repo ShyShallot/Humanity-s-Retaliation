@@ -34,6 +34,11 @@
 		<Goal>Space_Scout</Goal>
 		<Function>Space_Area_Needs_Scouting</Function>
 	</Space_Scout>
+
+	<Build_Capital_Ship>
+		<Goal>Build_Capital_Ship</Goal>
+		<Function>Should_Build_Capital_Ship</Function>
+	</Build_Capital_Ship>
 	
 	<Hide_Transports>
 		<Goal>Hide_Transports</Goal>

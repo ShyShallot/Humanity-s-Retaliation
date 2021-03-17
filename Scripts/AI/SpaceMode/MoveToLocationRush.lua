@@ -49,7 +49,8 @@ function Definitions()
 	{
 		{
 			"MainForce"
-			,"Fighter | Corvette = 1"
+			,"Fighter = 2"
+			,"Corvette = 1,3"
 		},
 		{
 			"EscortForce"		
@@ -82,9 +83,7 @@ function MainForce_Thread()
 			-- Build pads may have an existing enemy structure than needs to be removed
 			-- Note that the enemy player can build structures late or rebuild destroyed structures, thus the need to repeat.
 			structure = Target.Get_Build_Pad_Contents()
-            if (structure == nil) or
-				(TestValid(structure) and PlayerObject.Get_Faction_Name() ~= structure.Get_Owner().Get_Faction_Name()) then
-				
+            if (structure == nil) or (TestValid(structure) and PlayerObject.Get_Faction_Name() ~= structure.Get_Owner().Get_Faction_Name()) then
 					-- Attack any structure that might be there
 					if TestValid(structure) then
 						BlockOnCommand(MainForce.Attack_Target(AITarget))

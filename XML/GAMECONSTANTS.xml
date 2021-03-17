@@ -169,7 +169,7 @@
 	<Japanese_ST_Line_Percent>0.9</Japanese_ST_Line_Percent>
 
 	<AIUsesFogOfWarGalactic> True </AIUsesFogOfWarGalactic>
-	<AIUsesFogOfWarSpace> True </AIUsesFogOfWarSpace>
+	<AIUsesFogOfWarSpace> False </AIUsesFogOfWarSpace>
 	<AIUsesFogOfWarLand> False </AIUsesFogOfWarLand>
 	<SetupPhaseEnabled> False </SetupPhaseEnabled>
 	<ShowUnitAIPlanAttachment> True </ShowUnitAIPlanAttachment>
@@ -325,7 +325,7 @@
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
 	
-	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
+	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay_Tracked </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
 

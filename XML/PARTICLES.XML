@@ -349,6 +349,19 @@
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
 	</Particle>
 
+	<Particle Name="Nuke_Explode_Space">
+        <Land_Model_Name>W_NUKE_EXPLODE.alo</Land_Model_Name>
+        <Space_Model_Name>W_NUKE_EXPLODE.alo</Space_Model_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE, EXPLOSION</Behavior>
+		<Allow_Particle_Model_Culling>yes</Allow_Particle_Model_Culling>
+        <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
+    </Particle>
+
     <Particle Name="Small_Damage_Space">
         <Land_Model_Name>p_damage_small00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_small00.alo</Space_Model_Name>

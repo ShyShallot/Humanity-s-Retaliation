@@ -44,6 +44,49 @@ function Is_Target_Affected_By_Ability(object, ability_name)
     end
 end
 
+function Return_Faction(player)
+    return player.Get_Type().Get_Faction_Name()
+end
+
+function Tactical_Tech_Level(player)
+    if Return_Faction(player) == "EMPIRE" then
+        if TestValid(Find_First_Object("Skirmish_Empire_Star_Base_1")) then
+            tech_level = 1
+            return tech_level
+        elseif TestValid(Find_First_Object("Skirmish_Empire_Star_Base_2")) then
+            tech_level = 2
+            return tech_level
+        elseif TestValid(Find_First_Object("Skirmish_Empire_Star_Base_3")) then
+            tech_level = 3
+            return tech_level
+        elseif TestValid(Find_First_Object("Skirmish_Empire_Star_Base_4")) then
+            tech_level = 4
+            return tech_level
+        elseif TestValid(Find_First_Object("Skirmish_Empire_Star_Base_5")) then
+            tech_level = 5
+            return tech_level
+        end
+    elseif Return_Faction(player) == "REBEL" then
+        if TestValid(Find_First_Object("Skirmish_Rebel_Star_Base_1")) then
+            tech_level = 1
+            return tech_level
+        elseif TestValid(Find_First_Object("Skirmish_Rebel_Star_Base_2")) then
+            tech_level = 2
+            return tech_level
+        elseif TestValid(Find_First_Object("Skirmish_Rebel_Star_Base_3")) then
+            tech_level = 3
+            return tech_level
+        elseif TestValid(Find_First_Object("Skirmish_Rebel_Star_Base_4")) then
+            tech_level = 4
+            return tech_level
+        elseif TestValid(Find_First_Object("Skirmish_Rebel_Star_Base_5")) then
+            tech_level = 5
+            return tech_level
+        end
+    end
+end
+
+
 function Is_Valid_Category(object, cat_1, cat_2, cat_3, cat_4, cat_5)
     category_valid = 0
 

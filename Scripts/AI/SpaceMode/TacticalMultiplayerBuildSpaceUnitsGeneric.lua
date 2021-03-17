@@ -40,13 +40,13 @@
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("pgevents")
-
+require("HALOFunctions")
 
 function Definitions()
 	
 	Category = "Tactical_Multiplayer_Build_Space_Units_Generic"
 	IgnoreTarget = true
-	TaskForce = {
+	TaskForce = { 
 		{
 		"ReserveForce"
 		
@@ -71,21 +71,52 @@ function ReserveForce_Thread()
 		
 	-- Give some time to accumulate money.
 	tech_level = PlayerObject.Get_Tech_Level()
-	min_credits = 2000
-	max_sleep_seconds = 30
-	if tech_level == 2 then
-		min_credits = 4000
-		max_sleep_seconds = 50
-	elseif tech_level >= 3 then
-		min_credits = 6000
-		max_sleep_seconds = 80
-	end
-	
+	diff = PlayerObject.Get_Difficulty()
+	min_credits, max_sleep_seconds = Calculate_Credit_Sleep_Time(tech_level, diff, PlayerObject)
 	current_sleep_seconds = 0
-	while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
-		current_sleep_seconds = current_sleep_seconds + 1
-		Sleep(1)
+	if (min_credits ~= 0 and max_sleep_seconds ~= 0) or (min_credits ~= nil and max_sleep_seconds ~= nil) then
+		while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
+			current_sleep_seconds = current_sleep_seconds + 1
+			Sleep(1)
+		end
 	end
 
 	ScriptExit()
+end
+
+function Calculate_Credit_Sleep_Time(tech, diff, player)
+	local faction = Return_Faction(PlayerObject)
+	local min_credits = 2000
+	local max_sleep_seconds = 30
+	if faction == "EMPIRE" then
+		fac_credits_multi = 1.5
+		fac_sleep_seconds_multi = 2
+	else
+		fac_credits_multi = 1.15
+		fac_sleep_seconds_multi = 1.5
+	end
+	if Tactical_Tech_Level(PlayerObject) == 1 then
+		tech_credits_mutli  = 0.85
+	elseif Tactical_Tech_Level(PlayerObject) == 2 then
+		tech_credits_mutli = 1.0
+	elseif  Tactical_Tech_Level(PlayerObject) == 3 then
+		tech_credits_mutli = 1.4
+	elseif  Tactical_Tech_Level(PlayerObject) == 4 then
+		tech_credits_mutli = 1.65
+	elseif  Tactical_Tech_Level(PlayerObject) == 5 then
+		tech_credits_mutli = 1.85
+	end
+	if diff == "EASY" then
+		diff_credits_multi = 1.15
+		diff_sleep_multi = 1.35
+	elseif diff == "NORMAL" then
+		diff_credits_multi = 1
+		diff_sleep_multi = 1.2
+	elseif diff == "HARD" then
+		diff_credits_multi = 0.85
+		diff_sleep_multi = 1
+	end
+	
+	local min_credits = min_credits * fac_credits_multi * tech_credits_mutli * diff_credits_multi
+	local max_sleep_seconds = max_sleep_seconds * fac_sleep_seconds_multi * diff_sleep_multi
 end

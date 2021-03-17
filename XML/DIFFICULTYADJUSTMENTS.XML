@@ -41,7 +41,7 @@
 		<Space_AI_Contrast_Multiplier>1.8</Space_AI_Contrast_Multiplier>
 		<Land_AI_Contrast_Multiplier>1.8</Land_AI_Contrast_Multiplier>
 		<Galactic_Build_Time_Multiplier>0.7</Galactic_Build_Time_Multiplier>
-		<Space_Build_Time_Multiplier>0.7</Space_Build_Time_Multiplier>
+		<Space_Build_Time_Multiplier>0.65</Space_Build_Time_Multiplier>
 		<Land_Build_Time_Multiplier>0.6</Land_Build_Time_Multiplier>
 		<Damage_Multiplier>1.8</Damage_Multiplier>
 		<Health_Multiplier>1.75</Health_Multiplier>

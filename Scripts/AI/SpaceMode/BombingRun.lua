@@ -54,6 +54,7 @@ function Definitions()
 	{
 		"FighterForce"		
 		,"Fighter = 1,4"
+		,"Frigate | Corvette = 0,3"
 	}
 	}
 

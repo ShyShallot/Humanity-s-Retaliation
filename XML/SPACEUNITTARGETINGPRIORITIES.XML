@@ -256,12 +256,14 @@
 
 	<Priority_Set Name="Capital_Attack_Move">
 		<Attack_Priorities>
-			Transport, 1.0,
+			Super, 0.5,
+			Capital, 1,
 			Frigate, 2.0,
 			SpaceHero, 2.5,
 			Corvette, 3.0,
 			Bomber, 4.0,
 			Fighter, 5.0,
+			Transport, 6.0,
 		</Attack_Priorities>
 		<Hard_Point_Priorities>
 			Shield_Generator, Engine, FIGHTER_BAY, WEAPON_LASER, WEAPON_ION_CANNON, TRACTOR_BEAM
@@ -282,6 +284,7 @@
 	-->
 	<Priority_Set Name="Bomber_Hit_And_Run">
 		<Attack_Priorities>
+			Super, 0.35
 			SpaceHero, 0.5,
 			Capital, 1.0,
 			Frigate, 2.0,
@@ -289,7 +292,7 @@
 			Transport, 4.0,
 		</Attack_Priorities>
 		<Hard_Point_Priorities>
-			Shield_Generator
+			Shield_Generator, Engine, FIGHTER_BAY,
 		</Hard_Point_Priorities>
 		<Category_Exclusions>
 			Fighter, Bomber

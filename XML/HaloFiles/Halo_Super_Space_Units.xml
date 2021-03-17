@@ -182,7 +182,7 @@
 		
 		</Unit_Abilities_Data>
 		<Lua_Script>ObjectScript_Firepower</Lua_Script>
-		<Encyclopedia_Text> TEXT_TOOLTIP_INFINITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INFINITY TEXT_SPACE HALO_ARMOR_LEVEL_5 TEXT_SPACE HALO_SHIELD_LEVEL_5</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPER_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
@@ -357,7 +357,7 @@
 
 
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CAS </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CAS TEXT_SPACE HALO_ARMOR_LEVEL_5 TEXT_SPACE HALO_SHIELD_LEVEL_5</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ASSAULT_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 

@@ -147,7 +147,7 @@
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_GLADIUS </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_GLADIUS TEXT_SPACE HALO_ARMOR_LEVEL_2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CORVETTE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
@@ -350,7 +350,7 @@
 		</Unit_Abilities_Data>
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_HALBERD</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HALBERD TEXT_SPACE HALO_ARMOR_LEVEL_3 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DESTROYER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
@@ -537,7 +537,7 @@
 
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_MAKO</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MAKO TEXT_SPACE HALO_ARMOR_LEVEL_2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CORVETTE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
@@ -727,7 +727,7 @@
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MUSASHI HALO_FIGHTERS_MUSASHI</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_MUSASHI TEXT_SPACE HALO_FIGHTERS_MUSASHI TEXT_SPACE HALO_ARMOR_LEVEL_2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
@@ -947,7 +947,7 @@
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_POSEIDON HALO_FIGHTERS_POSEIDON HALO_SHIP_REPAIR_SMALL</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_POSEIDON TEXT_SPACE HALO_FIGHTERS_POSEIDON TEXT_SPACE HALO_SHIP_REPAIR_SMALL TEXT_SPACE HALO_ARMOR_LEVEL_2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
@@ -1140,7 +1140,7 @@
 
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_IROQUOIS</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_IROQUOIS TEXT_SPACE HALO_ARMOR_LEVEL_3 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DESTROYER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
@@ -1331,7 +1331,7 @@
 		</Abilities>
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_STRIDENT</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_STRIDENT TEXT_SPACE HALO_ARMOR_LEVEL_3 TEXT_SPACE HALO_SHIELD_LEVEL_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
@@ -1518,7 +1518,7 @@
 		</Unit_Abilities_Data>
 		<Lua_Script>ObjectScript_Firepower</Lua_Script>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_PARIS</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_PARIS TEXT_SPACE HALO_ARMOR_LEVEL_3 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
@@ -1706,7 +1706,7 @@
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_STALWART</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_STALWART TEXT_SPACE HALO_ARMOR_LEVEL_2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
@@ -1731,7 +1731,7 @@
 
 		<!-- Naming -->
 		<Text_ID>TEXT_UNIT_COVN_CRS</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CRS </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CRS TEXT_SPACE HALO_ARMOR_LEVEL_3 TEXT_SPACE HALO_SHIELD_LEVEL_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
 
 		<!-- Classes -->

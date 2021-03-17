@@ -62,6 +62,16 @@
 		<Activation_Tracking_Duration>20</Activation_Tracking_Duration>
 		<Per_Activation_Failure_Desire_Adjust>-15.0</Per_Activation_Failure_Desire_Adjust>
 	</Space_Scout> 
+
+	<Build_Capital_Ship>
+		<AIGoalApplicationFlags> Global </AIGoalApplicationFlags>
+		<GameMode> Space </GameMode>
+		<Category> Med_Priority </Category>
+		<Reachability> Any </Reachability>
+		<Time_Limit> 80.0 </Time_Limit>
+		<Activation_Tracking_Duration>20</Activation_Tracking_Duration>
+		<Per_Activation_Failure_Desire_Adjust>-1.0</Per_Activation_Failure_Desire_Adjust>
+	</Build_Capital_Ship>
 	
     <Space_Escort_Goal>
         <AIGoalApplicationFlags> Friendly_Unit </AIGoalApplicationFlags>

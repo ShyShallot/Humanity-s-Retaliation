@@ -359,6 +359,10 @@
 				* Variable_Target.TimeLastSeen
 		)
 	</Space_Area_Needs_Scouting>
+
+	<Should_Build_Capital_Ship>
+		(12500 > Variable_Self.CreditsUnnormalized) 
+	</Should_Build_Capital_Ship>
 	
 	<Space_Area_Is_Friendly>
 	  	(1.0 - 3.0 * Variable_Target.EnemyForce) *
@@ -918,9 +922,9 @@
 		+
 		(Game.Age > 120.0) * (Variable_Self.BaseLevel == 2.0)
 		+
-		(Game.Age > 300.0) * (Variable_Self.BaseLevel == 3.0)
+		(Game.Age > 200.0) * (Variable_Self.BaseLevel == 3.0)
 		+
-		(Game.Age > 600.0) * (Variable_Self.BaseLevel == 4.0)
+		(Game.Age > 300.0) * (Variable_Self.BaseLevel == 4.0)
 		+
 		(5.0 > Variable_Self.BaseLevel) * (Variable_Self.FriendlyForce > (2.0 * Variable_Self.EnemyForce))
 		+

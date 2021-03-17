@@ -179,7 +179,7 @@
 		</Abilities>
 
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_POA </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_POA TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
@@ -362,7 +362,7 @@
 			
 		</Unit_Abilities_Data>
        
-		<Encyclopedia_Text> TEXT_TOOLTIP_AUTUMN_CLASS </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_AUTUMN_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
@@ -527,7 +527,7 @@
 			
 		</Unit_Abilities_Data>
        
-		<Encyclopedia_Text> TEXT_TOOLTIP_MARATHON_CLASS </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MARATHON_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
@@ -692,7 +692,7 @@
 
 		</Unit_Abilities_Data>
        
-		<Encyclopedia_Text> TEXT_TOOLTIP_HALCYON </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HALCYON TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
@@ -879,7 +879,7 @@
 		<Lua_Script>ObjectScript_Firepower</Lua_Script>
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_VINDICATION </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_VINDICATION TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_BATTLESHIP </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
@@ -1051,7 +1051,7 @@
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CCS </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CCS TEXT_SPACE HALO_ARMOR_LEVEL_4 TEXT_SPACE HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 		<Population_Value>11</Population_Value>
@@ -1262,7 +1262,7 @@
 
 
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_RCS </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COV_RCS TEXT_SPACE HALO_ARMOR_LEVEL_4 TEXT_SPACE HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARMORED_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 		<Population_Value>9</Population_Value>
@@ -1429,7 +1429,7 @@
 
 
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CPV </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CPV TEXT_SPACE HALO_ARMOR_LEVEL_4 TEXT_SPACE HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_DESTROYER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 		<Population_Value>13</Population_Value>

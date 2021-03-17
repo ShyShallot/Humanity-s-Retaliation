@@ -5,7 +5,7 @@
 	<SpaceUnit Name="Longsword">
 
 		<Text_ID>TEXT_UNIT_UNSC_LONGSWORD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_LONGSWORD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_LONGSWORD TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> COVN_CRS COVN_RCS Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Seraph Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
@@ -222,7 +222,7 @@
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_LONGSWORD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_LONGSWORD TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -242,7 +242,7 @@
 		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> COVN_CRS COVN_RCS Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Seraph Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_LONGSWORD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_LONGSWORD TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_UNSC_LONGSWORD</Text_ID>
 		<Icon_Name>I_BUTTON_LONGSWORD.tga</Icon_Name>
@@ -290,7 +290,7 @@
 	<SpaceUnit Name="Shortsword">
 
 		<Text_ID>TEXT_UNIT_UNSC_SHORTSWORD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SHORTSWORD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SHORTSWORD TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> COVN_CRS Seraph</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Seraph   </Encyclopedia_Vulnerable_To>
@@ -461,7 +461,7 @@
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_SHORTSWORD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SHORTSWORD TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -481,7 +481,7 @@
 		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> COVN_CRS Seraph</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Seraph   </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SHORTSWORD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SHORTSWORD TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_UNSC_SHORTSWORD</Text_ID>
 		<Icon_Name>I_BUTTON_SHORTSWORD.tga</Icon_Name>
@@ -508,7 +508,7 @@
 	<SpaceUnit Name="Broadsword">
 
 		<Text_ID>TEXT_UNIT_UNSC_BROADSWORD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_BROADSWORD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_BROADSWORD TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
@@ -697,7 +697,7 @@
             </Unit_Ability>
 		</Unit_Abilities_Data>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_BROADSWORD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_BROADSWORD TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -717,7 +717,7 @@
 		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_BROADSWORD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_BROADSWORD TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_UNSC_BROADSWORD</Text_ID>
 		<Icon_Name>I_BUTTON_BROADSWORD.tga</Icon_Name>
@@ -756,7 +756,7 @@
 	<SpaceUnit Name="Baselard">
 
 		<Text_ID>TEXT_UNIT_UNSC_BASELARD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_BASELARD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_BASELARD TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
@@ -971,7 +971,7 @@
             </Stealth_Ability>
         </Abilities>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_BASELARD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_BASELARD TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -991,7 +991,7 @@
 		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_BASELARD</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_BASELARD TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_UNSC_BASELARD</Text_ID>
 		<Icon_Name>I_BUTTON_BASELARD.tga</Icon_Name>
@@ -1043,7 +1043,7 @@
 	<SpaceUnit Name="Sabre">
 
 		<Text_ID>TEXT_UNIT_UNSC_SABRE</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SABRE</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SABRE TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
@@ -1265,7 +1265,7 @@
 
 		</Unit_Abilities_Data>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_SABRE</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SABRE TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -1285,7 +1285,7 @@
 		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SABRE</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SABRE TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_UNSC_SABRE</Text_ID>
 		<Icon_Name>I_BUTTON_SABRE.tga</Icon_Name>
@@ -1336,7 +1336,7 @@
 	<SpaceUnit Name="Seraph">
 
 		<Text_ID>TEXT_UNIT_COVN_SERAPH</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SERAPH</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SERAPH TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
@@ -1525,7 +1525,7 @@
 		<Create_Team_Type>Seraph_Squadron_Container </Create_Team_Type>
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_SERAPH</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SERAPH TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -1545,7 +1545,7 @@
 		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> COVN_CAS Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SERAPH</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SERAPH TEXT_SPACE HALO_ARMOR_LEVEL_1 TEXT_SPACE HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_COVN_SERAPH</Text_ID>
 		<Icon_Name>I_BUTTON_SERAPH.tga</Icon_Name>

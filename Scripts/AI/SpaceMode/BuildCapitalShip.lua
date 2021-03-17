@@ -47,16 +47,23 @@ function Definitions()
 	AllowEngagedUnits = false
 	MinContrastScale = 1.1
 	MaxContrastScale = 3.0
-	Category = "Destroy_Unit"
+	Category = "Build_Capital_Ship"
 	TaskForce = {
-	{
-		"MainForce"						
-		,"Fighter = 0, 2" -- don't take too many fighters because we allow engaged units
-		,"Corvette= 1, 5"
-		,"Frigate = 0,3"
-		,"Capital = 0, 3"
-		,"SpaceHero | Super = 0,1"
-	}
+	    {
+	   	    "MainForce"			
+            ,"DenyHeroAttach"
+	        ,"Capital = 1"
+	    },
+        {
+            "MainForce_Normal"
+            ,"DenyHeroAttach"
+            ,"Capital = 1"
+        },
+        {
+            "Mainforce_Hard"
+            ,"DenyHeroAttach"
+            ,"Capital = 2"
+        }
 	}
 	
 	ChangedTarget = false
@@ -68,36 +75,26 @@ function Definitions()
 	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 
+
+
 function MainForce_Thread()
 	DebugMessage("%s -- In MainForce_Thread.", tostring(Script))
-
+    
 	BlockOnCommand(MainForce.Produce_Force())
-	
-	QuickReinforce(PlayerObject, AITarget, MainForce)
+    
+    if PlayerObject.Get_Difficulty() == "Normal" then  
+	    QuickReinforce(PlayerObject, AITarget, MainForce, MainForce_Normal)
+    elseif PlayerObject.Get_Difficulty() == "Hard" then
+        QuickReinforce(PlayerObject, AITarget, MainForce, Mainforce_Hard)
+    else
+        QuickReinforce(PlayerObject, AITarget, MainForce)
+    end
 	
 	MainForce.Enable_Attack_Positioning(true)
 	DebugMessage("MainForce constructed at stage area!")
 
-	DebugMessage("%s -- Attack-moving to %s", tostring(Script), tostring (AITarget))
-	SetClassPriorities(MainForce, "Attack_Move")
-	BlockOnCommand(MainForce.Attack_Move(AITarget, MainForce.Get_Self_Threat_Max()))
-
 	MainForce.Set_Plan_Result(true)
-	
 	DebugMessage("%s -- MainForce Done!  Exiting Script!", tostring(Script))
 	ScriptExit()
 end
 
--- Make sure that units don't sit idle at the end of their move order, waiting for others
-function MainForce_Unit_Move_Finished(tf, unit)
-
-	DebugMessage("%s -- %s reached end of move, giving new order", tostring(Script), tostring(unit))
-
-	-- Assist the tf with whatever is holding it up
-	kill_target = FindDeadlyEnemy(tf)
-	if TestValid(kill_target) then
-		unit.Attack_Move(kill_target)
-	else
-		unit.Attack_Move(tf)
-	end
-end
