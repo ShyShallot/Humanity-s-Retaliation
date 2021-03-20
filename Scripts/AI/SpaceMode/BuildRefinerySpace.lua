@@ -61,7 +61,6 @@ function Definitions()
 end
 
 function MainForce_Thread()
-
 	-- Make sure we use a build pad that's not too near to the enemy base
 	nearby_pad_list = MainForce.Get_Reserved_Build_Pads()
 	for i, pad in pairs(nearby_pad_list) do

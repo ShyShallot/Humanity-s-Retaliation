@@ -1754,6 +1754,7 @@
 				Sabre_Squadron,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Level_Two_Starbase_Upgrade,
+				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
@@ -1841,6 +1842,7 @@
 				Broadsword_Squadron,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Level_Three_Starbase_Upgrade,
+				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -1922,6 +1924,7 @@
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Level_Four_Starbase_Upgrade,
+				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2012,6 +2015,7 @@
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade,
 				RS_Level_Five_Starbase_Upgrade,
+				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2124,6 +2128,7 @@
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade,
 				RS_Improved_Defenses_L3_Upgrade,
+				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2194,6 +2199,7 @@
 				Seraph_Squadron,
 				TIE_Bomber_Squadron,
 				ES_Level_Two_Starbase_Upgrade,
+				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2266,6 +2272,7 @@
 				COVN_CRS,
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Level_Three_Starbase_Upgrade,
+				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2341,6 +2348,7 @@
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Level_Four_Starbase_Upgrade,
+				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2419,6 +2427,7 @@
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
 				ES_Level_Five_Starbase_Upgrade,
+				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2501,6 +2510,7 @@
 				ES_Improved_Weapons_L3_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
+				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	

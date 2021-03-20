@@ -2105,7 +2105,7 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L1_Bonus">
-				<Income_Multiplier>1.2</Income_Multiplier>
+				<Income_Multiplier>1.25</Income_Multiplier>
 				<Income_Additive_Value>45.0</Income_Additive_Value>
 				<Interval_Multiplier>0.95</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
@@ -2178,9 +2178,9 @@
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L2_Bonus">
-				<Income_Multiplier>1.4</Income_Multiplier>
+				<Income_Multiplier>1.45</Income_Multiplier>
 				<Income_Additive_Value>75.0</Income_Additive_Value>
-				<Interval_Multiplier>0.85</Interval_Multiplier>
+				<Interval_Multiplier>0.80</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -4486,5 +4486,57 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
+	<!-- Self Destruct Upgrades -->
+	<UpgradeObject Name="ES_Self_Destruct_Station">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign> 1 </Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 10 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_production1.tga</Icon_Name>
+		
+		<Text_ID> TEXT_UPGRADE_SELF_DESTRUCT </Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PUSSY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_SELF_DESTRUCT_ENC</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>ObjectScript_SelfDestructStation</Lua_Script>
+	</UpgradeObject>
+
+	<UpgradeObject Name="RS_Self_Destruct_Station">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign> 1 </Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 10 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type/>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_production1.tga</Icon_Name>
+		
+		<Text_ID> TEXT_UPGRADE_SELF_DESTRUCT </Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PUSSY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UPGRADE_SELF_DESTRUCT_ENC</Encyclopedia_Text>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Lua_Script>ObjectScript_SelfDestructStation</Lua_Script>
+	</UpgradeObject>
 
 </UpgradeObjects>

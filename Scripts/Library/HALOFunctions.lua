@@ -3,8 +3,6 @@
 -- Any use of this script without permission will not be fun for offending party.
 -- Lua Doc: https://stargate-eaw.de/media/kunena/attachments/92/LuacommandsinFoC.pdf
 
-
-
 function Return_Chance(value_to_check) -- Returns true or false
     if value_to_check > 1 then
         DebugMessage("%s -- ERROR Value to Check cannot be greater than 1, please fix yo shit", tostring(Script))
@@ -44,12 +42,19 @@ function Is_Target_Affected_By_Ability(object, ability_name)
     end
 end
 
-function Return_Faction(player)
-    return player.Get_Type().Get_Faction_Name()
+function Return_Faction(wrapper)
+    playerE = Find_Player("Empire") -- This is enefficant as fuck but as long as there isnt like 15 factions its fine
+    playerR = Find_Player("Rebel")
+    if (wrapper ==  playerE) or (wrapper == playerR) then
+        return wrapper.Get_Faction_Name()
+    else
+        return wrapper.Get_Type().Get_Faction_Name()
+    end
 end
 
-function Tactical_Tech_Level(player)
-    if Return_Faction(player) == "EMPIRE" then
+function Tactical_Tech_Level(player) -- Get the players Tech Level in Tactical Battles, 
+    --i think you use player.Get_Tech_Level() but this ignores the rebels 0-4 and empires 1-5
+    if Return_Faction(player) == "EMPIRE" then -- Could use for statements but too lazy to debug rn
         if TestValid(Find_First_Object("Skirmish_Empire_Star_Base_1")) then
             tech_level = 1
             return tech_level
@@ -86,48 +91,6 @@ function Tactical_Tech_Level(player)
     end
 end
 
-
-function Is_Valid_Category(object, cat_1, cat_2, cat_3, cat_4, cat_5)
-    category_valid = 0
-
-    if cat_1 ~= nil then
-        if object.Is_Category(cat_1) then
-            category_valid = category_valid + 1
-        end
-    end
-
-    if cat_2 ~= nil then
-        if object.Is_Category(cat_2) then
-            category_valid = category_valid + 1
-        end
-    end
-
-    if cat_3 ~= nil then
-        if object.Is_Category(cat_3) then
-            category_valid = category_valid + 1
-        end
-    end
-
-    if cat_4 ~= nil then 
-        if object.Is_Category(cat_4) then
-            category_valid = category_valid + 1
-        end
-    end
-
-    if cat_5 ~= nil then 
-        if object.Is_Category(cat_5) then
-            category_valid = category_valid + 1
-        end
-    end
-
-    if category_valid >= 1 then
-        return true
-    else
-        return false
-    end
-
-end
-
 function Get_Unit_Props_From_Table(table)
     for k, unit in pairs(table) do
         if TestValid(unit) then
@@ -141,4 +104,16 @@ function Object_Firepower(object) -- Easier then Object.Get_Type().Get_Combat_Ra
         firepower = object.Get_Type().Get_Combat_Rating()
     end
     return firepower
+end
+
+function Unit_List_Combat_Power(list)
+    totalcombatpower = 0
+    for k, unit in pairs(list) do
+        if TestValid(unit) then
+            totalcombatpower = totalcombatpower + Object_Firepower(unit)
+        end
+    end
+    if totalcombatpower > 0 then
+        return totalcombatpower
+    end
 end
