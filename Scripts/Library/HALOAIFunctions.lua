@@ -43,13 +43,13 @@ function Move_To_Nearest_Friendly(self_obj, nearestFriendly, player) -- Dont be 
     end
 end
 
-function Calculate_AI_FOW_Distance(factor, ai)
+function Calculate_AI_FOW_Distance(factor, ai, base)
 	diff = ai.Get_Difficulty()
-	seeing_distance = 3000
+	seeing_distance = base
 	if diff == "NORMAL" then
-        seeing_distance = 4000
+        seeing_distance = base * 1.5
     elseif diff == "HARD" then
-        seeing_distance = 5500
+        seeing_distance = base * 2
     end
     if factor == 1 or factor == 0 then
         return seeing_distance

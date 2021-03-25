@@ -95,7 +95,7 @@
 	<!-- In tactical multiplayer games, the team with the lower total credit income will share
 	a "bonus" amount of credits every tick based on the difference in total credit income between
 	the two teams times this percentage multiplier: -->
-	<Multiplayer_Losing_Team_Bonus_Credit_Percentage>0.08</Multiplayer_Losing_Team_Bonus_Credit_Percentage>
+	<Multiplayer_Losing_Team_Bonus_Credit_Percentage>0.1</Multiplayer_Losing_Team_Bonus_Credit_Percentage>
 
 	 
 

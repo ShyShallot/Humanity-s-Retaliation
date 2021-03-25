@@ -58,10 +58,7 @@ function Definitions()
 		,"ES_Enhanced_Shielding_L1_Upgrade | ES_Enhanced_Shielding_L2_Upgrade | ES_Improved_Weapons_L1_Upgrade | ES_Improved_Weapons_L2_Upgrade | ES_Improved_Weapons_L3_Upgrade | ES_Improved_Defenses_L1_Upgrade | ES_Improved_Defenses_L2_Upgrade = 0,7"
 		,"RS_Improved_Weapons_L1_Upgrade | RS_Improved_Weapons_L2_Upgrade | RS_Improved_Weapons_L3_Upgrade | RS_Improved_Defenses_L1_Upgrade | RS_Improved_Defenses_L2_Upgrade | RS_Improved_Defenses_L3_Upgrade = 0,6"
 		},
-		{
-		"SuicideForce"
-		,"RS_Self_Destruct_Station | ES_Self_Destruct_Station = 1"
-		}
+		
 	}
 	RequiredCategories = {"Fighter | Bomber | Corvette | Frigate | Capital | SpaceHero"}
 	AllowFreeStoreUnits = false
@@ -128,7 +125,6 @@ function Calculate_Credit_Sleep_Time(tech, diff, player)
 		DebugMessage("Credit Multiplier based on Tech: %s", tostring(tech_credits_mutli))
 	end
 
-
 	diff_credits_multi = 1.15
 	diff_sleep_multi = 1.35
 	DebugMessage("Credit Multiplier based on Diff: %s", tostring(diff_credits_multi))
@@ -152,28 +148,3 @@ function Calculate_Credit_Sleep_Time(tech, diff, player)
 	DebugMessage("Max Sleep Time: %s", tostring(max_sleep_seconds))
 	return min_credits, max_sleep_seconds
 end
-
-function AI_Is_Overun()
-	while EvaluatePerception("Game_Age", PlayerObject) > 60 do
-		if Return_Faction(PlayerObject) == "EMPRIE" then
-			enemy = Find_Player("REBEL")
-		elseif Return_Faction(PlayerObject) == "REBEL" then
-			enemy = Find_Player("EMPIRE")
-		else
-			return
-		end
-		if TestValid(enemy) then
-			enemy_forces = Find_All_Objects_Of_Type(enemy)
-			friendly_forces = Find_All_Objects_Of_Type(PlayerObject)
-			enemy_combat_power = Unit_List_Combat_Power(enemy_forces)
-			friendly_combat_power = Unit_List_Combat_Power(friendly_forces)
-			combat_power_threshold = friendly_combat_power * 1.5 
-			if enemy_combat_power > combat_power_threshold then
-				BlockOnCommand(SuicideForce.Produce_Force())
-				ScriptExit()
-			end
-		end
-		Sleep(1)
-	end
-end
-

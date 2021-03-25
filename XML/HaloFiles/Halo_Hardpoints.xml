@@ -9851,42 +9851,40 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_02">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Health>600.0</Health>      
-
-            <Model_To_Attach>UNSC_PARIS_MK33_02.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_MK66_02</Attachment_Bone>
-            <Collision_Mesh>HP_MK66_02</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>600.0</Health>      
+        <Model_To_Attach>UNSC_PARIS_MK33_02.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>HP_MK66_02</Attachment_Bone>
+        <Collision_Mesh>HP_MK66_02</Collision_Mesh>
+		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance> 
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MK33_03">

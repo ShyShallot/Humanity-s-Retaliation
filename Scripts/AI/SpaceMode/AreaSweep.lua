@@ -79,7 +79,7 @@ function MainForce_Thread()
 	BlockOnCommand(MainForce.Attack_Move(AITarget))
 	MainForce.Activate_Ability("Turbo", false)
 	MainForce.Activate_Ability("SPOILER_LOCK", false)
-	ai_fog_of_war_distance = Calculate_AI_FOW_Distance(1, PlayerObject) -- use this to limit the AI's "seeing" distance so it doesn't seem like the AI knows where all the ships are
+	ai_fog_of_war_distance = Calculate_AI_FOW_Distance(1, PlayerObject, 3000) -- use this to limit the AI's "seeing" distance so it doesn't seem like the AI knows where all the ships are
 
 	-- Try to at least find something, since we bothered coming over here
 	-- There may be an enemy unit exposed, but the initial attack_move to the cell didn't find it.

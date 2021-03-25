@@ -105,15 +105,3 @@ function Object_Firepower(object) -- Easier then Object.Get_Type().Get_Combat_Ra
     end
     return firepower
 end
-
-function Unit_List_Combat_Power(list)
-    totalcombatpower = 0
-    for k, unit in pairs(list) do
-        if TestValid(unit) then
-            totalcombatpower = totalcombatpower + Object_Firepower(unit)
-        end
-    end
-    if totalcombatpower > 0 then
-        return totalcombatpower
-    end
-end

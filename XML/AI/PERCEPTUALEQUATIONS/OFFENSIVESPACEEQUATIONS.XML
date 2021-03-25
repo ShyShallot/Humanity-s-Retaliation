@@ -856,7 +856,7 @@
 		(
 			(Game.IsCampaignGame == 0)
 			*
-			(3 > Variable_Self.UnitSpaceAvailable)
+			(4 > Variable_Self.UnitSpaceAvailable)
 			*
 			(
 				(Variable_Self.ReinforcementsUnnormalized > Variable_Self.FriendlyForceUnnormalized{Parameter_Category = GameObjectCategoryType[Fighter|Bomber|Corvette|Frigate]})

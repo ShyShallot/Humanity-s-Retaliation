@@ -258,6 +258,7 @@
         <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
+		<!-- <Lua_Script>ProjectileTest</Lua_Script> -->
 		
 	</Projectile>
 
