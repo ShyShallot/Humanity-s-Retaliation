@@ -1335,6 +1335,19 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 
+    <HardPoint Name="HP_POA_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>4000.0</Health>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
+
     <HardPoint Name="UNSC_POA_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
@@ -2398,6 +2411,19 @@
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
+
+    <HardPoint Name="HP_AUTUMN_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>4500.0</Health>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3469,6 +3495,19 @@
     
     
     </HardPoint>
+
+    <HardPoint Name="HP_INFINITY_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>10000.0</Health>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
 
     <HardPoint Name="UNSC_INFINITY_HG_01">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -6299,6 +6338,19 @@
             <Collision_Mesh>HP_HALC_ENGINE_03_Bone</Collision_Mesh>
             <Damage_Decal />
     </HardPoint>
+
+    <HardPoint Name="HP_HALC_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>3500.0</Health>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
 
     <HardPoint Name="HP_HALC_HANGER_01">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -12607,6 +12659,19 @@
             <Attachment_Bone>HP_RCS_SHIELD</Attachment_Bone>
             <Collision_Mesh>HP_RCS_SHIELD</Collision_Mesh>
     </HardPoint>
+
+    <HardPoint Name="HP_RCS_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>4500.0</Health>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
 
     <HardPoint Name="HP_CRS_AF_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>

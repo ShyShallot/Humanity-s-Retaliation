@@ -3,7 +3,7 @@
 
 	<Faction Name="Underworld">
 		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
-		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
+		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games> <!-- Never Used for playability but allows for reactor explosions -->
 		<Text_ID> TEXT_FACTION_UNDERWORLD </Text_ID>
 		<Text_Nickname_ID> TEXT_FACTION_UNDERWORLD_NICKNAME </Text_Nickname_ID>
 		<Icon_Name> i_icon_pirate.tga </Icon_Name>

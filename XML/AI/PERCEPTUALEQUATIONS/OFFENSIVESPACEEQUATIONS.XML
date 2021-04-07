@@ -262,6 +262,10 @@
 		)
 	</Unit_Needs_To_Be_Disabled>
 
+	<Is_Reactor_Online>
+		Variable_Target.HardPointHealth {Parameter_Hard_Point_Type = HardPointType[Dummy_Art]} > 0.0
+	</Is_Reactor_Online>
+
 	<!-- 
 	Has enough time passed
 	AND

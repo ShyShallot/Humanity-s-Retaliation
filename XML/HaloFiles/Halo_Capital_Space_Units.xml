@@ -1191,7 +1191,7 @@
 
 
 		<HardPoints> 
-			HP_RCS_AS_01, HP_RCS_AS_02, HP_RCS_AS_03, HP_RCS_AS_04, HP_RCS_AS_05, HP_RCS_AS_06, HP_RCS_AS_07, HP_RCS_AS_08, HP_RCS_AF_01, HP_RCS_AF_02, HP_RCS_AF_03, HP_RCS_AF_04, HP_RCS_AF_05, HP_RCS_AF_06, HP_RCS_ENGINE, HP_RCS_HANGER_01, HP_RCS_HANGER_02, HP_RCS_SHIELD
+			HP_RCS_AS_01, HP_RCS_AS_02, HP_RCS_AS_03, HP_RCS_AS_04, HP_RCS_AS_05, HP_RCS_AS_06, HP_RCS_AS_07, HP_RCS_AS_08, HP_RCS_AF_01, HP_RCS_AF_02, HP_RCS_AF_03, HP_RCS_AF_04, HP_RCS_AF_05, HP_RCS_AF_06, HP_RCS_ENGINE, HP_RCS_HANGER_01, HP_RCS_HANGER_02, HP_RCS_SHIELD, HP_RCS_REACTOR
 		</HardPoints>
 
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -1260,7 +1260,18 @@
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
-
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability> <!-- Reactor Ability stuff-->
+				<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_RCS TEXT_SPACE HALO_ARMOR_LEVEL_4 TEXT_SPACE HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARMORED_CRUISER </Encyclopedia_Unit_Class>
@@ -1275,6 +1286,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Lua_Script>ShipPowerSystems</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_CPV">
