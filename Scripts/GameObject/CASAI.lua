@@ -1,5 +1,5 @@
 require("PGStateMachine")
-
+require("ShipPowerSystems")
 function Definitions()
 
 	ServiceRate = 1
@@ -20,7 +20,7 @@ function State_Init(message)
 		if Get_Game_Mode() == "Galactic" then
 			ScriptExit()
 		end
-		
+		Create_Thread("Ship_Systems", 1)
 		if Object.Get_Owner().Is_Human() then
 			Set_Next_State("State_Human_No_Autofire")
 		else

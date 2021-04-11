@@ -2,6 +2,7 @@ require("PGBaseDefinitions")
 require("PGStateMachine")
 require("HALOFunctions")
 require("PGBase")
+require("ShipPowerSystems")
 -- Script is used for Humanity's Retaliation 
 -- Boarding Script is written by ShyShallot, If you wish to use this script please contact the Project Gold Team via Discord
 -- Any use of this script without permission will not be fun for offending party.
@@ -30,7 +31,7 @@ function State_Init(message)
         TotalBoardUses = 0 -- Used to destory the Tractor Beam Hardpoint after X amount of uses
         ShouldRun = 0 -- Should we loop the Damage and Chance functions during boarding
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
-   
+        Create_Thread("Ship_Systems", 1)
     elseif message == OnUpdate then
         DebugMessage("%s -- In OnEnter", tostring(Script))
 

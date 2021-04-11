@@ -11,25 +11,28 @@ end
 
 function State_Init(message) 
     if message == OnEnter then 
-        
+        fmessage = "OnEnter"
+        Create_Thread("Ship_Systems", fmessage)
     elseif message == OnUpdate then
-        Create_Thread("Ship_Systems", Object)
-        Sleep(1)
+        fmessage = "OnUpdate"
     end
 end
 
-function Ship_Systems()
-    if Object.Get_Owner().Get_Faction_Name() == "EMPIRE" then
-        DebugMessage("%s -- Player is Covie, adding Engine to Firerate", tostring(Script))
-        Engines_Destroyed(Object)
-    end
-    DebugMessage("%s -- Checking for Reactor Health", tostring(Script))
-    if Object.Is_Ability_Active(ability_name) then
-        Object.Cancel_Ability(ability_name)
-        Object.Reset_Ability_Counter()
-    end
-    if reactor_exploded == false then
-        Reactor_Explode()
+function Ship_Systems(message)
+    if message == "OnUpdate" then
+        if Object.Get_Owner().Get_Faction_Name() == "EMPIRE" then
+            DebugMessage("%s -- Player is Covie, adding Engine to Firerate", tostring(Script))
+            Engines_Destroyed(Object)
+        end
+        DebugMessage("%s -- Checking for Reactor Health", tostring(Script))
+        if Object.Is_Ability_Active(ability_name) then
+            Object.Cancel_Ability(ability_name)
+            Object.Reset_Ability_Counter()
+        end
+        if reactor_exploded == false then
+            Reactor_Explode()
+        end
+        Sleep(cycletime)
     end
 end
 

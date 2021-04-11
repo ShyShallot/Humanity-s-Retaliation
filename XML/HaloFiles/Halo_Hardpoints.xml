@@ -1342,8 +1342,8 @@
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
 			<Collision_Mesh>ROOT</Collision_Mesh>
-            <Health>4000.0</Health>
-            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Health>7000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
      </HardPoint>
@@ -2419,8 +2419,8 @@
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
 			<Collision_Mesh>ROOT</Collision_Mesh>
-            <Health>4500.0</Health>
-            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Health>8000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
      </HardPoint>
@@ -3504,7 +3504,7 @@
 			<Attachment_Bone>ROOT</Attachment_Bone>
 			<Collision_Mesh>ROOT</Collision_Mesh>
             <Health>10000.0</Health>
-            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
      </HardPoint>
@@ -6346,8 +6346,8 @@
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
 			<Collision_Mesh>ROOT</Collision_Mesh>
-            <Health>3500.0</Health>
-            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Health>5000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
      </HardPoint>
@@ -7679,6 +7679,19 @@
             <Collision_Mesh>HP_ENGINES</Collision_Mesh>
             <Damage_Decal />
     </HardPoint>
+
+    <HardPoint Name="HP_MARA_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>5000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
     
     <HardPoint Name="UNSC_MARA_HANGAR_01">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -8130,6 +8143,19 @@
             <Engine_Particles/>
     </HardPoint>
 
+    <HardPoint Name="HP_MUSASHI_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>4000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
+
     <HardPoint Name="UNSC_MUSASHI_01">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -8479,6 +8505,19 @@
 
     </HardPoint>
 
+    <HardPoint Name="HP_POSEIDON_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>3000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
+
     <HardPoint Name="UNSC_VINDICATION_ENGINES">
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -8493,6 +8532,19 @@
             <Collision_Mesh>HP_ENGINES</Collision_Mesh>
             <Damage_Decal />
     </HardPoint>
+
+    <HardPoint Name="HP_VINDICATION_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>7000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
 
     <HardPoint Name="UNSC_VINDICATION_MK33_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -9614,6 +9666,19 @@
             <Damage_Particles/>
             <Engine_Particles/>
     </HardPoint>
+
+    <HardPoint Name="HP_STRIDENT_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>2850.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
 
     <HardPoint Name="HP_STRIDENT_SHIELD">
 			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
@@ -10774,6 +10839,19 @@
             
     </HardPoint>
 
+    <HardPoint Name="HP_CAS_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>12000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
+
     <HardPoint Name="HP_CAS_01">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
@@ -11762,6 +11840,19 @@
             <Damage_Decal />
     </HardPoint>
 
+    <HardPoint Name="HP_CCS_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>8500.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
+
     <HardPoint Name="HP_CCS_HANGER_01">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
@@ -12668,7 +12759,7 @@
 			<Attachment_Bone>ROOT</Attachment_Bone>
 			<Collision_Mesh>ROOT</Collision_Mesh>
             <Health>4500.0</Health>
-            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
      </HardPoint>
@@ -12962,6 +13053,19 @@
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette </Fire_Category_Restrictions>
     </HardPoint>
+
+    <HardPoint Name="HP_CRS_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>4000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
 
     <HardPoint Name="HP_CRS_ENGINES">
 			<Type> HARD_POINT_ENGINE </Type>
@@ -13759,6 +13863,19 @@
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
+
+    <HardPoint Name="HP_CPV_REACTOR">
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>ROOT</Attachment_Bone>
+			<Collision_Mesh>ROOT</Collision_Mesh>
+            <Health>10000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
+            <Repair_Cost_Per_Frame>0.75</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>0.75</Repair_Amount_Per_Frame>
+     </HardPoint>
 
     <HardPoint Name="HP_CPV_ENGINES">
 			<Type> HARD_POINT_ENGINE </Type>

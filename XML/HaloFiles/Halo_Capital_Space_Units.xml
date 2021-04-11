@@ -79,7 +79,7 @@
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
 		<HardPoints> 
-			UNSC_POA_HANAGR_01, UNSC_POA_HANAGR_02, UNSC_POA_EG_01, UNSC_POA_EG_02, UNSC_POA_EG_03, UNSC_POA_01, UNSC_POA_02, UNSC_POA_03, UNSC_POA_04, UNSC_POA_05, UNSC_POA_06, UNSC_POA_07, UNSC_POA_08, UNSC_POA_AP_01, UNSC_POA_AP_02, UNSC_POA_AP_03, UNSC_POA_AP_04, UNSC_POA_AP_05, UNSC_POA_AP_06, UNSC_POA_AP_07, UNSC_POA_AP_08, UNSC_POA_AP_09, UNSC_POA_AP_10, UNSC_POA_AP_11, UNSC_POA_AP_12, UNSC_POA_AP_13, UNSC_POA_AP_14, UNSC_POA_AP_15, UNSC_POA_AP_16, UNSC_POA_AP_17, UNSC_POA_AP_18, UNSC_POA_AP_19, UNSC_POA_AP_20, UNSC_POA_AP_21, UNSC_POA_AP_22
+			HP_POA_REACTOR, UNSC_POA_HANAGR_01, UNSC_POA_HANAGR_02, UNSC_POA_EG_01, UNSC_POA_EG_02, UNSC_POA_EG_03, UNSC_POA_01, UNSC_POA_02, UNSC_POA_03, UNSC_POA_04, UNSC_POA_05, UNSC_POA_06, UNSC_POA_07, UNSC_POA_08, UNSC_POA_AP_01, UNSC_POA_AP_02, UNSC_POA_AP_03, UNSC_POA_AP_04, UNSC_POA_AP_05, UNSC_POA_AP_06, UNSC_POA_AP_07, UNSC_POA_AP_08, UNSC_POA_AP_09, UNSC_POA_AP_10, UNSC_POA_AP_11, UNSC_POA_AP_12, UNSC_POA_AP_13, UNSC_POA_AP_14, UNSC_POA_AP_15, UNSC_POA_AP_16, UNSC_POA_AP_17, UNSC_POA_AP_18, UNSC_POA_AP_19, UNSC_POA_AP_20, UNSC_POA_AP_21, UNSC_POA_AP_22
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -161,6 +161,15 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 			
+			<Unit_Ability> <!-- Reactor Ability stuff-->
+				<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>
 
 		</Unit_Abilities_Data>
 
@@ -174,9 +183,8 @@
                 <Charged_Effect />
 				<SFXEvent_Activate />
 			</Blast_Ability>
-
-
 		</Abilities>
+		<Lua_Script>ShipPowerSystems</Lua_Script>
 
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_POA TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
@@ -288,7 +296,7 @@
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
 		<HardPoints> 
-			UNSC_AUTUMN_HANAGR_01, UNSC_AUTUMN_HANAGR_02, UNSC_AUTUMN_EG_01, UNSC_AUTUMN_EG_02, UNSC_AUTUMN_EG_03, UNSC_AUTUMN_MAC, UNSC_AUTUMN_01, UNSC_AUTUMN_02, UNSC_AUTUMN_03, UNSC_AUTUMN_04, UNSC_AUTUMN_05, UNSC_AUTUMN_06, UNSC_AUTUMN_07, UNSC_AUTUMN_08, UNSC_AUTUMN_AP_01, UNSC_AUTUMN_AP_02, UNSC_AUTUMN_AP_03, UNSC_AUTUMN_AP_04, UNSC_AUTUMN_AP_05, UNSC_AUTUMN_AP_06, UNSC_AUTUMN_AP_07, UNSC_AUTUMN_AP_08, UNSC_AUTUMN_AP_09, UNSC_AUTUMN_AP_10, UNSC_AUTUMN_AP_11, UNSC_AUTUMN_AP_12, UNSC_AUTUMN_AP_13, UNSC_AUTUMN_AP_14, UNSC_AUTUMN_AP_15, UNSC_AUTUMN_AP_16, UNSC_AUTUMN_AP_17, UNSC_AUTUMN_AP_18, UNSC_AUTUMN_AP_19, UNSC_AUTUMN_AP_20, UNSC_AUTUMN_AP_21, UNSC_AUTUMN_AP_22
+			HP_AUTUMN_REACTOR, UNSC_AUTUMN_HANAGR_01, UNSC_AUTUMN_HANAGR_02, UNSC_AUTUMN_EG_01, UNSC_AUTUMN_EG_02, UNSC_AUTUMN_EG_03, UNSC_AUTUMN_MAC, UNSC_AUTUMN_01, UNSC_AUTUMN_02, UNSC_AUTUMN_03, UNSC_AUTUMN_04, UNSC_AUTUMN_05, UNSC_AUTUMN_06, UNSC_AUTUMN_07, UNSC_AUTUMN_08, UNSC_AUTUMN_AP_01, UNSC_AUTUMN_AP_02, UNSC_AUTUMN_AP_03, UNSC_AUTUMN_AP_04, UNSC_AUTUMN_AP_05, UNSC_AUTUMN_AP_06, UNSC_AUTUMN_AP_07, UNSC_AUTUMN_AP_08, UNSC_AUTUMN_AP_09, UNSC_AUTUMN_AP_10, UNSC_AUTUMN_AP_11, UNSC_AUTUMN_AP_12, UNSC_AUTUMN_AP_13, UNSC_AUTUMN_AP_14, UNSC_AUTUMN_AP_15, UNSC_AUTUMN_AP_16, UNSC_AUTUMN_AP_17, UNSC_AUTUMN_AP_18, UNSC_AUTUMN_AP_19, UNSC_AUTUMN_AP_20, UNSC_AUTUMN_AP_21, UNSC_AUTUMN_AP_22
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -357,10 +365,19 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			
+			<!-- Primary ability -->
+			<Unit_Ability> <!-- Reactor Ability stuff-->
+				<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Lua_Script>ShipPowerSystems</Lua_Script>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_AUTUMN_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRUISER </Encyclopedia_Unit_Class>
@@ -453,7 +470,7 @@
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
 		<HardPoints> 
-			UNSC_MARA_01, UNSC_MARA_02, UNSC_MARA_03, UNSC_MARA_04, UNSC_MARA_05, UNSC_MARA_06, UNSC_MARA_07, UNSC_MARA_08, UNSC_MARA_09, UNSC_MARA_10, UNSC_MARA_11, UNSC_MARA_12, UNSC_MARA_AP_01, UNSC_MARA_AP_02, UNSC_MARA_AP_03, UNSC_MARA_AP_04, UNSC_MARA_AP_05, UNSC_MARA_AP_06, UNSC_MARA_AP_07, UNSC_MARA_AP_08, UNSC_MARA_AP_09, UNSC_MARA_AP_10, UNSC_MARA_AP_11, UNSC_MARA_AP_12, UNSC_MARA_AP_13, UNSC_MARA_AP_14, UNSC_MARA_MAC_01, UNSC_MARA_ENGINES, UNSC_MARA_HANGAR_01, UNSC_MARA_HANGAR_02
+			HP_MARA_REACTOR, UNSC_MARA_01, UNSC_MARA_02, UNSC_MARA_03, UNSC_MARA_04, UNSC_MARA_05, UNSC_MARA_06, UNSC_MARA_07, UNSC_MARA_08, UNSC_MARA_09, UNSC_MARA_10, UNSC_MARA_11, UNSC_MARA_12, UNSC_MARA_AP_01, UNSC_MARA_AP_02, UNSC_MARA_AP_03, UNSC_MARA_AP_04, UNSC_MARA_AP_05, UNSC_MARA_AP_06, UNSC_MARA_AP_07, UNSC_MARA_AP_08, UNSC_MARA_AP_09, UNSC_MARA_AP_10, UNSC_MARA_AP_11, UNSC_MARA_AP_12, UNSC_MARA_AP_13, UNSC_MARA_AP_14, UNSC_MARA_MAC_01, UNSC_MARA_ENGINES, UNSC_MARA_HANGAR_01, UNSC_MARA_HANGAR_02
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -522,10 +539,19 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			
+			<!-- Primary ability -->
+			<Unit_Ability> <!-- Reactor Ability stuff-->
+				<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Lua_Script>ShipPowerSystems</Lua_Script>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_MARATHON_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
@@ -618,7 +644,7 @@
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
 		<HardPoints> 
-			HP_HALC_EG_01, HP_HALC_EG_02, HP_HALC_EG_03, HP_HALC_HANGER_01, HP_HALC_HANGER_02, UNSC_HALC_AP_01, UNSC_HALC_AP_02, UNSC_HALC_AP_03, UNSC_HALC_AP_04, UNSC_HALC_AP_05, UNSC_HALC_AP_06, UNSC_HALC_MK3_01, UNSC_HALC_MK3_02, UNSC_HALC_MK3_03, UNSC_HALC_MK3_04, UNSC_HALC_MK3_05, UNSC_HALC_MK3_06 
+			HP_HALC_REACTOR, HP_HALC_EG_01, HP_HALC_EG_02, HP_HALC_EG_03, HP_HALC_HANGER_01, HP_HALC_HANGER_02, UNSC_HALC_AP_01, UNSC_HALC_AP_02, UNSC_HALC_AP_03, UNSC_HALC_AP_04, UNSC_HALC_AP_05, UNSC_HALC_AP_06, UNSC_HALC_MK3_01, UNSC_HALC_MK3_02, UNSC_HALC_MK3_03, UNSC_HALC_MK3_04, UNSC_HALC_MK3_05, UNSC_HALC_MK3_06 
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -687,10 +713,19 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
+			<!-- Primary ability -->
+			<Unit_Ability> <!-- Reactor Ability stuff-->
+				<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Lua_Script>ShipPowerSystems</Lua_Script>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_HALCYON TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER </Encyclopedia_Unit_Class>
@@ -787,7 +822,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<HardPoints>
-			UNSC_VINDICATION_ENGINES, UNSC_VINDICATION_MK33_01, UNSC_VINDICATION_MK33_02, UNSC_VINDICATION_MK33_03, UNSC_VINDICATION_MK33_04, UNSC_VINDICATION_MK33_05, UNSC_VINDICATION_MK33_06, UNSC_VINDICATION_MK33_07, UNSC_VINDICATION_MK33_08, UNSC_VINDICATION_MK33_09, UNSC_VINDICATION_MK33_10, UNSC_VINDICATION_MK33_11, UNSC_VINDICATION_MK33_12, UNSC_VINDICATION_MK33_13, UNSC_VINDICATION_MK33_14, UNSC_VINDICATION_MK33_15, UNSC_VINDICATION_MK33_16, UNSC_VINDICATION_AP_01, UNSC_VINDICATION_AP_02, UNSC_VINDICATION_AP_03, UNSC_VINDICATION_AP_04, UNSC_VINDICATION_AP_05
+			HP_VINDICATION_REACTOR, UNSC_VINDICATION_ENGINES, UNSC_VINDICATION_MK33_01, UNSC_VINDICATION_MK33_02, UNSC_VINDICATION_MK33_03, UNSC_VINDICATION_MK33_04, UNSC_VINDICATION_MK33_05, UNSC_VINDICATION_MK33_06, UNSC_VINDICATION_MK33_07, UNSC_VINDICATION_MK33_08, UNSC_VINDICATION_MK33_09, UNSC_VINDICATION_MK33_10, UNSC_VINDICATION_MK33_11, UNSC_VINDICATION_MK33_12, UNSC_VINDICATION_MK33_13, UNSC_VINDICATION_MK33_14, UNSC_VINDICATION_MK33_15, UNSC_VINDICATION_MK33_16, UNSC_VINDICATION_AP_01, UNSC_VINDICATION_AP_02, UNSC_VINDICATION_AP_03, UNSC_VINDICATION_AP_04, UNSC_VINDICATION_AP_05
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -874,7 +909,16 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
-			
+
+			<Unit_Ability> <!-- Reactor Ability stuff-->
+				<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>	
 		</Unit_Abilities_Data>
 		<Lua_Script>ObjectScript_Firepower</Lua_Script>
 		
@@ -982,7 +1026,7 @@
 
 
 		<HardPoints> 
-			HP_CCS_SHIELD, HP_CCS_ENGINE, HP_CCS_HANGER_01, HP_CCS_HANGER_02, HP_CCS_AF_01, HP_CCS_AF_02, HP_CCS_AF_03, HP_CCS_AF_04, HP_CCS_AF_05, HP_CCS_AF_06, HP_CCS_AS_01, HP_CCS_AS_02, HP_CCS_AS_03, HP_CCS_AS_04, HP_CCS_AS_05, HP_CCS_AS_06, HP_CCS_TP_01, HP_CCS_TP_02
+			HP_CCS_REACTOR, HP_CCS_SHIELD, HP_CCS_ENGINE, HP_CCS_HANGER_01, HP_CCS_HANGER_02, HP_CCS_AF_01, HP_CCS_AF_02, HP_CCS_AF_03, HP_CCS_AF_04, HP_CCS_AF_05, HP_CCS_AF_06, HP_CCS_AS_01, HP_CCS_AS_02, HP_CCS_AS_03, HP_CCS_AS_04, HP_CCS_AS_05, HP_CCS_AS_06, HP_CCS_TP_01, HP_CCS_TP_02
 		</HardPoints>
 
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -1051,7 +1095,7 @@
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CCS TEXT_SPACE HALO_ARMOR_LEVEL_4 TEXT_SPACE HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CCS TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 		<Population_Value>11</Population_Value>
@@ -1073,6 +1117,16 @@
 					<Alternate_Icon_Name>I_SA_SPREAD_OUT.TGA</Alternate_Icon_Name>
 					
 					<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability> <!-- Reactor Ability stuff-->
+				<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Lua_Script>DesperateStrike</Lua_Script>
@@ -1191,7 +1245,7 @@
 
 
 		<HardPoints> 
-			HP_RCS_AS_01, HP_RCS_AS_02, HP_RCS_AS_03, HP_RCS_AS_04, HP_RCS_AS_05, HP_RCS_AS_06, HP_RCS_AS_07, HP_RCS_AS_08, HP_RCS_AF_01, HP_RCS_AF_02, HP_RCS_AF_03, HP_RCS_AF_04, HP_RCS_AF_05, HP_RCS_AF_06, HP_RCS_ENGINE, HP_RCS_HANGER_01, HP_RCS_HANGER_02, HP_RCS_SHIELD, HP_RCS_REACTOR
+			HP_RCS_REACTOR, HP_RCS_AS_01, HP_RCS_AS_02, HP_RCS_AS_03, HP_RCS_AS_04, HP_RCS_AS_05, HP_RCS_AS_06, HP_RCS_AS_07, HP_RCS_AS_08, HP_RCS_AF_01, HP_RCS_AF_02, HP_RCS_AF_03, HP_RCS_AF_04, HP_RCS_AF_05, HP_RCS_AF_06, HP_RCS_ENGINE, HP_RCS_HANGER_01, HP_RCS_HANGER_02, HP_RCS_SHIELD, HP_RCS_REACTOR
 		</HardPoints>
 
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -1272,8 +1326,9 @@
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+		<Lua_Script>ShipPowerSystems</Lua_Script>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_RCS TEXT_SPACE HALO_ARMOR_LEVEL_4 TEXT_SPACE HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COV_RCS TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARMORED_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 		<Population_Value>9</Population_Value>
@@ -1286,7 +1341,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Lua_Script>ShipPowerSystems</Lua_Script>
+		
 	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_CPV">
@@ -1370,7 +1425,7 @@
 		<Targeting_Max_Attack_Distance>1700.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints> 
-			HP_CPV_HC_01, HP_CPV_HC_02, HP_CPV_HC_03, HP_CPV_HC_04, HP_CPV_HC_05, HP_CPV_HC_06, HP_CPV_HC_07, HP_CPV_HC_08, HP_CPV_HC_09, HP_CPV_HC_10, HP_CPV_AS_01, HP_CPV_AS_02, HP_CPV_AS_03, HP_CPV_AS_04, HP_CPV_AS_05, HP_CPV_AS_06, HP_CPV_AF_01, HP_CPV_AF_02, HP_CPV_AF_03, HP_CPV_AF_04, HP_CPV_ENGINES, HP_CPV_SHIELD 
+			HP_CPV_REACTOR, HP_CPV_HC_01, HP_CPV_HC_02, HP_CPV_HC_03, HP_CPV_HC_04, HP_CPV_HC_05, HP_CPV_HC_06, HP_CPV_HC_07, HP_CPV_HC_08, HP_CPV_HC_09, HP_CPV_HC_10, HP_CPV_AS_01, HP_CPV_AS_02, HP_CPV_AS_03, HP_CPV_AS_04, HP_CPV_AS_05, HP_CPV_AS_06, HP_CPV_AF_01, HP_CPV_AF_02, HP_CPV_AF_03, HP_CPV_AF_04, HP_CPV_ENGINES, HP_CPV_SHIELD 
 		</HardPoints>
 
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -1439,9 +1494,21 @@
 		<Radar_Icon_Name>I_RADAR_CPV.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability> <!-- Reactor Ability stuff-->
+				<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Lua_Script>ShipPowerSystems</Lua_Script>
 
-
-		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CPV TEXT_SPACE HALO_ARMOR_LEVEL_4 TEXT_SPACE HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CPV TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_DESTROYER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 		<Population_Value>13</Population_Value>
