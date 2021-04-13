@@ -920,15 +920,13 @@
 		*
 		(Function_Number_Resource_Structures_Space.Evaluate >= 1.0)
 		*
-		(Variable_Self.FriendlyForceUnnormalized {Parameter_Category = GameObjectCategoryType[Fighter | Bomber | Corvette | Frigate]} > 1000.0)
-		*
-		((Game.Age > 60.0) * (Variable_Self.BaseLevel == 1.0)
+		((Game.Age > 1.0) * (Variable_Self.BaseLevel == 1.0)
 		+
-		(Game.Age > 120.0) * (Variable_Self.BaseLevel == 2.0)
+		(Game.Age > 60.0) * (Variable_Self.BaseLevel == 2.0)
 		+
-		(Game.Age > 200.0) * (Variable_Self.BaseLevel == 3.0)
+		(Game.Age > 120.0) * (Variable_Self.BaseLevel == 3.0)
 		+
-		(Game.Age > 300.0) * (Variable_Self.BaseLevel == 4.0)
+		(Game.Age > 180.0) * (Variable_Self.BaseLevel == 4.0)
 		+
 		(5.0 > Variable_Self.BaseLevel) * (Variable_Self.FriendlyForce > (2.0 * Variable_Self.EnemyForce))
 		+

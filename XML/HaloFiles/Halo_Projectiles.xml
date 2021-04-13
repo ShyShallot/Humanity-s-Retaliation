@@ -30,7 +30,7 @@
 	<Projectile Name="Proj_Covie_Fighter">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser_Fighter </Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
 		<Projectile_Damage>10.0</Projectile_Damage>

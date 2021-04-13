@@ -105,3 +105,28 @@ function Object_Firepower(object) -- Easier then Object.Get_Type().Get_Combat_Ra
     end
     return firepower
 end
+
+function Enemy_Player(player)
+    if Return_Faction(player) == "EMPIRE" then
+        return Find_Player("REBEL")
+    elseif Return_Faction(player) == "REBEL" then
+        return Find_Player("EMPIRE")
+    end 
+    --if Return_Faction(player) == "UNDERWORLD" then | Implementation for Three Faction
+    --    if TestValid(Find_Player("EMPIRE")) then
+    --        enemy_1 = Find_Player("EMPIRE")
+    --    end
+    --    if TestValid(Find_Player("REBEL")) then
+    --        enemy_2 = Find_Player("REBEL")
+    --    end
+    --    return enemy_1, enemy_2
+    --end
+end
+
+function table_length(table)
+    list_length = 0
+    for k,v in pairs(table) do 
+        list_length = list_length + 1
+    end
+    return list_length
+end
