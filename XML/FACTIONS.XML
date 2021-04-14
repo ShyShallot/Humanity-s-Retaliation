@@ -262,57 +262,57 @@
 		<!-- REBEL MAPS MUSIC EVENTS - AMBIENT (NON-BATTLE) -->
 		<!-- ============================================== -->
 
-		<!-- Rebel: Space maps: Music events for ambient (non-battle) -->
+		<!-- Empire: Space maps: Music events for ambient (non-battle) 
 		<Music_Event_List_Ambient> Space,  </Music_Event_List_Ambient>
 
-		<!-- Rebel: Temperate land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
-	 
-		<!-- Rebel: Arctic land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
-	 
-		<!-- Rebel: Desert land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
-  
-		<!-- Rebel: Forest land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
-	
-		<!-- Rebel: Swamp land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
-  
-		<!-- Rebel: Volcanic land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
-  
-		<!-- Rebel: Urban land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
-  
-		<!-- ================================ -->
-		<!-- REBEL MAPS MUSIC EVENTS - BATTLE -->
-		<!-- ================================ -->
+		Empire: Temperate land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Temperate,  </Music_Event_List_Ambient>
+ 
+		Empire: Arctic land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Arctic,  </Music_Event_List_Ambient>
 
-		<!-- Rebel: Space maps: Music events for battle -->
-		<Music_Event_List_Battle> Space,  </Music_Event_List_Battle>
+		Empire: Desert land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Desert,  </Music_Event_List_Ambient>
+  
+		 Empire: Forest land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Forest,  </Music_Event_List_Ambient>
+ 
+		 Empire: Swamp land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Swamp,  </Music_Event_List_Ambient>
+  
+		 Empire: Volcanic land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Volcanic,  </Music_Event_List_Ambient>
 
-		<!-- Rebel: Temperate land maps: Music evnts for battle -->
-		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
-  
-		<!-- Rebel: Arctic land maps: Music events for battle -->
-		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
-  
-		<!-- Rebel: Desert land maps: Music events for battle -->
-		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
-	  
-		<!-- Rebel: Forest land maps: Music events for battle -->
-		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
-	 
-		<!-- Rebel: Swamp land maps: Music events for battle -->
-		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
-  
-		<!-- Rebel: Volcanic land maps: Music evets for battle -->
-		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
-	 
-		<!-- Rebel: Urban land maps: Music events for battle -->
-		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		 Empire: Urban land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Urban,  </Music_Event_List_Ambient>-->
+
+		<!-- ================================= -->
+		<!-- EMPIRE MAPS MUSIC EVENTS - BATTLE -->
+		<!-- ================================= -->
+
+		<!-- Empire: Space maps: Music events for battle -->
+		<!--<Music_Event_List_Battle> Space,  </Music_Event_List_Battle>
+
+		Empire: Temperate land maps: Music evnts for battle
+		<Music_Event_List_Battle> Temperate,  </Music_Event_List_Battle>
+ 
+		Empire: Arctic land maps: Music events for battle
+		<Music_Event_List_Battle> Arctic,  </Music_Event_List_Battle>
+
+		Empire: Desert land maps: Music events for battle
+		<Music_Event_List_Battle> Desert,  </Music_Event_List_Battle>
+ 
+		Empire: Forest land maps: Music events for battle
+		<Music_Event_List_Battle> Forest,  </Music_Event_List_Battle>
+
+		Empire: Swamp land maps: Music events for battle
+		<Music_Event_List_Battle> Swamp,  </Music_Event_List_Battle>
+ 
+		Empire: Volcanic land maps: Music evets for battle 
+		<Music_Event_List_Battle> Volcanic,  </Music_Event_List_Battle>
+ 
+		Empire: Urban land maps: Music events for battle 
+		<Music_Event_List_Battle> Urban,  </Music_Event_List_Battle> -->
 	
 		<!-- ============================================== -->
 		<!-- OBJECT SPOTTED ANNOUNCEMENTS	                -->
@@ -1048,57 +1048,57 @@
 		<!-- EMPIRE MAPS MUSIC EVENTS - AMBIENT (NON-BATTLE) -->
 		<!-- =============================================== -->
 
-		<!-- Empire: Space maps: Music events for ambient (non-battle) -->
+		<!-- Empire: Space maps: Music events for ambient (non-battle) 
 		<Music_Event_List_Ambient> Space,  </Music_Event_List_Ambient>
 
-		<!-- Empire: Temperate land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Temperate, Temperate_Land_Empire_Ambient_Music_Event </Music_Event_List_Ambient>
+		Empire: Temperate land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Temperate,  </Music_Event_List_Ambient>
  
-		<!-- Empire: Arctic land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Arctic, Ice_Land_Empire_Ambient_Music_Event </Music_Event_List_Ambient>
+		Empire: Arctic land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Arctic,  </Music_Event_List_Ambient>
 
-		<!-- Empire: Desert land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Desert, Desert_Land_Empire_Ambient_Music_Event </Music_Event_List_Ambient>
+		Empire: Desert land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Desert,  </Music_Event_List_Ambient>
   
-		<!-- Empire: Forest land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Forest, Temperate_Land_Empire_Ambient_Music_Event </Music_Event_List_Ambient>
+		 Empire: Forest land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Forest,  </Music_Event_List_Ambient>
  
-		<!-- Empire: Swamp land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Swamp, Swamp_Land_Empire_Ambient_Music_Event </Music_Event_List_Ambient>
+		 Empire: Swamp land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Swamp,  </Music_Event_List_Ambient>
   
-		<!-- Empire: Volcanic land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Empire_Ambient_Music_Event </Music_Event_List_Ambient>
+		 Empire: Volcanic land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Volcanic,  </Music_Event_List_Ambient>
 
-		<!-- Empire: Urban land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Urban, Urban_Land_Empire_Ambient_Music_Event </Music_Event_List_Ambient>
+		 Empire: Urban land maps: Music events for ambient (non-battle) 
+		<Music_Event_List_Ambient> Urban,  </Music_Event_List_Ambient>-->
 
 		<!-- ================================= -->
 		<!-- EMPIRE MAPS MUSIC EVENTS - BATTLE -->
 		<!-- ================================= -->
 
 		<!-- Empire: Space maps: Music events for battle -->
-		<Music_Event_List_Battle> Space, Space_Map_Empire_Battle_Music_Event </Music_Event_List_Battle>
+		<!--<Music_Event_List_Battle> Space,  </Music_Event_List_Battle>
 
-		<!-- Empire: Temperate land maps: Music evnts for battle -->
-		<Music_Event_List_Battle> Temperate, Temperate_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
+		Empire: Temperate land maps: Music evnts for battle
+		<Music_Event_List_Battle> Temperate,  </Music_Event_List_Battle>
  
-		<!-- Empire: Arctic land maps: Music events for battle -->
-		<Music_Event_List_Battle> Arctic, Ice_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
+		Empire: Arctic land maps: Music events for battle
+		<Music_Event_List_Battle> Arctic,  </Music_Event_List_Battle>
 
-		<!-- Empire: Desert land maps: Music events for battle -->
-		<Music_Event_List_Battle> Desert, Desert_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
+		Empire: Desert land maps: Music events for battle
+		<Music_Event_List_Battle> Desert,  </Music_Event_List_Battle>
  
-		<!-- Empire: Forest land maps: Music events for battle -->
-		<Music_Event_List_Battle> Forest, Temperate_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
+		Empire: Forest land maps: Music events for battle
+		<Music_Event_List_Battle> Forest,  </Music_Event_List_Battle>
 
-		<!-- Empire: Swamp land maps: Music events for battle -->
-		<Music_Event_List_Battle> Swamp, Swamp_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
+		Empire: Swamp land maps: Music events for battle
+		<Music_Event_List_Battle> Swamp,  </Music_Event_List_Battle>
  
-		<!-- Empire: Volcanic land maps: Music evets for battle -->
-		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
+		Empire: Volcanic land maps: Music evets for battle 
+		<Music_Event_List_Battle> Volcanic,  </Music_Event_List_Battle>
  
-		<!-- Empire: Urban land maps: Music events for battle -->
-		<Music_Event_List_Battle> Urban, Urban_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
+		Empire: Urban land maps: Music events for battle 
+		<Music_Event_List_Battle> Urban,  </Music_Event_List_Battle> -->
 		
 		<!-- ============================================= -->
 		<!-- OBJECT SPOTTED ANNOUNCEMENTS	  		         -->

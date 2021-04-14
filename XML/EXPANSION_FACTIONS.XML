@@ -235,19 +235,19 @@
 		<!-- Rebel: Space maps: Music events for ambient (non-battle) -->
 		<Music_Event_List_Ambient> Space,  </Music_Event_List_Ambient>
 		<!-- Rebel: Temperate land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Temperate, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<Music_Event_List_Ambient> Temperate,  </Music_Event_List_Ambient>
 		<!-- Rebel: Arctic land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Arctic, Ice_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<Music_Event_List_Ambient> Arctic,  </Music_Event_List_Ambient>
 		<!-- Rebel: Desert land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Desert, Desert_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<Music_Event_List_Ambient> Desert,  </Music_Event_List_Ambient>
 		<!-- Rebel: Forest land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Forest, Temperate_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<Music_Event_List_Ambient> Forest,  </Music_Event_List_Ambient>
 		<!-- Rebel: Swamp land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Swamp, Swamp_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
-		<!-- Rebel: Volcanic land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Volcanic, Volcanic_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<Music_Event_List_Ambient> Swamp,  </Music_Event_List_Ambient>
+		<!-- Rebel: Volcanic land maps: Music events for  (non-battle) -->
+		<Music_Event_List_Ambient> Volcanic,  </Music_Event_List_Ambient>
 		<!-- Rebel: Urban land maps: Music events for ambient (non-battle) -->
-		<Music_Event_List_Ambient> Urban, Urban_Land_Rebel_Ambient_Music_Event </Music_Event_List_Ambient>
+		<Music_Event_List_Ambient> Urban,  </Music_Event_List_Ambient>
 
 		<!-- ================================ -->
 		<!-- UNDERWORLD MAPS MUSIC EVENTS - BATTLE -->
@@ -255,19 +255,19 @@
 		<!-- Rebel: Space maps: Music events for battle -->
 		<Music_Event_List_Battle> Space,  </Music_Event_List_Battle>
 		<!-- Rebel: Temperate land maps: Music evnts for battle -->
-		<Music_Event_List_Battle> Temperate, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<Music_Event_List_Battle> Temperate,  </Music_Event_List_Battle>
 		<!-- Rebel: Arctic land maps: Music events for battle -->
-		<Music_Event_List_Battle> Arctic, Ice_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<Music_Event_List_Battle> Arctic,  </Music_Event_List_Battle>
 		<!-- Rebel: Desert land maps: Music events for battle -->
-		<Music_Event_List_Battle> Desert, Desert_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<Music_Event_List_Battle> Desert,  </Music_Event_List_Battle>
 		<!-- Rebel: Forest land maps: Music events for battle -->
-		<Music_Event_List_Battle> Forest, Temperate_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<Music_Event_List_Battle> Forest,  </Music_Event_List_Battle>
 		<!-- Rebel: Swamp land maps: Music events for battle -->
-		<Music_Event_List_Battle> Swamp, Swamp_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<Music_Event_List_Battle> Swamp,  </Music_Event_List_Battle>
 		<!-- Rebel: Volcanic land maps: Music evets for battle -->
-		<Music_Event_List_Battle> Volcanic, Volcanic_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<Music_Event_List_Battle> Volcanic,  </Music_Event_List_Battle>
 		<!-- Rebel: Urban land maps: Music events for battle -->
-		<Music_Event_List_Battle> Urban, Urban_Land_Rebel_Battle_Music_Event </Music_Event_List_Battle>
+		<Music_Event_List_Battle> Urban,  </Music_Event_List_Battle>
 
 		<!-- ============================================== -->
 		<!-- OBJECT SPOTTED ANNOUNCEMENTS	                -->

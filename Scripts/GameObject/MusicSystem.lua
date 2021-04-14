@@ -5,7 +5,7 @@ require("PGBase")
 
 function Definitions()
 
-	ServiceRate = 1
+	ServiceRate = 2
 
 	Define_State("State_Init", State_Init);
 end
@@ -48,6 +48,7 @@ end
 
 function Init_Music_List()
     DebugMessage("%s -- Creating Song List", tostring(Script))
+    list_needs_to_be_created = true
     idle_list = { -- Idle Music | ["Music Event Name"] = song length in seconds
             ["Idle_Black_Tower"] = 363,
             ["Idle_Edge"] = 184,
@@ -74,15 +75,16 @@ function Init_Music_List()
             ["Battle_The_Hour"] = 129,
             ["Battle_Three_Gates"] = 274
     }
+    list_needs_to_be_created = false
     DebugMessage("%s -- Song List Done", tostring(Script))
-    return idle_list, battle_list
+    return idle_list, battle_list, list_needs_to_be_created
 end
 
 function Music_To_Play(override)
-    idle_music, battle_music = Init_Music_List()
+    idle_music, battle_music, list_needs_to_be_created = Init_Music_List()
     player = Object.Get_Owner()
     DebugMessage("%s -- Player", tostring(player.Get_Name()))
-    if Is_Player_In_Combat(player) or override == true then
+    if Is_Player_In_Combat(player) or override == true and list_needs_to_be_created == false then
         songs = battle_music -- Battle Music
         DebugMessage("%s -- Player in Combat, setting Combat List", tostring(Script))
     else
@@ -112,13 +114,15 @@ function Music_To_Play(override)
 end
 
 function Play_Song(song, length)
-    DebugMessage("%s -- Running Play_Song Function", tostring(Script))
-    Stop_All_Music()
-    DebugMessage("%s -- Stopping All Music", tostring(Script))
-    Play_Music(tostring(song))
-    is_song_playing = true
-    DebugMessage("%s -- Playing Song: %s", tostring(Script), tostring(song))
-    Register_Timer(Song_Done, length)
+    if is_song_playing == false then
+        DebugMessage("%s -- Running Play_Song Function", tostring(Script))
+        Stop_All_Music()
+        DebugMessage("%s -- Stopping All Music", tostring(Script))
+        Play_Music(tostring(song))
+        is_song_playing = true
+        DebugMessage("%s -- Playing Song: %s", tostring(Script), tostring(song))
+        Register_Timer(Song_Done, length)
+    end
 end
 
 function Is_Player_In_Combat(player)
@@ -142,21 +146,31 @@ function Is_Player_In_Combat(player)
 end
 
 function Combat_Music_Override()
+    if is_song_playing == true and is_combat_song == false then
+        Combat_Music_Play()
+    end
+    if is_song_playing == false and is_combat_song == true then
+        Combat_Music_Play()
+    end
+end
+
+function Song_Done()
+    is_song_playing = false
+    if not Is_Player_In_Combat(player) then
+        is_combat_song = false
+    end
+    Cancel_Timer(Song_Done)
+    DebugMessage("%s -- Song Done Playing", tostring(Script))
+end
+
+function Combat_Music_Play()
     DebugMessage("%s -- Player is in combat overriding", tostring(Script))
     Stop_All_Music()
-    if is_song_playing == true and is_combat_song == false then
-        Cancel_Timer(Song_Done)
-    end
+    Cancel_Timer(Song_Done)
     song, length = Music_To_Play(true)
     Play_Music(tostring(song))
     is_song_playing = true
     is_combat_song = true
     Register_Timer(Song_Done, length)
     DebugMessage("%s -- Override Complete", tostring(Script))
-end
-
-function Song_Done()
-    is_song_playing = false
-    Cancel_Timer(Song_Done)
-    DebugMessage("%s -- Song Done Playing", tostring(Script))
 end
