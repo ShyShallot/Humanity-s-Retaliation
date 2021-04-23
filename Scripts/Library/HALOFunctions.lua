@@ -130,3 +130,69 @@ function table_length(table)
     end
     return list_length
 end
+
+function Type_Under_Attack(unit_or_table)
+    local enemysinrange = 0
+    if not type(unit_or_table) == "table" then
+        local nearestEnemy = Find_Nearest(unit, unit.Get_Owner(), false)
+        if TestValid(nearestEnemy) then
+            if unit.Get_Distance(nearestEnemy) <= unit.Get_Type().Get_Max_Range() then
+                return true
+            end
+        end
+    else
+        for _, tunit in pairs(unit_or_table) do 
+            if TestValid(tunit) then
+                local nearestEnemy = Find_Nearest(tunit, tunit.Get_Owner(), false)
+                if TestValid(nearestEnemy) then
+                    if tunit.Get_Distance(nearestEnemy) <= tunit.Get_Type().Get_Max_Range() then
+                        enemysinrange = enemysinrange + 1
+                    end
+                end
+            end
+        end
+        if enemysinrange > 1 then
+            return true
+        end
+    end
+end
+
+
+function Get_Credits_Per_Sec(player)
+    startCredits = player.Get_Credits()
+    Sleep(1)
+    endCredits = player.Get_Credits()
+    return endCredits - startCredits 
+end
+
+function Econ_Upgrade_Level(player)
+    local level = 0
+    if Return_Faction(player) == "EMPIRE" then
+        if (not TestValid("ES_Increased_Supplies_L1_Upgrade")) and (not TestValid("ES_Increased_Supplies_L2_Upgrade")) then
+            return level
+        elseif (TestValid("ES_Increased_Supplies_L1_Upgrade")) and (not TestValid("ES_Increased_Supplies_L2_Upgrade")) then
+            level = 1
+            return level
+        elseif TestValid("ES_Increased_Supplies_L2_Upgrade") then
+            level = 2
+            return level
+        end
+    elseif Return_Faction(player) == "REBEL" then
+        if (not TestValid("RS_Increased_Supplies_L1_Upgrade")) and (not TestValid("RS_Increased_Supplies_L2_Upgrade")) then
+            return level
+        elseif (TestValid("RS_Increased_Supplies_L1_Upgrade")) and (not TestValid("RS_Increased_Supplies_L2_Upgrade")) then
+            level = 1
+            return level
+        elseif TestValid("RS_Increased_Supplies_L2_Upgrade") then
+            level = 2
+            return level
+        end
+    end
+end
+
+function Tick_Per_Sec()
+    cmtime = GetCurrentTime()
+    Sleep(1)
+    curtime = GetCurrentTime()
+    return curtime - cmtime
+end

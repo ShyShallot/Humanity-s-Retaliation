@@ -31,11 +31,9 @@ function State_Init(message)
         TotalBoardUses = 0 -- Used to destory the Tractor Beam Hardpoint after X amount of uses
         ShouldRun = 0 -- Should we loop the Damage and Chance functions during boarding
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
-        Create_Thread("Ship_Systems", 1)
+        Create_Thread("Ship_Systems")
     elseif message == OnUpdate then
         DebugMessage("%s -- In OnEnter", tostring(Script))
-
-
         if player.Is_Human() then 
             if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
                 DebugMessage("%s -- Tractor Beam is now active running function", tostring(Script))
@@ -113,6 +111,7 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                     DebugMessage("%s -- Boarding Successful running Boarding", tostring(Script))
                     boardingActive = true -- set board to active and run loop
                     self_obj.Play_SFX_Event("SFX_UMP_EmpireKesselAlarm")
+                    Game_Message("HALO_BOARDING_ACTIVE")
                     while boardingActive == true do
                         Set_Boarding_Unit_Props(self_obj, target, false, true)
                         DebugMessage("%s -- Boarding Active, Running Boarding Damage", tostring(Script))
@@ -129,6 +128,7 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                                 self_obj.Cancel_Ability(ability_name) -- Make sure the "Tractor Beam" ability stops
                                 self_obj.Play_SFX_Event("SFX_UM02_MagneticSealedDoor")
                                 self_obj.Set_Selectable(true)
+                                Game_Message("HALO_BOARDING_TAKEOVER")
                             end
                             if Return_Chance(TakeOverChance) and boardingActive == true then -- If the boarding Take over chance succeeds and boarding is active, take over ship
                                 Set_Boarding_Unit_Props(self_obj, target, true, false)
@@ -139,6 +139,7 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                                 self_obj.Play_SFX_Event("Unit_Select_Vader_Executor")
                                 ShouldRun = 0
                                 self_obj.Set_Selectable(true)
+                                Game_Message("HALO_BOARDING_FAIL")
                             end
                             if TestValid(target) then 
                                 if target.Get_Hull() <= 0.2 then -- If the Ship health is below a value then just straight up blow up the ship
@@ -149,6 +150,7 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                                     ShouldRun = 0
                                     target = nil
                                     self_obj.Set_Selectable(true)
+                                    Game_Message("HALO_BOARDING_THRESH")
                                 end
                             end
                             uses = TotalBoardUses + 1

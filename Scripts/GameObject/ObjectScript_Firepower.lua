@@ -14,7 +14,6 @@ end
 
 function State_Init(message)
 	if message == OnEnter then
-        
         ability_name = "POWER_TO_WEAPONS"
 		-- prevent this from doing anything in galactic mode
 		if Get_Game_Mode() == "Galactic" then
@@ -26,6 +25,8 @@ function State_Init(message)
 		else
 			Set_Next_State("State_AI_Autofire")
 		end
+	end
+	if message == OnUpdate then
 	end
 end
 

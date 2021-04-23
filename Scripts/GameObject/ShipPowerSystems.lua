@@ -11,15 +11,13 @@ end
 
 function State_Init(message) 
     if message == OnEnter then 
-        fmessage = "OnEnter"
-        Create_Thread("Ship_Systems", fmessage)
+        Create_Thread("Ship_Systems", 1)
     elseif message == OnUpdate then
-        fmessage = "OnUpdate"
     end
 end
 
-function Ship_Systems(message)
-    if message == "OnUpdate" then
+function Ship_Systems(cycletime)
+    while true do
         if Object.Get_Owner().Get_Faction_Name() == "EMPIRE" then
             DebugMessage("%s -- Player is Covie, adding Engine to Firerate", tostring(Script))
             Engines_Destroyed(Object)

@@ -14,7 +14,25 @@ function State_Init(message)
     if message == OnEnter then
         DebugMessage("%s -- In OnEnter", tostring(Script))
         player = Object.Get_Owner()
-        Create_Thread("Music_Handler", player, ServiceRate)
+        if Object == player.Get_Space_Station() then
+            DebugMessage("%s -- Space Station initated, Spawning marker", tostring(Script))
+            if Return_Faction(player) == "EMPIRE" then
+                DebugMessage("%s -- Player is Empire, spawning Marker", tostring(Script))
+                marker = Find_Object_Type("Music_System_Marker_E")
+                Create_Generic_Object(marker, Object.Get_Position(), player)
+                DebugMessage("%s -- Done", tostring(Script))
+            else
+                DebugMessage("%s -- Player is Rebel, spawning Marker", tostring(Script))
+                marker = Find_Object_Type("Music_System_Marker_R")
+                Create_Generic_Object(marker, Object.Get_Position(), player)
+                DebugMessage("%s -- Done", tostring(Script))
+            end
+            DebugMessage("%s -- Space Station stuff done, exiting script", tostring(Script))
+            ScriptExit()
+        elseif (Object.Get_Type() == Find_Object_Type("Music_System_Marker_E")) or (Object.Get_Type() == Find_Object_Type("Music_System_Marker_R")) then
+            DebugMessage("%s -- Music System Marker Spawned and working", tostring(Script))
+            Create_Thread("Music_Handler", player, ServiceRate)
+        end
     end
     if message == OnUpdate then
     end
@@ -121,26 +139,14 @@ function Play_Song(song, length)
         Play_Music(tostring(song))
         is_song_playing = true
         DebugMessage("%s -- Playing Song: %s", tostring(Script), tostring(song))
-        Register_Timer(Song_Done, length)
+        Music_Timer(length)
     end
 end
 
 function Is_Player_In_Combat(player)
     targets_in_range = 0
     friendly_unit_list = Find_All_Objects_Of_Type(player)
-    enemy = Enemy_Player(player)
-    enemy_unit_list = Find_All_Objects_Of_Type(enemy)
-    for k, unit in friendly_unit_list do 
-        if TestValid(unit) then
-            target = Find_Nearest(unit, player, false)
-            if TestValid(target) then
-                if unit.Get_Distance(target) <= 4000 then
-                    targets_in_range = targets_in_range + 1
-                end
-            end
-        end
-    end
-    if targets_in_range >= 1 then
+    if Type_Under_Attack(friendly_unit_list) then
         return true
     end
 end
@@ -159,18 +165,36 @@ function Song_Done()
     if not Is_Player_In_Combat(player) then
         is_combat_song = false
     end
-    Cancel_Timer(Song_Done)
     DebugMessage("%s -- Song Done Playing", tostring(Script))
 end
-
 function Combat_Music_Play()
     DebugMessage("%s -- Player is in combat overriding", tostring(Script))
     Stop_All_Music()
-    Cancel_Timer(Song_Done)
     song, length = Music_To_Play(true)
     Play_Music(tostring(song))
     is_song_playing = true
     is_combat_song = true
-    Register_Timer(Song_Done, length)
+    Music_Timer(length, false)
     DebugMessage("%s -- Override Complete", tostring(Script))
 end
+
+function Music_Timer(time, bool)
+    if time == nil and bool == true then
+        return
+    elseif time == nil and bool == false then
+        DebugMessage("%s -- ERROR, NO TIME PROVIDED STOPPING FUNCTION", tostring(Script))
+        return
+    end
+    if (time ~= nil or time >= 0) and bool == false then
+        for i=time, 0, -1 do
+            if bool == true then break end
+            DebugMessage("%s -- Time Left Until Timer Done: %s", tostring(Script), tostring(i))
+            if i == 0 then
+                DebugMessage("%s -- Timer Done", tostring(Script))
+                Song_Done()
+            end
+            Sleep(1)
+        end
+    end
+end
+
