@@ -1,7 +1,6 @@
 require("PGBaseDefinitions")
 require("PGStateMachine")
 require("HALOFunctions")
-require("ShipPowerSystems")
 -- Script is used for Humanity's Retaliation 
 -- This a simple script for Autofire and to tell the AI When to use the ability
 -- Any use of this script without permission will not be fun for offending party.
@@ -25,7 +24,6 @@ function State_Init(message)
         DebugMessage("%s -- In Init", tostring(Script))
         ability_name = "DEFEND" -- Check if the object calling the script has the ability in the first place
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
-        Create_Thread("Ship_Systems", 1)
     elseif message == OnUpdate then
         DebugMessage("%s -- In OnEnter", tostring(Script))
         if player.Is_Human() then 

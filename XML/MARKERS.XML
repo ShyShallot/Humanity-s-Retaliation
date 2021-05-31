@@ -1187,6 +1187,32 @@
 		</Map_Load_Spawn_Table>
 	 </Marker>
 
+	<Marker Name="Power_Systems_Marker_E">
+		<Text_ID> </Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
+		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
+		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
+		<Behavior>MARKER, HINT</Behavior>
+		<Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Empire</Affiliation>
+		<Lua_Script>ShipPowerSystems</Lua_Script>
+	</Marker>
+
+	<Marker Name="Power_Systems_Marker_R">
+		<Text_ID> </Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
+		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
+		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
+		<Behavior>MARKER, HINT</Behavior>
+		<Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Rebel</Affiliation>
+		<Lua_Script>ShipPowerSystems</Lua_Script>
+	</Marker>
+
 	<Marker Name="Music_System_Marker_E">
 		<Text_ID> </Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -1197,7 +1223,7 @@
 		<Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
 		<Is_Discardable>false</Is_Discardable>  
 		<Affiliation>Empire</Affiliation>
-		<Lua_Script>MusicSystem</Lua_Script>
+		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
 	</Marker>
 
 	<Marker Name="Music_System_Marker_R">
@@ -1210,7 +1236,7 @@
 		<Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
 		<Is_Discardable>false</Is_Discardable>  
 		<Affiliation>Rebel</Affiliation>
-		<Lua_Script>MusicSystem</Lua_Script>
+		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
 	</Marker>
 
 	 <Marker Name="Random_Secondary_Structure_R">

@@ -84,3 +84,7 @@ function DebugPrintTable(unit_table)
 		DebugMessage("%s -- \t\t** unit:%s", tostring(Script), tostring(obj))
 	end
 end
+
+function Debug_Unit_Information(unit)
+    DebugMessage("%s, Current Unit Object: %s, Unit Name: %s, Unit Owner Faction Name %s, Unit Owner Name: %s, Unit Health: %s, Unit Shield: %s, Unit Position: %s", tostring(Script), tostring(unit), tostring(unit.Get_Type().Get_Name()), tostring(unit.Get_Owner().Get_Faction_Name()), unit.Get_Owner(), tostring(unit.Get_Hull()), tostring(unit.Get_Shield()), tostring(unit.Get_Position()))
+end

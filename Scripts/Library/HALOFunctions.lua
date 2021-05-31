@@ -2,6 +2,7 @@
 -- This script contains a set of custom functions used by various scripts. Made by ShyShallot
 -- Any use of this script without permission will not be fun for offending party.
 -- Lua Doc: https://stargate-eaw.de/media/kunena/attachments/92/LuacommandsinFoC.pdf
+-- This is a general function library script
 
 function Return_Chance(value_to_check) -- Returns true or false
     if value_to_check > 1 then
@@ -123,7 +124,7 @@ function Enemy_Player(player)
     --end
 end
 
-function table_length(table)
+function table_length(table) -- table.length works but in some cases table.length doesn't work properly so this can be used as in-efficent subsitute
     list_length = 0
     for k,v in pairs(table) do 
         list_length = list_length + 1
@@ -195,4 +196,13 @@ function Tick_Per_Sec()
     Sleep(1)
     curtime = GetCurrentTime()
     return curtime - cmtime
+end
+
+function Table_Var_Check(table, item)
+    for k, value in ipairs(table) do
+        if value == item then
+            return true
+        end
+    end
+    return false
 end

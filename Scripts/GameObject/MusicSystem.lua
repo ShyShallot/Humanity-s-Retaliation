@@ -49,7 +49,7 @@ function Music_Handler()
             DebugMessage("Length of the Song: %s", tostring(length))
             Play_Song(song, length)
             DebugMessage("%s -- Playing Song", tostring(Script))
-            
+
         end
         if Is_Player_In_Combat(player) then
             if is_combat_song == false then
@@ -139,7 +139,7 @@ function Play_Song(song, length)
         Play_Music(tostring(song))
         is_song_playing = true
         DebugMessage("%s -- Playing Song: %s", tostring(Script), tostring(song))
-        Music_Timer(length)
+        Register_Timer(Song_Done, length)
     end
 end
 
@@ -167,6 +167,7 @@ function Song_Done()
     end
     DebugMessage("%s -- Song Done Playing", tostring(Script))
 end
+
 function Combat_Music_Play()
     DebugMessage("%s -- Player is in combat overriding", tostring(Script))
     Stop_All_Music()
@@ -174,27 +175,16 @@ function Combat_Music_Play()
     Play_Music(tostring(song))
     is_song_playing = true
     is_combat_song = true
-    Music_Timer(length, false)
+    Register_Timer(Song_Done, length)
     DebugMessage("%s -- Override Complete", tostring(Script))
 end
 
-function Music_Timer(time, bool)
-    if time == nil and bool == true then
-        return
-    elseif time == nil and bool == false then
-        DebugMessage("%s -- ERROR, NO TIME PROVIDED STOPPING FUNCTION", tostring(Script))
-        return
+function Song_Done()
+    is_song_playing = false
+    if not Is_Player_In_Combat(player) then
+        is_combat_song = false
     end
-    if (time ~= nil or time >= 0) and bool == false then
-        for i=time, 0, -1 do
-            if bool == true then break end
-            DebugMessage("%s -- Time Left Until Timer Done: %s", tostring(Script), tostring(i))
-            if i == 0 then
-                DebugMessage("%s -- Timer Done", tostring(Script))
-                Song_Done()
-            end
-            Sleep(1)
-        end
-    end
+    Cancel_Timer(Song_Done)
+    DebugMessage("%s -- Song Done Playing", tostring(Script))
 end
 

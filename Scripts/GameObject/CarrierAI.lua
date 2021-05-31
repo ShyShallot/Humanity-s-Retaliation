@@ -2,7 +2,6 @@ require("PGStateMachine")
 require("HALOFunctions")
 require("PGBaseDefinitions")
 require("HALOAIFunctions") 
-require("ShipPowerSystems")
 -- Script is used for Humanity's Retaliation 
 -- CarrierAI Script is written by ShyShallot, If you wish to use this script please contact the Project Gold Team via Discord
 -- Any use of this script without permission will not be fun for offending party.

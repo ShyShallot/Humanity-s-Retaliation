@@ -1,3 +1,7 @@
+-- Script is used for Humanity's Retaliation 
+-- This script contains a set of custom functions used by various scripts. Made by ShyShallot
+-- Any use of this script without permission will not be fun for offending party.
+-- Lua Doc: https://stargate-eaw.de/media/kunena/attachments/92/LuacommandsinFoC.pdf
 require("HALOFunctions")
 
 function Get_Total_Unit_Table_Combat_Power(unitTable)

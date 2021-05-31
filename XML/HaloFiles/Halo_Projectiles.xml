@@ -266,14 +266,14 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile </Damage_Type>
-		<Max_Speed>28.0</Max_Speed>
+		<Damage_Type> Damage_Con_Missile_Archer </Damage_Type>
+		<Max_Speed>14.0</Max_Speed>
 		<Max_Rate_Of_Turn>15.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>10.5</Projectile_Damage>
+		<Projectile_Damage>7.5</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -295,18 +295,18 @@
 		
 	</Projectile>
 
-	<Projectile Name="Proj_UNSC_Ship_Missile_Heavy"> <!-- Used for the Infinity or ships of same size or variant-->
+	<Projectile Name="Proj_UNSC_Ship_Missile_Heavy"> <!-- Used for the Capitals or ships of same size or variant and larger-->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile_Heavy </Damage_Type>
-		<Max_Speed>20.0</Max_Speed>
+		<Damage_Type> Damage_Con_Missile_Heavy_Archer </Damage_Type>
+		<Max_Speed>11.0</Max_Speed>
 		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>45.5</Projectile_Damage>
+		<Projectile_Damage>35.5</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -500,8 +500,8 @@
 		<Max_Speed>30.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Con_Missile </Damage_Type>
-		<Projectile_Damage>10.5</Projectile_Damage>
+		<Damage_Type> Damage_Con_Missile_COIL </Damage_Type>
+		<Projectile_Damage>25.5</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
