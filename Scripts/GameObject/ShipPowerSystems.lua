@@ -37,10 +37,10 @@ function State_Init(message)
         parent = Object.Get_Owner() 
         if Return_Faction(parent) == "EMPIRE" then
             DebugMessage("%s -- Creating Unit List Covenant", tostring(Script))
-            reactor_unit_list_e = Unit_Reactor_Table() -- first define our unit reactor list
+            reactor_unit_list_e = Unit_Reactor_Table(exploded_units_e) -- first define our unit reactor list
         elseif Return_Faction(parent) == "REBEL" then
             DebugMessage("%s -- Creating Unit List UNSC", tostring(Script))
-            reactor_unit_list_r = Unit_Reactor_Table() -- first define our unit reactor list
+            reactor_unit_list_r = Unit_Reactor_Table(exploded_units_r) -- first define our unit reactor list
         end
     elseif message == OnUpdate then
         if Return_Faction(parent) == "EMPIRE" then
@@ -105,7 +105,7 @@ function Unit_Reactor_Table(deathtable)
             DebugMessage("%s -- Checking All Objects Of Type Table", tostring(Script))
             if TestValid(unit) then
                 DebugMessage("%s -- Found Unit and is valid", tostring(Script))
-                if table_length(deathtable) == 0 then
+                if table.getn(deathtable) == 0 then
                     DebugMessage("%s -- Exploded Units Table is empty, adding unit to table", tostring(Script))
                     table.insert(final_unit_table, unit)
                 else
@@ -154,7 +154,7 @@ function Process_Reactor_Table(tableunits, dead_table)
                             DebugPrintTable(dead_table)
                             return
                         else
-                            if not Is_Reactor_Active(unit)  then -- If the Reactor of the unit is not active, run the below
+                            if not Is_Reactor_Active(unit) and unit.Can_Move() then -- If the Reactor of the unit is not active, run the below
                                 DebugMessage("%s -- Reactor isn't alive, running reactor funcs, %s", tostring(Script), tostring(unit.Get_Type().Get_Name()))
                                 Reactor_Explode(unit) -- Explode the Reactor of the unit by spawning a projectile
                                 if unit.Get_Owner().Get_Faction_Name() == "EMPIRE" then -- if the Unit's owner so the AI or player is playing as the Covenant 
@@ -174,7 +174,7 @@ function Process_Reactor_Table(tableunits, dead_table)
                 end
             else
                 DebugMessage("%s -- Dead Units Table is empty", tostring(Script))
-                if not Is_Reactor_Active(unit)  then -- If the Reactor of the unit is not active, run the below
+                if not Is_Reactor_Active(unit) and unit.Can_Move()  then -- If the Reactor of the unit is not active, run the below
                     DebugMessage("%s -- Reactor isn't alive, running reactor funcs, %s", tostring(Script), tostring(unit.Get_Type().Get_Name()))
                     Reactor_Explode(unit) -- Explode the Reactor of the unit by spawning a projectile
                     if unit.Get_Owner().Get_Faction_Name() == "EMPIRE" then -- if the Unit's owner so the AI or player is playing as the Covenant 
