@@ -57,10 +57,6 @@ end
 
 function MainForce_Thread()
 
-	if PlayerObject.Get_Faction_Name() == "EMPIRE" then
-		ScriptExit()
-	end
-
 	if not MainForce.Withdraw_Units() then
 		DebugMessage("%s -- unable to retreat", tostring(Script))
 		ScriptExit()

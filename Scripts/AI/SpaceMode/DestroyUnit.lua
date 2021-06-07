@@ -52,10 +52,7 @@ function Definitions()
 	{
 		"MainForce"						
 		,"Fighter = 0, 2" -- don't take too many fighters because we allow engaged units
-		,"Corvette= 1, 5"
-		,"Frigate = 0,3"
-		,"Capital = 0, 3"
-		,"SpaceHero | Super = 0,1"
+		,"Fighter | Corvette | Frigate | Capital | Super | SpaceHero = 1, 20"
 	}
 	}
 	

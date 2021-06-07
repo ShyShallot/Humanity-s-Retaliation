@@ -1,9 +1,57 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Equations>
+	<Recent_Conversion>
+		(1.0 - (Variable_Target.TimeSinceConversion > 60.0)) * (60.0 - Variable_Target.TimeSinceConversion) / 60.0
+	</Recent_Conversion>
 
-	<!-- See if the target system is connected to a system owned by whatever faction I am.
+	<Recent_Conflict_Space>
+		(1.0 - (Variable_Target.TimeSinceGroundConflict > 60.0)) * (60.0 - Variable_Target.TimeSinceGroundConflict) / 60.0
+	</Recent_Conflict_Space>
+
+	<Recent_Conflict_Ground>
+		(1.0 - (Variable_Target.TimeSinceConversion > 60.0)) * (60.0 - Variable_Target.TimeSinceConversion) / 60.0
+	</Recent_Conflict_Ground>
+
+	<First_Attack_Allowed>
+		Game.Age > Function_Initial_Grace_Period.Evaluate
+	</First_Attack_Allowed>
+
+	<Needs_Smuggler_Removed>
+		Variable_Target.HasCreditSiphon
+	</Needs_Smuggler_Removed>
+
+	<Almost_Won>
+		Variable_Self.PlanetsControlled >= 0.66
+	</Almost_Won>
+
+
+	<!--
+		This perception is used to determine if we can no longer afford to trickle money into the MajorItem budget
+		If we don't have at least X% the space force of all of our enemies (including pirates)
 	-->
+	<Needs_More_Space_Force_Globally>
+		(Variable_Human.SpaceTotalUnnormalized > (Variable_Self.SpaceTotalUnnormalized * 1.0))
+	</Needs_More_Space_Force_Globally>
+
+	<!--
+		The AI can afford to spend on tech if it has X% space force over the human player
+	-->
+	<Has_Enough_Space_Force_Globally>
+		(0.9 * Function_Friendly_Global_Space_Unit_Raw_Total.Evaluate) > Function_Enemy_Global_Space_Unit_Raw_Total.Evaluate
+	</Has_Enough_Space_Force_Globally>
+
+
+	<!--
+		Of the two largest blocks of controlled planets that are not connected to each other,
+		does the smaller have at least X% of the number of planets the larger has?  I.e, are a significant chunk of the AI's
+		planets stranded from the main force?
+	-->
+	<Forces_Are_Significantly_Divided>
+		Variable_Self.WorstIslandFractionOfLargest >= 0.2
+	</Forces_Are_Significantly_Divided>
+
+
+	<!-- See if the target system is connected to a system owned by whatever faction I am. -->
 	<Is_Connected_To_Me>
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} *
 		Variable_Self.IsFaction {Parameter_Faction = "Empire"}
@@ -15,8 +63,7 @@
 		Variable_Self.IsFaction {Parameter_Faction = "Underworld"}	
 	</Is_Connected_To_Me>
 
-	<!-- See if the target system is connected to a system owned by the AI faction's enemy
-	-->
+	<!-- See if the target system is connected to a system owned by the AI faction's enemy. -->
 	<Is_Connected_To_Enemy>
 		((Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0}) *
@@ -31,33 +78,16 @@
 		Variable_Self.IsFaction {Parameter_Faction = "Underworld"}) > 0.0
 	</Is_Connected_To_Enemy>
 
-	<!-- Normalizing time since forces were seen relative to 60 seconds
-		returning 1.0 means we just got recon, 0.0 means recon is older than 60 seconds (and probably useless)
-
-		OLD NORMALIZED BY TOTAL TIME OF UNIVERSE VERSION:
-		0.5 * (1.0 - Variable_Target.EnemyForce.SpaceTotal.TimeLastSeen + 1.0 - Variable_Target.EnemyForce.GroundTotal.TimeLastSeen)
-	-->
+	<!-- Normalizing time since forces were seen relative to 60 seconds -->
+	<!-- returning 1.0 means we just got recon, 0.0 means recon is older than 60 seconds (and probably useless) -->
 	<System_Recon_Relevance>
 		0.5 * (1.0 - (Variable_Target.EnemyForce.SpaceTotal.TimeLastSeenUnnormalized > 60.0)) * (60.0 - Variable_Target.EnemyForce.SpaceTotal.TimeLastSeenUnnormalized) / 60.0
 		+
 		0.5 * (1.0 - (Variable_Target.EnemyForce.GroundTotal.TimeLastSeenUnnormalized > 60.0)) * (60.0 - Variable_Target.EnemyForce.GroundTotal.TimeLastSeenUnnormalized) / 60.0
 	</System_Recon_Relevance>
 
-	<Recent_Conversion>
-		(1.0 - (Variable_Target.TimeSinceConversion > 60.0)) * (60.0 - Variable_Target.TimeSinceConversion) / 60.0
-	</Recent_Conversion>
-
-	<Recent_Conflict_Space>
-		(1.0 - (Variable_Target.TimeSinceGroundConflict > 60.0)) * (60.0 - Variable_Target.TimeSinceGroundConflict) / 60.0
-	</Recent_Conflict_Space>
-
-	<Recent_Conflict_Ground>
-		(1.0 - (Variable_Target.TimeSinceConversion > 60.0)) * (60.0 - Variable_Target.TimeSinceConversion) / 60.0
-	</Recent_Conflict_Ground>
-
-	<!-- This perception seeks to detect situations where our non-pirate opponent has neglected to reinforce a system.
-			Use this to respond to the enemy amassing all of their forces in one or few systems.
-		-->
+	<!-- This perception seeks to detect situations where our non-pirate opponent has neglected to reinforce a system. -->
+	<!-- Use this to respond to the enemy amassing all of their forces in one or few systems. -->
 	<Is_Neglected_By_My_Opponent_Space>
 		Variable_Target.IsHumanControlled
 		*
@@ -72,16 +102,12 @@
 		(((Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
 		+ (Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})) > 0)
 		*
-      (1.0 - Variable_Target.EnemyForce.GroundTotalNBPTM)
+		(1.0 - Variable_Target.EnemyForce.GroundTotalNBPTM)
 	</Is_Neglected_By_My_Opponent_Ground>
 
-	 <!--  the AI just always wants to be building offensive units if it can afford it.  Just tune
-		this number so that high desirability conquer plans will win and cause production, but low desirability conquer plans
-		will eventually get the forces they need, via build_forces.
-
-		(1.0 - (Function_Need_Tech_Upgrade_Unblocked.Evaluate * Function_Has_Enough_Space_Force_Globally.Evaluate))
-
-		-->
+	<!-- The AI just always wants to be building offensive units if it can afford it. Just tune -->
+	<!-- this number so that high desirability conquer plans will win and cause production, but low desirability conquer plans -->
+	<!-- will eventually get the forces they need, via build_forces. -->
 	 <Global_Offensive_Need_Space>
 		(1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate)
 		*
@@ -124,7 +150,7 @@
 		factor in systems that my non-pirate opponent has neglected to defended
 		factor in connected systems (the enemy_destination reachability already considers this, but this equation is also used for scouting needs)
 		factor in planets which would connect islands of ownership (all targets are 0 if there is only one island of ownership)
-      and add weight for having trade routes
+		and add weight for having trade routes
 		factor in systems with high offensive value
 		bonus for chokepoint hints
 		bonus for targets which have been marked up by script (as on the path to a juicy target) if the player has started to attack us
@@ -151,7 +177,7 @@
 		-
 		(5.0 + 5.0 * Variable_Self.AnyCurrentThreats) * Function_Opens_New_Front.Evaluate
 		+
-		(10.0 * Variable_Self.IsFaction {Parameter_Faction = "UNDERWORLD"} * (Variable_Target.IsConnectedToCorruption * 
+		(10.0 * Variable_Self.IsFaction {Parameter_Faction = "Underworld"} * (Variable_Target.IsConnectedToCorruption * 
 																				(Function_Is_Connected_To_Me.Evaluate == 0.0) - 
 																				Variable_Target.IsCorrupted))
 	</Is_Good_Invasion_Target>
@@ -170,15 +196,18 @@
 		(Variable_Target.IsHumanControlled == 0.0)
 		*
 		(Function_Space_Contrast.Evaluate > (Game.FriendlyForce.SpaceTotalUnnormalized / 1.5))
-		*	
-		Function_Needs_More_Space_Force_Globally.Evaluate 
-		* 
+		*
+		Function_Needs_More_Space_Force_Globally.Evaluate
+		*
 		Variable_Self.AnyCurrentThreats
 	</Is_AI_And_Should_Be_Ignored>
 
-	<!--	Does the system have a human presence
-			AND
-			Is it connected to a system owned by the AI
+	<!--
+		Does the system have a human presence
+		AND
+		Does it have a space force
+		AND
+		Is it connected to a system owned by the AI
 	-->
 	<Is_Target_A_Current_Threat>
 		Variable_Target.IsHumanControlled
@@ -188,60 +217,41 @@
 		Function_Is_Connected_To_Me.Evaluate
 	</Is_Target_A_Current_Threat>
 
-	<!-- This perception will cause directed force buildup, so that plans where we can't meet minimum contrast,
-	given the goal definition, will eventually become feasable.
+	<!--
+		This perception will cause directed force buildup, so that plans where we can't meet minimum contrast,
+		given the goal definition, will eventually become feasable.
 
-	If this target's total space contrast is more than X% our total (non-base) space contrast
-	OR
-	If this target's total ground contrast is more than X% our total (non-base) ground contrast
+		If this target's total space contrast is more than X% our total (non-base) space contrast
+		OR
+		If this target's total ground contrast is more than X% our total (non-base) ground contrast
 
-	... then we should be building forces that can apply to that target's forces
+		... then we should be building forces that can apply to that target's forces
 	-->
 	<Needs_Targetted_Build_Forces>
 		(Function_Space_Contrast.Evaluate > (Game.FriendlyForce.SpaceTotalUnnormalized / 4.0))
-		+ 
+		+
 		(Function_Ground_Contrast.Evaluate > (Game.FriendlyForce.GroundTotalUnnormalized / 4.0))
-		>= 
+		>=
 		1.0
 	</Needs_Targetted_Build_Forces>
 
-
-	<!-- This perception is used to determine if we can no longer afford to trickle money into the MajorItem budget
-		If we don't have at least X% the space force of all of our enemies (including pirates)
-	-->
-	<Needs_More_Space_Force_Globally>
-		(Variable_Human.SpaceTotalUnnormalized > (Variable_Self.SpaceTotalUnnormalized * 1.0))
-	</Needs_More_Space_Force_Globally>
-
 	<!-- Don't trickle to Major Item fund if:
-	we Need better Space Offense forces
+	We need better Space Offense forces
 	OR
-	we've already bought the death star
+	we've already bought the Death Star II
 	-->
 	<Need_To_Flush_MajorItem_Budget>
 		Function_Needs_More_Space_Force_Globally.Evaluate
 		+
-		Variable_Self.HasUnit{Parameter_Type = "Death_Star", Parameter_Count = 1}
+		Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Count = 1}
 	</Need_To_Flush_MajorItem_Budget>
-
-	<!-- The AI can afford to spend on tech if it has X% space force over the human player
-		8/16/05 - reduced the amount by which AI has to be winning 
-	-->
-	<Has_Enough_Space_Force_Globally>
-		(0.9 * Function_Friendly_Global_Space_Unit_Raw_Total.Evaluate) > Function_Enemy_Global_Space_Unit_Raw_Total.Evaluate
-	</Has_Enough_Space_Force_Globally>
-
 
 	<!-- How valuable is the planet? -->
 	<!-- Bonus for planets we haven't visited recently -->
 	<!-- Bonus for planets that don't have a smuggler already attached -->
 	<!-- Bonus for planets with high political control -->
 	<!-- Can't weaken neutral/pirate planets -->
-	<!-- Don't bother if my income is high (might as well just conquer)
-        *
-		(1.0 - (Variable_Self.GrossIncomeNBPTM > 0.33))
-
-    -->
+	<!-- Don't bother if my income is high (might as well just conquer) -->
 	<Is_Good_Weaken_Target>
 		0.5 *
 		(Function_GenericPlanetValue.Evaluate + 
@@ -257,10 +267,6 @@
 		(1.0 - Variable_Target.HasCreditSiphon) *
 		(1.0 - Variable_Target.EnemyForce.AntiStealthEffectiveness)
 	</Suitable_Smuggler_Target>
-
-	<Needs_Smuggler_Removed>
-		Variable_Target.HasCreditSiphon
-	</Needs_Smuggler_Removed>
 
 	<!-- Desire to perform a basic blind space assault
 
@@ -326,19 +332,7 @@
 		Function_Is_Good_Invasion_Target.Evaluate *
 		Variable_Target.IsHumanControlled
 	</Is_Good_Harry_Target>
-	
-	<Almost_Won>
-		Variable_Self.PlanetsControlled >= 0.66
-	</Almost_Won>
 
-
-	<!-- Of the two largest blocks of controlled planets that are not connected to each other,
-	does the smaller have at least X% of the number of planets the larger has?  I.e, are a significant chunk of the AI's
-	planets stranded from the main force?
-	-->
-	<Forces_Are_Significantly_Divided>
-		Variable_Self.WorstIslandFractionOfLargest >= 0.2
-	</Forces_Are_Significantly_Divided>
 
 	<!-- 
 		Does this planet represent the connecting node between two islands of forces?
@@ -396,7 +390,7 @@
 	<Is_Good_Raid_Target>
 		(0.5 + (1000 >= Variable_Target.EnemyForce.GroundTotalUnnormalized))
 		*
-		Variable_Self.IsFaction {Parameter_Faction = "REBEL"} *
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"} *
 		Function_Is_Good_Invasion_Target.Evaluate *
 		Variable_Target.IsSurfaceAccessible *
 		Variable_Target.IsHumanControlled *
@@ -418,11 +412,11 @@
 		(
 			1.25
 			*
-			Function_Is_Good_Invasion_Target.Evaluate 
+			Function_Is_Good_Invasion_Target.Evaluate
 			*
 			Variable_Target.IsHumanControlled
 			*
-			((Variable_Self.HasUnit {Parameter_Type = "DEATH_STAR"} == 0.0) 
+			((Variable_Self.HasUnit {Parameter_Type = "Death_Star_II"} == 0.0)
 			+
 			(Function_Want_To_Fire_DS.Evaluate == 0.0))
 		)
@@ -438,14 +432,10 @@
 		*
 		Function_First_Attack_Allowed.Evaluate
 		*
-		(Variable_Target.EnemyForce.GroundTotalUnnormalized > 1500) 
+		(Variable_Target.EnemyForce.GroundTotalUnnormalized > 1500)
 		*
 		Variable_Target.IsHumanControlled
 	</Want_To_Fire_DS>
-
-	<First_Attack_Allowed>
-		Game.Age > Function_Initial_Grace_Period.Evaluate
-	</First_Attack_Allowed>
 
 	<Initial_Grace_Period>
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]}
@@ -511,7 +501,7 @@
 		* (400.0 + (40.0 * Variable_Human.TechLevel))
 		+
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}
-		* (800.0 + (80.0 * Variable_Human.TechLevel))		
+		* (800.0 + (80.0 * Variable_Human.TechLevel))
 	</Ground_Force_Limit_For_Unrestricted_Grab>
 
 	<Should_Shutdown_Offense_For_Story_Campaign>
@@ -521,5 +511,4 @@
 		*
 		(5 > Variable_Human.PlanetsControlledUnnormalized)
 	</Should_Shutdown_Offense_For_Story_Campaign>
-
 </Equations>

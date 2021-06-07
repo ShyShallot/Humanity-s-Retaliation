@@ -56,8 +56,7 @@ function Definitions()
 	{
 		"MainForce"
 		,"Fighter = 1,4"
-		,"COVN_CRS = 0,1"
-		,"UNSC_MAKO = 0,2"
+		,"Interdictor_Cruiser = 0,1"
 	}
 	}
 end

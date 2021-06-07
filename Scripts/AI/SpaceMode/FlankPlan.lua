@@ -54,7 +54,7 @@ function Definitions()
 	},
 	{
 		"FlankForce"
-		,"Fighter = 2,4"
+		,"Fighter = 1,4"
 	}
 	}
 	

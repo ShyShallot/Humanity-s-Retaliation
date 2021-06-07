@@ -54,7 +54,7 @@ function Definitions()
 	{
 		"MainForce"
 		,"DenyHeroAttach"
-		,"UNSC_HALBERD"
+		,"Corellian_Corvette | Corellian_Gunboat | Tartan_Patrol_Cruiser | Slave_I | Sundered_Heart = 1, 10"
 	}
 	}
 	

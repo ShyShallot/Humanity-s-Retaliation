@@ -19,16 +19,15 @@ function Definitions()
     Define_State("State_Init", State_Init);
     Define_State("State_AI_Autofire", State_AI_Autofire)
     DebugMessage("%s -- In Definitions", tostring(Script))
-
+    ability_name = "TRACTOR_BEAM" -- Store the Name of the Ability for later use, saves on fingers
+    UntilBoardChances = 0  -- Used to check if we should start using chances during the building, like to cancel or take over the ship
+    TotalBoardUses = 0 -- Used to destory the Tractor Beam Hardpoint after X amount of uses
+    ShouldRun = 0 -- Should we loop the Damage and Chance functions during boarding
 end
 
 function State_Init(message)
     if message == OnEnter then
         DebugMessage("%s -- In Init", tostring(Script))
-        ability_name = "TRACTOR_BEAM" -- Store the Name of the Ability for later use, saves on fingers
-        UntilBoardChances = 0  -- Used to check if we should start using chances during the building, like to cancel or take over the ship
-        TotalBoardUses = 0 -- Used to destory the Tractor Beam Hardpoint after X amount of uses
-        ShouldRun = 0 -- Should we loop the Damage and Chance functions during boarding
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
     elseif message == OnUpdate then
         DebugMessage("%s -- In OnEnter", tostring(Script))

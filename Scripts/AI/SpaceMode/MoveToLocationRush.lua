@@ -49,8 +49,7 @@ function Definitions()
 	{
 		{
 			"MainForce"
-			,"Fighter = 2"
-			,"Corvette = 1,3"
+			,"Fighter | Corvette = 1"
 		},
 		{
 			"EscortForce"		
@@ -72,57 +71,51 @@ function MainForce_Thread()
 	Try_Ability(MainForce, "Turbo")
 	Try_Ability(MainForce, "SPOILER_LOCK")
 	Try_Ability(MainForce, "STEALTH")
+
 	-- Move the target to the desired location, with low tolerance threat avoidance.
 	BlockOnCommand(MainForce.Move_To(AITarget, MainForce.Get_Self_Threat_Max()))
 	MainForce.Activate_Ability("SPOILER_LOCK", false)
 	
 	if TestValid(Target) then
-		if EvaluatePerception("Distance_To_Nearest_Enemy_Starbase", PlayerObject, Target) > 2000  then -- We dont want to take a Build Pad near any enemy station as thats a waste
-        	if (EvaluatePerception("Is_Build_Pad", PlayerObject, Target) == 1) then
+        if (EvaluatePerception("Is_Build_Pad", PlayerObject, Target) == 1) then
 
-				-- Build pads may have an existing enemy structure than needs to be removed
-				-- Note that the enemy player can build structures late or rebuild destroyed structures, thus the need to repeat.
-				structure = Target.Get_Build_Pad_Contents()
-        	    if (structure == nil) or (TestValid(structure) and PlayerObject.Get_Faction_Name() ~= structure.Get_Owner().Get_Faction_Name()) then
-						-- Attack any structure that might be there
-						if TestValid(structure) then
-							BlockOnCommand(MainForce.Attack_Target(AITarget))
-						end
-					
-						--Wait for control to transition
-						BlockOnCommand(MainForce.Guard_Target(AITarget), 60, Target_Has_Structure)
-
-						--It's been a minute.  If we still don't have control then give up
-						if Target.Get_Owner() ~= PlayerObject then
-							ScriptExit()
-						end		
-					
-						-- Guard the spot to give another plan the chance to can something here
-						-- Wait indefinately, if this is a refinery pad and we have no refineries.
-						if EvaluatePerception("Is_Refinery_Pad_Space", PlayerObject, Target) == 1 then
-							wait_for_build_time = -1
-						end
-						--MessageBox("%s, %s--Guarding for %d", tostring(Script), tostring(Target), wait_for_build_time)
-					
-						-- Guard the spot until another plan can build something here
-						BlockOnCommand(MainForce.Guard_Target(AITarget), wait_for_build_time, Target_Has_Structure)
-				end
-
-			else
-			
-				-- Stand guard so that we can retain usage of this structure
-				MainForce.Guard_Target(AITarget)
-				Sleep(10)
-			end
-		else
+			-- Build pads may have an existing enemy structure than needs to be removed
+			-- Note that the enemy player can build structures late or rebuild destroyed structures, thus the need to repeat.
 			structure = Target.Get_Build_Pad_Contents()
-			if TestValid(structure) then
-				if structure.Get_Owner() ~= Return_Faction(PlayerObject) then
-					BlockOnCommand(MainForce.Attack_Target(AITarget))
-				end
+            if (structure == nil) or
+				(TestValid(structure) and PlayerObject.Get_Faction_Name() ~= structure.Get_Owner().Get_Faction_Name()) then
+				
+					-- Attack any structure that might be there
+					if TestValid(structure) then
+						BlockOnCommand(MainForce.Attack_Target(AITarget))
+					end
+		
+					--Wait for control to transition
+					BlockOnCommand(MainForce.Guard_Target(AITarget), 60, Target_Has_Structure)
+					
+					--It's been a minute.  If we still don't have control then give up
+					if Target.Get_Owner() ~= PlayerObject then
+						ScriptExit()
+					end		
+		
+					-- Guard the spot to give another plan the chance to can something here
+					-- Wait indefinately, if this is a refinery pad and we have no refineries.
+					if EvaluatePerception("Is_Refinery_Pad_Space", PlayerObject, Target) == 1 then
+						wait_for_build_time = -1
+					end
+					--MessageBox("%s, %s--Guarding for %d", tostring(Script), tostring(Target), wait_for_build_time)
+	
+					-- Guard the spot until another plan can build something here
+					BlockOnCommand(MainForce.Guard_Target(AITarget), wait_for_build_time, Target_Has_Structure)
 			end
+
+		else
+		
+			-- Stand guard so that we can retain usage of this structure
+			MainForce.Guard_Target(AITarget)
+			Sleep(10)
 		end
-	end	
+	end
 
 	MainForce.Set_Plan_Result(true)
 

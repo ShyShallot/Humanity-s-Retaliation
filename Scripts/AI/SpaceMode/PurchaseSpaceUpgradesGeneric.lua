@@ -40,24 +40,20 @@
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("pgevents")
-require("TacticalMultiplayerBuildSpaceUnitsGeneric")
+
 
 function Definitions()
 	
 	Category = "Purchase_Space_Upgrades_Generic"
 	IgnoreTarget = true
 	TaskForce = {
-	{
-		"ReserveForce"
-		,"DenySpecialWeaponAttach"
-		,"DenyHeroAttach"
-		,"RS_Improved_Weapons_L1_Upgrade | RS_Improved_Weapons_L2_Upgrade | RS_Improved_Weapons_L3_Upgrade | RS_Increased_Supplies_L1_Upgrade | RS_Increased_Supplies_L2_Upgrade | RS_Improved_Defenses_L1_Upgrade | RS_Improved_Defenses_L2_Upgrade | RS_Improved_Defenses_L3_Upgrade = 0,2"
-		,"ES_Increased_Supplies_L1_Upgrade | ES_Increased_Supplies_L2_Upgrade | ES_Improved_Weapons_L1_Upgrade | ES_Improved_Weapons_L2_Upgrade | ES_Improved_Weapons_L3_Upgrade | ES_Hypervelocity_Gun_Use_Upgrade | ES_Improved_Defenses_L1_Upgrade | ES_Improved_Defenses_L2_Upgrade | ES_Enhanced_Shielding_L1_Upgrade | ES_Enhanced_Shielding_L2_Upgrade = 0,2"
-	},
-	{
-		"SuicideForce"
-		,"RS_Self_Destruct_Station | ES_Self_Destruct_Station = 1"
-	}
+		{
+			"ReserveForce"
+			,"DenySpecialWeaponAttach"
+			,"DenyHeroAttach"
+			,"RS_Improved_Weapons_L1_Upgrade | RS_Improved_Weapons_L2_Upgrade | RS_Improved_Weapons_L3_Upgrade | RS_Increased_Supplies_L1_Upgrade | RS_Increased_Supplies_L2_Upgrade | RS_Increased_Supplies_L3_Upgrade | RS_Increased_Supplies_L4_Upgrade | RS_Improved_Defenses_L1_Upgrade | RS_Improved_Defenses_L2_Upgrade | RS_Improved_Defenses_L3_Upgrade = 0,2"
+			,"ES_Increased_Supplies_L1_Upgrade | ES_Increased_Supplies_L2_Upgrade | ES_Increased_Supplies_L3_Upgrade | ES_Increased_Supplies_L4_Upgrade | ES_Improved_Weapons_L1_Upgrade | ES_Improved_Weapons_L2_Upgrade | ES_Improved_Weapons_L3_Upgrade | ES_Hypervelocity_Gun_Use_Upgrade | ES_Improved_Defenses_L1_Upgrade | ES_Improved_Defenses_L2_Upgrade | ES_Enhanced_Shielding_L1_Upgrade | ES_Enhanced_Shielding_L2_Upgrade = 0,2"
+		}
 	}
 	 
 	RequiredCategories = {"Upgrade"}
@@ -67,48 +63,26 @@ end
 
 function ReserveForce_Thread()
 			
-	AI_Is_Overun()
 	BlockOnCommand(ReserveForce.Produce_Force())
 	ReserveForce.Set_Plan_Result(true)
 	ReserveForce.Set_As_Goal_System_Removable(false)
 
 	-- Give some time to accumulate money.
 	tech_level = PlayerObject.Get_Tech_Level()
-	diff = PlayerObject.Get_Difficulty()
-	min_credits, max_sleep_seconds = Calculate_Credit_Sleep_Time(tech_level, diff, PlayerObject)
-	if (min_credits ~= 0 and max_sleep_seconds ~= 0) or (min_credits ~= nil and max_sleep_seconds ~= nil) then
-		while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
-			current_sleep_seconds = current_sleep_seconds + 1
-			Sleep(1)
-		end
+	min_credits = 2000
+	if tech_level == 2 then
+		min_credits = 4000
+	elseif tech_level >= 3 then
+		min_credits = 6000
+	end
+	
+	max_sleep_seconds = 120
+	current_sleep_seconds = 0
+	while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
+		current_sleep_seconds = current_sleep_seconds + 1
+		Sleep(1)
 	end
 
 	ScriptExit()
 end
-
-
-function AI_Is_Overun()
-	while EvaluatePerception("Game_Age", PlayerObject) > 60 do
-		if Return_Faction(PlayerObject) == "EMPRIE" then
-			enemy = Find_Player("REBEL")
-		elseif Return_Faction(PlayerObject) == "REBEL" then
-			enemy = Find_Player("EMPIRE")
-		else
-			return
-		end
-		if TestValid(enemy) then
-			enemy_forces = Find_All_Objects_Of_Type(enemy)
-			friendly_forces = Find_All_Objects_Of_Type(PlayerObject)
-			enemy_combat_power = Get_Total_Unit_Table_Combat_Power(enemy_forces)
-			friendly_combat_power = Get_Total_Unit_Table_Combat_Power(friendly_forces)
-			combat_power_threshold = friendly_combat_power * 1.5 
-			if enemy_combat_power > combat_power_threshold then
-				BlockOnCommand(SuicideForce.Produce_Force())
-				ScriptExit()
-			end
-		end
-		Sleep(1)
-	end
-end
-
 

@@ -61,3 +61,60 @@ function Calculate_AI_FOW_Distance(factor, ai, base)
     final_distance = seeing_distance * factor
     return final_distance
 end
+
+function Calculate_Credit_Sleep_Time(tech, diff, player)
+	local faction = Return_Faction(PlayerObject)
+	DebugMessage("Current Faction: %s", tostring(faction))
+	local min_credits = 2000
+	local max_sleep_seconds = 30
+	DebugMessage("Min Credits: %s", tostring(min_credits))
+	DebugMessage("Max Sleep Time: %s", tostring(max_sleep_seconds))
+	if faction == "EMPIRE" then
+		fac_credits_multi = 1.5
+		fac_sleep_seconds_multi = 2
+		DebugMessage("Credit Multiplier based on Faction: %s", tostring(fac_credits_multi))
+		DebugMessage("Sleep Multiplier based on Faction: %s", tostring(fac_sleep_seconds_multi))
+	else
+		fac_credits_multi = 1.15
+		fac_sleep_seconds_multi = 1.5
+	end
+	if Tactical_Tech_Level(PlayerObject) == 1 then
+		tech_credits_mutli  = 0.85
+		DebugMessage("Credit Multiplier based on Tech: %s", tostring(tech_credits_mutli))
+	elseif Tactical_Tech_Level(PlayerObject) == 2 then
+		tech_credits_mutli = 1.0
+		DebugMessage("Credit Multiplier based on Tech: %s", tostring(tech_credits_mutli))
+	elseif  Tactical_Tech_Level(PlayerObject) == 3 then
+		tech_credits_mutli = 1.4
+		DebugMessage("Credit Multiplier based on Tech: %s", tostring(tech_credits_mutli))
+	elseif  Tactical_Tech_Level(PlayerObject) == 4 then
+		tech_credits_mutli = 1.65
+		DebugMessage("Credit Multiplier based on Tech: %s", tostring(tech_credits_mutli))
+	elseif  Tactical_Tech_Level(PlayerObject) == 5 then
+		tech_credits_mutli = 1.85
+		DebugMessage("Credit Multiplier based on Tech: %s", tostring(tech_credits_mutli))
+	end
+
+	diff_credits_multi = 1.15
+	diff_sleep_multi = 1.35
+	DebugMessage("Credit Multiplier based on Diff: %s", tostring(diff_credits_multi))
+	DebugMessage("Sleep Multiplier based on Diff: %s", tostring(diff_sleep_multi))
+	if diff == "NORMAL" then
+		diff_credits_multi = 1
+		diff_sleep_multi = 1.2
+		DebugMessage("Credit Multiplier based on Diff: %s", tostring(diff_credits_multi))
+		DebugMessage("Sleep Multiplier based on Diff: %s", tostring(diff_sleep_multi))
+	elseif diff == "HARD" then
+		diff_credits_multi = 0.85
+		diff_sleep_multi = 1
+		DebugMessage("Credit Multiplier based on Diff: %s", tostring(diff_credits_multi))
+		DebugMessage("Sleep Multiplier based on Diff: %s", tostring(diff_sleep_multi))
+	end
+	
+	
+	local min_credits = min_credits * fac_credits_multi * tech_credits_mutli * diff_credits_multi
+	local max_sleep_seconds = max_sleep_seconds * fac_sleep_seconds_multi * diff_sleep_multi
+	DebugMessage("Min Credits: %s", tostring(min_credits))
+	DebugMessage("Max Sleep Time: %s", tostring(max_sleep_seconds))
+	return min_credits, max_sleep_seconds
+end

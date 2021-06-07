@@ -49,7 +49,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"MainForce"
-		,"UC_Empire_Mineral_Extractor | UC_Rebel_Mineral_Extractor = 1"
+		,"UC_Empire_Mineral_Extractor | UC_Rebel_Mineral_Extractor | UC_Underworld_Mineral_Extractor = 1"
 	}
 	}
 --	RequiredCategories = {"Structure"}
@@ -61,6 +61,7 @@ function Definitions()
 end
 
 function MainForce_Thread()
+
 	-- Make sure we use a build pad that's not too near to the enemy base
 	nearby_pad_list = MainForce.Get_Reserved_Build_Pads()
 	for i, pad in pairs(nearby_pad_list) do
@@ -76,7 +77,9 @@ function MainForce_Thread()
 		if faction_name == "EMPIRE" then
 			MainForce.Build("UC_Empire_Mineral_Extractor", good_pad)
 		elseif faction_name == "REBEL" then
-			MainForce.Build("UC_Rebel_Mineral_Extractor", good_pad)	
+			MainForce.Build("UC_Rebel_Mineral_Extractor", good_pad)
+		elseif faction_name == "UNDERWORLD" then
+			MainForce.Build("UC_Underworld_Mineral_Extractor", good_pad)			
 		else
 			MessageBox("unexpected faction name: %s", faction_name)
 		end

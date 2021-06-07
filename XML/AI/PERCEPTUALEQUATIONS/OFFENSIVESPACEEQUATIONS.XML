@@ -759,15 +759,7 @@
 	<Need_To_Build_Refinery_Space>
 		50.0 
 		*
-		(
-			0.2 >
-			(
-				Variable_Target.Location.EnemyForce /
-				(Variable_Target.Location.EnemyForce + Variable_Target.Location.FriendlyForce )
-			)
-		)
-		*
-		(Function_Distance_To_Nearest_Enemy_Starbase.Evaluate > 2500)
+		(Function_Distance_To_Nearest_Enemy_Starbase.Evaluate > 1500)
 	</Need_To_Build_Refinery_Space>
 
 	<!-- Save cash
@@ -858,6 +850,8 @@
 		)
 		+
 		(
+			(Game.Age > 60)
+			*
 			(Game.IsCampaignGame == 0)
 			*
 			(4 > Variable_Self.UnitSpaceAvailable)

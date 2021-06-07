@@ -81,6 +81,7 @@
 
 	<File>MiscObjects.xml</File>
 	<File>UpgradeObjects.xml</File>
+	<File>UpgradeObjects_ECONOMY.xml</File>
 	<File>SecondaryStructures.xml</File>
 
 	<File>Props_Temperate.xml</File>

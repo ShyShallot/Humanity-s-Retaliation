@@ -1522,7 +1522,9 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				RS_Increased_Supplies_L1_Upgrade,
-				RS_Increased_Supplies_L2_Upgrade,				
+				RS_Increased_Supplies_L2_Upgrade,
+				RS_Increased_Supplies_L3_Upgrade,	
+				RS_Increased_Supplies_L4_Upgrade,					
 		</Tactical_Buildable_Objects_Multiplayer>
 	</SpaceBuildable>
 
@@ -1734,7 +1736,9 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				ES_Increased_Supplies_L1_Upgrade,
-				ES_Increased_Supplies_L2_Upgrade,		
+				ES_Increased_Supplies_L2_Upgrade,
+				ES_Increased_Supplies_L3_Upgrade,
+				ES_Increased_Supplies_L4_Upgrade,		
 		</Tactical_Buildable_Objects_Multiplayer>
 	
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>

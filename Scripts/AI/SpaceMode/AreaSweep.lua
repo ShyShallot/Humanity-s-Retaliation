@@ -40,7 +40,7 @@
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("pgevents")
-require("HALOAIFunctions")
+
 --
 -- Space Mode Test Script
 --
@@ -55,7 +55,7 @@ function Definitions()
 	-- First Task Force
 	{
 		"MainForce"
-		,"Fighter | Corvette | Frigate | SpaceHero = 2, 10"
+		,"Fighter | Corvette | Frigate | SpaceHero = 1, 10"
 	}
 	}
 	
@@ -79,21 +79,20 @@ function MainForce_Thread()
 	BlockOnCommand(MainForce.Attack_Move(AITarget))
 	MainForce.Activate_Ability("Turbo", false)
 	MainForce.Activate_Ability("SPOILER_LOCK", false)
-	ai_fog_of_war_distance = Calculate_AI_FOW_Distance(1, PlayerObject, 3000) -- use this to limit the AI's "seeing" distance so it doesn't seem like the AI knows where all the ships are
 
 	-- Try to at least find something, since we bothered coming over here
 	-- There may be an enemy unit exposed, but the initial attack_move to the cell didn't find it.
 	MainForce.Set_As_Goal_System_Removable(false)
 	Target = Find_Nearest(MainForce, "Transport", PlayerObject, false)
-	if TestValid(Target) and MainForce.Get_Distance(Target) < ai_fog_of_war_distance then
+	if TestValid(Target) then
 		BlockOnCommand(MainForce.Attack_Move(Target))
 	else
 		Target = Find_Nearest(MainForce, "Fighter | Bomber | Corvette", PlayerObject, false)
-		if TestValid(Target) and MainForce.Get_Distance(Target) < ai_fog_of_war_distance then
+		if TestValid(Target) then
 			BlockOnCommand(MainForce.Attack_Move(Target))
 		else
 			Target = FindDeadlyEnemy(MainForce)
-			if TestValid(Target) and MainForce.Get_Distance(Target) < ai_fog_of_war_distance then
+			if TestValid(Target) then
 				BlockOnCommand(MainForce.Attack_Move(Target))
 			end
 		end
@@ -117,4 +116,3 @@ function MainForce_Unit_Move_Finished(tf, unit)
 		unit.Attack_Move(tf)
 	end
 end
-
