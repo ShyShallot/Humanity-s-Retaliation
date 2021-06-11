@@ -125,7 +125,7 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                                 self_obj.Cancel_Ability(ability_name) -- Make sure the "Tractor Beam" ability stops
                                 self_obj.Play_SFX_Event("SFX_UM02_MagneticSealedDoor")
                                 self_obj.Set_Selectable(true)
-                                Game_Message("HALO_BOARDING_TAKEOVER")
+                                Game_Message("HALO_BOARDING_FAIL")
                             end
                             if Return_Chance(TakeOverChance) and boardingActive == true then -- If the boarding Take over chance succeeds and boarding is active, take over ship
                                 Set_Boarding_Unit_Props(self_obj, target, true, false)
@@ -136,7 +136,7 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
                                 self_obj.Play_SFX_Event("Unit_Select_Vader_Executor")
                                 ShouldRun = 0
                                 self_obj.Set_Selectable(true)
-                                Game_Message("HALO_BOARDING_FAIL")
+                                Game_Message("HALO_BOARDING_TAKEOVER")
                             end
                             if TestValid(target) then 
                                 if target.Get_Hull() <= 0.2 then -- If the Ship health is below a value then just straight up blow up the ship
@@ -172,10 +172,10 @@ function BoardingFunction(self_obj, target) -- This is where shit gets messy, Ov
     end -- If the target we found isnt Alive and/or Not being affected by the Tractor Beam essentially restart the script
 end
 
-function BoardingChances(self_obj) -- For Chance Scaling, cleans up shtuff
+function BoardingChances(self_obj, owner) -- For Chance Scaling, cleans up shtuff
     player = self_obj.Get_Owner()
-    diff = player.Get_Difficulty()
-    if player.Is_Human() then
+    diff = owner.Get_Difficulty()
+    if owner.Is_Human() then
         InitalBoardingChance = 0.45 -- The Intial Chance for the boarding to begin
         TakeOverChance =  0.95 -- Used for the chance of taking over the ship
         FailChance = 0.6 -- The Chance for the boarding to fail and stop

@@ -5,14 +5,16 @@
 -- This is a general function library script
 
 function Return_Chance(value_to_check) -- Returns true or false
-    if value_to_check > 1 then
-        DebugMessage("%s -- ERROR Value to Check cannot be greater than 1, please fix yo shit", tostring(Script))
-        DebugMessage("Current Value to Check: %s", tostring(value_to_check))
-        ScriptExit()
-    end
-    Chance = GameRandom(0, 1) 
-    if Chance >= value_to_check then 
-        return true
+    if value_to_check <= 1 then
+        Chance = GameRandom(0, 1) 
+        if Chance >= value_to_check then 
+            return true
+        end
+    elseif value_to_check <= 100 then
+        Chance = GameRandom(0, 100) 
+        if Chance >= value_to_check then 
+            return true
+        end
     end
 end
 
