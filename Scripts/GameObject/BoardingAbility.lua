@@ -60,11 +60,11 @@ function Find_Nearest_Board_Target(self_obj)
     if (TestValid(target)) and (not Is_Boardable_Unit(target)) then
         if is_owner_ai == true then
             Object.Activate_Ability(ability_name, target)
-            InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj)
+            InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj, self_obj.Get_Owner())
             Sleep(1)
             BoardingFunction(self_obj, target)
         else
-            InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj)
+            InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj, self_obj.Get_Owner())
             BoardingFunction(self_obj, target)
         end
     else 

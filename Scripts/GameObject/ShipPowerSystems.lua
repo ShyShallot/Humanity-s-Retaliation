@@ -34,20 +34,15 @@ end
 
 function State_Init(message) 
     if message == OnEnter then
-        parent = Object.Get_Owner() 
-        if Return_Faction(parent) == "EMPIRE" then
-            DebugMessage("%s -- Creating Unit List Covenant", tostring(Script))
-            reactor_unit_list_e = Unit_Reactor_Table(exploded_units_e) -- first define our unit reactor list
-        elseif Return_Faction(parent) == "REBEL" then
-            DebugMessage("%s -- Creating Unit List UNSC", tostring(Script))
-            reactor_unit_list_r = Unit_Reactor_Table(exploded_units_r) -- first define our unit reactor list
-        end
+        DebugMessage("%s -- Creating Unit List Covenant", tostring(Script))
+        reactor_unit_list_e = Unit_Reactor_Table(exploded_units_e) -- first define our unit reactor list
+        DebugMessage("%s -- Creating Unit List UNSC", tostring(Script))
+        reactor_unit_list_r = Unit_Reactor_Table(exploded_units_r) -- first define our unit reactor list
     elseif message == OnUpdate then
-        if Return_Faction(parent) == "EMPIRE" then
-            Create_Thread("Reactor_Table_Function_E", reactor_unit_list_e, exploded_units_e)
-        elseif Return_Faction(parent) == "REBEL" then
-            Create_Thread("Reactor_Table_Function_R", reactor_unit_list_r, exploded_units_r)
-        end
+        Create_Thread("Reactor_Table_Function_E", reactor_unit_list_e, exploded_units_e)
+        DebugMessage("%s -- Updating Unit List Covenant", tostring(Script))
+        Create_Thread("Reactor_Table_Function_R", reactor_unit_list_r, exploded_units_r)
+        DebugMessage("%s -- Updating Unit List UNSC", tostring(Script))
     end
 end
 
