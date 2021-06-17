@@ -18,6 +18,7 @@ function Definitions()
             Find_Object_Type("COVN_CCS"),
             Find_Object_Type("COVN_RCS"),
             Find_Object_Type("COVN_CPV"),
+            Find_Object_Type("COVN_DDS"),
             Find_Object_Type("UNSC_POA"),
             Find_Object_Type("UNSC_AUTUMN"),
             Find_Object_Type("UNSC_INFINITY"),
