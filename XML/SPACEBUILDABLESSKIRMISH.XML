@@ -573,11 +573,10 @@
 		<Energy_Capacity>10000</Energy_Capacity>
 		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
 		<Damage>12</Damage>
-		<Projectile_Damage>8.0</Projectile_Damage>
-		<Projectile_Types>Proj_Covie_Long_Beam</Projectile_Types>
+		<Projectile_Types>Proj_Covie_Plasma_Beam</Projectile_Types>
 		<Fire_Pulse_Count>30</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>8.0</Projectile_Fire_Recharge_Seconds>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1103,9 +1102,9 @@
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 		<Projectile_Damage>17.5</Projectile_Damage>
 		<Projectile_Types>Proj_UNSC_Ship_Missile</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Count>20</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.6</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>7.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>12.5</Projectile_Fire_Recharge_Seconds>
 		<Affiliation>Rebel</Affiliation>
 	</SpaceBuildable>
 

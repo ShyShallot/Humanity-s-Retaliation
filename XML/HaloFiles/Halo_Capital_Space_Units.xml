@@ -186,7 +186,7 @@
 		</Abilities>
 
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_POA TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_POA TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
@@ -377,7 +377,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
        
-		<Encyclopedia_Text> TEXT_TOOLTIP_AUTUMN_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_AUTUMN_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
@@ -550,7 +550,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
        
-		<Encyclopedia_Text> TEXT_TOOLTIP_MARATHON_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MARATHON_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
@@ -723,7 +723,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
        
-		<Encyclopedia_Text> TEXT_TOOLTIP_HALCYON TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HALCYON TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
@@ -919,7 +919,7 @@
 		<Lua_Script>ObjectScript_Firepower</Lua_Script>
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_VINDICATION TEXT_SPACE HALO_ARMOR_LEVEL_4 </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_VINDICATION TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_BATTLESHIP </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 

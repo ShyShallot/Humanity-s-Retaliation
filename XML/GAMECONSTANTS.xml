@@ -1898,7 +1898,7 @@
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Nebulon_B, 0.15 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Acclamator, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Pirate_Frigate, 3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Satellite, 0.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Satellite, 0.35 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Frigate, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Victory_Class, 0.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Assault_Frigate, 0.10 </Damage_To_Armor_Mod>

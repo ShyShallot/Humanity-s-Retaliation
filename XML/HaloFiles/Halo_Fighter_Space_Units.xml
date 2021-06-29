@@ -1346,24 +1346,24 @@
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
-		<Collision_Box_Modifier>3.0</Collision_Box_Modifier>
+		<Collision_Box_Modifier>5.0</Collision_Box_Modifier>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>12.5</Max_Speed>
-		<Min_Speed>4.0</Min_Speed>
+		<Max_Speed>10.5</Max_Speed>
+		<Min_Speed>0.0</Min_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
-		<Max_Thrust>5.0</Max_Thrust>
-		<Max_Rate_Of_Roll>2.0</Max_Rate_Of_Roll>
+		<Max_Thrust>2.0</Max_Thrust>
+		<Max_Rate_Of_Roll>1.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>110</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>100</Shield_Points>
@@ -1431,7 +1431,7 @@
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
-		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
+		<Min_Speed_Fraction_For_Turn>0.8</Min_Speed_Fraction_For_Turn>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
