@@ -44,6 +44,7 @@ function State_Init(message)
         DebugMessage("%s -- Updating Unit List Covenant", tostring(Script))
         Create_Thread("Reactor_Table_Function_R", reactor_unit_list_r, exploded_units_r)
         DebugMessage("%s -- Updating Unit List UNSC", tostring(Script))
+        Sleep(1)
     end
 end
 

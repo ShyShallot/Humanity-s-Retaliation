@@ -1414,15 +1414,9 @@
 	</SpaceBuildable>		
 
 
-
-
-
-
 	<SpaceBuildable Name="Empire_Mineral_Extractor">
 		
-		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
-		
-		<SpaceBehavior> SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, UNIT_AI, DAMAGE_TRACKING, IDLE, HIDE_WHEN_FOGGED </SpaceBehavior>
+		<SpaceBehavior> SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, SHIELDED, DAMAGE_TRACKING </SpaceBehavior>
 		<Scale_Factor> 2 </Scale_Factor>
 
 		<Text_ID> TEXT_ASTEROID_MINING_FACILITY </Text_ID>
@@ -1430,7 +1424,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>N_FORERUNNERMINE.ALO</Space_Model_Name>
 		<Icon_Name>i_button_asteroidmining.tga</Icon_Name>
-		<Select_Box_Scale>165</Select_Box_Scale>
+		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
@@ -1442,8 +1436,6 @@
 		<GUI_Distance>200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
-		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -1462,9 +1454,9 @@
 			<Force_Healing_Ability Name="E_Mineral_Extractor_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.003</Heal_Percent>
-				<Heal_Amount>0.0</Heal_Amount>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>15</Heal_Amount>
+				<Heal_Interval_In_Secs>1.5</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types />
@@ -1492,7 +1484,9 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				ES_Increased_Supplies_L1_Upgrade,
-				ES_Increased_Supplies_L2_Upgrade,				
+				ES_Increased_Supplies_L2_Upgrade,
+				ES_Increased_Supplies_L3_Upgrade,
+				ES_Increased_Supplies_L4_Upgrade,				
 		</Tactical_Buildable_Objects_Multiplayer>
 	
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
