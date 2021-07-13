@@ -40,9 +40,9 @@ function State_Init(message)
         DebugMessage("%s -- Creating Unit List UNSC", tostring(Script))
         reactor_unit_list_r = Unit_Reactor_Table(exploded_units_r) -- first define our unit reactor list
     elseif message == OnUpdate then
-        Create_Thread("Reactor_Table_Function_E", reactor_unit_list_e, exploded_units_e)
+        Reactor_Table_Function_E()
         DebugMessage("%s -- Updating Unit List Covenant", tostring(Script))
-        Create_Thread("Reactor_Table_Function_R", reactor_unit_list_r, exploded_units_r)
+        Reactor_Table_Function_R()
         DebugMessage("%s -- Updating Unit List UNSC", tostring(Script))
         Sleep(1)
     end
