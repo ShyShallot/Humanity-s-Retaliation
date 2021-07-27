@@ -198,7 +198,7 @@
 			Bomber, 5.0,
 		</Attack_Priorities>
 		<Hard_Point_Priorities>
-			Shield_Generator, Engine, FIGHTER_BAY, WEAPON_LASER, WEAPON_ION_CANNON, TRACTOR_BEAM
+			Shield_Generator, Engine, FIGHTER_BAY, WEAPON_LASER, WEAPON_ION_CANNON, GRAVITY_WELL, TRACTOR_BEAM
 		</Hard_Point_Priorities>
 		<Category_Exclusions>
 			Frigate, Capital
@@ -292,7 +292,7 @@
 			Transport, 4.0,
 		</Attack_Priorities>
 		<Hard_Point_Priorities>
-			Shield_Generator, Engine, FIGHTER_BAY,
+			Shield_Generator, Engine, FIGHTER_BAY, GRAVITY_WELL,
 		</Hard_Point_Priorities>
 		<Category_Exclusions>
 			Fighter, Bomber

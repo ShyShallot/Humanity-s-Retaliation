@@ -18,8 +18,8 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>1.3</Max_Speed>
-		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Max_Speed>2.8</Max_Speed>
+		<Max_Rate_Of_Turn>1.1</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-580.0</Layer_Z_Adjust>
@@ -234,8 +234,8 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.85</Max_Speed>
-		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
+		<Max_Speed>2.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-450.0</Layer_Z_Adjust>
@@ -407,8 +407,8 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>1.15</Max_Speed>
-		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Speed>2.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.85</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
@@ -580,8 +580,8 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.85</Max_Speed>
-		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+		<Max_Speed>1.85</Max_Speed>
+		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-450.0</Layer_Z_Adjust>
@@ -752,8 +752,8 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>1.2</Max_Speed>
-		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+		<Max_Speed>1.5</Max_Speed>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-600.0</Layer_Z_Adjust>
@@ -960,7 +960,7 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 525 </Reinforcement_Prevention_Radius>
 
-		<Max_Speed>1.3</Max_Speed>
+		<Max_Speed>2.35</Max_Speed>
 		<Max_Rate_Of_Turn>0.95</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
@@ -1179,8 +1179,8 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 400 </Reinforcement_Prevention_Radius>
 
-		<Max_Speed>1.6</Max_Speed>
-		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
+		<Max_Speed>2.0</Max_Speed>
+		<Max_Rate_Of_Turn>1.75</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-450.0</Layer_Z_Adjust>
@@ -1365,7 +1365,7 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 600 </Reinforcement_Prevention_Radius>
 
-		<Max_Speed>0.8</Max_Speed>
+		<Max_Speed>1.15</Max_Speed>
 		<Max_Rate_Of_Turn>1.1</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
@@ -1544,7 +1544,7 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 525 </Reinforcement_Prevention_Radius>
 
-		<Max_Speed>0.75</Max_Speed>
+		<Max_Speed>1.5</Max_Speed>
 		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>

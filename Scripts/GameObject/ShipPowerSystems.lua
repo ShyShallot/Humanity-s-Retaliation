@@ -149,7 +149,6 @@ function Process_Reactor_Table(tableunits, dead_table)
                             table.remove(tableunits, k)
                             DebugPrintTable(tableunits)
                             DebugPrintTable(dead_table)
-                            return
                         else
                             if not Is_Reactor_Active(unit) and unit.Can_Move() then -- If the Reactor of the unit is not active, run the below
                                 DebugMessage("%s -- Reactor isn't alive, running reactor funcs, %s", tostring(Script), tostring(unit.Get_Type().Get_Name()))
@@ -162,10 +161,8 @@ function Process_Reactor_Table(tableunits, dead_table)
                                 table.remove(tableunits, k)
                                 table.insert(dead_table, unit)
                                 Sleep(1)
-                                return 
                             end
                             DebugMessage("%s -- Exiting For Statement for this Unit: %s", tostring(Script), tostring(unit.Get_Type().Get_Name()))
-                            return
                         end
                     end
                 end
@@ -182,10 +179,8 @@ function Process_Reactor_Table(tableunits, dead_table)
                     table.remove(tableunits, k)
                     table.insert(dead_table, unit)
                     Sleep(1)
-                    return 
                 end
                 DebugMessage("%s -- Exiting For Statement for this Unit: %s", tostring(Script), tostring(unit.Get_Type().Get_Name()))
-                return
             end
         end
     end

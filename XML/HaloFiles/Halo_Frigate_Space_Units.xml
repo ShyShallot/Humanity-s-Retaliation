@@ -20,8 +20,8 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>2.8</Max_Speed>
-		<Max_Rate_Of_Turn>1.8</Max_Rate_Of_Turn>
+		<Max_Speed>5.5</Max_Speed>
+		<Max_Rate_Of_Turn>2.2</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
@@ -196,7 +196,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>3.4</Max_Speed>
+		<Max_Speed>4.2</Max_Speed>
 		<Max_Rate_Of_Turn>2.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
@@ -398,7 +398,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>3.9</Max_Speed>
+		<Max_Speed>6</Max_Speed>
 		<Max_Rate_Of_Turn>2.1</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
@@ -569,8 +569,8 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>1.8</Max_Speed>
-		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Max_Speed>3.0</Max_Speed>
+		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
@@ -769,8 +769,8 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>2.8</Max_Speed>
-		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
+		<Max_Speed>3.8</Max_Speed>
+		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
@@ -1379,8 +1379,8 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>2.4</Max_Speed>
-		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+		<Max_Speed>4.4</Max_Speed>
+		<Max_Rate_Of_Turn>1.9</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
@@ -1566,7 +1566,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>2.9</Max_Speed>
+		<Max_Speed>5.4</Max_Speed>
 		<Max_Rate_Of_Turn>2.2</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
@@ -1787,8 +1787,8 @@
 
 		<!-- Stats -->
 		<Population_Value>8</Population_Value>
-	   	<Max_Speed>2.3</Max_Speed>
-		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
+	   	<Max_Speed>3.3</Max_Speed>
+		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>3650</Shield_Points>
 		<Tactical_Health>4500</Tactical_Health>
@@ -2027,8 +2027,8 @@
 
 		<!-- Stats -->
 		<Population_Value>4</Population_Value>
-	   	<Max_Speed>3.3</Max_Speed>
-		<Max_Rate_Of_Turn>1.9</Max_Rate_Of_Turn>
+	   	<Max_Speed>5.3</Max_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>2600</Shield_Points>
 		<Tactical_Health>3400</Tactical_Health>

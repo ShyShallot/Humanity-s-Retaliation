@@ -17,8 +17,8 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.8</Max_Speed>
-		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Speed>1.1</Max_Speed>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-850.0</Layer_Z_Adjust>
