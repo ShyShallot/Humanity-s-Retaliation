@@ -385,7 +385,7 @@
 
 
 	<MusicEvent Name="Space_Map_Rebel_Ambient_Music_Event">
-		<!--<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>-->
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
 		<Files></Files>
         <Volume_Percent>55</Volume_Percent>
 		<Fade_In_Seconds>2.0</Fade_In_Seconds>
@@ -394,7 +394,7 @@
 	</MusicEvent>
 
 	<MusicEvent Name="Space_Map_Empire_Ambient_Music_Event">
-		<!--<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>-->
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
 		<Files></Files>
         <Volume_Percent>55</Volume_Percent>
 		<Fade_In_Seconds>2.0</Fade_In_Seconds>
@@ -407,7 +407,7 @@
 
 
 	<MusicEvent Name="Space_Map_Rebel_Battle_Music_Event">
-		<!--<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>-->
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
 		<Files></Files>
         <Volume_Percent>55</Volume_Percent>
 		<Fade_In_Seconds>2.0</Fade_In_Seconds>
@@ -416,7 +416,7 @@
 	</MusicEvent>
 
 	<MusicEvent Name="Space_Map_Empire_Battle_Music_Event">
-		<!--<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>-->
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
 		<Files></Files>
         <Volume_Percent>55</Volume_Percent>
 		<Fade_In_Seconds>2.0</Fade_In_Seconds>
