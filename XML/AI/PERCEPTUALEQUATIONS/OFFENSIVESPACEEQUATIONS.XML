@@ -770,7 +770,7 @@
 	<Is_Saving_For_Refineries_Space>
 		(Variable_Self.OpenBuildPadCount{Parameter_Type = "Mineral_Extractor_Pad"} > 0)
 		*
-		(1500 > Variable_Self.CreditsUnnormalized)
+		(2000 > Variable_Self.CreditsUnnormalized)
 	</Is_Saving_For_Refineries_Space>
 
 
@@ -781,11 +781,7 @@
 	<!-- 
 	-->
 	<Tactical_Multiplayer_Should_Build_Generic_Space>
-		(1 - Function_Is_Saving_For_Refineries_Space.Evaluate)
-		*
-		(1 - Function_Skirmish_Needs_New_Space_Station.Evaluate) 
-		*
-		Function_Tactical_Multiplayer_Should_Build_Generic.Evaluate
+		(Variable_Self.FriendlyForce - (1 * Variable_Self.EnemyForce))
 	</Tactical_Multiplayer_Should_Build_Generic_Space>
 
 

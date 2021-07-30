@@ -49,8 +49,11 @@ function Definitions()
 	TaskForce = {
 	{
 		"MainForce"
-		, "TaskForceRequired"
-		, "DenySpecialWeaponAttach"
+		,"TaskForceRequired"
+		,"DenySpecialWeaponAttach"
+		,"Capital = 0,3"
+		,"Frigate = 0,6"
+		,"Corvette = 0,2"
 	}
 	}
 
@@ -58,7 +61,7 @@ end
 
 function MainForce_Thread()
 
-	focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital", PlayerObject, false)
+	focus_fire_on_target = Find_Nearest(Target, "Super | Frigate | Capital ", PlayerObject, false)
 	
 	while TestValid(focus_fire_on_target) do
 		-- Cancel all goals
@@ -68,6 +71,7 @@ function MainForce_Thread()
 		
 		-- Use all idle units, mapwide
 		MainForce.Collect_All_Free_Units()	
+		BlockOnCommand(MainForce.Produce_Force())
 		
 		while TestValid(focus_fire_on_target) do
 			MainForce.Collect_All_Free_Units()

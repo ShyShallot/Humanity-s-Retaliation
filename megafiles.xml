@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 
 <Mega_Files>
-
+	<Info Name="HREAW" Version="Alpha"/>
 	<File> Data\RussianSpeech.meg </File>
 	<File> Data\FrenchSpeech.meg </File>
 	<File> Data\Config.meg </File>
@@ -18,5 +18,6 @@
 	<File> Data\Music.meg </File>
 	<File> Data\GermanSpeech.meg </File>
 
+	<File> Data\HR_AI_Config.meg </File>
 </Mega_Files>
 
