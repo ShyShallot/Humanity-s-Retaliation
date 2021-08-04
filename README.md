@@ -1,3 +1,16 @@
 # Data
 
 Private Dev Only Access HR Repository
+
+# Installation Instructions:
+
+1. Download the Repository.
+2. Create a Mod Folder in your Forces Of Corruption folder if you havent, should look like this: steamapps\common\Star Wars Empire at War\corruption\Mods
+3. Create folder in the Mods Folder names Halo or something related, as an example mine is called HRMod. should look like this when your done: corruption\Mods\HRMod
+4. Goto Steam and Right Click on Empire at War and click properties, look for launch options and type: MODPATH=Mods\[Mod Folder Name]
+5. Launch Forces of Corruption
+
+Any issues with it not loading the mod are on your end. After carefuly reading the instructions and it still doesnt work follow these steps:
+1. Goto Steam and Right Click on Empire at War
+2. Click on Local Files Section and click Verify integrity of Game Files.
+If this still doesnt work clear your Forces of Corruption Directory except for your Mods Folder and repeat steps 1-2.
