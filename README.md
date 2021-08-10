@@ -4,7 +4,7 @@ Private Dev Only Access HR Repository
 
 Sharing of this repository to unauthorized people will result in immediate removal from the Project Gold Dev Team
 
-This Github Repository will remain private even after Mod Release, a public repository will be made to keep this one private.
+This Github Repository will become public on mod release.
 
 # Installation Instructions:
 
