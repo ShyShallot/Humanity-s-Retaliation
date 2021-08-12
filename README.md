@@ -6,6 +6,8 @@ Sharing of this repository to unauthorized people will result in immediate remov
 
 This Github Repository will become public on mod release.
 
+By Forking or Contributing to this Github or releasing a submod of Humanity's Retaliation you must comply Microsofts Game Content Rules Found Here: https://www.xbox.com/en-us/developers/rules
+
 # Installation Instructions:
 
 1. Download the Repository.
