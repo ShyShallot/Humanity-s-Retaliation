@@ -4,8 +4,8 @@
 	<Name> BasicEmpire </Name>
 	
 	<Personality>
-		<Focus> .5 </Focus>
-		<Aggressiveness> .5 </Aggressiveness>
+		<Focus> 1.5 </Focus>
+		<Aggressiveness> 2.0 </Aggressiveness>
 	</Personality>
 
     <GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>
@@ -40,9 +40,9 @@
 	</Templates>
 
 	<Difficulty_Adjustments>
-		<Easy>Easy_Default</Easy>
-		<Normal>Normal_Default</Normal>
-		<Hard>Hard_Default</Hard>
+		<Easy>Easy_Covies</Easy>
+		<Normal>Normal_Covies</Normal>
+		<Hard>Hard_Covies</Hard>
 	</Difficulty_Adjustments>
 	
 </AIPlayerType>

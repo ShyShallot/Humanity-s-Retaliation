@@ -147,4 +147,9 @@
 		<Function>Need_To_Defend_Space_Station</Function>
 	</Defend_Space_Station>
 
+	<Surrender>
+		<Goal>Surrender</Goal>
+		<Function>Should_Surrender</Function>
+	</Surrender>
+
 </FunctionSet>

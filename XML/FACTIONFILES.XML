@@ -3,4 +3,6 @@
 <Faction_Files>
 	<File>Factions.xml</File>
 	<File>Expansion_Factions.xml</File>
+	<File>HaloFiles\HALO_FACTION_UNSC.xml</File>
+	<File>HaloFiles\HALO_FACTION_COVENANT.xml</File>
 </Faction_Files>

@@ -19,19 +19,19 @@ function State_Init(message)
             if Return_Faction(player) == "EMPIRE" then
                 DebugMessage("%s -- Player is Empire, spawning Marker", tostring(Script))
                 marker = Find_Object_Type("Music_System_Marker_E")
-                Create_Generic_Object(marker, Object.Get_Position(), player)
+                --Create_Generic_Object(marker, Object.Get_Position(), player)
                 DebugMessage("%s -- Done", tostring(Script))
             else
                 DebugMessage("%s -- Player is Rebel, spawning Marker", tostring(Script))
                 marker = Find_Object_Type("Music_System_Marker_R")
-                Create_Generic_Object(marker, Object.Get_Position(), player)
+                --Create_Generic_Object(marker, Object.Get_Position(), player)
                 DebugMessage("%s -- Done", tostring(Script))
             end
             DebugMessage("%s -- Space Station stuff done, exiting script", tostring(Script))
             ScriptExit()
         elseif (Object.Get_Type() == Find_Object_Type("Music_System_Marker_E")) or (Object.Get_Type() == Find_Object_Type("Music_System_Marker_R")) then
             DebugMessage("%s -- Music System Marker Spawned and working", tostring(Script))
-            Create_Thread("Music_Handler", player, ServiceRate)
+            --Create_Thread("Music_Handler", player, ServiceRate)
         end
     end
     if message == OnUpdate then

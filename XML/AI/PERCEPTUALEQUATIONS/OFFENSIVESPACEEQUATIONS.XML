@@ -953,4 +953,15 @@
 		(2500 > Variable_Target.DistanceToNearestEnemy {Parameter_Category = GameObjectCategoryType[Corvette | Frigate | Capital | Super]})
 	</Need_To_Defend_Space_Station>
 
+	<Should_Surrender>
+		50.0
+		*
+		(Variable_Self.EnemyForce > (2.0 * Variable_Self.FriendlyForce))
+		*
+		(Game.IsCampaignGame == 0)
+		*
+		(Function_Number_Resource_Structures_Space.Evaluate == 0.0)
+		*
+		(Game.Age > 180.0)
+	</Should_Surrender>
 </Equations>
