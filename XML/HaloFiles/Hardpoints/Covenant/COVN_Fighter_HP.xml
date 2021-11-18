@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+    <!-- Seraph Hardpoints-->
+    <HardPoint Name="COVN_SER_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+			<Fire_Bone_A>HP_PLASMA_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_PLASMA_02</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Fighter</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.7</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+    
+    </HardPoint>
+
+
+
+</HardPoints>

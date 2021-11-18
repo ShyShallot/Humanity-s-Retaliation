@@ -1389,7 +1389,7 @@
   
 		<Tactical_Health>1700</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer> 1850 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Encyclopedia_Text> TEXT_STRUCTURE_GENERIC_PAD_UC </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> TEXT_STRUCTURE_GENERIC_PAD_UC </MP_Encyclopedia_Text>
@@ -1405,7 +1405,7 @@
 
 		<Tactical_Buildable_Constructed> Rebel_Mineral_Extractor </Tactical_Buildable_Constructed>
 		<Tactical_Build_Cost_Multiplayer> 1650 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 
 		<Affiliation>Rebel</Affiliation>
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
