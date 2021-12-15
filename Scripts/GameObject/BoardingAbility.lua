@@ -11,7 +11,8 @@ require("PGBase")
 -- Even tho Tractor Beams and Boarding are 2 unrelated abilities, the Tractor Beam allows us to target a specfic ship and check 
 -- weather or not its being affected by it, other abilities like hack don't work due to Petro being very funny
 -- Namely this error: Is_Under_Effects_Of_Ability -- ability TARGETED_HACK is not yet supported.  You'll need some programming help if you think it should be.
-
+boarder = {["object"] = Object, ["boarding"] = false}
+boarded = {["object"] = nil, ["beingBoarded"] = false}
 
 function Definitions()
     ServiceRate = 1
@@ -22,7 +23,7 @@ function Definitions()
     ability_name = "TRACTOR_BEAM" -- Store the Name of the Ability for later use, saves on fingers
     UntilBoardChances = 0  -- Used to check if we should start using chances during the building, like to cancel or take over the ship
     TotalBoardUses = 0 -- Used to destory the Tractor Beam Hardpoint after X amount of uses
-    ShouldRun = 0 -- Should we loop the Damage and Chance functions during boarding
+    max_distance = 800
 end
 
 function State_Init(message)
@@ -60,12 +61,15 @@ function Find_Nearest_Board_Target(self_obj)
     if (TestValid(target)) and (not Is_Boardable_Unit(target)) then
         if is_owner_ai == true then
             Object.Activate_Ability(ability_name, target)
-            InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj, self_obj.Get_Owner())
+            InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj.Get_Owner())
             Sleep(1)
-            BoardingFunction(self_obj, target)
+            boarded.object = target
+            boarder.board(boarded)
         else
-            InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj, self_obj.Get_Owner())
-            BoardingFunction(self_obj, target)
+            InitalBoardingChance, TakeOverChance, FailChance = BoardingChances(self_obj.Get_Owner())
+            Sleep(1)
+            boarded.object = target
+            boarder.board(boarded)
         end
     else 
         DebugMessage("%s -- Cant Find Targeting Sleeping Script", tostring(Script))
@@ -73,151 +77,118 @@ function Find_Nearest_Board_Target(self_obj)
     end  -- Cant find Target sleeping for 1 seconds to give time to find one.
 end
 
-function Is_Target_Being_Boarded(target, self_obj)
-    if TestValid(target) then
-        nearbyShips = Find_All_Objects_Of_Type("COVN_CRS")
-        if Get_Unit_Props_From_Table(nearbyShips).Is_Ability_Active(ability_name) then
-            if Get_Units_Boarding_Target(target, Get_Unit_Props_From_Table(nearbyShips)) then
-                return true
-            end
-        end
-    end
-end
-
-function Get_Units_Boarding_Target(unit, target) 
-    if TestValid(unit) and TestValid(target) then
-        if Is_Target_Affected_By_Ability(target, ability_name) and target.Get_Distance(unit) <= 800 then
-            return target
-        end
-    end
-end
-
-function BoardingFunction(self_obj, target) -- This is where shit gets messy, Overall Function Script, could be optimized but it works
-    DebugMessage("%s -- In Boarding Function", tostring(Script))
-    BoardingDamage = target.Get_Health() / 90 -- 10% of its total health
-    ShouldRun = 1
-    if Is_Target_Affected_By_Ability(target, ability_name) and not Is_Target_Being_Boarded(target, self_obj) then  -- If target is alive and is being affected by tractor beam then run
-        DebugMessage("%s -- Found Target", tostring(target))
-        while TestValid(target) and ShouldRun == 1 and Object.Is_Ability_Active(ability_name) do -- using a Var and test valid prevents a recursion loop which crashes the game
-            Sleep(1)
-            if Get_Target_Distance(self_obj, target) <= 800 then 
-                DebugMessage("%s -- Found Nearest Target", tostring(target))
-                boardingActive = false -- Boarding is not active, used for loop 
-                DebugMessage("%s -- Abiltiy Active running Main Function", tostring(Script))
-                if Return_Chance(InitalBoardingChance)  then -- 55% Percent Chance for players, 45% for AI
-                    DebugMessage("%s -- Boarding Successful running Boarding", tostring(Script))
-                    boardingActive = true -- set board to active and run loop
-                    self_obj.Play_SFX_Event("SFX_UMP_EmpireKesselAlarm")
-                    Game_Message("HALO_BOARDING_ACTIVE")
-                    while boardingActive == true do
-                        Set_Boarding_Unit_Props(self_obj, target, false, true)
-                        DebugMessage("%s -- Boarding Active, Running Boarding Damage", tostring(Script))
-                        Deal_Unit_Damage(target, BoardingDamage, nil, "Unit_Hardpoint_Turbo_Laser_Death")
-                        UntilBoardChances = UntilBoardChances + 1
-                        Sleep(3)
-                        if UntilBoardChances >= 3 then
-                            if Return_Chance(FailChance)  then -- If the boarding units die by chance
-                                Set_Boarding_Unit_Props(self_obj, target, true, false)
-                                Sleep(3)
-                                ShouldRun = 0
-                                target = nil -- Set our target as Null or Nil so the script stops damaging the ship
-                                boardingActive = false -- Boarding No Longer active, exit loop
-                                self_obj.Cancel_Ability(ability_name) -- Make sure the "Tractor Beam" ability stops
-                                self_obj.Play_SFX_Event("SFX_UM02_MagneticSealedDoor")
-                                self_obj.Set_Selectable(true)
-                                Game_Message("HALO_BOARDING_FAIL")
-                            end
-                            if Return_Chance(TakeOverChance) and boardingActive == true then -- If the boarding Take over chance succeeds and boarding is active, take over ship
-                                Set_Boarding_Unit_Props(self_obj, target, true, false)
-                                target.Change_Owner(Find_Player("Empire")) -- Switch target ship owner from enemy to covies
-                                self_obj.Cancel_Ability(ability_name) -- Stop the "Tractor Beam" Ability
-                                boardingActive = false
-                                target = nil
-                                self_obj.Play_SFX_Event("Unit_Select_Vader_Executor")
-                                ShouldRun = 0
-                                self_obj.Set_Selectable(true)
-                                Game_Message("HALO_BOARDING_TAKEOVER")
-                            end
-                            if TestValid(target) then 
-                                if target.Get_Hull() <= 0.2 then -- If the Ship health is below a value then just straight up blow up the ship
-                                    Set_Boarding_Unit_Props(self_obj, target, true, false)
-                                    Deal_Unit_Damage(target, 10000000, nil)
-                                    boardingActive = false -- Boarding no Longer active exit loop
-                                    self_obj.Cancel_Ability(ability_name)
-                                    ShouldRun = 0
-                                    target = nil
-                                    self_obj.Set_Selectable(true)
-                                    Game_Message("HALO_BOARDING_THRESH")
-                                end
-                            end
-                            uses = TotalBoardUses + 1
-                            chances = 0
-                            self_obj.Set_Selectable(true)
-                            if uses >= 3 then
-                                Deal_Unit_Damage(self_obj, 1, HP_BOARD_POINT)
-                                ScriptExit()
-                            end
-                        end
-                    end
-                else 
-                    self_obj.Cancel_Ability(ability_name) 
-                    ShouldRun = 0
-                    self_obj.Play_SFX_Event("Unit_Star_Destroyer_Death_SFX")
-                    DebugMessage("%s -- Canceling Ability Chance Failed", tostring(Script)) 
-                end
-            else self_obj.Cancel_Ability(ability_name) end
-        end
-    else 
-        ShouldRun = 0 
-    end -- If the target we found isnt Alive and/or Not being affected by the Tractor Beam essentially restart the script
-end
-
-function BoardingChances(self_obj, owner) -- For Chance Scaling, cleans up shtuff
-    player = self_obj.Get_Owner()
+function BoardingChances(owner) -- For Chance Scaling, cleans up shtuff
     diff = owner.Get_Difficulty()
     if owner.Is_Human() then
-        InitalBoardingChance = 0.45 -- The Intial Chance for the boarding to begin
-        TakeOverChance =  0.95 -- Used for the chance of taking over the ship
-        FailChance = 0.6 -- The Chance for the boarding to fail and stop
+        InitalBoardingChance = 0.65 -- The Intial Chance for the boarding to begin
+        TakeOverChance =  0.10 -- Used for the chance of taking over the ship
+        FailChance = 0.45 -- The Chance for the boarding to fail and stop
     elseif diff == "Easy" then
-        InitalBoardingChance = 0.65 
-        TakeOverChance =  0.95
-        FailChance = 0.55
-    elseif diff == "Normal" then
-        InitalBoardingChance = 0.5 
-        TakeOverChance =  0.9
+        InitalBoardingChance = 0.45 
+        TakeOverChance =  0.05
         FailChance = 0.65
+    elseif diff == "Normal" then
+        InitalBoardingChance = 0.65
+        TakeOverChance =  0.10
+        FailChance = 0.45
     elseif diff == "Hard" then
-        InitalBoardingChance = 0.30 
-        TakeOverChance =  0.80
-        FailChance = 0.7
+        InitalBoardingChance = 0.70
+        TakeOverChance =  0.20
+        FailChance = 0.30
     end
     return InitalBoardingChance, TakeOverChance, FailChance
-end
-
-function Set_Boarding_Unit_Props(self_obj, target, bool1, bool2) -- A Simple function to keep things organised
-    if TestValid(self_obj) and TestValid(target) then
-        self_obj.Set_Selectable(bool1)
-        self_obj.Prevent_All_Fire(bool2)
-        target.Prevent_All_Fire(bool2)
-        self_obj.Set_Cannot_Be_Killed(bool2)
-        target.Set_Cannot_Be_Killed(bool2)
-    end
 end
 
 function Is_Boardable_Unit(target)
     exluded_units = {
         UNSC_IROQUOIS,
         UNSC_POA,
+        UNSC_INFINITY,
+        COVN_CAS,
         UNSC_Mining_Transport,
         COVN_Mining_Transport
     }
     for k, exluded in pairs(exluded_units) do
-        if (TestValid(target)) and (TestValid(exluded)) then
+        if (TestValid(target)) then
             if target.Get_Type() == Find_Object_Type(exluded) then
                 return false
             else
                 return true
+            end
+        end
+    end
+end
+
+boarder.board = function(target)
+    if TestValid(target.object) then
+        DebugMessage("%s -- In Boarding Function", tostring(Script))
+        local BoardingDamage = target.object.Get_Health() / 95 -- 5% of its total health
+        if not target.beingBoarded and Is_Target_Affected_By_Ability(target.object, ability_name) and Object.Is_Ability_Active(ability_name) then
+            DebugMessage("%s -- Target is available for Boarding Starting", tostring(Script))
+            boarding = true
+            while TestValid(target.object) and Object.Is_Ability_Active(ability_name) do
+                if Get_Target_Distance(Object, target.object) <= max_distance then
+                    DebugMessage("%s -- Target within Distance", tostring(Script))
+                    if Return_Chance(InitalBoardingChance) then
+                        DebugMessage("%s -- Initial Boarding Allowed Starting", tostring(Script))
+                        target.beingBoarded = true
+                        uses = 0
+                        target.object.Prevent_All_Fire(true)
+                        Object.Prevent_All_Fire(true)
+                        target.object.Suspend_Locomotor(true)
+                        object.Suspend_Locomotor(true)
+                        while boarding do 
+                            Deal_Unit_Damage(target.object, BoardingDamage, nil, "Unit_Hardpoint_Turbo_Laser_Death")
+                            if Return_Chance(FailChance)  then -- If the boarding units die by chance
+                                target = nil -- Set our target as Null or Nil so the script stops damaging the ship
+                                boarding = false -- Boarding No Longer active, exit loop
+                                Object.Cancel_Ability(ability_name) -- Make sure the "Tractor Beam" ability stops
+                                Object.Play_SFX_Event("SFX_UM02_MagneticSealedDoor")
+                                Game_Message("HALO_BOARDING_FAIL")
+                            end
+                            if Return_Chance(TakeOverChance) and boardingActive == true then -- If the boarding Take over chance succeeds and boarding is active, take over ship
+                                target.object.Change_Owner(Object.Get_Owner().Get_Faction_Name()) -- Switch target ship owner from enemy to covies
+                                Object.Cancel_Ability(ability_name) -- Stop the "Tractor Beam" Ability
+                                boarding = false
+                                target = nil
+                                Object.Play_SFX_Event("Unit_Select_Vader_Executor")
+                                Game_Message("HALO_BOARDING_TAKEOVER")
+                            end
+                            if TestValid(target.object) then 
+                                if target.object.Get_Hull() <= 0.2 then -- If the Ship health is below a value then just straight up blow up the ship
+                                    Deal_Unit_Damage(target.object, 10000000, nil)
+                                    boarding = false -- Boarding no Longer active exit loop
+                                    Object.Cancel_Ability(ability_name)
+                                    target = nil
+                                    Game_Message("HALO_BOARDING_THRESH")
+                                    return
+                                end
+                            end
+                            uses = uses + 1
+                            if uses >= 3 then
+                                Deal_Unit_Damage(object, 1, HP_BOARD_POINT)
+                                target = nil
+                                ScriptExit()
+                            end
+                            Sleep(3)
+                        end
+                    else
+                        boarding = false
+                        target = nil
+                        Object.Cancel_Ability(ability_name) 
+                        Object.Play_SFX_Event("Unit_Star_Destroyer_Death_SFX")
+                        DebugMessage("%s -- Canceling Ability Chance Failed", tostring(Script)) 
+                        return
+                    end
+                else
+                    Sleep(15) -- give some time to catch up
+                    if Get_Target_Distance(object, target) > max_distance then
+                        boarding = false
+                        target = nil
+                        self_obj.Cancel_Ability(ability_name)
+                    end
+                end
+                Sleep(1)
             end
         end
     end

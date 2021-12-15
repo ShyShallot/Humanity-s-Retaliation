@@ -6,13 +6,13 @@
 
 function Return_Chance(value_to_check) -- Returns true or false
     if value_to_check <= 1 then
-        Chance = GameRandom(0, 1) 
-        if Chance >= value_to_check then 
-            return true
+        Chance = GameRandom.Get_Float(0, 1) 
+        if value_to_check >= Chance then -- the value to check is the threshold to our chance, so if you input 0.65 as long as its greater than or equal to it succeeds
+            return true 
         end
-    elseif value_to_check <= 100 then
+    elseif value_to_check <= 100 and value_to_check >= 1 then
         Chance = GameRandom(0, 100) 
-        if Chance >= value_to_check then 
+        if value_to_check >= Chance then 
             return true
         end
     end
