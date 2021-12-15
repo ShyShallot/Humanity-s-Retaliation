@@ -8,7 +8,7 @@
 	<File>HaloFiles\Halo_Hardpoints.xml</File>
 
 	<!-- UNSC Hardpoints -->
-	<File>HaloFiles\Hardpoints\UNSC\Halo_StationHardpoints.xml</File>
+	<File>HaloFiles\Hardpoints\Halo_StationHardpoints.xml</File>
 	<File>HaloFiles\Hardpoints\UNSC\UNSC_Capitial_HP.xml</File>
 	<File>HaloFiles\Hardpoints\UNSC\UNSC_Frigate_HP.xml</File>
 	<File>HaloFiles\Hardpoints\UNSC\UNSC_Corvette_HP.xml</File>
