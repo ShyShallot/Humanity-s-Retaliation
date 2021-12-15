@@ -1736,7 +1736,21 @@
             <Health>6500.0</Health>
             <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             
-     </HardPoint>
+    </HardPoint>
+
+    <HardPoint Name="HP_DDS_SHIELD">
+			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>1000.0</Health>            
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_SHIELD_GEN</Attachment_Bone>
+            <Collision_Mesh>HP_SHIELD_GEN</Collision_Mesh>
+    </HardPoint>
 
     <HardPoint Name="HP_DDS_HANGER_01">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
