@@ -136,7 +136,7 @@ boarder.board = function(target)
                         target.object.Prevent_All_Fire(true)
                         Object.Prevent_All_Fire(true)
                         target.object.Suspend_Locomotor(true)
-                        object.Suspend_Locomotor(true)
+                        Object.Suspend_Locomotor(true)
                         while boarding do 
                             Deal_Unit_Damage(target.object, BoardingDamage, nil, "Unit_Hardpoint_Turbo_Laser_Death")
                             if Return_Chance(FailChance)  then -- If the boarding units die by chance
@@ -166,7 +166,7 @@ boarder.board = function(target)
                             end
                             uses = uses + 1
                             if uses >= 3 then
-                                Deal_Unit_Damage(object, 1, HP_BOARD_POINT)
+                                Deal_Unit_Damage(Object, 1, HP_BOARD_POINT)
                                 target = nil
                                 ScriptExit()
                             end
@@ -182,7 +182,7 @@ boarder.board = function(target)
                     end
                 else
                     Sleep(15) -- give some time to catch up
-                    if Get_Target_Distance(object, target) > max_distance then
+                    if Get_Target_Distance(Object, target) > max_distance then
                         boarding = false
                         target = nil
                         self_obj.Cancel_Ability(ability_name)
