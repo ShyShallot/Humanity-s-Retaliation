@@ -4,15 +4,20 @@
 -- Lua Doc: https://stargate-eaw.de/media/kunena/attachments/92/LuacommandsinFoC.pdf
 -- This is a general function library script
 
-function Return_Chance(value_to_check) -- Returns true or false
+function Return_Chance(value_to_check, factor) -- Returns true or false
+    if not factor then
+        factor = 0.8
+    end
     if value_to_check <= 1 then
-        Chance = GameRandom.Get_Float(0, 1) 
-        if value_to_check >= Chance then -- the value to check is the threshold to our chance, so if you input 0.65 as long as its greater than or equal to it succeeds
+        chance = GameRandom.Get_Float(0, 1) 
+        chance = Chance / factor
+        if chance <= value_to_check then -- the value to check is the threshold to our chance, so if you input 0.65 as long as its greater than or equal to it succeeds
             return true 
         end
     elseif value_to_check <= 100 and value_to_check >= 1 then
-        Chance = GameRandom(0, 100) 
-        if value_to_check >= Chance then 
+        chance = GameRandom(0, 100) 
+        chance = chance / factor
+        if chance <= value_to_check then 
             return true
         end
     end

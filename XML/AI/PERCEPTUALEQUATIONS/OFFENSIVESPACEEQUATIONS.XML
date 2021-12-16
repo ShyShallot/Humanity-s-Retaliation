@@ -950,7 +950,7 @@
 	</Need_To_Defend_Space_Station>
 
 	<Should_Surrender>
-		(Variable_Self.EnemyForce > (2.0 * Variable_Self.FriendlyForce))
+		(Variable_Self.EnemyForceUnnormalized > Variable_Self.FriendlyForceUnnormalized)
 		*
 		(Game.IsCampaignGame == 0)
 		*

@@ -83,22 +83,26 @@ function BoardingChances(owner) -- For Chance Scaling, cleans up shtuff
     diff = owner.Get_Difficulty()
     if owner.Is_Human() then
         InitalBoardingChance = 0.65 -- The Intial Chance for the boarding to begin
-        TakeOverChance =  0.10 -- Used for the chance of taking over the ship
-        FailChance = 0.45 -- The Chance for the boarding to fail and stop
+        TakeOverChance =  0.20 -- Used for the chance of taking over the ship
+        FailChance = 0.25 -- The Chance for the boarding to fail and stop
+        Factor = 0.87 -- The Randomly generated Chance is increased by the whole number equivalent percentage of the factor
     elseif diff == "Easy" then
         InitalBoardingChance = 0.45 
-        TakeOverChance =  0.05
-        FailChance = 0.65
+        TakeOverChance =  0.1
+        FailChance = 0.4
+        Factor = 0.6
     elseif diff == "Normal" then
         InitalBoardingChance = 0.65
-        TakeOverChance =  0.10
-        FailChance = 0.45
+        TakeOverChance =  0.25
+        FailChance = 0.25
+        Factor = 0.8
     elseif diff == "Hard" then
         InitalBoardingChance = 0.70
-        TakeOverChance =  0.20
-        FailChance = 0.30
+        TakeOverChance =  0.3
+        FailChance = 0.15
+        Factor = 0.9
     end
-    return InitalBoardingChance, TakeOverChance, FailChance
+    return InitalBoardingChance, TakeOverChance, FailChance, Factors
 end
 
 function Is_Boardable_Unit(target)
