@@ -133,6 +133,7 @@ boarder.board = function(target)
                     DebugMessage("%s -- Target within Distance", tostring(Script))
                     if Return_Chance(InitalBoardingChance) then
                         DebugMessage("%s -- Initial Boarding Allowed Starting", tostring(Script))
+                        Game_Message("HALO_BOARDING_ACTIVE")
                         target.beingBoarded = true
                         uses = 0
                         target.object.Prevent_All_Fire(true)
