@@ -147,6 +147,7 @@ boarder.board = function(target)
                                 Object.Cancel_Ability(ability_name) -- Make sure the "Tractor Beam" ability stops
                                 Object.Play_SFX_Event("SFX_UM02_MagneticSealedDoor")
                                 Game_Message("HALO_BOARDING_FAIL")
+                                uses = uses + 1
                             end
                             if Return_Chance(TakeOverChance) and boardingActive == true then -- If the boarding Take over chance succeeds and boarding is active, take over ship
                                 target.object.Change_Owner(Object.Get_Owner().Get_Faction_Name()) -- Switch target ship owner from enemy to covies
@@ -155,6 +156,7 @@ boarder.board = function(target)
                                 target = nil
                                 Object.Play_SFX_Event("Unit_Select_Vader_Executor")
                                 Game_Message("HALO_BOARDING_TAKEOVER")
+                                uses = uses + 1
                             end
                             if TestValid(target.object) then 
                                 if target.object.Get_Hull() <= 0.2 then -- If the Ship health is below a value then just straight up blow up the ship
@@ -163,10 +165,10 @@ boarder.board = function(target)
                                     Object.Cancel_Ability(ability_name)
                                     target = nil
                                     Game_Message("HALO_BOARDING_THRESH")
+                                    uses = uses + 1
                                     return
                                 end
                             end
-                            uses = uses + 1
                             if uses >= 3 then
                                 Deal_Unit_Damage(Object, 1, HP_BOARD_POINT)
                                 target = nil
@@ -179,6 +181,7 @@ boarder.board = function(target)
                         target = nil
                         Object.Cancel_Ability(ability_name) 
                         Object.Play_SFX_Event("Unit_Star_Destroyer_Death_SFX")
+                        Game_Message("HALO_BOARDING_FAIL")
                         DebugMessage("%s -- Canceling Ability Chance Failed", tostring(Script)) 
                         return
                     end
