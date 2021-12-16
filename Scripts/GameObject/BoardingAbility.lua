@@ -24,6 +24,7 @@ function Definitions()
     UntilBoardChances = 0  -- Used to check if we should start using chances during the building, like to cancel or take over the ship
     TotalBoardUses = 0 -- Used to destory the Tractor Beam Hardpoint after X amount of uses
     max_distance = 800
+    class_limits = "Corvette | Frigate | Capital" -- Used when searching for target, target has to be one of these classes
 end
 
 function State_Init(message)
@@ -57,7 +58,11 @@ end
 
 function Find_Nearest_Board_Target(self_obj) 
     DebugMessage("%s -- Running Find_Nearest_Board_Target", tostring(Script))
-    target = Find_Nearest(Object, "Corvette | Frigate | Capital", player, false) -- Find_Nearest(Object to Search around, Optinal Catergory Filter: "Frigate | Capital", player object, if its owned by the player)
+    target = Find_Nearest(Object, class_limits, player, false) -- Find_Nearest(Object to Search around, Optinal Catergory Filter: "Frigate | Capital", player object, if its owned by the player)
+    while (not TestValid(target)) do
+        target = Find_Nearest(Object, class_limits, player, false)
+        Sleep(1)
+    end
     if (TestValid(target)) and (not Is_Boardable_Unit(target)) then
         if is_owner_ai == true then
             Object.Activate_Ability(ability_name, target)
@@ -71,10 +76,7 @@ function Find_Nearest_Board_Target(self_obj)
             boarded.object = target
             boarder.board(boarded)
         end
-    else 
-        DebugMessage("%s -- Cant Find Targeting Sleeping Script", tostring(Script))
-        Sleep(1)
-    end  -- Cant find Target sleeping for 1 seconds to give time to find one.
+    end
 end
 
 function BoardingChances(owner) -- For Chance Scaling, cleans up shtuff
@@ -185,7 +187,7 @@ boarder.board = function(target)
                     if Get_Target_Distance(Object, target) > max_distance then
                         boarding = false
                         target = nil
-                        self_obj.Cancel_Ability(ability_name)
+                        Object.Cancel_Ability(ability_name)
                     end
                 end
                 Sleep(1)
