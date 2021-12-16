@@ -1532,7 +1532,6 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
-			
 		</Unit_Abilities_Data>
 		<Lua_Script>ObjectScript_Firepower</Lua_Script>
 

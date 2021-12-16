@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<HeroUnits>
+    <SpaceUnit Name="UNSC_GENERIC_FLEET_COMMANDER">
+		<Variant_Of_Existing_Type>UNSC_PARIS</Variant_Of_Existing_Type>
+        <Text_ID>HALO_UNSC_GENERIC_FLEET_COMMANDER</Text_ID>
+        <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_FLEET_COMMANDER TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_UNSC_COMMANDER </Encyclopedia_Unit_Class>
+		<Layer_Z_Adjust>-20</Layer_Z_Adjust>
+        <Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="UNSC_Space_Commander_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate </Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.05</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Empire_Fleet_Commander_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.5</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+			
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.35f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.35f</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,    1.75f</Mod_Multiplier>
+				<Supports_Autofire>True</Supports_Autofire>
+				<Recharge_Seconds>85</Recharge_Seconds>
+				<Expiration_Seconds>8</Expiration_Seconds>
+				<Alternate_Name_Text>HALO_WEAPON_OVERIDE</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_WEAPON_OVERIDE_ENC</Alternate_Description_Text>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Lua_Script>ObjectScript_Firepower</Lua_Script>
+        <!-- Build Costs And Limits-->
+        <Tactical_Build_Cost_Multiplayer>3150</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
+		<!-- Pop Val-->
+        <Population_Value>9</Population_Value>
+    </SpaceUnit>
+</HeroUnits>

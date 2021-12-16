@@ -51,7 +51,7 @@ function State_AI_Autofire(message)
         if Object.Is_Ability_Ready(ability_name) then -- Is the Boarding Ability ready to use
             DebugMessage("%s -- Running Ability from AI", tostring(Script))
             is_owner_ai = true -- Let Find Nearest Target function know its an AI running it to set proper chances
-            Create_Thread("Find_Nearest_Board_Target", Object)
+            Find_Nearest_Board_Target(Object)
         end
 	end		
 end

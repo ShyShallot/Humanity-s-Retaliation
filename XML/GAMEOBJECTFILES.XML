@@ -10,6 +10,9 @@
 	<File>HaloFiles\Halo_Fighter_Space_Units.xml</File>
 	<File>HaloFiles\Halo_EconomyTransports.xml</File>
 	<File>HaloFiles\HALO_Planets.xml</File>
+	<File>HaloFiles\UNSC\UNSC_Station.xml</File>
+	<File>HaloFiles\UNSC\UNSC_HEROS.xml</File>
+	<File>HaloFiles\Covenant\COVN_Station.xml</File>
 
 	<File>TransportUnits.xml</File>
 
