@@ -10,7 +10,7 @@ function Return_Chance(value_to_check, factor) -- Returns true or false
     end
     if value_to_check <= 1 then
         chance = GameRandom.Get_Float(0, 1) 
-        chance = Chance / factor
+        chance = chance / factor
         if chance <= value_to_check then -- the value to check is the threshold to our chance, so if you input 0.65 as long as its greater than or equal to it succeeds
             return true 
         end
