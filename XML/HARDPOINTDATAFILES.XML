@@ -6,7 +6,7 @@
 	<File>HardPoints_Underworld.xml</File>
 	<!-- Global Hardpoints-->
 	<File>HaloFiles\Halo_Hardpoints.xml</File>
-
+	
 	<!-- UNSC Hardpoints -->
 	<File>HaloFiles\Hardpoints\Halo_StationHardpoints.xml</File>
 	<File>HaloFiles\Hardpoints\UNSC\UNSC_Capitial_HP.xml</File>
@@ -14,7 +14,7 @@
 	<File>HaloFiles\Hardpoints\UNSC\UNSC_Corvette_HP.xml</File>
 	<File>HaloFiles\Hardpoints\UNSC\UNSC_Fighter_HP.xml</File>
 	<File>HaloFiles\Hardpoints\UNSC\UNSC_INFINITY_HP.xml</File>
-
+	<File>HaloFiles\Hardpoints\UNSC\Station_Hardpoints.xml</File>
 	<!-- Covenant Hardpoints-->
 	<File>HaloFiles\Hardpoints\Covenant\COVN_Capital_HP.xml</File>
 	<File>HaloFiles\Hardpoints\Covenant\COVN_CAS_HP.xml</File>

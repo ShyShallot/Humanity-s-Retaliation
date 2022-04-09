@@ -139,7 +139,7 @@ function Play_Song(song, length)
         Play_Music(tostring(song))
         is_song_playing = true
         DebugMessage("%s -- Playing Song: %s", tostring(Script), tostring(song))
-        Register_Timer(Song_Done, length)
+        Register_Timer(Song_Done, length*10)
     end
 end
 
