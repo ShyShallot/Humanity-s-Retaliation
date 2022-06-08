@@ -14,27 +14,7 @@ function State_Init(message)
     if message == OnEnter then
         DebugMessage("%s -- In OnEnter", tostring(Script))
         player = Object.Get_Owner()
-        if Object == player.Get_Space_Station() then
-            DebugMessage("%s -- Space Station initated, Spawning marker", tostring(Script))
-            if Return_Faction(player) == "EMPIRE" then
-                DebugMessage("%s -- Player is Empire, spawning Marker", tostring(Script))
-                marker = Find_Object_Type("Music_System_Marker_E")
-                --Create_Generic_Object(marker, Object.Get_Position(), player)
-                DebugMessage("%s -- Done", tostring(Script))
-            else
-                DebugMessage("%s -- Player is Rebel, spawning Marker", tostring(Script))
-                marker = Find_Object_Type("Music_System_Marker_R")
-                --Create_Generic_Object(marker, Object.Get_Position(), player)
-                DebugMessage("%s -- Done", tostring(Script))
-            end
-            DebugMessage("%s -- Space Station stuff done, exiting script", tostring(Script))
-            ScriptExit()
-        elseif (Object.Get_Type() == Find_Object_Type("Music_System_Marker_E")) or (Object.Get_Type() == Find_Object_Type("Music_System_Marker_R")) then
-            DebugMessage("%s -- Music System Marker Spawned and working", tostring(Script))
-            --Create_Thread("Music_Handler", player, ServiceRate)
-        end
-    end
-    if message == OnUpdate then
+        Music_Handler()
     end
 end
 
@@ -137,9 +117,8 @@ function Play_Song(song, length)
         Stop_All_Music()
         DebugMessage("%s -- Stopping All Music", tostring(Script))
         Play_Music(tostring(song))
-        is_song_playing = true
+        Start_Music_Timer(length)
         DebugMessage("%s -- Playing Song: %s", tostring(Script), tostring(song))
-        Register_Timer(Song_Done, length*10)
     end
 end
 
@@ -160,31 +139,36 @@ function Combat_Music_Override()
     end
 end
 
-function Song_Done()
-    is_song_playing = false
-    if not Is_Player_In_Combat(player) then
-        is_combat_song = false
-    end
-    DebugMessage("%s -- Song Done Playing", tostring(Script))
-end
-
 function Combat_Music_Play()
     DebugMessage("%s -- Player is in combat overriding", tostring(Script))
     Stop_All_Music()
     song, length = Music_To_Play(true)
     Play_Music(tostring(song))
-    is_song_playing = true
-    is_combat_song = true
-    Register_Timer(Song_Done, length)
+    Start_Music_Timer(length)
+    is_combat_song = true;
     DebugMessage("%s -- Override Complete", tostring(Script))
 end
 
-function Song_Done()
-    is_song_playing = false
-    if not Is_Player_In_Combat(player) then
-        is_combat_song = false
+
+function Start_Music_Timer(song_length)
+    is_song_playing = true;
+    startTime = GetCurrentTime();
+    while (is_song_playing) do
+        if(GetCurrentTime() >= startTime+song_length)
+            is_song_playing = false;
+            if not Is_Player_In_Combat(player) then
+                is_combat_song = false
+            else 
+                is_combat_song = true;
+            end
+        else
+            Sleep(1)
+        end
     end
-    Cancel_Timer(Song_Done)
-    DebugMessage("%s -- Song Done Playing", tostring(Script))
 end
 
+function Stop_Music()
+    Stop_All_Music()
+    is_song_playing = false;
+    is_combat_song = false;
+end
