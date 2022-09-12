@@ -24,14 +24,14 @@ function State_Init(message)
 end
 
 function function_list_e()
-    --Create_Power_Systems_Marker_E()
+    Create_Power_Systems_Marker_E()
 end
 
 function function_list_r()
-    --Create_Power_Systems_Marker_R()
+    Create_Power_Systems_Marker_R()
 end
 
---[[function Create_Power_Systems_Marker_E()
+function Create_Power_Systems_Marker_E()
     marker = Find_Object_Type("Power_Systems_Marker_E")
     Create_Generic_Object(marker, Object.Get_Position(), faction)
 end
@@ -39,4 +39,4 @@ end
 function Create_Power_Systems_Marker_R()
     marker = Find_Object_Type("Power_Systems_Marker_R")
     Create_Generic_Object(marker, Object.Get_Position(), faction)
-end --]]
+end 

@@ -10,7 +10,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_STATION_TIER_1.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL1.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>UNSC_STATION_TIER_1.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Is_Dummy>No</Is_Dummy>
@@ -74,7 +74,7 @@
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
-		<GUI_Model_Name>RB_STATION_01.ALO</GUI_Model_Name>
+		<GUI_Model_Name>UNSC_STATION_TIER_1.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -117,7 +117,7 @@
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-		<Custom_Soft_Footprint_Radius> 300 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -265,7 +265,7 @@
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-		<Custom_Soft_Footprint_Radius> 450 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -421,7 +421,7 @@
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-		<Custom_Soft_Footprint_Radius> 450 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -594,7 +594,7 @@
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-		<Custom_Soft_Footprint_Radius> 550 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -775,7 +775,7 @@
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-		<Custom_Soft_Footprint_Radius> 550 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -860,7 +860,7 @@
 			</Income_Stream_Ability>
 			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 				<Income_Multiplier>1.0</Income_Multiplier>
 				<Income_Additive_Value>20</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
@@ -871,7 +871,7 @@
 			</Income_Stream_Mod_Ability>
  			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
  				<Activation_Style>Skirmish_Automatic</Activation_Style>
-				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
 		</Abilities>

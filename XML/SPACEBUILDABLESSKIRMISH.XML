@@ -78,7 +78,7 @@
 		<Select_Box_Scale> 50 </Select_Box_Scale>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Victory_Relevant> No </Victory_Relevant>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -160,7 +160,7 @@
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -240,7 +240,7 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -297,7 +297,7 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -353,7 +353,7 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -408,7 +408,7 @@
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -477,7 +477,7 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -615,7 +615,7 @@
 		<MP_Encyclopedia_Text> TEXT_HALO_PLASMA_PLATFORM_ENC </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -719,7 +719,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -780,7 +780,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -851,7 +851,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -944,7 +944,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -1074,7 +1074,7 @@
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_00 </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -1173,7 +1173,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -1330,7 +1330,7 @@
 		<Select_Box_Scale> 50 </Select_Box_Scale>
 		<Scale_Factor>1 </Scale_Factor>
 		<Victory_Relevant> No </Victory_Relevant>
-		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 	
@@ -1383,7 +1383,7 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
   
@@ -1450,7 +1450,7 @@
 		
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Abilities SubObjectList="Yes">			
@@ -1578,7 +1578,7 @@
 		
 		<Scale_Factor>2 </Scale_Factor>
 		<Victory_Relevant> No </Victory_Relevant>
-		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 	
@@ -1631,7 +1631,7 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
   

@@ -4364,7 +4364,7 @@
     <Space_Station_Destruction_Forces_Retreat>False</Space_Station_Destruction_Forces_Retreat>
     
     <!-- Clear space required along hyperspace in path for space reinforcements -->
-    <Space_Reinforcement_Collision_Check_Distance>10.0</Space_Reinforcement_Collision_Check_Distance>
+    <Space_Reinforcement_Collision_Check_Distance>2.0</Space_Reinforcement_Collision_Check_Distance>
 
     <Health_Bar_Spacing>2.0</Health_Bar_Spacing>
     
