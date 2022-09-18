@@ -18,7 +18,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Seraph_Squadron,
+				Tarasque_Squadron,
 				TIE_Bomber_Squadron,
 				ES_Level_Two_Starbase_Upgrade,
 				ES_Self_Destruct_Station,
@@ -89,7 +89,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Seraph_Squadron,
+				Tarasque_Squadron,
 				TIE_Bomber_Squadron,
 				COVN_CAR,
 				ES_Improved_Weapons_L1_Upgrade,
@@ -161,6 +161,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+				Tarasque_Squadron
 				Seraph_Squadron,
 				TIE_Bomber_Squadron,
 				COVN_CAR,
@@ -238,6 +239,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+				Tarasque_Squadron
 				Seraph_Squadron,
 				TIE_Bomber_Squadron,
 				COVN_CAR,
@@ -321,6 +323,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+				Tarasque_Squadron
 				Seraph_Squadron,
 				TIE_Bomber_Squadron,
 				COVN_CAR,

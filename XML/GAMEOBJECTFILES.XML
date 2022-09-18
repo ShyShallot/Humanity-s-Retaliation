@@ -12,7 +12,9 @@
 	<File>HaloFiles\HALO_Planets.xml</File>
 	<File>HaloFiles\UNSC\UNSC_Station.xml</File>
 	<File>HaloFiles\UNSC\UNSC_HEROS.xml</File>
+	<File>HaloFiles\UNSC\UNSC_FIGHTERS.xml</File>
 	<File>HaloFiles\Covenant\COVN_Station.xml</File>
+	<File>HaloFiles\Covenant\COVN_FIGHTERS.XML</File>
 
 	<File>TransportUnits.xml</File>
 

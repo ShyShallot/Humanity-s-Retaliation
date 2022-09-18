@@ -6,7 +6,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_01</Attachment_Bone>
@@ -37,7 +37,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_02</Attachment_Bone>
@@ -68,7 +68,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_03</Attachment_Bone>
@@ -99,7 +99,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_04</Attachment_Bone>
@@ -130,7 +130,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_05</Attachment_Bone>
@@ -161,7 +161,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_06</Attachment_Bone>
@@ -192,7 +192,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_07</Attachment_Bone>
@@ -223,7 +223,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_08</Attachment_Bone>
@@ -254,7 +254,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_09</Attachment_Bone>
@@ -285,7 +285,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_10</Attachment_Bone>
@@ -316,7 +316,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_011</Attachment_Bone>
@@ -347,7 +347,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_012</Attachment_Bone>
@@ -378,7 +378,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_013</Attachment_Bone>
@@ -409,7 +409,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_014</Attachment_Bone>
@@ -440,7 +440,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_15</Attachment_Bone>
@@ -471,7 +471,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_16</Attachment_Bone>
@@ -502,7 +502,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_17</Attachment_Bone>
@@ -533,7 +533,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
             <Attachment_Bone>HP_AF_18</Attachment_Bone>

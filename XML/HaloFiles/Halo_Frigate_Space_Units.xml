@@ -319,7 +319,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.07  0.035</Radar_Icon_Size>
+		<Radar_Icon_Size>0.035  0.07</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_HALB.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -1822,9 +1822,9 @@
 		<AI_Combat_Power>3000</AI_Combat_Power>
 
 		<!--Squadron / Fighter Sets-->
-		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Tarasque_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds> <!-- Time until ship deploys its fighters, counts down on ship spawn-->
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Tarasque_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
 		
 		<!-- Misc-->
 		<Lua_Script>BoardingAbility</Lua_Script>

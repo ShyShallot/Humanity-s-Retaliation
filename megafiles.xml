@@ -18,6 +18,8 @@
 	<File> Data\Music.meg </File>
 	<File> Data\GermanSpeech.meg </File>
 
-	<File> Data\HR_AI_Config.meg </File>
+	<File> Data\art.meg</File>
+	<File> Data\XML.meg</File>
+	<File> Data\Scripts.meg</File>
 </Mega_Files>
 
