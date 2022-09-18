@@ -1594,7 +1594,7 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Assault_Frigate, 1.6 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Calamari_Cruiser, 1.7 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Star_Destroyer, 1.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Station, 0.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Station, 1.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Capital, 1.5</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Frigate, 1.8</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Corvette, 2.0</Damage_To_Armor_Mod>
@@ -1687,7 +1687,7 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_Assault_Frigate, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_Calamari_Cruiser, 0.85 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_Star_Destroyer, 0.75 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_Station, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_Station, 1.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Shield_Capital, 0.35</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Shield_Frigate, 0.65</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Shield_Corvette, 0.8</Damage_To_Armor_Mod>
@@ -1718,7 +1718,7 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_Assault_Frigate, 1.45 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_Calamari_Cruiser, 1.15 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_Star_Destroyer, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_Station, 0.95 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_Station, 1.2 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Capital, 0.5</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Frigate, 0.75</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Corvette, 1.0</Damage_To_Armor_Mod>
@@ -1749,7 +1749,7 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile_COIL, Armor_Assault_Frigate, 0.55 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_COIL, Armor_Calamari_Cruiser, 0.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_COIL, Armor_Star_Destroyer, 0.35 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_COIL, Armor_Station, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_COIL, Armor_Station, 0.7 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_COIL, Shield_Capital, 1.2 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_COIL, Shield_Frigate, 1.35 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_COIL, Shield_Corvette, 1.65 </Damage_To_Armor_Mod>
@@ -1780,7 +1780,7 @@
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Armor_Assault_Frigate, 1.7 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Armor_Calamari_Cruiser, 1.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Armor_Star_Destroyer, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Armor_Station, 0.45 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Armor_Station, 0.9 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Shield_Capital, 1.1</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Shield_Frigate, 1.8</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser_Heavy, Shield_Corvette, 1</Damage_To_Armor_Mod>
@@ -1811,7 +1811,7 @@
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Assault_Frigate, 1.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Calamari_Cruiser, 0.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Star_Destroyer, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Station, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Station, 0.8 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Capital, 0.7</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Frigate, 1.8</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Turbolaser, Shield_Corvette, 1</Damage_To_Armor_Mod>
@@ -1934,7 +1934,7 @@
 	<Damage_To_Armor_Mod> Damage_UNSC_Super, Armor_Assault_Frigate, 1.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Super, Armor_Calamari_Cruiser, 1.45 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Super, Armor_Star_Destroyer, 1.35 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Super, Armor_Station, 0.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Super, Armor_Station, 1.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Super, Shield_Capital, 1.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Super, Shield_Frigate, 1.7</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Super, Shield_Corvette, 1</Damage_To_Armor_Mod>
@@ -1964,7 +1964,7 @@
 	<Damage_To_Armor_Mod> Damage_COVIE_Super, Armor_Assault_Frigate, 1.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_COVIE_Super, Armor_Calamari_Cruiser, 1.45 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_COVIE_Super, Armor_Star_Destroyer, 1.35 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_COVIE_Super, Armor_Station, 0.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_COVIE_Super, Armor_Station, 1 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_COVIE_Super, Shield_Capital, 1.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_COVIE_Super, Shield_Frigate, 1.7</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_COVIE_Super, Shield_Corvette, 1</Damage_To_Armor_Mod>
@@ -1994,7 +1994,7 @@
 	<Damage_To_Armor_Mod> Damage_UNSC_Capital, Armor_Assault_Frigate, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Capital, Armor_Calamari_Cruiser, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Capital, Armor_Star_Destroyer, 0.85 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Capital, Armor_Station, 0.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Capital, Armor_Station, 0.9 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Capital, Shield_Capital, 0.8</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Capital, Shield_Frigate, 1.5</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Capital, Shield_Corvette, 1</Damage_To_Armor_Mod>
@@ -2024,7 +2024,7 @@
 	<Damage_To_Armor_Mod> Damage_COVIE_Capital, Armor_Assault_Frigate, 0.95 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_COVIE_Capital, Armor_Calamari_Cruiser, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_COVIE_Capital, Armor_Star_Destroyer, 0.75 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_COVIE_Capital, Armor_Station, 0.45 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_COVIE_Capital, Armor_Station, 0.9 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_COVIE_Capital, Shield_Capital, 0.8</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_COVIE_Capital, Shield_Frigate, 1.65</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_COVIE_Capital, Shield_Corvette, 1</Damage_To_Armor_Mod>
@@ -2054,7 +2054,7 @@
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Assault_Frigate, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Calamari_Cruiser, 0.55 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Star_Destroyer, 0.4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Station, 0.35 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Station, 0.5 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Capital, 0.5</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Frigate, 0.85</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Corvette, 1</Damage_To_Armor_Mod>
@@ -2084,7 +2084,7 @@
 	<Damage_To_Armor_Mod> Damage_COVIE_Frigate, Armor_Assault_Frigate, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_COVIE_Frigate, Armor_Calamari_Cruiser, 0.65 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_COVIE_Frigate, Armor_Star_Destroyer, 0.3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_COVIE_Frigate, Armor_Station, 0.35 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_COVIE_Frigate, Armor_Station, 0.5 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_COVIE_Frigate, Shield_Capital, 0.5</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_COVIE_Frigate, Shield_Frigate, 0.85</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_COVIE_Frigate, Shield_Corvette, 1</Damage_To_Armor_Mod>

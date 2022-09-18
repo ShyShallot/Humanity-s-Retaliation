@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <HardPoints>
-
+<!--Anti Fighter Hardpoints-->
     <HardPoint Name="HP_COVSTATION_T1_AF_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
@@ -558,7 +558,8 @@
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
-
+<!-- End of Anti Fighter Hardpoints -->
+<!-- Anti Ship Hardpoints -->
     <HardPoint Name="HP_COVSTATION_T1_AS_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
@@ -566,7 +567,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_01</Attachment_Bone>
             <Collision_Mesh>HP_AS_01</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_01</Fire_Bone_A>
@@ -598,7 +599,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_02</Attachment_Bone>
             <Collision_Mesh>HP_AS_02</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_02</Fire_Bone_A>
@@ -630,7 +631,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_03</Attachment_Bone>
             <Collision_Mesh>HP_AS_03</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_03</Fire_Bone_A>
@@ -662,7 +663,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_04</Attachment_Bone>
             <Collision_Mesh>HP_AS_04</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_04</Fire_Bone_A>
@@ -694,7 +695,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_05</Attachment_Bone>
             <Collision_Mesh>HP_AS_05</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_05</Fire_Bone_A>
@@ -726,7 +727,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_06</Attachment_Bone>
             <Collision_Mesh>HP_AS_06</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_06</Fire_Bone_A>
@@ -758,7 +759,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_07</Attachment_Bone>
             <Collision_Mesh>HP_AS_07</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_07</Fire_Bone_A>
@@ -790,7 +791,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_08</Attachment_Bone>
             <Collision_Mesh>HP_AS_08</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_08</Fire_Bone_A>
@@ -822,7 +823,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_09</Attachment_Bone>
             <Collision_Mesh>HP_AS_09</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_09</Fire_Bone_A>
@@ -854,7 +855,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_10</Attachment_Bone>
             <Collision_Mesh>HP_AS_10</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_10</Fire_Bone_A>
@@ -886,7 +887,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_11</Attachment_Bone>
             <Collision_Mesh>HP_AS_11</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_11</Fire_Bone_A>
@@ -918,7 +919,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_12</Attachment_Bone>
             <Collision_Mesh>HP_AS_12</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_12</Fire_Bone_A>
@@ -950,7 +951,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_13</Attachment_Bone>
             <Collision_Mesh>HP_AS_13</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_13</Fire_Bone_A>
@@ -982,7 +983,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_14</Attachment_Bone>
             <Collision_Mesh>HP_AS_14</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_14</Fire_Bone_A>
@@ -1014,7 +1015,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_15</Attachment_Bone>
             <Collision_Mesh>HP_AS_15</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_15</Fire_Bone_A>
@@ -1046,7 +1047,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_16</Attachment_Bone>
             <Collision_Mesh>HP_AS_16</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_16</Fire_Bone_A>
@@ -1078,7 +1079,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_17</Attachment_Bone>
             <Collision_Mesh>HP_AS_17</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_17</Fire_Bone_A>
@@ -1110,7 +1111,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_18</Attachment_Bone>
             <Collision_Mesh>HP_AS_18</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_18</Fire_Bone_A>
@@ -1142,7 +1143,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_19</Attachment_Bone>
             <Collision_Mesh>HP_AS_19</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_19</Fire_Bone_A>
@@ -1174,7 +1175,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_20</Attachment_Bone>
             <Collision_Mesh>HP_AS_20</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_20</Fire_Bone_A>
@@ -1206,7 +1207,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_21</Attachment_Bone>
             <Collision_Mesh>HP_AS_21</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_21</Fire_Bone_A>
@@ -1238,7 +1239,7 @@
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>900.0</Health>
+            <Health>500.0</Health>
             <Attachment_Bone>HP_AS_22</Attachment_Bone>
             <Collision_Mesh>HP_AS_22</Collision_Mesh>
 			<Fire_Bone_A>HP_AS_22</Fire_Bone_A>
@@ -1262,7 +1263,8 @@
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
-
+<!-- Anti Ship Hardpoints -->
+<!-- Heavy Plasma Cannons -->
     <HardPoint Name="HP_COVSTATION_T3_HC_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
@@ -1582,7 +1584,7 @@
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
     </HardPoint>
-
+<!-- End of Heavy Plasma Cannons -->
     <HardPoint Name="HP_COVSTATION_T3_TP_01">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Tooltip_Text>CONV_TORP</Tooltip_Text>
