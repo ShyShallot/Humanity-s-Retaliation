@@ -1181,7 +1181,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-			Shortsword_Squadron,
+				Shortsword_Squadron,
 				Longsword_Squadron,
 				Sabre_Squadron,
 				Baselard_Squadron,

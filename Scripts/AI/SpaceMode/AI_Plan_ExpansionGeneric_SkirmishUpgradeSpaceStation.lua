@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/Evaluators/GetDistanceToNearestSpaceField.lua#1 $
+-- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/AI_Plan_ExpansionGeneric_SkirmishUpgradeSpaceStation.lua#1 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,41 +25,46 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/Evaluators/GetDistanceToNearestSpaceField.lua $
+--              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/AI_Plan_ExpansionGeneric_SkirmishUpgradeSpaceStation.lua $
 --
---    Original Author: Steve_Copeland
+--    Original Author: James Yarrow
 --
---            $Author: Andre_Arsenault $
+--            $Author: James_Yarrow $
 --
---            $Change: 37816 $
+--            $Change: 54441 $
 --
---          $DateTime: 2006/02/15 15:33:33 $
+--          $DateTime: 2006/09/13 15:08:39 $
 --
 --          $Revision: #1 $
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("PGBaseDefinitions")
 
-function Clean_Up()
-	-- any temporary object pointers need to be set to nil in this function.
-	-- ie: Target = nil
-	nearest_obj = nil
-end
 
--- Receives:
--- String which is a space field category mask for the space fields to consider
-function Evaluate(space_fields)
+require("pgevents")
+
+
+function Definitions()
 	
-	nearest_obj = Find_Nearest_Space_Field(Target, space_fields)
-	if TestValid(nearest_obj) then
-		return Target.Get_Distance(nearest_obj)
-	else
-		return BIG_FLOAT
-	end
+	Category = "Skirmish_Upgrade_Space_Station"
+	IgnoreTarget = true
+	TaskForce = {
+	{
+		"ReserveForce"
+		,"RS_Level_Two_Starbase_Upgrade | RS_Level_Three_Starbase_Upgrade | RS_Level_Four_Starbase_Upgrade | RS_Level_Five_Starbase_Upgrade = 0,1"
+		,"ES_Level_Two_Starbase_Upgrade | ES_Level_Three_Starbase_Upgrade | ES_Level_Four_Starbase_Upgrade | ES_Level_Five_Starbase_Upgrade = 0,1"
+		,"US_Level_Two_Starbase_Upgrade | US_Level_Three_Starbase_Upgrade | US_Level_Four_Starbase_Upgrade | US_Level_Five_Starbase_Upgrade = 0,1"
+	}
+	}
+	RequiredCategories = {"Upgrade"}
+	AllowFreeStoreUnits = false
+
 end
 
-
-
-
-
+function ReserveForce_Thread()
+			
+	BlockOnCommand(ReserveForce.Produce_Force())
+	ReserveForce.Set_Plan_Result(true)
+		
+	ScriptExit()
+end

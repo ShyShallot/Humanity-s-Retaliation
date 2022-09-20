@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/Evaluators/GetDistanceToNearestWithProperty.lua#1 $
+-- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/HideTransports.lua#2 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,48 +25,76 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/Evaluators/GetDistanceToNearestWithProperty.lua $
+--              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/HideTransports.lua $
 --
---    Original Author: Steve_Copeland
+--    Original Author: James Yarrow
 --
---            $Author: Andre_Arsenault $
+--            $Author: James_Yarrow $
 --
---            $Change: 37816 $
+--            $Change: 44927 $
 --
---          $DateTime: 2006/02/15 15:33:33 $
+--          $DateTime: 2006/05/23 17:53:49 $
 --
---          $Revision: #1 $
+--          $Revision: #2 $
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("PGBaseDefinitions")
+require("pgevents")
 
-function Clean_Up()
-	-- any temporary object pointers need to be set to nil in this function.
-	-- ie: Target = nil
-	nearest_obj = nil
+function Definitions()
+
+	AllowEngagedUnits = false
+	Category = "Hide_Transports"
+	IgnoreTarget = true
+	TaskForce = 
+	{
+		{
+			"MainForce",
+			"Transport = 1,4"
+		},
+		{
+			"EscortForce",
+			"Fighter = 0,2"
+		}
+	}
+
 end
 
--- Receives:
--- property_flag_name as defined in GameObjectPropertiesType.xml
--- affiliation_type is optional qualifier of "enemy" or "friendly"
-function Evaluate(property_flag_name, affiliation_type)
+function MainForce_Thread()
+	BlockOnCommand(MainForce.Produce_Force())
 	
-	if affiliation_type == "ENEMY" then
-		nearest_obj = Find_Nearest(Target, property_flag_name, PlayerObject, false)
-	elseif affiliation_type == "FRIENDLY" then
-		nearest_obj = Find_Nearest(Target, property_flag_name, PlayerObject, true)
-	else
-		nearest_obj = Find_Nearest(Target, property_flag_name)
+	while true do
+		AITarget = FindTarget(MainForce, "Space_Area_Is_Hidden", "Tactical_Location", 0.8, 5000.0)
+		
+		if TestValid(AITarget) then		
+			Try_Ability(MainForce, "STEALTH")
+			MainForce.Attack_Target(AITarget, 1)
+			Sleep(10)
+		else
+			Sleep(0.1)
+		end
 	end
+	
+	ScriptExit()
+end 
 
-	if TestValid(nearest_obj) then
-		return Target.Get_Distance(nearest_obj)
-	else
-		return BIG_FLOAT
+function EscortForce_Thread()
+	BlockOnCommand(EscortForce.Produce_Force())
+	
+	-- Give an initial order to put the escorts in a state that the Escort function expects
+	EscortForce.Guard_Target(MainForce)
+
+	EscortAlive = true
+	while EscortAlive do
+		Escort(EscortForce, MainForce)
 	end
 end
 
+function MainForce_No_Units_Remaining()
+	DebugMessage("%s -- All units dead or non-buildable.  Abandonning plan.", tostring(Script))
+	ScriptExit()
+end
 
-
-
+function EscortForce_No_Units_Remaining()
+	EscortAlive = false
+end

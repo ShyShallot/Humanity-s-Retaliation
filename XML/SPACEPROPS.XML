@@ -1561,7 +1561,7 @@
 		<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<SpaceBehavior> SPACE_OBSTACLE</SpaceBehavior>
-		<Custom_Soft_Footprint_Radius> 300 </Custom_Soft_Footprint_Radius>
+		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>

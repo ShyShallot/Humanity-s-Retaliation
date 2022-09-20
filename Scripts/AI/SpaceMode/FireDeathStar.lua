@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/Evaluators/EvaluateInGalacticContext.lua#1 $
+-- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/FireDeathStar.lua#1 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,7 +25,7 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/Evaluators/EvaluateInGalacticContext.lua $
+--              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/FireDeathStar.lua $
 --
 --    Original Author: Steve_Copeland
 --
@@ -39,39 +39,41 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("PGBaseDefinitions")
+require("pgevents")
 
--- Evaluate galactic perceptions from a tactical context.
--- Note that galactic perceptions won't update while in tactical mode.
--- XML usage example: Script_EvaluateInGalacticContext.Evaluate{Parameter_Script_String = "GenericPlanetValue"}
+function Definitions()
+	DebugMessage("%s -- In Definitions", tostring(Script))
 
-function Clean_Up()
-	-- any temporary object pointers need to be set to nil in this function.
-	-- ie: Target = nil
-	ret_value = nil
+	Category = "Fire_Death_Star"
+	IgnoreTarget = true
+	TaskForce = 
+	{
+		{
+			"MainForce"
+			, "TaskForceRequired"
+		}
+	}
+	
+	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 
-function Evaluate(perception_name)
-
-	-- Galactic perceptions have no context in skirmish mode
-	if EvaluatePerception("Is_Skirmish_Mode", PlayerObject) == 0 then
-		ret_value = Evaluate_In_Galactic_Context(perception_name, PlayerObject)
-	else
-		ret_value = nil
+function MainForce_Thread()
+	BlockOnCommand(MainForce.Produce_Force())
+	
+	ds = Find_First_Object("Death_Star")
+	while not TestValid(ds) do
+		-- Death star isn't present, hang this plan indefinately
+		Sleep(100)
 	end
 	
-	-- handle the case where no value is found
-	if not ret_value then
-		DebugMessage("%s -- Error, unable to evaluate perception %s.", tostring(Script), perception_name)
-		ret_value = 0.0
-	end
+	repeat
+		Sleep(1)
+	until ds.Is_Tactical_Superweapon_Ready() and (Evaluate_In_Galactic_Context("Want_To_Fire_DS", PlayerObject) ~= 0)
 	
-	--DebugMessage("%s -- Evaluated in galactic context: %s: %.3f.", tostring(Script), perception_name, ret_value)	
-	
-	return ret_value
-end 
+    ds.Fire_Tactical_Superweapon()
 
+	Sleep(30)
 
-
-
+	ScriptExit()
+end
 

@@ -17,9 +17,6 @@
 	<File> Data\Textures.meg </File>
 	<File> Data\Music.meg </File>
 	<File> Data\GermanSpeech.meg </File>
-
-	<File> Data\art.meg</File>
-	<File> Data\XML.meg</File>
-	<File> Data\Scripts.meg</File>
+	<File> Data\HRConfig.meg</File>
 </Mega_Files>
 

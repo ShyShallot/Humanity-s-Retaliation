@@ -605,7 +605,12 @@
 		<AI_Combat_Power>600</AI_Combat_Power>
 		<Projectile_Blast_Area_Range>90</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>40</Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
+	</Projectile>
+
+	<Projectile Name="Proj_COV_TORPEDO_Fighter">
+		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
+		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 	</Projectile>
 
 	<Projectile Name="Proj_COV_Plasma_Missile">
