@@ -20,8 +20,9 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>5.5</Max_Speed>
-		<Max_Rate_Of_Turn>2.2</Max_Rate_Of_Turn>
+		<Max_Speed>2.5</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
@@ -196,8 +197,9 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>4.2</Max_Speed>
-		<Max_Rate_Of_Turn>2.4</Max_Rate_Of_Turn>
+		<Max_Speed>1.95</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
@@ -398,8 +400,9 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>6</Max_Speed>
-		<Max_Rate_Of_Turn>2.1</Max_Rate_Of_Turn>
+		<Max_Speed>4.2</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
@@ -569,8 +572,9 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>3.0</Max_Speed>
-		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
+		<Max_Speed>1.6</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
@@ -631,13 +635,11 @@
 			HP_MUSASHI_REACTOR, UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04, UNSC_MUSASHI_05  
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 10</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 12</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 15</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 15</Reserve_Spawned_Units_Tech_0>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_MUSASHI.tga</Icon_Name>
@@ -769,8 +771,9 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>3.8</Max_Speed>
-		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
+		<Max_Speed>2.9</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
@@ -996,8 +999,9 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>2.7</Max_Speed>
-		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+		<Max_Speed>1.95</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
@@ -1188,8 +1192,9 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>3.1</Max_Speed>
-		<Max_Rate_Of_Turn>2.1</Max_Rate_Of_Turn>
+		<Max_Speed>1.6</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.29</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
@@ -1253,7 +1258,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<HardPoints>
-			UNSC_STRIDENT_01, UNSC_STRIDENT_02, UNSC_STRIDENT_03, UNSC_STRIDENT_04, UNSC_STRIDENT_05, UNSC_STRIDENT_06, UNSC_STRIDENT_AP_01, UNSC_STRIDENT_AP_02, UNSC_STRIDENT_MAC, UNSC_STRIDENT_EG, HP_STRIDENT_SHIELD, UNSC_STRIDENT_MK33_01, UNSC_STRIDENT_MK33_02, UNSC_STRIDENT_MK33_03, UNSC_STRIDENT_MK33_04, UNSC_STRIDENT_MK33_05, UNSC_STRIDENT_MK33_06
+			HP_STRIDENT_REACTOR, UNSC_STRIDENT_01, UNSC_STRIDENT_02, UNSC_STRIDENT_03, UNSC_STRIDENT_04, UNSC_STRIDENT_05, UNSC_STRIDENT_06, UNSC_STRIDENT_AP_01, UNSC_STRIDENT_AP_02, UNSC_STRIDENT_MAC, UNSC_STRIDENT_EG, HP_STRIDENT_SHIELD, UNSC_STRIDENT_MK33_01, UNSC_STRIDENT_MK33_02, UNSC_STRIDENT_MK33_03, UNSC_STRIDENT_MK33_04, UNSC_STRIDENT_MK33_05, UNSC_STRIDENT_MK33_06
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -1334,6 +1339,15 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		
+			<Unit_Ability> <!-- Reactor Ability stuff-->
+				<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>
 
 		</Unit_Abilities_Data> 
 		
@@ -1379,8 +1393,9 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>4.4</Max_Speed>
-		<Max_Rate_Of_Turn>1.9</Max_Rate_Of_Turn>
+		<Max_Speed>2.05</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
@@ -1565,8 +1580,9 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>5.4</Max_Speed>
-		<Max_Rate_Of_Turn>2.2</Max_Rate_Of_Turn>
+		<Max_Speed>2.25</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.45</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-45.0</Layer_Z_Adjust>
@@ -1786,8 +1802,9 @@
 
 		<!-- Stats -->
 		<Population_Value>8</Population_Value>
-	   	<Max_Speed>3.3</Max_Speed>
-		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
+	   	<Max_Speed>1.8</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>3650</Shield_Points>
 		<Tactical_Health>4500</Tactical_Health>
@@ -2026,8 +2043,9 @@
 
 		<!-- Stats -->
 		<Population_Value>4</Population_Value>
-	   	<Max_Speed>5.3</Max_Speed>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+	   	<Max_Speed>2.2</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>2600</Shield_Points>
 		<Tactical_Health>3400</Tactical_Health>

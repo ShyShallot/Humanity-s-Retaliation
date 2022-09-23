@@ -269,6 +269,7 @@
 				<Projectile_Types_Override>Proj_UNSC_Shiva_Missiles</Projectile_Types_Override>
 				<Alternate_Name_Text>HALO_LONGSWORD_SHIVA</Alternate_Name_Text>
 				<Alternate_Description_Text>HALO_LONGSWORD_SHIVA_ENC</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_CONTAMINATE.TGA</Alternate_Icon_Name>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
