@@ -23,7 +23,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>4.2</Max_Speed>
+		<Max_Speed>5.5</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
@@ -298,7 +298,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>3.5</Max_Speed>
+		<Max_Speed>5.5</Max_Speed>
 		<Min_Speed>1.0</Min_Speed>
 		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
@@ -510,7 +510,7 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>3.5</Max_Speed>
+		<Max_Speed>4.5</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>

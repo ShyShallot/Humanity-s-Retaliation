@@ -161,7 +161,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Tarasque_Squadron
+				Tarasque_Squadron,
 				Seraph_Squadron,
 				Cerastes_Squadron,
 				COVN_CAR,
@@ -239,7 +239,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Tarasque_Squadron
+				Tarasque_Squadron,
 				Seraph_Squadron,
 				Cerastes_Squadron,
 				COVN_CAR,
@@ -323,7 +323,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Tarasque_Squadron
+				Tarasque_Squadron,
 				Seraph_Squadron,
 				Cerastes_Squadron,
 				COVN_CAR,

@@ -212,7 +212,7 @@
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L2_Bonus">
 				<Income_Multiplier>1.45</Income_Multiplier>
 				<Income_Additive_Value>105.0</Income_Additive_Value>
-				<Interval_Multiplier>1.20</Interval_Multiplier>
+				<Interval_Multiplier>1.10</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -246,9 +246,9 @@
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L3_Bonus">
-				<Income_Multiplier>1.70</Income_Multiplier>
+				<Income_Multiplier>1.8</Income_Multiplier>
 				<Income_Additive_Value>125.0</Income_Additive_Value>
-				<Interval_Multiplier>1.50</Interval_Multiplier>
+				<Interval_Multiplier>1.15</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -282,9 +282,9 @@
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="ES_Increased_Supplies1_L4_Bonus">
-				<Income_Multiplier>2.15</Income_Multiplier>
+				<Income_Multiplier>2.5</Income_Multiplier>
 				<Income_Additive_Value>200.0</Income_Additive_Value>
-				<Interval_Multiplier>2.0</Interval_Multiplier>
+				<Interval_Multiplier>1.2</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
 				<Target_Stream_Source>Empire_Mineral_Extractor</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
@@ -293,4 +293,5 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
+
 </UpgradeObjects>

@@ -12,13 +12,13 @@
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
-		<Scale_Factor>2.5</Scale_Factor>
+		<Scale_Factor>2.0</Scale_Factor>
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.95</Max_Speed>
+		<Max_Speed>1.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -235,7 +235,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.75</Max_Speed>
+		<Max_Speed>1.25</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -409,7 +409,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.5</Max_Speed>
+		<Max_Speed>1.1</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -583,7 +583,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.65</Max_Speed>
+		<Max_Speed>1.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -756,7 +756,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>0.4</Max_Speed>
+		<Max_Speed>1.1</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -965,7 +965,7 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 525 </Reinforcement_Prevention_Radius>
 
-		<Max_Speed>0.75</Max_Speed>
+		<Max_Speed>1.25</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -1133,7 +1133,7 @@
 		</Unit_Abilities_Data>
 		<Lua_Script>DesperateStrike</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>9150</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>8560</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>48</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1185,7 +1185,7 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 400 </Reinforcement_Prevention_Radius>
 
-		<Max_Speed>0.8</Max_Speed>
+		<Max_Speed>1.4</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -1336,7 +1336,7 @@
 		<Population_Value>9</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>7550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>7050</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>47</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1372,7 +1372,7 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 600 </Reinforcement_Prevention_Radius>
 
-		<Max_Speed>0.5</Max_Speed>
+		<Max_Speed>1.1</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -1552,7 +1552,7 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 525 </Reinforcement_Prevention_Radius>
 
-		<Max_Speed>0.9</Max_Speed>
+		<Max_Speed>1.5</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -1701,7 +1701,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>8500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>7560</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>55</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

@@ -20,7 +20,7 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>2.5</Max_Speed>
+		<Max_Speed>3.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -197,7 +197,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>1.95</Max_Speed>
+		<Max_Speed>2.7</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -572,7 +572,7 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>1.6</Max_Speed>
+		<Max_Speed>2.7</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -771,7 +771,7 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>2.9</Max_Speed>
+		<Max_Speed>3.5</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -999,7 +999,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>1.95</Max_Speed>
+		<Max_Speed>2.3</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -1192,7 +1192,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>1.6</Max_Speed>
+		<Max_Speed>2.6</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.29</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -1393,7 +1393,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>2.05</Max_Speed>
+		<Max_Speed>2.8</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -1580,7 +1580,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>2.25</Max_Speed>
+		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.45</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -1802,7 +1802,7 @@
 
 		<!-- Stats -->
 		<Population_Value>8</Population_Value>
-	   	<Max_Speed>1.8</Max_Speed>
+	   	<Max_Speed>2.7</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Autoresolve_Health>7500</Autoresolve_Health>
@@ -1970,7 +1970,7 @@
 		</Abilities>		
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3450</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -2043,7 +2043,7 @@
 
 		<!-- Stats -->
 		<Population_Value>4</Population_Value>
-	   	<Max_Speed>2.2</Max_Speed>
+	   	<Max_Speed>3.6</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Autoresolve_Health>7500</Autoresolve_Health>
@@ -2166,7 +2166,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

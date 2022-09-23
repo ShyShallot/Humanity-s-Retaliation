@@ -22,7 +22,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>3.0</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>1.0</Min_Speed>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Max_Thrust>1.0</Max_Thrust>
@@ -307,7 +307,7 @@
 		<Fires_Forward>no</Fires_Forward>
 		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>3.5</Max_Speed>
+		<Max_Speed>4.5</Max_Speed>
 		<Min_Speed>1.0</Min_Speed>
 		<Max_Rate_Of_Turn>0.96</Max_Rate_Of_Turn>
 		<Max_Thrust>1.0</Max_Thrust>
@@ -771,7 +771,7 @@
 		<Fires_Forward>yes</Fires_Forward>
 		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>4.5</Max_Speed>
+		<Max_Speed>6.0</Max_Speed>
 		<Min_Speed>0.5</Min_Speed>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
@@ -881,6 +881,13 @@
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
             </Unit_Ability>
 
+			<Unit_Ability>
+                <Type>ROCKET_ATTACK</Type>
+                <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+            </Unit_Ability>
+
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -958,6 +965,13 @@
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
             </Unit_Ability>
 
+			<Unit_Ability>
+                <Type>ROCKET_ATTACK</Type>
+                <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+            </Unit_Ability>
+
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -1019,6 +1033,13 @@
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
             </Unit_Ability>
 
+			<Unit_Ability>
+                <Type>ROCKET_ATTACK</Type>
+                <Alternate_Name_Text>HALO_FIRE_ROCKETS</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_ROCKETS_ENC</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+            </Unit_Ability>
+
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -1057,7 +1078,7 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>5.0</Max_Speed>
+		<Max_Speed>5.5</Max_Speed>
 		<Min_Speed>2.0</Min_Speed>
 		<Max_Rate_Of_Turn>1.7</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>

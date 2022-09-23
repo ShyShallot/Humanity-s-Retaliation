@@ -159,11 +159,13 @@
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Fighter</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Max_Recharge_Seconds>4.2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
+			<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
     </HardPoint>
 
     <HardPoint Name="UNSC_BASELARD_02">
@@ -176,12 +178,14 @@
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Fighter_Missile_Light</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.9</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.2</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>4.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
+			<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
     </HardPoint>
 
     <!-- Sabre Hardpoints-->
