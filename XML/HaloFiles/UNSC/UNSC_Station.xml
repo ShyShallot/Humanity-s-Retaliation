@@ -160,7 +160,7 @@
 		<Scale_Factor>3.0</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_2.ALO</Space_Model_Name>
 		<Galactic_Model_Name>I_RB_STATION_LEVEL2.ALO</Galactic_Model_Name>
-		<Select_Box_Scale>1000</Select_Box_Scale>
+		<Select_Box_Scale>400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>1200</Build_Cost_Credits>
@@ -310,7 +310,7 @@
 		<Scale_Factor>3.0</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_3.ALO</Space_Model_Name>
 		<Galactic_Model_Name>UNSC_STATION_TIER_3.ALO</Galactic_Model_Name>
-		<Select_Box_Scale>1000</Select_Box_Scale>
+		<Select_Box_Scale>450</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>2400</Build_Cost_Credits>
@@ -466,7 +466,7 @@
 		<Scale_Factor>3.0</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_4.ALO</Space_Model_Name>
 		<Galactic_Model_Name>UNSC_STATION_TIER_4.ALO</Galactic_Model_Name>
-		<Select_Box_Scale>1200</Select_Box_Scale>
+		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>4800</Build_Cost_Credits>
@@ -641,7 +641,7 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UNSC_STATION_TIER_5.ALO</Space_Model_Name>
 		<Galactic_Model_Name>UNSC_STATION_TIER_5.ALO</Galactic_Model_Name>
-		<Select_Box_Scale>1200</Select_Box_Scale>
+		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>6000</Build_Cost_Credits>

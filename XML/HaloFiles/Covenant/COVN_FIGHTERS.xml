@@ -23,13 +23,13 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>10.5</Max_Speed>
-		<Min_Speed>1.2</Min_Speed>
+		<Max_Speed>4.2</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
 		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
 		<Max_Rate_Of_Roll>1.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>110</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+		<Begin_Turn_Towards_Distance>700.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -253,8 +253,6 @@
 		<Icon_Name />
 		
 		<CategoryMask>Fighter | AntiFighter | AntiBomber</CategoryMask>
-		<Max_Speed>5.0</Max_Speed>
-		<Min_Speed>1.5</Min_Speed>
 		<Hyperspace>yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -300,13 +298,13 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>12.5</Max_Speed>
-		<Min_Speed>1.2</Min_Speed>
-		<Max_Rate_Of_Turn>1.8</Max_Rate_Of_Turn>
+		<Max_Speed>3.5</Max_Speed>
+		<Min_Speed>1.0</Min_Speed>
+		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
 		<Max_Rate_Of_Roll>2.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>110</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>200.0</Begin_Turn_Towards_Distance>
+		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -487,8 +485,6 @@
 		<Icon_Name />
 		
 		<CategoryMask>Fighter | AntiFighter | AntiBomber</CategoryMask>
-		<Max_Speed>10.0</Max_Speed>
-		<Min_Speed>1.2</Min_Speed>
 		<Hyperspace>yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	</Container>
@@ -514,9 +510,9 @@
 		<Fires_Forward>Yes</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>7.5</Max_Speed>
+		<Max_Speed>3.5</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>
-		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
 		<Max_Rate_Of_Roll>1.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>110</Bank_Turn_Angle>
