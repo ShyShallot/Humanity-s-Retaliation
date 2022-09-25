@@ -218,7 +218,7 @@
 
 		<Ranking_In_Category>5</Ranking_In_Category>
 	
-	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
+	   	<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Select_Box_Scale>350</Select_Box_Scale>
@@ -239,7 +239,7 @@
 		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-960.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-400.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>

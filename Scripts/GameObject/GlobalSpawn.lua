@@ -9,7 +9,6 @@ function State_Init(message)
 	if message == OnEnter then
         DebugMessage("%s -- In On_Enter, running funcs", tostring(Script))
         Init_Reactor_Systems()
-
         ScriptExit()
 	end
 end

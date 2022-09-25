@@ -206,14 +206,16 @@
 		(1 - Function_Is_Space_Structure_Indestructable.Evaluate)
 		*
 		(
-			4.0 * (Variable_Target.Location.FriendlyForce - Variable_Target.Location.EnemyForce)
-			<!--+
-			3.0 * (1.0 - Variable_Target.Location.EnemyForce)-->
+			4.0 * ((Variable_Target.Location.FriendlyForce - Variable_Target.Location.EnemyForce) > 0.0)
 			+
-			1.0 * (1.0 - (Variable_Target.Shield ))
+			3.0 * (1.0 - Variable_Target.Location.EnemyForce)
 			+
-			3.0 * (1.0 - Variable_Target.Health)
+			2.0 * (1.0 - (Variable_Target.Shield > 0.66))
 			+
+			2.0 * (1.0 - Variable_Target.Health)
+			+
+			5.0 * (1.0 - Variable_Target.Health > 0.8)
+			+ 
 			(1.0 - Variable_Target.ForceNBTD)
 			+
 			2.0 * Variable_Target.ContainsHero
@@ -751,11 +753,12 @@
 		(
 			0.2 >
 			(
-				Variable_Target.Location.EnemyForce > Variable_Target.Location.FriendlyForce
+				Variable_Target.Location.EnemyForce /
+				(Variable_Target.Location.EnemyForce + Variable_Target.Location.FriendlyForce )
 			)
 		)
 		*
-		(Function_Distance_To_Nearest_Enemy_Starbase.Evaluate > 2000)
+		(Function_Distance_To_Nearest_Enemy_Starbase.Evaluate > 2500)
 	</Need_To_Build_Refinery_Space>
 
 	<!-- Save cash

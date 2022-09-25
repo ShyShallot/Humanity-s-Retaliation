@@ -152,7 +152,7 @@
 	<UpgradeObject Name="ES_Increased_Supplies_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 1250 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
@@ -189,7 +189,7 @@
 	<UpgradeObject Name="ES_Increased_Supplies_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1250 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> ES_Increased_Supplies_L1_Upgrade </Tactical_Build_Prerequisites>
@@ -225,7 +225,7 @@
     <UpgradeObject Name="ES_Increased_Supplies_L3_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 4100 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 2350 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> ES_Increased_Supplies_L2_Upgrade </Tactical_Build_Prerequisites>
@@ -261,7 +261,7 @@
     <UpgradeObject Name="ES_Increased_Supplies_L4_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 5000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 3050 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 60 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> ES_Increased_Supplies_L3_Upgrade </Tactical_Build_Prerequisites>

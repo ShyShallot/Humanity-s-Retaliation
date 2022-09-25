@@ -36,6 +36,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_02">
@@ -74,6 +75,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_03">
@@ -112,6 +114,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_04">
@@ -150,6 +153,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_05">
@@ -188,6 +192,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_06">
@@ -226,6 +231,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_07">
@@ -264,6 +270,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_08">
@@ -302,6 +309,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_09">
@@ -340,6 +348,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_10">
@@ -378,6 +387,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_11">
@@ -396,8 +406,8 @@
         <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
         <Turret_Bone_Name> TURRET </Turret_Bone_Name>
         <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-        <Attachment_Bone>TURRETS_M66_10</Attachment_Bone>
-        <Collision_Mesh>TURRETS_M66_10</Collision_Mesh>
+        <Attachment_Bone>TURRETS_M66_11</Attachment_Bone>
+        <Collision_Mesh>TURRETS_M66_11</Collision_Mesh>
         <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
         <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
         <Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -416,6 +426,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_12">
@@ -454,6 +465,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_13">
@@ -492,6 +504,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_14">
@@ -530,6 +543,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_15">
@@ -568,6 +582,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_16">
@@ -606,6 +621,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_17">
@@ -644,6 +660,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_18">
@@ -682,6 +699,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_19">
@@ -720,6 +738,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_20">
@@ -758,6 +777,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_21">
@@ -796,6 +816,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_22">
@@ -834,6 +855,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_23">
@@ -872,6 +894,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_24">
@@ -910,6 +933,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_25">
@@ -948,6 +972,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_26">
@@ -986,6 +1011,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_27">
@@ -1024,6 +1050,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_28">
@@ -1062,6 +1089,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_29">
@@ -1100,6 +1128,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_30">
@@ -1138,6 +1167,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_31">
@@ -1176,6 +1206,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_32">
@@ -1214,6 +1245,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_33">
@@ -1252,6 +1284,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_34">
@@ -1290,6 +1323,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_35">
@@ -1328,6 +1362,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_36">
@@ -1366,6 +1401,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_37">
@@ -1404,6 +1440,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M33_38">
@@ -1442,6 +1479,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_01">
@@ -1449,6 +1487,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_01.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1479,6 +1518,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_02">
@@ -1486,6 +1526,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_02.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1516,6 +1557,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_03">
@@ -1523,6 +1565,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_03.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1553,6 +1596,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_04">
@@ -1560,6 +1604,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_04.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1590,6 +1635,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
     
     <HardPoint Name="CANNON_M66_05">
@@ -1597,6 +1643,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_05.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1627,6 +1674,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_06">
@@ -1634,6 +1682,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M66_06.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1664,6 +1713,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_07">
@@ -1671,6 +1721,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_2_M66_07.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1701,6 +1752,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_08">
@@ -1708,6 +1760,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_2_M66_08.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1738,6 +1791,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_09">
@@ -1745,6 +1799,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M66_09.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1775,6 +1830,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_10">
@@ -1782,6 +1838,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M66_10.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1812,6 +1869,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_11">
@@ -1819,6 +1877,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M66_11.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1849,6 +1908,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_12">
@@ -1856,6 +1916,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M66_12.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1886,6 +1947,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_13">
@@ -1893,6 +1955,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_13.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1923,6 +1986,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_14">
@@ -1930,6 +1994,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_14.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1960,6 +2025,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_15">
@@ -1967,6 +2033,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_15.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1997,6 +2064,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_16">
@@ -2004,6 +2072,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_16.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -2034,6 +2103,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_17">
@@ -2041,6 +2111,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_17.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -2071,6 +2142,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_18">
@@ -2078,6 +2150,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_18.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -2108,6 +2181,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_19">
@@ -2115,6 +2189,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_19.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -2145,6 +2220,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_20">
@@ -2152,6 +2228,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_20.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -2182,6 +2259,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_21">
@@ -2189,6 +2267,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_21.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -2219,6 +2298,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_22">
@@ -2226,6 +2306,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_22.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -2256,6 +2337,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_M66_23">
@@ -2263,6 +2345,7 @@
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M66_23.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -2293,12 +2376,14 @@
         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="ARCHER_HP_01">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_01</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_01</Fire_Bone_B>
@@ -2317,6 +2402,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_02</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_02</Fire_Bone_B>
@@ -2335,6 +2421,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_03</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_03</Fire_Bone_B>
@@ -2353,6 +2440,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_04</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_04</Fire_Bone_B>
@@ -2371,6 +2459,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_05</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_05</Fire_Bone_B>
@@ -2389,6 +2478,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_06</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_06</Fire_Bone_B>
@@ -2407,6 +2497,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
+        <Health>1.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_07</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_07</Fire_Bone_B>
@@ -2425,6 +2516,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_08</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_08</Fire_Bone_B>
@@ -2443,6 +2535,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_09</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_09</Fire_Bone_B>
@@ -2461,6 +2554,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_10</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_10</Fire_Bone_B>
@@ -2479,6 +2573,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_11</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_11</Fire_Bone_B>
@@ -2497,6 +2592,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_12</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_12</Fire_Bone_B>
@@ -2515,6 +2611,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_13</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_13</Fire_Bone_B>
@@ -2533,6 +2630,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_14</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_14</Fire_Bone_B>
@@ -2551,6 +2649,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_15</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_15</Fire_Bone_B>
@@ -2569,6 +2668,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_16</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_16</Fire_Bone_B>
@@ -2587,6 +2687,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_17</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_17</Fire_Bone_B>
@@ -2605,6 +2706,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_18</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_18</Fire_Bone_B>
@@ -2623,6 +2725,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_19</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_19</Fire_Bone_B>
@@ -2641,6 +2744,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_20</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_20</Fire_Bone_B>
@@ -2659,6 +2763,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_21</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_21</Fire_Bone_B>
@@ -2677,6 +2782,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_22</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_22</Fire_Bone_B>
@@ -2695,6 +2801,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_23</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_23</Fire_Bone_B>
@@ -2713,6 +2820,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_24</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_24</Fire_Bone_B>
@@ -2731,6 +2839,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_25</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_25</Fire_Bone_B>
@@ -2749,6 +2858,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>750.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_26</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_26</Fire_Bone_B>
@@ -2801,6 +2911,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_02">
@@ -2841,6 +2952,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_03">
@@ -2881,6 +2993,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_04">
@@ -2921,6 +3034,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_05">
@@ -2961,6 +3075,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_06">
@@ -3001,6 +3116,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_07">
@@ -3041,6 +3157,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_08">
@@ -3081,6 +3198,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_09">
@@ -3121,6 +3239,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_10">
@@ -3161,6 +3280,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_11">
@@ -3201,6 +3321,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_12">
@@ -3241,6 +3362,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_13">
@@ -3281,6 +3403,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="CANNON_BREAKWATER_14">
@@ -3321,6 +3444,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+        
     </HardPoint>
 
     <HardPoint Name="STATION_HANGAR_01">

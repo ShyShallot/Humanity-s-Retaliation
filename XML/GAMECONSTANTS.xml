@@ -35,7 +35,7 @@
 	<Object_Max_Speed_Multiplier_Land> 1.56 </Object_Max_Speed_Multiplier_Land>
 
 	<!-- GameObjectType and Hard Point Max Health multiplier factors per mode: 1.0 = no change, 0.5 = half, 2.0 = double, etc. -->
-	<Object_Max_Health_Multiplier_Space> 1.5 </Object_Max_Health_Multiplier_Space> <!-- AI  changed from 3 and 2 respectively -->
+	<Object_Max_Health_Multiplier_Space> 1.0 </Object_Max_Health_Multiplier_Space> <!-- AI  changed from 3 and 2 respectively -->
 	<Object_Max_Health_Multiplier_Land> 1.0 </Object_Max_Health_Multiplier_Land>
 
 	<Use_Neutral_UI_Color>true</Use_Neutral_UI_Color>
@@ -756,7 +756,7 @@
 	<Shield_Flash_Duration> 0.0 </Shield_Flash_Duration>
 	
 	<!-- How closely to tie hull vs. hard point healths together in releation to one another -->
-	<Hull_Vs_Hard_Points_Health_Constraint> 0.5 </Hull_Vs_Hard_Points_Health_Constraint>
+	<Hull_Vs_Hard_Points_Health_Constraint> 1.0 </Hull_Vs_Hard_Points_Health_Constraint>
 	
 	<!-- An object being influenced by a telekinesis effect -->
 	<Telekinesis_Hover_Height>15.0</Telekinesis_Hover_Height>

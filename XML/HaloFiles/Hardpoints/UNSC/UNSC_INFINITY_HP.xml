@@ -97,7 +97,6 @@
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
             <Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
             <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-            <AI_Combat_Power>10000</AI_Combat_Power>
 
     </HardPoint>
 
@@ -128,7 +127,6 @@
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-        <AI_Combat_Power>10000</AI_Combat_Power>
 
     </HardPoint>
 
@@ -159,7 +157,6 @@
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
             <Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
             <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-            <AI_Combat_Power>10000</AI_Combat_Power>
 
     </HardPoint>
 
@@ -190,7 +187,6 @@
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
             <Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
             <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-            <AI_Combat_Power>10000</AI_Combat_Power>
 
     </HardPoint>
 

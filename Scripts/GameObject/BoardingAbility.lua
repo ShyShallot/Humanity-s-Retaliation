@@ -147,6 +147,10 @@ boarder.board = function(target)
                         while boarding do 
                             Deal_Unit_Damage(target.object, BoardingDamage, nil, "Unit_Hardpoint_Turbo_Laser_Death")
                             if Return_Chance(FailChance)  then -- If the boarding units die by chance
+                                target.object.Prevent_All_Fire(false)
+                                Object.Prevent_All_Fire(false)
+                                target.object.Suspend_Locomotor(false)
+                                Object.Suspend_Locomotor(false)
                                 target = nil -- Set our target as Null or Nil so the script stops damaging the ship
                                 boarding = false -- Boarding No Longer active, exit loop
                                 Object.Cancel_Ability(ability_name) -- Make sure the "Tractor Beam" ability stops
@@ -158,6 +162,10 @@ boarder.board = function(target)
                                 target.object.Change_Owner(Object.Get_Owner().Get_Faction_Name()) -- Switch target ship owner from enemy to covies
                                 Object.Cancel_Ability(ability_name) -- Stop the "Tractor Beam" Ability
                                 boarding = false
+                                target.object.Prevent_All_Fire(false)
+                                Object.Prevent_All_Fire(false)
+                                target.object.Suspend_Locomotor(false)
+                                Object.Suspend_Locomotor(false)
                                 target = nil
                                 Object.Play_SFX_Event("Unit_Select_Vader_Executor")
                                 Game_Message("HALO_BOARDING_TAKEOVER")
@@ -167,14 +175,28 @@ boarder.board = function(target)
                                 if target.object.Get_Hull() <= 0.2 then -- If the Ship health is below a value then just straight up blow up the ship
                                     Deal_Unit_Damage(target.object, 10000000, nil)
                                     boarding = false -- Boarding no Longer active exit loop
+                                    target.object.Prevent_All_Fire(false)
+                                    Object.Prevent_All_Fire(false)
+                                    target.object.Suspend_Locomotor(false)
+                                    Object.Suspend_Locomotor(false)
                                     Object.Cancel_Ability(ability_name)
                                     target = nil
                                     Game_Message("HALO_BOARDING_THRESH")
                                     uses = uses + 1
                                     return
                                 end
+                            else 
+                                boarding = false;
+                                target.object.Prevent_All_Fire(false)
+                                Object.Prevent_All_Fire(false)
+                                target.object.Suspend_Locomotor(false)
+                                Object.Suspend_Locomotor(false)
                             end
                             if uses >= 3 then
+                                target.object.Prevent_All_Fire(false)
+                                Object.Prevent_All_Fire(false)
+                                target.object.Suspend_Locomotor(false)
+                                Object.Suspend_Locomotor(false)
                                 Deal_Unit_Damage(Object, 1, HP_BOARD_POINT)
                                 target = nil
                                 ScriptExit()
@@ -182,6 +204,10 @@ boarder.board = function(target)
                             Sleep(3)
                         end
                     else
+                        target.object.Prevent_All_Fire(false)
+                        Object.Prevent_All_Fire(false)
+                        target.object.Suspend_Locomotor(false)
+                        Object.Suspend_Locomotor(false)
                         boarding = false
                         target = nil
                         Object.Cancel_Ability(ability_name) 
@@ -193,6 +219,10 @@ boarder.board = function(target)
                 else
                     Sleep(15) -- give some time to catch up
                     if Get_Target_Distance(Object, target) > max_distance then
+                        target.object.Prevent_All_Fire(false)
+                        Object.Prevent_All_Fire(false)
+                        target.object.Suspend_Locomotor(false)
+                        Object.Suspend_Locomotor(false)
                         boarding = false
                         target = nil
                         Object.Cancel_Ability(ability_name)

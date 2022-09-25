@@ -14,9 +14,9 @@ function State_Init(message)
         neutral = Find_Player("Neutral")
         faction = Object.Get_Owner()
         if Return_Faction(faction) == "EMPIRE" then
-            function_list_e()
+           -- function_list_e()
         else
-            function_list_r()
+            --function_list_r()
         end
         -- Netural stuff here
         ScriptExit() -- Always have this at the end, we dont want the script to run when we don't need it
@@ -24,11 +24,11 @@ function State_Init(message)
 end
 
 function function_list_e()
-    Create_Power_Systems_Marker_E()
+    --Create_Power_Systems_Marker_E()
 end
 
 function function_list_r()
-    Create_Power_Systems_Marker_R()
+    --Create_Power_Systems_Marker_R()
 end
 
 function Create_Power_Systems_Marker_E()
