@@ -756,7 +756,7 @@
 	<Shield_Flash_Duration> 0.0 </Shield_Flash_Duration>
 	
 	<!-- How closely to tie hull vs. hard point healths together in releation to one another -->
-	<Hull_Vs_Hard_Points_Health_Constraint> 1.0 </Hull_Vs_Hard_Points_Health_Constraint>
+	<Hull_Vs_Hard_Points_Health_Constraint> 0.0 </Hull_Vs_Hard_Points_Health_Constraint>
 	
 	<!-- An object being influenced by a telekinesis effect -->
 	<Telekinesis_Hover_Height>15.0</Telekinesis_Hover_Height>
@@ -1574,35 +1574,35 @@
     <Damage_To_Armor_Mod> Damage_Con_Missile, Armor_SSD, 0.4 </Damage_To_Armor_Mod>
 
 	<!-- Concussion Missile Damage Type - Used by Shiva Nuke -->
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Transport, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Bomber, 1.8 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Fighter, 2.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Hero_Transport, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Corellian_Corvette, 1.8 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Missile_Cruiser, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Tartan, 1.6 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Interdictor, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Corellian_Gunboat, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Nebulon_B, 2.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Acclamator, 2.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Pirate_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Default, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Default, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Transport, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Bomber, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Fighter, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Hero_Transport, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Corellian_Corvette, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Missile_Cruiser, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Tartan, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Interdictor, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Corellian_Gunboat, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Nebulon_B, 1.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Acclamator, 1.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Pirate_Frigate, 1.65 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Satellite, 3.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Frigate, 2.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Victory_Class, 1.75 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Assault_Frigate, 1.6 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Calamari_Cruiser, 1.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Frigate, 1.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Victory_Class, 1.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Assault_Frigate, 1.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Calamari_Cruiser, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Star_Destroyer, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Station, 1.0 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Capital, 1.5</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Frigate, 1.8</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Corvette, 2.0</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Fighter, 2.0</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_SSD, 0.8 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Capital, 2.5</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Frigate, 5.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Corvette, 6.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_Fighter, 8.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Shield_SSD, 1.5 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_Vengeance, 5.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_MC30_Frigate, 5.8 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_SSD, 0.6 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Nuke, Armor_SSD, 1.0 </Damage_To_Armor_Mod>
 
 	<!-- Concussion Missile Damage Type - Space Only, Fighter Shit -->
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Armor_Default, 1 </Damage_To_Armor_Mod>
@@ -4050,7 +4050,7 @@
 	<Message_Of_The_Day_URL>http://www.petroglyphgames.com/eawmotd</Message_Of_The_Day_URL>
 	
 	<Skirmish_Buy_Credits>2000</Skirmish_Buy_Credits>
-	<Skirmish_Reinforcement_Delay_Frames>90</Skirmish_Reinforcement_Delay_Frames>
+	<Skirmish_Reinforcement_Delay_Frames>120</Skirmish_Reinforcement_Delay_Frames>
 	<Distribute_Credit_Quantum>1000</Distribute_Credit_Quantum>
 	
 	<Diminishing_Firepower>0, 0.6, 0.3, 0.7, 0.9, 0.9, 1, 1, 2, 1</Diminishing_Firepower>  <!--Mild effect-->

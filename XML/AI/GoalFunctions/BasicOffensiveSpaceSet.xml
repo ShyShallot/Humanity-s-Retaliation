@@ -20,20 +20,20 @@
 		<Function>Unit_Needs_To_Be_Bombed</Function>
 	</Bomb_Unit>
 
-	<Sweep_Area>
+	<!--<Sweep_Area>
 		<Goal>Sweep_Area</Goal>
 		<Function>Area_Needs_Sweeping</Function> 
-	</Sweep_Area>
+	</Sweep_Area> -->
   
 	<Space_Escort_Goal>
 		<Goal>Space_Escort_Goal</Goal>
 		<Function>Unit_Needs_Escort</Function>
 	</Space_Escort_Goal>
 
-	<Space_Scout>
+	<!--<Space_Scout>
 		<Goal>Space_Scout</Goal>
 		<Function>Space_Area_Needs_Scouting</Function>
-	</Space_Scout>
+	</Space_Scout>-->
 	
 	<Hide_Transports>
 		<Goal>Hide_Transports</Goal>
@@ -55,15 +55,15 @@
 		<Function>Need_To_Patrol_Space</Function>
 	</Patrol_Structure_Space>
 
-	<Debug_Goal_Space>
+	<!--<Debug_Goal_Space>
 		<Goal>Debug_Goal_Space</Goal>
 		<Function>Want_To_Retreat_From_Space</Function>
-	</Debug_Goal_Space>
+	</Debug_Goal_Space> -->
 
-	<Space_Retreat>
+	<!--<Space_Retreat>
 		<Goal>Space_Retreat</Goal>
 		<Function>Should_Retreat_From_Space</Function>
-	</Space_Retreat>
+	</Space_Retreat>-->
 
 	<Ground_To_Space_Damage>
 		<Goal>Ground_To_Space_Damage</Goal>

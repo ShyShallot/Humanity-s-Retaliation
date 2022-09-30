@@ -20,10 +20,10 @@
 		<Ranking_In_Category>5</Ranking_In_Category>
 		<Max_Speed>1.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-580.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-400.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
@@ -66,7 +66,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>BARRAGE, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>BARRAGE, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
@@ -74,13 +74,13 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1700.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
 		<HardPoints> 
-			HP_POA_REACTOR, UNSC_POA_HANAGR_01, UNSC_POA_HANAGR_02, UNSC_POA_EG_01, UNSC_POA_EG_02, UNSC_POA_EG_03, UNSC_POA_01, UNSC_POA_02, UNSC_POA_03, UNSC_POA_04, UNSC_POA_05, UNSC_POA_06, UNSC_POA_07, UNSC_POA_08, UNSC_POA_AP_01, UNSC_POA_AP_02, UNSC_POA_AP_03, UNSC_POA_AP_04, UNSC_POA_AP_05, UNSC_POA_AP_06, UNSC_POA_AP_07, UNSC_POA_AP_08, UNSC_POA_AP_09, UNSC_POA_AP_10, UNSC_POA_AP_11, UNSC_POA_AP_12
+			UNSC_POA_MAC, HP_POA_REACTOR, UNSC_POA_HANAGR_01, UNSC_POA_HANAGR_02, UNSC_POA_EG_01, UNSC_POA_EG_02, UNSC_POA_EG_03, UNSC_POA_01, UNSC_POA_02, UNSC_POA_03, UNSC_POA_04, UNSC_POA_05, UNSC_POA_06, UNSC_POA_07, UNSC_POA_08, UNSC_POA_AP_01, UNSC_POA_AP_02, UNSC_POA_AP_03, UNSC_POA_AP_04, UNSC_POA_AP_05, UNSC_POA_AP_06, UNSC_POA_AP_07, UNSC_POA_AP_08, UNSC_POA_AP_09, UNSC_POA_AP_10, UNSC_POA_AP_11, UNSC_POA_AP_12
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -154,13 +154,22 @@
 			<Unit_Ability>
 				<Type>BLAST</Type>
 				<Recharge_Seconds>120.0</Recharge_Seconds>
-				<Alternate_Name_Text>HALO_FIRE_SHIVAS</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_SHIVAS_ENC</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_CONTAMINATE.TGA</Alternate_Icon_Name>
-				<GUI_Activated_Ability_Name> Fire_Shiva_Nuke </GUI_Activated_Ability_Name>
+				<Alternate_Name_Text>HALO_FIRE_MAC</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_MAC_ENC</Alternate_Description_Text>
+				<GUI_Activated_Ability_Name> FIRE_MAC_CANNON </GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
+
+			<Unit_Ability>
+                <Type>ROCKET_ATTACK</Type>
+                <Alternate_Name_Text>HALO_FIRE_SHIVAS</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_SHIVAS_ENC</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_swap_weapons.TGA</Alternate_Icon_Name>
+				<Recharge_Seconds>120.0</Recharge_Seconds>
+				<Expiration_Seconds>15.0</Expiration_Seconds>
+				<Alternate_Icon_Name>I_SA_CONTAMINATE.TGA</Alternate_Icon_Name>
+            </Unit_Ability>
 			
 			<Unit_Ability> <!-- Reactor Ability stuff-->
 				<Type>INTERDICT</Type>
@@ -176,14 +185,15 @@
 
 		
 		<Abilities SubObjectList="Yes">
-			<Blast_Ability Name="Fire_Shiva_Nuke">
+			<Blast_Ability Name="FIRE_MAC_CANNON">
 				<Activation_Style> User_Input </Activation_Style>
-                <Charge_Up_Seconds>0</Charge_Up_Seconds>
+                <Charge_Up_Seconds>1</Charge_Up_Seconds>
                 <Damage_Multiplier>1</Damage_Multiplier>
                 <Charging_Effect />
                 <Charged_Effect />
 				<SFXEvent_Activate />
 			</Blast_Ability>
+
 		</Abilities>
 
 
@@ -283,7 +293,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
@@ -291,7 +301,7 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1700.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
@@ -457,7 +467,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
@@ -465,7 +475,7 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1700.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
@@ -631,7 +641,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
@@ -639,7 +649,7 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
@@ -809,7 +819,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -818,7 +828,7 @@
 
 		<Death_Clone>Damage_Normal, Halberd_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1800.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1700.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
@@ -1016,7 +1026,7 @@
 
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
@@ -1024,7 +1034,7 @@
 
 		<Death_Clone>Damage_Normal, COVN_CCS_DEATH</Death_Clone>
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
 
 
 		<HardPoints> 
@@ -1236,7 +1246,7 @@
 
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
@@ -1244,7 +1254,7 @@
 
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1700.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
 
 		<HardPoints> 
@@ -1417,7 +1427,7 @@
 
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
@@ -1425,7 +1435,7 @@
 
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1850.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1700.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints> 
 			HP_CPV_REACTOR, HP_CPV_HC_01, HP_CPV_HC_02, HP_CPV_HC_03, HP_CPV_HC_04, HP_CPV_HC_05, HP_CPV_HC_06, HP_CPV_HC_07, HP_CPV_HC_08, HP_CPV_HC_09, HP_CPV_HC_10, HP_CPV_AS_01, HP_CPV_AS_02, HP_CPV_AS_03, HP_CPV_AS_04, HP_CPV_AS_05, HP_CPV_AS_06, HP_CPV_AF_01, HP_CPV_AF_02, HP_CPV_AF_03, HP_CPV_AF_04, HP_CPV_ENGINES, HP_CPV_SHIELD 
@@ -1603,7 +1613,7 @@
 
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
@@ -1611,7 +1621,7 @@
 
 		<Death_Clone>Damage_Normal, COVN_CCS_DEATH</Death_Clone>
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
 
 
 		<HardPoints> 

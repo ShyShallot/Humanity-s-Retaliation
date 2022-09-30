@@ -578,6 +578,15 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
     </Particle>
 
+	<Particle Name="Disabler_Particle">
+		<Land_Model_Name>P_DISABLER_PARTICLE.alo</Land_Model_Name>
+        <Space_Model_Name>P_DISABLER_PARTICLE.alo</Space_Model_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+	</Particle>
+
     <Particle Name="Conc_Missile_Absorbed_By_Shields">
         <Land_Model_Name>P_SHIELD_LARGE01.ALO</Land_Model_Name>
         <Space_Model_Name>P_SHIELD_LARGE01.ALO</Space_Model_Name>

@@ -11,13 +11,13 @@ end
 
 function State_Init(message) 
     if message == OnEnter then 
-        neutral = Find_Player("Neutral")
-        faction = Object.Get_Owner()
-        if Return_Faction(faction) == "EMPIRE" then
+       -- neutral = Find_Player("Neutral")
+        --faction = Object.Get_Owner()
+        --if Return_Faction(faction) == "EMPIRE" then
            -- function_list_e()
-        else
+        --else
             --function_list_r()
-        end
+        --end
         -- Netural stuff here
         ScriptExit() -- Always have this at the end, we dont want the script to run when we don't need it
     end

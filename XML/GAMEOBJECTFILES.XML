@@ -30,7 +30,7 @@
 	<File>SpaceUnitsSupers.xml</File>
 	<File>SpacePrimarySkydomes.xml</File>
 	<File>SpaceSecondarySkydomes.xml</File>
-	<File>SpaceBuildablesSkirmish.xml</File> 
+	<File>SpaceBuildablesSkirmish.xml</File>
 	<!--
 	<File>CIN_SpaceUnitsCapital.xml</File>
 	<File>CIN_SpaceUnitsFighters.xml</File>
@@ -97,7 +97,7 @@
 
 
 
-	<!-- Expansion Units: Empire -->
+	<!-- Expansion Units: Empire 
 
 	<File>Units_Hero_Empire_Thrawn.xml</File>
 
@@ -109,11 +109,11 @@
 	<File>Units_Land_Empire_DarkTroopers.xml</File>
 	<File>Units_Land_Empire_Lancet.xml</File>
 	<File>Units_Land_Empire_Noghri.xml</File>
-	<File>Units_Land_Empire_Juggernaut.xml</File>
+	<File>Units_Land_Empire_Juggernaut.xml</File>-->
 
 
 
-	<!-- Expansion Units: Rebel -->
+	<!-- Expansion Units: Rebel 
 	
 	<File>Units_Hero_Rebel_Yoda.xml</File>
 	<File>Units_Hero_Rebel_LukeSkywalker.xml</File>
@@ -123,11 +123,11 @@
 	<File>Units_Land_Rebel_Gallofree_HTT.xml</File>
 
 	<File>Units_Space_Rebel_BWing.xml</File>	
-	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
+	<File>Units_Space_Rebel_MC30_Frigate.xml</File>-->
 
 
 
-	<!-- Expansion Units: Underworld -->
+	<!-- Expansion Units: Underworld 
 
 	<File>Units_Hero_Underworld_IG88.xml</File>
 	<File>Units_Hero_Underworld_Bossk.xml</File>
@@ -157,15 +157,15 @@
 	<File>Units_Space_Underworld_Buzz_Droids.xml</File>
 
 	<File>SpecialStructures_Underworld.xml</File>
-	<File>StarBases_Underworld.xml</File>
+	<File>StarBases_Underworld.xml</File>-->
 
 
 
-	<!-- Expansion Units: Neutral -->
+	<!-- Expansion Units: Neutral 
 
 	<File>Units_Space_Neutral_Eclipse.xml</File>
 	<File>Hutt_Faction_Units.xml</File>
-	<File>GroundBuildablesHutts.xml</File>
+	<File>GroundBuildablesHutts.xml</File>-->
 
 
 	<!-- Expansion General Files -->

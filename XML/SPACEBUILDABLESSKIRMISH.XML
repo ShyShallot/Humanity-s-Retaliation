@@ -1269,9 +1269,7 @@
 				UC_Empire_Mineral_Extractor, 
 			
 			Rebel,
-				UC_Rebel_Mineral_Extractor,
-
-		
+				UC_Rebel_Mineral_Extractor
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Text_ID> TEXT_ASTEROID_MINING_FACILITY </Text_ID>
@@ -1385,6 +1383,7 @@
 	
 	<SpaceBuildable Name="UC_Rebel_Mineral_Extractor">
 		<Variant_Of_Existing_Type>UC_Empire_Mineral_Extractor</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Constructed> Rebel_Mineral_Extractor </Tactical_Buildable_Constructed>
 
 		<Affiliation>Rebel</Affiliation>
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>

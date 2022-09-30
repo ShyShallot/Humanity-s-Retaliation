@@ -22,13 +22,13 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>4.0</Max_Speed>
+		<Max_Speed>5.8</Max_Speed>
 		<Min_Speed>1.0</Min_Speed>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Max_Thrust>1.0</Max_Thrust>
 		<Max_Rate_Of_Roll>1.5</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>70</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -145,6 +145,7 @@
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
+				<Activation_Max_Range>400.0</Activation_Max_Range>
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
 	</SpaceUnit>
@@ -219,6 +220,7 @@
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
+				<Activation_Max_Range>400.0</Activation_Max_Range>
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
 		
@@ -280,6 +282,7 @@
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
+				<Activation_Max_Range>400.0</Activation_Max_Range>
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
 		
@@ -307,13 +310,13 @@
 		<Fires_Forward>no</Fires_Forward>
 		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>4.5</Max_Speed>
+		<Max_Speed>6.5</Max_Speed>
 		<Min_Speed>1.0</Min_Speed>
-		<Max_Rate_Of_Turn>0.96</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
 		<Max_Thrust>1.0</Max_Thrust>
 		<Max_Rate_Of_Roll>1.5</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>70</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>900.0</Begin_Turn_Towards_Distance>
+		<Begin_Turn_Towards_Distance>100.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -409,6 +412,32 @@
 
 	</SpaceUnit>
 
+	<SpaceUnit Name="Shortsword_Disable"> <!-- We dont want every longsword to shoot a shiva nuke so we have only one that can use the ability-->
+		<Variant_Of_Existing_Type>Shortsword</Variant_Of_Existing_Type>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Shortsword_Disable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_UNSC_Disable_Torpedo</Projectile_Types_Override>
+				<Alternate_Name_Text>HALO_SHORTSWORD_DISABLER</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_SHORTSWORD_DISABLER_ENC</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="Shortsword_Disable">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Corvette,Frigate,Capital,Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+		</Abilities>
+	</SpaceUnit>
+
 	<Squadron Name="Shortsword_Squadron">
 		<Text_ID>TEXT_SHORTSWORD_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> COVN_CRS Seraph</Encyclopedia_Good_Against>
@@ -434,7 +463,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Shortsword, Shortsword</Squadron_Units>
+		<Squadron_Units>Shortsword, Shortsword,Shortsword_Disable</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -460,6 +489,28 @@
 		<Create_Team_Type>Shortsword_Squadron_Container </Create_Team_Type>
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Shortsword_Disable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_UNSC_Disable_Torpedo</Projectile_Types_Override>
+				<Alternate_Name_Text>HALO_SHORTSWORD_DISABLER</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_SHORTSWORD_DISABLER_ENC</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="Shortsword_Disable">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Corvette,Frigate,Capital,Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+		</Abilities>
 		
 		<Encyclopedia_Text>TEXT_TOOLTIP_SHORTSWORD TEXT_SPACE HALO_ARMOR_LEVEL_1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
@@ -494,6 +545,29 @@
 		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
 	
 		<Icon_Name />
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Shortsword_Disable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_UNSC_Disable_Torpedo</Projectile_Types_Override>
+				<Alternate_Name_Text>HALO_SHORTSWORD_DISABLER</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_SHORTSWORD_DISABLER_ENC</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="Shortsword_Disable">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Corvette,Frigate,Capital,Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+		</Abilities>
 		
 		<CategoryMask>Bomber | AntiFrigate | AntiCorvette</CategoryMask>
 		<Hyperspace>yes</Hyperspace>
@@ -524,13 +598,12 @@
 		<Fires_Forward>no</Fires_Forward>
 		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>5.0</Max_Speed>
+		<Max_Speed>7.5</Max_Speed>
 		<Min_Speed>2.0</Min_Speed>
 		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
 		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>70</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>600.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -771,13 +844,12 @@
 		<Fires_Forward>yes</Fires_Forward>
 		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>6.0</Max_Speed>
+		<Max_Speed>6.5</Max_Speed>
 		<Min_Speed>0.5</Min_Speed>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
 		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>70</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -802,7 +874,7 @@
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 
@@ -1078,13 +1150,12 @@
 		<Fires_Forward>no</Fires_Forward>
 
 		<Max_Lift>3</Max_Lift>
-		<Max_Speed>5.5</Max_Speed>
+		<Max_Speed>8.0</Max_Speed>
 		<Min_Speed>2.0</Min_Speed>
 		<Max_Rate_Of_Turn>1.7</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
 		<Max_Rate_Of_Roll>4.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>160</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>

@@ -293,7 +293,7 @@
 
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints> 
 			HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25
@@ -470,8 +470,5 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</SpaceUnit>
-
-
-
 
 </SpaceUnitsSupers>

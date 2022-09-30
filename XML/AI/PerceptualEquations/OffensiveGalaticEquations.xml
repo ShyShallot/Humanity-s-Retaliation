@@ -10,25 +10,19 @@
 		+
 		Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} *
 		Variable_Self.IsFaction {Parameter_Faction = "Rebel"}
-		+
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0} *
-		Variable_Self.IsFaction {Parameter_Faction = "Underworld"}	
 	</Is_Connected_To_Me>
 
 	<!-- See if the target system is connected to a system owned by the AI faction's enemy
 	-->
 	<Is_Connected_To_Enemy>
-		((Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0}) *
-		Variable_Self.IsFaction {Parameter_Faction = "Empire"}
+		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
+		Variable_Self.IsFaction {Parameter_Faction = "Empire"})
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Underworld", Parameter_Attenuator = 0.0}) *
-		Variable_Self.IsFaction {Parameter_Faction = "Rebel"}
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"})
 		+
 		(Variable_Target.IsConnectedTo {Parameter_Faction = "Rebel", Parameter_Attenuator = 0.0} +
-		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0}) *
-		Variable_Self.IsFaction {Parameter_Faction = "Underworld"}) > 0.0
+		Variable_Target.IsConnectedTo {Parameter_Faction = "Empire", Parameter_Attenuator = 0.0}) > 0.0
 	</Is_Connected_To_Enemy>
 
 	<!-- Normalizing time since forces were seen relative to 60 seconds
@@ -69,8 +63,8 @@
 	<Is_Neglected_By_My_Opponent_Ground>
 		Variable_Target.IsHumanControlled
 		*
-		(((Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
-		+ (Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})) > 0)
+		(((Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"})
+		+ (Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"})) > 0)
 		*
       (1.0 - Variable_Target.EnemyForce.GroundTotalNBPTM)
 	</Is_Neglected_By_My_Opponent_Ground>
@@ -150,10 +144,7 @@
 		5.0 * (Function_Is_AI_And_Should_Be_Ignored.Evaluate)
 		-
 		(5.0 + 5.0 * Variable_Self.AnyCurrentThreats) * Function_Opens_New_Front.Evaluate
-		+
-		(10.0 * Variable_Self.IsFaction {Parameter_Faction = "UNDERWORLD"} * (Variable_Target.IsConnectedToCorruption * 
-																				(Function_Is_Connected_To_Me.Evaluate == 0.0) - 
-																				Variable_Target.IsCorrupted))
+		
 	</Is_Good_Invasion_Target>
 
 

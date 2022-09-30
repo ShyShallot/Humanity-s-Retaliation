@@ -1620,10 +1620,10 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1657,10 +1657,10 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1694,10 +1694,10 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1732,10 +1732,10 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1770,10 +1770,10 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1808,10 +1808,10 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1846,10 +1846,10 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1884,10 +1884,10 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1922,10 +1922,10 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1960,10 +1960,10 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>8</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -2085,18 +2085,19 @@
     </HardPoint>
 
     <HardPoint Name="UNSC_PARIS_MAC">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
 		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Attachment_Bone>HP_MAC</Attachment_Bone>
 		<Fire_Bone_A>HP_MAC</Fire_Bone_A>
 		<Fire_Bone_B>HP_MAC</Fire_Bone_B>
-		<Fire_Cone_Width>100.0</Fire_Cone_Width>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>55.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>55.0</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_EMPTY</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Blast_Ability_Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
@@ -2105,7 +2106,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 

@@ -15,12 +15,7 @@
 																Parameter_Type = "Empire_Star_Base_2",
 																Parameter_Type = "Empire_Star_Base_3",
 																Parameter_Type = "Empire_Star_Base_4",
-																Parameter_Type = "Empire_Star_Base_5",
-																Parameter_Type = "Underworld_Star_Base_1",
-																Parameter_Type = "Underworld_Star_Base_2",
-																Parameter_Type = "Underworld_Star_Base_3",
-																Parameter_Type = "Underworld_Star_Base_4",
-																Parameter_Type = "Underworld_Star_Base_5",																
+																Parameter_Type = "Empire_Star_Base_5",																
 																Parameter_Type = "Skirmish_Rebel_Star_Base_1",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_2",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_3",
@@ -30,13 +25,7 @@
 																Parameter_Type = "Skirmish_Empire_Star_Base_2",
 																Parameter_Type = "Skirmish_Empire_Star_Base_3",
 																Parameter_Type = "Skirmish_Empire_Star_Base_4",
-																Parameter_Type = "Skirmish_Empire_Star_Base_5",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_1",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_2",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_3",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_4",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_5",
-																Parameter_Type = "PIRATE_ASTEROID_BASE"}
+																Parameter_Type = "Skirmish_Empire_Star_Base_5"}
 	</Distance_To_Nearest_Friendly_Starbase>
 
 	<Distance_To_Nearest_Enemy_Starbase>
@@ -49,12 +38,7 @@
 																Parameter_Type = "Empire_Star_Base_2",
 																Parameter_Type = "Empire_Star_Base_3",
 																Parameter_Type = "Empire_Star_Base_4",
-																Parameter_Type = "Empire_Star_Base_5",
-																Parameter_Type = "Underworld_Star_Base_1",
-																Parameter_Type = "Underworld_Star_Base_2",
-																Parameter_Type = "Underworld_Star_Base_3",
-																Parameter_Type = "Underworld_Star_Base_4",
-																Parameter_Type = "Underworld_Star_Base_5",																
+																Parameter_Type = "Empire_Star_Base_5",														
 																Parameter_Type = "Skirmish_Rebel_Star_Base_1",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_2",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_3",
@@ -64,13 +48,7 @@
 																Parameter_Type = "Skirmish_Empire_Star_Base_2",
 																Parameter_Type = "Skirmish_Empire_Star_Base_3",
 																Parameter_Type = "Skirmish_Empire_Star_Base_4",
-																Parameter_Type = "Skirmish_Empire_Star_Base_5",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_1",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_2",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_3",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_4",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_5",
-																Parameter_Type = "PIRATE_ASTEROID_BASE"}
+																Parameter_Type = "Skirmish_Empire_Star_Base_5"}
 	</Distance_To_Nearest_Enemy_Starbase>
 
 	<Is_Starbase>
@@ -83,12 +61,7 @@
 																Parameter_Type = "Empire_Star_Base_2",
 																Parameter_Type = "Empire_Star_Base_3",
 																Parameter_Type = "Empire_Star_Base_4",
-																Parameter_Type = "Empire_Star_Base_5",
-																Parameter_Type = "Underworld_Star_Base_1",
-																Parameter_Type = "Underworld_Star_Base_2",
-																Parameter_Type = "Underworld_Star_Base_3",
-																Parameter_Type = "Underworld_Star_Base_4",
-																Parameter_Type = "Underworld_Star_Base_5",																	
+																Parameter_Type = "Empire_Star_Base_5",																	
 																Parameter_Type = "Skirmish_Rebel_Star_Base_1",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_2",
 																Parameter_Type = "Skirmish_Rebel_Star_Base_3",
@@ -98,13 +71,7 @@
 																Parameter_Type = "Skirmish_Empire_Star_Base_2",
 																Parameter_Type = "Skirmish_Empire_Star_Base_3",
 																Parameter_Type = "Skirmish_Empire_Star_Base_4",
-																Parameter_Type = "Skirmish_Empire_Star_Base_5",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_1",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_2",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_3",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_4",
-																Parameter_Type = "Skirmish_Underworld_Star_Base_5",																
-																Parameter_Type = "PIRATE_ASTEROID_BASE"}
+																Parameter_Type = "Skirmish_Empire_Star_Base_5"}
 	</Is_Starbase>
 
 	<!-- Certain plans are disallowed as a defender.  These plans are allowed if
@@ -654,7 +621,7 @@
 			*
 			30.0 * (Function_Unit_Isolation.Evaluate - 0.2)
 			+
-			3.0 * (Variable_Target.Type.IsType {Parameter_Type = "Marauder_Missile_Cruiser", Parameter_Type = "Broadside_Class_Cruiser"} )
+			3.0 * (Variable_Target.Type.IsType {Parameter_Type = "COVN_CAR", Parameter_Type = "UNSC_PARIS"} )
 		)
 		*
 		10.0 * (1 - Variable_Target.Health)
@@ -717,8 +684,7 @@
 
 	<Number_Resource_Structures_Space>
 		Variable_Self.TacticalBuiltStructureCount{Parameter_Type = "Empire_Mineral_Extractor"
-													,Parameter_Type = "Rebel_Mineral_Extractor"
-													,Parameter_Type = "Underworld_Mineral_Extractor"}
+													,Parameter_Type = "Rebel_Mineral_Extractor"}
 	</Number_Resource_Structures_Space>
 
 
@@ -751,10 +717,12 @@
 		50.0 
 		*
 		(
-			0.2 >
+			10 * (2 > Function_Number_Resource_Structures_Space.Evaluate)
+			+
+			0.1 >
 			(
-				Variable_Target.Location.EnemyForce /
-				(Variable_Target.Location.EnemyForce + Variable_Target.Location.FriendlyForce )
+				Variable_Target.Location.EnemyForce / 
+				(Variable_Target.Location.EnemyForce + Variable_Target.Location.FriendlyForce)
 			)
 		)
 		*
@@ -782,9 +750,9 @@
 	<Tactical_Multiplayer_Should_Build_Generic_Space>
 		(1 - Function_Is_Saving_For_Refineries_Space.Evaluate)
 		*
-		(1 - Function_Skirmish_Needs_New_Space_Station.Evaluate) 
-		*
 		Function_Tactical_Multiplayer_Should_Build_Generic.Evaluate
+		*
+		25
 	</Tactical_Multiplayer_Should_Build_Generic_Space>
 
 
@@ -843,15 +811,9 @@
 		50
 		*
 		(
-			Function_Want_To_Retreat_From_Space.Evaluate
-			*
-			(1 - Function_Allowed_To_Retreat_From_Space.Evaluate)
-		)
-		+
-		(
 			(Game.IsCampaignGame == 0)
 			*
-			(3 > Variable_Self.UnitSpaceAvailable)
+			(5 > Variable_Self.UnitSpaceAvailable)
 			*
 			(
 				(Variable_Self.ReinforcementsUnnormalized > Variable_Self.FriendlyForceUnnormalized{Parameter_Category = GameObjectCategoryType[Fighter|Bomber|Corvette|Frigate]})
@@ -860,16 +822,6 @@
 				+
 				(Variable_Self.ReinforcementsUnnormalized > Variable_Self.EnemyForceUnnormalized{Parameter_Category = GameObjectCategoryType[Fighter|Bomber|Corvette|Frigate]})
 			)
-			+
-			(Game.Age > 180.0)
-			*
-			(500.0 > Variable_Self.EnemyForceUnnormalized {Parameter_Category = GameObjectCategoryType[Fighter | Bomber | Corvette | Frigate]})
-			+
-			(Game.Age > 500.0)
-			*
-			(Variable_Self.FriendlyForceUnnormalized > (1.5 * Variable_Self.EnemyForceUnnormalized))
-			*
-			((Function_Number_Resource_Structures_Space.Evaluate > 1) + Game.IsCampaignGame)
 		)
 	</Should_Burn_Units_Space>
 
@@ -913,13 +865,13 @@
 		*
 		(Variable_Self.FriendlyForceUnnormalized {Parameter_Category = GameObjectCategoryType[Fighter | Bomber | Corvette | Frigate]} > 1000.0)
 		*
-		((Game.Age > 60.0) * (Variable_Self.BaseLevel == 1.0)
+		((Game.Age > 30.0) * (Variable_Self.BaseLevel == 1.0)
 		+
-		(Game.Age > 180.0) * (Variable_Self.BaseLevel == 2.0)
+		(Game.Age > 90.0) * (Variable_Self.BaseLevel == 2.0)
 		+
-		(Game.Age > 600.0) * (Variable_Self.BaseLevel == 3.0)
+		(Game.Age > 300.0) * (Variable_Self.BaseLevel == 3.0)
 		+
-		(Game.Age > 1200.0) * (Variable_Self.BaseLevel == 4.0)
+		(Game.Age > 800.0) * (Variable_Self.BaseLevel == 4.0)
 		+
 		(5.0 > Variable_Self.BaseLevel) * (Variable_Self.FriendlyForce > (2.0 * Variable_Self.EnemyForce))
 		+

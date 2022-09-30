@@ -32,24 +32,29 @@
         <Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-			
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.35f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.35f</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,    1.75f</Mod_Multiplier>
-				<Supports_Autofire>True</Supports_Autofire>
-				<Recharge_Seconds>85</Recharge_Seconds>
-				<Expiration_Seconds>8</Expiration_Seconds>
-				<Alternate_Name_Text>HALO_WEAPON_OVERIDE</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_WEAPON_OVERIDE_ENC</Alternate_Description_Text>
-				
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Type>CONCENTRATE_FIRE</Type>
+				<Effective_Radius>2000</Effective_Radius>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
+				<GUI_Activated_Ability_Name>FLEET_COMMAND_CONCENTRATE</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Barrage_Ackbar </SFXEvent_Target_Ability>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		<Lua_Script>ObjectScript_Firepower</Lua_Script>
+
+		<Abilities SubObjectList="Yes">
+			<Concentrate_Fire_Attack_Ability Name="FLEET_COMMAND_CONCENTRATE">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Damage_Increase_Percent>0.5</Target_Damage_Increase_Percent>
+				<Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
+				<Stacking_Category>0</Stacking_Category>
+			</Concentrate_Fire_Attack_Ability>
+		</Abilities>
+
         <!-- Build Costs And Limits-->
         <Tactical_Build_Cost_Multiplayer>3150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
