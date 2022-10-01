@@ -917,7 +917,7 @@
 	<!-- Galactic Conquest Versions-->
 	<StarBase Name="Rebel_Star_Base_1">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
-		<Text_ID>TEXT_Rebel_Star_Base_1</Text_ID>
+		<Text_ID>TEXT_REBEL_STAR_BASE_1</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION1 TEXT_TOOLTIP_GARRISON_RS_01</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -1065,7 +1065,7 @@
 
 	<StarBase Name="Rebel_Star_Base_2">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
-		<Text_ID>TEXT_Rebel_Star_Base_2</Text_ID>
+		<Text_ID>TEXT_REBEL_STAR_BASE_2</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2 TEXT_TOOLTIP_GARRISON_RS_02</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -1215,7 +1215,7 @@
 
 	<StarBase Name="Rebel_Star_Base_3">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
-		<Text_ID>TEXT_Rebel_Star_Base_3</Text_ID>
+		<Text_ID>TEXT_REBEL_STAR_BASE_3</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION3 TEXT_TOOLTIP_GARRISON_RS_03</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -1371,7 +1371,7 @@
 
 	<StarBase Name="Rebel_Star_Base_4">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
-		<Text_ID>TEXT_Rebel_Star_Base_4</Text_ID>
+		<Text_ID>TEXT_REBEL_STAR_BASE_4</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION4 TEXT_TOOLTIP_GARRISON_RS_04</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
@@ -1540,7 +1540,7 @@
 
 	<StarBase Name="Rebel_Star_Base_5">
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
-		<Text_ID>TEXT_Rebel_Star_Base_5</Text_ID>
+		<Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_RS_05</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Scale_Factor>3.0</Scale_Factor>
