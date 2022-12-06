@@ -49,11 +49,11 @@ function Definitions()
 	{
 		{
 			"MainForce"
-			,"Fighter | Corvette = 1,4"
+			,"Fighter | Corvette = 1,2"
 		},
 		{
 			"EscortForce"		
-			,"Fighter | Corvette | Frigate = 0,4"
+			,"Fighter | Corvette | Frigate = 0,2"
 			,"EscortForce"
 		}
 	}

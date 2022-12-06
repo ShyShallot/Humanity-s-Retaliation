@@ -51,23 +51,24 @@ function Definitions()
 		"ReserveForce" -- DO NOT INCLUDE SPACE STAITON UPGRADES IN THIS PLAN IT CAUSES THE AI TO FREAK OUT AND NOT BUILD SHIT
 		--,"RS_Level_Two_Starbase_Upgrade | RS_Level_Three_Starbase_Upgrade | RS_Level_Four_Starbase_Upgrade | RS_Level_Five_Starbase_Upgrade = 0,1"
 		--,"ES_Level_Two_Starbase_Upgrade | ES_Level_Three_Starbase_Upgrade | ES_Level_Four_Starbase_Upgrade | ES_Level_Five_Starbase_Upgrade = 0,1"
-		,"Fighter | Bomber = 0,8"
-		,"Corvette = 0,4"
-		,"Frigate = 0,3"
-		,"Capital = 0,2"
+		,"Fighter = 0,2"
+		,"Bomber = 0,2"
+		,"Corvette = 0,2"
+		,"Frigate = 0,2"
+		,"Capital = 0,1"
 		,"Super = 0,1"
 		}
 	}
-	RequiredCategories = {"Corvette | Frigate | Capital"}
+	RequiredCategories = {"Fighter | Corvette | Frigate | Capital"}
 	AllowFreeStoreUnits = false
 
 end
 
 function ReserveForce_Thread()
-			
 	BlockOnCommand(ReserveForce.Produce_Force())
 	ReserveForce.Set_Plan_Result(true)
 	ReserveForce.Set_As_Goal_System_Removable(false)
+	
 	
 	tech_level = PlayerObject.Get_Tech_Level()
 	max_sleep_seconds = 15

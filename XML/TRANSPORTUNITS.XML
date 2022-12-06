@@ -72,8 +72,8 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
-		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
@@ -221,8 +221,8 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 
-		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
@@ -513,8 +513,8 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
-		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
@@ -703,8 +703,8 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
-		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>

@@ -145,7 +145,7 @@
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>10.0</Max_Speed>
+		<Max_Speed>20.0</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Torpedo</Projectile_Category>
@@ -170,7 +170,7 @@
 	<Projectile Name="Proj_UNSC_Fighter_Missile_Light">	<!-- Normal Missiles used by Fighters and not bombers -->
 		<Variant_Of_Existing_Type>Proj_UNSC_Fighter_Missile</Variant_Of_Existing_Type>
 		<Projectile_Damage>6.0</Projectile_Damage>
-		<Max_Speed>12.0</Max_Speed>
+		<Max_Speed>15.0</Max_Speed>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Max_Rate_Of_Turn>200.0</Max_Rate_Of_Turn>
 		<Damage_Type> Damage_Con_Missile_Light </Damage_Type>
@@ -230,7 +230,7 @@
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		
 		<!-- Make it fly faster so that the barrage mode is more dynamic and has more effect -->
-		<Max_Speed>19.0</Max_Speed>
+		<Max_Speed>20.0</Max_Speed>
 		
 	</Projectile>
 	
@@ -240,7 +240,7 @@
 		<Scale_Factor>4.0</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile_Heavy </Damage_Type>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>15.0</Max_Speed>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
@@ -321,13 +321,13 @@
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile_Archer </Damage_Type>
-		<Max_Speed>14.0</Max_Speed>
+		<Max_Speed>30.0</Max_Speed>
 		<Max_Rate_Of_Turn>15.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>12.5</Projectile_Damage>
+		<Projectile_Damage>29.5</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -354,13 +354,13 @@
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile_Heavy_Archer </Damage_Type>
-		<Max_Speed>11.0</Max_Speed>
+		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>36.5</Projectile_Damage>
+		<Projectile_Damage>60.5</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -476,11 +476,11 @@
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>15.0</Scale_Factor>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>38.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
-		<Projectile_Damage>18.5</Projectile_Damage>
+		<Projectile_Damage>22.5</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -503,11 +503,11 @@
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>8.0</Scale_Factor>
-		<Max_Speed>35.0</Max_Speed>
+		<Max_Speed>39.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_Light </Damage_Type>
-		<Projectile_Damage>7.0</Projectile_Damage>
+		<Projectile_Damage>9.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -530,11 +530,11 @@
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>25.0</Scale_Factor>
-		<Max_Speed>20.0</Max_Speed>
+		<Max_Speed>35.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_Heavy </Damage_Type>
-		<Projectile_Damage>17.0</Projectile_Damage>
+		<Projectile_Damage>28.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -557,7 +557,7 @@
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>15.0</Scale_Factor>
-		<Max_Speed>30.0</Max_Speed>
+		<Max_Speed>50.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_Con_Missile_COIL </Damage_Type>
@@ -584,9 +584,9 @@
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>25.0</Scale_Factor>
-		<Max_Speed>20.0</Max_Speed>
+		<Max_Speed>39.0</Max_Speed>
 		<Damage_Type> Damage_Con_Missile_Heavy </Damage_Type>
-		<Projectile_Damage>15.5</Projectile_Damage>
+		<Projectile_Damage>24.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
@@ -614,7 +614,7 @@
 		<Projectile_Laser_Color>196,41,178,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>5</Max_Speed>
+		<Max_Speed>20</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Torpedo</Projectile_Category>
@@ -644,7 +644,7 @@
 		<Projectile_Laser_Color>196,41,178,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>20</Max_Speed>
+		<Max_Speed>25</Max_Speed>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Torpedo</Projectile_Category>
@@ -669,7 +669,7 @@
 
 	<Projectile Name="Proj_COV_TORPEDO_Fighter">
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>25.0</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 	</Projectile>
 
@@ -678,10 +678,10 @@
 		<Space_Model_Name>PLASMAMISSILE.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>25</Max_Speed>
+		<Max_Speed>70</Max_Speed>
 		<Max_Rate_Of_Turn>25.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Torpedo</Projectile_Category>
+		<Projectile_Category>Missile</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance> <!-- was 1200 -->
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
 		<Projectile_Damage>20.0</Projectile_Damage>

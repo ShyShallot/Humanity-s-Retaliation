@@ -55,7 +55,7 @@ function Definitions()
 	-- First Task Force
 	{
 		"MainForce"
-		,"Fighter = 1,4"
+		,"Fighter = 1,2"
 		,"Frigate = 0,1"
 	}
 	}

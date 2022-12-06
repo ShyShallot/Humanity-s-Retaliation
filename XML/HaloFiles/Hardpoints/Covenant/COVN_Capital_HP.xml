@@ -6,7 +6,7 @@
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850.0</Health>            
+            <Health>3000.0</Health>            
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -24,7 +24,7 @@
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
 			<Collision_Mesh>ROOT</Collision_Mesh>
-            <Health>8500.0</Health>
+            <Health>5500.0</Health>
             <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             
      </HardPoint>

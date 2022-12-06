@@ -6,8 +6,8 @@
     <HardPoint Name="HP_CRS_AF_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>350.0</Health>
             <Attachment_Bone>HP_AF_01</Attachment_Bone>
             <Collision_Mesh>HP_AF_01</Collision_Mesh>
@@ -35,8 +35,8 @@
     <HardPoint Name="HP_CRS_AF_02">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>350.0</Health>
             <Attachment_Bone>HP_AF_02</Attachment_Bone>
             <Collision_Mesh>HP_AF_02</Collision_Mesh>
@@ -64,8 +64,8 @@
     <HardPoint Name="HP_CRS_AF_03">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>350.0</Health>
             <Attachment_Bone>HP_AF_03</Attachment_Bone>
             <Collision_Mesh>HP_AF_03</Collision_Mesh>
@@ -93,8 +93,8 @@
     <HardPoint Name="HP_CRS_AF_04">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>350.0</Health>
             <Attachment_Bone>HP_AF_04</Attachment_Bone>
             <Collision_Mesh>HP_AF_04</Collision_Mesh>
@@ -122,8 +122,8 @@
     <HardPoint Name="HP_CRS_AF_05">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>350.0</Health>
             <Attachment_Bone>HP_AF_05</Attachment_Bone>
             <Collision_Mesh>HP_AF_05</Collision_Mesh>
@@ -151,8 +151,8 @@
     <HardPoint Name="HP_CRS_AF_06">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>350.0</Health>
             <Attachment_Bone>HP_AF_06</Attachment_Bone>
             <Collision_Mesh>HP_AF_06</Collision_Mesh>
@@ -282,7 +282,7 @@
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_CRS_REACTOR"> <!-- Because the the Boardpoint takes ROOT bone, anyship with boarding abilities has to have a special reactor bone-->
+    <HardPoint Name="HP_CRS_REACTOR"> <!-- Because the the Boardpoint takes ROOT bone, any ship with boarding abilities has to have a special reactor bone-->
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>Yes</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
@@ -296,8 +296,8 @@
 
     <HardPoint Name="HP_CRS_ENGINES">
 			<Type> HARD_POINT_ENGINE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>950.0</Health>            
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 

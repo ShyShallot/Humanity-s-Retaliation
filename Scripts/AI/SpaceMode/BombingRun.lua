@@ -49,7 +49,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"BomberForce"						
-		,"Bomber = 3,10"
+		,"Bomber = 2,3"
 	},
 	{
 		"FighterForce"		

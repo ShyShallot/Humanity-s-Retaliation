@@ -586,7 +586,6 @@
 		<Affiliation>Neutral</Affiliation>
     </Marker>
 
-
     <Marker Name="Player_0_Position_Marker">
         <Text_ID> TEXT_SKIRMISH_PLAYER_POSITION </Text_ID>
         <Is_Marker> Yes </Is_Marker>
@@ -809,7 +808,7 @@
 		<Is_Decoration>Yes</Is_Decoration>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
 		
-	 </Marker>
+	</Marker>
 
 
 

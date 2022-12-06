@@ -265,7 +265,7 @@
 	
 	<HardPoint_Target_Reticle_Enemy_Screen_Size> 0.025 </HardPoint_Target_Reticle_Enemy_Screen_Size>
 
-	<HardPoint_Target_Reticle_Friendly_Screen_Size> 0.025 </HardPoint_Target_Reticle_Friendly_Screen_Size>
+	<HardPoint_Target_Reticle_Friendly_Screen_Size> 0.002 </HardPoint_Target_Reticle_Friendly_Screen_Size>
 
 	<!-- -->
 
@@ -2036,30 +2036,30 @@
 
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Transport, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Bomber, 0.65 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Fighter, 0.65 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Hero_Transport, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Transport, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Bomber, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Fighter, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Hero_Transport, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Corellian_Corvette, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Missile_Cruiser, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Tartan, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Interdictor, 3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Corellian_Gunboat, 3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Nebulon_B, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Acclamator, 3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Pirate_Frigate, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Acclamator, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Pirate_Frigate, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Satellite, 2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Frigate, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Victory_Class, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Assault_Frigate, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Calamari_Cruiser, 0.55 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Star_Destroyer, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Calamari_Cruiser, 0.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Star_Destroyer, 0.6 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Station, 0.5 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Capital, 0.5</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Frigate, 0.85</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Corvette, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Fighter, 0.75</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_SSD, 0.2 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Capital, 0.8</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Frigate, 1.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Corvette, 1.1</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_Fighter, 1.2</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Shield_SSD, 0.5 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_Vengeance, 0.75 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_MC30_Frigate, 2 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_UNSC_Frigate, Armor_SSD, 0.15 </Damage_To_Armor_Mod>

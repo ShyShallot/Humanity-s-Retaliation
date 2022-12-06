@@ -2618,8 +2618,8 @@
     <HardPoint Name="UNSC_HALC_AP_01">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_01_BONE</Attachment_Bone>
@@ -2648,8 +2648,8 @@
     <HardPoint Name="UNSC_HALC_AP_02">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_02_BONE</Attachment_Bone>
@@ -2678,8 +2678,8 @@
     <HardPoint Name="UNSC_HALC_AP_03">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_03_BONE</Attachment_Bone>
@@ -2708,8 +2708,8 @@
     <HardPoint Name="UNSC_HALC_AP_04">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_04_BONE</Attachment_Bone>
@@ -2738,8 +2738,8 @@
     <HardPoint Name="UNSC_HALC_AP_05">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_05_BONE</Attachment_Bone>
@@ -2768,8 +2768,8 @@
     <HardPoint Name="UNSC_HALC_AP_06">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
             <Health>450.0</Health>          
 
             <Attachment_Bone>HP_HALC_ARCHER_06_BONE</Attachment_Bone>

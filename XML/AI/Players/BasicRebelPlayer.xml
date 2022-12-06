@@ -3,7 +3,6 @@
 
 	<Name> BasicRebel </Name>
 
-
 	<Personality>
 		<Focus> .5 </Focus>
 		<Aggressiveness> .5 </Aggressiveness>

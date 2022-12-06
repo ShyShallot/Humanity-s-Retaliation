@@ -4,8 +4,8 @@
 	<Name> BasicEmpire </Name>
 	
 	<Personality>
-		<Focus> .5 </Focus>
-		<Aggressiveness> .5 </Aggressiveness>
+		<Focus> .8 </Focus>
+		<Aggressiveness> 1.0 </Aggressiveness>
 	</Personality>
 
     <GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>

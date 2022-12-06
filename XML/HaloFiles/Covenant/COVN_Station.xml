@@ -20,6 +20,7 @@
 			Empire,
 				Tarasque_Squadron,
 				Cerastes_Squadron,
+				COVN_CAR,
 				ES_Level_Two_Starbase_Upgrade,
 				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -92,6 +93,7 @@
 				Tarasque_Squadron,
 				Cerastes_Squadron,
 				COVN_CAR,
+				COVN_CRS,
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Level_Three_Starbase_Upgrade,
 				ES_Self_Destruct_Station,

@@ -55,7 +55,7 @@ function Definitions()
 	{
 		"MainForce"
 		,"DenyHeroAttach"
-		,"Bomber | Corvette | Frigate = 2, 10"
+		,"Bomber | Corvette | Frigate = 2, 2"
 	}
 	}
 	RequiredCategories = {"Bomber | Corvette | Frigate "}

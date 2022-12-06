@@ -13,7 +13,7 @@
 		<Scale_Factor>1.1</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
-		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
+		<Collision_Box_Modifier>6.0</Collision_Box_Modifier>
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
@@ -308,7 +308,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
 		<Fires_Forward>no</Fires_Forward>
-		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
+		<Collision_Box_Modifier>6.0</Collision_Box_Modifier>
 		<Max_Lift>3</Max_Lift>
 		<Max_Speed>6.5</Max_Speed>
 		<Min_Speed>1.0</Min_Speed>
@@ -596,7 +596,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
 		<Fires_Forward>no</Fires_Forward>
-		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
+		<Collision_Box_Modifier>6.0</Collision_Box_Modifier>
 		<Max_Lift>3</Max_Lift>
 		<Max_Speed>7.5</Max_Speed>
 		<Min_Speed>2.0</Min_Speed>
@@ -842,7 +842,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
 		<Fires_Forward>yes</Fires_Forward>
-		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
+		<Collision_Box_Modifier>6.0</Collision_Box_Modifier>
 		<Max_Lift>3</Max_Lift>
 		<Max_Speed>6.5</Max_Speed>
 		<Min_Speed>0.5</Min_Speed>
@@ -1143,7 +1143,7 @@
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
-		<Collision_Box_Modifier>2.5</Collision_Box_Modifier>
+		<Collision_Box_Modifier>6.0</Collision_Box_Modifier>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>

@@ -1091,7 +1091,7 @@
 		<Encyclopedia_Text> TEXT_HALO_ARCHER_PLATFORM_ENC </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> TEXT_HALO_ARCHER_PLATFORM_ENC </MP_Encyclopedia_Text>
 		<SpaceBehavior> TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL </SpaceBehavior>
-
+		<Space_Model_Name>UNSC_ARCHER_PLATFORM.ALO</Space_Model_Name>
 
 		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
@@ -1266,10 +1266,10 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
-				UC_Empire_Mineral_Extractor, 
+				UC_Empire_Mineral_Extractor,
 			
 			Rebel,
-				UC_Rebel_Mineral_Extractor
+				UC_Rebel_Mineral_Extractor,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Text_ID> TEXT_ASTEROID_MINING_FACILITY </Text_ID>

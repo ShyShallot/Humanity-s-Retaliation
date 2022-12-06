@@ -18,7 +18,7 @@
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-    
+
     </HardPoint>
 
     <HardPoint Name="COVN_SER_02">
@@ -58,6 +58,7 @@
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
     </HardPoint>
 
+    <!-- Cerastes Hardpoints -->
     <HardPoint Name="COVN_CER_01">
         <Type> HARD_POINT_WEAPON_TORPEDO</Type>
         <Is_Targetable>No</Is_Targetable>

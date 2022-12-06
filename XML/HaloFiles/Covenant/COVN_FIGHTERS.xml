@@ -16,7 +16,7 @@
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
-		<Collision_Box_Modifier>5.5</Collision_Box_Modifier>
+		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
@@ -291,7 +291,7 @@
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
-		<Collision_Box_Modifier>5.5</Collision_Box_Modifier>
+		<Collision_Box_Modifier>8.5</Collision_Box_Modifier>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
@@ -502,8 +502,7 @@
 		<Select_Box_Scale>15</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
-		<Mouse_Collide_Override_Sphere_Radius> 20.0 </Mouse_Collide_Override_Sphere_Radius>
-		<Collision_Box_Modifier>5.5</Collision_Box_Modifier>
+		<Collision_Box_Modifier>8.0</Collision_Box_Modifier>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.99</Mass>
@@ -538,14 +537,15 @@
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Number_per_Squadron>3</Number_per_Squadron>
-		<Build_Cost_Credits>70</Build_Cost_Credits>
-		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 
-		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Guard_Chase_Range>400.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
@@ -581,7 +581,8 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask>Fighter | AntiFighter | AntiBomber</CategoryMask>
+
+		<CategoryMask>Bomber | AntiFrigate</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>I_BUTTON_CERASTES.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -589,14 +590,13 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Min_Speed_Fraction_For_Turn>0.8</Min_Speed_Fraction_For_Turn>
-		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 		<Minimum_Follow_Distance>20.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>75</AI_Combat_Power>
-		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
@@ -651,8 +651,8 @@
 
 		<FormationOrder>3</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Guard_Chase_Range>400.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
@@ -695,7 +695,7 @@
 	
 		<Icon_Name />
 		
-		<CategoryMask>Fighter | AntiFighter | AntiBomber</CategoryMask>
+		<CategoryMask>Bomber | AntiFrigate </CategoryMask>
 		<Hyperspace>yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	</Container>

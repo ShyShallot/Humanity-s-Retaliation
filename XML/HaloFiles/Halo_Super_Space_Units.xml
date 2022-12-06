@@ -17,7 +17,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.6</Max_Speed>
+		<Max_Speed>0.4</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -198,7 +198,7 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>24500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>17500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -234,7 +234,7 @@
 		<Armor_Type> Armor_SSD </Armor_Type>
 		<Shield_Armor_Type>Shield_SSD</Shield_Armor_Type>
 
-		<Max_Speed>0.4</Max_Speed>
+		<Max_Speed>0.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -374,8 +374,8 @@
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>30000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>70</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>19850</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>

@@ -593,9 +593,9 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>1.2</Max_Speed>
+		<Max_Speed>1.65</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-450.0</Layer_Z_Adjust>
@@ -742,14 +742,14 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>8400</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>5150</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>9</Population_Value>
+		<Population_Value>6</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_VINDICATION">

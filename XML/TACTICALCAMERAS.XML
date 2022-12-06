@@ -96,7 +96,7 @@
 		<Yaw_Per_Mouse_Unit>1.5</Yaw_Per_Mouse_Unit>
 
 		<Fov_Default>70.0</Fov_Default>
-		<Fov_Max>90.0</Fov_Max>
+		<Fov_Max>80.0</Fov_Max>
 		<Fov_Min>60.0</Fov_Min>
 		<Fov_Smooth_Time>0.1</Fov_Smooth_Time>
 		<Fov_Per_Mouse_Unit>0.0</Fov_Per_Mouse_Unit>
