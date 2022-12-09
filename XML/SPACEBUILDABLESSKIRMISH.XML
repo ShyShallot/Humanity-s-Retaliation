@@ -177,9 +177,9 @@
 	
 	<SpaceBuildable Name="UC_Rebel_Defense_Satellite_Laser">
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HALO_SMAC_PLATFORM</Text_ID>
-		<Encyclopedia_Text> TEXT_HALO_SMAC_PLATFORM_ENC </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> TEXT_HALO_SMAC_PLATFORM_ENC </MP_Encyclopedia_Text>
+		<Text_ID>TEXT_HALO_MK33_PLATFORM</Text_ID>
+		<Encyclopedia_Text> TEXT_HALO_MK33_PLATFORM_ENC </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_HALO_MK33_PLATFORM_ENC </MP_Encyclopedia_Text>
 
 		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Laser </Tactical_Buildable_Constructed>
 		<Tactical_Build_Cost_Multiplayer> 1400 </Tactical_Build_Cost_Multiplayer>
@@ -627,26 +627,23 @@
 		<Victory_Relevant>No</Victory_Relevant>
 	</SpaceBuildable>
 
-	<SpaceBuildable Name="Rebel_Defense_Satellite_Laser"> <!-- SMAC Platform -->
+	<SpaceBuildable Name="Rebel_Defense_Satellite_Laser"> <!-- MK33 Platform -->
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
-		<Projectile_Types>Proj_UNSC_MAC_SHELL_LIGHT</Projectile_Types>
-		<Text_ID>TEXT_HALO_SMAC_PLATFORM</Text_ID>
-		<Encyclopedia_Text> TEXT_HALO_SMAC_PLATFORM_ENC </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> TEXT_HALO_SMAC_PLATFORM_ENC </MP_Encyclopedia_Text>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
-		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+		<Text_ID>TEXT_HALO_MK33_PLATFORM</Text_ID>
+		<Encyclopedia_Text> TEXT_HALO_MK33_PLATFORM_ENC </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_HALO_MK33_PLATFORM_ENC </MP_Encyclopedia_Text>
+		<SpaceBehavior> TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL </SpaceBehavior>
+		<Space_Model_Name>UNSC_TURRET_PLATFORM.ALO</Space_Model_Name>
+		<Scale_Factor>9.5</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>1800</Tactical_Health>
+		<Select_Box_Scale>10</Select_Box_Scale>
+		<Hardpoints>
+			UNSC_TURRET_PLATFORM_01, UNSC_TURRET_PLATFORM_02, UNSC_TURRET_PLATFORM_03, UNSC_TURRET_PLATFORM_04
+		</Hardpoints>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1450.0</Targeting_Max_Attack_Distance>
 	</SpaceBuildable>
 
 
@@ -1034,7 +1031,7 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.35</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>3.5</Projectile_Fire_Recharge_Seconds>
 		
-		<Space_FOW_Reveal_Range>1750.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 	
 		<Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
@@ -1092,19 +1089,13 @@
 		<MP_Encyclopedia_Text> TEXT_HALO_ARCHER_PLATFORM_ENC </MP_Encyclopedia_Text>
 		<SpaceBehavior> TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL </SpaceBehavior>
 		<Space_Model_Name>UNSC_ARCHER_PLATFORM.ALO</Space_Model_Name>
-
-		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 8.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-		<Projectile_Damage>17.5</Projectile_Damage>
-		<Projectile_Types>Proj_UNSC_Ship_Missile</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>20</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.6</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>12.5</Projectile_Fire_Recharge_Seconds>
+		<Scale_Factor>9.5</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>1500</Tactical_Health>
+		<HardPoints>
+			UNSC_ARCHER_PLATFORM_01,UNSC_ARCHER_PLATFORM_02,UNSC_ARCHER_PLATFORM_03,UNSC_ARCHER_PLATFORM_04
+		</HardPoints>
+		<Select_Box_Scale>10</Select_Box_Scale>
 		<Affiliation>Rebel</Affiliation>
 	</SpaceBuildable>
 

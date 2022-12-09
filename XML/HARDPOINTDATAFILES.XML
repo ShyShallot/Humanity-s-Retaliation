@@ -15,6 +15,7 @@
 	<File>HaloFiles\Hardpoints\UNSC\UNSC_Fighter_HP.xml</File>
 	<File>HaloFiles\Hardpoints\UNSC\UNSC_INFINITY_HP.xml</File>
 	<File>HaloFiles\Hardpoints\UNSC\UNSC_Station_Hardpoints.xml</File>
+	<File>HaloFiles\Hardpoints\UNSC\UNSC_BUILDINGS.xml</File>
 	<!-- Covenant Hardpoints-->
 	<File>HaloFiles\Hardpoints\Covenant\COVN_Capital_HP.xml</File>
 	<File>HaloFiles\Hardpoints\Covenant\COVN_CAS_HP.xml</File>
@@ -23,3 +24,4 @@
 	<File>HaloFiles\Hardpoints\Covenant\COVN_Frigate_HP.xml</File>
 	<File>HaloFiles\Hardpoints\Covenant\COVIE_Station_Hardpoints.xml</File>
 </Hard_Point_Files>
+ 
