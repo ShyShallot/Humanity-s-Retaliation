@@ -182,7 +182,7 @@
 		<MP_Encyclopedia_Text> TEXT_HALO_MK33_PLATFORM_ENC </MP_Encyclopedia_Text>
 
 		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Laser </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 1400 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1100 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 
@@ -642,6 +642,7 @@
 		<Hardpoints>
 			UNSC_TURRET_PLATFORM_01, UNSC_TURRET_PLATFORM_02, UNSC_TURRET_PLATFORM_03, UNSC_TURRET_PLATFORM_04
 		</Hardpoints>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1450.0</Targeting_Max_Attack_Distance>
 	</SpaceBuildable>
@@ -1097,6 +1098,7 @@
 		</HardPoints>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Affiliation>Rebel</Affiliation>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 	</SpaceBuildable>
 
 
