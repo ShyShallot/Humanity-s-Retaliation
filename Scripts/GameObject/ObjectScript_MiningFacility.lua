@@ -32,12 +32,8 @@ function State_Init(message)
         end
     elseif message == OnUpdate then
         DebugMessage("%s -- In OnUpdate", tostring(Script))
-        if Object.Get_Type() == unsc_facility then
-            DebugMessage("%s -- Player faction is UNSC", tostring(Script))
-            credits_to_give, time_to_sleep = UNSC_Credits_To_Give()
-        elseif Object.Get_Type() == covie_facility then
-            DebugMessage("%s -- Player Faction is Covie", tostring(Script))
-            credits_to_give, time_to_sleep = Covie_Credits_To_Give()
+        if Object.Get_Type() == unsc_facility or Object.Get_Type() == covie_facility then
+            credits_to_give, time_to_sleep = Credits_To_Give(player)
         else
             ScriptExit()
         end
@@ -59,28 +55,20 @@ end
 function Spawn_Transport() 
     DebugMessage("%s -- Spawning Transport", tostring(Script))
     if player.Get_Faction_Name() == "REBEL" then
-        DebugMessage("%s -- Player Faction is UNSC", tostring(Script))
-        transport_type = Find_Object_Type("UNSC_Mining_Transport")
-        DebugMessage("%s -- Transport Type", tostring(transport_type))
-        DebugMessage("%s -- Spawning Unit", tostring(Script))
-        transport = Spawn_Transport_From_Type(transport_type, Object, player)
-        DebugMessage("%s -- Found Transport", tostring(transport))
-        Service_Transport(transport, transport_table)
-        has_spawned = true
-        should_run = 1
-        Skirmish_Econ_Line(transport)
+        faction = "UNSC"
     else
-        DebugMessage("%s -- Player Faction is Covie", tostring(Script))
-        transport_type = Find_Object_Type("COVN_Mining_Transport")
-        DebugMessage("%s -- Transport Type", tostring(transport_type))
-        DebugMessage("%s -- Spawning Unit", tostring(Script))
-        transport = Spawn_Transport_From_Type(transport_type, Object, player)
-        DebugMessage("%s -- Found Transport", tostring(transport))
-        Service_Transport(transport, transport_table)
-        has_spawned = true
-        should_run = 1
-        Skirmish_Econ_Line(transport)
+        faction = "COVN"
     end
+    DebugMessage("%s -- Player Faction is " + faction, tostring(Script))
+    transport_type = Find_Object_Type(faction.."_Mining_Transport")
+    DebugMessage("%s -- Transport Type", tostring(transport_type))
+    DebugMessage("%s -- Spawning Unit", tostring(Script))
+    transport = Spawn_Transport_From_Type(transport_type, Object, player)
+    DebugMessage("%s -- Found Transport", tostring(transport))
+    Service_Transport(transport, transport_table)
+    has_spawned = true
+    should_run = 1
+    Skirmish_Econ_Line(transport)
 end
 
 function Skirmish_Econ_Line(transport)
@@ -124,62 +112,31 @@ function Skirmish_Econ_Line(transport)
     end
 end
 
-function Covie_Credits_To_Give()
-    covie_upgrade_l1 = Find_First_Object("ES_Increased_Supplies_L1_Upgrade")
-    covie_upgrade_l2 = Find_First_Object("ES_Increased_Supplies_L2_Upgrade")
-    if (not TestValid(covie_upgrade_l1) and (not TestValid(covie_upgrade_l2))) then
-        DebugMessage("%s -- Player has no Econ Upgrades", tostring(Script))
-        covie_credits_to_give = 600
-        sleepTime = 15
-        DebugMessage("%s -- Credits to give", tostring(covie_credits_to_give))
-        DebugMessage("%s -- Sleep Time", tostring(sleepTime))
-        return covie_credits_to_give, sleepTime
-    end
-    if TestValid(covie_upgrade_l1) and (not TestValid(covie_upgrade_l2)) then
-        DebugMessage("%s -- Player has Level 1 Econ Upgrade", tostring(Script))
-        covie_credits_to_give = 1250
-        sleepTime = 11
-        DebugMessage("%s -- Credits to give", tostring(covie_credits_to_give))
-        DebugMessage("%s -- Sleep Time", tostring(sleepTime))
-        return covie_credits_to_give, sleepTime
-    end
-    if TestValid(covie_upgrade_l2) then
-        DebugMessage("%s -- Player has Level 2 Econ Upgrade", tostring(Script))
-        covie_credits_to_give = 1600
-        sleepTime = 8
-        DebugMessage("%s -- Credits to give", tostring(covie_credits_to_give))
-        DebugMessage("%s -- Sleep Time", tostring(sleepTime))
-        return covie_credits_to_give, sleepTime
-    end
-end
-
-function UNSC_Credits_To_Give()
-    unsc_upgrade_l1 = Find_First_Object("RS_Increased_Supplies_L1_Upgrade")
-    unsc_upgrade_l2 = Find_First_Object("RS_Increased_Supplies_L2_Upgrade")
-    if (not TestValid(unsc_upgrade_l1) and (not TestValid(unsc_upgrade_l2))) then
-        DebugMessage("%s -- Player has no Econ Upgrades", tostring(Script))
-        unsc_credits_to_give = 1350
-        sleepTime = 15
-        DebugMessage("%s -- Credits to give", tostring(unsc_credits_to_give))
-        DebugMessage("%s -- Sleep Time", tostring(sleepTime))
-        return unsc_credits_to_give, sleepTime
-    end
-    if TestValid(unsc_upgrade_l1) and (not TestValid(unsc_upgrade_l2)) then
-        DebugMessage("%s -- Player has Level 1 Econ Upgrade", tostring(Script))
-        unsc_credits_to_give = 1650
-        sleepTime = 11
-        DebugMessage("%s -- Credits to give", tostring(unsc_credits_to_give))
-        DebugMessage("%s -- Sleep Time", tostring(sleepTime))
-        return unsc_credits_to_give, sleepTime
-    end
-    if TestValid(unsc_upgrade_l2) then
-        DebugMessage("%s -- Player has Level 2 Econ Upgrade", tostring(Script))
-        unsc_credits_to_give = 2150
-        sleepTime = 8
-        DebugMessage("%s -- Credits to give", tostring(unsc_credits_to_give))
-        DebugMessage("%s -- Sleep Time", tostring(sleepTime))
-        return unsc_credits_to_give, sleepTime
-    end
+function Credits_To_Give(player)
+    if(player.Get_Faction_Name() == "REBEL"){
+        faction = "RS"
+    } else {faction = "ES"}
+    upgrade_l1 = Find_First_Object(faction.."_Increased_Supplies_L1_Upgrade")
+    upgrade_l2 = Find_First_Object(faction.."_Increased_Supplies_L2_Upgrade")
+    upgrade_l3 = Find_First_Object(faction.."_Increased_Supplies_L3_Upgrade")
+    upgrade_l4 = Find_First_Object(faction.."_Increased_Supplies_L4_Upgrade")
+    credits_to_give = 1000
+    sleepTime = 15
+    if(TestValid(upgrade_l4)){
+        credits_to_give = 2000
+        sleepTime = 7
+        return credits_to_give, sleepTime
+    }
+    if(TestValid(upgrade_l3)){
+        credits_to_give = 1650
+        sleepTime = 9
+        return credits_to_give, sleepTime
+    }
+    if(TestValid(upgrade_l2)){
+        credits_to_give = 1350
+        sleepTime = 12
+    }
+    return credits_to_give, sleepTime
 end
 
 function Transport_Arrive(target_location, object, ability_name, sleepTime, credits)
