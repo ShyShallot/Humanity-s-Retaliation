@@ -14,7 +14,7 @@
             <Fire_Projectile_Type>Proj_Covie_Fighter</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
@@ -52,7 +52,7 @@
             <Fire_Projectile_Type>Proj_Covie_Fighter</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.7</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>500.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>

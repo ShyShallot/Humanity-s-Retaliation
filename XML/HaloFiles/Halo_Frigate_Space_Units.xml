@@ -1827,8 +1827,8 @@
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>3650</Shield_Points>
-		<Tactical_Health>4500</Tactical_Health>
+		<Shield_Points>3000</Shield_Points>
+		<Tactical_Health>2000</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Max_Rate_Of_Roll>1.5</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>
@@ -2068,8 +2068,8 @@
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>2600</Shield_Points>
-		<Tactical_Health>2650</Tactical_Health>
+		<Shield_Points>2000</Shield_Points>
+		<Tactical_Health>1300</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Max_Rate_Of_Roll>1.8</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>30</Bank_Turn_Angle>

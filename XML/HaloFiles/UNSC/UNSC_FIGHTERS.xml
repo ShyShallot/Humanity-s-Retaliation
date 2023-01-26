@@ -200,7 +200,7 @@
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
 		<Create_Team_Type>Longsword_Squadron_Container </Create_Team_Type>
      	<Max_Squad_Size> 6 </Max_Squad_Size>
-			
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
