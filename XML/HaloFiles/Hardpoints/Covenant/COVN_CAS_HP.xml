@@ -5,7 +5,7 @@
             <Tooltip_Text>COVN_BFG</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1300.0</Health>
+            <Health>360.0</Health>
             <Attachment_Bone>HP_HUGEFUCKINGLASER</Attachment_Bone>
             <Collision_Mesh>HP_HUGEFUCKINGLASER</Collision_Mesh>
             <Blast_Ability_Fire_Projectile_Type>Proj_Plasma_Lance</Blast_Ability_Fire_Projectile_Type>
@@ -41,7 +41,7 @@
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>550.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_MT_01_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_MT_01_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_MT_01</Fire_Bone_A>
@@ -63,7 +63,7 @@
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>550.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_MT_02_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_MT_02_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_MT_02</Fire_Bone_A>
@@ -85,7 +85,7 @@
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>550.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_MT_03_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_MT_03_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_MT_03</Fire_Bone_A>
@@ -107,7 +107,7 @@
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>550.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_MT_04_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_MT_04_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_MT_04</Fire_Bone_A>
@@ -129,7 +129,7 @@
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>550.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_MT_05_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_MT_05_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_MT_05</Fire_Bone_A>
@@ -151,7 +151,7 @@
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>550.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_MT_06_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_MT_06_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_MT_06</Fire_Bone_A>
@@ -173,7 +173,7 @@
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>550.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_MT_07_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_MT_07_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_MT_07</Fire_Bone_A>
@@ -195,7 +195,7 @@
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>550.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_MT_08_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_MT_08_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_MT_08</Fire_Bone_A>
@@ -217,7 +217,7 @@
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>550.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_MT_09_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_MT_09_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_MT_09</Fire_Bone_A>
@@ -239,7 +239,7 @@
             <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>550.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_MT_10_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_MT_10_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_MT_10</Fire_Bone_A>
@@ -261,7 +261,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>450.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_AA_01_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_AA_01_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_AA_01</Fire_Bone_A>
@@ -290,7 +290,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>450.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_AA_02_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_AA_02_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_AA_02</Fire_Bone_A>
@@ -319,7 +319,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>450.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_AA_03_BONE</Attachment_Bone>
             <Collision_Mesh>HP_CAS_AA_03_BONE</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_AA_03</Fire_Bone_A>
@@ -348,7 +348,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>450.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_AA_04</Attachment_Bone>
             <Collision_Mesh>HP_CAS_AA_04</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_AA_04</Fire_Bone_A>
@@ -377,7 +377,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>450.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_AA_05</Attachment_Bone>
             <Collision_Mesh>HP_CAS_AA_05</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_AA_05</Fire_Bone_A>
@@ -406,7 +406,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>450.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_AA_06</Attachment_Bone>
             <Collision_Mesh>HP_CAS_AA_06</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_AA_06</Fire_Bone_A>
@@ -435,7 +435,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>450.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_AA_07</Attachment_Bone>
             <Collision_Mesh>HP_CAS_AA_07</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_AA_07</Fire_Bone_A>
@@ -464,7 +464,7 @@
             <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>450.0</Health>
+            <Health>280.0</Health>
             <Attachment_Bone>HP_CAS_AA_08</Attachment_Bone>
             <Collision_Mesh>HP_CAS_AA_08</Collision_Mesh>
 			<Fire_Bone_A>FB_CAS_AA_08</Fire_Bone_A>
@@ -492,7 +492,7 @@
 			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1400.0</Health>            
+            <Health>350.0</Health>            
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -508,7 +508,7 @@
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1250.0</Health>            
+            <Health>350.0</Health>            
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -523,7 +523,7 @@
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1250.0</Health>            
+            <Health>350.0</Health>            
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -538,7 +538,7 @@
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1250.0</Health>            
+            <Health>350.0</Health>            
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -553,7 +553,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
+        <Health>230.0</Health>		
         <Attachment_Bone>HP_CAS_HANGER_01_BONE</Attachment_Bone>             
 		<Collision_Mesh>HP_CAS_HANGER_01_BONE</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -565,7 +565,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
+        <Health>350.0</Health>		
         <Attachment_Bone>HP_CAS_HANGER_02_BONE</Attachment_Bone>             
 		<Collision_Mesh>HP_CAS_HANGER_02_BONE</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -577,7 +577,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
+        <Health>350.0</Health>		
         <Attachment_Bone>HP_CAS_HANGER_03_BONE</Attachment_Bone>             
 		<Collision_Mesh>HP_CAS_HANGER_03_BONE</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -589,7 +589,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
+        <Health>350.0</Health>		
         <Attachment_Bone>HP_CAS_HANGER_04_BONE</Attachment_Bone>             
 		<Collision_Mesh>HP_CAS_HANGER_04_BONE</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -602,7 +602,7 @@
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>750.0</Health>
+            <Health>280.0</Health>
 
             <Model_To_Attach>COVN_CAS_HEAVYPLASMA_01.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -643,7 +643,7 @@
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>750.0</Health>
+            <Health>280.0</Health>
 
             <Model_To_Attach>COVN_CAS_HEAVYPLASMA_02.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -684,7 +684,7 @@
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>750.0</Health>
+            <Health>280.0</Health>
 
             <Model_To_Attach>COVN_CAS_HEAVYPLASMA_03.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -725,7 +725,7 @@
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>750.0</Health>
+            <Health>280.0</Health>
 
             <Model_To_Attach>COVN_CAS_HEAVYPLASMA_04.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -766,7 +766,7 @@
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>750.0</Health>
+            <Health>280.0</Health>
 
             <Model_To_Attach>COVN_CAS_HEAVYPLASMA_05.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -807,7 +807,7 @@
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>750.0</Health>
+            <Health>280.0</Health>
 
             <Model_To_Attach>COVN_CAS_HEAVYPLASMA_06.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -848,7 +848,7 @@
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>750.0</Health>
+            <Health>280.0</Health>
 
             <Model_To_Attach>COVN_CAS_HEAVYPLASMA_07.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -889,7 +889,7 @@
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>750.0</Health>
+            <Health>280.0</Health>
 
             <Model_To_Attach>COVN_CAS_HEAVYPLASMA_08.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -930,7 +930,7 @@
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>750.0</Health>
+            <Health>280.0</Health>
 
             <Model_To_Attach>COVN_CAS_HEAVYPLASMA_09.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -971,7 +971,7 @@
             <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>750.0</Health>
+            <Health>280.0</Health>
 
             <Model_To_Attach>COVN_CAS_HEAVYPLASMA_10.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>

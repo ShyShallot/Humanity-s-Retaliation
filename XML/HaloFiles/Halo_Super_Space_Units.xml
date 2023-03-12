@@ -259,8 +259,8 @@
 		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>11500</Shield_Points>
-		<Tactical_Health>22000</Tactical_Health>
+		<Shield_Points>16000</Shield_Points>
+		<Tactical_Health>11000</Tactical_Health>
 		<Shield_Refresh_Rate>450</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>

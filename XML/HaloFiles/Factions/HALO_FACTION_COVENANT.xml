@@ -295,7 +295,7 @@
 
 		<!-- Empire: Desert land maps: Music events for battle -->
 		<Music_Event_List_Battle> Desert, Desert_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
- 
+
 		<!-- Empire: Forest land maps: Music events for battle -->
 		<Music_Event_List_Battle> Forest, Temperate_Land_Empire_Battle_Music_Event </Music_Event_List_Battle>
 

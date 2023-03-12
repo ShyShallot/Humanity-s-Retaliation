@@ -1000,8 +1000,8 @@
 		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>6500</Shield_Points>
-		<Tactical_Health>4000</Tactical_Health>
+		<Shield_Points>7500</Shield_Points>
+		<Tactical_Health>5000</Tactical_Health>
 		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -1212,7 +1212,7 @@
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -1407,8 +1407,8 @@
 		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>7500</Shield_Points>
-		<Tactical_Health>5000</Tactical_Health>
+		<Shield_Points>6500</Shield_Points>
+		<Tactical_Health>4000</Tactical_Health>
 		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -1588,7 +1588,7 @@
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>4000</Shield_Points>
-		<Tactical_Health>2500</Tactical_Health>
+		<Tactical_Health>3000</Tactical_Health>
 		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>

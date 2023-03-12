@@ -1887,8 +1887,8 @@
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Shield_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Transport, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Bomber, 0.8 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Fighter, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Bomber, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Fighter, 0.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Hero_Transport, 0.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Corellian_Corvette, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Turbolaser_Fighter, Armor_Missile_Cruiser, 5 </Damage_To_Armor_Mod>
