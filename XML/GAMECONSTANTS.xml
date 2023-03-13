@@ -1609,7 +1609,7 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Shield_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Armor_Transport, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Armor_Bomber, 0.8 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Armor_Fighter, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Armor_Fighter, 1.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Armor_Hero_Transport, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Armor_Corellian_Corvette, 1.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Light, Armor_Missile_Cruiser, 1 </Damage_To_Armor_Mod>

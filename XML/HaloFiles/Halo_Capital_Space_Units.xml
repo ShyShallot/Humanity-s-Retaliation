@@ -1010,7 +1010,7 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>11000</Build_Cost_Credits>
+		<Build_Cost_Credits>13500</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
 		<AI_Combat_Power>8000</AI_Combat_Power>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
@@ -1143,7 +1143,7 @@
 		</Unit_Abilities_Data>
 		<Lua_Script>DesperateStrike</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>8560</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>11400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>48</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1417,7 +1417,7 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>11000</Build_Cost_Credits>
+		<Build_Cost_Credits>8200</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
 		<AI_Combat_Power>8500</AI_Combat_Power>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
@@ -1527,7 +1527,7 @@
 		<Population_Value>13</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>11500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>9200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>52</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1597,7 +1597,7 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>11000</Build_Cost_Credits>
+		<Build_Cost_Credits>8200</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
 		<AI_Combat_Power>8000</AI_Combat_Power>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
@@ -1711,7 +1711,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>7560</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>7300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>55</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
