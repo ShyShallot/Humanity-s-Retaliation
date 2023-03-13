@@ -26,7 +26,7 @@
 
     <HardPoint Name="HP_CAS_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
-			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Targetable>False</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
