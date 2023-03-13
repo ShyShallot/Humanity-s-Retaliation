@@ -284,7 +284,7 @@
 
     <HardPoint Name="HP_CRS_REACTOR"> <!-- Because the the Boardpoint takes ROOT bone, any ship with boarding abilities has to have a special reactor bone-->
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
-			<Is_Targetable>Yes</Is_Targetable>
+			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>HP_REACTOR</Attachment_Bone>

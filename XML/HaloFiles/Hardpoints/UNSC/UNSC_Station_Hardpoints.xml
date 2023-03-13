@@ -5,7 +5,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_01.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -44,7 +44,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_02.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -83,7 +83,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_03.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -122,7 +122,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_04.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -161,7 +161,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_05.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -200,7 +200,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_06.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -239,7 +239,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_07.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -278,7 +278,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_1_M33_08.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -317,7 +317,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_2_M33_09.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -356,7 +356,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_2_M33_10.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -395,7 +395,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_2_M33_11.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -434,7 +434,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_2_M33_12.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -473,7 +473,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_13.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -512,7 +512,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_14.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -551,7 +551,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_15.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -590,7 +590,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_16.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -629,7 +629,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_17.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -668,7 +668,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_18.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -707,7 +707,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_19.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -746,7 +746,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_20.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -785,7 +785,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_21.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -824,7 +824,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_22.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -863,7 +863,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_23.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -902,7 +902,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_3_M33_24.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -941,7 +941,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_25.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -980,7 +980,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_26.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1019,7 +1019,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_27.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1058,7 +1058,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_28.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1097,7 +1097,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_29.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1136,7 +1136,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_30.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1175,7 +1175,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_31.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1214,7 +1214,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_4_M33_32.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1253,7 +1253,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_33.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1292,7 +1292,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_34.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1331,7 +1331,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_35.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1370,7 +1370,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_36.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1409,7 +1409,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_37.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -1448,7 +1448,7 @@
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>
+        <Health>1700.0</Health>
 
         <Model_To_Attach>UNSC_STATION_TIER_5_M33_38.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -2516,7 +2516,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_08</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_08</Fire_Bone_B>
@@ -2535,7 +2535,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>7150050.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_09</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_09</Fire_Bone_B>
@@ -2554,7 +2554,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_10</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_10</Fire_Bone_B>
@@ -2573,7 +2573,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_11</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_11</Fire_Bone_B>
@@ -2592,7 +2592,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_12</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_12</Fire_Bone_B>
@@ -2611,7 +2611,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_13</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_13</Fire_Bone_B>
@@ -2630,7 +2630,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_14</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_14</Fire_Bone_B>
@@ -2649,7 +2649,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_15</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_15</Fire_Bone_B>
@@ -2668,7 +2668,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_16</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_16</Fire_Bone_B>
@@ -2687,7 +2687,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_17</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_17</Fire_Bone_B>
@@ -2706,7 +2706,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_18</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_18</Fire_Bone_B>
@@ -2725,7 +2725,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_19</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_19</Fire_Bone_B>
@@ -2744,7 +2744,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_20</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_20</Fire_Bone_B>
@@ -2763,7 +2763,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_21</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_21</Fire_Bone_B>
@@ -2782,7 +2782,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_22</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_22</Fire_Bone_B>
@@ -2801,7 +2801,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_23</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_23</Fire_Bone_B>
@@ -2820,7 +2820,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_24</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_24</Fire_Bone_B>
@@ -2839,7 +2839,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_25</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_25</Fire_Bone_B>
@@ -2858,7 +2858,7 @@
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>750.0</Health>
+        <Health>1500.0</Health>
 
         <Fire_Bone_A>HP_ARCHER_26</Fire_Bone_A>
         <Fire_Bone_B>HP_ARCHER_26</Fire_Bone_B>
@@ -2878,7 +2878,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_3_BREAKWATER_01.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2919,7 +2919,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_3_BREAKWATER_02.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -2960,7 +2960,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_3_BREAKWATER_03.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3001,7 +3001,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_3_BREAKWATER_04.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3042,7 +3042,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_05.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3083,7 +3083,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_06.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3124,7 +3124,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_07.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3165,7 +3165,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_08.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3206,7 +3206,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_09.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3247,7 +3247,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_10.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3288,7 +3288,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_11.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3329,7 +3329,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_12.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3370,7 +3370,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_13.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3411,7 +3411,7 @@
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1200.0</Health>
+            <Health>2400.0</Health>
 
             <Model_To_Attach>UNSC_STATION_TIER_4_BREAKWATER_14.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -3451,7 +3451,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>1750.0</Health>		
+        <Health>3500.0</Health>		
         <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -3463,7 +3463,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>1750.0</Health>		
+        <Health>3500.0</Health>		
         <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -3475,7 +3475,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>1750.0</Health>		
+        <Health>3500.0</Health>		
         <Attachment_Bone>HP_HANGAR_03</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGAR_03</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -3487,7 +3487,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>1750.0</Health>		
+        <Health>3500.0</Health>		
         <Attachment_Bone>HP_HANGAR_04</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGAR_04</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -3499,7 +3499,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>1750.0</Health>		
+        <Health>3500.0</Health>		
         <Attachment_Bone>HP_HANGAR_05</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGAR_05</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -3511,7 +3511,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>1750.0</Health>		
+        <Health>3500.0</Health>		
         <Attachment_Bone>HP_HANGAR_06</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGAR_06</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -3523,7 +3523,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>1750.0</Health>		
+        <Health>3500.0</Health>		
         <Attachment_Bone>HP_HANGAR_07</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGAR_07</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -3535,7 +3535,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>1750.0</Health>		
+        <Health>3500.0</Health>		
         <Attachment_Bone>HP_HANGAR_08</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGAR_08</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>

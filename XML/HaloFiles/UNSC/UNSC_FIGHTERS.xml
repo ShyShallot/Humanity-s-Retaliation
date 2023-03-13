@@ -611,7 +611,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Shield_Points>45</Shield_Points>
-		<Tactical_Health>60</Tactical_Health>
+		<Tactical_Health>150</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -624,7 +624,7 @@
 
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Number_per_Squadron>3</Number_per_Squadron>
+		<Number_per_Squadron>5</Number_per_Squadron>
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
@@ -1014,7 +1014,7 @@
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Y_Wing</SFXEvent_Build_Complete>
 
-		<FormationOrder>3</FormationOrder>
+		<FormationOrder>5</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>

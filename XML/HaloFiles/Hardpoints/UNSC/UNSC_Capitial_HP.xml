@@ -28,7 +28,7 @@
 
     <HardPoint Name="HP_POA_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
-			<Is_Targetable>False</Is_Targetable>
+			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
@@ -829,7 +829,7 @@
 
     <HardPoint Name="HP_AUTUMN_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
-			<Is_Targetable>False</Is_Targetable>
+			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
@@ -2579,7 +2579,7 @@
 
     <HardPoint Name="HP_MARA_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
-			<Is_Targetable>False</Is_Targetable>
+			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
@@ -3076,7 +3076,7 @@
 
     <HardPoint Name="HP_HALC_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
-			<Is_Targetable>False</Is_Targetable>
+			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>
@@ -3128,7 +3128,7 @@
 
     <HardPoint Name="HP_VINDICATION_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
-			<Is_Targetable>False</Is_Targetable>
+			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
 			<Model_To_Attach/>
 			<Attachment_Bone>ROOT</Attachment_Bone>

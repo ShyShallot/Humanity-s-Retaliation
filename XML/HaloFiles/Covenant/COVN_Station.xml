@@ -3,7 +3,7 @@
     <!-- Covenant Skirmish Starbases -->
 	<StarBase Name="Skirmish_Empire_Star_Base_1">
 		<Variant_Of_Existing_Type>Empire_Star_Base_1</Variant_Of_Existing_Type>
-		<Shield_Points>1800</Shield_Points>
+		<Shield_Points>3000</Shield_Points>
 		<Tactical_Health>2000</Tactical_Health>
 		<Is_Community_Property>Yes</Is_Community_Property>
 
@@ -75,7 +75,7 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_2">
 		<Variant_Of_Existing_Type>Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>4000</Shield_Points>
+		<Shield_Points>6000</Shield_Points>
 		<Tactical_Health>8000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
@@ -148,7 +148,7 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_3">
 		<Variant_Of_Existing_Type>Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>7000</Shield_Points>
+		<Shield_Points>9000</Shield_Points>
 		<Tactical_Health>5000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
@@ -226,7 +226,7 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_4">
 		<Variant_Of_Existing_Type>Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>9000</Shield_Points>
+		<Shield_Points>12000</Shield_Points>
 		<Tactical_Health>7600</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
@@ -307,7 +307,7 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_5">
 		<Variant_Of_Existing_Type>Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Shield_Points>12000</Shield_Points>
+		<Shield_Points>18000</Shield_Points>
 		<Tactical_Health>10800</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->

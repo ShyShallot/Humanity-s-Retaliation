@@ -377,7 +377,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>10</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1250.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -404,7 +404,7 @@
             <Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>10</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1250.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
