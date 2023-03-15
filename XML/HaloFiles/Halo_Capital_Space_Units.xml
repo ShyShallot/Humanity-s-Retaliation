@@ -376,7 +376,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
-		<!--<Unit_Abilities_Data SubObjectList="Yes">-->
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
 				<!--<Type>INTERDICT</Type>
@@ -550,7 +550,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
-		<!--<Unit_Abilities_Data SubObjectList="Yes">-->
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
 				<!--<Type>INTERDICT</Type>
@@ -724,7 +724,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
-		<!--<Unit_Abilities_Data SubObjectList="Yes">-->
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
 				<!--<Type>INTERDICT</Type>
@@ -1327,7 +1327,7 @@
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
-		<!--<Unit_Abilities_Data SubObjectList="Yes">-->
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
 				<!--<Type>INTERDICT</Type>
@@ -1507,7 +1507,7 @@
 		<Radar_Icon_Name>I_RADAR_CPV.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
-		<!--<Unit_Abilities_Data SubObjectList="Yes">-->
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
 				<!--<Type>INTERDICT</Type>
@@ -1699,7 +1699,7 @@
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 		<Population_Value>14</Population_Value>
 
-		<!--<Unit_Abilities_Data SubObjectList="Yes">-->
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
 				<!--<Type>INTERDICT</Type>
 				<Disable_Movement>No</Disable_Movement>
