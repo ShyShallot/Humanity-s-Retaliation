@@ -632,7 +632,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		
 		<HardPoints>
-			HP_MUSASHI_REACTOR, UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04, UNSC_MUSASHI_05  
+			<!--HP_MUSASHI_REACTOR,--> UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04, UNSC_MUSASHI_05  
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -716,15 +716,15 @@
                 <Alternate_Description_Text>HALO_PROTECTION_ENC</Alternate_Description_Text>
 			</Unit_Ability>
 
-			<Unit_Ability> <!-- Reactor Ability stuff-->
-				<Type>INTERDICT</Type>
+			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
+				<!--<Type>INTERDICT</Type>
 				<Disable_Movement>No</Disable_Movement>
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
+			</Unit_Ability>-->
 			
 		</Unit_Abilities_Data>
 
@@ -831,7 +831,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		
 		<HardPoints>
-			HP_POSEIDON_REACTOR, UNSC_POSEIDON_EG, UNSC_POSEIDON_01, UNSC_POSEIDON_02, UNSC_POSEIDON_03, UNSC_POSEIDON_T_01, UNSC_POSEIDON_T_02, UNSC_POSEIDON_T_03, UNSC_POSEIDON_T_04, UNSC_POSEIDON_T_05, UNSC_POSEIDON_T_06
+			<!--HP_POSEIDON_REACTOR,--> UNSC_POSEIDON_EG, UNSC_POSEIDON_01, UNSC_POSEIDON_02, UNSC_POSEIDON_03, UNSC_POSEIDON_T_01, UNSC_POSEIDON_T_02, UNSC_POSEIDON_T_03, UNSC_POSEIDON_T_04, UNSC_POSEIDON_T_05, UNSC_POSEIDON_T_06
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -916,15 +916,15 @@
                 <Alternate_Description_Text>HALO_PROTECTION_ENC</Alternate_Description_Text>
 			</Unit_Ability>
 
-			<Unit_Ability> <!-- Reactor Ability stuff-->
-				<Type>INTERDICT</Type>
+			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
+				<!--<Type>INTERDICT</Type>
 				<Disable_Movement>No</Disable_Movement>
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
+			</Unit_Ability>-->
 			
 		</Unit_Abilities_Data>
 
@@ -1257,7 +1257,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<HardPoints>
-			HP_STRIDENT_REACTOR, UNSC_STRIDENT_01, UNSC_STRIDENT_02, UNSC_STRIDENT_03, UNSC_STRIDENT_04, UNSC_STRIDENT_05, UNSC_STRIDENT_06, UNSC_STRIDENT_AP_01, UNSC_STRIDENT_AP_02, UNSC_STRIDENT_MAC, UNSC_STRIDENT_EG, HP_STRIDENT_SHIELD, UNSC_STRIDENT_MK33_01, UNSC_STRIDENT_MK33_02, UNSC_STRIDENT_MK33_03, UNSC_STRIDENT_MK33_04, UNSC_STRIDENT_MK33_05, UNSC_STRIDENT_MK33_06
+			<!--HP_STRIDENT_REACTOR,--> UNSC_STRIDENT_01, UNSC_STRIDENT_02, UNSC_STRIDENT_03, UNSC_STRIDENT_04, UNSC_STRIDENT_05, UNSC_STRIDENT_06, UNSC_STRIDENT_AP_01, UNSC_STRIDENT_AP_02, UNSC_STRIDENT_MAC, UNSC_STRIDENT_EG, HP_STRIDENT_SHIELD, UNSC_STRIDENT_MK33_01, UNSC_STRIDENT_MK33_02, UNSC_STRIDENT_MK33_03, UNSC_STRIDENT_MK33_04, UNSC_STRIDENT_MK33_05, UNSC_STRIDENT_MK33_06
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -1338,15 +1338,15 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		
-			<Unit_Ability> <!-- Reactor Ability stuff-->
-				<Type>INTERDICT</Type>
+			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
+				<!--<Type>INTERDICT</Type>
 				<Disable_Movement>No</Disable_Movement>
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
+			</Unit_Ability>-->
 
 		</Unit_Abilities_Data> 
 		
@@ -1877,7 +1877,7 @@
 
 		<!-- Hardpoints -->
 		<HardPoints> 
-			HP_CRS_REACTOR, HP_BOARD_POINT, HP_CRS_AF_01, HP_CRS_AF_02, HP_CRS_AF_03, HP_CRS_AF_04, HP_CRS_AF_05, HP_CRS_AF_06, HP_CRS_AS_01, HP_CRS_AS_02, HP_CRS_AS_03, HP_CRS_AS_04, HP_CRS_ENGINES, HP_CRS_HANGAR_01, HP_CRS_HANGAR_02, HP_CRS_SHIELD
+			<!--HP_CRS_REACTOR,--> HP_BOARD_POINT, HP_CRS_AF_01, HP_CRS_AF_02, HP_CRS_AF_03, HP_CRS_AF_04, HP_CRS_AF_05, HP_CRS_AF_06, HP_CRS_AS_01, HP_CRS_AS_02, HP_CRS_AS_03, HP_CRS_AS_04, HP_CRS_ENGINES, HP_CRS_HANGAR_01, HP_CRS_HANGAR_02, HP_CRS_SHIELD
 		</HardPoints>
 		
 		<!-- Unit Targeting -->
@@ -1961,15 +1961,15 @@
 				<Alternate_Icon_Name>i_sa_blast.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 
-			<Unit_Ability> <!-- Reactor Ability stuff-->
-				<Type>INTERDICT</Type>
+			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
+				<!--<Type>INTERDICT</Type>
 				<Disable_Movement>No</Disable_Movement>
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
+			</Unit_Ability>-->
 
 		</Unit_Abilities_Data>
 
