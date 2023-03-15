@@ -24,7 +24,7 @@
             
     </HardPoint>
 
-    <HardPoint Name="HP_CAS_REACTOR">
+ <!--   <HardPoint Name="HP_CAS_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
@@ -34,7 +34,7 @@
             <Health>12000.0</Health>
             <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             
-     </HardPoint>
+     </HardPoint>-->
 
     <HardPoint Name="HP_CAS_01">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>

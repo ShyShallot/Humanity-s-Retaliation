@@ -17,7 +17,7 @@
             <Damage_Decal />
     </HardPoint>
 
-    <HardPoint Name="HP_CCS_REACTOR">
+ <!--   <HardPoint Name="HP_CCS_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
@@ -27,7 +27,7 @@
             <Health>6000.0</Health>
             <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             
-     </HardPoint>
+     </HardPoint>-->
 
     <HardPoint Name="HP_CCS_HANGER_01">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -926,7 +926,7 @@
             <Collision_Mesh>HP_RCS_SHIELD</Collision_Mesh>
     </HardPoint>
 
-    <HardPoint Name="HP_RCS_REACTOR">
+ <!--   <HardPoint Name="HP_RCS_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
@@ -936,7 +936,7 @@
             <Health>4000.0</Health>
             <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             
-    </HardPoint>
+    </HardPoint>-->
 
     <!-- CPV Class Hardpoints-->
     <HardPoint Name="HP_CPV_HC_01">
@@ -1668,7 +1668,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_CPV_REACTOR">
+ <!--   <HardPoint Name="HP_CPV_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
@@ -1678,7 +1678,7 @@
             <Health>5000.0</Health>
             <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             
-     </HardPoint>
+     </HardPoint>-->
 
     <HardPoint Name="HP_CPV_ENGINES">
 			<Type> HARD_POINT_ENGINE </Type>
@@ -1726,7 +1726,7 @@
             <Damage_Decal />
     </HardPoint>
 
-    <HardPoint Name="HP_DDS_REACTOR">
+<!--    <HardPoint Name="HP_DDS_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>No</Is_Targetable>
 			<Is_Destroyable>Yes</Is_Destroyable>
@@ -1736,7 +1736,7 @@
             <Health>3500.0</Health>
             <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
             
-    </HardPoint>
+    </HardPoint> -->
 
     <HardPoint Name="HP_DDS_SHIELD">
 			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
