@@ -386,8 +386,8 @@
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
-		</Unit_Abilities_Data>-->
+			</Unit_Ability>-->
+		</Unit_Abilities_Data>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_AUTUMN_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRUISER </Encyclopedia_Unit_Class>
@@ -560,8 +560,8 @@
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
-		</Unit_Abilities_Data>-->
+			</Unit_Ability>-->
+		</Unit_Abilities_Data>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_MARATHON_CLASS TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
@@ -734,8 +734,8 @@
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
-		</Unit_Abilities_Data>-->
+			</Unit_Ability>-->
+		</Unit_Abilities_Data>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_HALCYON TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER </Encyclopedia_Unit_Class>
@@ -1337,8 +1337,8 @@
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
-		</Unit_Abilities_Data> -->
+			</Unit_Ability>-->
+		</Unit_Abilities_Data>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_RCS TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARMORED_CRUISER </Encyclopedia_Unit_Class>
