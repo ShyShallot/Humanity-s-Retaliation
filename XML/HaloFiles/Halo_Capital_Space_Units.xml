@@ -179,9 +179,9 @@
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
+			</Unit_Ability> -->
 
-		</Unit_Abilities_Data>-->
+		</Unit_Abilities_Data>
 
 		
 		<Abilities SubObjectList="Yes">
@@ -929,8 +929,8 @@
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>	
-		</Unit_Abilities_Data>-->
+			</Unit_Ability>	-->
+		</Unit_Abilities_Data>
 		<Lua_Script>ObjectScript_Firepower</Lua_Script>
 		
 
@@ -1139,8 +1139,8 @@
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
-		</Unit_Abilities_Data>-->
+			</Unit_Ability>-->
+		</Unit_Abilities_Data>
 		<Lua_Script>DesperateStrike</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>11400</Tactical_Build_Cost_Multiplayer>
@@ -1338,7 +1338,7 @@
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>
-		</Unit_Abilities_Data>-->
+		</Unit_Abilities_Data> -->
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_RCS TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARMORED_CRUISER </Encyclopedia_Unit_Class>
@@ -1517,8 +1517,8 @@
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
-		</Unit_Abilities_Data>-->
+			</Unit_Ability>-->
+		</Unit_Abilities_Data>
 
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CPV TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
@@ -1708,8 +1708,8 @@
 				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
-		</Unit_Abilities_Data>-->
+			</Unit_Ability>-->
+		</Unit_Abilities_Data>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>7300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>55</Tactical_Build_Time_Seconds>
