@@ -1000,10 +1000,12 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>Baselard, Baselard, Baselard</Squadron_Units>
+		<Squadron_Units>Baselard, Baselard, Baselard, Baselard, Baselard</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,0.0,30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,0.0,-30.0</Squadron_Offsets>
 		<Icon_Name>I_BUTTON_BASELARD.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_BROAD.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>

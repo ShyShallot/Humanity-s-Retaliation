@@ -33,7 +33,7 @@
             <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
@@ -72,7 +72,7 @@
             <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
@@ -101,14 +101,14 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>5.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>6.2</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.2</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.7</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>900.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
@@ -140,8 +140,8 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>5.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>6.2</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.2</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.7</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>900.0</Fire_Range_Distance>
@@ -179,14 +179,14 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>5.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>6.2</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.2</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.7</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>900.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
@@ -218,14 +218,14 @@
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>5.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>6.2</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.2</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.7</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>900.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
@@ -261,6 +261,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="UNSC_MAKO_AP_02">
@@ -290,6 +291,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="UNSC_MAKO_AP_03">
@@ -319,6 +321,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="UNSC_MAKO_AP_04">
@@ -348,6 +351,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+            <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_MAKO_HANGER_01">
