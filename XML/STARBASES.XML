@@ -34,7 +34,7 @@
 		<Next_Level_Base>Empire_Star_Base_2</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>750</Autoresolve_Health>
 		<Damage>35</Damage>
@@ -131,7 +131,7 @@
 		<Space_Model_Name>EB_station_break_break_01.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -166,7 +166,7 @@
 		<Next_Level_Base>Empire_Star_Base_3</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>1250</Autoresolve_Health>
 		<Damage>45</Damage>
@@ -278,7 +278,7 @@
 		<Space_Model_Name>EB_station_break_break_02.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -313,7 +313,7 @@
 		<Next_Level_Base>Empire_Star_Base_4</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>1750</Autoresolve_Health>
 		<Damage>55</Damage>
@@ -420,7 +420,7 @@
 		<Space_Model_Name>EB_station_break_break_03.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -455,7 +455,7 @@
 		<Next_Level_Base>Empire_Star_Base_5</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>2250</Autoresolve_Health>
 		<Damage>65</Damage>
@@ -559,7 +559,7 @@
 		<Space_Model_Name>EB_station_break_break_04.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -595,7 +595,7 @@
 		<Next_Level_Base />
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>2750</Autoresolve_Health>
 		<Damage>75</Damage>
@@ -712,7 +712,7 @@
 		<Space_Model_Name>EB_station_break_break_05.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -741,7 +741,7 @@
 		<Next_Level_Base />
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>750</Autoresolve_Health>
 		<Damage>35</Damage>
@@ -815,7 +815,7 @@
 		<Size_Value>10</Size_Value>
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>1</Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
@@ -909,7 +909,7 @@
 		<Space_Model_Name>NB_APBase_D.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 40 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -940,7 +940,7 @@
 		<Next_Level_Base>Rebel_Star_Base_2</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -1054,7 +1054,7 @@
 		<Space_Model_Name>RB_station_01_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -1088,7 +1088,7 @@
 		<Next_Level_Base>Rebel_Star_Base_3</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -1204,7 +1204,7 @@
 		<Space_Model_Name>RB_station_02_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -1238,7 +1238,7 @@
 		<Next_Level_Base>Rebel_Star_Base_4</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -1360,7 +1360,7 @@
 		<Space_Model_Name>RB_station_03_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -1394,7 +1394,7 @@
 		<Next_Level_Base>Rebel_Star_Base_5</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -1528,7 +1528,7 @@
 		<Space_Model_Name>RB_station_04_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -1562,7 +1562,7 @@
 		<Next_Level_Base />
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -1706,7 +1706,7 @@
 		<Space_Model_Name>RB_station_05_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
