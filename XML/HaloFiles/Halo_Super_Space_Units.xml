@@ -224,7 +224,7 @@
 		<Select_Box_Scale>350</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Scale_Factor>3.3</Scale_Factor>
+		<Scale_Factor>1.85</Scale_Factor>
 		<Mass>2</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -234,9 +234,9 @@
 		<Armor_Type> Armor_SSD </Armor_Type>
 		<Shield_Armor_Type>Shield_SSD</Shield_Armor_Type>
 
-		<Max_Speed>0.2</Max_Speed>
+		<Max_Speed>0.35</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-400.0</Layer_Z_Adjust>

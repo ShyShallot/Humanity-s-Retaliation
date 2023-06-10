@@ -4212,7 +4212,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_production1.tga</Icon_Name>
+		<Icon_Name>I_SELF_DESTRUCT.TGA</Icon_Name>
 		
 		<Text_ID> TEXT_UPGRADE_SELF_DESTRUCT </Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PUSSY </Encyclopedia_Unit_Class>
@@ -4238,7 +4238,7 @@
 		<Next_Upgrade_Level_Type/>
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_production1.tga</Icon_Name>
+		<Icon_Name>I_SELF_DESTRUCT.TGA</Icon_Name>
 		
 		<Text_ID> TEXT_UPGRADE_SELF_DESTRUCT </Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PUSSY </Encyclopedia_Unit_Class>
