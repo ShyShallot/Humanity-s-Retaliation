@@ -1444,7 +1444,7 @@
 			</Force_Healing_Ability>
 
 			<Income_Stream_Ability Name="E_Mineral_Extractor_Income_Stream">
-				<Base_Income_Value>310</Base_Income_Value>
+				<Base_Income_Value>180</Base_Income_Value>
 				<Base_Interval_In_Secs>12</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -1479,7 +1479,7 @@
 		<Abilities SubObjectList="Yes">			
 			<Income_Stream_Ability Name="R_Mineral_Extractor_Income_Stream">
 				<Base_Income_Value>180</Base_Income_Value>
-				<Base_Interval_In_Secs>13</Base_Interval_In_Secs>
+				<Base_Interval_In_Secs>12</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
