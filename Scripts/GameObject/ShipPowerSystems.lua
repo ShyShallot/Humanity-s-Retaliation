@@ -34,18 +34,6 @@ function Definitions()
 end
 
 function State_Init(message) 
-    /*if message == OnEnter then
-        DebugMessage("%s -- Creating Unit List Covenant", tostring(Script))
-        reactor_unit_list_e = Unit_Reactor_Table(exploded_units_e) -- first define our unit reactor list
-        DebugMessage("%s -- Creating Unit List UNSC", tostring(Script))
-        reactor_unit_list_r = Unit_Reactor_Table(exploded_units_r) -- first define our unit reactor list
-    elseif message == OnUpdate then
-        Reactor_Table_Function_E()
-        DebugMessage("%s -- Updating Unit List Covenant", tostring(Script))
-        Reactor_Table_Function_R()
-        DebugMessage("%s -- Updating Unit List UNSC", tostring(Script))
-        Sleep(1)
-    end*/
     ScriptExit()
 end
 

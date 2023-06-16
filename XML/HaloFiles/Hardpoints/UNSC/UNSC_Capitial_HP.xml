@@ -3126,6 +3126,21 @@
             <Damage_Decal />
     </HardPoint>
 
+    <HardPoint Name="UNSC_VINDICATION_SHIELDS">
+			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>1000.0</Health>            
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>ROOT</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>ROOT</Collision_Mesh>
+            <Damage_Decal />
+    </HardPoint>
+
     <!--<HardPoint Name="HP_VINDICATION_REACTOR">
 			<Type>HARD_POINT_GRAVITY_WELL</Type>
 			<Is_Targetable>No</Is_Targetable>

@@ -3,7 +3,7 @@
 <FrigateUnits>
 	<SpaceUnit Name="UNSC_GLADIUS">
 		<Text_ID>TEXT_UNSC_GLADIUS</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship </Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against> Seraph Tarasque Cerastes</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Vengeance_Frigate </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_Gladius.ALO</Space_Model_Name>
@@ -22,7 +22,7 @@
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>3.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
@@ -199,7 +199,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>2.7</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
@@ -219,7 +219,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>1800</Tactical_Health> <!-- was 2800 -->
+		<Tactical_Health>4000</Tactical_Health> <!-- was 2800 -->
 		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -348,6 +348,21 @@
 				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
                 <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
 			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>8</Expiration_Seconds>
+				<Recharge_Seconds>90</Recharge_Seconds>
+				<Supports_Autofire>True</Supports_Autofire>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.65f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
+				<Alternate_Name_Text>HALO_LAST_DEFENSE</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_LAST_DEFENSE_ENC</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_SPREAD_OUT.TGA</Alternate_Icon_Name>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
 		
@@ -357,7 +372,7 @@
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2450</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2950</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -635,11 +650,11 @@
 			<!--HP_MUSASHI_REACTOR,--> UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04, UNSC_MUSASHI_05  
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 10</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 15</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_MUSASHI.tga</Icon_Name>
@@ -742,7 +757,7 @@
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>4550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -834,13 +849,11 @@
 			<!--HP_POSEIDON_REACTOR,--> UNSC_POSEIDON_EG, UNSC_POSEIDON_01, UNSC_POSEIDON_02, UNSC_POSEIDON_03, UNSC_POSEIDON_T_01, UNSC_POSEIDON_T_02, UNSC_POSEIDON_T_03, UNSC_POSEIDON_T_04, UNSC_POSEIDON_T_05, UNSC_POSEIDON_T_06
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 10</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 15</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 10</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_POSEIDON.tga</Icon_Name>
@@ -972,7 +985,7 @@
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1166,7 +1179,7 @@
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3050</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1367,7 +1380,7 @@
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1394,7 +1407,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>2.8</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.45</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
@@ -1532,10 +1545,10 @@
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 			
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.2f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.65f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.75f</Mod_Multiplier>
 				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,    1.3f</Mod_Multiplier>
 				<Supports_Autofire>True</Supports_Autofire>
 				<Recharge_Seconds>45</Recharge_Seconds>
@@ -1547,26 +1560,9 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
 
-			<Unit_Ability>
-				<Type>BLAST</Type>
-				<Recharge_Seconds>120.0</Recharge_Seconds>
-				<Alternate_Name_Text>HALO_FIRE_MAC</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_MAC_ENC</Alternate_Description_Text>
-				<GUI_Activated_Ability_Name> FIRE_MAC_CANNON </GUI_Activated_Ability_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
 		</Unit_Abilities_Data>
 			
 		<Abilities SubObjectList="Yes">
-			<Blast_Ability Name="FIRE_MAC_CANNON">
-				<Activation_Style> User_Input </Activation_Style>
-                <Charge_Up_Seconds>1</Charge_Up_Seconds>
-                <Damage_Multiplier>1</Damage_Multiplier>
-                <Charging_Effect />
-                <Charged_Effect />
-				<SFXEvent_Activate />
-			</Blast_Ability>
 
 		</Abilities>
 		<Lua_Script>ObjectScript_Firepower</Lua_Script>
@@ -1576,7 +1572,7 @@
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2150</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1603,7 +1599,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>3.4</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.45</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.85</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-45.0</Layer_Z_Adjust>
@@ -1662,7 +1658,7 @@
 
 		<Death_Clone>Damage_Normal, Halberd_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1600.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1750.0</Targeting_Max_Attack_Distance>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
@@ -1723,29 +1719,12 @@
 		
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<!-- Unit abilities description 
+		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			Primary ability 
-			<Unit_Ability>
-				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>120.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>FIRE_STALWART_MAC</GUI_Activated_Ability_Name> 
-				<Projectile_Types_Override>Proj_UNSC_MAC_SHELL_LIGHT</Projectile_Types_Override>
-				<Alternate_Name_Text>HALO_FIRE_MAC</Alternate_Name_Text>
-				<Alternate_Description_Text>HALO_FIRE_MAC_ENC</Alternate_Description_Text>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
+			
 
 		</Unit_Abilities_Data>
-		
-		<Abilities SubObjectList="Yes">
-			<Ion_Cannon_Shot_Attack_Ability Name="FIRE_STALWART_MAC">
-				<Activation_Style> User_Input </Activation_Style>
-				We only consider the following unit types "valid targets": 
-				<Applicable_Unit_Categories>Corvette | Frigate | Capital | Super | Structure</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-			</Ion_Cannon_Shot_Attack_Ability>
-		</Abilities>-->
+
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>

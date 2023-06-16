@@ -1,5 +1,20 @@
 <?xml version="1.0"?>
 <Markers>
+
+	<Marker Name="Custom_Cin">
+	<Text_ID>TEXT_ATTACKER_ENTRY_POSITION</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
+		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
+		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
+		<Behavior>MARKER, HINT</Behavior>
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
+		<Reveal_For_Attacker>false</Reveal_For_Attacker>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Neutral</Affiliation>
+		<Lua_Script>Custom_Cinematic</Lua_Script>
+	</Marker>
+
 	<Marker Name="Attacker Entry Position">
 		<Text_ID>TEXT_ATTACKER_ENTRY_POSITION</Text_ID>
 		<Is_Marker>Yes</Is_Marker>

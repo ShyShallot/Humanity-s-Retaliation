@@ -202,7 +202,7 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>8550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>10500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -568,7 +568,7 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>10500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>8150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -742,7 +742,7 @@
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5150</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -788,7 +788,7 @@
 		<Reinforcement_Prevention_Radius> 500 </Reinforcement_Prevention_Radius>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>0</Shield_Points>
+		<Shield_Points>4000</Shield_Points>
 		<Tactical_Health>11000</Tactical_Health> <!-- was 2800 -->
 		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
@@ -819,7 +819,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA, SHIELDED </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -833,7 +833,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<HardPoints>
-			<!--HP_VINDICATION_REACTOR,--> UNSC_VINDICATION_ENGINES, UNSC_VINDICATION_MK33_01, UNSC_VINDICATION_MK33_01_TURRET_R, UNSC_VINDICATION_MK33_01_TURRET_L, UNSC_VINDICATION_MK33_02, UNSC_VINDICATION_MK33_02_TURRET_R, UNSC_VINDICATION_MK33_02_TURRET_L, UNSC_VINDICATION_MK33_03, UNSC_VINDICATION_MK33_04, UNSC_VINDICATION_MK33_05, UNSC_VINDICATION_MK33_05_TURRET_R, UNSC_VINDICATION_MK33_05_TURRET_L, UNSC_VINDICATION_MK33_06, UNSC_VINDICATION_MK33_06_TURRET_R, UNSC_VINDICATION_MK33_06_TURRET_L, UNSC_VINDICATION_MK33_07, UNSC_VINDICATION_MK33_07_TURRET_R, UNSC_VINDICATION_MK33_07_TURRET_L, UNSC_VINDICATION_MK33_08, UNSC_VINDICATION_MK33_08_TURRET_R, UNSC_VINDICATION_MK33_08_TURRET_L, UNSC_VINDICATION_MK33_09, UNSC_VINDICATION_MK33_10, UNSC_VINDICATION_AP_01, UNSC_VINDICATION_AP_02, UNSC_VINDICATION_AP_03, UNSC_VINDICATION_AP_04, UNSC_VINDICATION_AP_05, UNSC_VINDICATION_AP_06, UNSC_VINDICATION_MAC
+			<!--HP_VINDICATION_REACTOR,-->UNSC_VINDICATION_SHIELDS, UNSC_VINDICATION_ENGINES, UNSC_VINDICATION_MK33_01, UNSC_VINDICATION_MK33_01_TURRET_R, UNSC_VINDICATION_MK33_01_TURRET_L, UNSC_VINDICATION_MK33_02, UNSC_VINDICATION_MK33_02_TURRET_R, UNSC_VINDICATION_MK33_02_TURRET_L, UNSC_VINDICATION_MK33_03, UNSC_VINDICATION_MK33_04, UNSC_VINDICATION_MK33_05, UNSC_VINDICATION_MK33_05_TURRET_R, UNSC_VINDICATION_MK33_05_TURRET_L, UNSC_VINDICATION_MK33_06, UNSC_VINDICATION_MK33_06_TURRET_R, UNSC_VINDICATION_MK33_06_TURRET_L, UNSC_VINDICATION_MK33_07, UNSC_VINDICATION_MK33_07_TURRET_R, UNSC_VINDICATION_MK33_07_TURRET_L, UNSC_VINDICATION_MK33_08, UNSC_VINDICATION_MK33_08_TURRET_R, UNSC_VINDICATION_MK33_08_TURRET_L, UNSC_VINDICATION_MK33_09, UNSC_VINDICATION_MK33_10, UNSC_VINDICATION_AP_01, UNSC_VINDICATION_AP_02, UNSC_VINDICATION_AP_03, UNSC_VINDICATION_AP_04, UNSC_VINDICATION_AP_05, UNSC_VINDICATION_AP_06, UNSC_VINDICATION_MAC
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -934,12 +934,12 @@
 		<Lua_Script>ObjectScript_Firepower</Lua_Script>
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_VINDICATION TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_VINDICATION TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_BATTLESHIP </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>10500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>11500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>42</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1238,11 +1238,11 @@
 		<Size_Value>8</Size_Value>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 18</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 5</Reserve_Spawned_Units_Tech_0>
 
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>

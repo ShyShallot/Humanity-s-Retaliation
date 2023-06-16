@@ -23,5 +23,6 @@
 	<File>HaloFiles\Hardpoints\Covenant\COVN_Fighter_HP.xml</File>
 	<File>HaloFiles\Hardpoints\Covenant\COVN_Frigate_HP.xml</File>
 	<File>HaloFiles\Hardpoints\Covenant\COVIE_Station_Hardpoints.xml</File>
+	<File>HaloFiles\Hardpoints\Covenant\COVN_PLATFORM.xml</File>
 </Hard_Point_Files>
  

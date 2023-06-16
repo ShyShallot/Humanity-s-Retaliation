@@ -863,8 +863,6 @@
 		*
 		(Function_Number_Resource_Structures_Space.Evaluate >= 1.0)
 		*
-		(Variable_Self.FriendlyForceUnnormalized {Parameter_Category = GameObjectCategoryType[Fighter | Bomber | Corvette | Frigate]} > 1000.0)
-		*
 		((Game.Age > 30.0) * (Variable_Self.BaseLevel == 1.0)
 		+
 		(Game.Age > 90.0) * (Variable_Self.BaseLevel == 2.0)
@@ -873,9 +871,9 @@
 		+
 		(Game.Age > 800.0) * (Variable_Self.BaseLevel == 4.0)
 		+
-		(5.0 > Variable_Self.BaseLevel) * (Variable_Self.FriendlyForce > (2.0 * Variable_Self.EnemyForce))
+		(5.0 > Variable_Self.BaseLevel) * (Variable_Self.FriendlyForce > (1.5 * Variable_Self.EnemyForce))
 		+
-		(5.0 > Variable_Self.BaseLevel) * (Variable_Self.EnemyForce > (2.0 * Variable_Self.FriendlyForce)))
+		(5.0 > Variable_Self.BaseLevel) * (Variable_Self.EnemyForce > (1.5 * Variable_Self.FriendlyForce)))
 	</Skirmish_Needs_New_Space_Station>
 
 	<Skirmish_Needs_New_Space_Station_With_Multiplier>

@@ -52,7 +52,7 @@ function Definitions()
 		, "TaskForceRequired"
 		, "DenySpecialWeaponAttach"
 		,"Corvette | Frigate = 2,5"
-		,"Fighter | Bomber = 2,5"
+		,"Fighter | Bomber = 1,2"
 	}
 	}
 

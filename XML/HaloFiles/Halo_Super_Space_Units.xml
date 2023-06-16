@@ -277,11 +277,11 @@
 		<Size_Value>8</Size_Value>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 5</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 16</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Seraph_Squadron, 14</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 12</Reserve_Spawned_Units_Tech_0>
 
 		
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>

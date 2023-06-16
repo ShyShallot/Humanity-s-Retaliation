@@ -221,11 +221,11 @@
 		<Projectile_Blast_Area_Range> 900 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>2</Max_Secs_For_AE_Delayed_Damage>
 
-		<Projectile_Stun_On_Detonation>Yes</Projectile_Stun_On_Detonation>
+		<!--<Projectile_Stun_On_Detonation>Yes</Projectile_Stun_On_Detonation>
 		<Projectile_Stun_Duration_Frames>500</Projectile_Stun_Duration_Frames>
 		<Projectile_Stun_Radius>800</Projectile_Stun_Radius>
 		<Projectile_Stun_Spawn_Effect> Stunned_Infantry </Projectile_Stun_Spawn_Effect> 									
-		<Projectile_Stun_Victims_Category_Mask> All </Projectile_Stun_Victims_Category_Mask>
+		<Projectile_Stun_Victims_Category_Mask> All </Projectile_Stun_Victims_Category_Mask>-->
 		
 		<!-- determines the range of barrage mode -->
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
@@ -412,6 +412,7 @@
 		<Projectile_Blast_Area_Range> 400 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
+		<AI_Combat_Power>1200</AI_Combat_Power>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_MAC_SHELL_LIGHT"> <!-- Used on Frigates and Things smaller than a capitial -->
@@ -442,6 +443,7 @@
 		<Projectile_Blast_Area_Range> 400 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
+		<AI_Combat_Power>1200</AI_Combat_Power>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_MAC_SHELL_EMPTY"> <!-- Test -->

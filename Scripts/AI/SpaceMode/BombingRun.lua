@@ -53,7 +53,7 @@ function Definitions()
 	},
 	{
 		"FighterForce"		
-		,"Fighter = 1,4"
+		,"Fighter = 1,2"
 	}
 	}
 

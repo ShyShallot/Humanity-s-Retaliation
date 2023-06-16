@@ -936,7 +936,7 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Reinforcement_Prevention_Radius> 1000 </Reinforcement_Prevention_Radius>
 		
-		<Tactical_Buildable_Objects_Multiplayer> 
+		<!--<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				Empire_Pirate_IPV,
 				Empire_Pirate_Frigate,
@@ -952,7 +952,7 @@
 				Jedi_Cruiser_U,
 				Underworld_Pirate_Fighter_Squadron,
 				Z95_Headhunter_Underworld_Squadron,
-		</Tactical_Buildable_Objects_Multiplayer>
+		</Tactical_Buildable_Objects_Multiplayer>-->
 		
 		<Tech_Level>0</Tech_Level>
 		
