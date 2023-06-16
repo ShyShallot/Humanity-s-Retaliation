@@ -207,6 +207,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Nuke_Explode_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Nuke_Explode_Space</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Nuke_Explode_Space</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Nuke_Explode_Space</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>600</AI_Combat_Power>
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
