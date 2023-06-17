@@ -891,9 +891,10 @@
 		<MP_Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET_SPACE</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
-		<Space_Model_Name>RV_SATALLITE_REPAIR.ALO</Space_Model_Name>
+		<Space_Model_Name>UNSC_REPAIR_PLATFORM.ALO</Space_Model_Name>
+		<Scale_Factor>9.5</Scale_Factor>
 		<Icon_Name>i_button_repair.tga</Icon_Name>
-		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Scale>20</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
