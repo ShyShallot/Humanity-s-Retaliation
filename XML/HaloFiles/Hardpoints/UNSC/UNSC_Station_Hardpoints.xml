@@ -37,7 +37,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -76,7 +78,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -115,7 +119,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -154,7 +160,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -193,7 +201,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -232,7 +242,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -271,7 +283,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -310,7 +324,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -349,7 +365,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -388,7 +406,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -427,7 +447,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_12">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -466,7 +488,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_13">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -505,7 +529,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_14">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -544,7 +570,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_15">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -583,7 +611,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_16">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -622,7 +652,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_17">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -661,7 +693,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_18">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -700,7 +734,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_19">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -739,7 +775,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_20">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -778,7 +816,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_21">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -817,7 +857,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_22">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -856,7 +898,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_23">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -895,7 +939,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_24">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -934,7 +980,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_25">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -973,7 +1021,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_26">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1012,7 +1062,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_27">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1051,7 +1103,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_28">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1090,7 +1144,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_29">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1129,7 +1185,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_30">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1168,7 +1226,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_31">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1207,7 +1267,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_32">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1246,7 +1308,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_33">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1285,7 +1349,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_34">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1324,7 +1390,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_35">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1363,7 +1431,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_36">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1402,7 +1472,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_37">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1441,7 +1513,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M33_38">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1480,7 +1554,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1519,7 +1595,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1558,7 +1636,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1597,7 +1677,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1636,7 +1718,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
     
     <HardPoint Name="CANNON_M66_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1675,7 +1759,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1714,7 +1800,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1753,7 +1841,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1792,7 +1882,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1831,7 +1923,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1870,7 +1964,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1909,7 +2005,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_12">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1948,7 +2046,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_13">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1987,7 +2087,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_14">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2026,7 +2128,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_15">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2065,7 +2169,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_16">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2104,7 +2210,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_17">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2143,7 +2251,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_18">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2182,7 +2292,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_19">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2221,7 +2333,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_20">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2260,7 +2374,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_21">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2299,7 +2415,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_22">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2338,7 +2456,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_M66_23">
         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2377,7 +2497,9 @@
         <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_01">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2396,7 +2518,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_02">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2415,7 +2539,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_03">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2434,7 +2560,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_04">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2453,7 +2581,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_05">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2472,7 +2602,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_06">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2491,7 +2623,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_07">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2510,7 +2644,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_08">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2529,7 +2665,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_09">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2548,7 +2686,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_10">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2567,7 +2707,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_11">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2586,7 +2728,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_12">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2605,7 +2749,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_13">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2624,7 +2770,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_14">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2643,7 +2791,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_15">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2662,7 +2812,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_16">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2681,7 +2833,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_17">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2700,7 +2854,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_18">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2719,7 +2875,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_19">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2738,7 +2896,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_20">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2757,7 +2917,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_21">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2776,7 +2938,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_22">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2795,7 +2959,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_23">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2814,7 +2980,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_24">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2833,7 +3001,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_25">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2852,7 +3022,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="ARCHER_HP_26">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -2871,7 +3043,9 @@
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2912,7 +3086,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_02">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2953,7 +3129,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_03">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2994,7 +3172,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_04">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3035,7 +3215,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_05">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3076,7 +3258,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_06">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3117,7 +3301,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_07">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3158,7 +3344,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_08">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3199,7 +3387,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_09">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3240,7 +3430,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_10">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3281,7 +3473,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_11">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3322,7 +3516,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_12">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3363,7 +3559,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_13">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3404,7 +3602,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="CANNON_BREAKWATER_14">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3445,7 +3645,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
         
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="STATION_HANGAR_01">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -3457,7 +3659,9 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="STATION_HANGAR_02">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -3469,7 +3673,9 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="STATION_HANGAR_03">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -3481,7 +3687,9 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="STATION_HANGAR_04">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -3493,7 +3701,9 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="STATION_HANGAR_05">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -3505,7 +3715,9 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="STATION_HANGAR_06">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -3517,7 +3729,9 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="STATION_HANGAR_07">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -3529,7 +3743,9 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="STATION_HANGAR_08">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -3541,5 +3757,7 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 </Station_Hardpoints>

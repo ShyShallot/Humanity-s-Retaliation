@@ -73,7 +73,7 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
@@ -92,7 +92,7 @@
 			UNSC_INFINITY_AP_13, UNSC_INFINITY_AP_14, UNSC_INFINITY_AP_15, UNSC_INFINITY_AP_16, UNSC_INFINITY_AP_17, UNSC_INFINITY_AP_18, 
 			UNSC_INFINITY_AP_19, UNSC_INFINITY_AP_20, UNSC_INFINITY_ARCHERT_01, UNSC_INFINITY_ARCHERT_02, UNSC_INFINITY_ARCHERT_03, 
 			UNSC_INFINITY_ARCHERT_04, UNSC_INFINITY_ARCHERT_05, UNSC_INFINITY_ARCHERT_06, UNSC_INFINITY_ARCHERT_07, UNSC_INFINITY_ARCHERT_08,
-			UNSC_INFINITY_ARCHERT_09, UNSC_INFINITY_ARCHERT_10, HP_INFINITY_REACTOR
+			UNSC_INFINITY_ARCHERT_09, UNSC_INFINITY_ARCHERT_10
 		</HardPoints>
 
 
@@ -179,16 +179,6 @@
 				<Supports_Autofire>True</Supports_Autofire>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
-			</Unit_Ability>
-		
-			<Unit_Ability> <!-- Reactor Ability stuff-->
-				<Type>INTERDICT</Type>
-				<Disable_Movement>No</Disable_Movement>
-				<SFXEvent_GUI_Unit_Ability_Activated/>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
-				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -389,7 +379,7 @@
 		<Tech_Level>4</Tech_Level>
 
 		<HardPoints> 
-			HP_CAS_REACTOR, HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25
+			HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25
 		</HardPoints>
 		<Population_Value>40</Population_Value>
 		<Reinforcement_Prevention_Radius> 900 </Reinforcement_Prevention_Radius>
@@ -409,16 +399,6 @@
                 <Alternate_Description_Text>HALO_FIRE_PLASMA_LANCE_ENC</Alternate_Description_Text>
 			</Unit_Ability>
 
-			<Unit_Ability> <!-- Reactor Ability stuff-->
-				<Type>INTERDICT</Type>
-				<Disable_Movement>No</Disable_Movement>
-				<SFXEvent_GUI_Unit_Ability_Activated/>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
-				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
-			</Unit_Ability>
-			
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">

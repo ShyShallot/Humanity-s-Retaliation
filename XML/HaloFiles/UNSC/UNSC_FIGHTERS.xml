@@ -144,7 +144,7 @@
 				<Activation_Style> User_Input </Activation_Style>
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Applicable_Unit_Types>Skirmish_Rebel_Star_Base_1,Skirmish_Rebel_Star_Base_2,Skirmish_Rebel_Star_Base_3,Skirmish_Rebel_Star_Base_4,Skirmish_Rebel_Star_Base_5,Skirmish_Empire_Star_Base_1,Skirmish_Empire_Star_Base_2,Skirmish_Empire_Star_Base_3,Skirmish_Empire_Star_Base_4,Skirmish_Empire_Star_Base_5</Applicable_Unit_Types>
 				<Activation_Max_Range>400.0</Activation_Max_Range>
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>

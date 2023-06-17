@@ -122,7 +122,7 @@
 	<SpaceBuildable Name="UC_Empire_Defense_Satellite_Laser">
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<Tactical_Buildable_Constructed> Empire_Defense_Satellite_Laser </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 875 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 950 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
@@ -182,7 +182,7 @@
 		<MP_Encyclopedia_Text> TEXT_HALO_MK33_PLATFORM_ENC </MP_Encyclopedia_Text>
 
 		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Laser </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 1100 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 950 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 
@@ -380,7 +380,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Repair </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 750 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1250 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
@@ -423,7 +423,7 @@
 		<Variant_Of_Existing_Type>UC_Rebel_Defense_Satellite_Repair</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed> Empire_Defense_Satellite_Repair </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 750 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1350 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
@@ -439,12 +439,12 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		
 		<Tactical_Buildable_Constructed> Empire_Defense_Satellite_Missile </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1450 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
 
-		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_MISSILE</Text_ID>
+		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_TORPEDO_COVN</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_MDS_build.ALO</Space_Model_Name>
@@ -482,8 +482,8 @@
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
-		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_PAD_00 </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_PAD_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_TORPEDO_COVN </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_TORPEDO_COVN </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -499,7 +499,7 @@
 		<MP_Encyclopedia_Text> TEXT_HALO_ARCHER_PLATFORM_ENC </MP_Encyclopedia_Text>
 
 		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Missile </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1500 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 
@@ -891,9 +891,10 @@
 		<MP_Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET_SPACE</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
-		<Space_Model_Name>RV_SATALLITE_REPAIR.ALO</Space_Model_Name>
+		<Space_Model_Name>UNSC_REPAIR_PLATFORM.ALO</Space_Model_Name>
+		<Scale_Factor>9.5</Scale_Factor>
 		<Icon_Name>i_button_repair.tga</Icon_Name>
-		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Scale>20</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
@@ -947,7 +948,7 @@
 				<Heal_Percent> 0.10 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
 				<Applicable_Unit_Categories>Fighter, Transport, Bomber, Corvette, Frigate, Capital, Hero</Applicable_Unit_Categories>
@@ -976,6 +977,9 @@
 	<SpaceBuildable Name="Empire_Defense_Satellite_Repair">
 		<Variant_Of_Existing_Type>Rebel_Defense_Satellite_Repair</Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
+		<Space_Model_Name>COVN_REPAIR_PLATFORM.ALO</Space_Model_Name>
+		<Scale_Factor>9.5</Scale_Factor>
+		<Select_Box_Scale>50</Select_Box_Scale>
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -987,24 +991,17 @@
 	<SpaceBuildable Name="Empire_Defense_Satellite_Missile">
 		<SpaceBehavior> TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, SHIELDED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL </SpaceBehavior>
 
-		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
-		<Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
-		<!--<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>-->
-		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
-		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_MISSILE</Text_ID>
+		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_TORPEDO_COVN</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Space_Model_Name>NV_MDS.ALO</Space_Model_Name>
+		<Space_Model_Name>COVN_TORPEDO_PLATFORM.ALO</Space_Model_Name>
 		<Icon_Name>i_button_mds.tga</Icon_Name>
-		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Scale>20</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
+		<Scale_Factor>9.5</Scale_Factor>
 		
 		<Shield_Points>500</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
@@ -1013,21 +1010,11 @@
 		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
 		<Damage>13</Damage>
 		
-		<Projectile_Types>Proj_Ship_Concussion_Missile_Satellite</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.35</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>3.5</Projectile_Fire_Recharge_Seconds>
+		<HardPoints>TORPEDO_PLATFORM_01,TORPEDO_PLATFORM_02,TORPEDO_PLATFORM_03,TORPEDO_PLATFORM_04</HardPoints>
 		
-		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
-	
-		<Fire_Inaccuracy_Distance> Fighter, 0.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 0.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 0.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 0.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
@@ -1054,8 +1041,8 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
-		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_00 </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_TORPEDO_COVN </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_TORPEDO_COVN </MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
