@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Station_Hardpoints>
-    <HardPoint Name="CANNON_M33_01"> <!-- Armature has M33's as M66 Names but use M33 models-->
+    <Hardpoint Name="CANNON_M33_01"> <!-- Armature has M33's as M66 Names but use M33 models-->
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -41,7 +41,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_02">
+    <Hardpoint Name="CANNON_M33_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -82,7 +82,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_03">
+    <Hardpoint Name="CANNON_M33_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -123,7 +123,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_04">
+    <Hardpoint Name="CANNON_M33_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -164,7 +164,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_05">
+    <Hardpoint Name="CANNON_M33_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -205,7 +205,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_06">
+    <Hardpoint Name="CANNON_M33_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -246,7 +246,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_07">
+    <Hardpoint Name="CANNON_M33_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -287,7 +287,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_08">
+    <Hardpoint Name="CANNON_M33_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -328,7 +328,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_09">
+    <Hardpoint Name="CANNON_M33_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -369,7 +369,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_10">
+    <Hardpoint Name="CANNON_M33_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -410,7 +410,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_11">
+    <Hardpoint Name="CANNON_M33_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -451,7 +451,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_12">
+    <Hardpoint Name="CANNON_M33_12">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -492,7 +492,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_13">
+    <Hardpoint Name="CANNON_M33_13">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -533,7 +533,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_14">
+    <Hardpoint Name="CANNON_M33_14">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -574,7 +574,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_15">
+    <Hardpoint Name="CANNON_M33_15">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -615,7 +615,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_16">
+    <Hardpoint Name="CANNON_M33_16">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -656,7 +656,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_17">
+    <Hardpoint Name="CANNON_M33_17">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -697,7 +697,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_18">
+    <Hardpoint Name="CANNON_M33_18">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -738,7 +738,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_19">
+    <Hardpoint Name="CANNON_M33_19">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -779,7 +779,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_20">
+    <Hardpoint Name="CANNON_M33_20">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -820,7 +820,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_21">
+    <Hardpoint Name="CANNON_M33_21">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -861,7 +861,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_22">
+    <Hardpoint Name="CANNON_M33_22">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -902,7 +902,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_23">
+    <Hardpoint Name="CANNON_M33_23">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -943,7 +943,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_24">
+    <Hardpoint Name="CANNON_M33_24">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -984,7 +984,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_25">
+    <Hardpoint Name="CANNON_M33_25">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1025,7 +1025,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_26">
+    <Hardpoint Name="CANNON_M33_26">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1066,7 +1066,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_27">
+    <Hardpoint Name="CANNON_M33_27">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1107,7 +1107,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_28">
+    <Hardpoint Name="CANNON_M33_28">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1148,7 +1148,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_29">
+    <Hardpoint Name="CANNON_M33_29">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1189,7 +1189,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_30">
+    <Hardpoint Name="CANNON_M33_30">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1230,7 +1230,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_31">
+    <Hardpoint Name="CANNON_M33_31">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1271,7 +1271,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_32">
+    <Hardpoint Name="CANNON_M33_32">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1312,7 +1312,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_33">
+    <Hardpoint Name="CANNON_M33_33">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1353,7 +1353,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_34">
+    <Hardpoint Name="CANNON_M33_34">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1394,7 +1394,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_35">
+    <Hardpoint Name="CANNON_M33_35">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1435,7 +1435,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_36">
+    <Hardpoint Name="CANNON_M33_36">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1476,7 +1476,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_37">
+    <Hardpoint Name="CANNON_M33_37">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1517,7 +1517,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M33_38">
+    <Hardpoint Name="CANNON_M33_38">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1558,7 +1558,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_01">
+    <Hardpoint Name="CANNON_M66_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -1599,7 +1599,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_02">
+    <Hardpoint Name="CANNON_M66_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -1640,7 +1640,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_03">
+    <Hardpoint Name="CANNON_M66_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -1681,7 +1681,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_04">
+    <Hardpoint Name="CANNON_M66_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -1722,7 +1722,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
     
-    <HardPoint Name="CANNON_M66_05">
+    <Hardpoint Name="CANNON_M66_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -1763,7 +1763,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_06">
+    <Hardpoint Name="CANNON_M66_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -1804,7 +1804,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_07">
+    <Hardpoint Name="CANNON_M66_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -1845,7 +1845,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_08">
+    <Hardpoint Name="CANNON_M66_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -1886,7 +1886,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_09">
+    <Hardpoint Name="CANNON_M66_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -1927,7 +1927,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_10">
+    <Hardpoint Name="CANNON_M66_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -1968,7 +1968,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_11">
+    <Hardpoint Name="CANNON_M66_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2009,7 +2009,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_12">
+    <Hardpoint Name="CANNON_M66_12">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2050,7 +2050,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_13">
+    <Hardpoint Name="CANNON_M66_13">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2091,7 +2091,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_14">
+    <Hardpoint Name="CANNON_M66_14">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2132,7 +2132,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_15">
+    <Hardpoint Name="CANNON_M66_15">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2173,7 +2173,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_16">
+    <Hardpoint Name="CANNON_M66_16">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2214,7 +2214,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_17">
+    <Hardpoint Name="CANNON_M66_17">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2255,7 +2255,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_18">
+    <Hardpoint Name="CANNON_M66_18">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2296,7 +2296,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_19">
+    <Hardpoint Name="CANNON_M66_19">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2337,7 +2337,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_20">
+    <Hardpoint Name="CANNON_M66_20">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2378,7 +2378,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_21">
+    <Hardpoint Name="CANNON_M66_21">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2419,7 +2419,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_22">
+    <Hardpoint Name="CANNON_M66_22">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2460,7 +2460,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_M66_23">
+    <Hardpoint Name="CANNON_M66_23">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_M66_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
@@ -2501,7 +2501,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_01">
+    <Hardpoint Name="ARCHER_HP_01">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -2522,7 +2522,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_02">
+    <Hardpoint Name="ARCHER_HP_02">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -2543,7 +2543,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_03">
+    <Hardpoint Name="ARCHER_HP_03">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -2564,7 +2564,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_04">
+    <Hardpoint Name="ARCHER_HP_04">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -2585,7 +2585,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_05">
+    <Hardpoint Name="ARCHER_HP_05">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -2606,7 +2606,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_06">
+    <Hardpoint Name="ARCHER_HP_06">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -2627,7 +2627,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_07">
+    <Hardpoint Name="ARCHER_HP_07">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -2648,7 +2648,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_08">
+    <Hardpoint Name="ARCHER_HP_08">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2669,7 +2669,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_09">
+    <Hardpoint Name="ARCHER_HP_09">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2690,7 +2690,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_10">
+    <Hardpoint Name="ARCHER_HP_10">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2711,7 +2711,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_11">
+    <Hardpoint Name="ARCHER_HP_11">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2732,7 +2732,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_12">
+    <Hardpoint Name="ARCHER_HP_12">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2753,7 +2753,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_13">
+    <Hardpoint Name="ARCHER_HP_13">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2774,7 +2774,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_14">
+    <Hardpoint Name="ARCHER_HP_14">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2795,7 +2795,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_15">
+    <Hardpoint Name="ARCHER_HP_15">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2816,7 +2816,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_16">
+    <Hardpoint Name="ARCHER_HP_16">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2837,7 +2837,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_17">
+    <Hardpoint Name="ARCHER_HP_17">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2858,7 +2858,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_18">
+    <Hardpoint Name="ARCHER_HP_18">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2879,7 +2879,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_19">
+    <Hardpoint Name="ARCHER_HP_19">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2900,7 +2900,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_20">
+    <Hardpoint Name="ARCHER_HP_20">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2921,7 +2921,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_21">
+    <Hardpoint Name="ARCHER_HP_21">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2942,7 +2942,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_22">
+    <Hardpoint Name="ARCHER_HP_22">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2963,7 +2963,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_23">
+    <Hardpoint Name="ARCHER_HP_23">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -2984,7 +2984,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_24">
+    <Hardpoint Name="ARCHER_HP_24">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -3005,7 +3005,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_25">
+    <Hardpoint Name="ARCHER_HP_25">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -3026,7 +3026,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="ARCHER_HP_26">
+    <Hardpoint Name="ARCHER_HP_26">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -3047,7 +3047,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_01">
+    <Hardpoint Name="CANNON_BREAKWATER_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3090,7 +3090,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_02">
+    <Hardpoint Name="CANNON_BREAKWATER_02">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3133,7 +3133,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_03">
+    <Hardpoint Name="CANNON_BREAKWATER_03">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3176,7 +3176,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_04">
+    <Hardpoint Name="CANNON_BREAKWATER_04">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3219,7 +3219,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_05">
+    <Hardpoint Name="CANNON_BREAKWATER_05">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3262,7 +3262,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_06">
+    <Hardpoint Name="CANNON_BREAKWATER_06">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3305,7 +3305,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_07">
+    <Hardpoint Name="CANNON_BREAKWATER_07">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3348,7 +3348,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_08">
+    <Hardpoint Name="CANNON_BREAKWATER_08">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3391,7 +3391,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_09">
+    <Hardpoint Name="CANNON_BREAKWATER_09">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3434,7 +3434,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_10">
+    <Hardpoint Name="CANNON_BREAKWATER_10">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3477,7 +3477,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_11">
+    <Hardpoint Name="CANNON_BREAKWATER_11">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3520,7 +3520,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_12">
+    <Hardpoint Name="CANNON_BREAKWATER_12">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3563,7 +3563,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_13">
+    <Hardpoint Name="CANNON_BREAKWATER_13">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3606,7 +3606,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="CANNON_BREAKWATER_14">
+    <Hardpoint Name="CANNON_BREAKWATER_14">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_WATER_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3649,7 +3649,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="STATION_HANGAR_01">
+    <Hardpoint Name="STATION_HANGAR_01">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -3663,7 +3663,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="STATION_HANGAR_02">
+    <Hardpoint Name="STATION_HANGAR_02">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -3677,7 +3677,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="STATION_HANGAR_03">
+    <Hardpoint Name="STATION_HANGAR_03">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -3691,7 +3691,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="STATION_HANGAR_04">
+    <Hardpoint Name="STATION_HANGAR_04">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -3705,7 +3705,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="STATION_HANGAR_05">
+    <Hardpoint Name="STATION_HANGAR_05">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -3719,7 +3719,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="STATION_HANGAR_06">
+    <Hardpoint Name="STATION_HANGAR_06">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -3733,7 +3733,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="STATION_HANGAR_07">
+    <Hardpoint Name="STATION_HANGAR_07">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -3747,7 +3747,7 @@
         <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
 </Hardpoint>
 
-    <HardPoint Name="STATION_HANGAR_08">
+    <Hardpoint Name="STATION_HANGAR_08">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
