@@ -48,8 +48,8 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>30</Base_Income_Value>
-				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Base_Income_Value>60</Base_Income_Value>
+				<Base_Interval_In_Secs>26</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -102,8 +102,8 @@
 			Rebel,
 				Shortsword_Squadron,
 				Baselard_Squadron,
-				UNSC_GLADIUS,
 				UNSC_MAKO,
+				UNSC_GLADIUS,
 				UNSC_STALWART,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Level_Three_Starbase_Upgrade,
@@ -127,8 +127,8 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>35.0</Base_Income_Value>
-				<Base_Interval_In_Secs>12</Base_Interval_In_Secs>
+				<Base_Income_Value>80.0</Base_Income_Value>
+				<Base_Interval_In_Secs>24</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -180,15 +180,15 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				Shortsword_Squadron,
-				Longsword_Squadron,
 				Baselard_Squadron,
+				Longsword_Squadron,
 				UNSC_MAKO,
 				UNSC_GLADIUS,
 				UNSC_STALWART,
-				UNSC_HALBERD,
 				UNSC_PARIS,
-				UNSC_HALCYON,
+				UNSC_HALBERD,
 				UNSC_MUSASHI,
+				UNSC_HALCYON,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
@@ -213,8 +213,8 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>40.0</Base_Income_Value>
-				<Base_Interval_In_Secs>14</Base_Interval_In_Secs>
+				<Base_Income_Value>100.0</Base_Income_Value>
+				<Base_Interval_In_Secs>22</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -276,16 +276,16 @@
 				Broadsword_Squadron,
 				UNSC_MAKO,
 				UNSC_GLADIUS,
-				UNSC_STRIDENT,
 				UNSC_STALWART,
 				UNSC_HALBERD,
-				UNSC_IROQUOIS,
-				UNSC_POSEIDON,
 				UNSC_PARIS,
+				UNSC_IROQUOIS,
+				UNSC_STRIDENT,
 				UNSC_MUSASHI,
-				UNSC_POA,
+				UNSC_POSEIDON,
 				UNSC_HALCYON,
 				UNSC_MARATHON,
+				UNSC_POA,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
@@ -311,8 +311,8 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>45.0</Base_Income_Value>
-				<Base_Interval_In_Secs>16</Base_Interval_In_Secs>
+				<Base_Income_Value>125.0</Base_Income_Value>
+				<Base_Interval_In_Secs>20</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -376,17 +376,17 @@
 				Broadsword_Squadron,
 				UNSC_MAKO,
 				UNSC_GLADIUS,
-				UNSC_STRIDENT,
 				UNSC_STALWART,
+				UNSC_PARIS,
 				UNSC_HALBERD,
 				UNSC_IROQUOIS,
-				UNSC_POSEIDON,
-				UNSC_PARIS,
+				UNSC_STRIDENT,
 				UNSC_MUSASHI,
-				UNSC_POA,
+				UNSC_POSEIDON,
 				UNSC_HALCYON,
-				UNSC_AUTUMN,
 				UNSC_MARATHON,
+				UNSC_POA,
+				UNSC_AUTUMN,
 				UNSC_VINDICATION,
 				UNSC_INFINITY,
 				RS_Improved_Weapons_L1_Upgrade,
@@ -415,7 +415,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>55</Base_Income_Value>
+				<Base_Income_Value>200</Base_Income_Value>
 				<Base_Interval_In_Secs>18</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
