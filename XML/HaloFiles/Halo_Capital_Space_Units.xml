@@ -649,7 +649,7 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>

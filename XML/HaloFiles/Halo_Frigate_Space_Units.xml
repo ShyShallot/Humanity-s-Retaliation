@@ -189,7 +189,7 @@
 		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_Halberd.ALO</Space_Model_Name>
-		<Select_Box_Scale>20</Select_Box_Scale>
+		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
 		<Scale_Factor>1.9</Scale_Factor>
@@ -340,7 +340,6 @@
 				<Expiration_Seconds>10</Expiration_Seconds>
 				<Recharge_Seconds>80</Recharge_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		2.2f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
@@ -350,11 +349,13 @@
 			</Unit_Ability>
 
 			<Unit_Ability>
-				<Type>DEFEND</Type>
+				<Type>POWER_TO_WEAPONS</Type>
 				<Expiration_Seconds>8</Expiration_Seconds>
 				<Recharge_Seconds>90</Recharge_Seconds>
 				<Supports_Autofire>True</Supports_Autofire>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.65f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> <!-- make it faster to recharge -->
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
 				<Alternate_Name_Text>HALO_LAST_DEFENSE</Alternate_Name_Text>
@@ -407,10 +408,10 @@
 		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_MAKO.ALO</Space_Model_Name>
-		<Select_Box_Scale>20</Select_Box_Scale>
+		<Select_Box_Scale>450</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>1</Mass>
-		<Scale_Factor>0.5</Scale_Factor>
+		<Scale_Factor>0.35</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Ranking_In_Category>3</Ranking_In_Category>
@@ -1572,7 +1573,7 @@
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
