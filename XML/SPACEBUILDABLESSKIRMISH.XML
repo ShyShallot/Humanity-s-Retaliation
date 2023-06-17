@@ -122,7 +122,7 @@
 	<SpaceBuildable Name="UC_Empire_Defense_Satellite_Laser">
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<Tactical_Buildable_Constructed> Empire_Defense_Satellite_Laser </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 875 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 950 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
@@ -182,7 +182,7 @@
 		<MP_Encyclopedia_Text> TEXT_HALO_MK33_PLATFORM_ENC </MP_Encyclopedia_Text>
 
 		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Laser </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 1100 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 950 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 
@@ -380,7 +380,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Repair </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 750 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1250 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
@@ -423,7 +423,7 @@
 		<Variant_Of_Existing_Type>UC_Rebel_Defense_Satellite_Repair</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed> Empire_Defense_Satellite_Repair </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 750 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1350 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
@@ -439,7 +439,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		
 		<Tactical_Buildable_Constructed> Empire_Defense_Satellite_Missile </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1450 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
@@ -499,7 +499,7 @@
 		<MP_Encyclopedia_Text> TEXT_HALO_ARCHER_PLATFORM_ENC </MP_Encyclopedia_Text>
 
 		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Missile </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 1500 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 
@@ -948,7 +948,7 @@
 				<Heal_Percent> 0.10 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Single_Target_Heal>No</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
 				<Applicable_Unit_Categories>Fighter, Transport, Bomber, Corvette, Frigate, Capital, Hero</Applicable_Unit_Categories>

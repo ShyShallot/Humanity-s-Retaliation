@@ -21,7 +21,7 @@
 			<Fire_Bone_A>FB_01</Fire_Bone_A>
             <Fire_Bone_B>FB_01</Fire_Bone_B>
             <Fire_Cone_Width>40.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -60,7 +60,7 @@
 			<Fire_Bone_A>FB_01</Fire_Bone_A>
             <Fire_Bone_B>FB_01</Fire_Bone_B>
             <Fire_Cone_Width>40.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -99,7 +99,7 @@
 			<Fire_Bone_A>FB_01</Fire_Bone_A>
             <Fire_Bone_B>FB_01</Fire_Bone_B>
             <Fire_Cone_Width>40.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -138,7 +138,7 @@
 			<Fire_Bone_A>FB_01</Fire_Bone_A>
             <Fire_Bone_B>FB_01</Fire_Bone_B>
             <Fire_Cone_Width>40.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -177,7 +177,7 @@
 			<Fire_Bone_A>FB_01</Fire_Bone_A>
             <Fire_Bone_B>FB_01</Fire_Bone_B>
             <Fire_Cone_Width>40.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -216,7 +216,7 @@
 			<Fire_Bone_A>FB_01</Fire_Bone_A>
             <Fire_Bone_B>FB_01</Fire_Bone_B>
             <Fire_Cone_Width>40.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>

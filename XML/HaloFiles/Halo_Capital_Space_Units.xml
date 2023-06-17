@@ -23,7 +23,7 @@
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-400.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-175.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
@@ -250,7 +250,7 @@
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-450.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-50.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
@@ -424,7 +424,7 @@
 		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-150.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
@@ -598,7 +598,7 @@
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-450.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-25.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
@@ -771,7 +771,7 @@
 		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
-		<Layer_Z_Adjust>-600.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-95.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>1.4</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
@@ -980,7 +980,7 @@
 		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-650.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-85.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>1.4</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .09 </OverrideAcceleration>
@@ -1200,7 +1200,7 @@
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-450.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-75.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.9</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
@@ -1387,7 +1387,7 @@
 		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-650.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.7</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
@@ -1567,7 +1567,7 @@
 		<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-275.0</Layer_Z_Adjust>
+		<Layer_Z_Adjust>-185.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>1.4</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>

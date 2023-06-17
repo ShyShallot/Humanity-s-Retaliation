@@ -29,7 +29,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_AF_02">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -59,7 +61,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_AF_03">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -89,7 +93,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_AF_04">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -119,7 +125,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_AF_05">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -149,7 +157,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_AF_06">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -179,7 +189,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_AF_07">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -209,7 +221,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_AF_08">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -239,7 +253,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T2_AF_09">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -269,7 +285,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T2_AF_10">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -299,7 +317,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_AF_11">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -329,7 +349,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_AF_12">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -359,7 +381,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_AF_13">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -389,7 +413,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_AF_14">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -419,7 +445,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T5_AF_15">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -449,7 +477,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T5_AF_16">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -479,7 +509,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T5_AF_17">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -509,7 +541,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T5_AF_18">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -539,7 +573,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 <!-- End of Anti Fighter Hardpoints -->
 <!-- Anti Ship Hardpoints -->
     <HardPoint Name="HP_COVSTATION_T1_AS_01">
@@ -571,7 +607,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_AS_02">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -602,7 +640,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_AS_03">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -633,7 +673,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_AS_04">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -664,7 +706,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T2_AS_05">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -695,7 +739,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T2_AS_06">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -726,7 +772,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T2_AS_07">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -757,7 +805,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T2_AS_08">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -788,7 +838,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T2_AS_09">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -819,7 +871,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T2_AS_10">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -850,7 +904,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_AS_11">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -881,7 +937,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_AS_12">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -912,7 +970,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_AS_13">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -943,7 +1003,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
     
     <HardPoint Name="HP_COVSTATION_T3_AS_14">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -974,7 +1036,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T4_AS_15">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1005,7 +1069,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T4_AS_16">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1036,7 +1102,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T4_AS_17">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1067,7 +1135,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T4_AS_18">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1098,7 +1168,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T5_AS_19">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1129,7 +1201,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T5_AS_20">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1160,7 +1234,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T5_AS_21">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1191,7 +1267,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T5_AS_22">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1222,7 +1300,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 <!-- Anti Ship Hardpoints -->
 <!-- Heavy Plasma Cannons -->
     <HardPoint Name="HP_COVSTATION_T3_HC_01">
@@ -1255,7 +1335,9 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_HC_02">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1287,7 +1369,9 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_HC_03">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1319,7 +1403,9 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_HC_04">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1351,7 +1437,9 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T4_HC_05">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1383,7 +1471,9 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T4_HC_06">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1415,7 +1505,9 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T4_HC_07">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1447,7 +1539,9 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T4_HC_08">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1479,7 +1573,9 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T5_HC_09">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1511,7 +1607,9 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T5_HC_10">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -1543,7 +1641,9 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 <!-- End of Heavy Plasma Cannons -->
     <HardPoint Name="HP_COVSTATION_T3_TP_01">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
@@ -1565,7 +1665,9 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_TP_02">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
@@ -1587,7 +1689,9 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_TP_03">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
@@ -1609,7 +1713,9 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_TP_04">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
@@ -1631,7 +1737,9 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
 
     <HardPoint Name="HP_COVSTATION_T1_HANGAR_01">
@@ -1645,7 +1753,9 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_HANGAR_02">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -1658,7 +1768,9 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_HANGAR_03">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -1671,7 +1783,9 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_HANGAR_04">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -1684,7 +1798,9 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_HANGAR_05">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -1697,7 +1813,9 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T3_HANGAR_06">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -1710,7 +1828,9 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_SHIELDGEN">
 			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
@@ -1725,7 +1845,9 @@
 
             <Attachment_Bone>HP_SHIELDGEN</Attachment_Bone>
             <Collision_Mesh>HP_SHIELDGEN</Collision_Mesh>
-    </HardPoint>
+        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
     <HardPoint Name="HP_COVSTATION_T1_SUPPLYDOCK">
 			<Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
@@ -1741,7 +1863,9 @@
 			<Health>700.0</Health>
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-     </HardPoint>
+         <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
      <HardPoint Name="HP_COVSTATION_T1_COMMS">
 			<Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
@@ -1760,7 +1884,9 @@
 			<Health>700.0</Health>
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-     </HardPoint>
+         <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+</Hardpoint>
 
 
 </HardPoints>
