@@ -14,7 +14,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>3600</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>1100</Tactical_Health>
+		<Tactical_Health>1600</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -153,7 +153,7 @@
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1050</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
