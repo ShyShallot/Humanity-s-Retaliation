@@ -155,7 +155,7 @@
 	<SpacePrimarySkydome Name="Stars_Medium">
 		<Text_ID />
 		<Galactic_Model_Name></Galactic_Model_Name>
-		<Space_Model_Name>w_stars_medium.alo</Space_Model_Name>
+		<Space_Model_Name>W_Test_Skybox.ALO</Space_Model_Name>
 		<Is_Decoration>Yes</Is_Decoration>
     <Is_Discardable>No</Is_Discardable>
     <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>

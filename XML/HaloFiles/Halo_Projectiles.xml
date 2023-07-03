@@ -3,7 +3,7 @@
 
     <Projectile Name="Proj_Covie_Long_Beam"> <!--Used for Anti Fighter Hardpoints-->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
+		<Space_Model_Name>COVN_PLASMAPROJECTILELONG_AF.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser_Light </Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
@@ -58,7 +58,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>50.0</Max_Speed>
-		<Projectile_Damage>10.0</Projectile_Damage>
+		<Projectile_Damage>13.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -87,7 +87,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>19.0</Projectile_Damage>
+		<Projectile_Damage>21.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Turbolaser_Heavy </Damage_Type>
@@ -151,7 +151,7 @@
 		<Projectile_Category>Torpedo</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Damage>115.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Concussion_Missile_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -169,7 +169,7 @@
 
 	<Projectile Name="Proj_UNSC_Fighter_Missile_Light">	<!-- Normal Missiles used by Fighters and not bombers -->
 		<Variant_Of_Existing_Type>Proj_UNSC_Fighter_Missile</Variant_Of_Existing_Type>
-		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Damage>40.0</Projectile_Damage>
 		<Max_Speed>15.0</Max_Speed>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Max_Rate_Of_Turn>200.0</Max_Rate_Of_Turn>
@@ -389,7 +389,7 @@
 		<Space_Model_Name>W_UNSC_MAC.alo</Space_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>70.0</Max_Speed>
+		<Max_Speed>55.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Missile</Projectile_Category>
@@ -420,7 +420,7 @@
 		<Space_Model_Name>W_UNSC_MAC.alo</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>65.0</Max_Speed>
+		<Max_Speed>55.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Projectile_Category>Missile</Projectile_Category>
@@ -672,7 +672,7 @@
 
 	<Projectile Name="Proj_COV_TORPEDO_Fighter">
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
-		<Projectile_Damage>25.0</Projectile_Damage>
+		<Projectile_Damage>185.0</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 	</Projectile>
 

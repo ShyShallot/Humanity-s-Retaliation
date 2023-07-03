@@ -946,7 +946,7 @@
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Heal_Range>400.0</Heal_Range>
-				<Heal_Percent> 0.15 </Heal_Percent>
+				<Heal_Percent> 0.5 </Heal_Percent>
                 <Blob_Color>0, 255, 0, 255</Blob_Color>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>No</Single_Target_Heal>
@@ -981,7 +981,7 @@
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_POSEIDON TEXT_SPACE HALO_FIGHTERS_POSEIDON HALO_SHIP_REPAIR_SMALL TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_POSEIDON TEXT_SPACE HALO_FIGHTERS_POSEIDON HALO_SHIP_REPAIR_SMALL HALO_SHIP_HEAL_RATE_POSEIDON TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CARRIER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
@@ -1659,7 +1659,7 @@
 
 		<Death_Clone>Damage_Normal, Halberd_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
@@ -2049,7 +2049,7 @@
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>3000</Shield_Points>
-		<Tactical_Health>2000</Tactical_Health>
+		<Tactical_Health>2500</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Max_Rate_Of_Roll>1.8</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>30</Bank_Turn_Angle>

@@ -102,7 +102,7 @@
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 14</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 18</Reserve_Spawned_Units_Tech_0>
 
-		<Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_INFINITY.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1650</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -196,6 +196,226 @@
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>45</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="UNSC_SOF">
+		<Text_ID>TEXT_UNIT_UNSC_SOF</Text_ID>
+		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>UNSC_SOF.ALO</Space_Model_Name>
+		<Select_Box_Scale>500</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Mass>1.3</Mass>
+		<Scale_Factor>2.35</Scale_Factor>
+		<Damage>60</Damage>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<Max_Speed>0.9</Max_Speed>
+		<Min_Speed>0.1</Min_Speed>
+		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Capital </Space_Layer>
+		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
+		<OverrideAcceleration> .02 </OverrideAcceleration>
+		<OverrideDeceleration> .02 </OverrideDeceleration>
+
+		<Damage_Type> Damage_UNSC_Super</Damage_Type>
+		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
+		<Shield_Armor_Type>Armor_SSD</Shield_Armor_Type>
+		<Reinforcement_Prevention_Radius> 550 </Reinforcement_Prevention_Radius>
+		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>30</Bank_Turn_Angle>	
+		<Max_Thrust>0.2</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Maintenance_Cost>0.3</Maintenance_Cost>
+
+		<Death_Clone>Damage_Normal, UNSC_POA_Death_Clone</Death_Clone>
+
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
+		<Tech_Level>3</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets/>
+		<Autoresolve_Health>2500</Autoresolve_Health>
+		<Tactical_Health>30000</Tactical_Health>
+		<Shield_Points>11500</Shield_Points>
+		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
+		<Energy_Capacity>8000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Ship_Class>capital</Ship_Class>
+		<Formation_Priority>5</Formation_Priority>
+		<Political_Faction>Rebel</Political_Faction>
+		<Squadron_Capacity>40</Squadron_Capacity>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<AI_Combat_Power>8500</AI_Combat_Power>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>360</Size_Value>
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, TARGETING, HIDE_WHEN_FOGGED, SPAWN_SQUADRON, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1850.0</Targeting_Max_Attack_Distance>
+
+		<Death_Clone />
+		<CategoryMask> Capital | AntiFrigate </CategoryMask>
+
+		<HardPoints> 
+			USNC_SOF_ENGINE_O1, USNC_SOF_ENGINE_O2, USNC_SOF_ENGINE_O3, 
+
+			UNSC_SOF_HG_01, UNSC_SOF_HG_02, UNSC_SOF_HG_03, UNSC_SOF_HG_04, UNSC_SOF_HG_05, UNSC_SOF_HG_06, 
+			UNSC_SOF_MAC_01, UNSC_SOF_MAC_02, UNSC_SOF_MAC_03, 
+
+			UNSC_SOF_LAR_01, UNSC_SOF_LAR_02, UNSC_SOF_LAR_03, UNSC_SOF_LAR_04, UNSC_SOF_LAR_05, 
+			UNSC_SOF_LAR_06, UNSC_SOF_LAR_07, UNSC_SOF_LAR_08, UNSC_SOF_LAR_09, UNSC_SOF_LAR_10,
+
+			UNSC_SOF_MK33_01, UNSC_SOF_MK33_02, UNSC_SOF_MK33_03, UNSC_SOF_MK33_04, UNSC_SOF_MK33_05,
+			UNSC_SOF_MK33_06, UNSC_SOF_MK33_07, UNSC_SOF_MK33_08, UNSC_SOF_MK33_09, UNSC_SOF_MK33_10,
+
+			UNSC_SOF_ARCHER_01, UNSC_SOF_ARCHER_02, UNSC_SOF_ARCHER_03, UNSC_SOF_ARCHER_04, UNSC_SOF_ARCHER_05,
+			UNSC_SOF_ARCHER_06, UNSC_SOF_ARCHER_07, UNSC_SOF_ARCHER_08, UNSC_SOF_ARCHER_09, UNSC_SOF_ARCHER_10,
+			UNSC_SOF_ARCHER_11, UNSC_SOF_ARCHER_12, UNSC_SOF_ARCHER_13, UNSC_SOF_ARCHER_14, UNSC_SOF_ARCHER_15,
+			UNSC_SOF_ARCHER_16
+		</HardPoints>
+
+		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 10</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+
+		<Icon_Name>I_BUTTON_SOF.tga</Icon_Name>
+		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
+		<GUI_Distance>1650</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Calamari</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+
+		<SFXEvent_Select>Unit_Select_Calamari</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Calamari</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Calamari</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Calamari</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Calamari</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Calamari</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Calamari</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Calamari </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Calamari </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Calamari </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Calamari_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Calamari_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.2</Radar_Icon_Size>
+		<Radar_Icon_Name>I_RADAR_SOF.tga</Radar_Icon_Name>
+		
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
+				<!--<Type>INTERDICT</Type>
+				<Disable_Movement>No</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Alternate_Icon_Name>BLANK.TGA</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
+			</Unit_Ability>-->
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Repair_Facility_Healing">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>1100.0</Heal_Range>
+				<Heal_Percent> 0.15 </Heal_Percent>
+                <Blob_Color>0, 255, 0, 255</Blob_Color>
+				<Heal_Interval_In_Secs>4.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>No</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Fighter, Transport, Bomber, Corvette, Frigate</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+			</Force_Healing_Ability>
+		</Abilities>
+       
+		<Encyclopedia_Text> TEXT_TOOLTIP_SOF HALO_FIGHTERS_SOF HALO_SHIP_REPAIR_BIG HALO_SHIP_HEAL_RATE_SOF TEXT_SPACE HALO_ARMOR_LEVEL_5 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COLONY </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>20000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>15</Population_Value>
 	</SpaceUnit>
 
 

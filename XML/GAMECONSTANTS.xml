@@ -1484,8 +1484,8 @@
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Default, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Default, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Transport, 5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Bomber, 5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Fighter, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Bomber, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Fighter, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Hero_Transport, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Corellian_Corvette, 3.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Missile_Cruiser, 2 </Damage_To_Armor_Mod>
@@ -1688,11 +1688,11 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_Calamari_Cruiser, 0.85 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_Star_Destroyer, 0.75 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_Station, 1.0 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Shield_Capital, 0.35</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Shield_Frigate, 0.65</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Shield_Corvette, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Shield_Fighter, 1</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Shield_SSD, 0.15 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Capital, 0.85</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Frigate, 1.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Corvette, 1.35</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Fighter, 1.55</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_SSD, 0.5 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_Vengeance, 5.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_MC30_Frigate, 5.8 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Archer, Armor_SSD, 0.5 </Damage_To_Armor_Mod>
@@ -1719,11 +1719,11 @@
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_Calamari_Cruiser, 1.15 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_Star_Destroyer, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_Station, 1.2 </Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Capital, 0.5</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Frigate, 0.75</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Corvette, 1.0</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Fighter, 1.5</Damage_To_Armor_Mod>
-    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_SSD, 0.4 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Capital, 1.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Frigate, 1.5</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Corvette, 2.0</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_Fighter, 2.5</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Shield_SSD, 0.75 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_Vengeance, 5.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_MC30_Frigate, 5.8 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Con_Missile_Heavy_Archer, Armor_SSD, 0.75 </Damage_To_Armor_Mod>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <HardPoints>
 
-    <!-- CRS Class Hardpoints-->
+<!-- CRS Class Hardpoints-->
 
     <HardPoint Name="HP_CRS_AF_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>

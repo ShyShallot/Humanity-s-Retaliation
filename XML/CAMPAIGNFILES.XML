@@ -12,5 +12,6 @@
 	<File>Campaigns_Test.xml</File>
 	<File>Campaigns_UW_GC_Test.xml</File>
 	-->
-	<File>HaloFiles\HALO_Campaigns.xml</File>
+	<!--<File>HaloFiles\HALO_Campaigns.xml</File>-->
+	<File>HaloFiles\Campaigns\Sandbox_Halo_Evolved.xml</File>
 </Campaign_Files>
