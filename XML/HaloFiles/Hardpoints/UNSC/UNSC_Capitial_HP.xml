@@ -798,6 +798,7 @@
         <Health>850.0</Health>		
         <Attachment_Bone>HP_AUTUMN_HANGER_01</Attachment_Bone>             
 		<Collision_Mesh>HP_AUTUMN_HANGER_01</Collision_Mesh>
+        <Damage_Particles>HP_AUTUMN_HANGER_01_EMIT</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
@@ -810,6 +811,7 @@
         <Health>850.0</Health>		
         <Attachment_Bone>HP_AUTUMN_HANGER_02</Attachment_Bone>             
 		<Collision_Mesh>HP_AUTUMN_HANGER_02</Collision_Mesh>
+        <Damage_Particles>HP_AUTUMN_HANGER_02_EMIT</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
@@ -857,6 +859,7 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_AUTUMN_TURRET_01_BONE</Attachment_Bone>
             <Collision_Mesh>HP_AUTUMN_TURRET_01_BONE</Collision_Mesh>
+            <Damage_Particles>HP_AUTUMN_TURRET_01_BONE_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -896,6 +899,7 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_AUTUMN_TURRET_02_BONE</Attachment_Bone>
             <Collision_Mesh>HP_AUTUMN_TURRET_02_BONE</Collision_Mesh>
+            <Damage_Particles>HP_AUTUMN_TURRET_02_BONE_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -935,6 +939,7 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_AUTUMN_TURRET_03_BONE</Attachment_Bone>
             <Collision_Mesh>HP_AUTUMN_TURRET_03_BONE</Collision_Mesh>
+            <Damage_Particles>HP_AUTUMN_TURRET_03_BONE_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -974,6 +979,7 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_AUTUMN_TURRET_04_BONE</Attachment_Bone>
             <Collision_Mesh>HP_AUTUMN_TURRET_04_BONE</Collision_Mesh>
+            <Damage_Particles>HP_AUTUMN_TURRET_04_BONE_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1013,6 +1019,7 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_AUTUMN_TURRET_05_BONE</Attachment_Bone>
             <Collision_Mesh>HP_AUTUMN_TURRET_05_BONE</Collision_Mesh>
+            <Damage_Particles>HP_AUTUMN_TURRET_05_BONE_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1052,6 +1059,7 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_AUTUMN_TURRET_06_BONE</Attachment_Bone>
             <Collision_Mesh>HP_AUTUMN_TURRET_06_BONE</Collision_Mesh>
+            <Damage_Particles>HP_AUTUMN_TURRET_06_BONE_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1091,6 +1099,7 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_AUTUMN_TURRET_07_BONE</Attachment_Bone>
             <Collision_Mesh>HP_AUTUMN_TURRET_07_BONE</Collision_Mesh>
+            <Damage_Particles>HP_AUTUMN_TURRET_07_BONE_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1130,6 +1139,7 @@
             <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
             <Attachment_Bone>HP_AUTUMN_TURRET_08_BONE</Attachment_Bone>
             <Collision_Mesh>HP_AUTUMN_TURRET_08_BONE</Collision_Mesh>
+            <Damage_Particles>HP_AUTUMN_TURRET_08_BONE_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1159,6 +1169,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_01</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_01</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_01_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_01_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_01_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1188,6 +1199,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_02</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_02</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_02_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_02_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_02_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1217,6 +1229,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_03</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_03</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_03_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_03_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_03_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1246,6 +1259,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_04</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_04</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_04_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_04_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_04_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1275,6 +1289,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_05</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_05</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_05_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_05_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_05_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1304,6 +1319,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_06</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_06</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_06_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_06_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_06_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1333,6 +1349,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_07</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_07</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_07_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_07_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_07_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1362,6 +1379,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_08</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_08</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_08_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_08_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_08_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1391,6 +1409,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_09</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_09</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_09_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_09_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_09_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1420,6 +1439,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_10</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_10</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_10_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_10_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_10_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1449,6 +1469,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_11</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_11</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_11_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_11_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_11_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1478,6 +1499,7 @@
             <Health>600.0</Health>
             <Attachment_Bone>HP_ARCHER_12</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_12</Collision_Mesh>
+            <Damage_Particles>HP_ARCHER_12_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_ARCHER_12_01</Fire_Bone_A>
             <Fire_Bone_B>FB_ARCHER_12_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -1499,63 +1521,6 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="UNSC_AUTUMN_AP_13">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
-            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
-            <Attachment_Bone>HP_ARCHER_13</Attachment_Bone>
-            <Collision_Mesh>HP_ARCHER_13</Collision_Mesh>
-			<Fire_Bone_A>FB_ARCHER_13_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_ARCHER_13_02</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>10</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>3</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_AUTUMN_AP_14">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
-            <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
-            <Attachment_Bone>HP_ARCHER_14</Attachment_Bone>
-            <Collision_Mesh>HP_ARCHER_14</Collision_Mesh>
-			<Fire_Bone_A>FB_ARCHER_14_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_ARCHER_14_02</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>10</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>3</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_MAC">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
@@ -1564,6 +1529,7 @@
             <Is_Destroyable>No</Is_Destroyable>
             <Health>450.0</Health>
             <Attachment_Bone>HP_AUTUMN_MAC_BONE</Attachment_Bone>
+            <Damage_Particles>HP_AUTUMN_MAC_BONE_EMIT</Damage_Particles>
 			<Fire_Bone_A>FB_AUTUMN_MAC_01</Fire_Bone_A>
             <Fire_Bone_B>FB_AUTUMN_MAC_01</Fire_Bone_B>
             <Fire_Cone_Width>100.0</Fire_Cone_Width>
@@ -1604,7 +1570,7 @@
             <Collision_Mesh>HP_AUTUMN_ENGINE_01_BONE</Collision_Mesh>
             <Damage_Decal />
             <Damage_Particles/>
-            <Engine_Particles/>
+            <Engine_Particles>HP_AUTUMN_ENGINE_01_BONE</Engine_Particles>
     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_EG_02">
@@ -1622,7 +1588,7 @@
             <Collision_Mesh>HP_AUTUMN_ENGINE_02_BONE</Collision_Mesh>
             <Damage_Decal />
             <Damage_Particles/>
-            <Engine_Particles/>
+            <Engine_Particles>HP_AUTUMN_ENGINE_02_BONE</Engine_Particles>
     </HardPoint>
 
     <HardPoint Name="UNSC_AUTUMN_EG_03">
@@ -1640,7 +1606,7 @@
             <Collision_Mesh>HP_AUTUMN_ENGINE_03_BONE</Collision_Mesh>
             <Damage_Decal />
             <Damage_Particles/>
-            <Engine_Particles/>
+            <Engine_Particles>HP_AUTUMN_ENGINE_03_BONE</Engine_Particles>
     </HardPoint>
 
     <!-- Marathon Class Hardpoints -->

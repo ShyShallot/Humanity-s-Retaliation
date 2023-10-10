@@ -17,6 +17,7 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>COVN_STATION_TIER1.ALO</Space_Model_Name>
 		<Galactic_Model_Name>COVN_STATION_TIER1.ALO</Galactic_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -149,6 +150,8 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>COVN_STATION_TIER2.ALO</Space_Model_Name>
 		<Galactic_Model_Name>COVN_STATION_TIER2.ALO</Galactic_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+
 		<Select_Box_Scale>900</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -296,6 +299,8 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>COVN_STATION_TIER3.ALO</Space_Model_Name>
 		<Galactic_Model_Name>COVN_STATION_TIER3.ALO</Galactic_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -438,6 +443,8 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>COVN_STATION_TIER4.ALO</Space_Model_Name>
 		<Galactic_Model_Name>COVN_STATION_TIER4.ALO</Galactic_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+
 		<Select_Box_Scale>1500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -578,6 +585,8 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>COVN_STATION_TIER5.ALO</Space_Model_Name>
 		<Galactic_Model_Name>COVN_STATION_TIER5.ALO</Galactic_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+
 		<Select_Box_Scale>1800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -923,7 +932,7 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_STATION_TIER_1.ALO</Space_Model_Name>
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>3.5</Scale_Factor>
 		<Galactic_Model_Name>UNSC_STATION_TIER_1.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -1071,7 +1080,7 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>3.5</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_2.ALO</Space_Model_Name>
 		<Galactic_Model_Name>I_RB_STATION_LEVEL2.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>400</Select_Box_Scale>
@@ -1221,7 +1230,7 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>3.5</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_3.ALO</Space_Model_Name>
 		<Galactic_Model_Name>UNSC_STATION_TIER_3.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>450</Select_Box_Scale>
@@ -1377,7 +1386,7 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>3.5</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_4.ALO</Space_Model_Name>
 		<Galactic_Model_Name>UNSC_STATION_TIER_4.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>500</Select_Box_Scale>
@@ -1543,7 +1552,7 @@
 		<Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_RS_05</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>3.5</Scale_Factor>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UNSC_STATION_TIER_5.ALO</Space_Model_Name>

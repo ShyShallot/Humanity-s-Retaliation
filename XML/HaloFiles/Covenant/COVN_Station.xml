@@ -18,7 +18,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Tarasque_Squadron,
+				Banshee_Squadron,
 				Cerastes_Squadron,
 				COVN_CAR,
 				ES_Level_Two_Starbase_Upgrade,
@@ -43,7 +43,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>30</Base_Income_Value>
+				<Base_Income_Value>400</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -90,6 +90,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+				Banshee_Squadron,
 				Tarasque_Squadron,
 				Cerastes_Squadron,
 				COVN_CAR,
@@ -116,8 +117,8 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>35</Base_Income_Value>
-				<Base_Interval_In_Secs>12</Base_Interval_In_Secs>
+				<Base_Income_Value>420</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -163,6 +164,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+				Banshee_Squadron,
 				Tarasque_Squadron,
 				Seraph_Squadron,
 				Cerastes_Squadron,
@@ -194,8 +196,8 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>40</Base_Income_Value>
-				<Base_Interval_In_Secs>14</Base_Interval_In_Secs>
+				<Base_Income_Value>450</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -241,6 +243,7 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+				Banshee_Squadron,
 				Tarasque_Squadron,
 				Seraph_Squadron,
 				Cerastes_Squadron,
@@ -248,7 +251,7 @@
 				COVN_DDS,
 				COVN_RCS,
 				COVN_CRS,
-				COVN_CPV,
+				COVN_CCS,
 				ES_Enhanced_Shielding_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Improved_Weapons_L2_Upgrade,
@@ -275,8 +278,8 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>45</Base_Income_Value>
-				<Base_Interval_In_Secs>16</Base_Interval_In_Secs>
+				<Base_Income_Value>480</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
@@ -324,14 +327,15 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+				Banshee_Squadron,
 				Tarasque_Squadron,
 				Seraph_Squadron,
 				Cerastes_Squadron,
 				COVN_CAR,
 				COVN_CRS,
 				COVN_DDS,
-				COVN_CCS,
 				COVN_RCS,
+				COVN_CCS,
 				COVN_CPV,
 				COVN_CAS,
 				ES_Enhanced_Shielding_L1_Upgrade,
@@ -361,8 +365,8 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>55</Base_Income_Value>
-				<Base_Interval_In_Secs>18</Base_Interval_In_Secs>
+				<Base_Income_Value>500</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>

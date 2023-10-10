@@ -23,7 +23,7 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<AI_Combat_Power>150</AI_Combat_Power>
+		<AI_Combat_Power>300</AI_Combat_Power>
 		
 	</Projectile>
 
@@ -142,7 +142,7 @@
 
 	<Projectile Name="Proj_UNSC_Fighter_Missile"> <!-- Used By Bombers, should have big damage gap between other varients -->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
+		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
 		<Max_Speed>20.0</Max_Speed>
@@ -162,7 +162,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
-		<AI_Combat_Power>150</AI_Combat_Power>
+		<AI_Combat_Power>350</AI_Combat_Power>
 		
 	
 	</Projectile>
@@ -183,6 +183,7 @@
         <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
+		<AI_Combat_Power>100</AI_Combat_Power>
 	
 	</Projectile>
 
@@ -208,7 +209,7 @@
 		<Projectile_Ground_Detonation_Particle>Nuke_Explode_Space</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Nuke_Explode_Space</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Nuke_Explode_Space</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>600</AI_Combat_Power>
+		<AI_Combat_Power>900</AI_Combat_Power>
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
@@ -339,7 +340,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
-		<AI_Combat_Power>300</AI_Combat_Power>
+		<AI_Combat_Power>650</AI_Combat_Power>
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
@@ -352,7 +353,7 @@
 
 	<Projectile Name="Proj_UNSC_Ship_Missile_Heavy"> <!-- Used for the Capitals or ships of same size or variant and larger-->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
+		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile_Heavy_Archer </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
@@ -372,7 +373,7 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
-		<AI_Combat_Power>500</AI_Combat_Power>
+		<AI_Combat_Power>700</AI_Combat_Power>
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
@@ -412,7 +413,7 @@
 		<Projectile_Blast_Area_Range> 400 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
-		<AI_Combat_Power>1200</AI_Combat_Power>
+		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_MAC_SHELL_LIGHT"> <!-- Used on Frigates and Things smaller than a capitial -->
@@ -443,7 +444,7 @@
 		<Projectile_Blast_Area_Range> 400 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
-		<AI_Combat_Power>1200</AI_Combat_Power>
+		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_MAC_SHELL_EMPTY"> <!-- Test -->
@@ -635,7 +636,7 @@
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle />
 		<Projectile_Absorbed_By_Shields_Particle />
-		<AI_Combat_Power>600</AI_Combat_Power>
+		<AI_Combat_Power>1000</AI_Combat_Power>
 	</Projectile>
 
 	<Projectile Name="Proj_COV_TORPEDO">
@@ -665,7 +666,7 @@
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle />
 		<Projectile_Absorbed_By_Shields_Particle />
-		<AI_Combat_Power>600</AI_Combat_Power>
+		<AI_Combat_Power>900</AI_Combat_Power>
 		<Projectile_Blast_Area_Range>90</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>40</Projectile_Blast_Area_Damage>
 	</Projectile>
@@ -674,6 +675,7 @@
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
 		<Projectile_Damage>185.0</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+		<AI_Combat_Power>750</AI_Combat_Power>
 	</Projectile>
 
 	<Projectile Name="Proj_COV_Plasma_Missile">
@@ -699,7 +701,7 @@
 		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle />
 		<Projectile_Absorbed_By_Shields_Particle />
-		<AI_Combat_Power>600</AI_Combat_Power>
+		<AI_Combat_Power>50</AI_Combat_Power>
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
         <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 

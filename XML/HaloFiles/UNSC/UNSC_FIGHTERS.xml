@@ -237,6 +237,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>300</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -525,6 +526,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>150</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -706,7 +708,6 @@
 		</Unit_Abilities_Data>
 
 		<Population_Value>1</Population_Value>
-
 	</SpaceUnit>
 
 	<Squadron Name="Broadsword_Squadron">
@@ -782,6 +783,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>80</AI_Combat_Power>
 	</Squadron>
 	
 
@@ -1056,7 +1058,7 @@
                 <Stealth_Transition_Time>1.0</Stealth_Transition_Time>
             </Stealth_Ability>
         </Abilities>
-		
+		<AI_Combat_Power>40</AI_Combat_Power>
 		<Encyclopedia_Text>TEXT_TOOLTIP_BASELARD TEXT_SPACE HALO_ARMOR_LEVEL_1 HALO_SHIELD_LEVEL_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
@@ -1369,6 +1371,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<AI_Combat_Power>55</AI_Combat_Power>
 	</Squadron>
 	
 
