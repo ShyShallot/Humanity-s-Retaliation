@@ -2095,7 +2095,7 @@
 		<Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>10.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>

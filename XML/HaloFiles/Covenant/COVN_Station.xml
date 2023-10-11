@@ -20,7 +20,8 @@
 			Empire,
 				Banshee_Squadron,
 				Cerastes_Squadron,
-				COVN_CAR,
+				COVN_SDV,
+				ES_Increased_Base_Flow_L1,
 				ES_Level_Two_Starbase_Upgrade,
 				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -93,9 +94,11 @@
 				Banshee_Squadron,
 				Tarasque_Squadron,
 				Cerastes_Squadron,
+				COVN_SDV,
 				COVN_CAR,
 				COVN_CRS,
 				ES_Improved_Weapons_L1_Upgrade,
+				ES_Increased_Base_Flow_L1,
 				ES_Level_Three_Starbase_Upgrade,
 				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -168,6 +171,7 @@
 				Tarasque_Squadron,
 				Seraph_Squadron,
 				Cerastes_Squadron,
+				COVN_SDV,
 				COVN_CAR,
 				COVN_RCS,
 				COVN_CRS,
@@ -175,6 +179,8 @@
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
+				ES_Increased_Base_Flow_L1,
+				ES_Increased_Base_Flow_L2,
 				ES_Level_Four_Starbase_Upgrade,
 				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -247,6 +253,7 @@
 				Tarasque_Squadron,
 				Seraph_Squadron,
 				Cerastes_Squadron,
+				COVN_SDV,
 				COVN_CAR,
 				COVN_DDS,
 				COVN_RCS,
@@ -257,6 +264,8 @@
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
+				ES_Increased_Base_Flow_L1,
+				ES_Increased_Base_Flow_L2,
 				ES_Level_Five_Starbase_Upgrade,
 				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -331,6 +340,7 @@
 				Tarasque_Squadron,
 				Seraph_Squadron,
 				Cerastes_Squadron,
+				COVN_SDV,
 				COVN_CAR,
 				COVN_CRS,
 				COVN_DDS,
@@ -345,6 +355,8 @@
 				ES_Improved_Weapons_L3_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
+				ES_Increased_Base_Flow_L1,
+				ES_Increased_Base_Flow_L2,
 				ES_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>

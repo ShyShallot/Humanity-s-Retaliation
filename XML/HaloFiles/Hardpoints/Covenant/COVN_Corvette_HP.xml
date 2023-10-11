@@ -229,7 +229,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>18</Fire_Pulse_Count>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1150.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
@@ -257,7 +257,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>18</Fire_Pulse_Count>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1150.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
@@ -285,7 +285,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>18</Fire_Pulse_Count>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1150.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
@@ -313,7 +313,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>18</Fire_Pulse_Count>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1150.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
@@ -341,7 +341,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>18</Fire_Pulse_Count>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1150.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
@@ -369,7 +369,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>18</Fire_Pulse_Count>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1150.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>

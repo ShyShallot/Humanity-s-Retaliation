@@ -26,6 +26,7 @@
 				Baselard_Squadron,
 				UNSC_MAKO,
 				RS_Improved_Weapons_L1_Upgrade,
+				RS_Increased_Base_Flow_L1,
 				RS_Level_Two_Starbase_Upgrade,
 				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -106,6 +107,7 @@
 				UNSC_GLADIUS,
 				UNSC_STALWART,
 				RS_Improved_Weapons_L1_Upgrade,
+				RS_Increased_Base_Flow_L1,
 				RS_Level_Three_Starbase_Upgrade,
 				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -192,6 +194,8 @@
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
+				RS_Increased_Base_Flow_L1,
+				RS_Increased_Base_Flow_L2,
 				RS_Level_Four_Starbase_Upgrade,
 				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -290,6 +294,8 @@
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade,
+				RS_Increased_Base_Flow_L1,
+				RS_Increased_Base_Flow_L2,
 				RS_Level_Five_Starbase_Upgrade,
 				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -396,6 +402,8 @@
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade,
 				RS_Improved_Defenses_L3_Upgrade,
+				RS_Increased_Base_Flow_L1,
+				RS_Increased_Base_Flow_L2,
 				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
