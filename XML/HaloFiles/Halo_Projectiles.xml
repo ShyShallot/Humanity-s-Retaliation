@@ -5,7 +5,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG_AF.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Turbolaser_Light </Damage_Type>
+		<Damage_Type> Damage_Covn_Light </Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
 		<Projectile_Damage>2.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -31,7 +31,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
-		<Damage_Type> Damage_Turbolaser_Fighter </Damage_Type>
+		<Damage_Type> Damage_Covn_Fighter </Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
 		<Projectile_Damage>10.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -58,10 +58,10 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>50.0</Max_Speed>
-		<Projectile_Damage>13.5</Projectile_Damage>
+		<Projectile_Damage>11.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Damage_Type> Damage_Covn_Normal </Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -76,7 +76,7 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>500</AI_Combat_Power>
-		<Projectile_Blast_Area_Range>100</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range>40</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>5</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
 		
@@ -90,7 +90,7 @@
 		<Projectile_Damage>21.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
-		<Damage_Type> Damage_Turbolaser_Heavy </Damage_Type>
+		<Damage_Type> Damage_Covn_Heavy </Damage_Type>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -144,14 +144,18 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Damage_Type> Damage_UNSC_Torpedo </Damage_Type>
 		<Max_Speed>20.0</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Torpedo</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>115.0</Projectile_Damage>
+		<Projectile_Damage>95.0</Projectile_Damage>
+
+		<Projectile_Blast_Area_Damage>40.0</Projectile_Blast_Area_Damage>
+        <Projectile_Blast_Area_Range>80</Projectile_Blast_Area_Range>
+
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Concussion_Missile_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -173,7 +177,7 @@
 		<Max_Speed>15.0</Max_Speed>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Max_Rate_Of_Turn>200.0</Max_Rate_Of_Turn>
-		<Damage_Type> Damage_Con_Missile_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Missile_Fighter </Damage_Type>
 		<Projectile_Category>Rocket</Projectile_Category>
 		<Projectile_Blast_Area_Damage>4.0</Projectile_Blast_Area_Damage>
         <Projectile_Blast_Area_Range>80</Projectile_Blast_Area_Range>
@@ -191,7 +195,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>4.0</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile_Nuke </Damage_Type>
+		<Damage_Type> Damage_UNSC_Nuke </Damage_Type>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
@@ -240,7 +244,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>4.0</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile_Heavy </Damage_Type>
+		<Damage_Type> Damage_UNSC_Torpedo </Damage_Type>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Max_Speed>15.0</Max_Speed>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -287,7 +291,7 @@
 	<Projectile Name="Reactor_Explode">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile_Nuke </Damage_Type>
+		<Damage_Type> Damage_UNSC_Nuke </Damage_Type>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>BOMB</Projectile_Category>
@@ -322,7 +326,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile_Archer </Damage_Type>
+		<Damage_Type> Damage_UNSC_Missile_Normal </Damage_Type>
 		<Max_Speed>30.0</Max_Speed>
 		<Max_Rate_Of_Turn>15.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -355,7 +359,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PROJ_UNSC_TORP.ALO</Space_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Damage_Type> Damage_Con_Missile_Heavy_Archer </Damage_Type>
+		<Damage_Type> Damage_UNSC_Missile_Heavy </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -389,7 +393,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_MAC.alo</Space_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
-		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Damage_Type> Damage_UNSC_MAC </Damage_Type>
 		<Max_Speed>55.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
@@ -414,11 +418,11 @@
 		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
 
-	<Projectile Name="Proj_UNSC_MAC_SHELL_LIGHT"> <!-- Used on Frigates and Things smaller than a capitial -->
+	<Projectile Name="Proj_UNSC_MAC_SHELL_LIGHT"> <!-- Used on Frigates and Things smaller than a Capital -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_MAC.alo</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
-		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Damage_Type> Damage_UNSC_MAC_Light </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
@@ -479,7 +483,7 @@
 		<Max_Speed>38.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Con_Missile </Damage_Type>
+		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
 		<Projectile_Damage>25</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -506,7 +510,7 @@
 		<Max_Speed>39.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Con_Missile_Light </Damage_Type>
+		<Damage_Type> Damage_UNSC_Fighter </Damage_Type>
 		<Projectile_Damage>9.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
@@ -533,7 +537,7 @@
 		<Max_Speed>35.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Con_Missile_Heavy </Damage_Type>
+		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
 		<Projectile_Damage>32.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
@@ -560,7 +564,7 @@
 		<Max_Speed>50.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Damage_Type> Damage_Con_Missile_COIL </Damage_Type>
+		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
 		<Projectile_Damage>25.5</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
@@ -585,7 +589,7 @@
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>25.0</Scale_Factor>
 		<Max_Speed>39.0</Max_Speed>
-		<Damage_Type> Damage_Con_Missile_Heavy </Damage_Type>
+		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
 		<Projectile_Damage>32</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -613,7 +617,7 @@
 		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
 		<Projectile_Laser_Color>196,41,178,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Damage_Type> Damage_Covn_Torpedo </Damage_Type>
 		<Max_Speed>20</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -643,7 +647,7 @@
 		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
 		<Projectile_Laser_Color>196,41,178,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Damage_Type> Damage_Covn_Torpedo </Damage_Type>
 		<Max_Speed>25</Max_Speed>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -669,16 +673,18 @@
 
 	<Projectile Name="Proj_COV_TORPEDO_Fighter">
 		<Variant_Of_Existing_Type>Proj_COV_TORPEDO</Variant_Of_Existing_Type>
-		<Projectile_Damage>185.0</Projectile_Damage>
+		<Projectile_Damage>105.0</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<AI_Combat_Power>750</AI_Combat_Power>
+		<Projectile_Blast_Area_Range>30</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>40</Projectile_Blast_Area_Damage>
 	</Projectile>
 
 	<Projectile Name="Proj_COV_Plasma_Missile">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>PLASMAMISSILE.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Damage_Type> Damage_Covn_Fighter </Damage_Type>
 		<Max_Speed>70</Max_Speed>
 		<Max_Rate_Of_Turn>25.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>

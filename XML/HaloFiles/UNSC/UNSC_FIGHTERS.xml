@@ -41,7 +41,7 @@
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
-		<Armor_Type> Armor_Bomber </Armor_Type>
+		<Armor_Type> Armor_UNSC_Bomber </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
@@ -134,7 +134,7 @@
 				<Projectile_Types_Override>Proj_UNSC_Shiva_Missiles</Projectile_Types_Override>
 				<Alternate_Name_Text>HALO_LONGSWORD_SHIVA</Alternate_Name_Text>
 				<Alternate_Description_Text>HALO_LONGSWORD_SHIVA_ENC</Alternate_Description_Text>
-				<Supports_Autofire>True</Supports_Autofire>
+				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -330,7 +330,7 @@
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
-		<Armor_Type> Armor_Bomber </Armor_Type>
+		<Armor_Type> Armor_UNSC_Bomber </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
@@ -618,7 +618,7 @@
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
-		<Armor_Type> Armor_Bomber </Armor_Type>
+		<Armor_Type> Armor_UNSC_Fighter </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -864,7 +864,7 @@
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
-		<Armor_Type> Armor_Bomber </Armor_Type>
+		<Armor_Type> Armor_UNSC_Fighter </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -1172,7 +1172,7 @@
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
-		<Armor_Type> Armor_Bomber </Armor_Type>
+		<Armor_Type> Armor_UNSC_Fighter </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>

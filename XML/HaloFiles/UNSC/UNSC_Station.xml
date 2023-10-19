@@ -26,7 +26,6 @@
 				Baselard_Squadron,
 				UNSC_MAKO,
 				RS_Improved_Weapons_L1_Upgrade,
-				RS_Increased_Base_Flow_L1,
 				RS_Level_Two_Starbase_Upgrade,
 				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -71,6 +70,23 @@
 				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
+			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>10.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
 		</Abilities>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -107,7 +123,6 @@
 				UNSC_GLADIUS,
 				UNSC_STALWART,
 				RS_Improved_Weapons_L1_Upgrade,
-				RS_Increased_Base_Flow_L1,
 				RS_Level_Three_Starbase_Upgrade,
 				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -151,6 +166,23 @@
 				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
+			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>10.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
 		</Abilities>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -162,7 +194,7 @@
 		<Variant_Of_Existing_Type>Rebel_Star_Base_3</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>80000</Tactical_Health>
+		<Tactical_Health>95000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -194,8 +226,6 @@
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
-				RS_Increased_Base_Flow_L1,
-				RS_Increased_Base_Flow_L2,
 				RS_Level_Four_Starbase_Upgrade,
 				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -239,6 +269,23 @@
 				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
+			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>10.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
 		</Abilities>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -250,7 +297,7 @@
 		<Variant_Of_Existing_Type>Rebel_Star_Base_4</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>40000</Tactical_Health>
+		<Tactical_Health>100000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -265,7 +312,7 @@
 			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05	
 		</HardPoints>
 
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
@@ -290,12 +337,11 @@
 				UNSC_HALCYON,
 				UNSC_MARATHON,
 				UNSC_POA,
+				UNSC_SOF,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade,
-				RS_Increased_Base_Flow_L1,
-				RS_Increased_Base_Flow_L2,
 				RS_Level_Five_Starbase_Upgrade,
 				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -339,6 +385,24 @@
 				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
+
+			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>10.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
 		</Abilities>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -350,7 +414,7 @@
 		<Variant_Of_Existing_Type>Rebel_Star_Base_5</Variant_Of_Existing_Type>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Shield_Points>14000</Shield_Points>
-		<Tactical_Health>50000</Tactical_Health>
+		<Tactical_Health>150000</Tactical_Health>
 
 		<!-- Replacement List of Hardpoints -->
 		<HardPoints>
@@ -402,8 +466,6 @@
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade,
 				RS_Improved_Defenses_L3_Upgrade,
-				RS_Increased_Base_Flow_L1,
-				RS_Increased_Base_Flow_L2,
 				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -446,6 +508,24 @@
 				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
+
+			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>10.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
 		</Abilities>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>

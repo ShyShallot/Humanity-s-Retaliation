@@ -811,6 +811,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_M910_01</Attachment_Bone>
 		<Collision_Mesh>HP_M910_01</Collision_Mesh>
+		<Damage_Particles>HP_M910_01_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -850,6 +851,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_M910_02</Attachment_Bone>
 		<Collision_Mesh>HP_M910_02</Collision_Mesh>
+		<Damage_Particles>HP_M910_02_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -889,6 +891,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_M910_03</Attachment_Bone>
 		<Collision_Mesh>HP_M910_03</Collision_Mesh>
+		<Damage_Particles>HP_M910_03_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -928,6 +931,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_M910_04</Attachment_Bone>
 		<Collision_Mesh>HP_M910_04</Collision_Mesh>
+		<Damage_Particles>HP_M910_04_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -967,6 +971,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_M910_05</Attachment_Bone>
 		<Collision_Mesh>HP_M910_05</Collision_Mesh>
+		<Damage_Particles>HP_M910_05_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1006,6 +1011,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_M910_06</Attachment_Bone>
 		<Collision_Mesh>HP_M910_06</Collision_Mesh>
+		<Damage_Particles>HP_M910_06_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1045,6 +1051,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_M910_07</Attachment_Bone>
 		<Collision_Mesh>HP_M910_07</Collision_Mesh>
+		<Damage_Particles>HP_M910_07_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1084,6 +1091,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_M910_08</Attachment_Bone>
 		<Collision_Mesh>HP_M910_08</Collision_Mesh>
+		<Damage_Particles>HP_M910_08_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1123,6 +1131,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_M910_09</Attachment_Bone>
 		<Collision_Mesh>HP_M910_09</Collision_Mesh>
+		<Damage_Particles>HP_M910_09_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1162,6 +1171,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_M910_10</Attachment_Bone>
 		<Collision_Mesh>HP_M910_10</Collision_Mesh>
+		<Damage_Particles>HP_M910_10_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1198,7 +1208,7 @@
 		<Collision_Mesh>HP_ENGINES_01</Collision_Mesh>
 		<Damage_Decal />
 		<Damage_Particles/>
-		<Engine_Particles/>
+		<Engine_Particles>HP_ENGINES_01</Engine_Particles>
     </HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_EG_02">
@@ -1216,7 +1226,7 @@
 		<Collision_Mesh>HP_ENGINES_02</Collision_Mesh>
 		<Damage_Decal />
 		<Damage_Particles/>
-		<Engine_Particles/>
+		<Engine_Particles>HP_ENGINES_02</Engine_Particles>
     </HardPoint>
 
     <!--<HardPoint Name="HP_MUSASHI_REACTOR">
@@ -1241,6 +1251,7 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Damage_Particles>HP_HANGAR_01_EMIT</Damage_Particles>
 	</HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_02">
@@ -1253,6 +1264,7 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Damage_Particles>HP_HANGAR_02_EMIT</Damage_Particles>
 	</HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_03">
@@ -1265,6 +1277,7 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Damage_Particles>HP_HANGAR_03_EMIT</Damage_Particles>
 	</HardPoint>
 
     <HardPoint Name="UNSC_MUSASHI_04">
@@ -1277,18 +1290,7 @@
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
-
-    <HardPoint Name="UNSC_MUSASHI_05">
-		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>550.0</Health>		
-        <Attachment_Bone>HP_HANGAR_05</Attachment_Bone>		 
-		<Collision_Mesh>HP_HANGAR_05</Collision_Mesh>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Damage_Particles>HP_HANGAR_04_EMIT</Damage_Particles>
 	</HardPoint>
 
     <!-- Poseidon Class Hardpoints -->

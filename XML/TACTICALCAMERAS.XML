@@ -82,10 +82,10 @@
 
 	<TacticalCamera Name="Space_Mode">
 
-		<Pitch_Default>50</Pitch_Default>
-		<Pitch_Min>-10.0</Pitch_Min>
-		<Pitch_Max>50.0</Pitch_Max>
-		<Pitch_Per_Mouse_Unit>-1.5</Pitch_Per_Mouse_Unit>
+		<Pitch_Default>40</Pitch_Default>
+		<Pitch_Min>-90.0</Pitch_Min>
+		<Pitch_Max>90.0</Pitch_Max>
+		<Pitch_Per_Mouse_Unit>-1.0</Pitch_Per_Mouse_Unit>
         <Pitch_Per_Zoom_Unit>0.0</Pitch_Per_Zoom_Unit>
         <Pitch_When_Zoomed_In>50</Pitch_When_Zoomed_In>
         <Pitch_Zoom_Begin_Fraction>-1.0</Pitch_Zoom_Begin_Fraction> <!-- disabled -->
@@ -96,39 +96,40 @@
 		<Yaw_Per_Mouse_Unit>1.5</Yaw_Per_Mouse_Unit>
 
 		<Fov_Default>70.0</Fov_Default>
-		<Fov_Max>80.0</Fov_Max>
-		<Fov_Min>60.0</Fov_Min>
+		<Fov_Max>85.0</Fov_Max>
+		<Fov_Min>25.0</Fov_Min>
 		<Fov_Smooth_Time>0.1</Fov_Smooth_Time>
-		<Fov_Per_Mouse_Unit>0.0</Fov_Per_Mouse_Unit>
+		<Fov_Per_Mouse_Unit>5</Fov_Per_Mouse_Unit>
 
-		<Distance_Default>1000.0</Distance_Default>
-		<Distance_Max>1900.0</Distance_Max>
-		<Distance_Min>-800.0</Distance_Min>
+		<Distance_Default>2000.0</Distance_Default>
+		<Distance_Max>4000.0</Distance_Max>
+		<Distance_Min>-200.0</Distance_Min>
 		<Distance_Smooth_Time>0.1</Distance_Smooth_Time>
 		<Distance_Per_Mouse_Unit>100.0</Distance_Per_Mouse_Unit>
 
-        <Tactical_Overview_Distance>2200.0</Tactical_Overview_Distance>
-        <Tactical_Overview_FOV>70.0</Tactical_Overview_FOV>
-        <Tactical_Overview_Clicks>10</Tactical_Overview_Clicks>
-        <Tactical_Overview_Click_Time>1.8</Tactical_Overview_Click_Time>    
+        <Tactical_Overview_Distance>5000.0</Tactical_Overview_Distance> 
+		<Tactical_Overview_Pitch>50.0</Tactical_Overview_Pitch> 
+        <Tactical_Overview_FOV>75.0</Tactical_Overview_FOV>
+        <Tactical_Overview_Clicks>2</Tactical_Overview_Clicks>
+        <Tactical_Overview_Click_Time>0.8</Tactical_Overview_Click_Time>  
 
-        <Tactical_Overview_Distance2>2900.0</Tactical_Overview_Distance2>
-        <Tactical_Overview_Pitch2>70.0</Tactical_Overview_Pitch2>
+        <Tactical_Overview_Distance2>10000.0</Tactical_Overview_Distance2> 
+        <Tactical_Overview_Pitch2>50.0</Tactical_Overview_Pitch2> 
         <Tactical_Overview_FOV2>75.0</Tactical_Overview_FOV2>
 
         <!-- smoothness of terrain height following -->
 		<Location_Follows_Terrain>0</Location_Follows_Terrain>
 		<Location_Height_Smooth_Time>0.1</Location_Height_Smooth_Time>
 		
-		<Near_Clip>0.1</Near_Clip>
-		<Far_Clip>90000.0</Far_Clip>
+		<Near_Clip>1.0</Near_Clip>
+		<Far_Clip>200000.0</Far_Clip>
 
-        <Object_Fade_Begin>8000.0f</Object_Fade_Begin>
-        <Object_Fade_End>9000.0f</Object_Fade_End>
+        <Object_Fade_Begin>24900.0f</Object_Fade_Begin>
+        <Object_Fade_End>250000.0f</Object_Fade_End>
         
-        <Side_Bounds_Buffer>-300.0f</Side_Bounds_Buffer>
-        <Top_Bounds_Buffer>-300.0f</Top_Bounds_Buffer>
-        <Bottom_Bounds_Buffer>-300.0f</Bottom_Bounds_Buffer>
+        <Side_Bounds_Buffer>-9999999.0f</Side_Bounds_Buffer>
+        <Top_Bounds_Buffer>-9999999.0f</Top_Bounds_Buffer>
+        <Bottom_Bounds_Buffer>-9999999.0f</Bottom_Bounds_Buffer>
 
 	</TacticalCamera>
 	

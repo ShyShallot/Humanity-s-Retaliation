@@ -49,7 +49,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_COVN_Station</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -183,7 +183,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_COVN_Station</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -332,7 +332,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_COVN_Station</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 3</Starting_Spawned_Units_Tech_0>
@@ -476,7 +476,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_COVN_Station</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 3</Starting_Spawned_Units_Tech_0>
@@ -618,7 +618,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_COVN_Station</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 3</Starting_Spawned_Units_Tech_0>
@@ -956,7 +956,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Station</Shield_Armor_Type>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1114,7 +1114,7 @@
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Station</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
@@ -1266,7 +1266,7 @@
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Station</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
@@ -1422,7 +1422,7 @@
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Station</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
@@ -1590,7 +1590,7 @@
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Station</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
