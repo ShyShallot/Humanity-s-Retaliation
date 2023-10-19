@@ -4,8 +4,8 @@
 	<Name> BasicRebel </Name>
 
 	<Personality>
-		<Focus> .5 </Focus>
-		<Aggressiveness> .5 </Aggressiveness>
+		<Focus> .9 </Focus>
+		<Aggressiveness> .7 </Aggressiveness>
 	</Personality>
 	
     <GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>

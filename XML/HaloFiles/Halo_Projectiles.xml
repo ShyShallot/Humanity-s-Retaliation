@@ -200,7 +200,7 @@
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Max_Scan_Range>100.0</Projectile_Max_Scan_Range>	
 		<Projectile_Damage>900.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Concussion_Missile_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -219,7 +219,7 @@
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
         <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
-		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
+		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
 		
 		<!-- Scatter radius and damage -->
 		<Projectile_Blast_Area_Damage> 800 </Projectile_Blast_Area_Damage>
@@ -250,7 +250,7 @@
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	
 		<Projectile_Damage>400.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Concussion_Missile_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -268,10 +268,10 @@
 		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
         <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
-		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
+		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
 
 		<Projectile_Ion_Stun_On_Detonation>Yes</Projectile_Ion_Stun_On_Detonation>
-		<Projectile_Disables_Engines_When_Power_Drained>No</Projectile_Disables_Engines_When_Power_Drained>
+		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
 		<Projectile_Ion_Stun_Duration>2.0</Projectile_Ion_Stun_Duration>
 		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.45</Projectile_Ion_Stun_Speed_Reduction_Percent>
 		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.7</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>
