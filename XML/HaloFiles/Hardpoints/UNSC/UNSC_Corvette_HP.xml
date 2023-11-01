@@ -40,6 +40,8 @@
             
     </HardPoint>
 
+    
+
     <HardPoint Name="UNSC_MAKO_M66_02">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
@@ -77,6 +79,8 @@
 			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
+
+
 
     <HardPoint Name="UNSC_MAKO_M870_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>

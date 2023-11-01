@@ -1310,7 +1310,7 @@
 		<Collision_Mesh>HP_ENGINES</Collision_Mesh>
 		<Damage_Decal />
 		<Damage_Particles/>
-		<Engine_Particles/>
+		<Engine_Particles>HP_ENGINES</Engine_Particles>
     </HardPoint>
 
     <HardPoint Name="UNSC_POSEIDON_01">
@@ -1320,6 +1320,7 @@
         <Health>350.0</Health>		
         <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>		 
 		<Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
+		<Damage_Particles>HP_HANGAR_01_EMIT</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
@@ -1332,6 +1333,7 @@
         <Health>350.0</Health>		
         <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>		 
 		<Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
+		<Damage_Particles>HP_HANGAR_02_EMIT</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
@@ -1344,6 +1346,7 @@
         <Health>350.0</Health>		
         <Attachment_Bone>HP_HANGAR_03</Attachment_Bone>		 
 		<Collision_Mesh>HP_HANGAR_03</Collision_Mesh>
+		<Damage_Particles>HP_HANGAR_03_EMIT</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
@@ -1368,6 +1371,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_01</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_01</Collision_Mesh>
+		<Damage_Particles>HP_MK33_01_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1407,6 +1411,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_02</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_02</Collision_Mesh>
+		<Damage_Particles>HP_MK33_02_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1446,6 +1451,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_03</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_03</Collision_Mesh>
+		<Damage_Particles>HP_MK33_03_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1485,6 +1491,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_04</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_04</Collision_Mesh>
+		<Damage_Particles>HP_MK33_04_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1524,6 +1531,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_05</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_05</Collision_Mesh>
+		<Damage_Particles>HP_MK33_05_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -1563,6 +1571,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_06</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_06</Collision_Mesh>
+		<Damage_Particles>HP_MK33_06_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2127,6 +2136,7 @@
 		<Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
 		<Attachment_Bone>HP_COILGUN_01</Attachment_Bone>
 		<Collision_Mesh>HP_COILGUN_01</Collision_Mesh>
+		<Damage_Particles>HP_COILGUN_01_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_01</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2164,6 +2174,7 @@
 		<Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
 		<Attachment_Bone>HP_COILGUN_02</Attachment_Bone>
 		<Collision_Mesh>HP_COILGUN_02</Collision_Mesh>
+		<Damage_Particles>HP_COILGUN_02_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_01</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2201,6 +2212,7 @@
 		<Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
 		<Attachment_Bone>HP_COILGUN_03</Attachment_Bone>
 		<Collision_Mesh>HP_COILGUN_03</Collision_Mesh>
+		<Damage_Particles>HP_COILGUN_03_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_01</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2238,6 +2250,7 @@
 		<Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
 		<Attachment_Bone>HP_COILGUN_04</Attachment_Bone>
 		<Collision_Mesh>HP_COILGUN_04</Collision_Mesh>
+		<Damage_Particles>HP_COILGUN_04_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_01</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2275,6 +2288,7 @@
 		<Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
 		<Attachment_Bone>HP_COILGUN_05</Attachment_Bone>
 		<Collision_Mesh>HP_COILGUN_05</Collision_Mesh>
+		<Damage_Particles>HP_COILGUN_05_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_01</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2312,6 +2326,7 @@
 		<Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
 		<Attachment_Bone>HP_COILGUN_06</Attachment_Bone>
 		<Collision_Mesh>HP_COILGUN_06</Collision_Mesh>
+		<Damage_Particles>HP_COILGUN_06_EMIT</Damage_Particles>
 		<Fire_Bone_A>FP_01</Fire_Bone_A>
 		<Fire_Bone_B>FP_01</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2340,6 +2355,7 @@
 
 		<Attachment_Bone>HP_ARCHERPOD_01</Attachment_Bone>
 		<Collision_Mesh>HP_ARCHERPOD_01</Collision_Mesh>
+		<Damage_Particles>HP_ARCHERPOD_01_EMIT</Damage_Particles>
 		<Fire_Bone_A>HP_ARCHERPOD_01</Fire_Bone_A>
 		<Fire_Bone_B>HP_ARCHERPOD_01</Fire_Bone_B>
 		<Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -2368,6 +2384,7 @@
 
 		<Attachment_Bone>HP_ARCHERPOD_02</Attachment_Bone>
 		<Collision_Mesh>HP_ARCHERPOD_02</Collision_Mesh>
+		<Damage_Particles>HP_ARCHERPOD_02_EMIT</Damage_Particles>
 		<Fire_Bone_A>HP_ARCHERPOD_02</Fire_Bone_A>
 		<Fire_Bone_B>HP_ARCHERPOD_02</Fire_Bone_B>
 		<Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -2429,7 +2446,7 @@
 		<Collision_Mesh>HP_ENGINES</Collision_Mesh>
 		<Damage_Decal />
 		<Damage_Particles/>
-		<Engine_Particles/>
+		<Engine_Particles>HP_ENGINES</Engine_Particles>
     </HardPoint>
 
     <!--<HardPoint Name="HP_STRIDENT_REACTOR">
@@ -2475,6 +2492,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_01</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_01</Collision_Mesh>
+		<Damage_Particles>HP_MK33_01_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_U_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_U_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2514,6 +2532,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_02</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_02</Collision_Mesh>
+		<Damage_Particles>HP_MK33_02_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_U_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_U_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2553,6 +2572,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_03</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_03</Collision_Mesh>
+		<Damage_Particles>HP_MK33_03_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_U_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_U_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2592,6 +2612,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_04</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_04</Collision_Mesh>
+		<Damage_Particles>HP_MK33_04_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_U_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_U_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2631,6 +2652,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_05</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_05</Collision_Mesh>
+		<Damage_Particles>HP_MK33_05_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_U_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_U_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
@@ -2670,6 +2692,7 @@
 		<Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
 		<Attachment_Bone>HP_MK33_06</Attachment_Bone>
 		<Collision_Mesh>HP_MK33_06</Collision_Mesh>
+		<Damage_Particles>HP_MK33_06_EMIT</Damage_Particles>
 		<Fire_Bone_A>FB_U_01</Fire_Bone_A>
 		<Fire_Bone_B>FB_U_02</Fire_Bone_B>
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>

@@ -36,225 +36,357 @@
             
      </HardPoint>-->
 
-    <HardPoint Name="HP_CAS_01">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-            <Attachment_Bone>HP_CAS_MT_01_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_MT_01_BONE</Collision_Mesh>
-			<Fire_Bone_A>FB_CAS_MT_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_CAS_MT_01</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>250.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+<Hardpoint Name="HP_CAS_01">
+       <Type>HARD_POINT_WEAPON_TORPEDO</Type>
+       <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>750</Health>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_01.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_MT_01_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_MT_01_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_MT_01_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FB_CAS_MT_01</Fire_Bone_A>
+       <Fire_Bone_B>FB_CAS_MT_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>125</Fire_Cone_Width>
+       <Fire_Cone_Height>180</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>8</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>3</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2250</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_02">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-            <Attachment_Bone>HP_CAS_MT_02_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_MT_02_BONE</Collision_Mesh>
-			<Fire_Bone_A>FB_CAS_MT_02</Fire_Bone_A>
-            <Fire_Bone_B>FB_CAS_MT_02</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>250.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+<Hardpoint Name="HP_CAS_02">
+       <Type>HARD_POINT_WEAPON_TORPEDO</Type>
+       <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>750</Health>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_02.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_MT_02_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_MT_02_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_MT_02_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FB_CAS_MT_02</Fire_Bone_A>
+       <Fire_Bone_B>FB_CAS_MT_02</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>125</Fire_Cone_Width>
+       <Fire_Cone_Height>180</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>8</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>3</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2250</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_03">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-            <Attachment_Bone>HP_CAS_MT_03_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_MT_03_BONE</Collision_Mesh>
-			<Fire_Bone_A>FB_CAS_MT_03</Fire_Bone_A>
-            <Fire_Bone_B>FB_CAS_MT_03</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>250.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+<Hardpoint Name="HP_CAS_03">
+       <Type>HARD_POINT_WEAPON_TORPEDO</Type>
+       <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>750</Health>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_03.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_MT_03_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_MT_03_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_MT_03_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FB_CAS_MT_03</Fire_Bone_A>
+       <Fire_Bone_B>FB_CAS_MT_03</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>125</Fire_Cone_Width>
+       <Fire_Cone_Height>180</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>8</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>3</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2250</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_04">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-            <Attachment_Bone>HP_CAS_MT_04_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_MT_04_BONE</Collision_Mesh>
-			<Fire_Bone_A>FB_CAS_MT_04</Fire_Bone_A>
-            <Fire_Bone_B>FB_CAS_MT_04</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>250.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+<Hardpoint Name="HP_CAS_04">
+       <Type>HARD_POINT_WEAPON_TORPEDO</Type>
+       <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>750</Health>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_04.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_MT_04_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_MT_04_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_MT_04_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FB_CAS_MT_04</Fire_Bone_A>
+       <Fire_Bone_B>FB_CAS_MT_04</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>125</Fire_Cone_Width>
+       <Fire_Cone_Height>180</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>8</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>3</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2250</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_05">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-            <Attachment_Bone>HP_CAS_MT_05_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_MT_05_BONE</Collision_Mesh>
-			<Fire_Bone_A>FB_CAS_MT_05</Fire_Bone_A>
-            <Fire_Bone_B>FB_CAS_MT_05</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>250.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+<Hardpoint Name="HP_CAS_05">
+       <Type>HARD_POINT_WEAPON_TORPEDO</Type>
+       <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>750</Health>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_05.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_MT_05_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_MT_05_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_MT_05_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FB_CAS_MT_05</Fire_Bone_A>
+       <Fire_Bone_B>FB_CAS_MT_05</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>125</Fire_Cone_Width>
+       <Fire_Cone_Height>180</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>8</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>3</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2250</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_06">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-            <Attachment_Bone>HP_CAS_MT_06_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_MT_06_BONE</Collision_Mesh>
-			<Fire_Bone_A>FB_CAS_MT_06</Fire_Bone_A>
-            <Fire_Bone_B>FB_CAS_MT_06</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>250.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+<Hardpoint Name="HP_CAS_06">
+       <Type>HARD_POINT_WEAPON_TORPEDO</Type>
+       <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>750</Health>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_06.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_MT_06_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_MT_06_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_MT_06_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FB_CAS_MT_06</Fire_Bone_A>
+       <Fire_Bone_B>FB_CAS_MT_06</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>125</Fire_Cone_Width>
+       <Fire_Cone_Height>180</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>8</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>3</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2250</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_07">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-            <Attachment_Bone>HP_CAS_MT_07_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_MT_07_BONE</Collision_Mesh>
-			<Fire_Bone_A>FB_CAS_MT_07</Fire_Bone_A>
-            <Fire_Bone_B>FB_CAS_MT_07</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>250.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+<Hardpoint Name="HP_CAS_07">
+       <Type>HARD_POINT_WEAPON_TORPEDO</Type>
+       <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>750</Health>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_07.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_MT_07_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_MT_07_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_MT_07_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FB_CAS_MT_07</Fire_Bone_A>
+       <Fire_Bone_B>FB_CAS_MT_07</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>125</Fire_Cone_Width>
+       <Fire_Cone_Height>180</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>8</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>3</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2250</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_08">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-            <Attachment_Bone>HP_CAS_MT_08_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_MT_08_BONE</Collision_Mesh>
-			<Fire_Bone_A>FB_CAS_MT_08</Fire_Bone_A>
-            <Fire_Bone_B>FB_CAS_MT_08</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>250.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+<Hardpoint Name="HP_CAS_08">
+       <Type>HARD_POINT_WEAPON_TORPEDO</Type>
+       <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>750</Health>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_08.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_MT_08_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_MT_08_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_MT_08_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FB_CAS_MT_08</Fire_Bone_A>
+       <Fire_Bone_B>FB_CAS_MT_08</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>125</Fire_Cone_Width>
+       <Fire_Cone_Height>180</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>8</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>3</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2250</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_09">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-            <Attachment_Bone>HP_CAS_MT_09_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_MT_09_BONE</Collision_Mesh>
-			<Fire_Bone_A>FB_CAS_MT_09</Fire_Bone_A>
-            <Fire_Bone_B>FB_CAS_MT_09</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>250.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+<Hardpoint Name="HP_CAS_09">
+       <Type>HARD_POINT_WEAPON_TORPEDO</Type>
+       <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>750</Health>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_09.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_MT_09_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_MT_09_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_MT_09_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FB_CAS_MT_09</Fire_Bone_A>
+       <Fire_Bone_B>FB_CAS_MT_09</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>125</Fire_Cone_Width>
+       <Fire_Cone_Height>180</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>8</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>3</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2250</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_10">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-            <Attachment_Bone>HP_CAS_MT_10_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_MT_10_BONE</Collision_Mesh>
-			<Fire_Bone_A>FB_CAS_MT_10</Fire_Bone_A>
-            <Fire_Bone_B>FB_CAS_MT_10</Fire_Bone_B>
-            <Fire_Cone_Width>125.0</Fire_Cone_Width>
-            <Fire_Cone_Height>250.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+<Hardpoint Name="HP_CAS_10">
+       <Type>HARD_POINT_WEAPON_TORPEDO</Type>
+       <Tooltip_Text>CONV_TORP_CAP</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>750</Health>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_10.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_MT_10_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_MT_10_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_MT_10_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FB_CAS_MT_10</Fire_Bone_A>
+       <Fire_Bone_B>FB_CAS_MT_10</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>125</Fire_Cone_Width>
+       <Fire_Cone_Height>180</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_COV_TORPEDO_CAP</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>8</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>3</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2250</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
+
+
 
     <HardPoint Name="HP_CAS_11">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -517,6 +649,7 @@
             <Attachment_Bone>HP_CAS_ENGINES_01_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
             <Collision_Mesh>HP_CAS_ENGINES_01_BONE</Collision_Mesh>
             <Damage_Decal />
+            <Engine_Particles>HP_CAS_ENGINES_01_BONE</Engine_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_CAS_21">
@@ -532,6 +665,7 @@
             <Attachment_Bone>HP_CAS_ENGINES_02_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
             <Collision_Mesh>HP_CAS_ENGINES_02_BONE</Collision_Mesh>
             <Damage_Decal />
+            <Engine_Particles>HP_CAS_ENGINES_02_BONE</Engine_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_CAS_22">
@@ -547,6 +681,7 @@
             <Attachment_Bone>HP_CAS_ENGINES_03_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
             <Collision_Mesh>HP_CAS_ENGINES_03_BONE</Collision_Mesh>
             <Damage_Decal />
+            <Engine_Particles>HP_CAS_ENGINES_03_BONE</Engine_Particles>
     </HardPoint>
 
 	<HardPoint Name="HP_CAS_23">
@@ -556,6 +691,7 @@
         <Health>230.0</Health>		
         <Attachment_Bone>HP_CAS_HANGER_01_BONE</Attachment_Bone>             
 		<Collision_Mesh>HP_CAS_HANGER_01_BONE</Collision_Mesh>
+        <Damage_Particles>HP_CAS_HANGER_01_BONE_EMIT</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
@@ -568,18 +704,7 @@
         <Health>350.0</Health>		
         <Attachment_Bone>HP_CAS_HANGER_02_BONE</Attachment_Bone>             
 		<Collision_Mesh>HP_CAS_HANGER_02_BONE</Collision_Mesh>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
-
-    <HardPoint Name="HP_CAS_24">
-		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>350.0</Health>		
-        <Attachment_Bone>HP_CAS_HANGER_03_BONE</Attachment_Bone>             
-		<Collision_Mesh>HP_CAS_HANGER_03_BONE</Collision_Mesh>
+        <Damage_Particles>HP_CAS_HANGER_02_BONE_EMIT</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
@@ -590,422 +715,428 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
         <Health>350.0</Health>		
-        <Attachment_Bone>HP_CAS_HANGER_04_BONE</Attachment_Bone>             
-		<Collision_Mesh>HP_CAS_HANGER_04_BONE</Collision_Mesh>
+        <Attachment_Bone>HP_CAS_HANGER_03_BONE</Attachment_Bone>             
+		<Collision_Mesh>HP_CAS_HANGER_03_BONE</Collision_Mesh>
+        <Damage_Particles>HP_CAS_HANGER_03_BONE_EMIT</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 
-    <HardPoint Name="HP_CAS_HC_01">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
+    <HardPoint Name="HP_CAS_26">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+        <Health>350.0</Health>		
+        <Attachment_Bone>HP_CAS_HANGER_04_BONE</Attachment_Bone>             
+		<Collision_Mesh>HP_CAS_HANGER_04_BONE</Collision_Mesh>
+        <Damage_Particles>HP_CAS_HANGER_04_BONE_EMIT</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	</HardPoint>
 
-            <Model_To_Attach>COVN_CAS_HEAVYPLASMA_01.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 150.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 180.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
-            <Attachment_Bone>HP_CAS_HC_01_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_HC_01_BONE</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>20</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+    <Hardpoint Name="HP_CAS_HC_01">
+       <Type>HARD_POINT_WEAPON_LASER</Type>
+       <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>450</Health>
+       <Is_Turret>Yes</Is_Turret>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_01.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_HC_01_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_HC_01_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_HC_01_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FP_01</Fire_Bone_A>
+       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>60</Fire_Cone_Width>
+       <Fire_Cone_Height>140</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>20</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2000</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Frigate, 15</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Capital, 7</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+<Hardpoint Name="HP_CAS_HC_02">
+       <Type>HARD_POINT_WEAPON_LASER</Type>
+       <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>450</Health>
+       <Is_Turret>Yes</Is_Turret>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_02.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_HC_02_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_HC_02_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_HC_02_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FP_01</Fire_Bone_A>
+       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>60</Fire_Cone_Width>
+       <Fire_Cone_Height>140</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>20</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2000</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Frigate, 15</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Capital, 7</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    </HardPoint>
+<Hardpoint Name="HP_CAS_HC_03">
+       <Type>HARD_POINT_WEAPON_LASER</Type>
+       <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>450</Health>
+       <Is_Turret>Yes</Is_Turret>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_03.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_HC_03_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_HC_03_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_HC_03_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FP_01</Fire_Bone_A>
+       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>60</Fire_Cone_Width>
+       <Fire_Cone_Height>140</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>20</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2000</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Frigate, 15</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Capital, 7</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_HC_02">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
+<Hardpoint Name="HP_CAS_HC_04">
+       <Type>HARD_POINT_WEAPON_LASER</Type>
+       <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>450</Health>
+       <Is_Turret>Yes</Is_Turret>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_04.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_HC_04_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_HC_04_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_HC_04_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FP_01</Fire_Bone_A>
+       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>60</Fire_Cone_Width>
+       <Fire_Cone_Height>140</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>20</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2000</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Frigate, 15</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Capital, 7</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-            <Model_To_Attach>COVN_CAS_HEAVYPLASMA_02.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 150.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 180.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
-            <Attachment_Bone>HP_CAS_HC_02_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_HC_02_BONE</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>20</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+<Hardpoint Name="HP_CAS_HC_05">
+       <Type>HARD_POINT_WEAPON_LASER</Type>
+       <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>450</Health>
+       <Is_Turret>Yes</Is_Turret>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_05.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_HC_05_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_HC_05_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_HC_05_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FP_01</Fire_Bone_A>
+       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>60</Fire_Cone_Width>
+       <Fire_Cone_Height>140</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>20</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2000</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Frigate, 15</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Capital, 7</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+<Hardpoint Name="HP_CAS_HC_06">
+       <Type>HARD_POINT_WEAPON_LASER</Type>
+       <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>450</Health>
+       <Is_Turret>Yes</Is_Turret>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_06.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_HC_06_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_HC_06_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_HC_06_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FP_01</Fire_Bone_A>
+       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>60</Fire_Cone_Width>
+       <Fire_Cone_Height>140</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>20</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2000</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Frigate, 15</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Capital, 7</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    </HardPoint>
+<Hardpoint Name="HP_CAS_HC_07">
+       <Type>HARD_POINT_WEAPON_LASER</Type>
+       <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>450</Health>
+       <Is_Turret>Yes</Is_Turret>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_07.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_HC_07_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_HC_07_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_HC_07_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FP_01</Fire_Bone_A>
+       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>60</Fire_Cone_Width>
+       <Fire_Cone_Height>140</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>20</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2000</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Frigate, 15</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Capital, 7</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="HP_CAS_HC_03">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
+<Hardpoint Name="HP_CAS_HC_08">
+       <Type>HARD_POINT_WEAPON_LASER</Type>
+       <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>450</Health>
+       <Is_Turret>Yes</Is_Turret>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_08.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_HC_08_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_HC_08_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_HC_08_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FP_01</Fire_Bone_A>
+       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>60</Fire_Cone_Width>
+       <Fire_Cone_Height>140</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>20</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2000</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Frigate, 15</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Capital, 7</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-            <Model_To_Attach>COVN_CAS_HEAVYPLASMA_03.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 150.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 180.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
-            <Attachment_Bone>HP_CAS_HC_03_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_HC_03_BONE</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>20</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+<Hardpoint Name="HP_CAS_HC_09">
+       <Type>HARD_POINT_WEAPON_LASER</Type>
+       <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>450</Health>
+       <Is_Turret>Yes</Is_Turret>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_09.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_HC_09_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_HC_09_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_HC_09_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FP_01</Fire_Bone_A>
+       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>60</Fire_Cone_Width>
+       <Fire_Cone_Height>140</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>20</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2000</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Frigate, 15</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Capital, 7</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+<Hardpoint Name="HP_CAS_HC_10">
+       <Type>HARD_POINT_WEAPON_LASER</Type>
+       <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+       <Is_Targetable>Yes</Is_Targetable>
+       <Is_Destroyable>Yes</Is_Destroyable>
+       <Health>450</Health>
+       <Is_Turret>Yes</Is_Turret>
+       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_10.ALO </Model_To_Attach>
+       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
+       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
+       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       <Attachment_Bone>HP_CAS_HC_10_BONE</Attachment_Bone>
+       <Collision_Mesh>HP_CAS_HC_10_BONE</Collision_Mesh>
+       <Damage_Particles>HP_CAS_HC_10_BONE_EMIT</Damage_Particles>
+       <Fire_Bone_A>FP_01</Fire_Bone_A>
+       <Fire_Bone_B>FP_01</Fire_Bone_B>
+       <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+       <Fire_Cone_Width>60</Fire_Cone_Width>
+       <Fire_Cone_Height>140</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+       <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+       <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+       <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+       <Fire_Pulse_Count>20</Fire_Pulse_Count>
+       <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+       <Fire_Range_Distance>2000</Fire_Range_Distance>
+       <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+       <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+       <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+       <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Frigate, 15</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Capital, 7</Fire_Inaccuracy_Distance>
+       <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+       <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+       <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    </HardPoint>
-    
-    <HardPoint Name="HP_CAS_HC_04">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
 
-            <Model_To_Attach>COVN_CAS_HEAVYPLASMA_04.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 150.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 180.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
-            <Attachment_Bone>HP_CAS_HC_04_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_HC_04_BONE</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>20</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_CAS_HC_05">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-
-            <Model_To_Attach>COVN_CAS_HEAVYPLASMA_05.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 150.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 180.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
-            <Attachment_Bone>HP_CAS_HC_05_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_HC_05_BONE</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>20</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_CAS_HC_06">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-
-            <Model_To_Attach>COVN_CAS_HEAVYPLASMA_06.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 150.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 180.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
-            <Attachment_Bone>HP_CAS_HC_06_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_HC_06_BONE</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>20</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_CAS_HC_07">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-
-            <Model_To_Attach>COVN_CAS_HEAVYPLASMA_07.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 150.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 180.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
-            <Attachment_Bone>HP_CAS_HC_07_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_HC_07_BONE</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>20</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_CAS_HC_08">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-
-            <Model_To_Attach>COVN_CAS_HEAVYPLASMA_08.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 150.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 180.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
-            <Attachment_Bone>HP_CAS_HC_08_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_HC_08_BONE</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>20</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_CAS_HC_09">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-
-            <Model_To_Attach>COVN_CAS_HEAVYPLASMA_09.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 150.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 180.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
-            <Attachment_Bone>HP_CAS_HC_09_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_HC_09_BONE</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>20</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_CAS_HC_10">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>280.0</Health>
-
-            <Model_To_Attach>COVN_CAS_HEAVYPLASMA_10.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 150.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 180.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
-            <Attachment_Bone>HP_CAS_HC_10_BONE</Attachment_Bone>
-            <Collision_Mesh>HP_CAS_HC_10_BONE</Collision_Mesh>
-			<Fire_Bone_A>FP_01</Fire_Bone_A>
-            <Fire_Bone_B>FP_01</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>20</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
-
-    </HardPoint>
 
 
 

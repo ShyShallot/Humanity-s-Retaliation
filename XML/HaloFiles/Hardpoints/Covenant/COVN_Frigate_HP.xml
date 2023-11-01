@@ -185,6 +185,7 @@
             <Health>325.0</Health>
             <Attachment_Bone>HP_AS_01</Attachment_Bone>
             <Collision_Mesh>HP_AS_01</Collision_Mesh>
+            <Damage_Particles>HP_AS_01</Damage_Particles>
 			<Fire_Bone_A>HP_AS_01</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_01</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -212,6 +213,7 @@
             <Health>325.0</Health>
             <Attachment_Bone>HP_AS_02</Attachment_Bone>
             <Collision_Mesh>HP_AS_02</Collision_Mesh>
+            <Damage_Particles>HP_AS_02</Damage_Particles>
 			<Fire_Bone_A>HP_AS_02</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_02</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -238,6 +240,7 @@
             <Health>325.0</Health>
             <Attachment_Bone>HP_AS_03</Attachment_Bone>
             <Collision_Mesh>HP_AS_03</Collision_Mesh>
+            <Damage_Particles>HP_AS_03</Damage_Particles>
 			<Fire_Bone_A>HP_AS_03</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_03</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -264,6 +267,7 @@
             <Health>325.0</Health>
             <Attachment_Bone>HP_AS_04</Attachment_Bone>
             <Collision_Mesh>HP_AS_04</Collision_Mesh>
+            <Damage_Particles>HP_AS_04</Damage_Particles>
 			<Fire_Bone_A>HP_AS_04</Fire_Bone_A>
             <Fire_Bone_B>HP_AS_04</Fire_Bone_B>
             <Fire_Cone_Width>125.0</Fire_Cone_Width>
@@ -307,6 +311,7 @@
             <Attachment_Bone>HP_ENGINES</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
             <Collision_Mesh>HP_ENGINES</Collision_Mesh>
             <Damage_Decal />
+            <Engine_Particles>HP_ENGINES</Engine_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_CRS_HANGAR_01">
@@ -316,6 +321,7 @@
         <Health>350.0</Health>		
         <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
+        <Damage_Particles>HP_HANGAR_01_EMIT</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
@@ -328,6 +334,7 @@
         <Health>350.0</Health>		
         <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
+        <Damage_Particles>HP_HANGAR_02_EMIT</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->

@@ -143,7 +143,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08  0.12</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_MUSASHI.tga</Radar_Icon_Name>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -197,6 +197,12 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>9</Population_Value>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="UNSC_MUSASHI_PARTICLE_TEST">
+		<Variant_Of_Existing_Type>UNSC_MUSASHI</Variant_Of_Existing_Type>
+		<Lua_Script>Particle_Damage_Test</Lua_Script>
+	
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_POSEIDON">

@@ -124,7 +124,7 @@
 		
 		<Death_Clone>Damage_Normal, Empire_Star_Base_1_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>10</Additional_Population_Capacity>
-		<Lua_Script>SpaceStationAfterSetup</Lua_Script>
+		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
 	</StarBase>
 
 	<StarBase Name="Empire_Star_Base_1_Death_Clone">
@@ -273,7 +273,7 @@
 
 		<Death_Clone>Damage_Normal, Empire_Star_Base_2_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>13</Additional_Population_Capacity>
-		<Lua_Script>SpaceStationAfterSetup</Lua_Script>
+		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
 	</StarBase>
 
 	<StarBase Name="Empire_Star_Base_2_Death_Clone">
@@ -417,7 +417,7 @@
 
 		<Death_Clone>Damage_Normal, Empire_Star_Base_3_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>15</Additional_Population_Capacity>
-		<Lua_Script>SpaceStationAfterSetup</Lua_Script>
+		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
 	</StarBase>
 
 	<StarBase Name="Empire_Star_Base_3_Death_Clone">
@@ -558,7 +558,7 @@
 
 		<Death_Clone>Damage_Normal, Empire_Star_Base_4_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>16</Additional_Population_Capacity>
-		<Lua_Script>SpaceStationAfterSetup</Lua_Script>
+		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
 	</StarBase>
 
 	<StarBase Name="Empire_Star_Base_4_Death_Clone">
@@ -713,7 +713,7 @@
 
 		<Death_Clone>Damage_Normal, Empire_Star_Base_5_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>17</Additional_Population_Capacity>
-		<Lua_Script>SpaceStationAfterSetup</Lua_Script>
+		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
 	</StarBase>
 
 	<StarBase Name="Empire_Star_Base_5_Death_Clone">
@@ -1055,7 +1055,7 @@
 		
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_1_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>10</Additional_Population_Capacity>
-		<Lua_Script>SpaceStationAfterSetup</Lua_Script>
+		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
 	</StarBase>
 
 	<StarBase Name="Rebel_Star_Base_1_Death_Clone">

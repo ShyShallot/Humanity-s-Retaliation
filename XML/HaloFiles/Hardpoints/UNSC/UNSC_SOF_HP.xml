@@ -1,132 +1,126 @@
 <?xml version="1.0"?>
 <HardPoints>
-    <HardPoint Name="USNC_SOF_ENGINE_O1">
+        <HardPoint Name="USNC_SOF_ENGINE_O1">
 			<Type> HARD_POINT_ENGINE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>1850.0</Health>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+                <Health>1850.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
 
-            <Attachment_Bone>HP_ENGINES_01</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
-            <Collision_Mesh>HP_ENGINES_01</Collision_Mesh>
-            <Damage_Decal />
-            <Damage_Particles/>
-            <Engine_Particles/>
-    </HardPoint>
+                <Attachment_Bone>HP_ENGINES_01</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+                <Collision_Mesh>HP_ENGINES_01</Collision_Mesh>
+                <Damage_Decal />
+                <Damage_Particles/>
+                <Engine_Particles>HP_ENGINES_01</Engine_Particles>
+        </HardPoint>
 
-    <HardPoint Name="USNC_SOF_ENGINE_O2">
+        <HardPoint Name="USNC_SOF_ENGINE_O2">
 			<Type> HARD_POINT_ENGINE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>1850.0</Health>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+                <Health>1850.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
 
-            <Attachment_Bone>HP_ENGINES_02</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
-            <Collision_Mesh>HP_ENGINES_02</Collision_Mesh>
-            <Damage_Decal />
-            <Damage_Particles/>
-            <Engine_Particles/>
-    </HardPoint>
+                <Attachment_Bone>HP_ENGINES_02</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+                <Collision_Mesh>HP_ENGINES_02</Collision_Mesh>
+                <Damage_Decal />
+                <Damage_Particles/>
+                <Engine_Particles>HP_ENGINES_02</Engine_Particles>
+        </HardPoint>
 
-    <HardPoint Name="USNC_SOF_ENGINE_O3">
+        <HardPoint Name="USNC_SOF_ENGINE_O3">
 			<Type> HARD_POINT_ENGINE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>1850.0</Health>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+                <Health>1850.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
 
-            <Attachment_Bone>HP_ENGINES_03</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
-            <Collision_Mesh>HP_ENGINES_03</Collision_Mesh>
-            <Damage_Decal />
-            <Damage_Particles/>
-            <Engine_Particles/>
-    </HardPoint>
+                <Attachment_Bone>HP_ENGINES_03</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+                <Collision_Mesh>HP_ENGINES_03</Collision_Mesh>
+                <Damage_Decal />
+                <Damage_Particles/>
+                <Engine_Particles>HP_ENGINES_03</Engine_Particles>
+        </HardPoint>
 
-    <HardPoint Name="UNSC_SOF_HG_01">
-		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
-        <Attachment_Bone>HP_HANGER_01</Attachment_Bone>             
-		<Collision_Mesh>HP_HANGER_01</Collision_Mesh>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+        <Hardpoint Name="UNSC_SOF_HG_01">
+        <Type>HARD_POINT_FIGHTER_BAY</Type>
+        <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>850</Health>
+        <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>
+        <Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
+        <Damage_Particles>HP_HANGAR_01_EMIT</Damage_Particles>
+        </Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_HG_02">
-		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
-        <Attachment_Bone>HP_HANGER_02</Attachment_Bone>             
-		<Collision_Mesh>HP_HANGER_02</Collision_Mesh>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+        <Hardpoint Name="UNSC_SOF_HG_02">
+                <Type>HARD_POINT_FIGHTER_BAY</Type>
+                <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Health>850</Health>
+                <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
+                <Damage_Particles>HP_HANGAR_02_EMIT</Damage_Particles>
+        </Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_HG_03">
-		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
-        <Attachment_Bone>HP_HANGER_03</Attachment_Bone>             
-		<Collision_Mesh>HP_HANGER_03</Collision_Mesh>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+        <Hardpoint Name="UNSC_SOF_HG_03">
+                <Type>HARD_POINT_FIGHTER_BAY</Type>
+                <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Health>850</Health>
+                <Attachment_Bone>HP_HANGAR_03</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_03</Collision_Mesh>
+                <Damage_Particles>HP_HANGAR_03_EMIT</Damage_Particles>
+        </Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_HG_04">
-		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
-        <Attachment_Bone>HP_HANGER_04</Attachment_Bone>             
-		<Collision_Mesh>HP_HANGER_04</Collision_Mesh>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+        <Hardpoint Name="UNSC_SOF_HG_04">
+                <Type>HARD_POINT_FIGHTER_BAY</Type>
+                <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Health>850</Health>
+                <Attachment_Bone>HP_HANGAR_04</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_04</Collision_Mesh>
+                <Damage_Particles>HP_HANGAR_04_EMIT</Damage_Particles>
+        </Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_HG_05">
-		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
-        <Attachment_Bone>HP_HANGER_05</Attachment_Bone>             
-		<Collision_Mesh>HP_HANGER_05</Collision_Mesh>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+        <Hardpoint Name="UNSC_SOF_HG_05">
+                <Type>HARD_POINT_FIGHTER_BAY</Type>
+                <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Health>850</Health>
+                <Attachment_Bone>HP_HANGAR_05</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_05</Collision_Mesh>
+                <Damage_Particles>HP_HANGAR_05_EMIT</Damage_Particles>
+        </Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_HG_06">
-		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
-        <Attachment_Bone>HP_HANGER_06</Attachment_Bone>             
-		<Collision_Mesh>HP_HANGER_06</Collision_Mesh>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
+        <Hardpoint Name="UNSC_SOF_HG_06">
+                <Type>HARD_POINT_FIGHTER_BAY</Type>
+                <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Health>850</Health>
+                <Attachment_Bone>HP_HANGAR_06</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_06</Collision_Mesh>
+                <Damage_Particles>HP_HANGAR_06_EMIT</Damage_Particles>
+        </Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_MAC_01">
+        <HardPoint Name="UNSC_SOF_MAC_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -149,9 +143,9 @@
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
-    </HardPoint>
+        </HardPoint>
 
-    <HardPoint Name="UNSC_SOF_MAC_02">
+        <HardPoint Name="UNSC_SOF_MAC_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -174,9 +168,9 @@
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
-    </HardPoint>
+        </HardPoint>
 
-    <HardPoint Name="UNSC_SOF_MAC_03">
+        <HardPoint Name="UNSC_SOF_MAC_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
@@ -199,1455 +193,1617 @@
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
-    </HardPoint>
+        </HardPoint>
 
-    <HardPoint Name="UNSC_SOF_LAR_01">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
+    <Hardpoint Name="UNSC_SOF_LAR_01">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_01.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_01</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_01</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_01_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Model_To_Attach>UNSC_SOF_TURRET_01.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_01</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_01</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+    <Hardpoint Name="UNSC_SOF_LAR_02">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_02.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_02</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_02</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_02_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
+    <Hardpoint Name="UNSC_SOF_LAR_03">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_03.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_03</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_03</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_03_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_LAR_02">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
+    <Hardpoint Name="UNSC_SOF_LAR_04">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_04.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_04</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_04</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_04_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Model_To_Attach>UNSC_SOF_TURRET_02.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_02</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_02</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+    <Hardpoint Name="UNSC_SOF_LAR_05">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_05.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_05</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_05</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_05_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
+    <Hardpoint Name="UNSC_SOF_LAR_06">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_06.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_06</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_06</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_06_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_LAR_03">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
+    <Hardpoint Name="UNSC_SOF_LAR_07">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_07.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_07</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_07</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_07_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Model_To_Attach>UNSC_SOF_TURRET_03.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_03</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_03</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+    <Hardpoint Name="UNSC_SOF_LAR_08">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_08.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_08</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_08</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_08_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
+    <Hardpoint Name="UNSC_SOF_LAR_09">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_09.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_09</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_09</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_09_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_LAR_04">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
+    <Hardpoint Name="UNSC_SOF_LAR_10">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_10.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_10</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_10</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_10_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Model_To_Attach>UNSC_SOF_TURRET_04.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_04</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_04</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+    <Hardpoint Name="UNSC_SOF_LAR_11">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_11.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_11</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_11</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_11_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
+    <Hardpoint Name="UNSC_SOF_LAR_12">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_12.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_12</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_12</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_12_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_LAR_05">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
+    <Hardpoint Name="UNSC_SOF_LAR_13">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_13.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_13</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_13</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_13_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Model_To_Attach>UNSC_SOF_TURRET_05.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_05</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_05</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+    <Hardpoint Name="UNSC_SOF_LAR_14">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_TURRET_14.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_11ARTURRET_14</Attachment_Bone>
+        <Collision_Mesh>HP_11ARTURRET_14</Collision_Mesh>
+        <Damage_Particles>HP_11ARTURRET_14_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1650</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 30</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 2.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
 
-    <HardPoint Name="UNSC_SOF_LAR_06">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
 
-            <Model_To_Attach>UNSC_SOF_TURRET_06.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_06</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_06</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+    <Hardpoint Name="UNSC_SOF_MK33_01">
+        <Type>HARD_POINT_WEAPON_LASER</Type>
+        <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>1500</Health>
+        <Is_Turret>Yes</Is_Turret>
+        <Model_To_Attach> UNSC_SOF_MK33_01.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_MK33_01</Attachment_Bone>
+        <Collision_Mesh>HP_MK33_01</Collision_Mesh>
+        <Damage_Particles>HP_MK33_01_EMIT</Damage_Particles>
+        <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+        <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width>
+        <Fire_Cone_Height>140</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1350</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Inaccuracy_Distance>Corvette, 6</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 5</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Fighter, 12.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_LAR_07">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_TURRET_07.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_07</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_07</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_LAR_08">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_TURRET_08.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_08</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_08</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_LAR_09">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_TURRET_09.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_09</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_09</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_LAR_10">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_TURRET_10.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_10</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_10</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_LAR_11">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_TURRET_11.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_11</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_11</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_LAR_12">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_TURRET_12.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_12</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_12</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_LAR_13">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_TURRET_13.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_13</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_13</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_LAR_14">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_TURRET_14.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_11ARTURRET_14</Attachment_Bone>
-            <Collision_Mesh>HP_11ARTURRET_14</Collision_Mesh>
-			<Fire_Bone_A>FB_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1650.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-            <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_01">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Hardpoint Name="UNSC_SOF_MK33_02">
+            <Type>HARD_POINT_WEAPON_LASER</Type>
             <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_01.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_MK33_01</Attachment_Bone>
-            <Collision_Mesh>HP_MK33_01</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_02">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_02.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Health>1500</Health>
+            <Is_Turret>Yes</Is_Turret>
+            <Model_To_Attach> UNSC_SOF_MK33_02.ALO </Model_To_Attach>
+            <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+            <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
             <Attachment_Bone>HP_MK33_02</Attachment_Bone>
             <Collision_Mesh>HP_MK33_02</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Damage_Particles>HP_MK33_02_EMIT</Damage_Particles>
+            <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+            <Fire_Cone_Width>60</Fire_Cone_Width>
+            <Fire_Cone_Height>140</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>1350</Fire_Range_Distance>
+            <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance>Corvette, 6</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Frigate, 5</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Capital, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Fighter, 12.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_03">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Hardpoint Name="UNSC_SOF_MK33_03">
+            <Type>HARD_POINT_WEAPON_LASER</Type>
             <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_03.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Health>1500</Health>
+            <Is_Turret>Yes</Is_Turret>
+            <Model_To_Attach> UNSC_SOF_MK33_03.ALO </Model_To_Attach>
+            <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+            <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
             <Attachment_Bone>HP_MK33_03</Attachment_Bone>
             <Collision_Mesh>HP_MK33_03</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Damage_Particles>HP_MK33_03_EMIT</Damage_Particles>
+            <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+            <Fire_Cone_Width>60</Fire_Cone_Width>
+            <Fire_Cone_Height>140</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>1350</Fire_Range_Distance>
+            <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance>Corvette, 6</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Frigate, 5</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Capital, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Fighter, 12.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_04">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Hardpoint Name="UNSC_SOF_MK33_04">
+            <Type>HARD_POINT_WEAPON_LASER</Type>
             <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_04.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Health>1500</Health>
+            <Is_Turret>Yes</Is_Turret>
+            <Model_To_Attach> UNSC_SOF_MK33_04.ALO </Model_To_Attach>
+            <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+            <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
             <Attachment_Bone>HP_MK33_04</Attachment_Bone>
             <Collision_Mesh>HP_MK33_04</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Damage_Particles>HP_MK33_04_EMIT</Damage_Particles>
+            <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+            <Fire_Cone_Width>60</Fire_Cone_Width>
+            <Fire_Cone_Height>140</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>1350</Fire_Range_Distance>
+            <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance>Corvette, 6</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Frigate, 5</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Capital, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Fighter, 12.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_05">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Hardpoint Name="UNSC_SOF_MK33_05">
+            <Type>HARD_POINT_WEAPON_LASER</Type>
             <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_05.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Health>1500</Health>
+            <Is_Turret>Yes</Is_Turret>
+            <Model_To_Attach> UNSC_SOF_MK33_05.ALO </Model_To_Attach>
+            <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+            <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
             <Attachment_Bone>HP_MK33_05</Attachment_Bone>
             <Collision_Mesh>HP_MK33_05</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Damage_Particles>HP_MK33_05_EMIT</Damage_Particles>
+            <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+            <Fire_Cone_Width>60</Fire_Cone_Width>
+            <Fire_Cone_Height>140</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>1350</Fire_Range_Distance>
+            <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance>Corvette, 6</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Frigate, 5</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Capital, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Fighter, 12.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_06">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Hardpoint Name="UNSC_SOF_MK33_06">
+            <Type>HARD_POINT_WEAPON_LASER</Type>
             <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_06.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Health>1500</Health>
+            <Is_Turret>Yes</Is_Turret>
+            <Model_To_Attach> UNSC_SOF_MK33_06.ALO </Model_To_Attach>
+            <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+            <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
             <Attachment_Bone>HP_MK33_06</Attachment_Bone>
             <Collision_Mesh>HP_MK33_06</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Damage_Particles>HP_MK33_06_EMIT</Damage_Particles>
+            <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+            <Fire_Cone_Width>60</Fire_Cone_Width>
+            <Fire_Cone_Height>140</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>1350</Fire_Range_Distance>
+            <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance>Corvette, 6</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Frigate, 5</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Capital, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Fighter, 12.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_07">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Hardpoint Name="UNSC_SOF_MK33_07">
+            <Type>HARD_POINT_WEAPON_LASER</Type>
             <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_07.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Health>1500</Health>
+            <Is_Turret>Yes</Is_Turret>
+            <Model_To_Attach> UNSC_SOF_MK33_07.ALO </Model_To_Attach>
+            <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+            <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
             <Attachment_Bone>HP_MK33_07</Attachment_Bone>
             <Collision_Mesh>HP_MK33_07</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Damage_Particles>HP_MK33_07_EMIT</Damage_Particles>
+            <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+            <Fire_Cone_Width>60</Fire_Cone_Width>
+            <Fire_Cone_Height>140</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>1350</Fire_Range_Distance>
+            <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance>Corvette, 6</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Frigate, 5</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Capital, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Fighter, 12.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_08">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Hardpoint Name="UNSC_SOF_MK33_08">
+            <Type>HARD_POINT_WEAPON_LASER</Type>
             <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_08.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Health>1500</Health>
+            <Is_Turret>Yes</Is_Turret>
+            <Model_To_Attach> UNSC_SOF_MK33_08.ALO </Model_To_Attach>
+            <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+            <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
             <Attachment_Bone>HP_MK33_08</Attachment_Bone>
             <Collision_Mesh>HP_MK33_08</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Damage_Particles>HP_MK33_08_EMIT</Damage_Particles>
+            <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+            <Fire_Cone_Width>60</Fire_Cone_Width>
+            <Fire_Cone_Height>140</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>1350</Fire_Range_Distance>
+            <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance>Corvette, 6</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Frigate, 5</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Capital, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Fighter, 12.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_07">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Hardpoint Name="UNSC_SOF_MK33_09">
+            <Type>HARD_POINT_WEAPON_LASER</Type>
             <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_07.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_MK33_07</Attachment_Bone>
-            <Collision_Mesh>HP_MK33_07</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_08">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_08.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
-            <Attachment_Bone>HP_MK33_08</Attachment_Bone>
-            <Collision_Mesh>HP_MK33_08</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
-            <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_09">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_09.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Health>1500</Health>
+            <Is_Turret>Yes</Is_Turret>
+            <Model_To_Attach> UNSC_SOF_MK33_09.ALO </Model_To_Attach>
+            <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+            <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
             <Attachment_Bone>HP_MK33_09</Attachment_Bone>
             <Collision_Mesh>HP_MK33_09</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Damage_Particles>HP_MK33_09_EMIT</Damage_Particles>
+            <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+            <Fire_Cone_Width>60</Fire_Cone_Width>
+            <Fire_Cone_Height>140</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>1350</Fire_Range_Distance>
+            <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance>Corvette, 6</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Frigate, 5</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Capital, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Fighter, 12.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_MK33_10">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Hardpoint Name="UNSC_SOF_MK33_10">
+            <Type>HARD_POINT_WEAPON_LASER</Type>
             <Tooltip_Text>UNSC_LAR_TURRET</Tooltip_Text>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-            <Health>1500.0</Health>
-
-            <Model_To_Attach>UNSC_SOF_MK33_10.ALO</Model_To_Attach>
-            <Is_Turret> Yes </Is_Turret>
-            <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-            <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees> 110.0 </Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name> TURRET </Turret_Bone_Name>
-            <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+            <Health>1500</Health>
+            <Is_Turret>Yes</Is_Turret>
+            <Model_To_Attach> UNSC_SOF_MK33_10.ALO </Model_To_Attach>
+            <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+            <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
             <Attachment_Bone>HP_MK33_10</Attachment_Bone>
             <Collision_Mesh>HP_MK33_10</Collision_Mesh>
-			<Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
+            <Damage_Particles>HP_MK33_10_EMIT</Damage_Particles>
+            <Fire_Bone_A>FB_MK33_01</Fire_Bone_A>
             <Fire_Bone_B>FB_MK33_02</Fire_Bone_B>
-            <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+            <Fire_Cone_Width>60</Fire_Cone_Width>
+            <Fire_Cone_Height>140</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_UNSC_Bullet_Cap</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Full_Salvo_Weapon_Delay_Multiplier>1</Full_Salvo_Weapon_Delay_Multiplier>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>1350</Fire_Range_Distance>
+            <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Inaccuracy_Distance>Corvette, 6</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Frigate, 5</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Capital, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Fighter, 12.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance>Transport, 7.0</Fire_Inaccuracy_Distance>
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </Hardpoint>
 
-            <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
 
-    <HardPoint Name="UNSC_SOF_ARCHER_01">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
 
-		<Attachment_Bone>HP_ARCHERPOD_01</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_01</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_01</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_01</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
+    <Hardpoint Name="UNSC_SOF_ARCHER_01">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_01.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_01</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_01</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_01_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_01</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_01</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_ARCHER_02">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
+<Hardpoint Name="UNSC_SOF_ARCHER_02">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_02.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_02</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_02</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_02_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_02</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-		<Attachment_Bone>HP_ARCHERPOD_02</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_02</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_02</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_02</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
+<Hardpoint Name="UNSC_SOF_ARCHER_03">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_03.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_03</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_03</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_03_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_03</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_03</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_ARCHER_03">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
+<Hardpoint Name="UNSC_SOF_ARCHER_04">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_04.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_04</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_04</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_04_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_04</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_04</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-		<Attachment_Bone>HP_ARCHERPOD_03</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_03</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_03</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_03</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
+<Hardpoint Name="UNSC_SOF_ARCHER_05">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_05.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_05</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_05</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_05_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_05</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_05</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_ARCHER_04">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
+<Hardpoint Name="UNSC_SOF_ARCHER_06">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_06.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_06</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_06</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_06_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_06</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_06</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-		<Attachment_Bone>HP_ARCHERPOD_04</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_04</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_04</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_04</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
+<Hardpoint Name="UNSC_SOF_ARCHER_07">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_07.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_07</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_07</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_07_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_07</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_07</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_ARCHER_05">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
+<Hardpoint Name="UNSC_SOF_ARCHER_08">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_08.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_08</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_08</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_08_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_08</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_08</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-		<Attachment_Bone>HP_ARCHERPOD_05</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_05</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_05</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_05</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
+<Hardpoint Name="UNSC_SOF_ARCHER_09">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_09.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_09</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_09</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_09_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_09</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_09</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_ARCHER_06">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
+<Hardpoint Name="UNSC_SOF_ARCHER_10">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_10.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_10</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_10</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_10_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_10</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_10</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-		<Attachment_Bone>HP_ARCHERPOD_06</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_06</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_06</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_06</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
+<Hardpoint Name="UNSC_SOF_ARCHER_11">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_11.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_11</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_11</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_11_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_11</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_11</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_ARCHER_07">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
+<Hardpoint Name="UNSC_SOF_ARCHER_12">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_12.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_12</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_12</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_12_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_12</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_12</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-		<Attachment_Bone>HP_ARCHERPOD_07</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_07</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_07</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_07</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
+<Hardpoint Name="UNSC_SOF_ARCHER_13">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_13.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_13</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_13</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_13_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_13</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_13</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_ARCHER_08">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
+<Hardpoint Name="UNSC_SOF_ARCHER_14">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_14.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_14</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_14</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_14_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_14</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_14</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-		<Attachment_Bone>HP_ARCHERPOD_08</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_08</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_08</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_08</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
+<Hardpoint Name="UNSC_SOF_ARCHER_15">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_15.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_15</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_15</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_15_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_15</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_15</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-    <HardPoint Name="UNSC_SOF_ARCHER_09">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
+<Hardpoint Name="UNSC_SOF_ARCHER_16">
+        <Type>HARD_POINT_WEAPON_MISSILE</Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1250</Health>
+        <Model_To_Attach> UNSC_SOF_MK33_16.ALO </Model_To_Attach>
+        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
+        <Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>110</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>110</Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+        <Attachment_Bone>HP_ARCHERPOD_16</Attachment_Bone>
+        <Collision_Mesh>HP_ARCHERPOD_16</Collision_Mesh>
+        <Damage_Particles>HP_ARCHERPOD_16_EMIT</Damage_Particles>
+        <Fire_Bone_A>HP_ARCHERPOD_16</Fire_Bone_A>
+        <Fire_Bone_B>HP_ARCHERPOD_16</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones>False</Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>125</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
+        <Full_Salvo_Weapon_Delay_Multiplier>0</Full_Salvo_Weapon_Delay_Multiplier>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1850</Fire_Range_Distance>
+        <Fire_Min_Range_Distance>0</Fire_Min_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+        <Fire_Inaccuracy_Distance>Corvette, 20</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Frigate, 10</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance>Super, 0</Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+</Hardpoint>
 
-		<Attachment_Bone>HP_ARCHERPOD_09</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_09</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_09</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_09</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
 
-    <HardPoint Name="UNSC_SOF_ARCHER_10">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
-
-		<Attachment_Bone>HP_ARCHERPOD_10</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_10</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_10</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_10</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_ARCHER_11">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
-
-		<Attachment_Bone>HP_ARCHERPOD_11</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_11</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_11</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_11</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_ARCHER_12">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
-
-		<Attachment_Bone>HP_ARCHERPOD_12</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_12</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_12</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_12</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_ARCHER_13">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
-
-		<Attachment_Bone>HP_ARCHERPOD_13</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_13</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_13</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_13</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_ARCHER_14">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
-
-		<Attachment_Bone>HP_ARCHERPOD_14</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_14</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_14</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_14</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
-
-    <HardPoint Name="UNSC_SOF_ARCHER_16">
-		<Type> HARD_POINT_WEAPON_MISSILE </Type>
-		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Health>1250.0</Health>      
-
-		<Attachment_Bone>HP_ARCHERPOD_16</Attachment_Bone>
-		<Collision_Mesh>HP_ARCHERPOD_16</Collision_Mesh>
-		<Fire_Bone_A>HP_ARCHERPOD_16</Fire_Bone_A>
-		<Fire_Bone_B>HP_ARCHERPOD_16</Fire_Bone_B>
-		<Fire_Cone_Width>125.0</Fire_Cone_Width>
-		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile_Heavy</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
-		<!-- Inacc Distance Vals function like a cone-->
-    </HardPoint>
 
 
 </HardPoints>
