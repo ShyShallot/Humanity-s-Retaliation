@@ -530,7 +530,7 @@
 
 	<Projectile Name="Proj_UNSC_Bullet_Break">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
+		<Space_Model_Name>W_UNSC_Bullet_Breakwater.alo</Space_Model_Name>
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>25.0</Scale_Factor>

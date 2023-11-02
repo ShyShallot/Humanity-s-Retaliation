@@ -1372,7 +1372,6 @@
 		<Behavior>MARKER</Behavior>
 		<Is_Discardable>false</Is_Discardable>  
 		<Affiliation>Neutral</Affiliation>
-		<Lua_Script>GlobalSpawn</Lua_Script>
 	</Marker>
 
 	<Marker Name="Team_01_Base_Position_Marker">

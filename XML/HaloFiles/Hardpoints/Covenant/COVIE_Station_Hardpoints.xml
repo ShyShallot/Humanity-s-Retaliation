@@ -8,6 +8,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_01</Attachment_Bone>
             <Collision_Mesh>HP_AF_01</Collision_Mesh>
             <Damage_Particles>HP_AF_01_EMIT</Damage_Particles>
@@ -30,8 +32,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_AF_02">
@@ -41,6 +42,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_02</Attachment_Bone>
             <Collision_Mesh>HP_AF_02</Collision_Mesh>
             <Damage_Particles>HP_AF_02_EMIT</Damage_Particles>
@@ -63,8 +66,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_AF_03">
@@ -74,6 +76,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_03</Attachment_Bone>
             <Collision_Mesh>HP_AF_03</Collision_Mesh>
             <Damage_Particles>HP_AF_03_EMIT</Damage_Particles>
@@ -96,8 +100,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_AF_04">
@@ -107,6 +110,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_04</Attachment_Bone>
             <Collision_Mesh>HP_AF_04</Collision_Mesh>
             <Damage_Particles>HP_AF_04_EMIT</Damage_Particles>
@@ -129,8 +134,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_AF_05">
@@ -140,6 +144,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_05</Attachment_Bone>
             <Collision_Mesh>HP_AF_05</Collision_Mesh>
             <Damage_Particles>HP_AF_05_EMIT</Damage_Particles>
@@ -162,8 +168,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_AF_06">
@@ -173,6 +178,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_06</Attachment_Bone>
             <Collision_Mesh>HP_AF_06</Collision_Mesh>
             <Damage_Particles>HP_AF_06_EMIT</Damage_Particles>
@@ -195,8 +202,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_AF_07">
@@ -206,6 +212,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_07</Attachment_Bone>
             <Collision_Mesh>HP_AF_07</Collision_Mesh>
             <Damage_Particles>HP_AF_07_EMIT</Damage_Particles>
@@ -228,8 +236,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_AF_08">
@@ -239,6 +246,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_08</Attachment_Bone>
             <Collision_Mesh>HP_AF_08</Collision_Mesh>
             <Damage_Particles>HP_AF_08_EMIT</Damage_Particles>
@@ -261,8 +270,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T2_AF_09">
@@ -272,6 +280,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_09</Attachment_Bone>
             <Collision_Mesh>HP_AF_09</Collision_Mesh>
             <Damage_Particles>HP_AF_09_EMIT</Damage_Particles>
@@ -294,8 +304,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T2_AF_10">
@@ -305,6 +314,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_10</Attachment_Bone>
             <Collision_Mesh>HP_AF_10</Collision_Mesh>
             <Damage_Particles>HP_AF_10_EMIT</Damage_Particles>
@@ -327,8 +338,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_AF_11">
@@ -338,6 +348,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_011</Attachment_Bone>
             <Collision_Mesh>HP_AF_011</Collision_Mesh>
             <Damage_Particles>HP_AF_011_EMIT</Damage_Particles>
@@ -360,8 +372,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_AF_12">
@@ -371,6 +382,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_012</Attachment_Bone>
             <Collision_Mesh>HP_AF_012</Collision_Mesh>
             <Damage_Particles>HP_AF_012_EMIT</Damage_Particles>
@@ -393,8 +406,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_AF_13">
@@ -404,6 +416,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_013</Attachment_Bone>
             <Collision_Mesh>HP_AF_013</Collision_Mesh>
             <Damage_Particles>HP_AF_013_EMIT</Damage_Particles>
@@ -426,8 +440,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_AF_14">
@@ -437,6 +450,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_014</Attachment_Bone>
             <Collision_Mesh>HP_AF_014</Collision_Mesh>
             <Damage_Particles>HP_AF_014_EMIT</Damage_Particles>
@@ -459,8 +474,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T5_AF_15">
@@ -470,6 +484,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_15</Attachment_Bone>
             <Collision_Mesh>HP_AF_15</Collision_Mesh>
             <Damage_Particles>HP_AF_15_EMIT</Damage_Particles>
@@ -492,8 +508,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T5_AF_16">
@@ -503,6 +518,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_16</Attachment_Bone>
             <Collision_Mesh>HP_AF_16</Collision_Mesh>
             <Damage_Particles>HP_AF_16_EMIT</Damage_Particles>
@@ -525,8 +542,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T5_AF_17">
@@ -536,6 +552,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_17</Attachment_Bone>
             <Collision_Mesh>HP_AF_17</Collision_Mesh>
             <Damage_Particles>HP_AF_17_EMIT</Damage_Particles>
@@ -558,8 +576,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T5_AF_18">
@@ -569,6 +586,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AF_18</Attachment_Bone>
             <Collision_Mesh>HP_AF_18</Collision_Mesh>
             <Damage_Particles>HP_AF_18_EMIT</Damage_Particles>
@@ -591,8 +610,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 3.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 <!-- End of Anti Fighter Hardpoints -->
 <!-- Anti Ship Hardpoints -->
@@ -603,6 +621,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_01</Attachment_Bone>
             <Collision_Mesh>HP_AS_01</Collision_Mesh>
             <Damage_Particles>HP_AS_01_EMIT</Damage_Particles>
@@ -626,8 +646,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_AS_02">
@@ -637,6 +656,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_02</Attachment_Bone>
             <Collision_Mesh>HP_AS_02</Collision_Mesh>
             <Damage_Particles>HP_AS_02_EMIT</Damage_Particles>
@@ -660,8 +681,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_AS_03">
@@ -671,6 +691,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_03</Attachment_Bone>
             <Collision_Mesh>HP_AS_03</Collision_Mesh>
             <Damage_Particles>HP_AS_03_EMIT</Damage_Particles>
@@ -694,8 +716,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_AS_04">
@@ -705,6 +726,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_04</Attachment_Bone>
             <Collision_Mesh>HP_AS_04</Collision_Mesh>
             <Damage_Particles>HP_AS_04_EMIT</Damage_Particles>
@@ -728,8 +751,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T2_AS_05">
@@ -739,6 +761,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_05</Attachment_Bone>
             <Collision_Mesh>HP_AS_05</Collision_Mesh>
             <Damage_Particles>HP_AS_05_EMIT</Damage_Particles>
@@ -762,8 +786,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T2_AS_06">
@@ -773,6 +796,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_06</Attachment_Bone>
             <Collision_Mesh>HP_AS_06</Collision_Mesh>
             <Damage_Particles>HP_AS_06_EMIT</Damage_Particles>
@@ -796,8 +821,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T2_AS_07">
@@ -807,6 +831,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_07</Attachment_Bone>
             <Collision_Mesh>HP_AS_07</Collision_Mesh>
             <Damage_Particles>HP_AS_07_EMIT</Damage_Particles>
@@ -830,8 +856,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T2_AS_08">
@@ -841,6 +866,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_08</Attachment_Bone>
             <Collision_Mesh>HP_AS_08</Collision_Mesh>
             <Damage_Particles>HP_AS_08_EMIT</Damage_Particles>
@@ -864,8 +891,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T2_AS_09">
@@ -875,6 +901,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_09</Attachment_Bone>
             <Collision_Mesh>HP_AS_09</Collision_Mesh>
             <Damage_Particles>HP_AS_09_EMIT</Damage_Particles>
@@ -898,8 +926,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T2_AS_10">
@@ -909,6 +936,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_10</Attachment_Bone>
             <Collision_Mesh>HP_AS_10</Collision_Mesh>
             <Damage_Particles>HP_AS_10_EMIT</Damage_Particles>
@@ -932,8 +961,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_AS_11">
@@ -943,6 +971,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_11</Attachment_Bone>
             <Collision_Mesh>HP_AS_11</Collision_Mesh>
             <Damage_Particles>HP_AS_11_EMIT</Damage_Particles>
@@ -966,8 +996,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_AS_12">
@@ -977,6 +1006,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_12</Attachment_Bone>
             <Collision_Mesh>HP_AS_12</Collision_Mesh>
             <Damage_Particles>HP_AS_12_EMIT</Damage_Particles>
@@ -1000,8 +1031,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_AS_13">
@@ -1011,6 +1041,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_13</Attachment_Bone>
             <Collision_Mesh>HP_AS_13</Collision_Mesh>
             <Damage_Particles>HP_AS_13_EMIT</Damage_Particles>
@@ -1034,8 +1066,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
     
     <Hardpoint Name="HP_COVSTATION_T3_AS_14">
@@ -1045,6 +1076,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_14</Attachment_Bone>
             <Collision_Mesh>HP_AS_14</Collision_Mesh>
             <Damage_Particles>HP_AS_14_EMIT</Damage_Particles>
@@ -1068,8 +1101,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T4_AS_15">
@@ -1079,6 +1111,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_15</Attachment_Bone>
             <Collision_Mesh>HP_AS_15</Collision_Mesh>
             <Damage_Particles>HP_AS_15_EMIT</Damage_Particles>
@@ -1102,8 +1136,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T4_AS_16">
@@ -1113,6 +1146,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_16</Attachment_Bone>
             <Collision_Mesh>HP_AS_16</Collision_Mesh>
             <Damage_Particles>HP_AS_16_EMIT</Damage_Particles>
@@ -1136,8 +1171,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T4_AS_17">
@@ -1147,6 +1181,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_17</Attachment_Bone>
             <Collision_Mesh>HP_AS_17</Collision_Mesh>
             <Damage_Particles>HP_AS_17_EMIT</Damage_Particles>
@@ -1170,8 +1206,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T4_AS_18">
@@ -1181,6 +1216,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_18</Attachment_Bone>
             <Collision_Mesh>HP_AS_18</Collision_Mesh>
             <Damage_Particles>HP_AS_18_EMIT</Damage_Particles>
@@ -1204,8 +1241,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T5_AS_19">
@@ -1215,6 +1251,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_19</Attachment_Bone>
             <Collision_Mesh>HP_AS_19</Collision_Mesh>
             <Damage_Particles>HP_AS_19_EMIT</Damage_Particles>
@@ -1238,8 +1276,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T5_AS_20">
@@ -1249,6 +1286,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_20</Attachment_Bone>
             <Collision_Mesh>HP_AS_20</Collision_Mesh>
             <Damage_Particles>HP_AS_20_EMIT</Damage_Particles>
@@ -1272,8 +1311,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T5_AS_21">
@@ -1283,6 +1321,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_21</Attachment_Bone>
             <Collision_Mesh>HP_AS_21</Collision_Mesh>
             <Damage_Particles>HP_AS_21_EMIT</Damage_Particles>
@@ -1306,8 +1346,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T5_AS_22">
@@ -1317,6 +1356,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_AS_22</Attachment_Bone>
             <Collision_Mesh>HP_AS_22</Collision_Mesh>
             <Damage_Particles>HP_AS_22_EMIT</Damage_Particles>
@@ -1340,8 +1381,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 <!-- Anti Ship Hardpoints -->
 <!-- Heavy Plasma Cannons -->
@@ -1351,6 +1391,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
             <Attachment_Bone>HP_HEAVYPLASMA_01</Attachment_Bone>
             <Collision_Mesh>HP_HEAVYPLASMA_01</Collision_Mesh>
@@ -1376,8 +1418,7 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_HC_02">
@@ -1386,6 +1427,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
             <Attachment_Bone>HP_HEAVYPLASMA_02</Attachment_Bone>
             <Collision_Mesh>HP_HEAVYPLASMA_02</Collision_Mesh>
@@ -1411,8 +1454,7 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_HC_03">
@@ -1421,6 +1463,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
             <Attachment_Bone>HP_HEAVYPLASMA_03</Attachment_Bone>
             <Collision_Mesh>HP_HEAVYPLASMA_03</Collision_Mesh>
@@ -1446,8 +1490,7 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_HC_04">
@@ -1456,6 +1499,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
             <Attachment_Bone>HP_HEAVYPLASMA_04</Attachment_Bone>
             <Collision_Mesh>HP_HEAVYPLASMA_04</Collision_Mesh>
@@ -1481,8 +1526,7 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T4_HC_05">
@@ -1491,6 +1535,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
             <Attachment_Bone>HP_HEAVYPLASMA_05</Attachment_Bone>
             <Collision_Mesh>HP_HEAVYPLASMA_05</Collision_Mesh>
@@ -1516,8 +1562,7 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T4_HC_06">
@@ -1526,6 +1571,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
             <Attachment_Bone>HP_HEAVYPLASMA_06</Attachment_Bone>
             <Collision_Mesh>HP_HEAVYPLASMA_06</Collision_Mesh>
@@ -1551,8 +1598,7 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T4_HC_07">
@@ -1561,6 +1607,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
             <Attachment_Bone>HP_HEAVYPLASMA_07</Attachment_Bone>
             <Collision_Mesh>HP_HEAVYPLASMA_07</Collision_Mesh>
@@ -1586,8 +1634,7 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T4_HC_08">
@@ -1596,6 +1643,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
             <Attachment_Bone>HP_HEAVYPLASMA_08</Attachment_Bone>
             <Collision_Mesh>HP_HEAVYPLASMA_08</Collision_Mesh>
@@ -1621,8 +1670,7 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T5_HC_09">
@@ -1631,6 +1679,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
             <Attachment_Bone>HP_HEAVYPLASMA_09</Attachment_Bone>
             <Collision_Mesh>HP_HEAVYPLASMA_09</Collision_Mesh>
@@ -1656,8 +1706,7 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T5_HC_10">
@@ -1666,6 +1715,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
             <Attachment_Bone>HP_HEAVYPLASMA_10</Attachment_Bone>
             <Collision_Mesh>HP_HEAVYPLASMA_10</Collision_Mesh>
@@ -1691,8 +1742,7 @@
 			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
             <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
 
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 <!-- End of Heavy Plasma Cannons -->
     <Hardpoint Name="HP_COVSTATION_T3_TP_01">
@@ -1701,6 +1751,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_TP_01</Attachment_Bone>
             <Collision_Mesh>HP_TP_01</Collision_Mesh>
             <Damage_Particles>HP_TP_01_EMIT</Damage_Particles>
@@ -1716,8 +1768,7 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_TP_02">
@@ -1726,6 +1777,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_TP_02</Attachment_Bone>
             <Collision_Mesh>HP_TP_02</Collision_Mesh>
             <Damage_Particles>HP_TP_02_EMIT</Damage_Particles>
@@ -1741,8 +1794,7 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_TP_03">
@@ -1751,6 +1803,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_TP_03</Attachment_Bone>
             <Collision_Mesh>HP_TP_03</Collision_Mesh>
             <Damage_Particles>HP_TP_03_EMIT</Damage_Particles>
@@ -1766,8 +1820,7 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_TP_04">
@@ -1776,6 +1829,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
             <Attachment_Bone>HP_TP_04</Attachment_Bone>
             <Collision_Mesh>HP_TP_04</Collision_Mesh>
             <Damage_Particles>HP_TP_04_EMIT</Damage_Particles>
@@ -1791,8 +1846,7 @@
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
 
@@ -1800,7 +1854,9 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>760.0</Health>		
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
         <Attachment_Bone>HP_HANGER_01</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGER_01</Collision_Mesh>
             <Damage_Particles>HP_HANGER_01_EMIT</Damage_Particles>
@@ -1808,15 +1864,16 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+	    
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_HANGAR_02">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>760.0</Health>		
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
         <Attachment_Bone>HP_HANGER_02</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGER_02</Collision_Mesh>
             <Damage_Particles>HP_HANGER_02_EMIT</Damage_Particles>
@@ -1824,15 +1881,16 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+	    
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_HANGAR_03">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>760.0</Health>		
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
         <Attachment_Bone>HP_HANGER_03</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGER_03</Collision_Mesh>
             <Damage_Particles>HP_HANGER_03_EMIT</Damage_Particles>
@@ -1840,15 +1898,16 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+	    
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_HANGAR_04">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>760.0</Health>		
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
         <Attachment_Bone>HP_HANGER_04</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGER_04</Collision_Mesh>
             <Damage_Particles>HP_HANGER_04_EMIT</Damage_Particles>
@@ -1856,15 +1915,16 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+	    
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_HANGAR_05">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>760.0</Health>		
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
         <Attachment_Bone>HP_HANGER_05</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGER_05</Collision_Mesh>
             <Damage_Particles>HP_HANGER_05_EMIT</Damage_Particles>
@@ -1872,15 +1932,16 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+	    
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T3_HANGAR_06">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>760.0</Health>		
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
         <Attachment_Bone>HP_HANGER_06</Attachment_Bone>             
 		<Collision_Mesh>HP_HANGER_06</Collision_Mesh>
             <Damage_Particles>HP_HANGER_06_EMIT</Damage_Particles>
@@ -1888,15 +1949,16 @@
             
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	    <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+	    
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_SHIELDGEN">
 			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>1400.0</Health>            
+            <Health>1400.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>            
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
             
 
@@ -1906,8 +1968,7 @@
             <Attachment_Bone>HP_SHIELDGEN</Attachment_Bone>
             <Collision_Mesh>HP_SHIELDGEN</Collision_Mesh>
             <Damage_Particles>HP_SHIELDGEN_EMIT</Damage_Particles>
-        <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+        
 </Hardpoint>
 
     <Hardpoint Name="HP_COVSTATION_T1_SUPPLYDOCK">
@@ -1923,10 +1984,11 @@
             <Damage_Particles>HP_SUPPLYDOCK_EMIT</Damage_Particles>
 
 			<Health>700.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-         <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+         
 </Hardpoint>
 
      <Hardpoint Name="HP_COVSTATION_T1_COMMS">
@@ -1945,10 +2007,11 @@
             <Damage_Particles>HP_COMSBAY_EMIT</Damage_Particles>
 
 			<Health>700.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-         <Repair_Cost_Per_Frame> 0.0 </Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame> 0.0 </Repair_Amount_Per_Frame>
+         
 </Hardpoint>
 
 
