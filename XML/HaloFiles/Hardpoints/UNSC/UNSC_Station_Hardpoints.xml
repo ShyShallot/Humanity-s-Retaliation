@@ -32,9 +32,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -75,9 +75,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -118,9 +118,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -161,9 +161,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -204,9 +204,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -247,9 +247,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -290,9 +290,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -333,9 +333,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -376,9 +376,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -419,9 +419,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -462,9 +462,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -505,9 +505,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -548,9 +548,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -591,9 +591,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -634,9 +634,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -677,9 +677,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -720,9 +720,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -763,9 +763,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -806,9 +806,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -849,9 +849,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -892,9 +892,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -935,9 +935,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -978,9 +978,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1021,9 +1021,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1064,9 +1064,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1107,9 +1107,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1150,9 +1150,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1193,9 +1193,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1236,9 +1236,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1279,9 +1279,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1322,9 +1322,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1365,9 +1365,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1408,9 +1408,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1451,9 +1451,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1494,9 +1494,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1537,9 +1537,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1580,9 +1580,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>
@@ -1623,9 +1623,9 @@
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 8.5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 8 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 0.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 0.0 </Fire_Inaccuracy_Distance>

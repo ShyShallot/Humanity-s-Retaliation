@@ -58,7 +58,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>50.0</Max_Speed>
-		<Projectile_Damage>11.5</Projectile_Damage>
+		<Projectile_Damage>17.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Normal </Damage_Type>
@@ -87,7 +87,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>21.0</Projectile_Damage>
+		<Projectile_Damage>29.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Heavy </Damage_Type>

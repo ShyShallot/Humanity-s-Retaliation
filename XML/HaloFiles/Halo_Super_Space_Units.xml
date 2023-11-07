@@ -7,7 +7,7 @@
 		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_INFINITY.ALO</Space_Model_Name>
-		<Select_Box_Scale>400</Select_Box_Scale>
+		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>1</Mass>
 		<Scale_Factor>2.3</Scale_Factor>
@@ -434,7 +434,7 @@
 	   	<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Select_Box_Scale>350</Select_Box_Scale>
+		<Select_Box_Scale>650</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
 		<Scale_Factor>1.85</Scale_Factor>
