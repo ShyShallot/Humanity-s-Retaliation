@@ -194,7 +194,7 @@
 		</Unit_Abilities_Data>
 		<Lua_Script>DesperateStrike</Lua_Script>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>9850</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>7250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>48</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -578,7 +578,7 @@
 		<Population_Value>13</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>12500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>4150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>52</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
