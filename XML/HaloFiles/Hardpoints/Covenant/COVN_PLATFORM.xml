@@ -25,7 +25,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>30</Fire_Pulse_Count>
+            <Fire_Pulse_Count>15</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1450.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -64,7 +64,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>30</Fire_Pulse_Count>
+            <Fire_Pulse_Count>15</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1450.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -103,7 +103,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>30</Fire_Pulse_Count>
+            <Fire_Pulse_Count>15</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1450.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -142,7 +142,7 @@
             <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>30</Fire_Pulse_Count>
+            <Fire_Pulse_Count>15</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1450.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>

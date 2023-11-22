@@ -122,7 +122,7 @@
 		<Location_Height_Smooth_Time>0.1</Location_Height_Smooth_Time>
 		
 		<Near_Clip>1.0</Near_Clip>
-		<Far_Clip>200000.0</Far_Clip>
+		<Far_Clip>2000000.0</Far_Clip>
 
         <Object_Fade_Begin>24900.0f</Object_Fade_Begin>
         <Object_Fade_End>250000.0f</Object_Fade_End>
