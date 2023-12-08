@@ -157,9 +157,9 @@
 		<Radar_Icon_Size>0.2  0.3</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_INFINITY.tga</Radar_Icon_Name>
 		
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1000.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1200.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
@@ -357,9 +357,9 @@
 		<Radar_Icon_Size>0.1  0.2</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_SOF.tga</Radar_Icon_Name>
 		
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1000.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1200.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
@@ -567,9 +567,9 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		 
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1000.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1200.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 

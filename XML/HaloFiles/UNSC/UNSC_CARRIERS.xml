@@ -176,11 +176,11 @@
 		</Unit_Abilities_Data>
 
 		<Lua_Script>CarrierAI</Lua_Script>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>400.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
@@ -410,11 +410,11 @@
 		</Abilities>	
 
 		<Lua_Script>CarrierAI</Lua_Script>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>400.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		

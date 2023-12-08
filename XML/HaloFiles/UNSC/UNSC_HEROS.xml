@@ -206,23 +206,13 @@
 		<Radar_Icon_Size>0.06  0.08</Radar_Icon_Size>
 		<Radar_Icon_Name>I_RADAR_CAPITAL_UNSC.tga</Radar_Icon_Name>
 		
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1000.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1000.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-
-			<Unit_Ability>
-				<Type>BLAST</Type>
-				<Recharge_Seconds>120.0</Recharge_Seconds>
-				<Alternate_Name_Text>HALO_FIRE_MAC</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_MAC_ENC</Alternate_Description_Text>
-				<GUI_Activated_Ability_Name> FIRE_MAC_CANNON </GUI_Activated_Ability_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
 
 			<Unit_Ability>
                 <Type>ROCKET_ATTACK</Type>
