@@ -1,17 +1,4 @@
-<?xml version="1.0" ?>
-
+<?xml version='1.0' encoding='UTF-8'?>
 <Campaign_Files>
-	<!--
-	<File>Campaigns_Underworld_GC.xml</File>
-	<File>Campaigns_Underworld_Story.xml</File>
-	<File>Campaigns_Multiplayer.xml</File>
-	<File>Campaigns_Tutorial.xml</File>
-	<File>Campaigns_Underworld_Tutorial.xml</File>	
-	
-	<File>Campaigns_Underworld_Demo.xml</File>
-	<File>Campaigns_Test.xml</File>
-	<File>Campaigns_UW_GC_Test.xml</File>
-	-->
-	<!--<File>HaloFiles\HALO_Campaigns.xml</File>-->
-	<File>HaloFiles\Campaigns\Sandbox_Halo_Evolved.xml</File>
+  <File>HaloFiles\Campaigns\Sandbox_Halo_Evolved.xml</File>
 </Campaign_Files>

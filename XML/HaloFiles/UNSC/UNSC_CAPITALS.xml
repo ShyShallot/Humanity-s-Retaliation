@@ -38,8 +38,8 @@
 		<Death_Clone>Damage_Normal, UNSC_POA_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -212,8 +212,8 @@
 		<Death_Clone>Damage_Normal, UNSC_POA_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -386,8 +386,8 @@
 		<Death_Clone>Damage_Normal, UNSC_POA_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -565,8 +565,8 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>

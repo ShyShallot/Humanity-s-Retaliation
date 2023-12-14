@@ -553,6 +553,8 @@
 			HP_SDV_AS_01,HP_SDV_AS_02,HP_SDV_AS_03,HP_SDV_AS_04,HP_SDV_AS_05,HP_SDV_AS_06,
 			HP_SDV_AF_01,HP_SDV_AF_02,HP_SDV_AF_03,HP_SDV_AF_04,HP_SDV_AF_05,HP_SDV_AF_06
 		</HardPoints>
+
+		
 		
 		<!-- Unit Targeting -->
 		<Guard_Chase_Range>350.0</Guard_Chase_Range>

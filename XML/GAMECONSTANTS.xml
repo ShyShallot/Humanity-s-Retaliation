@@ -129,9 +129,9 @@
 	<Corruption_Path_Offset>0, 0, 0</Corruption_Path_Offset>
 	
 	<!-- GMC - Galactic Mode camera 3D galaxy map settings -->
-	<GMC_InitialPitchAngleDegrees>-30.0</GMC_InitialPitchAngleDegrees>
+	<GMC_InitialPitchAngleDegrees>-40.0</GMC_InitialPitchAngleDegrees>
     <GMC_ZoomedPitchAngleDegrees>-35.0</GMC_ZoomedPitchAngleDegrees>
-    <GMC_InitialPullbackDistance>700.0</GMC_InitialPullbackDistance>
+    <GMC_InitialPullbackDistance>900.0</GMC_InitialPullbackDistance>
     <GMC_ZoomedPullbackPlanetRadiusFraction>3.0</GMC_ZoomedPullbackPlanetRadiusFraction>
     <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.0, 0.0, 1.05</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
     <GMC_ZoomTime>0.65</GMC_ZoomTime>
@@ -216,7 +216,7 @@
 
 	<!-- Galactic Mode camera settings -->
 	
-	<Max_Galactic_Zoom_Distance>110</Max_Galactic_Zoom_Distance>
+	<Max_Galactic_Zoom_Distance>66</Max_Galactic_Zoom_Distance>
 	<Min_Galactic_Zoom_Speed>400</Min_Galactic_Zoom_Speed>
 	<Max_Galactic_Zoom_Speed>3000</Max_Galactic_Zoom_Speed>
 	<Galactic_Zoom_Acceleration>3000</Galactic_Zoom_Acceleration>

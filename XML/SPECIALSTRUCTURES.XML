@@ -586,7 +586,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>30</Size_Value>
 		<Base_Position>Orbital</Base_Position>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -754,7 +754,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Base_Position>Orbital</Base_Position>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>

@@ -39,8 +39,8 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -224,8 +224,8 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -443,8 +443,8 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -614,8 +614,8 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -807,8 +807,8 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -1008,8 +1008,8 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -1200,8 +1200,8 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
