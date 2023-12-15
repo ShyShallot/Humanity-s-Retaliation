@@ -2,7 +2,7 @@
 require("PGStateMachine")
 require("PGBase")
 require("PGSpawnUnits")
-require("LOZFunctions")
+require("HALOFunctions")
 
 spawningDone = false
 
@@ -45,18 +45,23 @@ function Despawn_Starting_Structure(player)
 end
 
 empire_structures = {}
-empire_starbase = "Empire_Star_Base_5_Starting"
+empire_starbase = "Empire_Star_Base_5"
 empire_units = {
     ["COVN_CCS"] = 1, 
-    ["COVN_CRS"] = 2, 
+    ["COVN_RCS"] = 1,
+    ["COVN_CRS"] = 2,
+    ["COVN_CAR"] = 1,
+    ["COVN_SDV"] = 2, 
     ["Cerastes_Squadron"] = 2, 
     ["Banshee_Squadron"] = 4
 }
 rebel_structures = {}
-rebel_starbase = "Rebel_Star_Base_5_Starting"
+rebel_starbase = "Rebel_Star_Base_4"
 rebel_units = {
-    ["UNSC_Halcyon"] = 1,
+    ["UNSC_Halcyon"] = 3,
     ["UNSC_Paris"] = 2,
+    ["UNSC_STALWART"] = 1,
+    ["UNSC_MAKO"] = 2,
     ["Shortsword_Squadron"] = 2,
     ["Baselard_Squadron"] = 3
 }
@@ -72,29 +77,25 @@ function Spawn_Random_Units()
     DebugMessage("%s -- All Done", tostring(Script))
 end
 
-function Spawn_Player_Pirates()
-    local player = Find_Player("PIRATES")
+function Spawn_Player_Terrorists()
+    local player = Find_Player("Terrorists")
     local Hplayer = Find_Human_Player()
     Despawn_Starting_Structure(player)
     DebugMessage("%s -- Despawning pirate structure", tostring(Script))
-    pirate_start_table = {
+    terrorist_start_units = {
         {
-            ["PIRATE_FRIGATE"] = {1,5}, -- Min, Max for random amount
-            ["PIRATE_CORONA_FRIGATE"] = {1,2},
-            ["Z95_HEADHUNTER_SQUADRON"] = {3,5},
-        },
-        {
-            ["PIRATE_COMMAND_CENTER"] = 1,
-            ["PIRATE_SKIFF_TEAM"] = {2,5},
-            ["PIRATE_SOLDIER_SQUAD"] = {5,7},
+            ["TERROR_HALCYON"] = {1,3}, -- Min, Max for random amount
+            ["TERROR_STALWART"] = {2,5},
+            ["TERROR_MAKO"] = {2,3},
+            ["TERROR_Baselard_Squadron"] = {2,4},
+            ["TERROR_SHORTSWORD"] = {1,3}
         }
     }
-    space_units = pirate_start_table[1]
-    ground_units = pirate_start_table[2]
+    space_units = terrorist_start_units[1]
     local planets = FindPlanet.Get_All_Planets()
     local planetcount = table.getn(planets)
     local piratecontrol = Pirate_Control_Threshold(Hplayer)
-    local finalplanetfill = planetcount * piratecontrol
+    local finalplanetfill = tonumber(Dirty_Floor(planetcount * piratecontrol))
     DebugMessage("%s -- Total Planets to fill", tostring(finalplanetfill))
     local planets_left = finalplanetfill
     for k, planet in pairs(planets) do
@@ -103,9 +104,8 @@ function Spawn_Player_Pirates()
             if Return_Faction(planet) == "NEUTRAL" and (Return_Faction(planet) ~= "REBEL" or Return_Faction(planet) ~= "EMPIRE") then   
                 DebugMessage("%s -- Planet Valid for spawn", tostring(Script))
                 planet.Change_Owner(player)
-                Spawn_Unit(Find_Object_Type("PIRATE_ASTEROID_BASE"),planet,player)
+                Spawn_Unit(Find_Object_Type("TERROR_STARBASE_2"),planet,player)
                 Spawn_Unit_List(space_units, planet, player)
-                Spawn_Unit_List(ground_units, planet, player)
                 planets_left = planets_left - 1
                 DebugMessage("%s -- Planets left to take over", tostring(planets_left))
             else
@@ -114,7 +114,45 @@ function Spawn_Player_Pirates()
         end
     end
     DebugMessage("%s -- All Done spawning Pirates", tostring(Script))
-    spawningDone = true
+end
+
+function Spawn_Player_Swords()
+    local player = Find_Player("Swords")
+    local Hplayer = Find_Human_Player()
+    Despawn_Starting_Structure(player)
+    DebugMessage("%s -- Despawning pirate structure", tostring(Script))
+    swords_start_units = {
+        {
+            ["SWORDS_CCS"] = {1,1}, -- Min, Max for random amount
+            ["SWORDS_CRS"] = {2,5},
+            ["SWORDS_CAR"] = {2,3},
+            ["SWORDS_SDV"] = {2,4},
+            ["SWORDS_Banshee_Squadron"] = {1,3}
+        }
+    }
+    space_units = swords_start_units[1]
+    local planets = FindPlanet.Get_All_Planets()
+    local planetcount = table.getn(planets)
+    local piratecontrol = Pirate_Control_Threshold(Hplayer)
+    local finalplanetfill = tonumber(Dirty_Floor(planetcount * piratecontrol))
+    DebugMessage("%s -- Total Planets to fill", tostring(finalplanetfill))
+    local planets_left = finalplanetfill
+    for k, planet in pairs(planets) do
+        if TestValid(planet) and Return_Faction(planet) == "NEUTRAL" and planets_left >= 1 then
+            DebugMessage("%s -- Planet Valid for spawning", tostring(Script))
+            if Return_Faction(planet) == "NEUTRAL" and (Return_Faction(planet) ~= "REBEL" or Return_Faction(planet) ~= "EMPIRE") then   
+                DebugMessage("%s -- Planet Valid for spawn", tostring(Script))
+                planet.Change_Owner(player)
+                Spawn_Unit(Find_Object_Type("SWORDS_STARBASE_2"),planet,player)
+                Spawn_Unit_List(space_units, planet, player)
+                planets_left = planets_left - 1
+                DebugMessage("%s -- Planets left to take over", tostring(planets_left))
+            else
+                return
+            end
+        end
+    end
+    DebugMessage("%s -- All Done spawning Pirates", tostring(Script))
 end
 
 function Spawn_Faction_Starting(faction, structures, units, starbase)
@@ -163,7 +201,7 @@ function Spawn_Unit_List(unit_list, planet, player)
         if amount == 1 then
             Spawn_Unit(unitO, planet, player)
         else
-            for x=amount, 0, -1 do
+            for x=amount, 1, -1 do
                 Spawn_Unit(unitO, planet, player)
                 DebugMessage("%s -- Amount left", tostring(x))
             end
@@ -182,13 +220,13 @@ end
 function Pirate_Control_Threshold(player)
     
     if player.Get_Difficulty() == "Easy" then
-        pirate_control_threshold = 0.5 -- Pirates control x% of the Map on start
+        pirate_control_threshold = 0.05 -- Pirates control x% of the Map on start
         DebugMessage("%s -- Difficulty is Easy, Pirate Control Treshold", tostring(pirate_control_threshold))
     elseif player.Get_Difficulty() == "Hard" then
-        pirate_control_threshold = 0.8
+        pirate_control_threshold = 0.1
         DebugMessage("%s -- Difficulty is Hard, Pirate Control Treshold", tostring(pirate_control_threshold))
     else
-        pirate_control_threshold = 0.95
+        pirate_control_threshold = 0.2
         DebugMessage("%s -- Difficulty is Normal, Pirate Control Treshold", tostring(pirate_control_threshold))
     end
     if pirate_control_threshold ~= nil then

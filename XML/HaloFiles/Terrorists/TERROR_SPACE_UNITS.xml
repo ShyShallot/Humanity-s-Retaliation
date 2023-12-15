@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<TerrorUnits>
+    <SpaceUnit Name="TERROR_GLADIUS">
+        <Variant_Of_Existing_Type>UNSC_GLADIUS</Variant_Of_Existing_Type>
+        <Affiliation>Terrorist</Affiliation>
+    </SpaceUnit>
+
+    <SpaceUnit Name="TERROR_MAKO">
+        <Variant_Of_Existing_Type>UNSC_MAKO</Variant_Of_Existing_Type>
+        <Affiliation>Terrorist</Affiliation>
+    </SpaceUnit>
+
+    <Squadron Name="TERROR_Baselard_Squadron">
+        <Variant_Of_Existing_Type>Baselard_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Terrorist</Affiliation>
+    </Squadron>
+
+    <SpaceUnit Name="TERROR_STALWART">
+        <Variant_Of_Existing_Type>UNSC_STALWART</Variant_Of_Existing_Type>
+        <Affiliation>Terrorist</Affiliation>
+    </SpaceUnit>
+
+    <SpaceUnit Name="TERROR_HALCYON">
+        <Variant_Of_Existing_Type>UNSC_HALCYON</Variant_Of_Existing_Type>
+        <Affiliation>Terrorist</Affiliation>
+
+        <Starting_Spawned_Units_Tech_0>TERROR_Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TERROR_SHORTSWORD, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TERROR_SHORTSWORD, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TERROR_Baselard_Squadron, 6</Reserve_Spawned_Units_Tech_0>
+    </SpaceUnit>
+
+    <Squadron Name="TERROR_SHORTSWORD">
+        <Variant_Of_Existing_Type>Shortsword_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Terrorist</Affiliation>
+    </Squadron>
+
+</TerrorUnits>

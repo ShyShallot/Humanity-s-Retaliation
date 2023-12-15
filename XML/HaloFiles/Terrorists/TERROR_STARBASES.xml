@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<TerrorUnits>
+    <StarBase Name="TERROR_STARBASE_1">
+        <Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
+        <Affiliation>Terrorist</Affiliation>
+    </StarBase>
+
+    <StarBase Name="TERROR_STARBASE_2">
+        <Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
+        <Affiliation>Terrorist</Affiliation>
+    </StarBase>
+
+    <SpecialStructure Name="TERROR_MINING_FACILITY">
+        <Variant_Of_Existing_Type>UNSC_Mining_Facility</Variant_Of_Existing_Type>
+        <Affiliation>Terrorist</Affiliation>
+    </SpecialStructure>
+</TerrorUnits>

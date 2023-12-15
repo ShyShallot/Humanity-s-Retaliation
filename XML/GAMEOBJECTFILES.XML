@@ -8,6 +8,7 @@
 	<File>TransportUnits.xml</File>
 
 	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
+	<File>TechBuilding_REBELS.xml</File>
 	<File>GroundBases.xml</File>
 	<File>GroundStructures.xml</File>
 	<File>GroundTurrets.xml</File>
@@ -196,6 +197,10 @@
 	<File>HaloFiles\Covenant\COVN_FRIGATES.xml</File>
 	<File>HaloFiles\Covenant\COVN_CARRIERS.xml</File>
 	<File>HaloFiles\Covenant\COVN_CAPITIALS.xml</File>
+	<File>HaloFiles\Swords\SWORDS_UNITS.xml</File>
+	<File>HaloFiles\Swords\SWORDS_STARBASES.xml</File>
+	<File>HaloFiles\Terrorist\TERROR_STARBASES.xml</File>
+	<File>HaloFiles\Terrorist\TERROR_UNITS.xml</File>
 
 
 

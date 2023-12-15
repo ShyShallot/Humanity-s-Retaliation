@@ -21,9 +21,9 @@
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>600</Build_Cost_Credits>
+		<Build_Cost_Credits>5250</Build_Cost_Credits>
 		<AI_Combat_Power>5000</AI_Combat_Power>
-		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>10</Size_Value>
 		<Tech_Level>0</Tech_Level>
@@ -52,11 +52,11 @@
 		<Shield_Armor_Type>Shield_COVN_Station</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -68,10 +68,10 @@
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04
 		</HardPoints>
 		
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
@@ -155,9 +155,9 @@
 		<Select_Box_Scale>900</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>1200</Build_Cost_Credits>
+		<Build_Cost_Credits>8050</Build_Cost_Credits>
 		<AI_Combat_Power>10000</AI_Combat_Power>
-		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Time_Seconds>80</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>20</Size_Value>
 		<Tech_Level>1</Tech_Level>
@@ -209,16 +209,7 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_03,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10
 		</HardPoints>
 		
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
@@ -304,9 +295,9 @@
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>2400</Build_Cost_Credits>
+		<Build_Cost_Credits>9250</Build_Cost_Credits>
 		<AI_Combat_Power>15000</AI_Combat_Power>
-		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Time_Seconds>100</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>30</Size_Value>
 		<Tech_Level>2</Tech_Level>
@@ -362,7 +353,7 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04
 		</HardPoints>
 		
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
@@ -448,9 +439,9 @@
 		<Select_Box_Scale>1500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>4800</Build_Cost_Credits>
+		<Build_Cost_Credits>11250</Build_Cost_Credits>
 		<AI_Combat_Power>20000</AI_Combat_Power>
-		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Time_Seconds>105</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>40</Size_Value>
 		<Tech_Level>3</Tech_Level>
@@ -510,7 +501,7 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04, HP_COVSTATION_T4_AS_15, HP_COVSTATION_T4_AS_16, HP_COVSTATION_T4_AS_17, HP_COVSTATION_T4_AS_18, HP_COVSTATION_T4_HC_05, HP_COVSTATION_T4_HC_06, HP_COVSTATION_T4_HC_07, HP_COVSTATION_T4_HC_08
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04, HP_COVSTATION_T4_AS_15, HP_COVSTATION_T4_AS_16, HP_COVSTATION_T4_AS_17, HP_COVSTATION_T4_AS_18, HP_COVSTATION_T4_HC_05, HP_COVSTATION_T4_HC_06, HP_COVSTATION_T4_HC_07, HP_COVSTATION_T4_HC_08
 		</HardPoints>
 		
 		<!-- Comm array and supply dock should be replaced by dummy hard points -->
@@ -590,9 +581,9 @@
 		<Select_Box_Scale>1800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<Build_Cost_Credits>16500</Build_Cost_Credits>
 		<AI_Combat_Power>35000</AI_Combat_Power>
-		<Build_Time_Seconds>150</Build_Time_Seconds>
+		<Build_Time_Seconds>145</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>50</Size_Value>
 		<Tech_Level>4</Tech_Level>
@@ -656,7 +647,7 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04, HP_COVSTATION_T4_AS_15, HP_COVSTATION_T4_AS_16, HP_COVSTATION_T4_AS_17, HP_COVSTATION_T4_AS_18, HP_COVSTATION_T4_HC_05, HP_COVSTATION_T4_HC_06, HP_COVSTATION_T4_HC_07, HP_COVSTATION_T4_HC_08, HP_COVSTATION_T5_AF_15, HP_COVSTATION_T5_AF_16, HP_COVSTATION_T5_AF_17, HP_COVSTATION_T5_AF_18, HP_COVSTATION_T5_AS_19, HP_COVSTATION_T5_AS_20, HP_COVSTATION_T5_AS_21, HP_COVSTATION_T5_AS_22, HP_COVSTATION_T5_HC_09, HP_COVSTATION_T5_HC_10
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T3_HANGAR_03, HP_COVSTATION_T3_HANGAR_04, HP_COVSTATION_T3_HANGAR_05, HP_COVSTATION_T3_HANGAR_06, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10, HP_COVSTATION_T3_AS_11, HP_COVSTATION_T3_AS_12, HP_COVSTATION_T3_AS_13, HP_COVSTATION_T3_AS_14, HP_COVSTATION_T3_AF_11, HP_COVSTATION_T3_AF_12, HP_COVSTATION_T3_AF_13, HP_COVSTATION_T3_AF_14, HP_COVSTATION_T3_HC_01, HP_COVSTATION_T3_HC_02, HP_COVSTATION_T3_HC_03, HP_COVSTATION_T3_HC_04, HP_COVSTATION_T3_TP_01, HP_COVSTATION_T3_TP_02, HP_COVSTATION_T3_TP_03, HP_COVSTATION_T3_TP_04, HP_COVSTATION_T4_AS_15, HP_COVSTATION_T4_AS_16, HP_COVSTATION_T4_AS_17, HP_COVSTATION_T4_AS_18, HP_COVSTATION_T4_HC_05, HP_COVSTATION_T4_HC_06, HP_COVSTATION_T4_HC_07, HP_COVSTATION_T4_HC_08, HP_COVSTATION_T5_AF_15, HP_COVSTATION_T5_AF_16, HP_COVSTATION_T5_AF_17, HP_COVSTATION_T5_AF_18, HP_COVSTATION_T5_AS_19, HP_COVSTATION_T5_AS_20, HP_COVSTATION_T5_AS_21, HP_COVSTATION_T5_AS_22, HP_COVSTATION_T5_HC_09, HP_COVSTATION_T5_HC_10
 		</HardPoints>
 
 <!-- Comm array and supply dock should be replaced by dummy hard points -->
@@ -938,9 +929,9 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Is_Dummy>No</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>600</Build_Cost_Credits>
+		<Build_Cost_Credits>4500</Build_Cost_Credits>
 		<AI_Combat_Power>5000</AI_Combat_Power>
-		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>10</Size_Value>
 		<Tech_Level>0</Tech_Level>
@@ -962,11 +953,11 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -992,7 +983,10 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
-			CANNON_M66_01,
+			CANNON_M33_01, CANNON_M33_02, CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, 
+			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06,
+			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08,
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04
 		</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
@@ -1086,9 +1080,9 @@
 		<Select_Box_Scale>400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>1200</Build_Cost_Credits>
+		<Build_Cost_Credits>7450</Build_Cost_Credits>
 		<AI_Combat_Power>10000</AI_Combat_Power>
-		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Time_Seconds>75</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>20</Size_Value>
 		<Tech_Level>0</Tech_Level>
@@ -1117,14 +1111,14 @@
 		<Shield_Armor_Type>Shield_UNSC_Station</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 1</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>UNSC_STALWART, 1</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>UNSC_STALWART, 2</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -1143,7 +1137,7 @@
 			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
 			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08,
 			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12,
-			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05,
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05
 		</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
@@ -1236,9 +1230,9 @@
 		<Select_Box_Scale>450</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>2400</Build_Cost_Credits>
+		<Build_Cost_Credits>8550</Build_Cost_Credits>
 		<AI_Combat_Power>15000</AI_Combat_Power>
-		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Time_Seconds>95</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>30</Size_Value>
 		<Tech_Level>1</Tech_Level>
@@ -1272,11 +1266,11 @@
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 1</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>UNSC_PARIS, 1</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>UNSC_PARIS, 3</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -1296,11 +1290,12 @@
 		
 		<HardPoints>
 			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
-			CANNON_M33_13, CANNON_M33_14,CANNON_M33_15,CANNON_M33_16,CANNON_M33_17,CANNON_M33_18,CANNON_M33_19,CANNON_M33_20, CANNON_M33_21, CANNON_M33_22, CANNON_M33_23, CANNON_M33_24,
-			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08, CANNON_M66_09, CANNON_M66_10, CANNON_M66_11, CANNON_M66_12,
-			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12, ARCHER_HP_13, ARCHER_HP_14, ARCHER_HP_15, ARCHER_HP_16,
-			ARCHER_HP_17, ARCHER_HP_18, ARCHER_HP_19, ARCHER_HP_20,
-			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05,
+			CANNON_M33_13, CANNON_M33_14, CANNON_M33_15, CANNON_M33_16, CANNON_M33_17, CANNON_M33_18, CANNON_M33_19, CANNON_M33_20, CANNON_M33_21, CANNON_M33_22, CANNON_M33_23, CANNON_M33_24,
+			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08,
+			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12,
+			ARCHER_HP_13, ARCHER_HP_14, ARCHER_HP_15, ARCHER_HP_16, ARCHER_HP_17, ARCHER_HP_18, ARCHER_HP_19, ARCHER_HP_20,
+			CANNON_BREAKWATER_01, CANNON_BREAKWATER_02, CANNON_BREAKWATER_03, CANNON_BREAKWATER_04, 
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05
 		</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
@@ -1392,9 +1387,9 @@
 		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>4800</Build_Cost_Credits>
+		<Build_Cost_Credits>10250</Build_Cost_Credits>
 		<AI_Combat_Power>20000</AI_Combat_Power>
-		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Time_Seconds>95</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>40</Size_Value>
 		<Tech_Level>2</Tech_Level>
@@ -1428,14 +1423,14 @@
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 2</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>UNSC_PARIS, 1</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>UNSC_PARIS, 3</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Nebulon_B_Frigate, 1</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Nebulon_B_Frigate, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>UNSC_HALCYON, 1</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>UNSC_HALCYON, 3</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -1461,10 +1456,10 @@
 			CANNON_M33_25, CANNON_M33_26, CANNON_M33_27, CANNON_M33_28, CANNON_M33_29, CANNON_M33_30, CANNON_M33_31, CANNON_M33_32,
 			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08, CANNON_M66_09, CANNON_M66_10, CANNON_M66_11, CANNON_M66_12,
 			CANNON_BREAKWATER_01, CANNON_BREAKWATER_02, CANNON_BREAKWATER_03, CANNON_BREAKWATER_04, CANNON_BREAKWATER_05, CANNON_BREAKWATER_06, CANNON_BREAKWATER_07, CANNON_BREAKWATER_08,
-			CANNON_BREAKWATER_09, CANNON_BREAKWATER_10, CANNON_BREAKWATER_11, CANNON_BREAKWATER_12,
+			CANNON_BREAKWATER_09, CANNON_BREAKWATER_10, CANNON_BREAKWATER_11, CANNON_BREAKWATER_12, CANNON_BREAKWATER_13, CANNON_BREAKWATER_14,
 			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12, ARCHER_HP_13, ARCHER_HP_14, ARCHER_HP_15, ARCHER_HP_16,
 			ARCHER_HP_17, ARCHER_HP_18, ARCHER_HP_19, ARCHER_HP_20,
-			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05,		
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05	
 		</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
@@ -1560,9 +1555,9 @@
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<Build_Cost_Credits>15250</Build_Cost_Credits>
 		<AI_Combat_Power>35000</AI_Combat_Power>
-		<Build_Time_Seconds>150</Build_Time_Seconds>
+		<Build_Time_Seconds>130</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>50</Size_Value>
 		<Tech_Level>3</Tech_Level>
@@ -1573,11 +1568,11 @@
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>2750</Autoresolve_Health>
 		<Damage>75</Damage>
-		<Shield_Points>9000</Shield_Points>
+		<Shield_Points>14000</Shield_Points>
 		<Tactical_Health>7000</Tactical_Health>
 		<Shield_Refresh_Rate>160</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
@@ -1593,17 +1588,17 @@
 		<Shield_Armor_Type>Shield_UNSC_Station</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 3</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
 		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 2</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>UNSC_PARIS, 1</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>UNSC_PARIS, 5</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Nebulon_B_Frigate, 2</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Nebulon_B_Frigate, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>UNSC_HALCYON, 1</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>UNSC_HALCYON, 3</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -1626,28 +1621,19 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
-		<!--<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_Five_CCM,
-			HP_Rebel_Station_Five_IC,
-			HP_Rebel_Station_Five_PRT,
-			HP_Rebel_Station_Five_TBL,
-			HP_Rebel_Station_Five_TBL2,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>-->
+		<HardPoints>
+			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
+			CANNON_M33_13, CANNON_M33_14,CANNON_M33_15,CANNON_M33_16,CANNON_M33_17,CANNON_M33_18,CANNON_M33_19,CANNON_M33_20, CANNON_M33_21, CANNON_M33_22, CANNON_M33_23, CANNON_M33_24,
+			CANNON_M33_25, CANNON_M33_26, CANNON_M33_27, CANNON_M33_28, CANNON_M33_29, CANNON_M33_30, CANNON_M33_31, CANNON_M33_32, CANNON_M33_33, CANNON_M33_34, CANNON_M33_35, CANNON_M33_36,
+			CANNON_M33_37, CANNON_M33_38,
+			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08, CANNON_M66_09, CANNON_M66_10, CANNON_M66_11, CANNON_M66_12,
+			CANNON_M66_13, CANNON_M66_14, CANNON_M66_15, CANNON_M66_16, CANNON_M66_17, CANNON_M66_18, CANNON_M66_19, CANNON_M66_20, CANNON_M66_21, CANNON_M66_22, CANNON_M66_23,
+			CANNON_BREAKWATER_01, CANNON_BREAKWATER_02, CANNON_BREAKWATER_03, CANNON_BREAKWATER_04, CANNON_BREAKWATER_05, CANNON_BREAKWATER_06, CANNON_BREAKWATER_07, CANNON_BREAKWATER_08,
+			CANNON_BREAKWATER_09, CANNON_BREAKWATER_10, CANNON_BREAKWATER_11, CANNON_BREAKWATER_12, CANNON_BREAKWATER_13, CANNON_BREAKWATER_14,
+			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12, ARCHER_HP_13, ARCHER_HP_14, ARCHER_HP_15, ARCHER_HP_16,
+			ARCHER_HP_17, ARCHER_HP_18, ARCHER_HP_19, ARCHER_HP_20, ARCHER_HP_21, ARCHER_HP_22, ARCHER_HP_23, ARCHER_HP_24, ARCHER_HP_25, ARCHER_HP_26,
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05, STATION_HANGAR_06, STATION_HANGAR_07, STATION_HANGAR_08
+		</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
@@ -1706,7 +1692,7 @@
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Rebel</Retreat_Self_Destruct_Explosion>
 		
 		<Death_Clone>Damage_Normal, Rebel_Star_Base_5_Death_Clone</Death_Clone>
-		<Additional_Population_Capacity>17</Additional_Population_Capacity>
+		<Additional_Population_Capacity>150</Additional_Population_Capacity>
 		<!--<Lua_Script>SpaceStationAfterSetup</Lua_Script>-->
 	</StarBase>
 

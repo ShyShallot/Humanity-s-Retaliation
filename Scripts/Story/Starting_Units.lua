@@ -85,6 +85,7 @@ function Global_Story(message)
             Spawn_Starting_Units("Empire",starting_units_empire,planet.Get_Type().Get_Name())
         end
 
+        Lock_Vanilla_Units()
 
     end
 end
@@ -111,4 +112,10 @@ function find_matching_key(level, list)
         end
     end
     return matching_key
+end
+
+function Lock_Vanilla_Units()
+    empire = Find_Player("EMPIRE")
+    empire.Lock_Tech(Find_Object_Type("Generic_Probe_Droid"))
+    empire.Lock_Tech(Find_Object_Type("Probe_Droid_Team"))
 end

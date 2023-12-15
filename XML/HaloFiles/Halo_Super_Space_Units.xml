@@ -42,12 +42,12 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets/>
+		<Required_Planets>Reach</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>20000</Tactical_Health>
 		<Shield_Points>17500</Shield_Points>
@@ -58,9 +58,9 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>21500</Build_Cost_Credits>
 		<AI_Combat_Power>12000</AI_Combat_Power>
-		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Build_Time_Seconds>180</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -246,7 +246,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets/>
+		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>30000</Tactical_Health>
 		<Shield_Points>11500</Shield_Points>
@@ -257,9 +257,9 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>18500</Build_Cost_Credits>
 		<AI_Combat_Power>10000</AI_Combat_Power>
-		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Build_Time_Seconds>165</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -599,13 +599,21 @@
 
 	<SpaceUnit Name="COVN_CAS">
 		<Variant_Of_Existing_Type>Generic_COVN_CAS</Variant_Of_Existing_Type>
-		<Tech_Level>4</Tech_Level>
 
 		<HardPoints> 
 			HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25, HP_CAS_26
 		</HardPoints>
 		<Population_Value>40</Population_Value>
 		<Reinforcement_Prevention_Radius> 900 </Reinforcement_Prevention_Radius>
+
+		<Tech_Level>5</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets>Sanghelios</Required_Planets>
+		<Build_Cost_Credits>19500</Build_Cost_Credits>
+		<Build_Time_Seconds>180</Build_Time_Seconds>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 		

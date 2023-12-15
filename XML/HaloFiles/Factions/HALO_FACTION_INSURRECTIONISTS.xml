@@ -1,30 +1,30 @@
 <?xml version="1.0"?>
 <Factions>
-    <Faction Name="Rebel">
+    <Faction Name="Terrorists">
 		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
 
-		<Text_ID> TEXT_FACTION_REBELS </Text_ID>
-		<Icon_Name> i_icon_rebel.tga </Icon_Name>
-		<Alternate_Icon_Name> rebel_icon.tga </Alternate_Icon_Name>
+		<Text_ID> TEXT_FACTION_INSURRECTIONISTS </Text_ID>
+		<Icon_Name> i_icon_terror.tga </Icon_Name>
+		<Alternate_Icon_Name> terror_icon.tga </Alternate_Icon_Name>
 		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
 		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
 		<Ground_Transport_Icon_Name> trooper_icon.tga </Ground_Transport_Icon_Name>
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 103, 140, 214, 255 </Color>
+		<Color> 255, 0, 0, 255 </Color>
 		<Display_Font_Color> 185, 40, 39, 255 </Display_Font_Color>
 		<No_Colorization_Color> 199, 105, 59, 255 </No_Colorization_Color>
 		<Big_Fleet_Color> 185, 40, 39, 150 </Big_Fleet_Color>
 		<Credits_Accumulation_Factor> 0.95 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 10.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>true</Is_Playable>
-		<Primary_Enemy> Empire </Primary_Enemy>
+		<Is_Playable>false</Is_Playable>
+		<Primary_Enemy> Rebel </Primary_Enemy>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral> No </Is_Neutral>
-		<Force_Alignment>Light</Force_Alignment>
+		<Force_Alignment>Dark</Force_Alignment>
 		<Minimum_Visible_Base_Level>1</Minimum_Visible_Base_Level>
 		<Basic_AI>BasicRebel</Basic_AI>
 		<Can_Win_By_Destroying_Super_Weapon>Yes</Can_Win_By_Destroying_Super_Weapon>
@@ -44,9 +44,6 @@
 		<Corruption_Tactical_Build_Pad_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Price_Multipliers>
 		<Easily_Bribed> No </Easily_Bribed>
 
-		<!-- Unlike the Empire, the Rebel's tech levels go from 0-3 instead of 1-4. It needs to be adjusted
-		before displaying it to the player otherwise it won't match the tech tree we show in-game. -->
-		<Displayed_Tech_Level_Adjustment> +1 </Displayed_Tech_Level_Adjustment>
 		
 		<Infantry_Icon_Name>i_button_rebel_soldier.tga</Infantry_Icon_Name>
 		<Vehicle_Icon_Name>i_r_vehicle.tga</Vehicle_Icon_Name>
@@ -57,7 +54,7 @@
 		<Tech_Tree_Dialog_Name>IDD_TECH_TREE_REBEL</Tech_Tree_Dialog_Name>
 		<Helper_Icon_Name>i_rebel_help_droid.tga</Helper_Icon_Name>
 
-		<Space_Retreat_Countdown_Seconds> 5.05 </Space_Retreat_Countdown_Seconds> 
+		<Space_Retreat_Countdown_Seconds> 8.05 </Space_Retreat_Countdown_Seconds> 
 		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 3.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
 		<Space_Retreat_Units_Damaged_Mod_Factor> 4.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
 		<Space_Retreat_Flight_Move_Increment> 500.0 </Space_Retreat_Flight_Move_Increment>
@@ -741,7 +738,7 @@
 
 
 		<Allies />
-		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Terrorists, Swords</Enemies>
+		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Swords, Empire</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 

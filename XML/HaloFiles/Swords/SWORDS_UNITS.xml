@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<SwordsUnits>
+    <SpaceUnit Name="SWORDS_SDV">
+        <Variant_Of_Existing_Type>COVN_SDV</Variant_Of_Existing_Type>
+        <Affiliation>Swords</Affiliation>
+    </SpaceUnit>
+
+    <SpaceUnit Name="SWORDS_CAR">
+        <Variant_Of_Existing_Type>COVN_CAR</Variant_Of_Existing_Type>
+        <Affiliation>Swords</Affiliation>
+    </SpaceUnit>
+
+    <SpaceUnit Name="SWORDS_CRS">
+        <Variant_Of_Existing_Type>COVN_CRS</Variant_Of_Existing_Type>
+        <Affiliation>Swords</Affiliation>
+
+        <Starting_Spawned_Units_Tech_0>SWORDS_Banshee_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds> <!-- Time until ship deploys its fighters, counts down on ship spawn-->
+		<Reserve_Spawned_Units_Tech_0>SWORDS_Banshee_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+    </SpaceUnit>
+
+    <SpaceUnit Name="SWORDS_CCS">
+        <Variant_Of_Existing_Type>COVN_CCS</Variant_Of_Existing_Type>
+        <Affiliation>Swords</Affiliation>
+
+        <Starting_Spawned_Units_Tech_0>SWORDS_Banshee_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>SWORDS_Cerastes_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>SWORDS_Banshee_Squadron, 12</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>SWORDS_Cerastes_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+    </SpaceUnit>
+
+    <Squadron Name="SWORDS_Banshee_Squadron">
+        <Variant_Of_Existing_Type>Banshee_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Swords</Affiliation>
+    </Squadron>
+
+    <Squadron Name="SWORDS_Cerastes_Squadron">
+        <Variant_Of_Existing_Type>Cerastes_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Swords</Affiliation>
+    </Squadron>
+
+
+</SwordsUnits>

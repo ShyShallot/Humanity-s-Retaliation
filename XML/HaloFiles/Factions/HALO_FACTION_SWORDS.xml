@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <Factions>    
-    <Faction Name="Empire">
+    <Faction Name="Swords">
 
 		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
 
-		<Text_ID> TEXT_FACTION_EMPIRE </Text_ID>
-		<Icon_Name> i_icon_empire.tga </Icon_Name>
-		<Alternate_Icon_Name> empire_icon.tga </Alternate_Icon_Name>
+		<Text_ID> TEXT_FACTION_SWORDS </Text_ID>
+		<Icon_Name> i_icon_swords.tga </Icon_Name>
+		<Alternate_Icon_Name> swords_icon.tga </Alternate_Icon_Name>
 		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
 		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
 		<Ground_Transport_Icon_Name> trooper_icon.tga </Ground_Transport_Icon_Name>
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 150, 103, 219, 255 </Color>
+		<Color> 219, 155, 66, 255 </Color>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Display_Font_Color> 24, 133, 251, 255 </Display_Font_Color>
 		<Big_Fleet_Color> 54, 134, 242, 150 </Big_Fleet_Color>
 		<Credits_Accumulation_Factor> 0.85 </Credits_Accumulation_Factor>
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>true</Is_Playable>
-		<Primary_Enemy> Rebel </Primary_Enemy>
+		<Is_Playable>false</Is_Playable>
+		<Primary_Enemy> Empire </Primary_Enemy>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral> No </Is_Neutral>
 		<Force_Alignment>Dark</Force_Alignment>
@@ -715,7 +715,7 @@
 		<!-- End Droid Advisor Speech/Text -->
 
 		<Allies />
-		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts, Terrorists, Swords</Enemies>
+		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts, Terrorists, Empire</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 

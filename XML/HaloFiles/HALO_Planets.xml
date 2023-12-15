@@ -939,7 +939,7 @@
   <!-- Harvest -->
   <Planet Name="Harvest">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
-    <Text_ID>HALO_PLANET_MADRIGAL</Text_ID>
+    <Text_ID>HALO_PLANET_HARVEST</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
@@ -1611,7 +1611,7 @@
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>5</Additional_Population_Capacity>
+    <Additional_Population_Capacity>35</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes"></Abilities>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
