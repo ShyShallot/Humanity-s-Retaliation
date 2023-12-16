@@ -64,16 +64,16 @@
 		
 		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>11000</Build_Cost_Credits>
+		<Build_Cost_Credits>4250</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<Build_Time_Seconds>100</Build_Time_Seconds>
+		<Build_Time_Seconds>35</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -308,13 +308,13 @@
 		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>11000</Build_Cost_Credits>
+		<Build_Cost_Credits>3250</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<Build_Time_Seconds>100</Build_Time_Seconds>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -514,16 +514,16 @@
 		
 		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>11000</Build_Cost_Credits>
+		<Build_Cost_Credits>1850</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<Build_Time_Seconds>100</Build_Time_Seconds>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -553,6 +553,8 @@
 			HP_SDV_AS_01,HP_SDV_AS_02,HP_SDV_AS_03,HP_SDV_AS_04,HP_SDV_AS_05,HP_SDV_AS_06,
 			HP_SDV_AF_01,HP_SDV_AF_02,HP_SDV_AF_03,HP_SDV_AF_04,HP_SDV_AF_05,HP_SDV_AF_06
 		</HardPoints>
+
+		
 		
 		<!-- Unit Targeting -->
 		<Guard_Chase_Range>350.0</Guard_Chase_Range>

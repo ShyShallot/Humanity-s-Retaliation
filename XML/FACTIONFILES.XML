@@ -5,4 +5,6 @@
 	<File>Expansion_Factions.xml</File>
 	<File>HaloFiles\Factions\HALO_FACTION_UNSC.xml</File>
 	<File>HaloFiles\Factions\HALO_FACTION_COVENANT.xml</File>
+	<File>HaloFiles\Factions\HALO_FACTION_SWORDS.xml</File>
+	<File>HaloFiles\Factions\HALO_FACTION_INSURRECTIONISTS.xml</File>
 </Faction_Files>

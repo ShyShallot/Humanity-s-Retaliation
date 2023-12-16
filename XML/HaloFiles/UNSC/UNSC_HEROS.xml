@@ -104,15 +104,15 @@
 		<Death_Clone>Damage_Normal, UNSC_POA_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets/>
+		<Required_Planets>Mars</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>14500</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
@@ -123,9 +123,9 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>16500</Build_Cost_Credits>
 		<AI_Combat_Power>8000</AI_Combat_Power>
-		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Build_Time_Seconds>65</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>

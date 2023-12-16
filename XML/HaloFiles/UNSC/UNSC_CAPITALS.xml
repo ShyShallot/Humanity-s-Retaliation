@@ -38,15 +38,15 @@
 		<Death_Clone>Damage_Normal, UNSC_POA_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets/>
+		<Required_Planets>Earth,Reach</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>16500</Tactical_Health>
 		<Shield_Points>11500</Shield_Points>
@@ -57,9 +57,9 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>13500</Build_Cost_Credits>
 		<AI_Combat_Power>7000</AI_Combat_Power>
-		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Build_Time_Seconds>75</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -212,15 +212,15 @@
 		<Death_Clone>Damage_Normal, UNSC_POA_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets/>
+		<Required_Planets>Earth,Reach</Required_Planets>
 		<Autoresolve_Health>13000</Autoresolve_Health>
 		<Tactical_Health>13000</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
@@ -231,9 +231,9 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>10500</Build_Cost_Credits>
 		<AI_Combat_Power>7500</AI_Combat_Power>
-		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Build_Time_Seconds>55</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -386,13 +386,13 @@
 		<Death_Clone>Damage_Normal, UNSC_POA_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
 		<Autoresolve_Health>8500</Autoresolve_Health>
@@ -405,9 +405,9 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>6500</Build_Cost_Credits>
 		<AI_Combat_Power>6000</AI_Combat_Power>
-		<Build_Time_Seconds>1</Build_Time_Seconds>
+		<Build_Time_Seconds>40</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -428,11 +428,11 @@
 			<!--HP_HALC_REACTOR,--> HP_HALC_EG_01, HP_HALC_EG_02, HP_HALC_EG_03, HP_HALC_HANGER_01, HP_HALC_HANGER_02, UNSC_HALC_AP_01, UNSC_HALC_AP_02, UNSC_HALC_AP_03, UNSC_HALC_AP_04, UNSC_HALC_AP_05, UNSC_HALC_AP_06, UNSC_HALC_MK33_01, UNSC_HALC_MK33_02, UNSC_HALC_MK33_03, UNSC_HALC_MK33_04, UNSC_HALC_MK33_05, UNSC_HALC_MK33_06 
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 6</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 
 		<Icon_Name>I_BUTTON_HALCYON.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -565,15 +565,15 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets />
+		<Required_Planets>Mars</Required_Planets>
 		<Ship_Class>capital</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -582,10 +582,10 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>3250</Build_Cost_Credits>
+		<Build_Cost_Credits>15000</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>9000</AI_Combat_Power>
-		<Build_Time_Seconds>55</Build_Time_Seconds>
+		<Build_Time_Seconds>95</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED</Behavior>

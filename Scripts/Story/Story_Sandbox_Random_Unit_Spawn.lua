@@ -21,6 +21,9 @@ function Global_Story(message)
     if  message == OnEnter then 
         DebugMessage("%s -- We Started Calling Func", tostring(Script))
         Spawn_Random_Units()
+        while (isSpawningDone() ~= true) do
+            Sleep(1)
+        end
         Story_Event("Spawning_Done")
         DebugMessage("%s -- All Done", tostring(Script))
     end

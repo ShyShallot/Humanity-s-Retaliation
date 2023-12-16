@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Story_Mode_Plots>
+    <Lua_Script>Story_Sandbox_Random_Unit_Spawn</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Random_UNSC.xml</Active_Plot>
+</Story_Mode_Plots>

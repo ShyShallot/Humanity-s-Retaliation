@@ -1,8 +1,6 @@
--- Script is used for Humanity's Retaliation 
--- This script contains a set of custom functions used by various scripts. Made by ShyShallot
--- Any use of this script without permission will not be fun for offending party.
+-- Main Overall Custom Functions Script for LOZ
 -- Lua Doc: https://stargate-eaw.de/media/kunena/attachments/92/LuacommandsinFoC.pdf
--- This is a general function library script
+
 
 function Return_Chance(value_to_check, factor) -- Returns true or false
     if not factor then
@@ -11,11 +9,13 @@ function Return_Chance(value_to_check, factor) -- Returns true or false
     if value_to_check <= 1 then
         chance = GameRandom.Get_Float(0, 1) 
         chance = chance / factor
+        DebugMessage("%s -- Generated Chance: %s", tostring(Script), tostring(chance))
         if chance <= value_to_check then -- the value to check is the threshold to our chance, so if you input 0.65 as long as its greater than or equal to it succeeds
+            DebugMessage("%s -- %s was Smaller or Equal to: %s", tostring(Script), tostring(value_to_check), tostring(value_to_check))
             return true 
         end
     elseif value_to_check <= 100 and value_to_check >= 1 then
-        chance = GameRandom(0, 100) 
+        chance = EvenMoreRandom(0, 100) 
         chance = chance / factor
         if chance <= value_to_check then 
             return true
@@ -50,55 +50,6 @@ function Is_Target_Affected_By_Ability(object, ability_name)
     end
 end
 
-function Return_Faction(wrapper)
-    playerE = Find_Player("Empire") -- This is enefficant as fuck but as long as there isnt like 15 factions its fine
-    playerR = Find_Player("Rebel")
-    if (wrapper ==  playerE) or (wrapper == playerR) then
-        return wrapper.Get_Faction_Name()
-    else
-        return wrapper.Get_Type().Get_Faction_Name()
-    end
-end
-
-function Tactical_Tech_Level(player) -- Get the players Tech Level in Tactical Battles, 
-    --i think you use player.Get_Tech_Level() but this ignores the rebels 0-4 and empires 1-5
-    if Return_Faction(player) == "EMPIRE" then -- Could use for statements but too lazy to debug rn
-        if TestValid(Find_First_Object("Skirmish_Empire_Star_Base_1")) then
-            tech_level = 1
-            return tech_level
-        elseif TestValid(Find_First_Object("Skirmish_Empire_Star_Base_2")) then
-            tech_level = 2
-            return tech_level
-        elseif TestValid(Find_First_Object("Skirmish_Empire_Star_Base_3")) then
-            tech_level = 3
-            return tech_level
-        elseif TestValid(Find_First_Object("Skirmish_Empire_Star_Base_4")) then
-            tech_level = 4
-            return tech_level
-        elseif TestValid(Find_First_Object("Skirmish_Empire_Star_Base_5")) then
-            tech_level = 5
-            return tech_level
-        end
-    elseif Return_Faction(player) == "REBEL" then
-        if TestValid(Find_First_Object("Skirmish_Rebel_Star_Base_1")) then
-            tech_level = 1
-            return tech_level
-        elseif TestValid(Find_First_Object("Skirmish_Rebel_Star_Base_2")) then
-            tech_level = 2
-            return tech_level
-        elseif TestValid(Find_First_Object("Skirmish_Rebel_Star_Base_3")) then
-            tech_level = 3
-            return tech_level
-        elseif TestValid(Find_First_Object("Skirmish_Rebel_Star_Base_4")) then
-            tech_level = 4
-            return tech_level
-        elseif TestValid(Find_First_Object("Skirmish_Rebel_Star_Base_5")) then
-            tech_level = 5
-            return tech_level
-        end
-    end
-end
-
 function Get_Unit_Props_From_Table(table)
     for k, unit in pairs(table) do
         if TestValid(unit) then
@@ -114,102 +65,74 @@ function Object_Firepower(object) -- Easier then Object.Get_Type().Get_Combat_Ra
     return firepower
 end
 
-function Enemy_Player(player)
-    if Return_Faction(player) == "EMPIRE" then
-        return Find_Player("REBEL")
-    elseif Return_Faction(player) == "REBEL" then
-        return Find_Player("EMPIRE")
-    end 
-    --if Return_Faction(player) == "UNDERWORLD" then | Implementation for Three Faction
-    --    if TestValid(Find_Player("EMPIRE")) then
-    --        enemy_1 = Find_Player("EMPIRE")
-    --    end
-    --    if TestValid(Find_Player("REBEL")) then
-    --        enemy_2 = Find_Player("REBEL")
-    --    end
-    --    return enemy_1, enemy_2
-    --end
+function Return_Faction(obj)
+    return obj.Get_Owner().Get_Faction_Name()
 end
 
-function table_length(table) -- table.length works but in some cases table.length doesn't work properly so this can be used as in-efficent subsitute
-    list_length = 0
-    for k,v in pairs(table) do 
-        list_length = list_length + 1
-    end
-    return list_length
+function Return_Name(obj)
+    return obj.Get_Type().Get_Name() -- Return the XML Name
 end
 
-function Type_Under_Attack(unit_or_table)
-    local enemysinrange = 0
-    if not type(unit_or_table) == "table" then
-        local nearestEnemy = Find_Nearest(unit, unit.Get_Owner(), false)
-        if TestValid(nearestEnemy) then
-            if unit.Get_Distance(nearestEnemy) <= unit.Get_Type().Get_Max_Range() then
-                return true
-            end
+function Combat_Power_From_List(list)
+    local combat_power = 0
+    for k, unit in pairs(list) do
+        if TestValid(unit) then
+            combat_power = combat_power + Object_Firepower(unit)
         end
+    end
+    if combat_power >= 1 then
+        return combat_power
+    end
+end
+
+function tableMerge(t1, t2) -- Credit to RCIX for this function: https://stackoverflow.com/a/1283608
+    for k,v in pairs(t2) do
+        if type(v) == "table" then
+            if type(t1[k] or false) == "table" then
+                tableMerge(t1[k] or {}, t2[k] or {})
+            else
+                t1[k] = v
+            end
+        else
+            t1[k] = v
+        end
+    end
+    return t1
+end
+
+function tableLength(table)
+    local count = 0
+    for _ in pairs(table) do
+        count = count + 1
+    end
+    return count
+end
+
+function getRandomStringKey(Table)
+    local keys = {}
+    for key, _ in pairs(Table) do
+        if type(key) == "string" then
+            table.insert(keys, key)
+        end
+    end
+
+    if table.getn(keys) > 0 then
+        local randomIndex = EvenMoreRandom(1, table.getn(keys))
+        return keys[randomIndex]
     else
-        for _, tunit in pairs(unit_or_table) do 
-            if TestValid(tunit) then
-                local nearestEnemy = Find_Nearest(tunit, tunit.Get_Owner(), false)
-                if TestValid(nearestEnemy) then
-                    if tunit.Get_Distance(nearestEnemy) <= tunit.Get_Type().Get_Max_Range() then
-                        enemysinrange = enemysinrange + 1
-                    end
-                end
-            end
-        end
-        if enemysinrange > 1 then
-            return true
-        end
+        return nil -- Return nil if there are no string keys in the table
     end
 end
 
-
-function Get_Credits_Per_Sec(player)
-    startCredits = player.Get_Credits()
-    Sleep(1)
-    endCredits = player.Get_Credits()
-    return endCredits - startCredits 
-end
-
-function Econ_Upgrade_Level(player)
-    local level = 0
-    if Return_Faction(player) == "EMPIRE" then
-        if (not TestValid("ES_Increased_Supplies_L1_Upgrade")) and (not TestValid("ES_Increased_Supplies_L2_Upgrade")) then
-            return level
-        elseif (TestValid("ES_Increased_Supplies_L1_Upgrade")) and (not TestValid("ES_Increased_Supplies_L2_Upgrade")) then
-            level = 1
-            return level
-        elseif TestValid("ES_Increased_Supplies_L2_Upgrade") then
-            level = 2
-            return level
-        end
-    elseif Return_Faction(player) == "REBEL" then
-        if (not TestValid("RS_Increased_Supplies_L1_Upgrade")) and (not TestValid("RS_Increased_Supplies_L2_Upgrade")) then
-            return level
-        elseif (TestValid("RS_Increased_Supplies_L1_Upgrade")) and (not TestValid("RS_Increased_Supplies_L2_Upgrade")) then
-            level = 1
-            return level
-        elseif TestValid("RS_Increased_Supplies_L2_Upgrade") then
-            level = 2
-            return level
-        end
+function EvenMoreRandom(min,max,count) -- the GameRandom tends to be consistant despite being random, usual min max value, with the count being the amount of random numbers generated to then be randomly chosen
+    if count == 0 or count == nil then
+        count = 5
     end
-end
-
-function Tick_Per_Sec()
-    cmtime = GetCurrentTime()
-    Sleep(1)
-    curtime = GetCurrentTime()
-    return curtime - cmtime
-end
-
-function Table_Var_Check(table, item)
-    for k, value in ipairs(table) do
-        if value == item then
-            return true
-        end
+    DebugMessage("%s -- Min: %s, Max: %s, Count: %s", tostring(Script),min,max,count)
+    local values = {}
+    for i = 1, count, 1 do
+        values[i] = GameRandom(min,max)
+        DebugMessage("%s -- Random Num: %s", tostring(Script),values[i])
     end
-    return false
+    return values[GameRandom(1,count)]
 end

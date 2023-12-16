@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<TerrorUnits>
+    <StarBase Name="SWORDS_STARBASE_1">
+        <Variant_Of_Existing_Type>Empire_Star_Base_1</Variant_Of_Existing_Type>
+        <Affiliation>Swords</Affiliation>
+    </StarBase>
+
+    <StarBase Name="SWORDS_STARBASE_2">
+        <Variant_Of_Existing_Type>Empire_Star_Base_2</Variant_Of_Existing_Type>
+        <Affiliation>Swords</Affiliation>
+    </StarBase>
+
+    <SpecialStructure Name="SWORDS_MINING_FACILITY">
+        <Variant_Of_Existing_Type>Empire_Mining_Facility</Variant_Of_Existing_Type>
+        <Affiliation>Swords</Affiliation>
+    </SpecialStructure>
+</TerrorUnits>
