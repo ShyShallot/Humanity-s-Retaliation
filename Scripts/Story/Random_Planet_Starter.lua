@@ -22,13 +22,25 @@ end
 
 function Despawn_Starting_Structure(player)
     local playerFac = player.Get_Faction_Name()
+    DebugMessage("Player -- %s", tostring(playerFac))
+
+    --test_list = Find_All_Objects_Of_Type(player)
+
+    --for key, value in pairs(test_list) do
+    --    DebugMessage("%s, %s", tostring(key), tostring(value))
+    --end
+    
     if playerFac == "EMPIRE" then
-        DebugMessage("%s -- Player is Empire", tostring(Script))
-        starting_struct = Find_First_Object("Empire_Starbase_5", player)
+        starting_struct = Find_First_Object("COVN_CCS")
     elseif playerFac == "REBEL" then
-        DebugMessage("%s -- Player is Rebel", tostring(Script))
-        starting_struct = Find_First_Object("Rebel_Starbase_5", player)
+        starting_struct = Find_First_Object("UNSC_HALCYON")
+    elseif playerFac == "Terrorists" then
+        starting_struct = Find_First_Object("TERROR_HALCYON")
+    elseif playerFac == "Swords" then
+        starting_struct = Find_First_Object("SWORDS_CCS")
     end
+
+    DebugMessage("Starting Struct -- %s",tostring(starting_struct))
 
     if TestValid(starting_struct) then
         DebugMessage("%s -- Found Struct, Getting Planet location", tostring(Script))
@@ -74,12 +86,13 @@ function Spawn_Random_Units()
     Spawn_Faction_Starting(empire, empire_structures, empire_units,empire_starbase)
     Spawn_Faction_Starting(rebel, rebel_structures, rebel_units,rebel_starbase)
     --Spawn_Player_Pirates() -- Always spawn pirates last, as they fill in the gaps
+    Spawn_Player_Terrorists()
+    Spawn_Player_Swords()
     DebugMessage("%s -- All Done", tostring(Script))
 end
 
 function Spawn_Player_Terrorists()
     local player = Find_Player("Terrorists")
-    local Hplayer = Find_Human_Player()
     Despawn_Starting_Structure(player)
     DebugMessage("%s -- Despawning pirate structure", tostring(Script))
     terrorist_start_units = {
@@ -91,34 +104,11 @@ function Spawn_Player_Terrorists()
             ["TERROR_SHORTSWORD"] = {1,3}
         }
     }
-    space_units = terrorist_start_units[1]
-    local planets = FindPlanet.Get_All_Planets()
-    local planetcount = table.getn(planets)
-    local piratecontrol = Pirate_Control_Threshold(Hplayer)
-    local finalplanetfill = tonumber(Dirty_Floor(planetcount * piratecontrol))
-    DebugMessage("%s -- Total Planets to fill", tostring(finalplanetfill))
-    local planets_left = finalplanetfill
-    for k, planet in pairs(planets) do
-        if TestValid(planet) and Return_Faction(planet) == "NEUTRAL" and planets_left >= 1 then
-            DebugMessage("%s -- Planet Valid for spawning", tostring(Script))
-            if Return_Faction(planet) == "NEUTRAL" and (Return_Faction(planet) ~= "REBEL" or Return_Faction(planet) ~= "EMPIRE") then   
-                DebugMessage("%s -- Planet Valid for spawn", tostring(Script))
-                planet.Change_Owner(player)
-                Spawn_Unit(Find_Object_Type("TERROR_STARBASE_2"),planet,player)
-                Spawn_Unit_List(space_units, planet, player)
-                planets_left = planets_left - 1
-                DebugMessage("%s -- Planets left to take over", tostring(planets_left))
-            else
-                return
-            end
-        end
-    end
-    DebugMessage("%s -- All Done spawning Pirates", tostring(Script))
+    Spawn_Subfaction_Starting(player,{},terrorist_start_units,"TERROR_STARBASE_2")
 end
 
 function Spawn_Player_Swords()
     local player = Find_Player("Swords")
-    local Hplayer = Find_Human_Player()
     Despawn_Starting_Structure(player)
     DebugMessage("%s -- Despawning pirate structure", tostring(Script))
     swords_start_units = {
@@ -130,29 +120,8 @@ function Spawn_Player_Swords()
             ["SWORDS_Banshee_Squadron"] = {1,3}
         }
     }
-    space_units = swords_start_units[1]
-    local planets = FindPlanet.Get_All_Planets()
-    local planetcount = table.getn(planets)
-    local piratecontrol = Pirate_Control_Threshold(Hplayer)
-    local finalplanetfill = tonumber(Dirty_Floor(planetcount * piratecontrol))
-    DebugMessage("%s -- Total Planets to fill", tostring(finalplanetfill))
-    local planets_left = finalplanetfill
-    for k, planet in pairs(planets) do
-        if TestValid(planet) and Return_Faction(planet) == "NEUTRAL" and planets_left >= 1 then
-            DebugMessage("%s -- Planet Valid for spawning", tostring(Script))
-            if Return_Faction(planet) == "NEUTRAL" and (Return_Faction(planet) ~= "REBEL" or Return_Faction(planet) ~= "EMPIRE") then   
-                DebugMessage("%s -- Planet Valid for spawn", tostring(Script))
-                planet.Change_Owner(player)
-                Spawn_Unit(Find_Object_Type("SWORDS_STARBASE_2"),planet,player)
-                Spawn_Unit_List(space_units, planet, player)
-                planets_left = planets_left - 1
-                DebugMessage("%s -- Planets left to take over", tostring(planets_left))
-            else
-                return
-            end
-        end
-    end
-    DebugMessage("%s -- All Done spawning Pirates", tostring(Script))
+    Spawn_Subfaction_Starting(player,{},swords_start_units,"SWORDS_STARBASE_2")
+    spawningDone = true
 end
 
 function Spawn_Faction_Starting(faction, structures, units, starbase)
@@ -172,12 +141,39 @@ function Spawn_Faction_Starting(faction, structures, units, starbase)
     Spawn_Unit_List(units, planet_start, faction)
 end
 
+
+function Spawn_Subfaction_Starting(faction, structures, units, starbase)
+    local Hplayer = Find_Human_Player()
+    space_units = units[1]
+    local planets = FindPlanet.Get_All_Planets()
+    local planetcount = table.getn(planets)
+    local piratecontrol = Pirate_Control_Threshold(Hplayer)
+    local finalplanetfill = tonumber(Dirty_Floor(planetcount * piratecontrol))
+    DebugMessage("%s -- Total Planets to fill", tostring(finalplanetfill))
+    local planets_left = finalplanetfill
+    for k, planet in pairs(planets) do
+        if TestValid(planet) and Return_Faction(planet) == "NEUTRAL" and planets_left >= 1 then
+            DebugMessage("%s -- Planet Valid for spawning", tostring(Script))
+            if Return_Faction(planet) == "NEUTRAL" then   
+                DebugMessage("%s -- Planet Valid for spawn", tostring(Script))
+                planet.Change_Owner(faction)
+                Spawn_Unit(Find_Object_Type(starbase),planet,faction)
+                Spawn_Unit_List(space_units, planet, faction)
+                planets_left = planets_left - 1
+                DebugMessage("%s -- Planets left to take over", tostring(planets_left))
+            else
+                return
+            end
+        end
+    end
+end
+
 function Random_Planet_Select()
     DebugMessage("%s -- Selecting Random Planet", tostring(Script))
     local planets = FindPlanet.Get_All_Planets()
     local totalplanets = table.getn(planets)
     DebugMessage("%s -- Number of Planets", tostring(totalplanets))
-    local selectRandom = EvenMoreRandom(1, totalplanets,30) -- Lua starts index at 1 cause why not
+    local selectRandom = EvenMoreRandom(1, totalplanets,50) -- Lua starts index at 1 cause why not
     DebugMessage("%s -- Random Selected Index", tostring(selectRandom))
     randomPlanet = planets[selectRandom]
     DebugMessage("%s -- Random Planet", tostring(randomPlanet))

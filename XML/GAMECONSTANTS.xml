@@ -159,8 +159,8 @@
 	<MaximumSpecialStructures> 5 </MaximumSpecialStructures>
 	<MaximumSpecialStructuresLand> 3 </MaximumSpecialStructuresLand>
 	<MaximumSpecialStructuresSpace> 3 </MaximumSpecialStructuresSpace>
-	<MaximumFleetMovementDistance> 100.0 </MaximumFleetMovementDistance>
-	<TradeRouteMovementFactor> 0.5 </TradeRouteMovementFactor>
+	<MaximumFleetMovementDistance> 1.0 </MaximumFleetMovementDistance>
+	<TradeRouteMovementFactor> 1.0 </TradeRouteMovementFactor>
 	<Tooltip_Delay>330</Tooltip_Delay>
 	<Encyclopedia_Delay>350</Encyclopedia_Delay>
 	<Long_Encyclopedia_Delay>4000</Long_Encyclopedia_Delay>
@@ -5307,7 +5307,7 @@
 
     <Auto_Resolve_Tactical_Multiplier>.85</Auto_Resolve_Tactical_Multiplier>
 
-   <Sabotage_Particle_Effect>Planet_Explosion_Galactic</Sabotage_Particle_Effect>
+   <Sabotage_Particle_Effect></Sabotage_Particle_Effect>
    <Hack_Super_Weapon_Particle_Effect>IG88_Death_Star_Hack_Explosion</Hack_Super_Weapon_Particle_Effect>
    
    <Hack_Super_Weapon_Required_Type> Death_Star_II </Hack_Super_Weapon_Required_Type>

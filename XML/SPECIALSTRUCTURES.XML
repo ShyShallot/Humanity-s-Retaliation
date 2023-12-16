@@ -893,9 +893,8 @@
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>i_button_lrs.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ANCHOR_9_RESEARCH.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Icon_Name>i_button_lrs.tga</Icon_Name>
 		<GUI_Model_Name>UNSC_STATION_TIER_2.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -975,8 +974,8 @@
 			</Force_Healing_Ability>
 		</Abilities>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Encyclopedia_Text> TEXT_MINING_FACILITY_CAMPAIGN  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_RESEARCH_FACILITY_UNSC_ENC  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 

@@ -24,11 +24,15 @@ function Global_Story(message)
 
         empirePlanets = {}
 
+        swordsPlanets = {}
+
         for i, planet in pairs(planets) do
             if planet.Get_Owner().Get_Faction_Name() == "REBEL" then
                 rebelPlanets[i] = planet
-            else 
+            elseif planet.Get_Owner().Get_Faction_Name() == "EMPIRE" then 
                 empirePlanets[i] = planet
+            elseif planet.Get_Owner().Get_Faction_Name() == "SWORDS" then 
+                swordsPlanets[i] = planet
             end
         end
 
@@ -77,12 +81,27 @@ function Global_Story(message)
             }
         }
 
+        starting_units_swords = {
+            [2] = {
+                ["SWORDS_CCS"] = 1,
+                ["SWORDS_CRS"] = 3,
+                ["SWORDS_CAR"] = 1,
+                ["SWORDS_SDV"] = 2,
+                ["SWORDS_Banshee_Squadron"] = 3,
+                ["SWORDS_Cerastes_Squadron"] = 2
+            }
+        }
+
         for _, planet in pairs(rebelPlanets) do
             Spawn_Starting_Units("Rebel",starting_units_rebel,planet.Get_Type().Get_Name())
         end
 
         for _, planet in pairs(empirePlanets) do
             Spawn_Starting_Units("Empire",starting_units_empire,planet.Get_Type().Get_Name())
+        end
+
+        for _, planet in pairs(swordsPlanets) do
+            Spawn_Starting_Units("Swords",starting_units_swords,planet.Get_Type().Get_Name())
         end
 
         Lock_Vanilla_Units()

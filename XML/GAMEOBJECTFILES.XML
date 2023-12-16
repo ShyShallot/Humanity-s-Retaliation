@@ -199,8 +199,8 @@
 	<File>HaloFiles\Covenant\COVN_CAPITIALS.xml</File>
 	<File>HaloFiles\Swords\SWORDS_UNITS.xml</File>
 	<File>HaloFiles\Swords\SWORDS_STARBASES.xml</File>
-	<File>HaloFiles\Terrorist\TERROR_STARBASES.xml</File>
-	<File>HaloFiles\Terrorist\TERROR_UNITS.xml</File>
+	<File>HaloFiles\Terrorists\TERROR_STARBASES.xml</File>
+	<File>HaloFiles\Terrorists\TERROR_SPACE_UNITS.xml</File>
 
 
 

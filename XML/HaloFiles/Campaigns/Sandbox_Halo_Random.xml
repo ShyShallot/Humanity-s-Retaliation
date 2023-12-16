@@ -172,7 +172,7 @@
     	    	<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
     	    	<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
     
-    	    	<Starting_Forces> Rebel, Earth, Rebel_Star_Base_5 </Starting_Forces>
+    	    	<Starting_Forces> Rebel, Earth, UNSC_HALCYON </Starting_Forces>
 
     	    	<!-- Empire Starting Forces -->
 
@@ -180,21 +180,21 @@
     	    	<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
     	    	<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
-	    	<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_5</Starting_Forces>
+	    	<Starting_Forces> Empire, Sanghelios, COVN_CCS</Starting_Forces>
 
                 <Starting_Credits> Terrorists,  12000 </Starting_Credits>
     	    	<Starting_Tech_Level> Terrorists, 5 </Starting_Tech_Level>
     	    	<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
     
-    	    	<Starting_Forces> Terrorists, Mars, TERROR_STARBASE_2 </Starting_Forces>
+    	    	<Starting_Forces> Terrorists, Mars, TERROR_HALCYON </Starting_Forces>
 
     	    	<!-- Empire Starting Forces -->
 
     	    	<Starting_Credits> Swords,  15000 </Starting_Credits>
-    	    	<Starting_Tech_Level> Swords, 2 </Starting_Tech_Level>
+    	    	<Starting_Tech_Level> Swords, 5 </Starting_Tech_Level>
     	    	<Max_Tech_Level> Swords, 5 </Max_Tech_Level>
 
-	    	<Starting_Forces> Swords, Yohne, SWORDS_STARBASE_2</Starting_Forces>
+	    	<Starting_Forces> Swords, Yohne, SWORDS_CCS</Starting_Forces>
 	
     </Campaign>
 
@@ -367,32 +367,32 @@
 		<!-- Rebel Starting Forces -->
 
 		<Starting_Credits> Rebel,  20000 </Starting_Credits>
-		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
-		
-		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_5 </Starting_Forces>
+    	    	<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+    	    	<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+    
+    	    	<Starting_Forces> Rebel, Earth, UNSC_HALCYON </Starting_Forces>
 
-		<!-- Empire Starting Forces -->
+    	    	<!-- Empire Starting Forces -->
 
-		<Starting_Credits> Empire,  15000 </Starting_Credits>
-		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
-		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+    	    	<Starting_Credits> Empire,  15000 </Starting_Credits>
+    	    	<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+    	    	<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
-		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_5</Starting_Forces>
+	    	<Starting_Forces> Empire, Sanghelios, COVN_CCS</Starting_Forces>
 
-        <Starting_Credits> Terrorists,  12000 </Starting_Credits>
+                <Starting_Credits> Terrorists,  12000 </Starting_Credits>
     	    	<Starting_Tech_Level> Terrorists, 5 </Starting_Tech_Level>
     	    	<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
     
-    	    	<Starting_Forces> Terrorists, Mars, TERROR_STARBASE_2 </Starting_Forces>
+    	    	<Starting_Forces> Terrorists, Mars, TERROR_HALCYON </Starting_Forces>
 
     	    	<!-- Empire Starting Forces -->
 
     	    	<Starting_Credits> Swords,  15000 </Starting_Credits>
-    	    	<Starting_Tech_Level> Swords, 2 </Starting_Tech_Level>
+    	    	<Starting_Tech_Level> Swords, 5 </Starting_Tech_Level>
     	    	<Max_Tech_Level> Swords, 5 </Max_Tech_Level>
 
-	    	<Starting_Forces> Swords, Yohne, SWORDS_STARBASE_2</Starting_Forces>
+	    	<Starting_Forces> Swords, Yohne, SWORDS_CCS</Starting_Forces>
 
 
 	

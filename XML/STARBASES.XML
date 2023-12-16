@@ -118,7 +118,7 @@
 		<Radar_Icon_Name>i_radar_station1_e.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 
-		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_STATION_1.tga</Icon_Name>
 		<Score_Cost_Credits> 1500</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_1_Empire</Retreat_Self_Destruct_Explosion>
 		
@@ -258,7 +258,7 @@
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
 		
 		
-		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_STATION_2.tga</Icon_Name>
 		<Score_Cost_Credits> 3000</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_2_Empire</Retreat_Self_Destruct_Explosion>
 
@@ -402,7 +402,7 @@
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
 		
-		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_STATION_3.tga</Icon_Name>
 		<Score_Cost_Credits> 6000</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_3_Empire</Retreat_Self_Destruct_Explosion>
 
@@ -542,7 +542,7 @@
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
 		
-		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_STATION_4.tga</Icon_Name>
 		<Score_Cost_Credits> 12000</Score_Cost_Credits>
 		
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_4_Empire</Retreat_Self_Destruct_Explosion>
@@ -698,7 +698,7 @@
 		<Radar_Icon_Size>0.16  0.16</Radar_Icon_Size>
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
 		
-		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_STATION_5.tga</Icon_Name>
 		<Score_Cost_Credits> 24000</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Empire</Retreat_Self_Destruct_Explosion>
 
@@ -1042,7 +1042,7 @@
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 		<Radar_Icon_Name>i_radar_station1_r.tga</Radar_Icon_Name>
 
-		<Icon_Name>i_button_rebel_station.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ANCHOR_9_ONE.tga</Icon_Name>
 		<Score_Cost_Credits> 1500</Score_Cost_Credits>
 		
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_1_Rebel</Retreat_Self_Destruct_Explosion>
@@ -1192,7 +1192,7 @@
 
 		<Slice_Cost_Credits>600</Slice_Cost_Credits>
 
-		<Icon_Name>i_button_rebel_station.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ANCHOR_9_TWO.tga</Icon_Name>
 		<Score_Cost_Credits> 3000</Score_Cost_Credits>
 
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_2_Rebel</Retreat_Self_Destruct_Explosion>
@@ -1347,7 +1347,7 @@
 		<Radar_Icon_Name>i_radar_station3_r.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 
-		<Icon_Name>i_button_rebel_station.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ANCHOR_9_THREE.tga</Icon_Name>
 		<Score_Cost_Credits> 6000</Score_Cost_Credits>
 		
 		<Slice_Cost_Credits>1200</Slice_Cost_Credits>
@@ -1515,7 +1515,7 @@
 		 
 		<Space_Layer> StaticObject </Space_Layer>
 		
-		<Icon_Name>i_button_rebel_station.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ANCHOR_9_FOUR.tga</Icon_Name>
 		<Score_Cost_Credits> 12000</Score_Cost_Credits>
 
 		<Slice_Cost_Credits>2400</Slice_Cost_Credits>
@@ -1685,7 +1685,7 @@
 		<Radar_Icon_Name>i_radar_station5_r.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 
-		<Icon_Name>i_button_rebel_station.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ANCHOR_9_FIVE.tga</Icon_Name>
 		<Score_Cost_Credits> 24000</Score_Cost_Credits>
 		<Slice_Cost_Credits>4800</Slice_Cost_Credits>
 		

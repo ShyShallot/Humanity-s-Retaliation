@@ -17,6 +17,32 @@ function Story_Mode_Service()
 end
 
 function Global_Story(message)
+
+    planet_requirements = {
+        ["Earth"] = {
+            "UNSC_AUTUMN",
+            "UNSC_MARATHON",
+            "UNSC_HALBERD",
+            "UNSC_IROQUOIS",
+            "UNSC_PARIS"
+        },
+        ["Reach"] = {
+            "UNSC_INFINITY",
+            "UNSC_AUTUMN",
+            "UNSC_MARATHON",
+            "UNSC_PARIS",
+            "Sabre_Squadron",
+            "UNSC_HALBERD",
+            "UNSC_IROQUOIS",
+        },
+        ["Mars"] = {
+            "UNSC_POA",
+            "UNSC_STRIDENT",
+            "Broadsword_Squadron",
+            "Sabre_Squadron",
+            "UNSC_POSEIDON",
+        }
+    }
     if  message == OnEnter then 
         Rebel_Player = Find_Player("REBEL")
 
@@ -33,4 +59,8 @@ function Global_Story(message)
             Rebel_Player.Lock_Tech(Find_Object_Type(unit))
         end
     end
+    if message == OnUpdate then
+
+    end
 end
+
