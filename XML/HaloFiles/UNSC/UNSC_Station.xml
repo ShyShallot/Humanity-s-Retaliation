@@ -26,7 +26,6 @@
 				Baselard_Squadron,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Level_Two_Starbase_Upgrade,
-				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
@@ -119,10 +118,10 @@
 				Shortsword_Squadron,
 				Baselard_Squadron,
 				UNSC_MAKO,
-				UNSC_GLADIUS,
+				UNSC_STALWART,
 				RS_Improved_Weapons_L1_Upgrade,
+				RS_Improved_Weapons_L2_Upgrade,
 				RS_Level_Three_Starbase_Upgrade,
-				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -220,14 +219,12 @@
 				UNSC_GLADIUS,
 				UNSC_STALWART,
 				UNSC_PARIS,
-				UNSC_HALBERD,
 				UNSC_MUSASHI,
-				UNSC_HALCYON,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Improved_Weapons_L2_Upgrade,
+				RS_Improved_Weapons_L3_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Level_Four_Starbase_Upgrade,
-				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -322,28 +319,21 @@
 			Rebel,
 				Shortsword_Squadron,
 				Longsword_Squadron,
-				Sabre_Squadron,
 				Baselard_Squadron,
-				Broadsword_Squadron,
 				UNSC_MAKO,
 				UNSC_GLADIUS,
 				UNSC_STALWART,
 				UNSC_HALBERD,
 				UNSC_PARIS,
-				UNSC_IROQUOIS,
-				UNSC_STRIDENT,
 				UNSC_MUSASHI,
 				UNSC_POSEIDON,
 				UNSC_HALCYON,
-				UNSC_MARATHON,
-				UNSC_POA,
-				UNSC_SOF,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Improved_Weapons_L2_Upgrade,
+				RS_Improved_Weapons_L3_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade,
 				RS_Level_Five_Starbase_Upgrade,
-				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -443,30 +433,21 @@
 				Longsword_Squadron,
 				Sabre_Squadron,
 				Baselard_Squadron,
-				Broadsword_Squadron,
 				UNSC_MAKO,
 				UNSC_GLADIUS,
 				UNSC_STALWART,
 				UNSC_PARIS,
 				UNSC_HALBERD,
-				UNSC_IROQUOIS,
-				UNSC_STRIDENT,
 				UNSC_MUSASHI,
 				UNSC_POSEIDON,
 				UNSC_HALCYON,
 				UNSC_MARATHON,
-				UNSC_POA,
-				UNSC_AUTUMN,
-				UNSC_VINDICATION,
-				UNSC_INFINITY,
-				UNSC_SOF,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Weapons_L3_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade,
 				RS_Improved_Defenses_L3_Upgrade,
-				RS_Self_Destruct_Station,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
