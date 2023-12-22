@@ -137,4 +137,6 @@ function Lock_Vanilla_Units()
     empire = Find_Player("EMPIRE")
     empire.Lock_Tech(Find_Object_Type("Generic_Probe_Droid"))
     empire.Lock_Tech(Find_Object_Type("Probe_Droid_Team"))
+    rebel = Find_Player("REBEL")
+    rebel.Lock_Tech(Find_Object_Type("A_Wing_Squadron"))
 end

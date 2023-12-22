@@ -136,3 +136,16 @@ function EvenMoreRandom(min,max,count) -- the GameRandom tends to be consistant 
     end
     return values[GameRandom(1,count)]
 end
+
+function Find_Human_Player()
+    empire = Find_Player("EMPIRE")
+    rebels = Find_Player("REBEL")
+
+    if empire.Is_Human() and (not rebels.Is_Human()) then
+        DebugMessage("%s -- Human player is Empire", tostring(Script))
+        return empire
+    elseif rebels.Is_Human() and (not empire.Is_Human()) then
+        DebugMessage("%s -- Human player is Rebel", tostring(Script))
+        return rebels
+    end
+end

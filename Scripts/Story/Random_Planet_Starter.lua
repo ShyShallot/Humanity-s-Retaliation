@@ -230,16 +230,3 @@ function Pirate_Control_Threshold(player)
         return pirate_control_threshold
     end
 end
-
-function Find_Human_Player()
-    empire = Find_Player("EMPIRE")
-    rebels = Find_Player("REBEL")
-
-    if empire.Is_Human() and (not rebels.Is_Human()) then
-        DebugMessage("%s -- Human player is Empire", tostring(Script))
-        return empire
-    elseif rebels.Is_Human() and (not empire.Is_Human()) then
-        DebugMessage("%s -- Human player is Rebel", tostring(Script))
-        return rebels
-    end
-end

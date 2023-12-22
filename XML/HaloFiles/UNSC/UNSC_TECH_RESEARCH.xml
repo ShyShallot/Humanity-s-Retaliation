@@ -11,7 +11,7 @@
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>210</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
-		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>30</Size_Value>
 		<Base_Position>Orbital</Base_Position>
@@ -66,13 +66,27 @@
 		
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_LRS_00  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+	</SpecialStructure>
+
+	<SpecialStructure Name="UNSC_Tech_Shield">
+		<Variant_Of_Existing_Type>UNSC_Tech_Template</Variant_Of_Existing_Type>
+		<Text_ID>HALO_TEXT_RESEARCH_SHIELD</Text_ID>
+		<Encyclopedia_Text> HALO_TEXT_RESEARCH_SHIELD_ENC  </Encyclopedia_Text>
+		<Build_Cost_Credits>9750</Build_Cost_Credits>
+		<Build_Time_Seconds>300</Build_Time_Seconds>
+		<Tech_Level>3</Tech_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_RESEARCH_FACILITY</Required_Special_Structures>
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_TECH_UNSC_COUNTDOWN_TIMER_SHIELD </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
 	</SpecialStructure>
 
 

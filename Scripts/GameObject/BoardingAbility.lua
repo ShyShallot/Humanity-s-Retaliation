@@ -32,15 +32,17 @@ function State_Init(message)
         DebugMessage("%s -- In Init", tostring(Script))
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
     elseif message == OnUpdate then
-        DebugMessage("%s -- In OnEnter", tostring(Script))
-        if player.Is_Human() then 
-            if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
-                DebugMessage("%s -- Tractor Beam is now active running function", tostring(Script))
-                Find_Nearest_Board_Target(Object) -- Register a Proximity for a Target 800 Units around our Object, this will help us find the target the player supplied
+        if Get_Game_Mode() == "Space" then
+            DebugMessage("%s -- In OnEnter", tostring(Script))
+            if player.Is_Human() then 
+                if Object.Is_Ability_Active(ability_name) then -- If Tractor Beam ability is active
+                    DebugMessage("%s -- Tractor Beam is now active running function", tostring(Script))
+                    Find_Nearest_Board_Target(Object) -- Register a Proximity for a Target 800 Units around our Object, this will help us find the target the player supplied
+                end
+            else 
+                DebugMessage("%s -- Running AI Ability", tostring(Script))
+                Set_Next_State("State_AI_Autofire") -- Object Calling this script is an AI set our state to AI Autofire for AI use
             end
-        else 
-            DebugMessage("%s -- Running AI Ability", tostring(Script))
-            Set_Next_State("State_AI_Autofire") -- Object Calling this script is an AI set our state to AI Autofire for AI use
         end
     end
 end
