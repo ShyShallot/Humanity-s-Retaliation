@@ -76,7 +76,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name />
 		<Space_Model_Name />
-		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility, E_Ground_Research_Facility </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility, COVN_RESEARCH_FACILITY </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -209,7 +209,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name />
 		<Space_Model_Name />
-		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility_Build_Pad, E_Ground_Research_Facility_Build_Pad </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility_Build_Pad, COVN_RESEARCH_FACILITY_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -390,7 +390,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name />
 		<Space_Model_Name />
-		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility_Build_Pad, E_Ground_Research_Facility_Build_Pad </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility_Build_Pad, COVN_RESEARCH_FACILITY_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
@@ -571,7 +571,7 @@
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name />
 		<Space_Model_Name />
-		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility_Build_Pad, E_Ground_Research_Facility_Build_Pad </Marker_For_Specific_Object_Type>
+		<Marker_For_Specific_Object_Type> R_Ground_Research_Facility_Build_Pad, COVN_RESEARCH_FACILITY_Build_Pad </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>

@@ -5,6 +5,7 @@
 		<Function>Unit_Needs_To_Be_Destroyed</Function>
 	</Destroy_Unit>
 
+
 	<Destroy_Unit_Minimal>
 		<Goal>Destroy_Unit_Minimal</Goal>
 		<Function>Unit_Needs_To_Be_Destroyed_Low_Desire</Function>
@@ -77,10 +78,6 @@
 		<Function>Needs_Hypervelocity_Shot</Function>
 	</Ground_To_Space_Disable>
 
-	<Fire_Death_Star>
-		<Goal>Fire_Death_Star</Goal>
-		<Function>ReallyBig</Function>
-	</Fire_Death_Star>
 
 	<Turbo_Attack_Location>
 		<Goal>Turbo_Attack_Location</Goal>

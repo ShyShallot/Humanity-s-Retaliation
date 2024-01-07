@@ -160,8 +160,8 @@
 
 		<!-- Rebel Starting Forces -->
 
-		<Starting_Credits> Rebel,  20000 </Starting_Credits>
-		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		<Starting_Credits> Rebel,  7500 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 		
 		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_4 </Starting_Forces>
@@ -206,8 +206,8 @@
 
 		<!-- Empire Starting Forces -->
 
-		<Starting_Credits> Empire,  15000 </Starting_Credits>
-		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+		<Starting_Credits> Empire,  6500 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
 		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_5</Starting_Forces>
@@ -412,8 +412,8 @@
 
 		<!-- Rebel Starting Forces -->
 
-		<Starting_Credits> Rebel,  20000 </Starting_Credits>
-		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		<Starting_Credits> Rebel,  7500 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 		
 		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_4 </Starting_Forces>
@@ -458,8 +458,8 @@
 
 		<!-- Empire Starting Forces -->
 
-		<Starting_Credits> Empire,  15000 </Starting_Credits>
-		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+		<Starting_Credits> Empire,  6500 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
 		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_5</Starting_Forces>

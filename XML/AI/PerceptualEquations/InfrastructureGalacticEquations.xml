@@ -88,7 +88,7 @@
 	<Need_Tech_Upgrade_Unblocked>
 		Function_Empire_Should_Upgrade_Tech.Evaluate
 		*
-		Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"}
+		Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY"}
 		*
 		(5.0 > Variable_Self.TechLevel)
 		* 
@@ -245,7 +245,9 @@
 	otherwise, choose a planet with decent defenses that can max the starbase at a decent level
 	-->
 	<Need_First_Research_Facility>
-		(1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1})
+		(1 - Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Count = 1})
+		+
+		(1 - Variable_Self.HasStructure{Parameter_Type = "UNSC_RESEARCH_FACILITY", Parameter_Count = 1})
 		*
 		(
 			1 
@@ -256,10 +258,10 @@
 			+
 			Function_Is_Home_Planet.Evaluate
 			+
-			Variable_Target.FriendlyForce.SpaceTotal
-			+
-			Variable_Target.FriendlyForce.GroundTotal					
+			Variable_Target.FriendlyForce.SpaceTotal				
 		)
+		*
+		100
 	</Need_First_Research_Facility>
 
 
@@ -274,24 +276,13 @@
 		PLUS Boost if we need to upgrade the base
 	-->
 	<Need_Research_Facility>
-		Variable_Self.IsFaction {Parameter_Faction = "Empire"}
-		*
-		(1 - Variable_Target.HasStructure {Parameter_Type = "E_Ground_Research_Facility"})
+		((1 - Variable_Target.HasStructure {Parameter_Type = "COVN_RESEARCH_FACILITY"})
+		+
+		(1 - Variable_Target.HasStructure {Parameter_Type = "UNSC_RESEARCH_FACILITY"}))
 		*
 		Function_Has_Enough_Bases_For_Tech.Evaluate
 		*
-		(Variable_Target.MaxStarbaseLevel == 5)
-		*
-		(
-			20 * (1 - (Variable_Self.StructureCount {Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1.0} / 2))
-			+
-			10 * Function_Empire_Should_Upgrade_Tech.Evaluate * 
-			(1 - Variable_Self.HasStructure {Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1})
-			+
-			3 * Function_Defense_Level.Evaluate
-			+
-			3 * Function_Needs_Groundbase_Upgrade.Evaluate
-		)
+		(Variable_Target.MaxStarbaseLevel == 3)
 	</Need_Research_Facility>
 
 
@@ -358,9 +349,7 @@
 	<!-- Does this planet have a starbase already? -->
 	<Needs_Initial_Starbase>
 		50.0 *
-		(1.0 - clamp(Variable_Self.PlanetsControlled - 0.33, 0.0, 1.0)) *
 		(Variable_Target.StarbaseLevel == 0.0) *
-		(Variable_Target.MaxStarbaseLevel > 0.0) *
         (Variable_Target.EnemyForce.HasSpaceForce == 0)
 	</Needs_Initial_Starbase>
 	
@@ -575,21 +564,19 @@
 	<Empire_Should_Upgrade_Tech>
 		(Variable_Self.IsFaction {Parameter_Faction = "Empire"})
 		*
-		(1.0 - Variable_Self.HasUnit{Parameter_Type = "Death_Star", Parameter_Count = 1, Parameter_Only_Consider_Complete = 1.0})
-		*
 		Function_Has_Enough_Bases_For_Tech.Evaluate
 		*
 		(
 			clamp(Function_Has_Enough_Space_Force_Globally.Evaluate + 
-					(Game.Timeline > Variable_Self.TechLevel) * (Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"}) ,
+					(Game.Timeline > Variable_Self.TechLevel) * (Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY"}) ,
 					0.0, 1.0)		
 			*
 			(
-				(1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"}) *
-				((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "E_Ground_Research_Facility"}) +
-				(0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "E_Ground_Research_Facility", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
+				(1 - Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY"}) *
+				((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "COVN_RESEARCH_FACILITY"}) +
+				(0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
 				+
-				Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"} *
+				Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY"} *
 				(Variable_Self.TechLevel == 1) *
 				((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Primary_Hyperdrive"}) +
 				(0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Primary_Hyperdrive", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
@@ -607,9 +594,7 @@
 				(0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
 			)
 			+
-			(Variable_Self.TechLevel == 5) *
-			((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Death_Star"}) +
-			(0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Death_Star", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
+			(Variable_Self.TechLevel == 5)
 		)
 	</Empire_Should_Upgrade_Tech>
 
@@ -629,11 +614,9 @@
 		* 
 		(
 			(
-				(1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"})
+				(1 - Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY"})
 				+ 
 				Variable_Self.CanAdvanceTech
-				+
-				(Variable_Self.TechLevel == 5) * (1.0 - Variable_Self.HasUnit{Parameter_Type = "Death_Star"})
 			)
 			>= 1.0
 		)
@@ -651,36 +634,71 @@
 		-->
 	<Empire_Tech_Untrigger>
 		(5 > Variable_Self.TechLevel) *
-		Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+		Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1} *
 		(1.0 - Variable_Self.CanAdvanceTech)
 		+
 		(
-			(1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1}) *
-			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "E_Ground_Research_Facility"} >= 0.8)
+			(1 - Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1}) *
+			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "COVN_RESEARCH_FACILITY"} >= 0.8)
 			+
-			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+			Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 1) *
 			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Primary_Hyperdrive"} >= 0.8)
 			+
-			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+			Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 2) *
 			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Shield_Gen"} >= 0.8)
 			+
-			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+			Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 3) *
 			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Superlaser_Core"} >= 0.8)
 			+
-			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+			Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 4) *
 			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel"} >= 0.8)
 			+
-			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
-			(Variable_Self.TechLevel == 5) *
-			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "Death_Star"} >= 0.80)
+			Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1} *
+			(Variable_Self.TechLevel == 5)
 		)
-		+
-		Variable_Self.HasUnit{Parameter_Type = "Death_Star", Parameter_Only_Consider_Complete = 1}
 	</Empire_Tech_Untrigger>
+
+	<!-- 
+		Give more and more interest in the plan as time goes on 
+	
+		Then only give interest to planets that can produce tech
+	
+		Since the AI makes ungodly amounts of money, make it so that it only advances every 20 days multiplied by the current tech level
+
+		ex: Tech 1 to 2 is 20 days, 2 to 3 is 40 days and so on
+
+		otherwise the AI will be able to tech way faster than a human player
+	-->
+
+	<Advance_Tech_Empire>
+		(Game.Age / 60 ) * 50.0 
+		*
+		((Variable_Target.StructureCount {Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+		*
+		(Game.Age > (Variable_Self.TechLevel * 900))
+	</Advance_Tech_Empire>
+
+	<Advance_Tech_Rebel>
+		(Game.Age / 60 ) * 50.0 
+		*
+		((Variable_Target.StructureCount {Parameter_Type = "UNSC_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+		*
+		(Game.Age > (Variable_Self.TechLevel * 1200))
+	</Advance_Tech_Rebel>
+
+	<Build_Shield_Research>
+		(Variable_Target.Type.IsType{Parameter_Type = "Installation_05"})
+		*
+		(Variable_Self.TechLevel >= 2)
+		*
+		(Variable_Self.CreditsUnnormalized > 10000)
+		*
+		((Variable_Target.StructureCount {Parameter_Type = "UNSC_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0}) > 0 )
+	</Build_Shield_Research>
 
 	<Can_Reclaim_Excess_MajorItem_Budget>
 		(Variable_Self.ActiveGoals {Parameter_Category = AIGoalCategoryType[MajorItem]} > 0)

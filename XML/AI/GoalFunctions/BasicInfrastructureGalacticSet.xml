@@ -9,13 +9,18 @@
 	
 	<Advance_Tech_Empire>
 		<Goal>Advance_Tech_Empire</Goal>
-		<Function>One</Function>
+		<Function>Advance_Tech_Empire</Function>
 	</Advance_Tech_Empire>
 
 	<Advance_Tech_Rebel>
 		<Goal>Advance_Tech_Rebel</Goal>
-		<Function>Can_Afford_Steal_Tech</Function>
+		<Function>Advance_Tech_Rebel</Function>
 	</Advance_Tech_Rebel>
+
+	<Build_Shield_Research>
+		<Goal>Build_Shield_Research</Goal>
+		<Function>Build_Shield_Research</Function>
+	</Build_Shield_Research>
 
 	<BuildEconomicStructure>
 		<Goal>Build_Economic_Structure</Goal>

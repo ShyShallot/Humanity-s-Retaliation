@@ -17,22 +17,46 @@
 	</Upgrade_Starbase>
 	
 	<Advance_Tech_Empire>
-		<AIGoalApplicationFlags> Global </AIGoalApplicationFlags>
+		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> MajorItem </Category>
+		<Category> Infrastructure </Category>
 		<Reachability> Any </Reachability>
-		<Time_Limit> 120.0 </Time_Limit>
-		<Build_Time_Delay_Tolerance>1.3</Build_Time_Delay_Tolerance>
+		<Time_Limit> 30.0 </Time_Limit>
+		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
+		<Is_Like>
+			Build_Scanner,
+			Build_Initial_Starbase_Only,
+			Build_Jamming_Station
+		</Is_Like>
 	</Advance_Tech_Empire>
 
 	<Advance_Tech_Rebel>
-		<AIGoalApplicationFlags> Global </AIGoalApplicationFlags>
+		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Offensive </Category>
+		<Category> Infrastructure </Category>
 		<Reachability> Any </Reachability>
-		<Time_Limit> 0.0 </Time_Limit>
-		<Build_Time_Delay_Tolerance>2.0</Build_Time_Delay_Tolerance>
+		<Time_Limit> 30.0 </Time_Limit>
+		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
+		<Is_Like>
+			Build_Scanner,
+			Build_Initial_Starbase_Only,
+			Build_Jamming_Station
+		</Is_Like>
 	</Advance_Tech_Rebel>
+
+	<Build_Shield_Research>
+		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
+		<GameMode> Galactic </GameMode>
+		<Category> Infrastructure </Category>
+		<Reachability> Any </Reachability>
+		<Time_Limit> 30.0 </Time_Limit>
+		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
+		<Is_Like>
+			Build_Scanner,
+			Build_Initial_Starbase_Only,
+			Build_Jamming_Station
+		</Is_Like>
+	</Build_Shield_Research>
 
 	<Flush_MajorItem_Budget>
 		<AIGoalApplicationFlags> Global </AIGoalApplicationFlags>
@@ -83,14 +107,15 @@
 	<Build_Initial_Starbase_Only>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Infrastructure </Category>
+		<Category> Offensive </Category>
 		<Reachability> Any </Reachability>
 		<Time_Limit> 30.0 </Time_Limit>
 		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
 		<Is_Like>
 			Upgrade_Starbase,
 			Build_Scanner,
-			Build_Jamming_Station
+			Build_Jamming_Station,
+			Build_Economic_Structure
 		</Is_Like>
 	</Build_Initial_Starbase_Only>
 
@@ -369,7 +394,7 @@
 	<Build_Base_Component_Research_Facility>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> MajorItem </Category>
+		<Category> Infrastructure </Category>
 		<Reachability> Any </Reachability>
 		<Time_Limit> 30.0 </Time_Limit>		
 		<Build_Time_Delay_Tolerance>2.0</Build_Time_Delay_Tolerance>

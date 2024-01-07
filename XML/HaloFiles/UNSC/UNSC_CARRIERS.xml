@@ -82,11 +82,11 @@
 			<!--HP_MUSASHI_REACTOR,--> UNSC_MUSASHI_T_01, UNSC_MUSASHI_T_02, UNSC_MUSASHI_T_03, UNSC_MUSASHI_T_04, UNSC_MUSASHI_T_05, UNSC_MUSASHI_T_06, UNSC_MUSASHI_T_07, UNSC_MUSASHI_T_08, UNSC_MUSASHI_T_09, UNSC_MUSASHI_T_10, UNSC_MUSASHI_EG_01, UNSC_MUSASHI_EG_02, UNSC_MUSASHI_01, UNSC_MUSASHI_02, UNSC_MUSASHI_03, UNSC_MUSASHI_04  
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_MUSASHI.tga</Icon_Name>
@@ -199,10 +199,14 @@
 		<Population_Value>9</Population_Value>
 	</SpaceUnit>
 	
-	<SpaceUnit Name="UNSC_MUSASHI_PARTICLE_TEST">
+	<SpaceUnit Name="UNSC_MUSASHI_2">
 		<Variant_Of_Existing_Type>UNSC_MUSASHI</Variant_Of_Existing_Type>
-		<Lua_Script>Particle_Damage_Test</Lua_Script>
-	
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Tech_Level>3</Tech_Level>
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_POSEIDON">
@@ -290,8 +294,8 @@
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
 		<CategoryMask> Frigate | AntiFrigate</CategoryMask>
 		<Icon_Name>I_BUTTON_POSEIDON.tga</Icon_Name>
@@ -431,5 +435,15 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>7</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="UNSC_POSEIDON_2">
+		<Variant_Of_Existing_Type>UNSC_POSEIDON</Variant_Of_Existing_Type>
+		<Tech_Level>3</Tech_Level>
+		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 	</SpaceUnit>
 </CarrierUnits>

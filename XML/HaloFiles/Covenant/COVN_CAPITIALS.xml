@@ -266,7 +266,7 @@
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
 		<Damage>70</Damage>
@@ -450,10 +450,10 @@
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>5</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets/>
 		<Damage>70</Damage>

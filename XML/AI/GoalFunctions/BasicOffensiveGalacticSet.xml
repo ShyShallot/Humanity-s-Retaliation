@@ -31,6 +31,11 @@
 		<Goal>Conquer_To_Reconnect</Goal>
 		<Function>Need_To_Reconnect_Islands</Function>
 	</Conquer_To_Reconnect>
+
+	<Conquer_Empty_Planet>
+		<Goal>Conquer_Empty_Planet</Goal>
+		<Function>Is_Planet_Empty</Function>
+	</Conquer_Empty_Planet>
 	
 
 	<GrowTowardDistantSystem>
@@ -48,10 +53,10 @@
 		<Function>Should_Conquer_Opponent_Planet</Function>
 	</Conquer_Opponent>
 
-	<Death_Star_Use>
-		<Goal>Death_Star_Use</Goal>
-		<Function>Want_To_Fire_DS</Function>
-	</Death_Star_Use>
+	<Capture_Installation_05>
+		<Goal>Capture_Installation_05</Goal>
+		<Function>Capture_Installation_05</Function>
+	</Capture_Installation_05>
 
 	<Raid>
 		<Goal>Raid</Goal>

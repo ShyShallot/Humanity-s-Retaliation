@@ -1479,7 +1479,7 @@
 			<Enable_Ability Name="E_Magnetically_Sealed_Structure_Bonus_Enabler">
 				<Ability_Name>E_Magnetically_Sealed_Structure</Ability_Name>
 				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>E_Ground_Barracks, E_Ground_Light_Vehicle_Factory, E_Ground_Heavy_Vehicle_Factory, E_Ground_Research_Facility, Power_Generator_E, Communications_Array_E, Imperial_Command_Center</Applicable_Unit_Types>
+				<Applicable_Unit_Types>E_Ground_Barracks, E_Ground_Light_Vehicle_Factory, E_Ground_Heavy_Vehicle_Factory, COVN_RESEARCH_FACILITY, Power_Generator_E, Communications_Array_E, Imperial_Command_Center</Applicable_Unit_Types>
 				<Affects_All_Allies> Yes </Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>

@@ -52,7 +52,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"BaseForce",
-		"E_Ground_Research_Facility = 1"
+		"COVN_RESEARCH_FACILITY | UNSC_RESEARCH_FACILITY = 1"
 	}
 	}
 

@@ -97,7 +97,7 @@
 			-
 			10 * (Variable_Target.Type.IsType {Parameter_Type = "Communications_Array_R_Build_Pad"
 												,Parameter_Type = "Communications_Array_E_Build_Pad"
-												,Parameter_Type = "E_Ground_Research_Facility_Build_Pad"
+												,Parameter_Type = "COVN_RESEARCH_FACILITY_Build_Pad"
 												,Parameter_Type = "R_Ground_Research_Facility_Build_Pad"})
 		)
 		*

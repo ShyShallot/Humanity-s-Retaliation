@@ -16,11 +16,12 @@ function State_Init(message)
 
 
     if  message == OnEnter then 
-
+        Rebel_Player = Find_Player("REBEL")
     end
     if message == OnUpdate then
         Forerunner_Artifact_Mission_Check()
         Check_For_Shield_Tech()
+        Upgrade_Carriers()
         Sleep(1)
     end
 end
@@ -52,10 +53,12 @@ function Forerunner_Artifact_Mission_Check()
             DebugMessage("Starting Capture Mission")
             Story_Event("START_INSTALLATION_CAPTURE")
             mission_started = true
-        elseif not info_shown then
+        elseif installation_05.Get_Owner().Get_Faction_Name() == "REBEL" then 
             Rebel_Player.Unlock_Tech(Find_Object_Type("UNSC_Tech_Shield"))
-            Story_Event("SHIELD_TECH_INFO")
-            info_shown = true
+            if not info_shown then
+                Story_Event("SHIELD_TECH_INFO")
+                info_shown = true
+            end
         end
     else 
         Rebel_Player.Lock_Tech(Find_Object_Type("UNSC_Tech_Shield"))
@@ -73,6 +76,10 @@ function Check_For_Shield_Tech()
         Rebel_Player.Unlock_Tech(Find_Object_Type("UNSC_TECH_5"))
         Rebel_Player.Unlock_Tech(Find_Object_Type("BROADSWORD_SQUADRON"))
         Rebel_Player.Unlock_Tech(Find_Object_Type("UNSC_STRIDENT"))
+        Rebel_Player.Unlock_Tech(Find_Object_Type("UNSC_MUSASHI_2"))
+        Rebel_Player.Unlock_Tech(Find_Object_Type("UNSC_POSEIDON_2"))
+        Rebel_Player.Lock_Tech(Find_Object_Type("UNSC_MUSASHI"))
+        Rebel_Player.Lock_Tech(Find_Object_Type("UNSC_POSEIDON"))
         if Rebel_Player.Get_Tech_Level() == 4 then
             Rebel_Player.Unlock_Tech(Find_Object_Type("UNSC_INFINITY"))
             Rebel_Player.Unlock_Tech(Find_Object_Type("UNSC_VINDICATION"))
@@ -81,6 +88,7 @@ function Check_For_Shield_Tech()
     else
         if shield_tech_built then 
             shield_tech_built = false
+            mission_started = false
         end
         Rebel_Player.Lock_Tech(Find_Object_Type("UNSC_TECH_5"))
         Rebel_Player.Lock_Tech(Find_Object_Type("BROADSWORD_SQUADRON"))
@@ -88,5 +96,32 @@ function Check_For_Shield_Tech()
         Rebel_Player.Lock_Tech(Find_Object_Type("UNSC_INFINITY"))
         Rebel_Player.Lock_Tech(Find_Object_Type("UNSC_VINDICATION"))
         Rebel_Player.Lock_Tech(Find_Object_Type("UNSC_AUTUMN"))
+        Rebel_Player.Lock_Tech(Find_Object_Type("UNSC_MUSASHI_2"))
+        Rebel_Player.Lock_Tech(Find_Object_Type("UNSC_POSEIDON_2"))
+        Rebel_Player.Unlock_Tech(Find_Object_Type("UNSC_MUSASHI"))
+        Rebel_Player.Unlock_Tech(Find_Object_Type("UNSC_POSEIDON"))
+    end
+end
+
+function Upgrade_Carriers() 
+    shield_tech = Find_First_Object("UNSC_Tech_Shield")
+    Rebel_Player = Find_Player("REBEL")
+    tech_level = Rebel_Player.Get_Tech_Level() + 1
+    if TestValid(shield_tech) and tech_level == 4 then
+        poseidon_carriers = Find_All_Objects_Of_Type("UNSC_POSEIDON")
+        musashi_carriers = Find_All_Objects_Of_Type("UNSC_MUSASHI")
+        if table.getn(poseidon_carriers) <= 0 and table.getn(musashi_carriers) <= 0 then 
+            return
+        end
+        for i, poseidon in pairs(poseidon_carriers) do
+            planet = poseidon.Get_Planet_Location()
+            poseidon.Despawn()
+            Spawn_Unit(Find_Object_Type("UNSC_POSEIDON_2"),planet,Rebel_Player)
+        end
+        for i, musashi in pairs(musashi_carriers) do
+            planet = poseidon.Get_Planet_Location()
+            musashi.Despawn()
+            Spawn_Unit(Find_Object_Type("UNSC_MUSASHI_2"),planet,Rebel_Player)
+        end
     end
 end

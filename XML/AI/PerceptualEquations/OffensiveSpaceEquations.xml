@@ -168,28 +168,24 @@
 
 		-->
 	<Unit_Needs_To_Be_Destroyed>
-		Function_Allowed_As_Defender_Space.Evaluate
-		*
 		(1 - Function_Is_Space_Structure_Indestructable.Evaluate)
 		*
+		(1850 > Variable_Target.DistanceToNearestFriendly)
+		*
 		(
-			4.0 * ((Variable_Target.Location.FriendlyForce - Variable_Target.Location.EnemyForce) > 0.0)
+			5.0 * (Variable_Target.Location.FriendlyForce - Variable_Target.Location.EnemyForce)
+							<!--+
+			2.0 * (1.0 - Variable_Target.Location.EnemyForce)-->
 			+
-			3.0 * (1.0 - Variable_Target.Location.EnemyForce)
+			3.0 * (1.0 - Variable_Target.Shield)
 			+
-			2.0 * (1.0 - (Variable_Target.Shield > 0.66))
-			+
-			2.0 * (1.0 - Variable_Target.Health)
-			+
-			5.0 * (1.0 - Variable_Target.Health > 0.8)
+			3.0 * (1.0 - Variable_Target.Health)
 			+ 
-			(1.0 - Variable_Target.ForceNBTD)
-			+
-			2.0 * Variable_Target.ContainsHero
-			+
-			1.0
+			1.5 * Variable_Target.ForceNBTD
 		)
+
 	</Unit_Needs_To_Be_Destroyed>
+
 
 	<!-- This is a fallback version, so that there is usually some minimal desire to attack.
 	-->

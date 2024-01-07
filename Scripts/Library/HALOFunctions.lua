@@ -149,3 +149,9 @@ function Find_Human_Player()
         return rebels
     end
 end
+
+function PrintTable(array)
+    for key,pair in pairs(array) do
+        DebugMessage("Key: %s, Pair: %s", tostring(key), tostring(pair))
+    end
+end

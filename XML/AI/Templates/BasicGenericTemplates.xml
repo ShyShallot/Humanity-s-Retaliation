@@ -159,7 +159,6 @@
 			<Goal_Type>Lift_Blockade</Goal_Type>
 			<Goal_Type>Conquer_Opponent</Goal_Type>
 			<Goal_Type>Raid</Goal_Type>
-			<Goal_Type>Death_Star_Use</Goal_Type>
 			<Goal_Type>Unrestricted_Grab_Space</Goal_Type>
 			<Goal_Type>Unrestricted_Grab_Land</Goal_Type>
 		</Goals>

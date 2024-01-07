@@ -64,10 +64,10 @@
 		
 		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Squadron_Capacity>40</Squadron_Capacity>
@@ -305,7 +305,7 @@
 		
 		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -514,7 +514,7 @@
 		
 		<!-- Galactic Conquest Stats -->
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>

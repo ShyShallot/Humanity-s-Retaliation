@@ -211,8 +211,6 @@
 	-->
 	<Need_To_Flush_MajorItem_Budget>
 		Function_Needs_More_Space_Force_Globally.Evaluate
-		+
-		Variable_Self.HasUnit{Parameter_Type = "Death_Star", Parameter_Count = 1}
 	</Need_To_Flush_MajorItem_Budget>
 
 	<!-- The AI can afford to spend on tech if it has X% space force over the human player
@@ -358,6 +356,8 @@
 			+
 			(10.0 * Variable_Self.WorstIslandFractionOfLargest)
 		)
+		*
+		Game.Age
 	</Need_To_Reconnect_Islands>
 
 	<Space_Contrast>
@@ -405,23 +405,56 @@
 		(Variable_Target.IsHumanControlled == 0.0)
 	</Should_Conquer_Pirate_Planet>
 
+	<!-- 
+		Give a base interest of 25
+
+		Only give that interest to planets that are connected, mainly to prevent targeting the wrong planet
+
+		Check for economy, kinda pointless but eh
+
+		Only give interest to target planet if our military is strong
+
+		Only conquer if the last time we attacked any planet is any where from 8 to 10 days ago
+
+		And only conquer if its been more than 10 days from the start
+
+	-->
+
 	<Should_Conquer_Opponent_Planet>
-		(
-			1.25
-			*
-			Function_Is_Good_Invasion_Target.Evaluate 
-			*
-			Variable_Target.IsHumanControlled
-			*
-			((Variable_Self.HasUnit {Parameter_Type = "DEATH_STAR"} == 0.0) 
-			+
-			(Function_Want_To_Fire_DS.Evaluate == 0.0))
-		)
+		25
 		*
-		Function_First_Attack_Allowed.Evaluate
+		Function_Is_Connected_To_Me.Evaluate
 		*
-		(1.0 - Function_Should_Perform_Unrestricted_Grab_Space.Evaluate)
+		(Variable_Self.CreditsUnnormalized > 5000)
+		*
+		(Variable_Self.SpaceTotalUnnormalized > Variable_Target.EnemyForce.SpaceTotalUnnormalized)
+		*
+		(Variable_Self.TimeSinceSpaceAttacker > (480 # 600) )
+		*
+		(Game.Age > 600)
 	</Should_Conquer_Opponent_Planet>
+
+	<Capture_Installation_05>
+		(Variable_Target.Type.IsType{Parameter_Type = "Installation_05"})
+		*
+		(Variable_Self.TechLevel >= 2)
+		* 
+		clamp(Game.Age, 0, 40)
+		*
+		(Variable_Self.SpaceTotalUnnormalized > Variable_Target.EnemyForce.SpaceTotalUnnormalized)
+		*
+		Function_Is_Connected_To_Me.Evaluate
+		*
+		Variable_Self.IsFaction {Parameter_Faction = "Rebel"}
+	</Capture_Installation_05>
+
+	<Is_Planet_Empty>
+		Function_Is_Connected_To_Me.Evaluate
+		*
+		(Variable_Target.IsFaction {Parameter_Faction = "Neutral"})
+		*
+		clamp(Game.Age, 0, 25)
+	</Is_Planet_Empty>
 
 	<!-- fire the DS on any system unless taking it over is a cake walk -->
 	<Want_To_Fire_DS>
@@ -440,29 +473,18 @@
 
 	<Initial_Grace_Period>
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]}
-		* (300.0 + (10.0 * Variable_Self.PlanetsControlledUnnormalized))
+		* (150.0 + (5.0 * Variable_Self.PlanetsControlledUnnormalized))
 		+
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Normal]}
-		* (200.0 + (7.0 * Variable_Self.PlanetsControlledUnnormalized))
+		* (75.0 + (4.0 * Variable_Self.PlanetsControlledUnnormalized))
 		+
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}
 		* (50.0 + (2.0  * Variable_Self.PlanetsControlledUnnormalized))
 	</Initial_Grace_Period>
 
 	<Should_Perform_Unrestricted_Grab_Space>
-		50.0
-		*
-		Function_First_Attack_Allowed.Evaluate
-		*
-		(Function_Space_Force_Limit_For_Unrestricted_Grab.Evaluate >= Variable_Target.EnemyForce.SpaceTotalUnnormalized)
-		*
-		(3 > Variable_Target.StarbaseLevelUnnormalized)
-		*
-		Function_Is_Connected_To_Me.Evaluate
-		*
-		(1.0 - Variable_Target.FriendlyForce.HasSpaceForce)
-		*
-		Variable_Target.IsHumanControlled
+		(1 > Variable_Target.EnemyForce.SpaceTotalUnnormalized)
+
 	</Should_Perform_Unrestricted_Grab_Space>
 
 	<Should_Perform_Unrestricted_Grab_Land>

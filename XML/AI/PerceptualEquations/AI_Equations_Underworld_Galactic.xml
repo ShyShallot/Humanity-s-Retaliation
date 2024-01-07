@@ -61,7 +61,7 @@
 		+
 		10.0 * Function_GenericPlanetValue.Evaluate
 		+
-		10.0 * Variable_Target.HasStructure {Parameter_Type = "E_Ground_Research_Facility",
+		10.0 * Variable_Target.HasStructure {Parameter_Type = "COVN_RESEARCH_FACILITY",
 												Parameter_Type = "Ground_Empire_Hypervelocity_Gun",
 												Parameter_Type = "Ground_Ion_Cannon",
 												Parameter_Type = "E_Galactic_Turbolaser_Tower_Defenses",

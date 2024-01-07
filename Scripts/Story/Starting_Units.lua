@@ -116,9 +116,20 @@ function Spawn_Starting_Units(faction, units, location)
 
     matching_key = find_matching_key(starbase_level,units)
 
+    shield_tech = Find_First_Object("UNSC_Tech_Shield")
+
+    if player.Get_Faction_Name() == "REBEL" and (not TestValid(shield_tech)) and player.Get_Tech_Level() >= 3 then -- if the unsc starts at tech 4 or 5, spawn the shield tech research at the first planet
+        Spawn_Unit(Find_Object_Type("UNSC_Tech_Shield"),planet,player)
+    end
+
     for unit_name, amount in pairs(units[matching_key]) do
         for x=amount, 1, -1 do
-            Spawn_Unit(Find_Object_Type(unit_name),planet,player)
+            new_units = Spawn_Unit(Find_Object_Type(unit_name),planet,player)
+            if new_units ~= nil then
+                for _, unit in pairs(new_units) do
+                    unit.Prevent_AI_Usage(false)
+                end
+            end
         end
     end
 end

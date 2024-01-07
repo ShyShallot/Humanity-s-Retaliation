@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/BuildEconomicStructurePlan.lua#1 $
+-- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/DestroyUnit.lua#1 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,7 +25,7 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/BuildEconomicStructurePlan.lua $
+--              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/DestroyUnit.lua $
 --
 --    Original Author: James Yarrow
 --
@@ -41,36 +41,60 @@
 
 require("pgevents")
 
-
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 	
-	Category = "Build_Economic_Structure"
-	IgnoreTarget = true
+	AllowEngagedUnits = false
+	MinContrastScale = 1.1
+	MaxContrastScale = 3.0
+	Category = "Destroy_Unit"
 	TaskForce = {
 	{
-		"StructureForce",
-		"UNSC_Mining_Facility | Covenant_Mining_Facility = 1"
+		"MainForce"						
+		,"Fighter = 0, 4" -- don't take too many fighters because we allow engaged units
+		,"Corvette | Frigate | Bomber = 2, 6"
 	}
 	}
+	
+	ChangedTarget = false
+	AttackingShields = false
+	DropCurrentTarget = false
+
+	kill_target = nil
 
 	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 
-function StructureForce_Thread()
-	DebugMessage("%s -- In StructureForce_Thread.", tostring(Script))
+function MainForce_Thread()
+	DebugMessage("%s -- In MainForce_Thread.", tostring(Script))
+
+	BlockOnCommand(MainForce.Produce_Force())
 	
-	Sleep(1)
+	QuickReinforce(PlayerObject, AITarget, MainForce)
 	
---	StructureForce.Set_As_Goal_System_Removable(false)
-	AssembleForce(StructureForce)
+	MainForce.Enable_Attack_Positioning(true)
+	DebugMessage("MainForce constructed at stage area!")
+
+	DebugMessage("%s -- Attack-moving to %s", tostring(Script), tostring (AITarget))
+	SetClassPriorities(MainForce, "Attack_Move")
+	BlockOnCommand(MainForce.Attack_Move(AITarget, MainForce.Get_Self_Threat_Max()))
+
+	MainForce.Set_Plan_Result(true)
 	
-	StructureForce.Set_Plan_Result(true)
-	DebugMessage("%s -- StructureForce done!", tostring(Script));
+	DebugMessage("%s -- MainForce Done!  Exiting Script!", tostring(Script))
 	ScriptExit()
 end
 
-function StructureForce_Production_Failed(tf, failed_object_type)
-	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
-	ScriptExit()
+-- Make sure that units don't sit idle at the end of their move order, waiting for others
+function MainForce_Unit_Move_Finished(tf, unit)
+
+	DebugMessage("%s -- %s reached end of move, giving new order", tostring(Script), tostring(unit))
+
+	-- Assist the tf with whatever is holding it up
+	kill_target = FindDeadlyEnemy(tf)
+	if TestValid(kill_target) then
+		unit.Attack_Move(kill_target)
+	else
+		unit.Attack_Move(tf)
+	end
 end
