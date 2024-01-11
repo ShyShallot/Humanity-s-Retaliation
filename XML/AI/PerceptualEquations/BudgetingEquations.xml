@@ -8,7 +8,7 @@
 	<BasicEmpireOffensiveBudgetAllocation>
 		5.0 
 		+ 
-		(10.0 * Variable_Self.PlanetsControlled)
+		(15.0 * Variable_Self.PlanetsControlled)
 		+
 		(6.0 * (1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate))
 	</BasicEmpireOffensiveBudgetAllocation>
@@ -203,7 +203,9 @@
 
 	<!-- Snowball budget - more money for offense as galactic domination comes closer -->
 	<BasicRebelOffensiveBudgetAllocation>
-		7.2 + Variable_Self.PlanetsControlled
+		2.5 
+		+ 
+		(10.5 * Variable_Self.PlanetsControlled)
 		+
 		(6.0 * (1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate))
 	</BasicRebelOffensiveBudgetAllocation>
@@ -229,11 +231,9 @@
 		* 
 		(1.0 + Variable_Self.Maintenance)
 		*
-		(1.0 + 2.0 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "Rebel_Ground_Mining_Facility"} / Variable_Self.PlanetsControlledUnnormalized)))
+		(1.0 + 2.0 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "UNSC_MINING_FACILITY"} / Variable_Self.PlanetsControlledUnnormalized)))
 		+
-		10 * ((Variable_Self.HasStructure {Parameter_Type = "R_Ground_Light_Vehicle_Factory"} == 0) +
-				(Variable_Self.HasStructure {Parameter_Type = "R_Ground_Barracks"} == 0) +
-				(Variable_Self.HasStructure {Parameter_Type = "Rebel_Ground_Mining_Facility"} == 0))	
+		10 * ((Variable_Self.HasStructure {Parameter_Type = "UNSC_MINING_FACILITY"} == 0))	
 	</BasicRebelInfrastructureBudgetAllocation>
 	
 	<!-- Based on average age of scouted information -->

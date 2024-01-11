@@ -5,7 +5,7 @@
 
 	<Personality>
 		<Focus> .9 </Focus>
-		<Aggressiveness> .5 </Aggressiveness>
+		<Aggressiveness> 1.0 </Aggressiveness>
 	</Personality>
 	
     <GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>
@@ -19,10 +19,7 @@
 		BasicInformationGalacticSet
 		BasicInfrastructureGalacticSet
 		BasicOffensiveSpaceSet
-		BasicLandGoalSet
 		AI_GoalSet_ExpansionGeneric_Galactic
-		AI_GoalSet_ExpansionGeneric_Land
-		AI_GoalSet_Rebel_Land
 	</GoalProposalFunctionSets>
 	
 	<Templates>

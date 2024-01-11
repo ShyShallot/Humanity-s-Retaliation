@@ -58,10 +58,10 @@ function Definitions()
 	-- First Task Force
 	{
 		"SpaceForce"				
-		,"Frigate = 100%"
+		,"Frigate | Corvette = 100%"
 	}
 	}
-    RequiredCategories = {"Frigate" }
+    RequiredCategories = {"Frigate | Corvette"}
 	PerFailureContrastAdjust = 0.15
 	
 	SpaceSecured = true

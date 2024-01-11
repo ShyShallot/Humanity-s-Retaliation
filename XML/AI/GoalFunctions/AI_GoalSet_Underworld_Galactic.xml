@@ -42,10 +42,10 @@
 		<Function>Should_Build_Underworld_Droid_Works</Function>
 	</Build_Underworld_Droid_Works>
 
-	<Build_Initial_Starbase_Only>
-		<Goal>Build_Initial_Starbase_Only</Goal>
+	<HR_Build_Initial_Starbase_Only>
+		<Goal>HR_Build_Initial_Starbase_Only</Goal>
 		<Function>Needs_Initial_Starbase</Function>
-	</Build_Initial_Starbase_Only>
+	</HR_Build_Initial_Starbase_Only>
 
 	<Build_Initial_Groundbase_Only>
 		<Goal>Build_Initial_Groundbase_Only</Goal>

@@ -348,7 +348,7 @@
 	
 	<!-- Does this planet have a starbase already? -->
 	<Needs_Initial_Starbase>
-		50.0 *
+		100.0 *
 		(Variable_Target.StarbaseLevel == 0.0) *
         (Variable_Target.EnemyForce.HasSpaceForce == 0)
 	</Needs_Initial_Starbase>
@@ -687,7 +687,7 @@
 		*
 		((Variable_Target.StructureCount {Parameter_Type = "UNSC_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0}) > 0 )
 		*
-		(Game.Age > (Variable_Self.TechLevel * 1200))
+		(Game.Age > (Variable_Self.TechLevel * 900))
 	</Advance_Tech_Rebel>
 
 	<Build_Shield_Research>

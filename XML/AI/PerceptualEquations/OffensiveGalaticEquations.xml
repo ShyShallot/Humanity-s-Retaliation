@@ -434,6 +434,22 @@
 		(Game.Age > 600)
 	</Should_Conquer_Opponent_Planet>
 
+	<!-- We have this specific goal so that the AI can advance to tech 5 due to the Shield Tech
+	
+		Only give desire if the target is Installation 05
+
+		Make sure we are in the Right Tech
+
+		Give more desire as time goes on to a max of 40
+
+		Only if we have more military
+
+		Only if its connected to one of ours
+
+		We dont want the empire/covenant interest in this plan
+	
+	-->
+
 	<Capture_Installation_05>
 		(Variable_Target.Type.IsType{Parameter_Type = "Installation_05"})
 		*

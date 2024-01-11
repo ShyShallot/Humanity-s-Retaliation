@@ -47,10 +47,10 @@
 		<Function>Needs_Ground_Infiltrator_Facility</Function>
 	</Build_Infiltrator_Facility>
 	
-	<Build_Initial_Starbase_Only>
-		<Goal>Build_Initial_Starbase_Only</Goal>
+	<HR_Build_Initial_Starbase_Only>
+		<Goal>HR_Build_Initial_Starbase_Only</Goal>
 		<Function>Needs_Initial_Starbase</Function>
-	</Build_Initial_Starbase_Only>
+	</HR_Build_Initial_Starbase_Only>
 
 	<Build_Initial_Groundbase_Only>
 		<Goal>Build_Initial_Groundbase_Only</Goal>

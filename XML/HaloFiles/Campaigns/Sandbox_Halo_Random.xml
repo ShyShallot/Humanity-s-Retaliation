@@ -130,7 +130,7 @@
 
             <Home_Location> Empire, Sanghelios </Home_Location>
 
-            <Home_Location> Swords, Yohne</Home_Location>
+            <Home_Location> Swords, Yonhe</Home_Location>
 
             <Home_Location> Terrorists, Mars</Home_Location>
 
@@ -194,7 +194,7 @@
     	    	<Starting_Tech_Level> Swords, 5 </Starting_Tech_Level>
     	    	<Max_Tech_Level> Swords, 5 </Max_Tech_Level>
 
-	    	<Starting_Forces> Swords, Yohne, SWORDS_CCS</Starting_Forces>
+	    	<Starting_Forces> Swords, Yonhe, SWORDS_CCS</Starting_Forces>
 	
     </Campaign>
 
@@ -328,7 +328,7 @@
 
     <Home_Location> Empire, Sanghelios </Home_Location>
 
-    <Home_Location> Swords, Yohne</Home_Location>
+    <Home_Location> Swords, Yonhe</Home_Location>
 
     <Home_Location> Terrorists, Mars</Home_Location>
 
@@ -392,7 +392,7 @@
     	    	<Starting_Tech_Level> Swords, 5 </Starting_Tech_Level>
     	    	<Max_Tech_Level> Swords, 5 </Max_Tech_Level>
 
-	    	<Starting_Forces> Swords, Yohne, SWORDS_CCS</Starting_Forces>
+	    	<Starting_Forces> Swords, Yonhe, SWORDS_CCS</Starting_Forces>
 
 
 	

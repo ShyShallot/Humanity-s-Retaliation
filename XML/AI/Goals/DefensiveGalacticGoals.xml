@@ -69,7 +69,7 @@
 		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
 		<Is_Like>
 			Build_Scanner,
-			Build_Initial_Starbase_Only,
+			HR_Build_Initial_Starbase_Only,
 			Upgrade_Starbase
 		</Is_Like>		
 	</Build_Jamming_Station>

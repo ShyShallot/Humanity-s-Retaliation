@@ -89,5 +89,23 @@
 		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
 	</SpecialStructure>
 
+	<!-- NOT UNSC BUT LAZY-->
+	<!--
+	<SpecialStructure Name="COVN_RING_WIPE"> 
+		<Variant_Of_Existing_Type>UNSC_Tech_Template</Variant_Of_Existing_Type>
+		<Text_ID>HALO_TEXT_RING_WIPE</Text_ID>
+		<Encyclopedia_Text> HALO_TEXT_RING_WIPE_ENC</Encyclopedia_Text>
+		<Build_Cost_Credits>12050</Build_Cost_Credits>
+		<Build_Time_Seconds>300</Build_Time_Seconds>
+		<Tech_Level>1</Tech_Level>
+		<Affiliation>Empire</Affiliation>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets>Installation_05</Required_Planets>
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> HALO_TIMER_RING_COUNTDOWN </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
+		<Lua_Script>Ring_Wipe</Lua_Script>
+	</SpecialStructure>-->
+
 
 </Tech_Units>

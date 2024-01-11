@@ -44,7 +44,7 @@
 	<Conquer_Empty_Planet>
 		<AIGoalApplicationFlags> Neutral </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Offensive </Category>
+		<Category> Defensive </Category>
 		<Reachability> Any </Reachability>
 		<Time_Limit> 90.0 </Time_Limit>
 		<Build_Time_Delay_Tolerance>1.5</Build_Time_Delay_Tolerance>

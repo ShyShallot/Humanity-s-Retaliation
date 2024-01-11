@@ -11,7 +11,7 @@
 		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
 		<Is_Like>
 			Build_Scanner,
-			Build_Initial_Starbase_Only,
+			HR_Build_Initial_Starbase_Only,
 			Build_Jamming_Station
 		</Is_Like>
 	</Upgrade_Starbase>
@@ -25,7 +25,7 @@
 		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
 		<Is_Like>
 			Build_Scanner,
-			Build_Initial_Starbase_Only,
+			HR_Build_Initial_Starbase_Only,
 			Build_Jamming_Station
 		</Is_Like>
 	</Advance_Tech_Empire>
@@ -39,7 +39,7 @@
 		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
 		<Is_Like>
 			Build_Scanner,
-			Build_Initial_Starbase_Only,
+			HR_Build_Initial_Starbase_Only,
 			Build_Jamming_Station
 		</Is_Like>
 	</Advance_Tech_Rebel>
@@ -53,7 +53,7 @@
 		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
 		<Is_Like>
 			Build_Scanner,
-			Build_Initial_Starbase_Only,
+			HR_Build_Initial_Starbase_Only,
 			Build_Jamming_Station
 		</Is_Like>
 	</Build_Shield_Research>
@@ -104,7 +104,7 @@
 	</Build_Economic_Structure>
 
 	<!-- Build a starbase on a planet that currently has none -->
-	<Build_Initial_Starbase_Only>
+	<HR_Build_Initial_Starbase_Only>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
 		<Category> Offensive </Category>
@@ -114,10 +114,9 @@
 		<Is_Like>
 			Upgrade_Starbase,
 			Build_Scanner,
-			Build_Jamming_Station,
-			Build_Economic_Structure
+			Build_Jamming_Station
 		</Is_Like>
-	</Build_Initial_Starbase_Only>
+	</HR_Build_Initial_Starbase_Only>
 
 	<!-- Build a groundbase on a planet that currently has none -->
 	<Build_Initial_Groundbase_Only>
@@ -205,7 +204,7 @@
 		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
 		<Is_Like>
 			Upgrade_Starbase,
-			Build_Initial_Starbase_Only,
+			HR_Build_Initial_Starbase_Only,
 			Build_Jamming_Station
 		</Is_Like>
 	</Build_Scanner>
