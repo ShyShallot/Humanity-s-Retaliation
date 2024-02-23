@@ -133,7 +133,7 @@
     <GMC_ZoomedPitchAngleDegrees>-35.0</GMC_ZoomedPitchAngleDegrees>
     <GMC_InitialPullbackDistance>900.0</GMC_InitialPullbackDistance>
     <GMC_ZoomedPullbackPlanetRadiusFraction>3.0</GMC_ZoomedPullbackPlanetRadiusFraction>
-    <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.0, 0.0, 1.05</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
+    <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.0, -2.0, 2.05</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
     <GMC_ZoomTime>0.65</GMC_ZoomTime>
     <GMC_Battle_Zoom_Time>1.0</GMC_Battle_Zoom_Time>
     <GMC_Battle_Fade_Time>0.75</GMC_Battle_Fade_Time>
@@ -4204,9 +4204,9 @@
 
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Fighter, 2</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Bomber, 1.85</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Corvette, 1.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Frigate, 1.35</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Assault, 1.15</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Corvette, 3.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Frigate, 2.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Assault, 1.85</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Capitial, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Destroyer, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Super, 0.8</Damage_To_Armor_Mod>
@@ -5272,7 +5272,7 @@
 	<Radar_Colorize_Selected_Units>Yes</Radar_Colorize_Selected_Units>
 	<Radar_Selected_Units_Color>209, 255, 209, 255</Radar_Selected_Units_Color>
 
-	<Radar_Colorize_Multiplayer_Enemy>No</Radar_Colorize_Multiplayer_Enemy>
+	<Radar_Colorize_Multiplayer_Enemy>Yes</Radar_Colorize_Multiplayer_Enemy>
 	<Radar_Multiplayer_Enemy_Color>255, 0, 0</Radar_Multiplayer_Enemy_Color>
 
     <Animate_During_Galactic_Mode_Pause>yes</Animate_During_Galactic_Mode_Pause>

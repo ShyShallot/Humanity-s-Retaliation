@@ -1,6 +1,6 @@
 -- Main Overall Custom Functions Script for LOZ
 -- Lua Doc: https://stargate-eaw.de/media/kunena/attachments/92/LuacommandsinFoC.pdf
-
+require("PGBase")
 
 function Return_Chance(value_to_check, factor) -- Returns true or false
     if not factor then
@@ -75,12 +75,15 @@ end
 
 function Combat_Power_From_List(list)
     local combat_power = 0
+    if list == nil then
+        return
+    end
     for k, unit in pairs(list) do
         if TestValid(unit) then
             combat_power = combat_power + Object_Firepower(unit)
         end
     end
-    if combat_power >= 1 then
+    if combat_power >= 0 then
         return combat_power
     end
 end
@@ -154,4 +157,48 @@ function PrintTable(array)
     for key,pair in pairs(array) do
         DebugMessage("Key: %s, Pair: %s", tostring(key), tostring(pair))
     end
+end
+
+function split(str, separator)
+    local result = {}
+    local start = 1
+    
+    while true do
+        local i, j = string.find(str, separator, start)
+        
+        if not i then
+            table.insert(result, string.sub(str, start))
+            break
+        end
+        
+        table.insert(result, string.sub(str, start, i - 1))
+        start = j + 1
+    end
+    
+    return result
+end
+
+function formatNumberWithCommas(number)
+    local formattedNumber = tostring(number)
+    local length = string.len(formattedNumber)
+
+    local result = ""
+    local count = 0
+
+    for i = length, 1, -1 do
+        result = string.sub(formattedNumber, i, i) .. result
+        count = count + 1
+
+        if customModulo(count, 3) == 0 and i > 1 then
+            result = "," .. result
+        end
+    end
+
+    return result
+end
+
+function customModulo(dividend, divisor)
+    local quotient = Dirty_Floor(dividend / divisor)
+    local remainder = dividend - (quotient * divisor)
+    return remainder
 end

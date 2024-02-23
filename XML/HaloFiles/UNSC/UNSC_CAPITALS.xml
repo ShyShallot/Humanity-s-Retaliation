@@ -4,7 +4,7 @@
 		<Text_ID>TEXT_UNIT_UNSC_AUTUMN</Text_ID>
 		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_AUTUMNClass.ALO</Space_Model_Name>
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -178,7 +178,7 @@
 		<Text_ID>TEXT_UNIT_UNSC_MARATHON</Text_ID>
 		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_MARATHON.ALO</Space_Model_Name>
 		<Select_Box_Scale>1000</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -352,7 +352,7 @@
 		<Text_ID>TEXT_UNIT_UNSC_HALCYON</Text_ID>
 		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_HALCYON.ALO</Space_Model_Name>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -526,7 +526,7 @@
 		<Text_ID>TEXT_UNSC_VINDICATION</Text_ID>
 		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship Broadside_Class_Cruiser </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_VINDICATION.ALO</Space_Model_Name>
 		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>

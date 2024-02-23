@@ -6,7 +6,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
+        <Health>1150.0</Health>		
         <Attachment_Bone>HP_POA_HANGER_01</Attachment_Bone>             
 		<Collision_Mesh>HP_POA_HANGER_01</Collision_Mesh>
         <Damage_Particles>HP_POA_HANGER_01_EMIT</Damage_Particles>
@@ -19,7 +19,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850.0</Health>		
+        <Health>1150.0</Health>		
         <Attachment_Bone>HP_POA_HANGER_02</Attachment_Bone>             
 		<Collision_Mesh>HP_POA_HANGER_02</Collision_Mesh>
         <Damage_Particles>HP_POA_HANGER_02_EMIT</Damage_Particles>
@@ -45,7 +45,7 @@
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>850</Health>
+        <Health>1350</Health>
         <Is_Turret>Yes</Is_Turret>
         <Model_To_Attach> UNSC_POA_T_01.ALO </Model_To_Attach>
         <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -86,7 +86,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850</Health>
+            <Health>1350</Health>
             <Is_Turret>Yes</Is_Turret>
             <Model_To_Attach> UNSC_POA_T_02.ALO </Model_To_Attach>
             <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -127,7 +127,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850</Health>
+            <Health>1350</Health>
             <Is_Turret>Yes</Is_Turret>
             <Model_To_Attach> UNSC_POA_T_03.ALO </Model_To_Attach>
             <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -168,7 +168,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850</Health>
+            <Health>1350</Health>
             <Is_Turret>Yes</Is_Turret>
             <Model_To_Attach> UNSC_POA_T_04.ALO </Model_To_Attach>
             <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -209,7 +209,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850</Health>
+            <Health>1350</Health>
             <Is_Turret>Yes</Is_Turret>
             <Model_To_Attach> UNSC_POA_T_05.ALO </Model_To_Attach>
             <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -250,7 +250,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850</Health>
+            <Health>1350</Health>
             <Is_Turret>Yes</Is_Turret>
             <Model_To_Attach> UNSC_POA_T_06.ALO </Model_To_Attach>
             <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -291,7 +291,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850</Health>
+            <Health>1350</Health>
             <Is_Turret>Yes</Is_Turret>
             <Model_To_Attach> UNSC_POA_T_07.ALO </Model_To_Attach>
             <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -332,7 +332,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>850</Health>
+            <Health>1350</Health>
             <Is_Turret>Yes</Is_Turret>
             <Model_To_Attach> UNSC_POA_T_08.ALO </Model_To_Attach>
             <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -375,7 +375,7 @@
         <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>600</Health>
+        <Health>1750</Health>
         <Attachment_Bone>HP_POA_ARCHER_01</Attachment_Bone>
         <Collision_Mesh>HP_POA_ARCHER_01</Collision_Mesh>
         <Damage_Particles>HP_POA_ARCHER_01_EMIT</Damage_Particles>
@@ -406,7 +406,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600</Health>
+            <Health>1750</Health>
             <Attachment_Bone>HP_POA_ARCHER_02</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_02</Collision_Mesh>
             <Damage_Particles>HP_POA_ARCHER_02_EMIT</Damage_Particles>
@@ -437,7 +437,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600</Health>
+            <Health>1750</Health>
             <Attachment_Bone>HP_POA_ARCHER_03</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_03</Collision_Mesh>
             <Damage_Particles>HP_POA_ARCHER_03_EMIT</Damage_Particles>
@@ -468,7 +468,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600</Health>
+            <Health>1750</Health>
             <Attachment_Bone>HP_POA_ARCHER_04</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_04</Collision_Mesh>
             <Damage_Particles>HP_POA_ARCHER_04_EMIT</Damage_Particles>
@@ -499,7 +499,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600</Health>
+            <Health>1750</Health>
             <Attachment_Bone>HP_POA_ARCHER_05</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_05</Collision_Mesh>
             <Damage_Particles>HP_POA_ARCHER_05_EMIT</Damage_Particles>
@@ -530,7 +530,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600</Health>
+            <Health>1750</Health>
             <Attachment_Bone>HP_POA_ARCHER_06</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_06</Collision_Mesh>
             <Damage_Particles>HP_POA_ARCHER_06_EMIT</Damage_Particles>
@@ -561,7 +561,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600</Health>
+            <Health>1750</Health>
             <Attachment_Bone>HP_POA_ARCHER_07</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_07</Collision_Mesh>
             <Damage_Particles>HP_POA_ARCHER_07_EMIT</Damage_Particles>
@@ -592,7 +592,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600</Health>
+            <Health>1750</Health>
             <Attachment_Bone>HP_POA_ARCHER_08</Attachment_Bone>
             <Collision_Mesh>HP_POA_ARCHER_08</Collision_Mesh>
             <Damage_Particles>HP_POA_ARCHER_08_EMIT</Damage_Particles>
@@ -779,7 +779,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>750.0</Health>
+            <Health>950.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -797,7 +797,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>950.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -815,7 +815,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>950.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -885,7 +885,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>950.0</Health>
+            <Health>2250</Health>
 
             <Model_To_Attach>UNSC_AUTUMN_T_01.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -925,7 +925,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>950.0</Health>
+            <Health>2250</Health>
 
             <Model_To_Attach>UNSC_AUTUMN_T_02.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -965,7 +965,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>950.0</Health>
+            <Health>2250</Health>
 
             <Model_To_Attach>UNSC_AUTUMN_T_03.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -1005,7 +1005,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>950.0</Health>
+            <Health>2250</Health>
 
             <Model_To_Attach>UNSC_AUTUMN_T_04.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -1045,7 +1045,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>950.0</Health>
+            <Health>2250</Health>
 
             <Model_To_Attach>UNSC_AUTUMN_T_05.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -1085,7 +1085,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>950.0</Health>
+            <Health>2250</Health>
 
             <Model_To_Attach>UNSC_AUTUMN_T_06.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -1125,7 +1125,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>950.0</Health>
+            <Health>2250</Health>
 
             <Model_To_Attach>UNSC_AUTUMN_T_07.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -1165,7 +1165,7 @@
             <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>950.0</Health>
+            <Health>2250</Health>
 
             <Model_To_Attach>UNSC_AUTUMN_T_08.ALO</Model_To_Attach>
             <Is_Turret> Yes </Is_Turret>
@@ -1205,7 +1205,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_01</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_01</Collision_Mesh>
@@ -1236,7 +1236,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_02</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_02</Collision_Mesh>
@@ -1267,7 +1267,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_03</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_03</Collision_Mesh>
@@ -1298,7 +1298,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_04</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_04</Collision_Mesh>
@@ -1329,7 +1329,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_05</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_05</Collision_Mesh>
@@ -1360,7 +1360,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_06</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_06</Collision_Mesh>
@@ -1391,7 +1391,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_07</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_07</Collision_Mesh>
@@ -1422,7 +1422,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_08</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_08</Collision_Mesh>
@@ -1453,7 +1453,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_09</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_09</Collision_Mesh>
@@ -1484,7 +1484,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_10</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_10</Collision_Mesh>
@@ -1515,7 +1515,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_11</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_11</Collision_Mesh>
@@ -1546,7 +1546,7 @@
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>600.0</Health>
+            <Health>1550</Health>
             <Tooltip_Text>UNSC_ARCHER_POD_2_5</Tooltip_Text>
             <Attachment_Bone>HP_ARCHER_12</Attachment_Bone>
             <Collision_Mesh>HP_ARCHER_12</Collision_Mesh>

@@ -203,11 +203,9 @@
 
 	<!-- Snowball budget - more money for offense as galactic domination comes closer -->
 	<BasicRebelOffensiveBudgetAllocation>
-		2.5 
-		+ 
-		(10.5 * Variable_Self.PlanetsControlled)
+		(5.5 * Variable_Self.PlanetsControlled)
 		+
-		(6.0 * (1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate))
+		(1.0 * (1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate))
 	</BasicRebelOffensiveBudgetAllocation>
 	
 	<!-- Defensive budget increases with proportion of planets that are undefended -->
@@ -221,17 +219,16 @@
 		)
 	</BasicRebelDefensiveBudgetAllocation>
 	
-	<!-- Increase with tech level: higher tech units mostly need high level bases. -->
-	<!-- Also increase with low income -->
-	<!-- Decrease as bases are maxed out -->
+
 	<BasicRebelInfrastructureBudgetAllocation>
-		1.1 
+		3.5 
 		* 
-		(2 + 0.5 * (Variable_Self.TechLevel) - Variable_Self.MaxedStarbases - Variable_Self.MaxedGroundbases) 
+		(5 + 0.5 * (Variable_Self.TechLevel) - Variable_Self.MaxedStarbases - Variable_Self.MaxedGroundbases) 
 		* 
 		(1.0 + Variable_Self.Maintenance)
 		*
-		(1.0 + 2.0 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "UNSC_MINING_FACILITY"} / Variable_Self.PlanetsControlledUnnormalized)))
+		<!-- If half or more of our planets have mining facilitys-->
+		(1.0 + 3.0 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "UNSC_MINING_FACILITY"} / Variable_Self.PlanetsControlledUnnormalized)))
 		+
 		10 * ((Variable_Self.HasStructure {Parameter_Type = "UNSC_MINING_FACILITY"} == 0))	
 	</BasicRebelInfrastructureBudgetAllocation>

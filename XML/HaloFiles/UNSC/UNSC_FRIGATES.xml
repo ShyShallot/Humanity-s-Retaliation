@@ -1039,7 +1039,7 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 
-		<Death_Clone>Damage_Normal, Halberd_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Paris_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
 
@@ -1156,6 +1156,25 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>7</Population_Value>
 		
+	</SpaceUnit>
+
+	<SpaceUnit Name="Paris_Death_Clone">
+		<Text_ID>TEXT_UNSC_GLADIUS</Text_ID>
+		<Space_Model_Name>UNSC_PARIS_DEATH.ALO</Space_Model_Name>
+		<xxxSpace_Model_Name>UNSC_PARIS_DEATH.ALO</xxxSpace_Model_Name>
+		<Death_SFXEvent_Start_Die>UNIT_STAR_DESTROYER_DEATH_SFX</Death_SFXEvent_Start_Die>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Scale_Factor>2.85</Scale_Factor>
+		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+		<Max_Speed>15.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+		<Max_Thrust>1</Max_Thrust>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>0</Bank_Turn_Angle>
+		<Affiliation>Rebel</Affiliation>
+		<Ship_Class>frigate</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_STALWART">

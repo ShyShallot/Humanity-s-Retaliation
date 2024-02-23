@@ -4,7 +4,7 @@
 		<Text_ID>TEXT_UNIT_COVN_CCS</Text_ID>
 		<Encyclopedia_Good_Against> Corellian_Corvette Interceptor4_Frigate UNSC_GLADIUS </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat MC30_Frigate </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>COVN_CCS.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
@@ -224,7 +224,7 @@
 		<Text_ID>TEXT_UNIT_COVN_RCS</Text_ID>
 		<Encyclopedia_Good_Against> Corellian_Corvette Interceptor4_Frigate UNSC_GLADIUS </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat MC30_Frigate </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>COVN_RCS.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
@@ -411,7 +411,7 @@
 		<Text_ID>TEXT_UNIT_COVN_CPV</Text_ID>
 		<Encyclopedia_Good_Against> Corellian_Corvette Interceptor4_Frigate UNSC_GLADIUS </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat MC30_Frigate </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>COVN_CPV.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>

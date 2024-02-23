@@ -76,8 +76,8 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>500</AI_Combat_Power>
-		<Projectile_Blast_Area_Range>40</Projectile_Blast_Area_Range>
-		<Projectile_Blast_Area_Damage>5</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>10</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>2</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
 		
 	</Projectile>
@@ -105,7 +105,7 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>800</AI_Combat_Power>
-		<Projectile_Blast_Area_Range>120</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range>20</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>10</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
 		
@@ -667,7 +667,7 @@
 		<Projectile_Lifetime_Detonation_Particle />
 		<Projectile_Absorbed_By_Shields_Particle />
 		<AI_Combat_Power>900</AI_Combat_Power>
-		<Projectile_Blast_Area_Range>90</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range>25</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>40</Projectile_Blast_Area_Damage>
 	</Projectile>
 
@@ -676,7 +676,7 @@
 		<Projectile_Damage>105.0</Projectile_Damage>
 		<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 		<AI_Combat_Power>750</AI_Combat_Power>
-		<Projectile_Blast_Area_Range>30</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range>10</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>40</Projectile_Blast_Area_Damage>
 	</Projectile>
 

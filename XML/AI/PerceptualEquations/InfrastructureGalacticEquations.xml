@@ -662,6 +662,18 @@
 		)
 	</Empire_Tech_Untrigger>
 
+	<Difficulty_Time_Factor>
+		((Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]})
+		* 1200.0)
+		+
+		((Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Normal]})
+		* 1000)
+		+
+		((Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]})
+		* 900)
+	
+	</Difficulty_Time_Factor>
+
 	<!-- 
 		Give more and more interest in the plan as time goes on 
 	
@@ -679,7 +691,7 @@
 		*
 		((Variable_Target.StructureCount {Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0}) > 0 )
 		*
-		(Game.Age > (Variable_Self.TechLevel * 900))
+		(Game.Age > (Variable_Self.TechLevel * (Function_Difficulty_Time_Factor.Evaluate)))
 	</Advance_Tech_Empire>
 
 	<Advance_Tech_Rebel>
@@ -687,7 +699,7 @@
 		*
 		((Variable_Target.StructureCount {Parameter_Type = "UNSC_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0}) > 0 )
 		*
-		(Game.Age > (Variable_Self.TechLevel * 900))
+		(Game.Age > (Variable_Self.TechLevel * (Function_Difficulty_Time_Factor.Evaluate)))
 	</Advance_Tech_Rebel>
 
 	<Build_Shield_Research>

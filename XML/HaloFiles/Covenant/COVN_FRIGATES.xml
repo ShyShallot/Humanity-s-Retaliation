@@ -244,7 +244,7 @@
 	<SpaceUnit Name="COVN_CAR">
 		<!-- Model -->
 		<Space_Model_Name>COVN_CAR.ALO</Space_Model_Name>
-		<Death_Clone>Damage_Normal, COVN_CRS_DEATH</Death_Clone>
+		<Death_Clone>Damage_Normal, COVN_CAR_DEATH</Death_Clone>
 		<Scale_Factor>1.95</Scale_Factor>
 		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
 
@@ -448,6 +448,23 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+	<SpaceUnit Name="COVN_CAR_DEATH">
+		<Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
+		<Space_Model_Name>COVN_CAR_DEATH.ALO</Space_Model_Name>
+		<Death_SFXEvent_Start_Die> Unit_Star_Destroyer_Death_SFX </Death_SFXEvent_Start_Die>
+		<Scale_Factor> 1.95 </Scale_Factor>
+		<Layer_Z_Adjust> -250.0 </Layer_Z_Adjust>
+		<Max_Speed> 0.8 </Max_Speed>
+		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
+		<Max_Thrust> 0.05 </Max_Thrust>
+		<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+		<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+		<Affiliation> Empire </Affiliation>
+		<Ship_Class> frigate </Ship_Class>
+		<Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_SDV">

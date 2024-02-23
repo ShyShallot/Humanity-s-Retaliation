@@ -33,44 +33,43 @@
 	</Build_Turbolasers>
 
 	<Generate_Magic_Ground_Defense>
-		<Goal>Generate_Magic_Ground_Defense</Goal>
-		<Function>Zero</Function> <!-- Needs_Magic_Ground_Defense -->
+		<Goal>AlwaysOff</Goal>
+		<Function>Zero</Function> 
 	</Generate_Magic_Ground_Defense>
 
 	<Generate_Magic_Space_Defense>
-		<Goal>Generate_Magic_Space_Defense</Goal>
-		<Function>Zero</Function> <!-- Needs_Magic_Space_Defense -->
-		<Function>Needs_Magic_Space_Defense</Function>
+		<Goal>AlwaysOff</Goal>
+		<Function>Zero</Function> 
 	</Generate_Magic_Space_Defense>
 
 	<Generate_Magic_Ground_Defense_Easy>
-		<Goal>Generate_Magic_Ground_Defense_Easy</Goal>
-		<Function>Zero</Function> <!-- Needs_Magic_Ground_Defense_Easy -->
+		<Goal>AlwaysOff</Goal>
+		<Function>Zero</Function> 
 	</Generate_Magic_Ground_Defense_Easy>
 
 	<Generate_Magic_Space_Defense_Easy>
-		<Goal>Generate_Magic_Space_Defense_Easy</Goal>
-		<Function>Zero</Function> <!-- Needs_Magic_Space_Defense_Easy -->
+		<Goal>AlwaysOff</Goal>
+		<Function>Zero</Function> 
 	</Generate_Magic_Space_Defense_Easy>
 	
 	<Generate_Magic_Ground_Defense_Hard>
-		<Goal>Generate_Magic_Ground_Defense_Hard</Goal>
-		<Function>Zero</Function> <!-- Needs_Magic_Ground_Defense_Hard -->
+		<Goal>AlwaysOff</Goal>
+		<Function>Zero</Function> 
 	</Generate_Magic_Ground_Defense_Hard>
 
 	<Generate_Magic_Space_Defense_Hard>
-		<Goal>Generate_Magic_Space_Defense_Hard</Goal>
-		<Function>Zero</Function> <!-- Needs_Magic_Space_Defense_Hard -->
+		<Goal>AlwaysOff</Goal>
+		<Function>Zero</Function> 
 	</Generate_Magic_Space_Defense_Hard>	
 
 	<Generate_Magic_Ground_Structure>
-		<Goal>Generate_Magic_Ground_Structure</Goal>
-		<Function>Zero</Function> <!-- Needs_Magic_Ground_Structure -->
+		<Goal>AlwaysOff</Goal>
+		<Function>Zero</Function> 
 	</Generate_Magic_Ground_Structure>
 	
 	<Generate_Magic_Cash_Drop>
-		<Goal>Generate_Magic_Cash_Drop</Goal>
-		<Function>Zero</Function> <!-- Needs_Magic_Cash_Drop -->
+		<Goal>AlwaysOff</Goal>
+		<Function>Zero</Function> 
 	</Generate_Magic_Cash_Drop>
 
 </FunctionSet>

@@ -103,13 +103,11 @@
 	 </Allow_Blind_Ground_Production>
 
 	 <Allow_Blind_Space_Production>
-		1.0
+		25.0
 		*
-		(Variable_Self.CreditsUnnormalized >= 2000)
+		(Variable_Self.CreditsUnnormalized > 10000)
 		+
-		(Function_Enemy_Global_Space_Unit_Raw_Total.Evaluate > (1.33 * Function_Friendly_Global_Space_Unit_Raw_Total.Evaluate))
-		+
-		(Function_Enemy_Global_Space_Unit_Raw_Total.Evaluate > (0.9 * Function_Friendly_Global_Space_Unit_Raw_Total.Evaluate))
+		5 * (Function_Enemy_Global_Space_Unit_Raw_Total.Evaluate > (Function_Friendly_Global_Space_Unit_Raw_Total.Evaluate))
 	 </Allow_Blind_Space_Production>
 
 	<!-- Determine if we'd like to invade this system.

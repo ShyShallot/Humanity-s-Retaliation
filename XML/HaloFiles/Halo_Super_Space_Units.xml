@@ -5,7 +5,7 @@
 		<Text_ID>TEXT_UNIT_UNSC_INFINITY</Text_ID>
 		<Encyclopedia_Good_Against> COVN_CAS Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_INFINITY.ALO</Space_Model_Name>
 		<Select_Box_Scale>800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -204,7 +204,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_SOF.ALO</Space_Model_Name>
 		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -426,7 +426,7 @@
 		<Text_ID>TEXT_UNIT_COVN_CAS</Text_ID>
 		<Encyclopedia_Good_Against> Corellian_Corvette Interceptor4_Frigate UNSC_GLADIUS </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat MC30_Frigate </Encyclopedia_Vulnerable_To>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>COVN_CAS.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>

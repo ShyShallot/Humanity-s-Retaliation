@@ -586,7 +586,7 @@
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
-      <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+      	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>

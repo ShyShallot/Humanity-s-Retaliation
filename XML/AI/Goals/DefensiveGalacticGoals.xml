@@ -108,89 +108,57 @@
 	<Generate_Magic_Ground_Defense>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Defensive </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> 30.0 </Time_Limit>
-		<Is_Like>
-			Generate_Magic_Ground_Defense_Hard,
-			Generate_Magic_Ground_Defense_Easy,
-		</Is_Like>	
+		<Category> NoBudget </Category>
+		<Reachability> Enemy_Undefended </Reachability>
 	</Generate_Magic_Ground_Defense>
 	
 	<Generate_Magic_Space_Defense>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Defensive </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> 30.0 </Time_Limit>	
-		<Is_Like>
-			Generate_Magic_Space_Defense_Hard,
-			Generate_Magic_Space_Defense_Easy,
-		</Is_Like>	
+		<Category> NoBudget </Category>
+		<Reachability> Enemy_Undefended </Reachability>
 	</Generate_Magic_Space_Defense>
 	
 	<Generate_Magic_Space_Defense_Easy>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Defensive </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> 30.0 </Time_Limit>	
-		<Is_Like>
-			Generate_Magic_Space_Defense,
-			Generate_Magic_Space_Defense_Hard,
-		</Is_Like>	
+		<Category> NoBudget </Category>
+		<Reachability> Enemy_Undefended </Reachability>
 	</Generate_Magic_Space_Defense_Easy>
 	
 	<Generate_Magic_Ground_Defense_Easy>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Defensive </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> 30.0 </Time_Limit>
-		<Is_Like>
-			Generate_Magic_Ground_Defense_Hard,
-			Generate_Magic_Ground_Defense,
-		</Is_Like>	
+		<Category> NoBudget </Category>
+		<Reachability> Enemy_Undefended </Reachability>
 	</Generate_Magic_Ground_Defense_Easy>	
 	
 	<Generate_Magic_Ground_Defense_Hard>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Defensive </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> 30.0 </Time_Limit>
-		<Is_Like>
-			Generate_Magic_Space_Defense,
-			Generate_Magic_Space_Defense_Easy,
-		</Is_Like>	
+		<Category> NoBudget </Category>
+		<Reachability> Enemy_Undefended </Reachability>
 	</Generate_Magic_Ground_Defense_Hard>
 	
 	<Generate_Magic_Space_Defense_Hard>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Defensive </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> 30.0 </Time_Limit>	
-		<Is_Like>
-			Generate_Magic_Ground_Defense,
-			Generate_Magic_Ground_Defense_Easy,
-		</Is_Like>	
+		<Category> NoBudget </Category>
+		<Reachability> Enemy_Undefended </Reachability>
 	</Generate_Magic_Space_Defense_Hard>		
 
 	<Generate_Magic_Ground_Structure>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Defensive </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> 30.0 </Time_Limit>		
+		<Category> NoBudget </Category>
+		<Reachability> Enemy_Undefended </Reachability>
 	</Generate_Magic_Ground_Structure>
 
 	<Generate_Magic_Cash_Drop>
-		<AIGoalApplicationFlags> Global </AIGoalApplicationFlags>
+		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
-		<Category> Defensive </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> -1.0 </Time_Limit>			
+		<Category> NoBudget </Category>
+		<Reachability> Enemy_Undefended </Reachability>
 	</Generate_Magic_Cash_Drop>
 
 </Goals>

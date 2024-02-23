@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Story>
+    
+    <Event Name="Loyalty_Display">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ACTIVATE_LOYALTY_DISPLAY</Event_Param2>
+        <Story_Dialog>Loyalty_Dialog</Story_Dialog>
+        <Story_Chapter>1</Story_Chapter>
+        <Story_Dialog_Popup>False</Story_Dialog_Popup>
+        <Story_Tag>LOYALTY_DIS</Story_Tag>
+    </Event>
+
+</Story>

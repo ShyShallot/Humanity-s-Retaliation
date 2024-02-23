@@ -31,8 +31,6 @@ function Global_Story(message)
                 rebelPlanets[i] = planet
             elseif planet.Get_Owner().Get_Faction_Name() == "EMPIRE" then 
                 empirePlanets[i] = planet
-            elseif planet.Get_Owner().Get_Faction_Name() == "SWORDS" then 
-                swordsPlanets[i] = planet
             end
         end
 
@@ -100,9 +98,6 @@ function Global_Story(message)
             Spawn_Starting_Units("Empire",starting_units_empire,planet.Get_Type().Get_Name())
         end
 
-        for _, planet in pairs(swordsPlanets) do
-            Spawn_Starting_Units("Swords",starting_units_swords,planet.Get_Type().Get_Name())
-        end
 
         Lock_Vanilla_Units()
 
@@ -148,6 +143,7 @@ function Lock_Vanilla_Units()
     empire = Find_Player("EMPIRE")
     empire.Lock_Tech(Find_Object_Type("Generic_Probe_Droid"))
     empire.Lock_Tech(Find_Object_Type("Probe_Droid_Team"))
+    empire.Lock_Tech(Find_Object_Type("TIE_Scout_Squadron"))
     rebel = Find_Player("REBEL")
     rebel.Lock_Tech(Find_Object_Type("A_Wing_Squadron"))
 end
