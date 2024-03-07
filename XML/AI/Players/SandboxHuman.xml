@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+
+<!-- Credit to the AOTR Team for this-->
+
+<AIPlayerType>
+
+	<Name>SandboxHuman</Name>
+
+	<Personality>
+		<Focus> 0 </Focus>
+		<Aggressiveness> 0 </Aggressiveness>
+	</Personality>
+
+    <GalacticFreeStoreScript>HumanFreeStore</GalacticFreeStoreScript>
+	<GoalSetExtensionSize>1</GoalSetExtensionSize>
+	
+	<GoalProposalFunctionSets>
+		InterventionsGoalSet
+	</GoalProposalFunctionSets>
+    <Templates>
+        <Space>
+        </Space>
+        <Land>
+        </Land>
+        <Galactic>
+        </Galactic>
+    </Templates>
+	
+</AIPlayerType>

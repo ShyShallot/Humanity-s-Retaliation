@@ -753,7 +753,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Encyclopedia_Text> TEXT_MINING_FACILITY_CAMPAIGN  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_MINING_FACILITY_CAMPAIGN TEXT_MINING_FACILITY_CAMPAIGN_INCOME</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
@@ -856,7 +856,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Encyclopedia_Text> TEXT_MINING_FACILITY_CAMPAIGN  </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_MINING_FACILITY_CAMPAIGN TEXT_MINING_FACILITY_CAMPAIGN_INCOME</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>

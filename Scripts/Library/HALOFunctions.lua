@@ -202,3 +202,29 @@ function customModulo(dividend, divisor)
     local remainder = dividend - (quotient * divisor)
     return remainder
 end
+
+function Get_Current_Week()
+    return tonumber(Dirty_Floor(Get_Current_Week_Raw() + 0.5))
+end
+
+function Get_Current_Week_Raw()
+    weekTime = 60
+    week = (GetCurrentTime.Galactic_Time() / weekTime)
+    return week
+end
+
+function Percentage(number, total)
+    if total == 0 then
+        return 0
+    end
+
+    return (number/total) * 100
+end
+
+function abs(number)
+    if number < 0 then
+        return -number
+    end
+
+    return number
+end

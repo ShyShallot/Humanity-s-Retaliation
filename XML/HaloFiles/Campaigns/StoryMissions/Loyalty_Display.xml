@@ -10,4 +10,28 @@
         <Story_Tag>LOYALTY_DIS</Story_Tag>
     </Event>
 
+    <Event Name="Planet_Lost_Sound_Rebel">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Planet_Lost</Event_Param2>
+        <Reward_Type>SFX</Reward_Type>
+        <Reward_Param1>RHD_Planet_Lost</Reward_Param1>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Planet_Lost_Sound_Empire">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Planet_Lost</Event_Param2>
+        <Reward_Type>SFX</Reward_Type>
+        <Reward_Param1>EHD_Planet_Lost</Reward_Param1>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Farms_Unlocked">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Planet_Lost</Event_Param2>
+        <Reward_Type>SFX</Reward_Type>
+        <Reward_Param1>RHD_New_Options</Reward_Param1>
+        <Perpetual>true</Perpetual>
+    </Event>
+
 </Story>

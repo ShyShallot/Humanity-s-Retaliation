@@ -215,7 +215,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>0.9</Max_Speed>
+		<Max_Speed>1.45</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>

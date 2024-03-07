@@ -134,8 +134,14 @@
 
 		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml</Empire_Story_Name>
     <Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandboxHuman</AI_Player_Control>
         
     	<AI_Player_Control> Empire,  BasicEmpire</AI_Player_Control>
+
+		<AI_Player_Control> Terrorists,  BasicRebel</AI_Player_Control>
+
+		<AI_Player_Control> Swords,  BasicEmpire</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
@@ -252,7 +258,7 @@
 	
     </Campaign>
 
-	<Campaign Name="Sandbox_Halo_Evolved_Covenant">
+ <Campaign Name="Sandbox_Halo_Evolved_Covenant">
 
 		<Campaign_Set> Sandbox_Halo_Evolved </Campaign_Set>
 		<Sort_Order>7</Sort_Order>
@@ -385,9 +391,15 @@
     <Starting_Active_Player> Empire </Starting_Active_Player>
 
 		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml</Empire_Story_Name>
-    <Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml</Rebel_Story_Name>
+    	<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml</Rebel_Story_Name>
         
-    <AI_Player_Control> Rebel,  BasicRebel</AI_Player_Control>
+    	<AI_Player_Control> Rebel,  BasicRebel</AI_Player_Control>
+
+		<AI_Player_Control> Empire,  SandboxHuman</AI_Player_Control>
+
+		<AI_Player_Control> Terrorists,  BasicRebel</AI_Player_Control>
+
+		<AI_Player_Control> Swords,  BasicEmpire</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
