@@ -47,7 +47,7 @@
 		<Category> Offensive </Category>
 		<Reachability> Any </Reachability>
 		<Time_Limit> 90.0 </Time_Limit>
-		<Build_Time_Delay_Tolerance>1.5</Build_Time_Delay_Tolerance>
+		<Build_Time_Delay_Tolerance>2.0</Build_Time_Delay_Tolerance>
 		<Is_Like>Conquer_To_Reconnect, Conquer_Opponent</Is_Like> 
 		<Tracking_Duration>300</Tracking_Duration>
 		<Per_Failure_Desire_Adjust>1.0</Per_Failure_Desire_Adjust>

@@ -427,9 +427,9 @@
 		*
 		(Variable_Self.SpaceTotalUnnormalized > Variable_Target.EnemyForce.SpaceTotalUnnormalized)
 		*
-		(Variable_Self.TimeSinceSpaceAttacker > (360 # 480) )
+		(Variable_Self.TimeSinceSpaceAttacker > (180 # 360) )
 		*
-		(Game.Age > 360)
+		(Game.Age > 180)
 	</Should_Conquer_Opponent_Planet>
 
 	<!-- We have this specific goal so that the AI can advance to tech 5 due to the Shield Tech

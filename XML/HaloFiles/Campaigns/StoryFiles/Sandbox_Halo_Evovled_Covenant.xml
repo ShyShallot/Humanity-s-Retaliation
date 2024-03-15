@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<Story_Mode_Plots>
-    <Lua_Script>Starting_Units</Lua_Script>
-    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Setup_Covenant.xml</Active_Plot>
-    <Lua_Script>PlanetsLoyalty</Lua_Script>
-    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Loyalty_Display.xml</Active_Plot>
-</Story_Mode_Plots>

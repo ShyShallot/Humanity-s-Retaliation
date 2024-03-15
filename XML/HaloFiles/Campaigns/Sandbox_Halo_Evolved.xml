@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Campaigns>
-  <Campaign Name="Sandbox_Halo_Evolved_UNSC">
+	<Campaign Name="Sandbox_Halo_Evolved_UNSC">
 
 		<Campaign_Set> Sandbox_Halo_Evolved </Campaign_Set>
 		<Sort_Order>7</Sort_Order>
 
-    <Text_ID> TEXT_HALO_CAMPAIGN_EVOLVED </Text_ID>
-    <Description_Text> TEXT_HALO_CAMPAIGN_EVOLVED_ENC </Description_Text>
+		<Text_ID> TEXT_HALO_CAMPAIGN_EVOLVED </Text_ID>
+		<Description_Text> TEXT_HALO_CAMPAIGN_EVOLVED_ENC </Description_Text>
 
-    <Camera_Shift_X> 40.0 </Camera_Shift_X>
-    <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
-    <Camera_Distance> 1200.0 </Camera_Distance>
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
 
-    <Locations> 
+		<Locations> 
 		Galaxy_Core_Art_Model, 
 		Reach,
         Earth,
@@ -58,14 +58,14 @@
 		Feldokra,
 		Ulhethon,
 		Palamok,
-		Ven_3,
+		Ven_III,
 		Kostroda,
 		Khaelmothka,
 		Tvao,
         Sanghelios
 		</Locations>
 
-    <Trade_Routes> 
+		<Trade_Routes> 
 			Earth_Reach,
 			Earth_Mars,
 			Mars_Harmony,
@@ -101,8 +101,8 @@
 			Kostroda_Kamchatka,
 			Kamchatka_Rhanelo,
 			Rhanelo_Taram,
-			Taram_Ven_3,
-			Ven_3_Palamok,
+			Taram_Ven_III,
+			Ven_III_Palamok,
 			Palamok_Balaho,
 			Palamok_Ulgethon,
 			Balaho_Eayn,
@@ -115,8 +115,8 @@
 			Harvest_Arcadia,
 			Arcadia_Eridanus_2,
 			Eridanus_2_Alluvion,
-			Alluvion_Aktis4,
-			Aktis4_Aleria,
+			Alluvion_Aktis_IV,
+			Aktis_IV_Aleria,
 			Eridanus_2_Madrigal,
 			Madrigal_Earth,
 			Codisfold_Sanghelios,
@@ -126,18 +126,18 @@
 			Song_Of_Victory_Ulgethon
 		</Trade_Routes>
 
-    <Home_Location> Rebel, Earth </Home_Location>
+		<Home_Location> Rebel, Earth </Home_Location>
 
-    <Home_Location> Empire, Sanghelios </Home_Location>
+		<Home_Location> Empire, Sanghelios </Home_Location>
 
-    <Starting_Active_Player> Rebel </Starting_Active_Player>
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
 
-		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml</Empire_Story_Name>
-    <Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml</Rebel_Story_Name>
+		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Empire_Story_Name>
+		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml</Rebel_Story_Name>
 
 		<AI_Player_Control> Rebel, SandboxHuman</AI_Player_Control>
-        
-    	<AI_Player_Control> Empire,  BasicEmpire</AI_Player_Control>
+
+		<AI_Player_Control> Empire,  BasicEmpire</AI_Player_Control>
 
 		<AI_Player_Control> Terrorists,  BasicRebel</AI_Player_Control>
 
@@ -159,7 +159,7 @@
 				Galactic_All_Planets_Controlled
 		</AI_Victory_Conditions>
 
-        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
 
 
 		<!-- Starting Forces Do not matter, keep it like this as they get despawned when the GC loads-->
@@ -169,7 +169,7 @@
 		<Starting_Credits> Rebel,  7500 </Starting_Credits>
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
-		
+
 		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_4 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_4 </Starting_Forces>
@@ -246,7 +246,7 @@
 
 		<Starting_Forces> Empire, Palamok, Empire_Star_Base_2</Starting_Forces>
 
-		<Starting_Forces> Empire, Ven_3, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces> Empire, Ven_III, Empire_Star_Base_1</Starting_Forces>
 
 		<Starting_Forces> Empire, Kostroda, Empire_Star_Base_2</Starting_Forces>
 
@@ -255,22 +255,22 @@
 		<Starting_Forces> Empire, Tvao, Empire_Star_Base_1</Starting_Forces>
 
 		<Starting_Forces> Empire, Thua, Empire_Star_Base_2</Starting_Forces>
-	
-    </Campaign>
 
- <Campaign Name="Sandbox_Halo_Evolved_Covenant">
+	</Campaign>
+
+	<Campaign Name="Sandbox_Halo_Evolved_Covenant">
 
 		<Campaign_Set> Sandbox_Halo_Evolved </Campaign_Set>
 		<Sort_Order>7</Sort_Order>
 
-    <Text_ID> TEXT_HALO_CAMPAIGN_EVOLVED </Text_ID>
-    <Description_Text> TEXT_HALO_CAMPAIGN_EVOLVED_ENC </Description_Text>
+		<Text_ID> TEXT_HALO_CAMPAIGN_EVOLVED </Text_ID>
+		<Description_Text> TEXT_HALO_CAMPAIGN_EVOLVED_ENC </Description_Text>
 
-    <Camera_Shift_X> 40.0 </Camera_Shift_X>
-    <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
-    <Camera_Distance> 1200.0 </Camera_Distance>
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
 
-    <Locations> 
+		<Locations> 
 		Galaxy_Core_Art_Model, 
 		Reach,
         Earth,
@@ -316,14 +316,14 @@
 		Feldokra,
 		Ulhethon,
 		Palamok,
-		Ven_3,
+		Ven_III,
 		Kostroda,
 		Khaelmothka,
 		Tvao,
         Sanghelios
 		</Locations>
 
-    <Trade_Routes> 
+		<Trade_Routes> 
 			Earth_Reach,
 			Earth_Mars,
 			Mars_Harmony,
@@ -359,8 +359,8 @@
 			Kostroda_Kamchatka,
 			Kamchatka_Rhanelo,
 			Rhanelo_Taram,
-			Taram_Ven_3,
-			Ven_3_Palamok,
+			Taram_Ven_III,
+			Ven_III_Palamok,
 			Palamok_Balaho,
 			Palamok_Ulgethon,
 			Balaho_Eayn,
@@ -373,8 +373,8 @@
 			Harvest_Arcadia,
 			Arcadia_Eridanus_2,
 			Eridanus_2_Alluvion,
-			Alluvion_Aktis4,
-			Aktis4_Aleria,
+			Alluvion_Aktis_IV,
+			Aktis_IV_Aleria,
 			Eridanus_2_Madrigal,
 			Madrigal_Earth,
 			Codisfold_Sanghelios,
@@ -384,16 +384,16 @@
 			Song_Of_Victory_Ulgethon
 		</Trade_Routes>
 
-    <Home_Location> Rebel, Earth </Home_Location>
+		<Home_Location> Rebel, Earth </Home_Location>
 
-    <Home_Location> Empire, Sanghelios </Home_Location>
+		<Home_Location> Empire, Sanghelios </Home_Location>
 
-    <Starting_Active_Player> Empire </Starting_Active_Player>
+		<Starting_Active_Player> Empire </Starting_Active_Player>
 
 		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant.xml</Empire_Story_Name>
-    	<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml</Rebel_Story_Name>
-        
-    	<AI_Player_Control> Rebel,  BasicRebel</AI_Player_Control>
+		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC_AI.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel,  BasicRebel</AI_Player_Control>
 
 		<AI_Player_Control> Empire,  SandboxHuman</AI_Player_Control>
 
@@ -417,7 +417,7 @@
 				Galactic_All_Planets_Controlled
 		</AI_Victory_Conditions>
 
-        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
 
 
 		<!-- Starting Forces Do not matter, keep it like this as they get despawned when the GC loads-->
@@ -427,7 +427,7 @@
 		<Starting_Credits> Rebel,  7500 </Starting_Credits>
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
-		
+
 		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_4 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_4 </Starting_Forces>
@@ -504,7 +504,7 @@
 
 		<Starting_Forces> Empire, Palamok, Empire_Star_Base_2</Starting_Forces>
 
-		<Starting_Forces> Empire, Ven_3, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces> Empire, Ven_III, Empire_Star_Base_1</Starting_Forces>
 
 		<Starting_Forces> Empire, Kostroda, Empire_Star_Base_2</Starting_Forces>
 
@@ -513,6 +513,6 @@
 		<Starting_Forces> Empire, Tvao, Empire_Star_Base_1</Starting_Forces>
 
 		<Starting_Forces> Empire, Thua, Empire_Star_Base_2</Starting_Forces>
-	
-    </Campaign>
+
+	</Campaign>
 </Campaigns>

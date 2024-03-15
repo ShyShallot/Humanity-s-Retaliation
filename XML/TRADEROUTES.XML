@@ -315,8 +315,8 @@
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
-	<TradeRoute Name="Taram_Ven_3">
-		<Point_A>Ven_3</Point_A>
+	<TradeRoute Name="Taram_Ven_III">
+		<Point_A>Ven_III</Point_A>
 		<Point_B>Taram</Point_B>
 		<HS_Speed_Factor>0.8</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
@@ -324,8 +324,8 @@
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
-	<TradeRoute Name="Ven_3_Palamok">
-		<Point_A>Ven_3</Point_A>
+	<TradeRoute Name="Ven_III_Palamok">
+		<Point_A>Ven_III</Point_A>
 		<Point_B>Palamok</Point_B>
 		<HS_Speed_Factor>0.8</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
@@ -441,8 +441,8 @@
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
-	<TradeRoute Name="Alluvion_Aktis4">
-		<Point_A>Aktis4</Point_A>
+	<TradeRoute Name="Alluvion_Aktis_IV">
+		<Point_A>Aktis_IV</Point_A>
 		<Point_B>Alluvion</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
@@ -450,8 +450,8 @@
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
-	<TradeRoute Name="Aktis4_Aleria">
-		<Point_A>Aktis4</Point_A>
+	<TradeRoute Name="Aktis_IV_Aleria">
+		<Point_A>Aktis_IV</Point_A>
 		<Point_B>Aleria</Point_B>
 		<HS_Speed_Factor>0.5</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>

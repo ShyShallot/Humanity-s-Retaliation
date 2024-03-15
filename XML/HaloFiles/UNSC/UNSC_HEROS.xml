@@ -5,6 +5,7 @@
         <Text_ID>HALO_UNSC_GENERIC_FLEET_COMMANDER</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_UNSC_FLEET_COMMANDER TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_UNSC_COMMANDER </Encyclopedia_Unit_Class>
+		<Tech_Level>99</Tech_Level>
 		<Layer_Z_Adjust>-20</Layer_Z_Adjust>
         <Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="UNSC_Space_Commander_Combat_Bonus">
@@ -112,7 +113,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>Mars</Required_Planets>
+		<Required_Planets/>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>14500</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
@@ -125,7 +126,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>16500</Build_Cost_Credits>
 		<AI_Combat_Power>8000</AI_Combat_Power>
-		<Build_Time_Seconds>65</Build_Time_Seconds>
+		<Build_Time_Seconds>185</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -281,5 +282,68 @@
 		<Ship_Class> capital_ship </Ship_Class>
 		<Glory_Cinematics> CAM_UNSC_POA_Die.tec </Glory_Cinematics>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</SpaceUnit>
+
+	<SpaceUnit Name="UNSC_IAC">
+		<Variant_Of_Existing_Type>UNSC_STALWART</Variant_Of_Existing_Type>
+		<Text_ID>HALO_UNSC_IN_AMBER_CLAD</Text_ID>
+        <Encyclopedia_Text> HALO_TEXT_COMMANDS_STALWART HALO_UNSC_MIRANDA_KEYS_ENC HALO_UNSC_MIRANDA_KEYS_BUFF TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_UNSC_COMMANDER </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>I_BUTTON_IAC.tga</Icon_Name>
+		<Autoresolve_Health>4350</Autoresolve_Health>
+		<Tactical_Health>4350</Tactical_Health>
+		<Political_Faction>Rebel</Political_Faction>
+		<Build_Cost_Credits>3650</Build_Cost_Credits>
+		<AI_Combat_Power>2950</AI_Combat_Power>
+		<Build_Time_Seconds>95</Build_Time_Seconds>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="UNSC_Space_Commander_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Corvette | Frigate | Fighter | Bomber </Unit_Strength_Category>
+				<Applicable_Unit_Categories>Corvette | Frigate | Fighter | Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.05</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.08</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.02</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+
+	</SpaceUnit>
+
+	<SpaceUnit Name="UNSC_ROMAN_BLUE">
+		<Variant_Of_Existing_Type>UNSC_HALCYON</Variant_Of_Existing_Type>
+		<Text_ID>HALO_UNSC_ADMIRAL_HOOD</Text_ID>
+        <Encyclopedia_Text>HALO_TEXT_COMMANDS_HALCYON HALO_UNSC_ADMIRAL_HOOD_ENC HALO_UNSC_ADMIRAL_HOOD_BUFF TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_UNSC_COMMANDER </Encyclopedia_Unit_Class>
+		<Build_Cost_Credits>8500</Build_Cost_Credits>
+		<Build_Time_Seconds>110</Build_Time_Seconds>
+		<Icon_Name>I_BUTTON_HOOD.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="UNSC_Space_Commander_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate </Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 	</SpaceUnit>
 </HeroUnits>

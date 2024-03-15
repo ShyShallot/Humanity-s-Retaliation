@@ -16,7 +16,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>COVN_STATION_TIER1.ALO</Space_Model_Name>
-		<Galactic_Model_Name>COVN_STATION_TIER1.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>COVN_STATION_TIER1_GUI.ALO</Galactic_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -149,7 +149,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>COVN_STATION_TIER2.ALO</Space_Model_Name>
-		<Galactic_Model_Name>COVN_STATION_TIER2.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>COVN_STATION_TIER2_GUI.ALO</Galactic_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 
 		<Select_Box_Scale>900</Select_Box_Scale>
@@ -291,7 +291,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>COVN_STATION_TIER3.ALO</Space_Model_Name>
-		<Galactic_Model_Name>COVN_STATION_TIER3.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>COVN_STATION_TIER3_GUI.ALO</Galactic_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 
 		<Select_Box_Scale>1200</Select_Box_Scale>
@@ -435,7 +435,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>COVN_STATION_TIER4.ALO</Space_Model_Name>
-		<Galactic_Model_Name>COVN_STATION_TIER4.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>COVN_STATION_TIER4_GUI.ALO</Galactic_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 
 		<Select_Box_Scale>1500</Select_Box_Scale>
@@ -577,7 +577,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>COVN_STATION_TIER5.ALO</Space_Model_Name>
-		<Galactic_Model_Name>COVN_STATION_TIER5.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>COVN_STATION_TIER5_GUI.ALO</Galactic_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 
 		<Select_Box_Scale>1800</Select_Box_Scale>
@@ -922,7 +922,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_STATION_TIER_1.ALO</Space_Model_Name>
 		<Scale_Factor>3.5</Scale_Factor>
-		<Galactic_Model_Name>UNSC_STATION_TIER_1.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>UNSC_STATION_TIER_1_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Is_Dummy>No</Is_Dummy>
@@ -940,7 +940,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
@@ -1071,7 +1071,7 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Scale_Factor>3.5</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_2.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL2.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>UNSC_STATION_TIER_2_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -1088,7 +1088,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>1250</Autoresolve_Health>
 		<Damage>45</Damage>
@@ -1221,7 +1221,7 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Scale_Factor>3.5</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_3.ALO</Space_Model_Name>
-		<Galactic_Model_Name>UNSC_STATION_TIER_3.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>UNSC_STATION_TIER_3_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>450</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -1238,7 +1238,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>40000</Autoresolve_Health>
 		<Damage>55</Damage>
@@ -1378,7 +1378,7 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Scale_Factor>3.5</Scale_Factor>
 		<Space_Model_Name>UNSC_STATION_TIER_4.ALO</Space_Model_Name>
-		<Galactic_Model_Name>UNSC_STATION_TIER_4.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>UNSC_STATION_TIER_4_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -1395,7 +1395,7 @@
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>2250</Autoresolve_Health>
 		<Damage>65</Damage>
@@ -1546,7 +1546,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UNSC_STATION_TIER_5.ALO</Space_Model_Name>
-		<Galactic_Model_Name>UNSC_STATION_TIER_5.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>UNSC_STATION_TIER_5_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>

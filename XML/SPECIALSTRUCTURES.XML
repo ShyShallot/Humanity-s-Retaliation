@@ -681,7 +681,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Tactical_Health>4500</Tactical_Health>
+		<Tactical_Health>2750</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI</SpaceBehavior>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -719,9 +719,9 @@
 			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
 				<!-- 10% bonus to base planetary income -->
-				<Percentage_Income_Modifier>1.1</Percentage_Income_Modifier>
+				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
 				<!-- plus an absolute 0 credits to planetary income -->
-				<Absolute_Income_Modifier>125</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>425</Absolute_Income_Modifier>
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
 				<Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
@@ -822,7 +822,7 @@
 			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
 				<!-- 30% bonus to base planetary income -->
-				<Percentage_Income_Modifier>1.35</Percentage_Income_Modifier>
+				<Percentage_Income_Modifier>1.00</Percentage_Income_Modifier>
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>425</Absolute_Income_Modifier>
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
@@ -865,6 +865,31 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
+	</SpecialStructure>
+
+	<SpecialStructure Name="DELETE_UNSC_Mining_Facility">
+		<Variant_Of_Existing_Type>UNSC_Mining_Facility</Variant_Of_Existing_Type>
+		<Required_Special_Structures>UNSC_Mining_Facility</Required_Special_Structures>
+		<Text_ID>TEXT_ASTEROID_MINING_FACILITY_DELTE</Text_ID>
+		<Encyclopedia_Text> TEXT_MINING_FACILITY_CAMPAIGN_DELETE </Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ASTEROIDMINING_DELETE.tga</Icon_Name>
+		<Lua_Script>Delete_Object</Lua_Script>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+	</SpecialStructure>
+
+	<SpecialStructure Name="DELETE_COVN_Mining_Facility">
+		<Variant_Of_Existing_Type>COVN_Mining_Facility</Variant_Of_Existing_Type>
+		<Required_Special_Structures>COVN_Mining_Facility</Required_Special_Structures>
+		<Text_ID>TEXT_ASTEROID_MINING_FACILITY_DELTE</Text_ID>
+		<Encyclopedia_Text> TEXT_MINING_FACILITY_CAMPAIGN_DELETE </Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ASTEROIDMINING_DELETE.tga</Icon_Name>
+		<Lua_Script>Delete_Object</Lua_Script>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+	
 	</SpecialStructure>
 
 	<SpecialStructure Name="UNSC_FARM">
@@ -959,7 +984,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Encyclopedia_Text> TEXT_HALO_FARM_ENC TEXT_HALO_PROVIDES_LOYALTY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_HALO_FARM_ENC TEXT_HALO_PROVIDES_LOYALTY TEXT_HALO_ECONOMY_UPKEEP_95 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>

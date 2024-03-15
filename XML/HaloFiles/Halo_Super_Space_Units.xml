@@ -47,7 +47,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>Reach</Required_Planets>
+		<Required_Planets>Sanghelios, Mars, Song_Of_Victory, Reach, Earth</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>20000</Tactical_Health>
 		<Shield_Points>17500</Shield_Points>
@@ -60,7 +60,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>21500</Build_Cost_Credits>
 		<AI_Combat_Power>12000</AI_Combat_Power>
-		<Build_Time_Seconds>180</Build_Time_Seconds>
+		<Build_Time_Seconds>375</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -197,6 +197,16 @@
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>45</Population_Value>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_TECH_UNSC_COUNTDOWN_TIMER_INFINITY </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
+		<Build_Speech_Underway> EHD_Upgrade_Progress </Build_Speech_Underway>
+		<Build_Speech_Completed> EHD_Upgrade_Complete </Build_Speech_Completed>
+		<Build_Speech_Stopped> EHD_Tech_Upgrade_Canceled </Build_Speech_Stopped>
+		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
+		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_SOF">
@@ -295,13 +305,11 @@
 			UNSC_SOF_ARCHER_16
 		</HardPoints>
 
-		<Starting_Spawned_Units_Tech_0>Sabre_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Longsword_Squadron, 10</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Sabre_Squadron, 12</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Broadsword_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 10</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 12</Reserve_Spawned_Units_Tech_0>
 
 		<Icon_Name>I_BUTTON_SOF.tga</Icon_Name>
 		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
@@ -359,7 +367,7 @@
 		
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>1000.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>1200.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>850.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
@@ -469,7 +477,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
+		<Required_Planets>Sanghelios, Mars, Song_Of_Victory, Reach, Earth</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>16000</Shield_Points>
@@ -482,12 +490,22 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>11000</Build_Cost_Credits>
+		<Build_Cost_Credits>17500</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
 		<AI_Combat_Power>10000</AI_Combat_Power>
-		<Build_Time_Seconds>100</Build_Time_Seconds>
+		<Build_Time_Seconds>395</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_TECH_COVN_COUNTDOWN_TIMER_CAS </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
+		<Build_Speech_Underway> EHD_Upgrade_Progress </Build_Speech_Underway>
+		<Build_Speech_Completed> EHD_Upgrade_Complete </Build_Speech_Completed>
+		<Build_Speech_Stopped> EHD_Tech_Upgrade_Canceled </Build_Speech_Stopped>
+		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
+		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>Seraph_Squadron, 3</Starting_Spawned_Units_Tech_0>
@@ -594,6 +612,8 @@
 		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		
 	</SpaceUnit>
 
 
@@ -611,7 +631,6 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>Sanghelios</Required_Planets>
 		<Build_Cost_Credits>19500</Build_Cost_Credits>
 		<Build_Time_Seconds>180</Build_Time_Seconds>
 

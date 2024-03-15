@@ -15,7 +15,7 @@
 		<Required_Special_Structures>UNSC_RESEARCH_FACILITY</Required_Special_Structures>
 		<Tech_Level>0</Tech_Level>
 		<Build_Cost_Credits>15000</Build_Cost_Credits>
-		<Build_Time_Seconds>180</Build_Time_Seconds>
+		<Build_Time_Seconds>360</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>1</Build_Advances_Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -47,7 +47,7 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>1</Tech_Level>
 		<Build_Cost_Credits>21500</Build_Cost_Credits>
-		<Build_Time_Seconds>210</Build_Time_Seconds>
+		<Build_Time_Seconds>480</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Required_Special_Structures>UNSC_RESEARCH_FACILITY</Required_Special_Structures>
 		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
@@ -80,7 +80,7 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>2</Tech_Level>
 		<Build_Cost_Credits>25000</Build_Cost_Credits>
-		<Build_Time_Seconds>230</Build_Time_Seconds>
+		<Build_Time_Seconds>600</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Required_Special_Structures>UNSC_RESEARCH_FACILITY</Required_Special_Structures>
 		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
@@ -113,7 +113,7 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>3</Tech_Level>
 		<Build_Cost_Credits>30000</Build_Cost_Credits>
-		<Build_Time_Seconds>280</Build_Time_Seconds>
+		<Build_Time_Seconds>720</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Required_Special_Structures>UNSC_RESEARCH_FACILITY</Required_Special_Structures>
 		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>

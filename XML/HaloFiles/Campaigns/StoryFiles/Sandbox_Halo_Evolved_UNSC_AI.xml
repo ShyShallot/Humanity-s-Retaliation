@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Story_Mode_Plots>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Setup_UNSC_AI.xml</Active_Plot>
+    <Lua_Script>UNSC_RESEARCH</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\UNSC_Shield_Tech.xml</Active_Plot>
+</Story_Mode_Plots>

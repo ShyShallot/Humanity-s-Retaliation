@@ -46,7 +46,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>Earth,Reach</Required_Planets>
+		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>16500</Tactical_Health>
 		<Shield_Points>11500</Shield_Points>
@@ -59,7 +59,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>13500</Build_Cost_Credits>
 		<AI_Combat_Power>7000</AI_Combat_Power>
-		<Build_Time_Seconds>75</Build_Time_Seconds>
+		<Build_Time_Seconds>275</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -220,7 +220,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>Earth,Reach</Required_Planets>
+		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Autoresolve_Health>13000</Autoresolve_Health>
 		<Tactical_Health>13000</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
@@ -233,7 +233,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>10500</Build_Cost_Credits>
 		<AI_Combat_Power>7500</AI_Combat_Power>
-		<Build_Time_Seconds>55</Build_Time_Seconds>
+		<Build_Time_Seconds>195</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -394,7 +394,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets/>
+		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Autoresolve_Health>8500</Autoresolve_Health>
 		<Tactical_Health>8500</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
@@ -407,7 +407,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>6500</Build_Cost_Credits>
 		<AI_Combat_Power>6000</AI_Combat_Power>
-		<Build_Time_Seconds>40</Build_Time_Seconds>
+		<Build_Time_Seconds>95</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -573,7 +573,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>Mars</Required_Planets>
+		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Ship_Class>capital</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -585,7 +585,7 @@
 		<Build_Cost_Credits>15000</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>9000</AI_Combat_Power>
-		<Build_Time_Seconds>95</Build_Time_Seconds>
+		<Build_Time_Seconds>315</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED</Behavior>
