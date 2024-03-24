@@ -20,6 +20,7 @@
 	<!-- Covenant Hardpoints-->
 	<File>HaloFiles\Hardpoints\Covenant\COVN_Capital_HP.xml</File>
 	<File>HaloFiles\Hardpoints\Covenant\COVN_CAS_HP.xml</File>
+	<File>HaloFiles\Hardpoints\Covenant\COVN_CSO_HP.xml</File>
 	<File>HaloFiles\Hardpoints\Covenant\COVN_Corvette_HP.xml</File>
 	<File>HaloFiles\Hardpoints\Covenant\COVN_Fighter_HP.xml</File>
 	<File>HaloFiles\Hardpoints\Covenant\COVN_Frigate_HP.xml</File>

@@ -1447,6 +1447,17 @@
         <Is_Discardable>false</Is_Discardable>  
 		<Affiliation>Neutral</Affiliation>
     </Marker>
+
+	<Marker Name="Longsword_Spawn">
+		<Text_ID>TEXT_STORY_TRIGGER_ZONE</Text_ID>
+        <Is_Marker>Yes</Is_Marker>
+        <Galactic_Model_Name>w_flag_marker_Red.alo</Galactic_Model_Name>
+        <Space_Model_Name>w_flag_marker_Red.alo</Space_Model_Name>
+        <Land_Model_Name>w_flag_marker_Red.alo</Land_Model_Name>
+        <Behavior>MARKER</Behavior>
+        <Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Neutral</Affiliation>
+	</Marker>
     
     <Marker Name="Marker_Generic_Green">
         <Text_ID>TEXT_STORY_TRIGGER_ZONE</Text_ID>

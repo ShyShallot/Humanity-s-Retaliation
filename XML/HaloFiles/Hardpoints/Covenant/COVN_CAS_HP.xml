@@ -5,7 +5,7 @@
             <Tooltip_Text>COVN_BFG</Tooltip_Text>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>360.0</Health>
+            <Health>1050.0</Health>
             <Attachment_Bone>HP_HUGEFUCKINGLASER</Attachment_Bone>
             <Collision_Mesh>HP_HUGEFUCKINGLASER</Collision_Mesh>
             <Blast_Ability_Fire_Projectile_Type>Proj_Plasma_Lance</Blast_Ability_Fire_Projectile_Type>
@@ -624,7 +624,7 @@
 			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>            
+            <Health>1550</Health>           
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -640,7 +640,7 @@
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>            
+            <Health>1550</Health>           
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -656,7 +656,7 @@
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>            
+            <Health>1550</Health>           
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -672,7 +672,7 @@
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>350.0</Health>            
+            <Health>1550</Health>           
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -688,7 +688,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>230.0</Health>		
+        <Health>950</Health>	
         <Attachment_Bone>HP_CAS_HANGER_01_BONE</Attachment_Bone>             
 		<Collision_Mesh>HP_CAS_HANGER_01_BONE</Collision_Mesh>
         <Damage_Particles>HP_CAS_HANGER_01_BONE_EMIT</Damage_Particles>
@@ -701,7 +701,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>350.0</Health>		
+        <Health>950</Health>	
         <Attachment_Bone>HP_CAS_HANGER_02_BONE</Attachment_Bone>             
 		<Collision_Mesh>HP_CAS_HANGER_02_BONE</Collision_Mesh>
         <Damage_Particles>HP_CAS_HANGER_02_BONE_EMIT</Damage_Particles>
@@ -714,7 +714,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>350.0</Health>		
+        <Health>950</Health>	
         <Attachment_Bone>HP_CAS_HANGER_03_BONE</Attachment_Bone>             
 		<Collision_Mesh>HP_CAS_HANGER_03_BONE</Collision_Mesh>
         <Damage_Particles>HP_CAS_HANGER_03_BONE_EMIT</Damage_Particles>
@@ -727,7 +727,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>350.0</Health>		
+        <Health>950</Health>	
         <Attachment_Bone>HP_CAS_HANGER_04_BONE</Attachment_Bone>             
 		<Collision_Mesh>HP_CAS_HANGER_04_BONE</Collision_Mesh>
         <Damage_Particles>HP_CAS_HANGER_04_BONE_EMIT</Damage_Particles>
@@ -741,7 +741,7 @@
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
-       <Health>450</Health>
+       <Health>750</Health>
        <Is_Turret>Yes</Is_Turret>
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_01.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -781,7 +781,7 @@
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
-       <Health>450</Health>
+       <Health>750</Health>
        <Is_Turret>Yes</Is_Turret>
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_02.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -821,7 +821,7 @@
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
-       <Health>450</Health>
+       <Health>750</Health>
        <Is_Turret>Yes</Is_Turret>
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_03.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -861,7 +861,7 @@
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
-       <Health>450</Health>
+       <Health>750</Health>
        <Is_Turret>Yes</Is_Turret>
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_04.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -901,7 +901,7 @@
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
-       <Health>450</Health>
+       <Health>750</Health>
        <Is_Turret>Yes</Is_Turret>
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_05.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -941,7 +941,7 @@
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
-       <Health>450</Health>
+       <Health>750</Health>
        <Is_Turret>Yes</Is_Turret>
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_06.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -981,7 +981,7 @@
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
-       <Health>450</Health>
+       <Health>750</Health>
        <Is_Turret>Yes</Is_Turret>
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_07.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -1021,7 +1021,7 @@
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
-       <Health>450</Health>
+       <Health>750</Health>
        <Is_Turret>Yes</Is_Turret>
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_08.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -1061,7 +1061,7 @@
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
-       <Health>450</Health>
+       <Health>750</Health>
        <Is_Turret>Yes</Is_Turret>
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_09.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
@@ -1101,7 +1101,7 @@
        <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
-       <Health>450</Health>
+       <Health>750</Health>
        <Is_Turret>Yes</Is_Turret>
        <Model_To_Attach> COVN_CAS_HEAVYPLASMA_10.ALO </Model_To_Attach>
        <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>

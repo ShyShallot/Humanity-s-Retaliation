@@ -239,6 +239,39 @@
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 		<AI_Combat_Power>300</AI_Combat_Power>
 	</Squadron>
+
+	<Squadron Name="Longsword_Far_Isle_Squadron">
+		<Variant_Of_Existing_Type>Longsword_Squadron</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Longsword_Far_Isle_Squadron_Container </Create_Team_Type>
+		
+		<Tech_Level>99</Tech_Level>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Alternate_Name_Text>HALO_LONGSWORD_SHIVA</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_LONGSWORD_SHIVA_ENC</Alternate_Description_Text>
+				<Supports_Autofire>False</Supports_Autofire>
+				<Type>SPOILER_LOCK</Type>
+				
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Red_Leader</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Red_Leader</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"></Abilities>
+	</Squadron>
+
+	<Container Name="Longsword_Far_Isle_Squadron_Container">
+		<Variant_Of_Existing_Type>Longsword_Squadron_Container</Variant_Of_Existing_Type>
+	</Container>
 	
 
     <Container Name="Longsword_Squadron_Container">

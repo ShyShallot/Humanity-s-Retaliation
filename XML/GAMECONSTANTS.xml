@@ -177,7 +177,7 @@
 	
 	<!-- Default is NO. Set to YES to always engage in tactical battles and skip auto-resolve battles (even instant overrrun ones). -->
 	<!-- This is for the late February 2005 consumer test demo  -->
-	<AlwaysBypassAutoResolve> No </AlwaysBypassAutoResolve>	
+	<AlwaysBypassAutoResolve> Yes </AlwaysBypassAutoResolve>	
 
 	<AutomaticAutoResolve>No</AutomaticAutoResolve>
 	<AutoResolveAttritionAllowanceFactor>0.333333</AutoResolveAttritionAllowanceFactor>
@@ -488,7 +488,7 @@
 	<!-- UNUSED - unit cap is now per faction in Factions.xml
 	<Space_Tactical_Unit_Cap>40</Space_Tactical_Unit_Cap> -->
 	<Allow_Reinforcement_Percentage_Normalized> 50.0 </Allow_Reinforcement_Percentage_Normalized> 
-	<Default_Hero_Respawn_Time>360.0</Default_Hero_Respawn_Time>
+	<Default_Hero_Respawn_Time>-1.0</Default_Hero_Respawn_Time>
 	<LandFOWColor>130,130,130,0</LandFOWColor>
 	<SpaceFOWColor>255,255,255,255</SpaceFOWColor>
     <SpaceReinforceFOWColor>255,0,0,254</SpaceReinforceFOWColor>
@@ -4968,12 +4968,12 @@
 	<Message_Of_The_Day_URL>http://www.petroglyphgames.com/eawmotd</Message_Of_The_Day_URL>
 	
 	<Skirmish_Buy_Credits>2000</Skirmish_Buy_Credits>
-	<Skirmish_Reinforcement_Delay_Frames>120</Skirmish_Reinforcement_Delay_Frames>
+	<Skirmish_Reinforcement_Delay_Frames>50</Skirmish_Reinforcement_Delay_Frames>
 	<Distribute_Credit_Quantum>1000</Distribute_Credit_Quantum>
 	
-	<Diminishing_Firepower>0, 0.6, 0.3, 0.7, 0.9, 0.9, 1, 1, 2, 1</Diminishing_Firepower>  <!--Mild effect-->
+	<!--<Diminishing_Firepower>0, 0.6, 0.3, 0.7, 0.9, 0.9, 1, 1, 2, 1</Diminishing_Firepower> --> <!--Mild effect-->
 	
-	<!-- <Diminishing_Firepower>0, 1, 1, 1</Diminishing_Firepower>--> <!-- Turned Off by CR-->
+	<Diminishing_Firepower>0, 1, 1, 1</Diminishing_Firepower> <!-- Turned Off by CR-->
 
 	<Ion_Storm_Shield_Disable_Time>5.0</Ion_Storm_Shield_Disable_Time>
 	<Nebula_Ability_Disable_Time>5.0</Nebula_Ability_Disable_Time>
@@ -5282,7 +5282,7 @@
     <Space_Station_Destruction_Forces_Retreat>False</Space_Station_Destruction_Forces_Retreat>
     
     <!-- Clear space required along hyperspace in path for space reinforcements -->
-    <Space_Reinforcement_Collision_Check_Distance>2.0</Space_Reinforcement_Collision_Check_Distance>
+    <Space_Reinforcement_Collision_Check_Distance>0.2</Space_Reinforcement_Collision_Check_Distance>
 
     <Health_Bar_Spacing>2.0</Health_Bar_Spacing>
     

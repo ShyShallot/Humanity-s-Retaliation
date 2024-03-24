@@ -46,7 +46,7 @@
     <Describe_History>TEXT_PLANET_REACH_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_REACH_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_REACH_ENC </Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_REACH_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_REACH_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -54,8 +54,8 @@
     <Additional_Population_Capacity>55</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
-    
-    
+
+
 
     </Abilities>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
@@ -128,7 +128,7 @@
     <Describe_History>TEXT_PLANET_REACH_CUSTOM_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_REACH_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_REACH_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -206,7 +206,7 @@
     <Describe_History>TEXT_PLANET_AKTIS_4_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_AKTIS_4_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_AKTIS_4_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -284,7 +284,7 @@
     <Describe_History>TEXT_PLANET_ALERIA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC </Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_ALERIA_ENC HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ALERIA_ENC HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -292,13 +292,13 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
-			<Planet_Income_Gambling_Ability Name="Threshold_Gambling_Income"> <!-- High Income Thingy-->
-				<Evaluation_Interval_In_Secs>60.0</Evaluation_Interval_In_Secs>
-				<Min_Income_Modifier>1.25</Min_Income_Modifier>
-				<Max_Income_Modifier>1.55</Max_Income_Modifier>
-				<Chance_To_Win>1.00</Chance_To_Win>
-			</Planet_Income_Gambling_Ability>
-		</Abilities>
+      <Planet_Income_Gambling_Ability Name="Threshold_Gambling_Income">        <!-- High Income Thingy-->
+        <Evaluation_Interval_In_Secs>60.0</Evaluation_Interval_In_Secs>
+        <Min_Income_Modifier>1.25</Min_Income_Modifier>
+        <Max_Income_Modifier>1.55</Max_Income_Modifier>
+        <Chance_To_Win>1.00</Chance_To_Win>
+      </Planet_Income_Gambling_Ability>
+    </Abilities>
 
   </Planet>
   <!-- Alluvion-->
@@ -347,7 +347,7 @@
     <Describe_History>TEXT_PLANET_ALLUVION_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_ALLUVION_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ALLUVION_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -403,7 +403,7 @@
     <Describe_History>TEXT_PLANET_ARCADIA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC </Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_ARCADIA_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ARCADIA_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -459,7 +459,7 @@
     <Describe_History>TEXT_PLANET_CHI_CETI_IV_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_CHI_CETI_IV_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_CHI_CETI_IV_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -537,7 +537,7 @@
     <Describe_History>TEXT_PLANET_ERIDANUS_2_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_ERIDANUS_2_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ERIDANUS_2_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -593,7 +593,7 @@
     <Describe_History>TEXT_PLANET_MADRIGAL_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_MADRIGAL_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_MADRIGAL_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -671,7 +671,7 @@
     <Describe_History>TEXT_PLANET_CHARYBDIS_IX_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_CHARYBDIS_IX_ENC HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_CHARYBDIS_IX_ENC HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -679,13 +679,13 @@
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
-			<Planet_Income_Gambling_Ability Name="Threshold_Gambling_Income"> <!-- High Income Thingy-->
-				<Evaluation_Interval_In_Secs>60.0</Evaluation_Interval_In_Secs>
-				<Min_Income_Modifier>1.25</Min_Income_Modifier>
-				<Max_Income_Modifier>1.55</Max_Income_Modifier>
-				<Chance_To_Win>1.00</Chance_To_Win>
-			</Planet_Income_Gambling_Ability>
-		</Abilities>
+      <Planet_Income_Gambling_Ability Name="Threshold_Gambling_Income">        <!-- High Income Thingy-->
+        <Evaluation_Interval_In_Secs>60.0</Evaluation_Interval_In_Secs>
+        <Min_Income_Modifier>1.25</Min_Income_Modifier>
+        <Max_Income_Modifier>1.55</Max_Income_Modifier>
+        <Chance_To_Win>1.00</Chance_To_Win>
+      </Planet_Income_Gambling_Ability>
+    </Abilities>
 
   </Planet>
   <!-- Meridian-->
@@ -734,7 +734,7 @@
     <Describe_History>TEXT_PLANET_MERIDIAN_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_MERIDIAN_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_MERIDIAN_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -790,7 +790,7 @@
     <Describe_History>TEXT_PLANET_GAO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_GAO_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_GAO_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -846,7 +846,7 @@
     <Describe_History>TEXT_PLANET_HARVEST_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_HARVEST_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_HARVEST_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -902,7 +902,7 @@
     <Describe_History>TEXT_PLANET_EARTH_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC </Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_EARTH_ENC TEXT_SPACE HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_EARTH_ENC TEXT_SPACE HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -958,7 +958,7 @@
     <Describe_History>TEXT_PLANET_FALAKNUMA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_FALAKNUMA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_FALAKNUMA_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1036,7 +1036,7 @@
     <Describe_History>TEXT_PLANET_HARMONY_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_HARMONY_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_HARMONY_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1114,7 +1114,7 @@
     <Describe_History>TEXT_PLANET_NEW_CARTHAGE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_NEW_CARTHAGE_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_NEW_CARTHAGE_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1192,7 +1192,7 @@
     <Describe_History>TEXT_PLANET_NEW_JERUSALEM_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_NEW_JERUSALEM_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_NEW_JERUSALEM_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1270,7 +1270,7 @@
     <Describe_History>TEXT_PLANET_TANTALUS_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_TANTALUS_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TANTALUS_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1348,7 +1348,7 @@
     <Describe_History>TEXT_PLANET_TERRA_NOVA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_TERRA_NOVA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TERRA_NOVA_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1426,7 +1426,7 @@
     <Describe_History>TEXT_PLANET_MARS_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_MARS_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_MARS_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1481,7 +1481,7 @@
     <Describe_History>TEXT_PLANET_MIRIDEM_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_MIRIDEM_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_MIRIDEM_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1537,7 +1537,7 @@
     <Describe_History>TEXT_PLANET_NETHEROP_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_NETHEROP_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_NETHEROP_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1615,7 +1615,7 @@
     <Describe_History>TEXT_PLANET_FAR_ISLE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_FAR_ISLE_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_FAR_ISLE_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1693,7 +1693,7 @@
     <Describe_History>TEXT_PLANET_THRESHOLD_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_THRESHOLD_ENC HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_THRESHOLD_ENC HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1701,13 +1701,13 @@
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
-			<Planet_Income_Gambling_Ability Name="Threshold_Gambling_Income"> <!-- High Income Thingy-->
-				<Evaluation_Interval_In_Secs>60.0</Evaluation_Interval_In_Secs>
-				<Min_Income_Modifier>1.25</Min_Income_Modifier>
-				<Max_Income_Modifier>1.55</Max_Income_Modifier>
-				<Chance_To_Win>1.00</Chance_To_Win>
-			</Planet_Income_Gambling_Ability>
-		</Abilities>
+      <Planet_Income_Gambling_Ability Name="Threshold_Gambling_Income">        <!-- High Income Thingy-->
+        <Evaluation_Interval_In_Secs>60.0</Evaluation_Interval_In_Secs>
+        <Min_Income_Modifier>1.25</Min_Income_Modifier>
+        <Max_Income_Modifier>1.55</Max_Income_Modifier>
+        <Chance_To_Win>1.00</Chance_To_Win>
+      </Planet_Income_Gambling_Ability>
+    </Abilities>
 
   </Planet>
   <!-- Yonhe -->
@@ -1756,7 +1756,7 @@
     <Describe_History>TEXT_PLANET_YONHE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_YONHE_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_YONHE_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1834,7 +1834,7 @@
     <Describe_History>TEXT_PLANET_KAMCHATKA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_KAMCHATKA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_KAMCHATKA_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1912,7 +1912,7 @@
     <Describe_History>TEXT_PLANET_TARAM_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_TARAM_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TARAM_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1990,7 +1990,7 @@
     <Describe_History>TEXT_PLANET_TROVE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_TROVE_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TROVE_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2046,7 +2046,7 @@
     <Describe_History>TEXT_PLANET_INSTALLATION_05_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_INSTALLATION_05_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_INSTALLATION_05_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2124,7 +2124,7 @@
     <Describe_History>TEXT_PLANET_NEFOLUZO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_NEFOLUZO_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_NEFOLUZO_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2132,29 +2132,6 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
   <!-- Thua -->
   <Planet Name="Thua">
@@ -2202,7 +2179,7 @@
     <Describe_History>TEXT_PLANET_THUA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_THUA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_THUA_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2281,7 +2258,7 @@
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
 
-    <Encyclopedia_Text>TEXT_PLANET_GLYKE_ENC HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_GLYKE_ENC HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2339,7 +2316,7 @@
     <Describe_History>TEXT_PLANET_KARAVA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_KARAVA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_KARAVA_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2395,7 +2372,7 @@
     <Describe_History>TEXT_PLANET_VICTORS_TRUTH_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_VICTORS_TRUTH_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_VICTORS_TRUTH_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2473,7 +2450,7 @@
     <Describe_History>TEXT_PLANET_BALAHO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_BALAHO_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_BALAHO_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2529,7 +2506,7 @@
     <Describe_History>TEXT_PLANET_TE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_TE_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TE_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2585,7 +2562,7 @@
     <Describe_History>TEXT_PLANET_DOISAC_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_DOISAC_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_DOISAC_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2641,7 +2618,7 @@
     <Describe_History>TEXT_PLANET_SANGHELIOS_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_SANGHELIOS_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_SANGHELIOS_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2697,7 +2674,7 @@
     <Describe_History>TEXT_PLANET_RHANELO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_RHANELO_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_RHANELO_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2775,7 +2752,7 @@
     <Describe_History>TEXT_PLANET_SONG_OF_VICTORY_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_SONG_OF_VICTORY_ENC HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_SONG_OF_VICTORY_ENC HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2831,7 +2808,7 @@
     <Describe_History>TEXT_PLANET_EAYN_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_EAYN_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_EAYN_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2887,7 +2864,7 @@
     <Describe_History>TEXT_PLANET_BHEDALON_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_BHEDALON_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_BHEDALON_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2965,7 +2942,7 @@
     <Describe_History>TEXT_PLANET_CODISFOLD_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_CODISFOLD_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_CODISFOLD_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3043,7 +3020,7 @@
     <Describe_History>TEXT_PLANET_FELDOKRA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_FELDOKRA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_FELDOKRA_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3121,7 +3098,7 @@
     <Describe_History>TEXT_PLANET_ULGETHON_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_ULGETHON_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ULGETHON_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3199,7 +3176,7 @@
     <Describe_History>TEXT_PLANET_PALAMOK_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_PALAMOK_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_PALAMOK_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3254,7 +3231,7 @@
     <Describe_History>TEXT_PLANET_VEN_3_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_VEN_3_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_VEN_3_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3332,7 +3309,7 @@
     <Describe_History>TEXT_PLANET_KOSTRODA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_KOSTRODA_ENC HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_KOSTRODA_ENC HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3388,7 +3365,7 @@
     <Describe_History>TEXT_PLANET_KHAELMOTHKA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_KHAELMOTHKA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_KHAELMOTHKA_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3466,7 +3443,7 @@
     <Describe_History>TEXT_PLANET_TVAO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>TEXT_PLANET_TVAO_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TVAO_ENC</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>

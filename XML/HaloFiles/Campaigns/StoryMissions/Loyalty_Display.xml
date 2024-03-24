@@ -231,7 +231,7 @@
     </Event>
     <Event Name="SELECT_NEW_CARTHAGE">
         <Event_Type>STORY_SELECT_PLANET</Event_Type>
-        <Event_Param1>New Carthage</Event_Param1>
+        <Event_Param1>New_Carthage</Event_Param1>
         <Reward_Type>TRIGGER_AI</Reward_Type>
         <Reward_Param1>PLAYER_SELECTED_NEW_CARTHAGE</Reward_Param1>
         <Reward_Param2></Reward_Param2>

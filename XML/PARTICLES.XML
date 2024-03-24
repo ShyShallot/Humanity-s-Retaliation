@@ -362,6 +362,16 @@
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
     </Particle>
 
+	<Particle Name="SHIVA_NUKE_HUGE">
+        <Land_Model_Name>W_NUKE_EXPLODE.alo</Land_Model_Name>
+        <Space_Model_Name>W_NUKE_EXPLODE.alo</Space_Model_Name>
+		<Galactic_Model_Name>W_NUKE_EXPLODE.alo</Galactic_Model_Name>
+        <Scale_Factor>10.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+    </Particle>
+
     <Particle Name="Small_Damage_Space">
         <Land_Model_Name>p_damage_small00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_small00.alo</Space_Model_Name>
@@ -1160,7 +1170,6 @@
 		  <In_Background> No </In_Background>
 		  <Exclude_From_Distance_Fade> No </Exclude_From_Distance_Fade>
     </Particle>
-
 
 
     <Particle Name="Space_Debris_Fire_Small_Empire">

@@ -670,7 +670,7 @@
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>4050</Build_Cost_Credits>
+		<Build_Cost_Credits>2450</Build_Cost_Credits>
 		<Build_Time_Seconds>40</Build_Time_Seconds>
 		<Build_Max_Instances_Per_Planet>2</Build_Max_Instances_Per_Planet>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -877,6 +877,8 @@
 
 		<Build_Cost_Credits>1</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 	</SpecialStructure>
 
 	<SpecialStructure Name="DELETE_COVN_Mining_Facility">
@@ -889,6 +891,8 @@
 
 		<Build_Cost_Credits>1</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 	
 	</SpecialStructure>
 
@@ -992,6 +996,21 @@
 		<Space_Layer> StaticObject </Space_Layer>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+	</SpecialStructure>
+
+	<SpecialStructure Name="DELETE_UNSC_Farm">
+		<Variant_Of_Existing_Type>UNSC_FARM</Variant_Of_Existing_Type>
+		<Required_Special_Structures>UNSC_FARM</Required_Special_Structures>
+		<Text_ID>TEXT_HALO_UNSC_FARM_DELETE</Text_ID>
+		<Encyclopedia_Text> TEXT_HALO_FARM_ENC_DELETE </Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ASTEROIDMINING_DELETE.tga</Icon_Name>
+		<Lua_Script>Delete_Object</Lua_Script>
+
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
 
 	</SpecialStructure>
 

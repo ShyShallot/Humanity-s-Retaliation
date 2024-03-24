@@ -82,6 +82,12 @@
 		
 	</Projectile>
 
+	<Projectile Name="Proj_Covie_Plasma_Beam_Platform"> <!-- Anti Ship-->
+		<Variant_Of_Existing_Type>Proj_Covie_Plasma_Beam</Variant_Of_Existing_Type>
+		<Projectile_Damage>12.5</Projectile_Damage>
+		
+	</Projectile>
+
 	<Projectile Name="Proj_CAS_Heavy_Plasma"> <!-- Used for Heavy Plasma Turrets-->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>

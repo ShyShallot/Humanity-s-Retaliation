@@ -684,6 +684,7 @@
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+		<Damage_Type>Damage_COVIE_Frigate</Damage_Type>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -708,6 +709,7 @@
 		<Hardpoints>
 			UNSC_TURRET_PLATFORM_01, UNSC_TURRET_PLATFORM_02, UNSC_TURRET_PLATFORM_03, UNSC_TURRET_PLATFORM_04
 		</Hardpoints>
+		<Damage_Type>Damage_UNSC_Frigate</Damage_Type>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1450.0</Targeting_Max_Attack_Distance>

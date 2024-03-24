@@ -9,8 +9,6 @@
 		5.0 
 		+ 
 		(15.0 * Variable_Self.PlanetsControlled)
-		+
-		(6.0 * (1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate))
 	</BasicEmpireOffensiveBudgetAllocation>
 
 	<!-- Defensive budget
@@ -86,10 +84,6 @@
 		6 * (1 - Function_Can_Build_Offensive_Space.Evaluate)
 		+
 		10 * Function_Need_Tech_Upgrade_Unblocked.Evaluate
-		+
-		10 * ((Variable_Self.HasStructure {Parameter_Type = "E_Ground_Light_Vehicle_Factory"} == 0) +
-				(Variable_Self.HasStructure {Parameter_Type = "E_Ground_Barracks"} == 0) +
-				(Variable_Self.HasStructure {Parameter_Type = "Empire_Ground_Mining_Facility"} == 0))
 	</BasicEmpireInfrastructureBudgetAllocation>
 
 	<!-- Based on average age of scouted information -->

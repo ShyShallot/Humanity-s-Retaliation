@@ -30,28 +30,14 @@ function Despawn_Starting_Structure(player)
     --    DebugMessage("%s, %s", tostring(key), tostring(value))
     --end
     
-    if playerFac == "EMPIRE" then
-        starting_struct = Find_First_Object("COVN_CCS")
-    elseif playerFac == "REBEL" then
-        starting_struct = Find_First_Object("UNSC_HALCYON")
-    elseif playerFac == "Terrorists" then
-        starting_struct = Find_First_Object("TERROR_HALCYON")
-    elseif playerFac == "Swords" then
-        starting_struct = Find_First_Object("SWORDS_CCS")
-    end
+    player_planet = Find_All_Objects_Of_Type(player)[1]
 
-    DebugMessage("Starting Struct -- %s",tostring(starting_struct))
-
-    if TestValid(starting_struct) then
-        DebugMessage("%s -- Found Struct, Getting Planet location", tostring(Script))
-        starting_struct_planet = starting_struct.Get_Planet_Location()
-        DebugMessage("%s -- Despawning Struct", tostring(Script))
-        starting_struct.Despawn()
+    if TestValid(player_planet) then
         DebugMessage("%s -- Resetting that planet", tostring(Script))
-        starting_struct_planet.Change_Owner(Find_Player("NEUTRAL"))
+        player_planet.Change_Owner(Find_Player("NEUTRAL"))
         DebugMessage("%s -- All done", tostring(Script))
     else
-        DebugMessage("%s -- Could not find Struct", tostring(Script))
+        DebugMessage("%s -- Could not find Planet", tostring(Script))
         return
     end
 end

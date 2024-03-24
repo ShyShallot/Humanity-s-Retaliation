@@ -2304,9 +2304,9 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>950.0</Health>
-        <Attachment_Bone>HP_HANGER_01</Attachment_Bone>
-        <Collision_Mesh>HP_HANGER_01</Collision_Mesh>
-        <Damage_Particles>HP_HANGER_01_EMIT</Damage_Particles>
+        <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>
+        <Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
+        <Damage_Particles>HP_HANGAR_01_EMIT</Damage_Particles>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>        <!-- STUBBED PLACEHOLDER -->
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>        <!-- STUBBED PLACEHOLDER -->
@@ -2317,9 +2317,9 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>950.0</Health>
-        <Attachment_Bone>HP_HANGER_02</Attachment_Bone>
-        <Collision_Mesh>HP_HANGER_02</Collision_Mesh>
-        <Damage_Particles>HP_HANGER_02_EMIT</Damage_Particles>
+        <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>
+        <Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
+        <Damage_Particles>HP_HANGAR_02_EMIT</Damage_Particles>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>        <!-- STUBBED PLACEHOLDER -->
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>        <!-- STUBBED PLACEHOLDER -->

@@ -2,6 +2,7 @@ require("PGStateMachine")
 require("HALOFunctions")
 require("PGBaseDefinitions")
 require("HALOFunctions") 
+require("PlanetNameTable")
 
 function Definitions()
     ServiceRate = 0.5
@@ -170,13 +171,18 @@ function State_Loyalty(message)
             if TestValid(selected_planet) then
                 local planet_units = Get_Units_At_Planet(planet_name, selected_planet.Get_Owner())
                 if not (planet_units == nil) then
-                    text = tostring(Capital_First_Letter(planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
+                    if Has_Custom_Name(planet_name) then
+                        text = tostring(Get_Cus_Name(planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
+                    else
+                        text = tostring(Capital_First_Letter(planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
+                    end
+                    
                     if selected_planet.Get_Owner().Is_Human() then
                         text = text .. ", Power: " .. tostring(formatNumberWithCommas(Combat_Power_From_List(planet_units))) .. " / " .. tostring(formatNumberWithCommas(Tech_Power_Upkeep(Find_Human_Player())))
                     else 
                         text = text .. ", Power: Unknown"
                     end
-                    Show_Screen_Text(text,5, nil, false)
+                    Show_Screen_Text(text,3, nil, false)
                 end
             end
         end
@@ -201,7 +207,7 @@ function State_Loyalty(message)
             --        end
             --    end
             --end
-            --return
+            return
         end
 
         if last_week >= Get_Current_Week() then

@@ -475,7 +475,7 @@
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets>Sanghelios, Mars, Song_Of_Victory, Reach, Earth</Required_Planets>
 		<Damage>70</Damage>
@@ -632,7 +632,19 @@
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Build_Cost_Credits>19500</Build_Cost_Credits>
-		<Build_Time_Seconds>180</Build_Time_Seconds>
+		<Build_Time_Seconds>300</Build_Time_Seconds>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_TECH_COVN_COUNTDOWN_TIMER_CAS </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
+		<Build_Speech_Underway> EHD_Upgrade_Progress </Build_Speech_Underway>
+		<Build_Speech_Completed> EHD_Upgrade_Complete </Build_Speech_Completed>
+		<Build_Speech_Stopped> EHD_Tech_Upgrade_Canceled </Build_Speech_Stopped>
+		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
+		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+
+		<Max_Speed>0.95</Max_Speed>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 		
@@ -679,6 +691,84 @@
 
 		</Abilities>
 		<Lua_Script>CASAI</Lua_Script>
+	</SpaceUnit>
+
+
+	<SpaceUnit Name="COVN_CSO">
+		<Variant_Of_Existing_Type>COVN_CAS</Variant_Of_Existing_Type>
+
+		<HardPoints> 
+			HP_CSO_HC_01, HP_CSO_HC_02, HP_CSO_HC_03, HP_CSO_HC_04, HP_CSO_HC_05, HP_CSO_HC_06, HP_CSO_HC_07, HP_CSO_HC_08, HP_CSO_HC_09, HP_CSO_HC_10, HP_CSO_01, HP_CSO_02, HP_CSO_03, HP_CSO_04, HP_CSO_05, HP_CSO_06, HP_CSO_07, HP_CSO_08, HP_CSO_09, HP_CSO_10, HP_CSO_11, HP_CSO_12, HP_CSO_13, HP_CSO_14, HP_CSO_15, HP_CSO_16, HP_CSO_17, HP_CSO_18, HP_CSO_19, HP_CSO_20, HP_CSO_21, HP_CSO_22, HP_CSO_23, HP_CSO_24, HP_CSO_25, HP_CSO_26
+		</HardPoints>
+
+		<Population_Value>70</Population_Value>
+		<Reinforcement_Prevention_Radius> 1200 </Reinforcement_Prevention_Radius>
+
+		<Build_Cost_Credits>24500</Build_Cost_Credits>
+		<Build_Time_Seconds>480</Build_Time_Seconds>
+
+		<Shield_Points>19000</Shield_Points>
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CSO TEXT_SPACE HALO_ARMOR_LEVEL_5 HALO_SHIELD_LEVEL_5</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPER_CARRIER </Encyclopedia_Unit_Class>
+
+		<Text_ID>TEXT_UNIT_COVN_CSO</Text_ID>
+		<Space_Model_Name>COVN_CSO.ALO</Space_Model_Name>
+		<Select_Box_Scale>650</Select_Box_Scale>
+		<Scale_Factor>3.8</Scale_Factor>
+		<Max_Speed>0.65</Max_Speed>
+		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+		<Hyperspace_Speed>1</Hyperspace_Speed>
+
+		<AI_Combat_Power>18000</AI_Combat_Power>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<Unit_Ability>
+				<Type>SUPER_LASER</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.4f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name> CAS_PLASMA_LANCE </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Recharge_Seconds>200</Recharge_Seconds>
+				<Expiration_Seconds>4</Expiration_Seconds>
+				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>
+				<Alternate_Name_Text>HALO_FIRE_PLASMA_LANCE</Alternate_Name_Text>
+                <Alternate_Description_Text>HALO_FIRE_PLASMA_LANCE_ENC</Alternate_Description_Text>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+
+			<Super_Laser_Ability Name="CAS_PLASMA_LANCE">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories> Capital | Frigate | Super </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+                <!-- <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect> -->
+                <Owner_Particle_Bone_Name>HP_HUGEFUCKINGLASER</Owner_Particle_Bone_Name>
+				<Activation_Min_Range>0</Activation_Min_Range>
+	            <Activation_Max_Range>3000</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Damage_Per_Frame>350</Damage_Per_Frame>			
+				<Fire_Frame>30</Fire_Frame>
+				<Attack_Anim_Sub_Index>0</Attack_Anim_Sub_Index>
+				<Beam_Texture_Name>COVN_PLASMALANCE.DDS</Beam_Texture_Name>
+				<Num_Anim_Frames>0</Num_Anim_Frames>
+				<Line_Width>200</Line_Width>
+				<Line_Color>198 47 224 255</Line_Color>
+				<Face_Target>false</Face_Target>
+				<Turn_Rate>-1.0f</Turn_Rate>
+				<Firing_Cone>360.0f</Firing_Cone>
+            	<Fire_Delay>1</Fire_Delay>
+            	<Fire_Continuation>0.01</Fire_Continuation>
+			</Super_Laser_Ability>
+
+		</Abilities>
+
+		<Lua_Script></Lua_Script>
+	
 	</SpaceUnit>
 
 	

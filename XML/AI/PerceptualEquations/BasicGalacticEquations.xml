@@ -67,4 +67,40 @@
 		Game.IsCampaignGame
 	</Is_Campaign>
 
+	<UNSC_SOF_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "UNSC_SOF", Parameter_Only_Consider_Complete = 1.0})
+	</UNSC_SOF_Alive>
+
+	<UNSC_INFINITY_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "UNSC_INFINITY", Parameter_Only_Consider_Complete = 1.0})
+	</UNSC_INFINITY_Alive>
+
+	<UNSC_POA_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "UNSC_POA", Parameter_Only_Consider_Complete = 1.0})
+	</UNSC_POA_Alive>
+
+	<UNSC_IAC_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "UNSC_IAC", Parameter_Only_Consider_Complete = 1.0})
+	</UNSC_IAC_Alive>
+
+	<UNSC_ROMAN_BLUE_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "UNSC_ROMAN_BLUE", Parameter_Only_Consider_Complete = 1.0})
+	</UNSC_ROMAN_BLUE_Alive>
+
+	<COVN_PIOUS_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "COVN_PIOUS", Parameter_Only_Consider_Complete = 1.0})
+	</COVN_PIOUS_Alive>
+
+	<COVN_JUL_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "COVN_JUL", Parameter_Only_Consider_Complete = 1.0})
+	</COVN_JUL_Alive>
+
+	<COVN_ARDO_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "COVN_ARDO", Parameter_Only_Consider_Complete = 1.0})
+	</COVN_ARDO_Alive>
+
+	<COVN_MACCABEUS_Alive>
+		(Variable_Self.HasUnit {Parameter_Type = "COVN_MACCABEUS", Parameter_Only_Consider_Complete = 1.0})
+	</COVN_MACCABEUS_Alive>
+
 </Equations>
