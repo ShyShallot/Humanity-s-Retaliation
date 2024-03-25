@@ -43,7 +43,7 @@ function State_Rescue(message)
 
         for hero, isAlive in pairs(hero_alive_table) do
 
-            --Sleep(respawn_time)
+            Sleep(respawn_time)
 
             player = Find_Human_Player()
 
