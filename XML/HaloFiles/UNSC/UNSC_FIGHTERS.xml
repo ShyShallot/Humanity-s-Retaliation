@@ -242,8 +242,6 @@
 
 	<Squadron Name="Longsword_Far_Isle_Squadron">
 		<Variant_Of_Existing_Type>Longsword_Squadron</Variant_Of_Existing_Type>
-
-		<Create_Team_Type>Longsword_Far_Isle_Squadron_Container </Create_Team_Type>
 		
 		<Tech_Level>99</Tech_Level>
 
@@ -268,10 +266,6 @@
 
 		<Abilities SubObjectList="Yes"></Abilities>
 	</Squadron>
-
-	<Container Name="Longsword_Far_Isle_Squadron_Container">
-		<Variant_Of_Existing_Type>Longsword_Squadron_Container</Variant_Of_Existing_Type>
-	</Container>
 	
 
     <Container Name="Longsword_Squadron_Container">

@@ -58,7 +58,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>50.0</Max_Speed>
-		<Projectile_Damage>17.5</Projectile_Damage>
+		<Projectile_Damage>18.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Normal </Damage_Type>
@@ -257,12 +257,12 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	
-		<Projectile_Damage>400.0</Projectile_Damage>
+		<Projectile_Damage>250.0</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Concussion_Missile_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Disabler_Particle</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Disabler_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -278,16 +278,11 @@
 
 		<Projectile_Ion_Stun_On_Detonation>Yes</Projectile_Ion_Stun_On_Detonation>
 		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
-		<Projectile_Ion_Stun_Duration>2.0</Projectile_Ion_Stun_Duration>
-		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.45</Projectile_Ion_Stun_Speed_Reduction_Percent>
-		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.7</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>
+		<Projectile_Ion_Stun_Duration>1.0</Projectile_Ion_Stun_Duration>
+		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.25</Projectile_Ion_Stun_Speed_Reduction_Percent>
+		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.3</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>
 		<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration>
-		
-		<Projectile_Stun_On_Detonation>Yes</Projectile_Stun_On_Detonation>
-		<Projectile_Stun_Duration_Frames>300</Projectile_Stun_Duration_Frames>
-		<Projectile_Stun_Radius>200</Projectile_Stun_Radius>
-		<Projectile_Stun_Spawn_Effect> Stunned_Infantry </Projectile_Stun_Spawn_Effect> 									
-		<Projectile_Stun_Victims_Category_Mask> All </Projectile_Stun_Victims_Category_Mask>
+
 		
 		<!-- determines the range of barrage mode -->
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
@@ -339,7 +334,7 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>50</Projectile_Damage>
+		<Projectile_Damage>20</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -353,9 +348,9 @@
 		<AI_Combat_Power>650</AI_Combat_Power>
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
-		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
-        <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
+		<Projectile_Rocket_Curve_Distance>400</Projectile_Rocket_Curve_Distance>
+        <Projectile_Rocket_Curve_Offset>90</Projectile_Rocket_Curve_Offset>
+        <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 		<!-- <Lua_Script>ProjectileTest</Lua_Script> -->
 		
@@ -372,7 +367,7 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>60.5</Projectile_Damage>
+		<Projectile_Damage>30.5</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -386,8 +381,8 @@
 		<AI_Combat_Power>700</AI_Combat_Power>
 		<!-- PLEASE NOTE: If you set The Curve Offest too high it will lag the game, like to unplayable levels, and also Having Distances too close 
 		or too low might also lag or crash the game -->
-		<Projectile_Rocket_Curve_Distance>200</Projectile_Rocket_Curve_Distance>
-        <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Curve_Distance>400</Projectile_Rocket_Curve_Distance>
+        <Projectile_Rocket_Curve_Offset>90</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
 		
@@ -418,7 +413,7 @@
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Blast_Area_Damage> 2000 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 400 </Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range> 2000 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
 		<AI_Combat_Power>2000</AI_Combat_Power>
@@ -447,7 +442,7 @@
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Blast_Area_Damage> 700 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 250 </Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range> 850 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
 		<AI_Combat_Power>2000</AI_Combat_Power>
@@ -490,7 +485,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
-		<Projectile_Damage>25</Projectile_Damage>
+		<Projectile_Damage>12</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>

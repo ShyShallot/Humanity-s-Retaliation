@@ -10,21 +10,9 @@
         <Affiliation>Terrorist</Affiliation>
     </SpaceUnit>
 
-    <SpaceUnit Name="TERROR_Baselard">
-        <Variant_Of_Existing_Type>Baselard</Variant_Of_Existing_Type>
-        <Affiliation>Terrorist</Affiliation>
-    </SpaceUnit>
-
-    <Container Name="TERROR_Baselard_Squadron_Container">
-        <Variant_Of_Existing_Type>Baselard_Squadron_Container</Variant_Of_Existing_Type>
-        <Affiliation>Terrorist</Affiliation>
-    </Container>
-
     <Squadron Name="TERROR_Baselard_Squadron">
         <Variant_Of_Existing_Type>Baselard_Squadron</Variant_Of_Existing_Type>
         <Affiliation>Terrorist</Affiliation>
-        <Create_Team_Type>TERROR_Baselard_Squadron_Container </Create_Team_Type>
-        <Squadron_Units>TERROR_Baselard, TERROR_Baselard, TERROR_Baselard, TERROR_Baselard, TERROR_Baselard</Squadron_Units>
     </Squadron>
 
     <SpaceUnit Name="TERROR_STALWART">
@@ -37,27 +25,15 @@
         <Affiliation>Terrorist</Affiliation>
 
         <Starting_Spawned_Units_Tech_0>TERROR_Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>TERROR_SHORTSWORD_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TERROR_SHORTSWORD, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>TERROR_SHORTSWORD_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TERROR_SHORTSWORD, 4</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TERROR_Baselard_Squadron, 6</Reserve_Spawned_Units_Tech_0>
     </SpaceUnit>
 
-    <SpaceUnit Name="TERROR_SHORTSWORD">
-        <Variant_Of_Existing_Type>Shortsword</Variant_Of_Existing_Type>
-        <Affiliation>Terrorist</Affiliation>
-    </SpaceUnit>
-
-    <Container Name="TERROR_Shortsword_Squadron_Container">
-        <Variant_Of_Existing_Type>Shortsword_Squadron_Container</Variant_Of_Existing_Type>
-        <Affiliation>Terrorist</Affiliation>
-    </Container>
-
-    <Squadron Name="TERROR_SHORTSWORD_Squadron">
+    <Squadron Name="TERROR_SHORTSWORD">
         <Variant_Of_Existing_Type>Shortsword_Squadron</Variant_Of_Existing_Type>
         <Affiliation>Terrorist</Affiliation>
-        <Squadron_Units>TERROR_SHORTSWORD,TERROR_SHORTSWORD,TERROR_SHORTSWORD</Squadron_Units>
-        <Create_Team_Type>TERROR_Shortsword_Squadron_Container </Create_Team_Type>
     </Squadron>
 
 </TerrorUnits>

@@ -30,8 +30,9 @@
 
     <Event Name="Trigger_Far_Isle_Mission">
         <Event_Type>STORY_ENTER</Event_Type>
+        <Event_Param2>FILTER_FRIENDLY_ONLY</Event_Param2>
         <Event_Param1>Far_Isle</Event_Param1>
-        <Prereq>Far_Isle_Rebellion_Start</Prereq>
+        <Prereq>Far_Isle_Rebellion_Warning_End</Prereq>
     </Event>
 
     <Event Name="Link_Far_Isle_Mission_Mission">

@@ -130,10 +130,6 @@
 
 		<Home_Location> Empire, Sanghelios </Home_Location>
 
-		<Home_Location> Swords, Te</Home_Location>
-
-		<Home_Location> Terrorists, Far_Isle</Home_Location>
-
 		<Starting_Active_Player> Rebel </Starting_Active_Player>
 
 		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Random_Covenant_AI.xml</Empire_Story_Name>
@@ -149,8 +145,6 @@
 
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Terrorists, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Swords, DefaultGalacticHints </Markup_Filename>
 
 		<Supports_Custom_Settings>False</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
