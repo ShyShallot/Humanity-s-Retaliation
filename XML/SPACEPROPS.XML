@@ -112,7 +112,7 @@
 		<Space_Model_Name>W_PLANET_FOREST.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
 		<Is_Discardable> No </Is_Discardable>
-		<Scale_Factor>5.0</Scale_Factor>
+		<Scale_Factor>12.0</Scale_Factor>
 		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
