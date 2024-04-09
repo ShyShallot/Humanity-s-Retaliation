@@ -1,8 +1,9 @@
 <?xml version="1.0" ?>
 <Story>
 
-    <Event Name="Prevent_Victory"> <!-- Disable victory. -->
-		<Event_Type>STORY_TRIGGER</Event_Type>
+    <Event Name="Prevent_Victory_Start"> <!-- Disable victory. -->
+		<Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
 		<Reward_Type>ENABLE_VICTORY</Reward_Type>
 		<Reward_Param1>0</Reward_Param1>
 	</Event>
@@ -11,7 +12,12 @@
         <Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
 		<Reward_Param1>HALO_OBJECTIVES_FAR_ISLE_WIPE</Reward_Param1>
-        <Prereq>Prevent_Victory</Prereq>
+        <Prereq>Prevent_Victory_Start</Prereq>
+    </Event>
+
+    <Event Name="Wait_For_Units_Spawned">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Spawned_All_Units</Event_Param2>
     </Event>
 
     <Event Name="Rebels_Wiped">
@@ -20,21 +26,73 @@
 		<Event_Param2>DESTROY_ALL</Event_Param2>
         <Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
 		<Reward_Param1>HALO_OBJECTIVES_FAR_ISLE_WIPE</Reward_Param1>
-        <Prereq>Add_Wipe_Objective</Prereq>
+        <Prereq>Wait_For_Units_Spawned</Prereq>
     </Event>
 
     <Event Name="Rebels_Wiped_Notifcation">
         <Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>TRIGGER_AI</Reward_Type>
         <Reward_Param1>Rebels_Wiped</Reward_Param1>
+        <Reward_Param2>Rebel</Reward_Param2>
         <Prereq>Rebels_Wiped</Prereq>
+    </Event>
+
+    <Event Name="Disable_Retreat">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>DISABLE_RETREAT</Reward_Type>
+        <Reward_Param1>Rebel</Reward_Param1>
+        <Reward_Param2>1</Reward_Param2>
+        <Prereq>Rebels_Wiped</Prereq>
+    </Event>
+
+    <Event Name="Flash_Reinforce">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>FLASH_GUI</Reward_Type>
+        <Reward_Param1>b_reinforcement</Reward_Param1>
+        <Reward_Param2>Reinforcement_Hint</Reward_Param2>
+        <Prereq>Disable_Retreat</Prereq>
+    </Event>
+
+    <Event Name="Add_Spawn_Objective">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Reinforce_Longsword_Objective</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>HALO_OBJECTIVES_FAR_ISLE_SPAWN_LONGSWORD</Reward_Param1>
+    </Event>
+
+    <Event Name="Longsword_Spawned">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Longsword_Spawned</Event_Param2>
+        <Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>HALO_OBJECTIVES_FAR_ISLE_SPAWN_LONGSWORD</Reward_Param1>
+    </Event>
+
+    <Event Name="Unflash_Reinforcement">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+        <Reward_Param1>Reinforcement_Hint</Reward_Param1>
+        <Prereq>Longsword_Spawned</Prereq>
+    </Event>
+
+    <Event Name="Move_Longsword">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>HALO_OBJECTIVES_FAR_ISLE_MOVE_LONGSWORD</Reward_Param1>
+        <Prereq>Longsword_Spawned</Prereq>
+    </Event>
+
+    <Event Name="Move_Longsword_Complete">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Longsword_Moved</Event_Param2>
+        <Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>HALO_OBJECTIVES_FAR_ISLE_MOVE_LONGSWORD</Reward_Param1>
     </Event>
 
     <Event Name="Add_Nuke_Objective">
         <Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
 		<Reward_Param1>HALO_OBJECTIVES_FAR_ISLE_NUKE</Reward_Param1>
-        <Prereq>Rebels_Wiped</Prereq>
+        <Prereq>Move_Longsword_Complete</Prereq>
     </Event>
 
     <Event Name="Nuke_Objective_Completed">
@@ -44,7 +102,7 @@
 		<Reward_Param1>HALO_OBJECTIVES_FAR_ISLE_NUKE</Reward_Param1>
     </Event>
 
-    <Event Name="Prevent_Victory"> <!-- Disable victory. -->
+    <Event Name="Turn_On_Victory"> <!-- Disable victory. -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ENABLE_VICTORY</Reward_Type>
 		<Reward_Param1>1</Reward_Param1>
