@@ -26,12 +26,12 @@ function State_Init(message)
 
         has_far_isle_mission_started = Check_Story_Flag(player, "Far_Isle_Rebellion_Start", nil, false)
 
-        if Get_Current_Week() >= 2 and far_isle.Get_Owner().Get_Faction_Name() == player.Get_Faction_Name() and (not warning) then
+        if Get_Current_Week() >= 20 and far_isle.Get_Owner().Get_Faction_Name() == player.Get_Faction_Name() and (not warning) then
             warning = true
             Story_Event("Start_Far_Isle_Warning")
         end
 
-        if Get_Current_Week() >= 3 and far_isle.Get_Owner().Get_Faction_Name() == player.Get_Faction_Name() and (not has_far_isle_mission_started) then
+        if Get_Current_Week() >= 25 and far_isle.Get_Owner().Get_Faction_Name() == player.Get_Faction_Name() and (not has_far_isle_mission_started) then
             Story_Event("Start_Far_Isle_Fall")
             started = true
         end
