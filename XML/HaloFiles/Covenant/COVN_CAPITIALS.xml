@@ -84,8 +84,8 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<Death_Clone>Damage_Normal, COVN_CCS_DEATH</Death_Clone>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
+		<Space_FOW_Reveal_Range>1800.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1650.0</Targeting_Max_Attack_Distance>
 
 
 		<HardPoints> 
@@ -304,8 +304,8 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
-		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
+		<Space_FOW_Reveal_Range>1350.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
 
 
 		<HardPoints> 
@@ -485,7 +485,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<Death_Clone>Damage_Normal, COVN_CAS_Death_Clone</Death_Clone>
-		<Space_FOW_Reveal_Range>1850.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1650.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints> 

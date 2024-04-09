@@ -16,11 +16,11 @@
 		<Fire_Cone_Width>125.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>9.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.35</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
@@ -44,11 +44,11 @@
 		<Fire_Cone_Width>125.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>9.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.35</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
@@ -71,11 +71,11 @@
 		<Fire_Cone_Width>125.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>9.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.35</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
@@ -98,11 +98,11 @@
 		<Fire_Cone_Width>125.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.7</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_Min_Recharge_Seconds>8.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>9.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.35</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
@@ -134,15 +134,13 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
@@ -172,15 +170,13 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
@@ -210,15 +206,13 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
@@ -248,15 +242,13 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
@@ -286,15 +278,13 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
@@ -324,15 +314,13 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
@@ -347,11 +335,11 @@
 		<Attachment_Bone>HP_MAC</Attachment_Bone>
 		<Fire_Bone_A>HP_MAC</Fire_Bone_A>
 		<Fire_Bone_B>HP_MAC</Fire_Bone_B>
-		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Width>40.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_MAC_SHELL_LIGHT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2500.0</Fire_Range_Distance>
@@ -796,8 +784,8 @@
     <HardPoint Name="UNSC_MUSASHI_T_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>
 
 		<Model_To_Attach>UNSC_MUSASHI_M44_01.ALO</Model_To_Attach>
@@ -817,11 +805,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -836,8 +824,8 @@
     <HardPoint Name="UNSC_MUSASHI_T_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>
 
 		<Model_To_Attach>UNSC_MUSASHI_M44_02.ALO</Model_To_Attach>
@@ -857,11 +845,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -876,8 +864,8 @@
     <HardPoint Name="UNSC_MUSASHI_T_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>
 
 		<Model_To_Attach>UNSC_MUSASHI_M44_03.ALO</Model_To_Attach>
@@ -897,11 +885,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -916,8 +904,8 @@
     <HardPoint Name="UNSC_MUSASHI_T_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>
 
 		<Model_To_Attach>UNSC_MUSASHI_M44_04.ALO</Model_To_Attach>
@@ -937,11 +925,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -956,8 +944,8 @@
     <HardPoint Name="UNSC_MUSASHI_T_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>
 
 		<Model_To_Attach>UNSC_MUSASHI_M44_05.ALO</Model_To_Attach>
@@ -977,11 +965,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -996,8 +984,8 @@
     <HardPoint Name="UNSC_MUSASHI_T_06">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>
 
 		<Model_To_Attach>UNSC_MUSASHI_M44_06.ALO</Model_To_Attach>
@@ -1017,11 +1005,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1036,8 +1024,8 @@
     <HardPoint Name="UNSC_MUSASHI_T_07">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>
 
 		<Model_To_Attach>UNSC_MUSASHI_M44_07.ALO</Model_To_Attach>
@@ -1057,11 +1045,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1076,8 +1064,8 @@
     <HardPoint Name="UNSC_MUSASHI_T_08">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>
 
 		<Model_To_Attach>UNSC_MUSASHI_M44_08.ALO</Model_To_Attach>
@@ -1097,11 +1085,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1116,8 +1104,8 @@
     <HardPoint Name="UNSC_MUSASHI_T_09">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>
 
 		<Model_To_Attach>UNSC_MUSASHI_M44_09.ALO</Model_To_Attach>
@@ -1137,11 +1125,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1156,8 +1144,8 @@
     <HardPoint Name="UNSC_MUSASHI_T_10">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK44_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>
 
 		<Model_To_Attach>UNSC_MUSASHI_M44_10.ALO</Model_To_Attach>
@@ -1177,11 +1165,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1195,8 +1183,8 @@
 
     <HardPoint Name="UNSC_MUSASHI_EG_01">
 		<Type> HARD_POINT_ENGINE </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 		<Health>450.0</Health>
 
@@ -1213,8 +1201,8 @@
 
     <HardPoint Name="UNSC_MUSASHI_EG_02">
 		<Type> HARD_POINT_ENGINE </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 		<Health>450.0</Health>
 
@@ -1245,7 +1233,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>550.0</Health>		
+        <Health>1625.0</Health>			
         <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>		 
 		<Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -1258,7 +1246,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>550.0</Health>	
+        <Health>1625.0</Health>		
         <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>		 
 		<Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -1271,7 +1259,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>550.0</Health>		
+        <Health>1625.0</Health>			
         <Attachment_Bone>HP_HANGAR_03</Attachment_Bone>		 
 		<Collision_Mesh>HP_HANGAR_03</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -1284,7 +1272,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-        <Health>550.0</Health>		
+        <Health>1625.0</Health>		
         <Attachment_Bone>HP_HANGAR_04</Attachment_Bone>		 
 		<Collision_Mesh>HP_HANGAR_04</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
@@ -1297,8 +1285,8 @@
 
     <HardPoint Name="UNSC_POSEIDON_EG">
 		<Type> HARD_POINT_ENGINE </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 		<Health>500.0</Health>
 
@@ -1315,8 +1303,8 @@
 
     <HardPoint Name="UNSC_POSEIDON_01">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
         <Health>350.0</Health>		
         <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>		 
 		<Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
@@ -1328,8 +1316,8 @@
 
     <HardPoint Name="UNSC_POSEIDON_02">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
         <Health>350.0</Health>		
         <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>		 
 		<Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
@@ -1341,8 +1329,8 @@
 
     <HardPoint Name="UNSC_POSEIDON_03">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
         <Health>350.0</Health>		
         <Attachment_Bone>HP_HANGAR_03</Attachment_Bone>		 
 		<Collision_Mesh>HP_HANGAR_03</Collision_Mesh>
@@ -1356,8 +1344,8 @@
     <HardPoint Name="UNSC_POSEIDON_T_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>350.0</Health>
 
 		<Model_To_Attach>UNSC_POSEIDON_MK33_01.ALO</Model_To_Attach>
@@ -1377,11 +1365,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1396,8 +1384,8 @@
     <HardPoint Name="UNSC_POSEIDON_T_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>350.0</Health>
 
 		<Model_To_Attach>UNSC_POSEIDON_MK33_02.ALO</Model_To_Attach>
@@ -1417,11 +1405,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1436,8 +1424,8 @@
     <HardPoint Name="UNSC_POSEIDON_T_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>350.0</Health>
 
 		<Model_To_Attach>UNSC_POSEIDON_MK33_03.ALO</Model_To_Attach>
@@ -1457,11 +1445,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1476,8 +1464,8 @@
     <HardPoint Name="UNSC_POSEIDON_T_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>350.0</Health>
 
 		<Model_To_Attach>UNSC_POSEIDON_MK33_04.ALO</Model_To_Attach>
@@ -1497,11 +1485,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1516,8 +1504,8 @@
     <HardPoint Name="UNSC_POSEIDON_T_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>350.0</Health>
 
 		<Model_To_Attach>UNSC_POSEIDON_MK33_05.ALO</Model_To_Attach>
@@ -1537,11 +1525,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1556,8 +1544,8 @@
     <HardPoint Name="UNSC_POSEIDON_T_06">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>350.0</Health>
 
 		<Model_To_Attach>UNSC_POSEIDON_MK33_06.ALO</Model_To_Attach>
@@ -1577,11 +1565,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -1628,17 +1616,15 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.8</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Inaccuracy_Distance> Corvette, 14.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
@@ -1665,17 +1651,15 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.8</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Inaccuracy_Distance> Corvette, 14.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
@@ -1702,17 +1686,15 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.8</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Inaccuracy_Distance> Corvette, 14.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
@@ -1740,17 +1722,15 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.8</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Inaccuracy_Distance> Corvette, 14.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
     
@@ -1778,17 +1758,15 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.8</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Inaccuracy_Distance> Corvette, 14.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
     
@@ -1816,17 +1794,15 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.8</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Inaccuracy_Distance> Corvette, 14.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
     
@@ -1854,17 +1830,15 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.8</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Inaccuracy_Distance> Corvette, 14.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
     
@@ -1892,17 +1866,15 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.8</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Inaccuracy_Distance> Corvette, 14.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
     
@@ -1930,17 +1902,15 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.8</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Inaccuracy_Distance> Corvette, 14.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 
@@ -1968,17 +1938,15 @@
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>140.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.8</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1550.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<Fire_Inaccuracy_Distance> Corvette, 14.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 8.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
     
@@ -2000,9 +1968,9 @@
 		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
@@ -2027,9 +1995,9 @@
 		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
@@ -2054,9 +2022,9 @@
 		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
@@ -2081,9 +2049,9 @@
 		<Fire_Projectile_Type>Proj_UNSC_Ship_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
@@ -2121,8 +2089,8 @@
     <HardPoint Name="UNSC_STRIDENT_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>650.0</Health>
 
 		<Model_To_Attach>UNSC_STRIDENT_COIL_01.ALO</Model_To_Attach>
@@ -2142,8 +2110,8 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
@@ -2159,8 +2127,8 @@
     <HardPoint Name="UNSC_STRIDENT_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>650.0</Health>
 
 		<Model_To_Attach>UNSC_STRIDENT_COIL_02.ALO</Model_To_Attach>
@@ -2180,8 +2148,8 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
@@ -2197,8 +2165,8 @@
     <HardPoint Name="UNSC_STRIDENT_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>650.0</Health>
 
 		<Model_To_Attach>UNSC_STRIDENT_COIL_03.ALO</Model_To_Attach>
@@ -2218,8 +2186,8 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
@@ -2235,8 +2203,8 @@
     <HardPoint Name="UNSC_STRIDENT_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>650.0</Health>
 
 		<Model_To_Attach>UNSC_STRIDENT_COIL_04.ALO</Model_To_Attach>
@@ -2256,8 +2224,8 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
@@ -2273,8 +2241,8 @@
     <HardPoint Name="UNSC_STRIDENT_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>650.0</Health>
 
 		<Model_To_Attach>UNSC_STRIDENT_COIL_05.ALO</Model_To_Attach>
@@ -2294,8 +2262,8 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
@@ -2311,8 +2279,8 @@
     <HardPoint Name="UNSC_STRIDENT_06">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Tooltip_Text>UNSC_M55_TURRET</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>650.0</Health>
 
 		<Model_To_Attach>UNSC_STRIDENT_COIL_06.ALO</Model_To_Attach>
@@ -2332,8 +2300,8 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.6</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1650.0</Fire_Range_Distance>
@@ -2349,8 +2317,8 @@
     <HardPoint Name="UNSC_STRIDENT_AP_01">
 		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>          
 
 		<Attachment_Bone>HP_ARCHERPOD_01</Attachment_Bone>
@@ -2364,9 +2332,9 @@
 		<Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
@@ -2378,8 +2346,8 @@
     <HardPoint Name="UNSC_STRIDENT_AP_02">
 		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
 		<Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Health>450.0</Health>          
 
 		<Attachment_Bone>HP_ARCHERPOD_02</Attachment_Bone>
@@ -2393,9 +2361,9 @@
 		<Blast_Ability_Fire_Projectile_Type>Proj_UNSC_Shiva_Missiles</Blast_Ability_Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.7</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 		<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
@@ -2433,8 +2401,8 @@
 
     <HardPoint Name="UNSC_STRIDENT_EG">
 		<Type> HARD_POINT_ENGINE </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 		<Health>900.0</Health>
 
@@ -2498,11 +2466,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -2538,11 +2506,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -2578,11 +2546,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -2618,11 +2586,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -2658,11 +2626,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
@@ -2698,11 +2666,11 @@
 		<Fire_Cone_Width>60.0</Fire_Cone_Width>
 		<Fire_Cone_Height>140.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>8</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1050.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>

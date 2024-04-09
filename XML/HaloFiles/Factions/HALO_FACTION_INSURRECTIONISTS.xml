@@ -738,7 +738,7 @@
 
 
 		<Allies />
-		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Swords, Empire</Enemies>
+		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, Swords, Rebel</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 

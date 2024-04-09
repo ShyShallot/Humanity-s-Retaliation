@@ -13,7 +13,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>3600</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>1600</Tactical_Health>
+		<Tactical_Health>2050</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -66,7 +66,7 @@
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA</SpaceBehavior>
 
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
@@ -232,7 +232,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>Earth,Reach</Required_Planets>
+		<Required_Planets/>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -257,7 +257,7 @@
 
 		<Death_Clone>Damage_Normal, Halberd_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
@@ -800,9 +800,9 @@
         <Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
-		<Shield_Points>2500</Shield_Points>
-		<Tactical_Health>4500</Tactical_Health> <!-- was 2800 -->
-		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
+		<Shield_Points>3000</Shield_Points>
+		<Tactical_Health>4950</Tactical_Health> 
+		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> 
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -815,7 +815,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>Mars</Required_Planets>
+		<Required_Planets/>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -1041,7 +1041,7 @@
 
 		<Death_Clone>Damage_Normal, Paris_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
