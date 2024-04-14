@@ -161,7 +161,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CCS TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>11</Population_Value>
+		<Population_Value>20</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -394,7 +394,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_RCS TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARMORED_CRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>9</Population_Value>
+		<Population_Value>15</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>5850</Tactical_Build_Cost_Multiplayer>
@@ -575,7 +575,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_CPV TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_DESTROYER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>13</Population_Value>
+		<Population_Value>28</Population_Value>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>12150</Tactical_Build_Cost_Multiplayer>
@@ -759,7 +759,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_COV_ORS TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Population_Value>16</Population_Value>
+		<Population_Value>24</Population_Value>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

@@ -957,24 +957,24 @@
 		Damage_Mass_Driver_Space,
 		Damage_MDU_Rocket,
 		Damage_MDU_Grenade,
-		Damage_Covn_Light
-		Damage_Covn_Fighter
-		Damage_Covn_Normal
-		Damage_Covn_Heavy
-		Damage_Covn_Torpedo
-		Damage_UNSC_Light
-		Damage_UNSC_Fighter
-		Damage_UNSC_Normal
-		Damage_UNSC_Heavy
-		Damage_UNSC_Missile_Light
-		Damage_UNSC_Missile_Fighter
-		Damage_UNSC_Missile_Normal
-		Damage_UNSC_Missile_Heavy
-		Damage_UNSC_Torpedo
-		Damage_UNSC_Nuke
-		Damage_UNSC_MAC
-		Damage_UNSC_MAC_Light
-		
+		Damage_Covn_Light,
+		Damage_Covn_Fighter,
+		Damage_Covn_Normal,
+		Damage_Covn_Heavy,
+		Damage_Covn_Torpedo,
+		Damage_UNSC_Light,
+		Damage_UNSC_Fighter,
+		Damage_UNSC_Normal,
+		Damage_UNSC_Heavy,
+		Damage_UNSC_Missile_Light,
+		Damage_UNSC_Missile_Fighter,
+		Damage_UNSC_Missile_Normal,
+		Damage_UNSC_Missile_Heavy,
+		Damage_UNSC_Torpedo,
+		Damage_UNSC_Nuke,
+		Damage_UNSC_MAC,
+		Damage_UNSC_MAC_Light,
+		Damage_UNSC_FLAK,
 		
 		<!-- PLEASE add your new damage types ABOVE this point.
 			 The damage types below are from hard-coded damage enumeration. You can specify Armor type for them if you want
@@ -4325,6 +4325,37 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Shield_COVN_Super, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Shield_COVN_Station, 0.45</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Armor_Satellite, 1</Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Fighter, 1.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Bomber, 0.95</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Corvette, 0.45</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Frigate, 0.35</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Assault, 0.28</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Capitial, 0.1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Destroyer, 0.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Super, 0.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_COVN_Fighter, 1.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_COVN_Bomber, 0.95</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_COVN_Corvette, 0.35</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_COVN_Frigate, 0.25</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_COVN_Assault, 0.1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_COVN_Capitial, 0.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_COVN_Super, 0.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_Station, 0.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_UNSC_Fighter, 1.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_UNSC_Frigate, 0.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_UNSC_Capital, 0.1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_UNSC_Super, 0.05</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_UNSC_Station, 0.005</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_COVN_Fighter, 1.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_COVN_Bomber, 0.95</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_COVN_Corvette, 0.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_COVN_Frigate, 0.1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_COVN_Capital, 0.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Sheild_COVN_Destroyer, 0.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_COVN_Super, 0.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Shield_COVN_Station, 0.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_Satellite, 0.75</Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod>Damage_UNSC_Normal, Armor_UNSC_Fighter, 1.2</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Normal, Armor_UNSC_Bomber, 1.1</Damage_To_Armor_Mod>

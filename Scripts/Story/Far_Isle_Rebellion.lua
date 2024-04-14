@@ -49,6 +49,28 @@ function State_Init(message)
         far_isle.Change_Owner(terror)
         DebugMessage("Changing Far Isle Planet Owner")
 
+        insurrectionists_units = {
+            ["TERROR_HALCYON"] = 4,
+            ["TERROR_STALWART"] = 3,
+            ["TERROR_GLADIUS"] = 4,
+            ["TERROR_Baselard_Squadron"] = 5
+        }
+
+        for unit, amount in pairs(insurrectionists_units) do
+            DebugMessage("Unit: %s, Amount: %s",tostring(unit),tostring(amount))
+            for x=amount, 1, -1 do
+                DebugMessage("Amount: %s", tostring(x))
+                unitToSpawn = Find_Object_Type(unit)
+                
+                new_units = Spawn_Unit(unitToSpawn,far_isle,terror)
+                if new_units ~= nil then
+                    for _, unit in pairs(new_units) do
+                        unit.Prevent_AI_Usage(false)
+                    end
+                end
+            end
+        end
+
         ScriptExit()
     end
 end

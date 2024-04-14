@@ -36,93 +36,27 @@ function Global_Story(message)
             end
         end
 
-        starting_units_rebel = { -- balance these to easy difficulty
-            [5] = {
-                ["UNSC_HALCYON"] = 1,
-                ["UNSC_PARIS"] = 2,
-                ["UNSC_STALWART"] = 3,
-                ["Baselard_Squadron"] = 3,
-                ["Shortsword_Squadron"] = 2
-            },
-            [4] = {
-                ["UNSC_HALCYON"] = 1,
-                ["UNSC_PARIS"] = 2,
-                ["UNSC_STALWART"] = 3,
-                ["Baselard_Squadron"] = 3,
-                ["Shortsword_Squadron"] = 2
-            },
-            [3] = {
-                ["UNSC_PARIS"] = 1,
-                ["UNSC_STALWART"] = 2,
-                ["Baselard_Squadron"] = 3,
-                ["Shortsword_Squadron"] = 2
-            },
-            [2] = {
-                ["UNSC_STALWART"] = 2,
-                ["Baselard_Squadron"] = 3,
-                ["Shortsword_Squadron"] = 2
-            },
-            [1] = {
-                ["Baselard_Squadron"] = 3,
-                ["Shortsword_Squadron"] = 2
-            }
+        starting_units_rebel = { -- max count, these will be spread across the various planets
+            ["UNSC_HALCYON"] = 5,
+            ["UNSC_PARIS"] = 8,
+            ["UNSC_STALWART"] = 10,
+            ["Baselard_Squadron"] = 18,
+            ["Shortsword_Squadron"] = 16
         }
 
         starting_units_empire = {
-            [5] = {
-                ["COVN_RCS"] = 1,
-                ["COVN_CRS"] = 2,
-                ["COVN_CAR"] = 2,
-                ["COVN_SDV"] = 3,
-                ["Banshee_Squadron"] = 3,
-                ["Tarasque_Squadron"] = 2
-            },
-            [4] = {
-                ["COVN_CRS"] = 2,
-                ["COVN_CAR"] = 2,
-                ["COVN_SDV"] = 3,
-                ["Banshee_Squadron"] = 3,
-                ["Tarasque_Squadron"] = 2
-            },
-            [3] = {
-                ["COVN_CRS"] = 1,
-                ["COVN_CAR"] = 1,
-                ["COVN_SDV"] = 2,
-                ["Banshee_Squadron"] = 3,
-                ["Tarasque_Squadron"] = 2
-            },
-            [2] = {
-                ["COVN_CAR"] = 1,
-                ["COVN_SDV"] = 2,
-                ["Banshee_Squadron"] = 3,
-                ["Tarasque_Squadron"] = 2
-            },
-            [1] = {
-                ["COVN_SDV"] = 1,
-                ["Banshee_Squadron"] = 3,
-                ["Tarasque_Squadron"] = 2
-            }
-            
+            ["COVN_RCS"] = 4,
+            ["COVN_CRS"] = 5,
+            ["COVN_CAR"] = 9,
+            ["COVN_SDV"] = 10,
+            ["Banshee_Squadron"] = 18,
+            ["Tarasque_Squadron"] = 14
+
         }
 
-        starting_units_swords = {
-            [2] = {
-                ["SWORDS_CCS"] = 1,
-                ["SWORDS_CRS"] = 3,
-                ["SWORDS_CAR"] = 1,
-                ["SWORDS_SDV"] = 2,
-                ["SWORDS_Banshee_Squadron"] = 3,
-                ["SWORDS_Cerastes_Squadron"] = 2
-            }
-        }
+        Spawn_Starting_Units("Rebel",starting_units_rebel,rebelPlanets)
 
-        for _, planet in pairs(rebelPlanets) do
-            Spawn_Starting_Units("Rebel",starting_units_rebel,planet.Get_Type().Get_Name())
-        end
-
-        for _, planet in pairs(empirePlanets) do
-            Spawn_Starting_Units("Empire",starting_units_empire,planet.Get_Type().Get_Name())
-        end
+        Spawn_Starting_Units("Empire",starting_units_empire,empirePlanets)
 
 
         Lock_Vanilla_Units()
@@ -130,9 +64,8 @@ function Global_Story(message)
     end
 end
 
-function Spawn_Starting_Units(faction, units, location)
-    planet = FindPlanet(location)
-    starbase_level = planet.Get_Starbase_Level()
+function Spawn_Starting_Units(faction, units, locations)
+
     player = Find_Player(faction)
 
     shield_tech = Find_First_Object("UNSC_Tech_Shield")
@@ -141,13 +74,67 @@ function Spawn_Starting_Units(faction, units, location)
         Spawn_Unit(Find_Object_Type("UNSC_Tech_Shield"),planet,player)
     end
 
-    for unit_name, amount in pairs(units[starbase_level]) do
-        amount = Diff_Multiplier(amount,player)
-        for x=amount, 1, -1 do
-            new_units = Spawn_Unit(Find_Object_Type(unit_name),planet,player)
-            if new_units ~= nil then
-                for _, unit in pairs(new_units) do
-                    unit.Prevent_AI_Usage(false)
+    spawned_units = {}
+
+    total_max = 0
+
+    for unit_name, max in pairs(units) do
+        total_max = total_max + max
+        spawned_units[unit_name] = 0
+    end
+
+    DebugMessage("Total Max Number of Units: %s, Number of Controlled Planets: %s", tostring(total_max), tostring(tableLength(locations)))
+
+    planet_max = tonumber(Dirty_Floor(total_max / (tableLength(locations) / 2))) -- the reason for using tableLength is that using table.getn doesnt give the actual amount of elements in the array, for reasons beyond my knowledge 
+    
+    DebugMessage("Planet Max: %s", planet_max)
+
+    for _, planet in pairs(locations) do
+        for unit_name, max in pairs(units) do
+            unit_type = Find_Object_Type(unit_name)
+
+            if spawned_units[unit_name] < max then
+                amount = EvenMoreRandom(1,tonumber(Dirty_Floor((max - spawned_units[unit_name]) / 1.5)))
+
+                DebugMessage("Unit to Spawn: %s, Amount to Spawn: %s, Max: %s, Current Amount: %s, Spawning at: %s", unit_type.Get_Name(), tostring(amount), tostring(max), tostring(spawned_units[unit_name]), planet.Get_Type().Get_Name())
+            end
+
+            amount = Diff_Multiplier(amount, player)
+
+            DebugMessage("After Diff: %s", tostring(amount))
+
+            if spawned_units[unit_name] + amount > max then
+                DebugMessage("Amount to spawn is Greater than max")
+                amount = 0
+
+                if spawned_units[unit_name] < max then
+                    DebugMessage("Current Spawned is less than max")
+                    amount = EvenMoreRandom(1,max - spawned_units[unit_name])
+
+                    DebugMessage("Spawning %s more", tostring(amount))
+                end
+            end
+
+            planet_units = tableLength(Get_Units_At_Planet(planet,player))
+
+            if planet_units >= planet_max then
+                amount = 0
+            end
+
+            if amount >= planet_max then
+                amount = EvenMoreRandom(1,planet_max-1)
+            end
+
+            spawned_units[unit_name] = spawned_units[unit_name] + amount
+
+            if amount > 0 then
+                for x=amount, 1, -1 do
+                    new_units = Spawn_Unit(unit_type, planet, player)
+                    if new_units ~= nil then
+                        for _, unit in pairs(new_units) do
+                            unit.Prevent_AI_Usage(false)
+                        end
+                    end
                 end
             end
         end
@@ -184,4 +171,22 @@ function Diff_Multiplier(value, player)
     end
     
     return tonumber(Dirty_Floor((value * ai_multiplier[diff]) + 0.5 ))
+end
+
+function Get_Units_At_Planet(planet_name, player)
+    if not player.Get_Faction_Name() == "REBEL" or not player.Get_Faction_Name() == "EMPIRE" then
+        return nil
+    end
+    local all_player_units = Find_All_Objects_Of_Type(player, "Fighter | Bomber | Corvette | Frigate | Capital | Super")
+    planet_units = {}
+    for _, unit in ipairs(all_player_units) do
+        if TestValid(unit) then
+            if TestValid(unit.Get_Planet_Location()) then
+                if unit.Get_Planet_Location().Get_Type().Get_Name() == planet_name then
+                    table.insert(planet_units,unit)
+                end
+            end
+        end
+    end
+    return planet_units
 end

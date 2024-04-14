@@ -171,7 +171,7 @@
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>12</Population_Value>
+		<Population_Value>26</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_MARATHON">
@@ -345,7 +345,7 @@
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>10</Population_Value>
+		<Population_Value>24</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_HALCYON">
@@ -418,14 +418,20 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1650.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1350.0</Targeting_Max_Attack_Distance>
 
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
 		<HardPoints> 
-			<!--HP_HALC_REACTOR,--> HP_HALC_EG_01, HP_HALC_EG_02, HP_HALC_EG_03, HP_HALC_HANGER_01, HP_HALC_HANGER_02, UNSC_HALC_AP_01, UNSC_HALC_AP_02, UNSC_HALC_AP_03, UNSC_HALC_AP_04, UNSC_HALC_AP_05, UNSC_HALC_AP_06, UNSC_HALC_MK33_01, UNSC_HALC_MK33_02, UNSC_HALC_MK33_03, UNSC_HALC_MK33_04, UNSC_HALC_MK33_05, UNSC_HALC_MK33_06 
+			<!--HP_HALC_REACTOR,--> 
+			HP_HALC_EG_01, HP_HALC_EG_02, HP_HALC_EG_03, 
+			HP_HALC_HANGER_01, HP_HALC_HANGER_02, 
+			UNSC_HALC_AP_01, UNSC_HALC_AP_02, UNSC_HALC_AP_03, UNSC_HALC_AP_04, UNSC_HALC_AP_05, UNSC_HALC_AP_06, 
+			UNSC_HALC_MK33_01, UNSC_HALC_MK33_02, UNSC_HALC_MK33_03, UNSC_HALC_MK33_04, UNSC_HALC_MK33_05, UNSC_HALC_MK33_06,
+			UNSC_HALC_FLAK_01, UNSC_HALC_FLAK_02, UNSC_HALC_FLAK_03, UNSC_HALC_FLAK_04,
+			UNSC_HALCYON_MAC
 		</HardPoints>
 
 		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -519,7 +525,7 @@
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
+		<Population_Value>12</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_VINDICATION">
@@ -716,6 +722,6 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>10</Population_Value>
+		<Population_Value>28</Population_Value>
 	</SpaceUnit>
 </CapitalShips>

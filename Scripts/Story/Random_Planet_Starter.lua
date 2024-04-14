@@ -181,10 +181,20 @@ function Spawn_Unit_List(unit_list, planet, player)
             DebugMessage("%s -- Amount of Random Units", tostring(amount))
         end
         if amount == 1 then
-            Spawn_Unit(unitO, planet, player)
+            new_units = Spawn_Unit(unitO, planet, player)
+            if new_units ~= nil then
+                for _, unit in pairs(new_units) do
+                    unit.Prevent_AI_Usage(false)
+                end
+            end
         else
             for x=amount, 1, -1 do
-                Spawn_Unit(unitO, planet, player)
+                new_units = Spawn_Unit(unitO, planet, player)
+                if new_units ~= nil then
+                    for _, unit in pairs(new_units) do
+                        unit.Prevent_AI_Usage(false)
+                    end
+                end
                 DebugMessage("%s -- Amount left", tostring(x))
             end
         end

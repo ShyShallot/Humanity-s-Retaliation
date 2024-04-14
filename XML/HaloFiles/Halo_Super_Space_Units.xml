@@ -426,7 +426,7 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>15</Population_Value>
+		<Population_Value>25</Population_Value>
 	</SpaceUnit>
 
 
@@ -623,7 +623,7 @@
 		<HardPoints> 
 			HP_CAS_HC_01, HP_CAS_HC_02, HP_CAS_HC_03, HP_CAS_HC_04, HP_CAS_HC_05, HP_CAS_HC_06, HP_CAS_HC_07, HP_CAS_HC_08, HP_CAS_HC_09, HP_CAS_HC_10, HP_CAS_01, HP_CAS_02, HP_CAS_03, HP_CAS_04, HP_CAS_05, HP_CAS_06, HP_CAS_07, HP_CAS_08, HP_CAS_09, HP_CAS_10, HP_CAS_11, HP_CAS_12, HP_CAS_13, HP_CAS_14, HP_CAS_15, HP_CAS_16, HP_CAS_17, HP_CAS_18, HP_CAS_19, HP_CAS_20, HP_CAS_21, HP_CAS_22, HP_CAS_23, HP_CAS_24, HP_CAS_25, HP_CAS_26
 		</HardPoints>
-		<Population_Value>40</Population_Value>
+		<Population_Value>30</Population_Value>
 		<Reinforcement_Prevention_Radius> 900 </Reinforcement_Prevention_Radius>
 
 		<Tech_Level>5</Tech_Level>
@@ -701,7 +701,7 @@
 			HP_CSO_HC_01, HP_CSO_HC_02, HP_CSO_HC_03, HP_CSO_HC_04, HP_CSO_HC_05, HP_CSO_HC_06, HP_CSO_HC_07, HP_CSO_HC_08, HP_CSO_HC_09, HP_CSO_HC_10, HP_CSO_01, HP_CSO_02, HP_CSO_03, HP_CSO_04, HP_CSO_05, HP_CSO_06, HP_CSO_07, HP_CSO_08, HP_CSO_09, HP_CSO_10, HP_CSO_11, HP_CSO_12, HP_CSO_13, HP_CSO_14, HP_CSO_15, HP_CSO_16, HP_CSO_17, HP_CSO_18, HP_CSO_19, HP_CSO_20, HP_CSO_21, HP_CSO_22, HP_CSO_23, HP_CSO_24, HP_CSO_25, HP_CSO_26
 		</HardPoints>
 
-		<Population_Value>70</Population_Value>
+		<Population_Value>40</Population_Value>
 		<Reinforcement_Prevention_Radius> 1200 </Reinforcement_Prevention_Radius>
 
 		<Build_Cost_Credits>24500</Build_Cost_Credits>

@@ -129,13 +129,13 @@ end
 
 function EvenMoreRandom(min,max,count) -- the GameRandom tends to be consistant despite being random, usual min max value, with the count being the amount of random numbers generated to then be randomly chosen
     if count == 0 or count == nil then
-        count = 5
+        count = 20
     end
-    DebugMessage("%s -- Min: %s, Max: %s, Count: %s", tostring(Script),min,max,count)
+    --DebugMessage("%s -- Min: %s, Max: %s, Count: %s", tostring(Script),min,max,count)
     local values = {}
     for i = 1, count, 1 do
         values[i] = GameRandom(min,max)
-        DebugMessage("%s -- Random Num: %s", tostring(Script),values[i])
+        --DebugMessage("%s -- Random Num: %s", tostring(Script),values[i])
     end
     return values[GameRandom(1,count)]
 end

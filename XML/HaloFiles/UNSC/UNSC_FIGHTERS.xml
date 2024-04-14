@@ -23,12 +23,12 @@
 
 		<Max_Lift>3</Max_Lift>
 		<Max_Speed>5.8</Max_Speed>
-		<Min_Speed>1.0</Min_Speed>
-		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
-		<Max_Thrust>1.0</Max_Thrust>
-		<Max_Rate_Of_Roll>1.5</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>70</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Min_Speed>3.5</Min_Speed>
+		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
+		<Max_Thrust>2.0</Max_Thrust>
+		<Strafe_Distance>950.0</Strafe_Distance>
+		<Max_Rate_Of_Roll>1.2</Max_Rate_Of_Roll>
+		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -118,7 +118,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Strafe_Distance>650.0</Strafe_Distance>
+		<Strafe_Distance>950.0</Strafe_Distance>
 		<Population_Value>1</Population_Value>
 
 	</SpaceUnit>
@@ -242,6 +242,8 @@
 
 	<Squadron Name="Longsword_Far_Isle_Squadron">
 		<Variant_Of_Existing_Type>Longsword_Squadron</Variant_Of_Existing_Type>
+
+		<Create_Team_Type>Longsword_Far_Isle_Squadron_Container </Create_Team_Type>
 		
 		<Tech_Level>99</Tech_Level>
 
@@ -266,6 +268,10 @@
 
 		<Abilities SubObjectList="Yes"></Abilities>
 	</Squadron>
+
+	<Container Name="Longsword_Far_Isle_Squadron_Container">
+		<Variant_Of_Existing_Type>Longsword_Squadron_Container</Variant_Of_Existing_Type>
+	</Container>
 	
 
     <Container Name="Longsword_Squadron_Container">
@@ -339,12 +345,12 @@
 		<Collision_Box_Modifier>6.0</Collision_Box_Modifier>
 		<Max_Lift>3</Max_Lift>
 		<Max_Speed>6.5</Max_Speed>
-		<Min_Speed>1.0</Min_Speed>
-		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
-		<Max_Thrust>1.0</Max_Thrust>
-		<Max_Rate_Of_Roll>1.5</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>70</Bank_Turn_Angle>
-		<Begin_Turn_Towards_Distance>100.0</Begin_Turn_Towards_Distance>
+		<Min_Speed>3.5</Min_Speed>
+		<Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
+		<Max_Thrust>2.0</Max_Thrust>
+		<Strafe_Distance>1050.0</Strafe_Distance>
+		<Max_Rate_Of_Roll>1.45</Max_Rate_Of_Roll>
+		<Begin_Turn_Towards_Distance>1200.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -626,12 +632,14 @@
 		<Mass>0.99</Mass>
 		<Fires_Forward>no</Fires_Forward>
 		<Collision_Box_Modifier>6.0</Collision_Box_Modifier>
-		<Max_Lift>3</Max_Lift>
+		<Max_Lift>1.5</Max_Lift>
 		<Max_Speed>7.5</Max_Speed>
-		<Min_Speed>2.0</Min_Speed>
-		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
+		<Min_Speed>3.5</Min_Speed>
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
-		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Strafe_Distance>650.0</Strafe_Distance>
+		<Max_Rate_Of_Roll>1.9</Max_Rate_Of_Roll>
+		<Begin_Turn_Towards_Distance>750.0</Begin_Turn_Towards_Distance>
 		<Bank_Turn_Angle>70</Bank_Turn_Angle>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -875,10 +883,12 @@
 		<Collision_Box_Modifier>6.0</Collision_Box_Modifier>
 		<Max_Lift>3</Max_Lift>
 		<Max_Speed>6.5</Max_Speed>
-		<Min_Speed>0.5</Min_Speed>
+		<Min_Speed>3.5</Min_Speed>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
-		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Strafe_Distance>650.0</Strafe_Distance>
+		<Max_Rate_Of_Roll>1.9</Max_Rate_Of_Roll>
+		<Begin_Turn_Towards_Distance>750.0</Begin_Turn_Towards_Distance>
 		<Bank_Turn_Angle>70</Bank_Turn_Angle>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -1183,11 +1193,13 @@
 
 		<Max_Lift>3</Max_Lift>
 		<Max_Speed>8.0</Max_Speed>
-		<Min_Speed>2.0</Min_Speed>
-		<Max_Rate_Of_Turn>1.7</Max_Rate_Of_Turn>
+		<Min_Speed>5.5</Min_Speed>
+		<Max_Rate_Of_Turn>1.95</Max_Rate_Of_Turn>
 		<Max_Thrust>2.0</Max_Thrust>
-		<Max_Rate_Of_Roll>4.0</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>160</Bank_Turn_Angle>
+		<Strafe_Distance>650.0</Strafe_Distance>
+		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
+		<Begin_Turn_Towards_Distance>750.0</Begin_Turn_Towards_Distance>
+		<Bank_Turn_Angle>85</Bank_Turn_Angle>
 		<Hyperspace>No</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>

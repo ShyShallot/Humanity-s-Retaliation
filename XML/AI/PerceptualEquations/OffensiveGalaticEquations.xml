@@ -418,18 +418,16 @@
 
 	-->
 
-	<Should_Conquer_Opponent_Planet>
-		25
+	<Should_Conquer_Opponent_Planet> <!-- Credit to AOTR Team-->
+		(0.5 + (0.5 * Variable_Target.IsHumanControlled) - (0.4 * (1.0 - Variable_Target.IsHumanControlled) * Variable_Self.AnyCurrentThreats))
+        *
+        Function_Is_Connected_To_Me.Evaluate
 		*
-		Function_Is_Connected_To_Me.Evaluate
+        (Game.Age > 420)
+        *
+        Function_Is_Good_Invasion_Target.Evaluate
 		*
-		(Variable_Self.CreditsUnnormalized > 5000)
-		*
-		(Variable_Self.SpaceTotalUnnormalized > Variable_Target.EnemyForce.SpaceTotalUnnormalized)
-		*
-		(Variable_Self.TimeSinceSpaceAttacker > (180 # 360) )
-		*
-		(Game.Age > 180)
+		(Variable_Target.IsSurfaceAccessible == 0)
 	</Should_Conquer_Opponent_Planet>
 
 	<!-- We have this specific goal so that the AI can advance to tech 5 due to the Shield Tech
