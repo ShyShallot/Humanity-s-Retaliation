@@ -41,6 +41,8 @@
 
 require("pgcommands")
 require("GalacticHeroFreeStore")
+require("PlanetsLoyalty")
+require("HALOFunctions")
 
 function Base_Definitions()
 	DebugMessage("%s -- In Base_Definitions", tostring(Script))
@@ -52,8 +54,8 @@ function Base_Definitions()
 	Common_Base_Definitions()
 	
 	-- Percentage of units to move on each service.
-	SpaceMovePercent = 0.10
-	GroundMovePercent = 0.10
+	SpaceMovePercent = 0.4
+	GroundMovePercent = 0.4
 
 	if Definitions then
 		Definitions()
@@ -180,8 +182,10 @@ function FreeStoreService()
 		DebugMessage("%s -- SpaceAvailablePercent: %f, GroundAvailablePercent: %f, SpaceUnitsToMove: %f, GroundUnitsToMove: %f, scnt: %f, gcnt: %f",
 			tostring(Script), SpaceAvailablePercent, GroundAvailablePercent, SpaceUnitsToMove, GroundUnitsToMove, scnt, gcnt)
 	end
-	
+
 end
+
+
 
 function Find_Ground_Unit_Target(object)
 

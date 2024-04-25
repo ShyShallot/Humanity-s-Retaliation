@@ -46,7 +46,7 @@
     <Describe_History>TEXT_PLANET_REACH_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_REACH_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_REACH_ENC </Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_REACH_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_REACH_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_5 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -54,33 +54,25 @@
     <Additional_Population_Capacity>55</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Reach_Tech_Boost">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> UNSC_HALCYON, Sabre_Squadron</Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Price_Ability>
 
-
-
-    </Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+      <Reduce_Production_Time_Ability Name="Reach_Tech_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> UNSC_HALCYON, Sabre_Squadron</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
   </Planet>
   <Planet Name="Reach_Custom">
     <!-- For Skrimish Only -->
@@ -128,7 +120,7 @@
     <Describe_History>TEXT_PLANET_REACH_CUSTOM_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_REACH_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_REACH_ENC HALO_DASH</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -206,7 +198,7 @@
     <Describe_History>TEXT_PLANET_AKTIS_4_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_AKTIS_4_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_AKTIS_4_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_3 </Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -262,7 +254,7 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-55.0, -286.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
-    <Special_Structures_Space>1</Special_Structures_Space>
+    <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -284,21 +276,27 @@
     <Describe_History>TEXT_PLANET_ALERIA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC </Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_ALERIA_ENC HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ALERIA_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_2 HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
+    <Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
+
     <Abilities SubObjectList="Yes">
-      <Planet_Income_Gambling_Ability Name="Threshold_Gambling_Income">        <!-- High Income Thingy-->
-        <Evaluation_Interval_In_Secs>60.0</Evaluation_Interval_In_Secs>
-        <Min_Income_Modifier>1.25</Min_Income_Modifier>
-        <Max_Income_Modifier>1.55</Max_Income_Modifier>
-        <Chance_To_Win>1.00</Chance_To_Win>
-      </Planet_Income_Gambling_Ability>
-    </Abilities>
+      <Reduce_Production_Time_Ability Name="Aleria_Tech_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.25</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+
+		</Abilities>
+
 
   </Planet>
   <!-- Alluvion-->
@@ -345,16 +343,35 @@
     <Describe_Tactical>TEXT_PLANET_ALLUVION_INFO_TAC</Describe_Tactical>
     <Describe_Advantage>TEXT_PLANET_ALLUVION_INFO_ADV</Describe_Advantage>
     <Describe_History>TEXT_PLANET_ALLUVION_INFO_HIS</Describe_History>
-    <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
-    <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_ALLUVION_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
+    <Planet_Ability_Name>TEXT_SPACE</Planet_Ability_Name>
+    <Planet_Ability_Description>HALO_PLANET_ALLUVION_ENC HALO_DASH</Planet_Ability_Description>
+    <Encyclopedia_Text>HALO_PLANET_ALLUVION_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_ARTIFACTS HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>55</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Alluvion_Tech_Boost">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> UNSC_Tech_Shield, UNSC_TECH_2, UNSC_TECH_3, UNSC_TECH_4, UNSC_TECH_5, DS_Primary_Hyperdrive, DS_Shield_Gen, DS_Superlaser_Core, DS_Durasteel</Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Price_Ability>
+
+      <Reduce_Production_Time_Ability Name="Alluvion_Tech_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> UNSC_Tech_Shield, UNSC_TECH_2, UNSC_TECH_3, UNSC_TECH_4, UNSC_TECH_5, DS_Primary_Hyperdrive, DS_Shield_Gen, DS_Superlaser_Core, DS_Durasteel</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
 
   </Planet>
   <!-- Arcadia -->
@@ -403,7 +420,7 @@
     <Describe_History>TEXT_PLANET_ARCADIA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC </Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_ARCADIA_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ARCADIA_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_2 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -459,37 +476,13 @@
     <Describe_History>TEXT_PLANET_CHI_CETI_IV_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_CHI_CETI_IV_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_CHI_CETI_IV_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_3</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- ERIDANUS 2-->
   <Planet Name="Eridanus_2">
@@ -515,7 +508,7 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-203.0, -156.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
-    <Special_Structures_Space>1</Special_Structures_Space>
+    <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -537,7 +530,7 @@
     <Describe_History>TEXT_PLANET_ERIDANUS_2_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_ERIDANUS_2_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ERIDANUS_2_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -571,8 +564,8 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-138.0, -139.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
-    <Special_Structures_Space>3</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Special_Structures_Space>1</Special_Structures_Space>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -593,37 +586,13 @@
     <Describe_History>TEXT_PLANET_MADRIGAL_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_MADRIGAL_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ERIDANUS_2_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_1</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Charybdis_9-->
   <Planet Name="Charybdis_IX">
@@ -649,7 +618,7 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>102.0, -326.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
-    <Special_Structures_Space>2</Special_Structures_Space>
+    <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -671,21 +640,24 @@
     <Describe_History>TEXT_PLANET_CHARYBDIS_IX_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_CHARYBDIS_IX_ENC HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_CHARYBDIS_IX_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
+    <Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
+
     <Abilities SubObjectList="Yes">
-      <Planet_Income_Gambling_Ability Name="Threshold_Gambling_Income">        <!-- High Income Thingy-->
-        <Evaluation_Interval_In_Secs>60.0</Evaluation_Interval_In_Secs>
-        <Min_Income_Modifier>1.25</Min_Income_Modifier>
-        <Max_Income_Modifier>1.55</Max_Income_Modifier>
-        <Chance_To_Win>1.00</Chance_To_Win>
-      </Planet_Income_Gambling_Ability>
-    </Abilities>
+			<Reduce_Production_Price_Ability Name="Chary_Econ_Boost">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Price_Ability>
+		</Abilities>
 
   </Planet>
   <!-- Meridian-->
@@ -734,7 +706,7 @@
     <Describe_History>TEXT_PLANET_MERIDIAN_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_MERIDIAN_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_MERIDIAN_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -790,7 +762,7 @@
     <Describe_History>TEXT_PLANET_GAO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_GAO_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_GAO_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_1</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -846,7 +818,7 @@
     <Describe_History>TEXT_PLANET_HARVEST_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_HARVEST_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_HARVEST_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -902,14 +874,33 @@
     <Describe_History>TEXT_PLANET_EARTH_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC </Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_EARTH_ENC TEXT_SPACE HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_EARTH_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_4 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>65</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Earth_Capital_Boost">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Price_Ability>
+
+      <Reduce_Production_Time_Ability Name="Earth_Capital_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
 
   </Planet>
   <!-- Falaknuma -->
@@ -937,7 +928,7 @@
     <Galactic_Position>144.0, -185.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -958,37 +949,13 @@
     <Describe_History>TEXT_PLANET_FALAKNUMA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_FALAKNUMA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_HARVEST_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_1</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Harmony-->
   <Planet Name="Harmony">
@@ -1015,7 +982,7 @@
     <Galactic_Position>-28.0, -228.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Max_Space_Base>2</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1036,37 +1003,13 @@
     <Describe_History>TEXT_PLANET_HARMONY_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_HARMONY_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_HARVEST_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_2 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+ 
   </Planet>
   <!-- New Carthage-->
   <Planet Name="New_Carthage">
@@ -1092,8 +1035,8 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>281.0, 98.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
-    <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Special_Structures_Space>4</Special_Structures_Space>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1114,37 +1057,13 @@
     <Describe_History>TEXT_PLANET_NEW_CARTHAGE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_NEW_CARTHAGE_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_NEW_HARVEST_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_4</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+    <Additional_Population_Capacity>35</Additional_Population_Capacity>
+
   </Planet>
   <!-- New Jerusalem-->
   <Planet Name="New_Jerusalem">
@@ -1171,7 +1090,7 @@
     <Galactic_Position>243.0, -41.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1192,37 +1111,12 @@
     <Describe_History>TEXT_PLANET_NEW_JERUSALEM_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_NEW_JERUSALEM_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_HARVEST_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+    <Additional_Population_Capacity>15</Additional_Population_Capacity>
   </Planet>
   <!-- Tantalus-->
   <Planet Name="Tantalus">
@@ -1249,7 +1143,7 @@
     <Galactic_Position>10.0, -325.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1270,37 +1164,13 @@
     <Describe_History>TEXT_PLANET_TANTALUS_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_TANTALUS_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_HARVEST_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Terra Nova-->
   <Planet Name="Terra_Nova">
@@ -1326,8 +1196,8 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>154.0, 59.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
-    <Special_Structures_Space>1</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Special_Structures_Space>3</Special_Structures_Space>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1348,37 +1218,13 @@
     <Describe_History>TEXT_PLANET_TERRA_NOVA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_TERRA_NOVA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TERRA_NOVA_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_3</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+    <Additional_Population_Capacity>10</Additional_Population_Capacity>
+
   </Planet>
   <!-- Mars -->
   <Planet Name="Mars">
@@ -1426,14 +1272,34 @@
     <Describe_History>TEXT_PLANET_MARS_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_MARS_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_MARS_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_4 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_ARTIFACTS HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>50</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+
+    <Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Mars_Military_Boost">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Frigate, Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Price_Ability>
+
+      <Reduce_Production_Time_Ability Name="Mars_Military_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Frigate, Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
+
   </Planet>
   <!-- Miridem -->
   <Planet Name="Miridem">
@@ -1460,7 +1326,7 @@
     <Galactic_Position>189.0, -24.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1481,7 +1347,7 @@
     <Describe_History>TEXT_PLANET_MIRIDEM_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_MIRIDEM_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_MIRIDEM_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -1515,8 +1381,8 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>198.0, 219.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
-    <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Special_Structures_Space>1</Special_Structures_Space>
+    <Max_Space_Base>2</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1537,37 +1403,13 @@
     <Describe_History>TEXT_PLANET_NETHEROP_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_NETHEROP_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_NETHEROP_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_2 HALO_SPACE_STRUCTURES_1 HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Far Isle -->
   <Planet Name="Far_Isle">
@@ -1594,7 +1436,7 @@
     <Galactic_Position>202.0, -215.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1615,37 +1457,13 @@
     <Describe_History>TEXT_PLANET_FAR_ISLE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_FAR_ISLE_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_FAR_ISLE_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Threshold -->
   <Planet Name="Threshold">
@@ -1671,8 +1489,8 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-321.0, -115.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
-    <Special_Structures_Space>4</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Special_Structures_Space>3</Special_Structures_Space>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1693,21 +1511,14 @@
     <Describe_History>TEXT_PLANET_THRESHOLD_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_THRESHOLD_ENC HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_THRESHOLD_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_HIGH_INCOME HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
+    <Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes">
-      <Planet_Income_Gambling_Ability Name="Threshold_Gambling_Income">        <!-- High Income Thingy-->
-        <Evaluation_Interval_In_Secs>60.0</Evaluation_Interval_In_Secs>
-        <Min_Income_Modifier>1.25</Min_Income_Modifier>
-        <Max_Income_Modifier>1.55</Max_Income_Modifier>
-        <Chance_To_Win>1.00</Chance_To_Win>
-      </Planet_Income_Gambling_Ability>
-    </Abilities>
+
 
   </Planet>
   <!-- Yonhe -->
@@ -1734,8 +1545,8 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>247.0, 169.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
-    <Special_Structures_Space>3</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Special_Structures_Space>2</Special_Structures_Space>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1756,37 +1567,13 @@
     <Describe_History>TEXT_PLANET_YONHE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_YONHE_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_YONHE_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Kamchatka -->
   <Planet Name="Kamchatka">
@@ -1813,7 +1600,7 @@
     <Galactic_Position>-157.0, 322.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1834,37 +1621,13 @@
     <Describe_History>TEXT_PLANET_KAMCHATKA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_KAMCHATKA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_KAMCHATKA_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Taram -->
   <Planet Name="Taram">
@@ -1891,7 +1654,7 @@
     <Galactic_Position>-268.0, 292.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -1912,37 +1675,13 @@
     <Describe_History>TEXT_PLANET_TARAM_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_TARAM_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TARAM_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Trove -->
   <Planet Name="Trove">
@@ -1968,7 +1707,7 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-223.0, 92.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
-    <Special_Structures_Space>1</Special_Structures_Space>
+    <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
@@ -1990,15 +1729,12 @@
     <Describe_History>TEXT_PLANET_TROVE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_TROVE_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TROVE_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>20</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
   </Planet>
   <!-- Installation 05 -->
   <Planet Name="Installation_05">
@@ -2006,11 +1742,11 @@
     <Text_ID>HALO_PLANET_INSTALLATION_05</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
-    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <Galactic_Model_Name>W_PLANET_RING.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_PLANET_RING.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>W_PLANET_RING.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.25</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2046,37 +1782,13 @@
     <Describe_History>TEXT_PLANET_INSTALLATION_05_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_INSTALLATION_05_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_INSTALLATION_05_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_2 HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Nefoluzo -->
   <Planet Name="Nefoluzo">
@@ -2103,7 +1815,7 @@
     <Galactic_Position>-45.0, 377.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2124,7 +1836,7 @@
     <Describe_History>TEXT_PLANET_NEFOLUZO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_NEFOLUZO_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_NEFOLUZO_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_1</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2179,37 +1891,25 @@
     <Describe_History>TEXT_PLANET_THUA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_THUA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_THUA_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2 HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
+    <Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
+    <Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Thua_Tech_Boost">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Price_Ability>
+
+		</Abilities>
   </Planet>
   <!-- Glyke -->
   <Planet Name="Glyke">
@@ -2258,7 +1958,7 @@
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
 
-    <Encyclopedia_Text>HALO_PLANET_GLYKE_ENC HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_GLYKE_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_4 HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2267,7 +1967,26 @@
 
     <Additional_Population_Capacity>30</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Glyke_Slave_Boost">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Price_Ability>
+
+      <Reduce_Production_Time_Ability Name="Glyke_Slave_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories><Applicable_Unit_Categories>Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories></Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
 
   </Planet>
   <!-- Karava -->
@@ -2316,7 +2035,7 @@
     <Describe_History>TEXT_PLANET_KARAVA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_KARAVA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_KARAVA_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2372,37 +2091,13 @@
     <Describe_History>TEXT_PLANET_VICTORS_TRUTH_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_VICTORS_TRUTH_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_VICTORS_TRUTH_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Balaho -->
   <Planet Name="Balaho">
@@ -2428,8 +2123,8 @@
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-251.0, 152.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
-    <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>2</Max_Space_Base>
+    <Special_Structures_Space>3</Special_Structures_Space>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2450,14 +2145,24 @@
     <Describe_History>TEXT_PLANET_BALAHO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_BALAHO_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_BALAHO_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_3</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Balaho_Fighter_Boost">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Price_Ability>
+
+		</Abilities>
 
   </Planet>
   <!-- Te -->
@@ -2506,14 +2211,24 @@
     <Describe_History>TEXT_PLANET_TE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_TE_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TE_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_4</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes">
+      <Reduce_Production_Time_Ability Name="Te_Tech_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories> Frigate, Corvette </Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
 
   </Planet>
   <!-- Doisac -->
@@ -2562,12 +2277,12 @@
     <Describe_History>TEXT_PLANET_DOISAC_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_DOISAC_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_DOISAC_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_5 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>15</Additional_Population_Capacity>
+    <Additional_Population_Capacity>55</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes"></Abilities>
 
@@ -2618,14 +2333,23 @@
     <Describe_History>TEXT_PLANET_SANGHELIOS_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_SANGHELIOS_ENC HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_SANGHELIOS_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_5 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_ARTIFACTS HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>35</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes">
+			<Reduce_Production_Price_Ability Name="Sanghelios_Tech_Boost">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Capital, Super</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Price_Ability>
+		</Abilities>
 
   </Planet>
   <!-- Rhanelo -->
@@ -2674,37 +2398,13 @@
     <Describe_History>TEXT_PLANET_RHANELO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_RHANELO_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_RHANELO_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+    <Additional_Population_Capacity>10</Additional_Population_Capacity>
+
   </Planet>
   <!-- Song of Victory -->
   <Planet Name="Song_Of_Victory">
@@ -2752,14 +2452,24 @@
     <Describe_History>TEXT_PLANET_SONG_OF_VICTORY_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_SONG_OF_VICTORY_ENC HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_SONG_OF_VICTORY_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL HALO_TEXT_PLANET_SUPER</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>20</Additional_Population_Capacity>
     <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes">
+      <Reduce_Production_Time_Ability Name="Song_Tech_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> COVN_CAS </Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
 
   </Planet>
   <!-- Eayn -->
@@ -2808,7 +2518,7 @@
     <Describe_History>TEXT_PLANET_EAYN_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_EAYN_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_EAYN_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_3 HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -2843,7 +2553,7 @@
     <Galactic_Position>-161.0, 181.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
-    <Max_Space_Base>3</Max_Space_Base>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -2864,37 +2574,25 @@
     <Describe_History>TEXT_PLANET_BHEDALON_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_BHEDALON_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_BHEDALON_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_3</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
+    <Abilities SubObjectList="Yes">
+      <Reduce_Production_Time_Ability Name="Bhedalon_Station_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Rebel_Star_Base_1</Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
+
   </Planet>
   <!-- Codisfold -->
   <Planet Name="Codisfold">
@@ -2942,37 +2640,13 @@
     <Describe_History>TEXT_PLANET_CODISFOLD_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_CODISFOLD_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_CODISFOLD_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Feldokra -->
   <Planet Name="Feldokra">
@@ -3020,37 +2694,13 @@
     <Describe_History>TEXT_PLANET_FELDOKRA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_FELDOKRA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_FELDOKRA_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+    <Additional_Population_Capacity>10</Additional_Population_Capacity>
+
   </Planet>
   <!-- Ulgethon -->
   <Planet Name="Ulgethon">
@@ -3098,37 +2748,13 @@
     <Describe_History>TEXT_PLANET_ULGETHON_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_ULGETHON_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ULGETHON_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_2 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Palamok -->
   <Planet Name="Palamok">
@@ -3155,7 +2781,7 @@
     <Galactic_Position>-310.0, 199.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>3</Max_Space_Base>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -3176,7 +2802,7 @@
     <Describe_History>TEXT_PLANET_PALAMOK_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_PALAMOK_ENC HALO_TEXT_PLANET_HIGH_POP</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_PALAMOK_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_2 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3231,37 +2857,25 @@
     <Describe_History>TEXT_PLANET_VEN_3_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_VEN_3_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_VEN_3_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
+    <Abilities SubObjectList="Yes">
+      <Reduce_Production_Time_Ability Name="Ven_Tech_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+		</Abilities>
+
   </Planet>
   <!-- Kostroda -->
   <Planet Name="Kostroda">
@@ -3288,7 +2902,7 @@
     <Galactic_Position>-104.0, 356.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>2</Max_Space_Base>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -3309,7 +2923,7 @@
     <Describe_History>TEXT_PLANET_KOSTRODA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_KOSTRODA_ENC HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_KOSTRODA_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_2 HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -3365,37 +2979,13 @@
     <Describe_History>TEXT_PLANET_KHAELMOTHKA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_KHAELMOTHKA_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_KHAELMOTHKA_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_2 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
   <!-- Tvao -->
   <Planet Name="Tvao">
@@ -3422,7 +3012,7 @@
     <Galactic_Position>44.0, 234.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>3</Max_Space_Base>
+    <Max_Space_Base>2</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -3443,36 +3033,12 @@
     <Describe_History>TEXT_PLANET_TVAO_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_TVAO_ENC</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_TVAO_ENC HALO_DASH HALO_SPACE_MAX_STARBASE_2 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-    <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
-    <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
-    <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Saleucami_Intimidation.xml </Corruption_1_Tactical_Script_Name>
-    <Corruption_1_Mission_Commencing_Speech_Event>SALEUCAMI_INT_LOAD_COR43_01</Corruption_1_Mission_Commencing_Speech_Event>
-    <Corruption_1_Success_Speech_Event> SALEUCAMI_INT_VICTORY_COR43_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Urai_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Failure_Speech_Event>SALEUCAMI_INT_LOSS_COR43_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
-    <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-    <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
-    <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
-    <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
-    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
 </Planets>

@@ -45,15 +45,16 @@
 		<AIGoalApplicationFlags> Neutral </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
 		<Category> Offensive </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> 90.0 </Time_Limit>
-		<Build_Time_Delay_Tolerance>2.0</Build_Time_Delay_Tolerance>
-		<Is_Like>Conquer_To_Reconnect, Conquer_Opponent</Is_Like> 
+		<Reachability> Enemy_Destination </Reachability>
+		<Time_Limit> 60.0 </Time_Limit>		<!-- was 90 -->
+		<Build_Time_Delay_Tolerance>1.1</Build_Time_Delay_Tolerance>
+		<Is_Like>
+			Conquer_To_Reconnect,
+			Conquer_Opponent
+		</Is_Like>
 		<Tracking_Duration>300</Tracking_Duration>
-		<Per_Failure_Desire_Adjust>1.0</Per_Failure_Desire_Adjust>
-		<Activation_Tracking_Duration>50</Activation_Tracking_Duration>
+		<Activation_Tracking_Duration>300</Activation_Tracking_Duration>
 		<Per_Activation_Failure_Desire_Adjust>-5.0</Per_Activation_Failure_Desire_Adjust>
-		<Global_Exclusions>Conquer_Opponent, Raid, Conquer_To_Reconnect</Global_Exclusions>
 	</Conquer_Empty_Planet>
 
 
@@ -127,18 +128,12 @@
 	</Build_Ground_Forces>
 	
 	<Build_Space_Forces>
-		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
+		<AIGoalApplicationFlags> Global </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
 		<Category> Offensive </Category>
 		<Reachability> Any </Reachability>
-		<Time_Limit> 30.0 </Time_Limit>
-		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
-		<Per_Activation_Failure_Desire_Adjust>1.0</Per_Activation_Failure_Desire_Adjust>
-		<Is_Like>
-			Build_Scanner,
-			HR_Build_Initial_Starbase_Only,
-			Build_Jamming_Station
-		</Is_Like>
+		<Time_Limit> 120.0 </Time_Limit>
+		<Build_Time_Delay_Tolerance>1.0</Build_Time_Delay_Tolerance>
 	</Build_Space_Forces>
 
 	<!-- Because it's in the Hero category, the Death Star never receives any budget.

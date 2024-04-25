@@ -6,7 +6,12 @@
 		<Goal>Upgrade_Starbase</Goal>
 		<Function>Needs_Starbase_Upgrade</Function>
 	</DevelopStarbase>
-	
+
+	<Defend_Empty_Planet>
+		<Goal>Defend_Empty_Planet</Goal>
+		<Function>Does_Planet_Need_Units</Function>
+	</Defend_Empty_Planet>
+
 	<Advance_Tech_Empire>
 		<Goal>Advance_Tech_Empire</Goal>
 		<Function>Advance_Tech_Empire</Function>

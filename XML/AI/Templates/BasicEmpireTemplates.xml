@@ -14,7 +14,7 @@
 			<Infrastructure>BasicEmpireInfrastructureBudgetAllocation</Infrastructure>
 			<Information>BasicEmpireInformationBudgetAllocation</Information>
 			<Hero>Zero</Hero>
-			<MajorItem>BasicEmpireMajorItemBudgetAllocation</MajorItem>
+			<MajorItem>Zero</MajorItem>
 			<StoryArc>Zero</StoryArc>
 	</Budget>
 
@@ -76,7 +76,7 @@ be cancelled.
 	<Un_Trigger>Empire_Tech_Untrigger</Un_Trigger>
 
 	<Budget>
-		<MajorItem>EmpireTechUpgradeMajorItemAllocation</MajorItem>
+		<MajorItem>Zero</MajorItem>
 		<Offensive>EmpireTechUpgradeOffensiveAllocation</Offensive>
 		<Defensive>Zero</Defensive>
 		<Infrastructure>EmpireTechUpgradeInfrastructureAllocation</Infrastructure>

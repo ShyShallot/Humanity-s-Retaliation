@@ -721,9 +721,9 @@
 				<!-- 10% bonus to base planetary income -->
 				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
 				<!-- plus an absolute 0 credits to planetary income -->
-				<Absolute_Income_Modifier>425</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>205</Absolute_Income_Modifier>
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
-				<Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies>
+				<Additional_Multiplier_On_Mining_Colonies>1.75</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>
 			<Income_Stream_Ability Name="Empire_Mining_Income_Stream">
@@ -737,8 +737,8 @@
 			<Force_Healing_Ability Name="E_Mining_Facility_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
-				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Percent>0.0</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>5.0</Heal_Amount>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories />
@@ -824,7 +824,7 @@
 				<!-- 30% bonus to base planetary income -->
 				<Percentage_Income_Modifier>1.00</Percentage_Income_Modifier>
 				<!-- plus an absolute 0 credits to planetary income -->
-				<Absolute_Income_Modifier>425</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>215</Absolute_Income_Modifier>
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
 				<Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
@@ -841,7 +841,7 @@
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
 				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
-				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Amount>5.0</Heal_Amount>
 				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories />

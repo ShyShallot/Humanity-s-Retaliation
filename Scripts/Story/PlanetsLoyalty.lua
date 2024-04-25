@@ -124,7 +124,7 @@ function Change_Planet(planet_name)
         }
 
         Spawn_UnitList(terrorists, terror_units, planet)
-        planet_loyaltly_table[planet_name]["Owner"] = terrorists.Get_Faction_Name()
+        Change_Planet_Owner(planet_name,terrorists.Get_Faction_Name())
     elseif planet_owner == "EMPIRE" then
         planet.Change_Owner(swords)
         swords_units = {
@@ -135,8 +135,11 @@ function Change_Planet(planet_name)
         }
 
         Spawn_UnitList(swords, swords_units, planet)
-        planet_loyaltly_table[planet_name]["Owner"] = swords.Get_Faction_Name()
+        Change_Planet_Owner(planet_name,swords.Get_Faction_Name())
     end
+
+    planet_loyaltly_table["Loyalty"] = 100
+    planet_loyaltly_table["PrevLoyalty"] = 100
     
 end
 
@@ -225,45 +228,48 @@ function State_Loyalty(message)
                 planet_loyaltly_table[planet_name]["PrevLoyalty"] = 100
             end
             planet_loyalty = planet_loyaltly_table[planet_name]
-            if planet_loyalty["Owner"] == "REBEL" or planet_loyalty["Owner"] == "EMPIRE" then
-                if planet_loyalty["Owner"] == "REBEL" then
-                    Does_Planet_Have_Farm = Find_Farm_On_Planet(planet_name)
-                    if TestValid(Does_Planet_Have_Farm and Farms_Active(planet.Get_Owner())) then
-                        DebugMessage("Planet %s has a farm", tostring(planet_name))
-                        Modify_Planet_Loyalty(planet_name,true)
-                    elseif (not TestValid(Does_Planet_Have_Farm) and Farms_Active(planet.Get_Owner())) then
-                        DebugMessage("Planet %s is missing a farm, Are Farms Active?: %s", tostring(planet_name), tostring(Farms_Active(planet.Get_Owner())))
-                        Modify_Planet_Loyalty(planet_name,false)
-                    end
-                end
-                if Are_Neighbors_Majority_Enemy(planet_loyalty["Owner"],planet) then
-                    Modify_Planet_Loyalty(planet_name,false,0.5)
-                end
-                local planet_units = Get_Units_At_Planet(planet_name, planet.Get_Owner())
-                if not (planet_units == nil) then
-                    DebugMessage("Power: %s, Upkeep: %s", tostring(Combat_Power_From_List(planet_units)), tostring(Tech_Power_Upkeep(planet.Get_Owner())))
-                    if Combat_Power_From_List(planet_units) < (Tech_Power_Upkeep(planet.Get_Owner())) then
-                        DebugMessage("Combat Power is less than Upkeep for planet: %s", tostring(planet_name))
-                        Modify_Planet_Loyalty(planet_name, false, 0.5)
-                    else 
-                        Modify_Planet_Loyalty(planet_name, true, 0.5)
-                    end
-                    if planet.Get_Owner().Is_Human() then
-                        event.Add_Dialog_Text(tostring(Capital_First_Letter(planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%%") .. ", Power: " .. tostring(formatNumberWithCommas(Combat_Power_From_List(planet_units))))
-                        event.Add_Dialog_Text(" ")
-                    end
-                end
-                if planet_loyalty["Loyalty"] <= 0 then
-                    Planet_Lost_Sound(planet_loyalty["Owner"])
-                    Game_Message("We Lost " .. planet_name .. " due to a lack of Loyalty!")
-                    Change_Planet(planet_name)
-                end
-            end
-            if planet_loyalty["Owner"] == "NEUTRAL" then
-                Modify_Planet_Loyalty(planet_name,false,0.4)
 
-                if planet_loyalty["Loyalty"] <= 0 and planet_loyalty["Owner"] == "NEUTRAL" then
-                    Change_Planet(planet_name)
+            if not (planet_loyalty == nil) then
+                if planet_loyalty["Owner"] == "REBEL" or planet_loyalty["Owner"] == "EMPIRE" then
+                    if planet_loyalty["Owner"] == "REBEL" then
+                        Does_Planet_Have_Farm = Find_Farm_On_Planet(planet_name)
+                        if TestValid(Does_Planet_Have_Farm and Farms_Active(planet.Get_Owner())) then
+                            DebugMessage("Planet %s has a farm", tostring(planet_name))
+                            Modify_Planet_Loyalty(planet_name,true)
+                        elseif (not TestValid(Does_Planet_Have_Farm) and Farms_Active(planet.Get_Owner())) then
+                            DebugMessage("Planet %s is missing a farm, Are Farms Active?: %s", tostring(planet_name), tostring(Farms_Active(planet.Get_Owner())))
+                            Modify_Planet_Loyalty(planet_name,false)
+                        end
+                    end
+                    if Are_Neighbors_Majority_Enemy(planet_loyalty["Owner"],planet) then
+                        Modify_Planet_Loyalty(planet_name,false,0.5)
+                    end
+                    local planet_units = Get_Units_At_Planet(planet_name, planet.Get_Owner())
+                    if not (planet_units == nil) then
+                        DebugMessage("Power: %s, Upkeep: %s", tostring(Combat_Power_From_List(planet_units)), tostring(Tech_Power_Upkeep(planet.Get_Owner())))
+                        if Combat_Power_From_List(planet_units) < (Tech_Power_Upkeep(planet.Get_Owner())) then
+                            DebugMessage("Combat Power is less than Upkeep for planet: %s", tostring(planet_name))
+                            Modify_Planet_Loyalty(planet_name, false, 0.5)
+                        else 
+                            Modify_Planet_Loyalty(planet_name, true, 0.5)
+                        end
+                        if planet.Get_Owner().Is_Human() then
+                            event.Add_Dialog_Text(tostring(Capital_First_Letter(planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%%") .. ", Power: " .. tostring(formatNumberWithCommas(Combat_Power_From_List(planet_units))))
+                            event.Add_Dialog_Text(" ")
+                        end
+                    end
+                    if planet_loyalty["Loyalty"] <= 0 then
+                        Planet_Lost_Sound(planet_loyalty["Owner"])
+                        Game_Message("We Lost " .. planet_name .. " due to a lack of Loyalty!")
+                        Change_Planet(planet_name)
+                    end
+                end
+                if planet_loyalty["Owner"] == "NEUTRAL" then
+                    Modify_Planet_Loyalty(planet_name,false,0.4)
+
+                    if planet_loyalty["Loyalty"] <= 0 and planet_loyalty["Owner"] == "NEUTRAL" then
+                        Change_Planet(planet_name)
+                    end
                 end
             end
         end

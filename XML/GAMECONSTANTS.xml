@@ -132,7 +132,7 @@
 	<GMC_InitialPitchAngleDegrees>-40.0</GMC_InitialPitchAngleDegrees>
     <GMC_ZoomedPitchAngleDegrees>-35.0</GMC_ZoomedPitchAngleDegrees>
     <GMC_InitialPullbackDistance>900.0</GMC_InitialPullbackDistance>
-    <GMC_ZoomedPullbackPlanetRadiusFraction>3.0</GMC_ZoomedPullbackPlanetRadiusFraction>
+    <GMC_ZoomedPullbackPlanetRadiusFraction>1.0</GMC_ZoomedPullbackPlanetRadiusFraction>
     <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.0, -2.0, 2.05</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
     <GMC_ZoomTime>0.65</GMC_ZoomTime>
     <GMC_Battle_Zoom_Time>1.0</GMC_Battle_Zoom_Time>

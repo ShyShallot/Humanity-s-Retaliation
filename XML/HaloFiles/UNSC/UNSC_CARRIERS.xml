@@ -161,6 +161,7 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Name_Text>HALO_PROTECTION</Alternate_Name_Text>
                 <Alternate_Description_Text>HALO_PROTECTION_ENC</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
 			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
@@ -369,6 +370,7 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Name_Text>HALO_PROTECTION</Alternate_Name_Text>
                 <Alternate_Description_Text>HALO_PROTECTION_ENC</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
 			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->

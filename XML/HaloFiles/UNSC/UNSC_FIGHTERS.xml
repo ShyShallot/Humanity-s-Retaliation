@@ -1157,7 +1157,6 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-
             <Stealth_Ability Name="BASELARD_OFFRADAR">
                 <Activation_Style> User_Input </Activation_Style>
                 <Stealth_Color>255, 255, 255, 125</Stealth_Color>

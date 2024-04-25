@@ -9,11 +9,13 @@
 		<Story_Tag>Intro_Tag</Story_Tag>
 	</Event>
 
-	<Event Name="Spawn_Ardo">
+	<!-- This is handled in the Starting Units Script-->
+
+	<!--<Event Name="Spawn_Ardo">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>COVN_ARDO</Reward_Param1>
 		<Reward_Param2>Sanghelios</Reward_Param2>
 		<Prereq>Universal_Story_Start</Prereq>
-	</Event>
+	</Event> -->
 </Story>

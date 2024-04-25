@@ -15,6 +15,21 @@
 			Build_Jamming_Station
 		</Is_Like>
 	</Upgrade_Starbase>
+
+	<Defend_Empty_Planet>
+		<AIGoalApplicationFlags>Friendly</AIGoalApplicationFlags>
+		<GameMode> Galactic </GameMode>
+		<Category> Infrastructure </Category>
+		<Reachability> Any </Reachability>
+		<Time_Limit> 30.0 </Time_Limit>
+		<Build_Time_Delay_Tolerance>1.5</Build_Time_Delay_Tolerance>
+		<Is_Like>
+			Build_Scanner,
+			HR_Build_Initial_Starbase_Only,
+			Build_Jamming_Station
+		</Is_Like>
+	</Defend_Empty_Planet>
+
 	
 	<Advance_Tech_Empire>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>

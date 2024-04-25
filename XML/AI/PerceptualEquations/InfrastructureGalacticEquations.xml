@@ -31,6 +31,13 @@
 	</Needs_Groundbase_Upgrade>
 
 
+	<Does_Planet_Need_Units>
+		25.0 
+		*
+		(20000 > Variable_Target.FriendlyForce.SpaceTotalUnnormalized)
+	</Does_Planet_Need_Units>
+
+
 	<!-- 
 	Bring this into line with ground base component building (since they share the infrastructure category)
 	AND
@@ -245,21 +252,11 @@
 	otherwise, choose a planet with decent defenses that can max the starbase at a decent level
 	-->
 	<Need_First_Research_Facility>
-		(1 - Variable_Self.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Count = 1})
+		((2 > Variable_Self.StructureCount{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0})
 		+
-		(1 - Variable_Self.HasStructure{Parameter_Type = "UNSC_RESEARCH_FACILITY", Parameter_Count = 1})
+		(2 > Variable_Self.StructureCount{Parameter_Type = "UNSC_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0}))
 		*
-		(
-			1 
-			+ 
-			Function_Defense_Level.Evaluate
-			+
-			(Function_Is_Connected_To_Enemy.Evaluate == 0)
-			+
-			Function_Is_Home_Planet.Evaluate
-			+
-			Variable_Target.FriendlyForce.SpaceTotal				
-		)
+		(Function_Is_Connected_To_Enemy.Evaluate == 0)
 		*
 		100
 	</Need_First_Research_Facility>

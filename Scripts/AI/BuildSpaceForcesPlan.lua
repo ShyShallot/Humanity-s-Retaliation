@@ -40,12 +40,13 @@
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("pgevents")
+require("HALOFunctions")
 
 -- Tell the script pooling system to pre-cache this number of scripts.
 ScriptPoolCount = 4
 
 function Definitions()
-	Category = "Build_Space_Forces"
+	Category = "Build_Space_Forces | Defend_Empty_Planet"
 	IgnoreTarget = true
 	
 	--Fighters are omitted deliberately.  Since they're cheap, build fast and are quickly killed it's typically better
@@ -55,18 +56,28 @@ function Definitions()
 	{
 		"ReserveForce"
 		,"DenyHeroAttach"
-		,"Bomber = 1,4"
-		,"Corvette = 1,4"
-		,"Frigate = 1,4"
-		,"Capital = 1,4"
+		,"Fighter = 0,4"
+		,"Bomber = 0,4"
+		,"Corvette = 0,4"
+		,"Frigate = 0,4"
+		,"Capital = 0,4"
 	}
 	}
-	RequiredCategories = { "Corvette | Frigate | Capital" }
+	RequiredCategories = { "Corvette | Frigate | Fighter | Bomber" }
 	AllowFreeStoreUnits = false
 end
 
 function ReserveForce_Thread()	
 	ReserveForce.Set_As_Goal_System_Removable(false)
-	BlockOnCommand(ReserveForce.Produce_Force())
+
+	DebugMessage("Target: %s", tostring(Target))
+
+	if IgnoreTarget then
+		BlockOnCommand(ReserveForce.Produce_Force())
+	else 
+		BlockOnCommand(ReserveForce.Produce_Force(Target))
+	end
 	ReserveForce.Set_Plan_Result(true)
+
+
 end

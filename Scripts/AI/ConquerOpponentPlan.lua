@@ -53,7 +53,7 @@ function Definitions()
 	MinContrastScale = 1.25
 	MaxContrastScale = 1.75
 
-	Category = "Conquer_Opponent | Capture_Installation_05"
+	Category = "Conquer_Opponent | Capture_Installation_05 | Conquer_Empty_Planet"
 	TaskForce = {
 	-- First Task Force
 	{

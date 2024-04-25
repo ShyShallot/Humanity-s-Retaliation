@@ -259,3 +259,83 @@ function Get_Selected_Planet()
     end
 
 end
+
+function bubbleSort(tbl)
+    local n = table.getn(tbl)
+    local swapped = true -- Set swapped to true to enter the loop at least once
+    while swapped do
+        swapped = false -- Reset swapped flag
+        for i = 1, n-1 do
+            if tbl[i] > tbl[i+1] then
+                tbl[i], tbl[i+1] = tbl[i+1], tbl[i] -- Swap elements
+                swapped = true -- Set swapped to true to indicate a swap occurred
+            end
+        end
+    end
+end
+
+function median(tbl)
+    local temp = {}
+    for k, v in pairs(tbl) do
+        table.insert(temp, v)
+    end
+    bubbleSort(temp)
+    local n = table.getn(temp)
+    if customModulo(n, 2) == 0 then
+        return (temp[n/2] + temp[(n/2) + 1]) / 2
+    else
+        return temp[(n+1)/2]
+    end
+end
+
+function removeOutliers(data)
+    local result = {}
+    local medianValue = median(data)
+    local deviation = 1.2 -- You can adjust this value based on your requirements
+
+    for _, value in ipairs(data) do
+        if abs(value - medianValue) <= deviation * medianValue then
+            table.insert(result, value)
+        end
+    end
+
+    return result
+end
+
+function Distance_Between_Positions(first_position,second_position)
+    first_x, first_y, first_z = first_position.Get_XYZ()
+
+    second_x, second_y, second_z = second_position.Get_XYZ()
+
+    x_diff = second_x - first_x
+    y_diff = second_y - first_y
+    z_diff = second_z - first_y
+
+    x_squared = x_diff * x_diff
+    y_squared = y_diff * y_diff
+    z_squared = z_diff * z_diff
+
+    return square_root(x_squared + y_squared + z_squared)
+end
+
+function square_root(n)
+    if n == 0 then
+        return 0
+    end
+
+    local guess = n / 2
+    local tolerance = 1e-12 -- Adjust tolerance as needed for precision
+    local iterations = 0
+
+    repeat
+        local new_guess = (guess + n / guess) / 2
+        if abs(new_guess - guess) < tolerance then
+            return new_guess
+        end
+        guess = new_guess
+        iterations = iterations + 1
+    until iterations > 20 -- Maximum number of iterations to avoid infinite loop (adjust as needed)
+
+    -- If the loop exits without meeting the tolerance, return the last guess
+    return guess
+end

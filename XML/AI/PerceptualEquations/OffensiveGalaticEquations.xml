@@ -103,11 +103,9 @@
 	 </Allow_Blind_Ground_Production>
 
 	 <Allow_Blind_Space_Production>
-		25.0
+		15.0
 		*
-		(Variable_Self.CreditsUnnormalized > 10000)
-		+
-		5 * (Function_Enemy_Global_Space_Unit_Raw_Total.Evaluate > (Function_Friendly_Global_Space_Unit_Raw_Total.Evaluate))
+		(Variable_Self.CreditsUnnormalized >= 7500)
 	 </Allow_Blind_Space_Production>
 
 	<!-- Determine if we'd like to invade this system.
@@ -354,8 +352,6 @@
 			+
 			(10.0 * Variable_Self.WorstIslandFractionOfLargest)
 		)
-		*
-		Game.Age
 	</Need_To_Reconnect_Islands>
 
 	<Space_Contrast>
@@ -398,9 +394,7 @@
 	</Opens_New_Front>
 
 	<Should_Conquer_Pirate_Planet>
-		Function_Is_Good_Invasion_Target.Evaluate 
-		*
-		(Variable_Target.IsHumanControlled == 0.0)
+		0.0
 	</Should_Conquer_Pirate_Planet>
 
 	<!-- 
@@ -426,8 +420,6 @@
         (Game.Age > 420)
         *
         Function_Is_Good_Invasion_Target.Evaluate
-		*
-		(Variable_Target.IsSurfaceAccessible == 0)
 	</Should_Conquer_Opponent_Planet>
 
 	<!-- We have this specific goal so that the AI can advance to tech 5 due to the Shield Tech
@@ -463,9 +455,20 @@
 	<Is_Planet_Empty>
 		Function_Is_Connected_To_Me.Evaluate
 		*
-		(Variable_Target.IsFaction {Parameter_Faction = "Neutral"})
+		Variable_Target.IsFaction {Parameter_Faction = "Neutral"}
 		*
-		clamp(Game.Age, 0, 25)
+		(
+			Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]}
+			* (Variable_Self.TimeSinceSpaceAttacker > 360)
+			+
+			Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Normal]}
+			* (Variable_Self.TimeSinceSpaceAttacker > 180)
+			+
+			Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}
+			* (Variable_Self.TimeSinceSpaceAttacker > 90)
+		)
+		*
+		35.0
 	</Is_Planet_Empty>
 
 	<!-- fire the DS on any system unless taking it over is a cake walk -->
