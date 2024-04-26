@@ -233,7 +233,7 @@ function Capital_First_Letter(name)
     strings = split(name, "_")
     final_string = ""
     for i, word in strings do
-        first_letter = string.sub(word,1,1)
+        first_letter = string.upper(string.sub(word,1,1))
         if i <= table.getn(strings) - 1 then
             final_string = final_string .. first_letter .. string.lower(string.sub(word, 2, string.len(word))) .. " "
         else
@@ -243,22 +243,6 @@ function Capital_First_Letter(name)
     return final_string
 end
 
-function Get_Selected_Planet()
-
-    player = Find_Human_Player()
-
-
-    for _,planet in pairs(planets) do
-
-        flag_name = "PLAYER_SELECTED_" .. planet.Get_Type().Get_Name()
-        --DebugMessage("Checking Planet: %s", flag_name)
-        if Check_Story_Flag(player, flag_name, nil, true) then
-            DebugMessage("Found Selected Planet: %s", planet.Get_Type().Get_Name())
-            return planet
-        end
-    end
-
-end
 
 function bubbleSort(tbl)
     local n = table.getn(tbl)
@@ -338,4 +322,22 @@ function square_root(n)
 
     -- If the loop exits without meeting the tolerance, return the last guess
     return guess
+end
+
+function Lock_Unit_Type(player,unit_type, lock) -- true = lock, false or unprovided is unlock
+    if lock == nil or lock ~= true then
+        lock = false
+    end
+
+    if unit_type.Is_Build_Locked(player) and lock then
+        return
+    end
+
+    if unit_type.Is_Build_Locked(player) ~= true then
+        if lock then 
+            player.Lock_Tech(unit_type)
+        else
+            player.Unlock_Tech(unit_type)
+        end
+    end
 end

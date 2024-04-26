@@ -6,4 +6,6 @@
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Loyalty_Display.xml</Active_Plot>
     <Lua_Script>Hero_Rescue_COVN</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Rescue_Hero.xml</Active_Plot>
+    <Lua_Script>Artifact_Research</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\COVN_Artifacts.xml</Active_Plot>
 </Story_Mode_Plots>

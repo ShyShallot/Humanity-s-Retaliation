@@ -14,6 +14,8 @@ function Definitions()
     }
 
     last_week = 0
+
+    last_selected_planet = nil
 	
 end
 
@@ -24,16 +26,17 @@ function State_Init(message)
 
         planets = FindPlanet.Get_All_Planets()
 
-
-        plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Loyalty_Display.xml")
+        local planets = FindPlanet.Get_All_Planets()
 
         local planets = FindPlanet.Get_All_Planets()
 
+        plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Loyalty_Display.xml")
+
         for i,planet in ipairs(planets) do
 
-            event = plot.Get_Event("SELECT_"..planet.Get_Type().Get_Name())
+            select_event = plot.Get_Event("SELECT_"..planet.Get_Type().Get_Name())
 
-            event.Set_Reward_Parameter(1, human.Get_Faction_Name())
+            select_event.Set_Reward_Parameter(1, human.Get_Faction_Name())
 
             planet_loyaltly_table[planet.Get_Type().Get_Name()] = {
                 ["Owner"] = planet.Get_Owner().Get_Faction_Name(),
@@ -164,6 +167,8 @@ function State_Loyalty(message)
 
         DebugMessage("Current Week: %s, Raw Week: %s, Last Week: %s", tostring(Get_Current_Week()),tostring(Get_Current_Week_Raw()),tostring(last_week))
 
+        last_selected_planet = selected_planet
+
         selected_planet = Get_Selected_Planet()
 
         DebugMessage("Selected Planet: %s", tostring(selected_planet))
@@ -171,7 +176,7 @@ function State_Loyalty(message)
         if selected_planet ~= nil then
             local planet_name = selected_planet.Get_Type().Get_Name()
             local planet_loyalty = planet_loyaltly_table[planet_name]
-            if TestValid(selected_planet) then
+            if TestValid(selected_planet) and (last_selected_planet ~= selected_planet) then
                 local planet_units = Get_Units_At_Planet(planet_name, selected_planet.Get_Owner())
                 if not (planet_units == nil) then
                     if Has_Custom_Name(planet_name) then
@@ -453,4 +458,22 @@ function Show_Screen_Text(text, time_to_show, color, teletype) -- inspired by th
     text_event.Set_Reward_Parameter(4, use_teletype)
     text_event.Set_Reward_Parameter(5, colorstring)
     Story_Event("SHOW_SCREEN_TEXT")
+end
+
+function Get_Selected_Planet()
+
+    player = Find_Human_Player()
+
+    local planets = FindPlanet.Get_All_Planets()
+
+    for _,planet in pairs(planets) do
+
+        flag_name = "PLAYER_SELECTED_" .. string.upper(planet.Get_Type().Get_Name())
+        --DebugMessage("Checking Planet: %s", flag_name)
+        if Check_Story_Flag(player, flag_name, nil, true) then
+            DebugMessage("Found Selected Planet: %s", planet.Get_Type().Get_Name())
+            return planet
+        end
+    end
+
 end

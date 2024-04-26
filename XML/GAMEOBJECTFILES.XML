@@ -199,6 +199,7 @@
 	<File>HaloFiles\Covenant\COVN_CARRIERS.xml</File>
 	<File>HaloFiles\Covenant\COVN_CAPITIALS.xml</File>
 	<File>HaloFiles\Covenant\COVN_HEROS.xml</File>
+	<File>HaloFiles\Covenant\COVN_Artifacts.xml</File>
 	<File>HaloFiles\Swords\SWORDS_UNITS.xml</File>
 	<File>HaloFiles\Swords\SWORDS_STARBASES.xml</File>
 	<File>HaloFiles\Terrorists\TERROR_STARBASES.xml</File>

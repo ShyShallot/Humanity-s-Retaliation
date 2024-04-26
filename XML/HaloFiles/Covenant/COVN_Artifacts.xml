@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Artifacts>
+    <SpaceUnit Name="ARTIFACT_DIG_UP">
+        <Variant_Of_Existing_Type>COVN_CRS</Variant_Of_Existing_Type>
+
+        <Text_ID>TEXT_ARTIFACT_DIG_UP</Text_ID>
+	    <Encyclopedia_Text> TEXT_ARTIFACT_DIG_UP_ENC </Encyclopedia_Text>
+	    <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARTIFACT_ACTION </Encyclopedia_Unit_Class>
+
+        <Tech_Level>0</Tech_Level>
+	    <Required_Timeline>0</Required_Timeline>
+	    <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+	    <Required_Star_Base_Level>1</Required_Star_Base_Level>
+	    <Required_Special_Structures />
+        <Required_Planets>Alluvion, Arcadia, Meridian, Harvest, Mars, Netherop, Threshold, Kamchatka, Trove, Installation_05, Sanghelios, Palamok</Required_Planets>
+
+	    <Build_Cost_Credits>2550</Build_Cost_Credits>
+	    <Build_Time_Seconds>180</Build_Time_Seconds> <!-- was 180-->
+	    <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Lua_Script>Dig_Up_Artifact</Lua_Script>
+
+		<Icon_Name>I_BUTTON_DIG_UP_ARTIFACT.tga</Icon_Name>
+
+        <Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_TECH_COVN_DIG_UP_ARTIFACT </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
+		<Build_Speech_Underway> EHD_Upgrade_Progress </Build_Speech_Underway>
+		<Build_Speech_Completed> EHD_Upgrade_Complete </Build_Speech_Completed>
+		<Build_Speech_Stopped> EHD_Tech_Upgrade_Canceled </Build_Speech_Stopped>
+		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
+		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+        
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+    </SpaceUnit>
+
+    <SpaceUnit Name="ARTIFACT_RESEARCH">
+        <Variant_Of_Existing_Type>COVN_CRS</Variant_Of_Existing_Type>
+
+        <Text_ID>TEXT_ARTIFACT_RESEARCH</Text_ID>
+	    <Encyclopedia_Text> TEXT_ARTIFACT_RESEARCH_ENC </Encyclopedia_Text>
+	    <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARTIFACT_ACTION </Encyclopedia_Unit_Class>
+
+        <Tech_Level>0</Tech_Level>
+	    <Required_Timeline>0</Required_Timeline>
+	    <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+	    <Required_Star_Base_Level>1</Required_Star_Base_Level>
+	    <Required_Special_Structures>COVN_RESEARCH_FACILITY</Required_Special_Structures>
+        <Required_Planets/>
+
+	    <Build_Cost_Credits>5450</Build_Cost_Credits>
+	    <Build_Time_Seconds>300</Build_Time_Seconds> <!-- was 300-->
+	    <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Lua_Script>Research_Artifact</Lua_Script>
+
+		<Icon_Name>I_BUTTON_RESEARCH_ARTIFACT.tga</Icon_Name>
+
+        <Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_TECH_COVN_RESEARCH_ARTIFACT </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
+		<Build_Speech_Underway> EHD_Upgrade_Progress </Build_Speech_Underway>
+		<Build_Speech_Completed> EHD_Upgrade_Complete </Build_Speech_Completed>
+		<Build_Speech_Stopped> EHD_Tech_Upgrade_Canceled </Build_Speech_Stopped>
+		<!-- Intentially called "Speech_Death_Star_Build_" (with trailing underscore)  for varied countdown references in SpeechEvents.xml -->
+		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+    </SpaceUnit>
+
+</Artifacts>

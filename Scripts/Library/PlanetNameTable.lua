@@ -6,7 +6,8 @@ function Get_Name_Table()
         ["KHAELMOTHKA"] = "Khael'mothka",
         ["TVAO"] = "T'vao",
         ["VEN_3"] = "Ven III",
-        ["VICTORS_TRUTH"] = "Victor's Truth"
+        ["VICTORS_TRUTH"] = "Victor's Truth",
+        ["Installation_05"] = "Installation 05"
     }
 
     return names

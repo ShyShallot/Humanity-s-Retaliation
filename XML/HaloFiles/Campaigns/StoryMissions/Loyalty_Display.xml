@@ -43,8 +43,6 @@
         <Perpetual>true</Perpetual>
     </Event>
 
-    <!-- PLAYER_SELECTED Planets Event-->
-
     <Event Name="SELECT_GLYKE">
         <Event_Type>STORY_SELECT_PLANET</Event_Type>
         <Event_Param1>Glyke</Event_Param1>
@@ -445,9 +443,6 @@
         <Reward_Param2></Reward_Param2>
         <Perpetual>true</Perpetual>
     </Event>
-
-
-
 
 </Story>
 
