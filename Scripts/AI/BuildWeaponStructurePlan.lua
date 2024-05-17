@@ -50,7 +50,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"StructureForce",
-		"Ground_Ion_Cannon | Ground_Empire_Hypervelocity_Gun | Ground_Magnepulse_Cannon | Ground_Gravity_Generator = 1"
+		"UNSC_MAC_PLATFORM = 0,1"
 	}
 	}
 

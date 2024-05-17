@@ -6485,7 +6485,7 @@
             <No_Shell>True</No_Shell>
             <Base_Layer>9</Base_Layer>       <!-- Starting layer for encyclopedia.  All others are based on this -->
             <Color>255 255 255 128</Color>
-            <Size>262 14</Size>   <!-- 262 14 -->
+            <Size>300 14</Size>   <!-- 262 14 -->
             <Default_Offset>0 0</Default_Offset>  <!--  offset from hint bone -->
             <Offset>5 2</Offset>
             <Pixel_Align>False</Pixel_Align>
@@ -6501,19 +6501,20 @@
             <No_Shell>True</No_Shell>
             <Base_Layer />        <!-- Base layer derived from encyclopedia_back layer -->
             <Left_Justified>True</Left_Justified>
-            <Size>23 18</Size>
+            <Size>30 18</Size>
     </CommandBarComponent>
 
     <CommandBarComponent Name="encyclopedia_text">
             <Type>TextButton</Type>
             <Font_Name>Arial</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-            <Scale>1.0</Scale>
+            <Scale>0.9</Scale>
             <Text_Color>192 192 192 200</Text_Color>
             <No_Shell>True</No_Shell>
             <Base_Layer />        <!-- Base layer derived from encyclopedia_back layer -->
             <Left_Justified>True</Left_Justified>
-            <Size>41 14</Size>  <!-- 42 14 -->
+            <Size>55 14</Size>
+            <Text_Offset>0 -2</Text_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="encyclopedia_icon">
@@ -6522,11 +6523,12 @@
             <No_Shell>True</No_Shell>
             <Base_Layer>5</Base_Layer>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
-            <Font_Point_Size>6</Font_Point_Size>
+            <Font_Point_Size>4.5</Font_Point_Size>
             <Text_Outline>True</Text_Outline>
             <Base_Layer />        <!-- Base layer derived from encyclopedia_back layer -->
-            <Text_Offset>12 -12</Text_Offset>
-            <Text_Offset2>0 -12</Text_Offset2>
+            <Text_Offset>20.5 -4</Text_Offset> <!-- Corresponds to the unit amount displayed on the icon -->
+            <Right_Justified>True</Right_Justified>
+            <Text_Offset2>0 -12</Text_Offset2> <!-- Corresponds to ???-->
             <Pixel_Align>False</Pixel_Align>
             <!-- X is the scale of the icon in the unit header, Y is the scale of the ability icon -->
             <Size>0.75 0.66</Size>
@@ -6568,6 +6570,7 @@
             <Base_Layer />        <!-- Base layer derived from encyclopedia_back layer -->
             <Right_Justified>True</Right_Justified>
             <Size>42 14</Size>
+			<Text_Offset>37 0</Text_Offset>
     </CommandBarComponent>
 
 

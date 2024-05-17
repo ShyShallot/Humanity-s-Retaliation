@@ -140,6 +140,33 @@ function EvenMoreRandom(min,max,count) -- the GameRandom tends to be consistant 
     return values[GameRandom(1,count)]
 end
 
+function EvenMoreRandomFloat(min,max,count)
+    if count == 0 or count == nil then
+        count = 20
+    end
+
+    if min == nil then
+        min = 0
+    end
+
+    if max == nil then
+        max = 1
+    end
+
+    local values = {}
+
+    sum = 0
+
+    for i=1,count, 1 do
+        values[i] = GameRandom.Get_Float(min,max)
+
+        sum = sum + values[i]
+    end
+
+    return sum/tableLength(values)
+
+end
+
 function Find_Human_Player()
     empire = Find_Player("EMPIRE")
     rebels = Find_Player("REBEL")
@@ -336,8 +363,31 @@ function Lock_Unit_Type(player,unit_type, lock) -- true = lock, false or unprovi
     if unit_type.Is_Build_Locked(player) ~= true then
         if lock then 
             player.Lock_Tech(unit_type)
-        else
-            player.Unlock_Tech(unit_type)
+        end
+
+        if not lock then
+            return
         end
     end
+end
+
+function Map_Value(value, iMin, iMax, oMin, oMax)
+    if iMin == nil then
+        iMin = 0
+    end
+
+    if iMax == nil then
+        iMax = 1
+    end
+
+    if oMin == nil then
+        oMin = 0
+    end
+
+    if oMax == nil then
+        oMax = 1
+    end
+
+    return ((value - iMin) / (iMax - iMin)) * (oMax - oMin) + oMin
+
 end

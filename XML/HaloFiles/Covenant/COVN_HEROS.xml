@@ -94,7 +94,7 @@
         <Encyclopedia_Text> HALO_TEXT_COMMANDS_CCS HALO_COVN_MACCABEUS_ENC HALO_COVN_MACCABEUS_BUFF TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_4 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_COVN_COMMANDER </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Icon_Name>I_BUTTON_MACCABUES.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_MACCABEUS.TGA</Icon_Name>
         <Build_Cost_Credits>13550</Build_Cost_Credits>
 
 		<Abilities SubObjectList="Yes">

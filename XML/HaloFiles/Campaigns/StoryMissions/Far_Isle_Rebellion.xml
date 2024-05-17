@@ -7,7 +7,7 @@
         <Story_Dialog>Far_Isle_Dialog</Story_Dialog>
         <Story_Chapter>2</Story_Chapter>
         <Story_Dialog_Popup>True</Story_Dialog_Popup>
-        <Story_Tag>Far_Isle_Rebellion</Story_Tag>
+        <Story_Tag>Far_Isle_Rebellion_First</Story_Tag>
     </Event>
 
     <Event Name="Far_Isle_Rebellion_Start">
@@ -24,7 +24,7 @@
     <Event Name="Far_Isle_Rebellion_Warning_End">
         <Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
-        <Reward_Param1>Far_Isle_Rebellion_Warning</Reward_Param1>
+        <Reward_Param1>Far_Isle_Rebellion_First</Reward_Param1>
         <Prereq>Far_Isle_Rebellion_Start</Prereq>
     </Event>
 
@@ -58,7 +58,7 @@
         <Event_Type>STORY_CONQUER</Event_Type>
         <Event_Param1>Far_Isle</Event_Param1>
         <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
-        <Reward_Param1>Far_Isle_Rebellion_Start</Reward_Param1>
+        <Reward_Param1>Far_Isle_Rebellion</Reward_Param1>
         <Prereq>Far_Isle_Rebellion_Start</Prereq>
     </Event>
 

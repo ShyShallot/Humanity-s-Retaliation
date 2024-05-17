@@ -275,26 +275,39 @@
         <Is_Destroyable>No</Is_Destroyable>
         <Health>750.0</Health>
 
-        <Attachment_Bone>ROOT</Attachment_Bone>
-        <Collision_Mesh>ROOT</Collision_Mesh>
-		<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-        <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
-        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Model_To_Attach>UNSC_MAC_PLATFORM.ALO</Model_To_Attach>
+
+        <Attachment_Bone>TURRET_BONE</Attachment_Bone>
+        <Collision_Mesh>TURRET_BONE</Collision_Mesh>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 30.0 </Turret_Rotate_Speed>
+        <!--    <Projectile_Appearance_Delay_Frames>5</Projectile_Appearance_Delay_Frames>-->
+        <Turret_Rotate_Extent_Degrees>179.0</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
+
+		<Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_01</Fire_Bone_B>
+        <Fire_Cone_Width>30.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_UNSC_MAC_SHELL</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>1</Fire_Max_Recharge_Seconds>
+        <Fire_Min_Recharge_Seconds>45.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>45.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>3000.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
-        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 7.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 6.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+		<Fire_Inaccuracy_Distance> Corvette, 9.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 </UNSC_BUILDING_HARDPOINTS>

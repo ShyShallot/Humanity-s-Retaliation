@@ -143,7 +143,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.08  0.12</Radar_Icon_Size>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_MUSASHI.tga</Radar_Icon_Name>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -353,7 +353,7 @@
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.025  0.1</Radar_Icon_Size>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_POSEIDON.tga</Radar_Icon_Name>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">

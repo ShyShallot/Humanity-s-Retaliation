@@ -56,7 +56,7 @@
 		
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_UNSC_Frigate </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>

@@ -29,7 +29,7 @@
 		<Strafe_Distance>550.0</Strafe_Distance>
 		<Max_Rate_Of_Roll>1.4</Max_Rate_Of_Roll>
 		<Begin_Turn_Towards_Distance>550.0</Begin_Turn_Towards_Distance>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Empire</Affiliation>
@@ -305,7 +305,7 @@
 		<Strafe_Distance>650.0</Strafe_Distance>
 		<Max_Rate_Of_Roll>1.3</Max_Rate_Of_Roll>
 		<Begin_Turn_Towards_Distance>750.0</Begin_Turn_Towards_Distance>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Empire</Affiliation>
@@ -514,7 +514,7 @@
 		<Strafe_Distance>950.0</Strafe_Distance>
 		<Max_Rate_Of_Roll>0.85</Max_Rate_Of_Roll>
 		<Begin_Turn_Towards_Distance>1050.0</Begin_Turn_Towards_Distance>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Empire</Affiliation>
@@ -723,7 +723,7 @@
 		<Strafe_Distance>750.0</Strafe_Distance>
 		<Max_Rate_Of_Roll>1.4</Max_Rate_Of_Roll>
 		<Begin_Turn_Towards_Distance>750.0</Begin_Turn_Towards_Distance>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Empire</Affiliation>

@@ -124,6 +124,10 @@
 		(Variable_Target.StarbaseLevelUnnormalized == 4.0)
 	</Needs_Better_Buying_Capability_Space>
 
+	<Is_HWD_Researched>
+		(Variable_Self.StructureCount {Parameter_Type = "Covenant_Heavy_Weapons", Parameter_Only_Consider_Complete = 1.0})
+	</Is_HWD_Researched>
+
 	<!-- Currently, the Empire has steep requirements before it can build a single
 	offensive space unit.
 	-->

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+  <Event Name="Covenant_Tech_4">
+    <Event_Type>STORY_TECH_LEVEL</Event_Type>
+    <Event_Param1>4</Event_Param1>
+  </Event>
+
+  <Event Name="HWD_DISPLAY">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>0</Event_Param1>
+    <Story_Dialog>DIALOG_COVN_HWD</Story_Dialog>
+    <Story_Chapter>1</Story_Chapter>
+    <Story_Dialog_Popup>True</Story_Dialog_Popup>
+    <Story_Tag>HWD_DISPLAY</Story_Tag>
+    <Prereq>Covenant_Tech_4</Prereq>
+  </Event>
+
+  <Event Name="Planet_Conquered">
+    <Event_Type>STORY_CONQUER</Event_Type>
+    <Event_Param1></Event_Param1>
+    <Reward_Type>CREDITS</Reward_Type>
+    <Reward_Param1>100000</Reward_Param1>
+  </Event>
+
+  <Event Name="Covenant_Tech_5">
+    <Event_Type>STORY_TECH_LEVEL</Event_Type>
+    <Event_Param1>5</Event_Param1>
+    <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+    <Reward_Param1>HWD_DISPLAY</Reward_Param1>
+  </Event>
+
+  
+</Story>

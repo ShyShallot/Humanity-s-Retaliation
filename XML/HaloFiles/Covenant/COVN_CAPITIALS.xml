@@ -154,7 +154,7 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.18</Radar_Icon_Size> <!-- Width by Length-->
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
@@ -374,7 +374,7 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.18</Radar_Icon_Size> <!-- Width by Length-->
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_CAPTIAL_COVN.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
@@ -554,7 +554,7 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.18  0.26</Radar_Icon_Size> <!-- Width by Length-->
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_CPV.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
@@ -752,7 +752,7 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.18</Radar_Icon_Size> <!-- Width by Length-->
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_ORS.TGA</Radar_Icon_Name>
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 

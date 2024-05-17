@@ -193,6 +193,7 @@
 	<File>HaloFiles\UNSC\UNSC_CARRIERS.xml</File>
 	<File>HaloFiles\UNSC\UNSC_CAPITALS.xml</File>
 	<File>HaloFiles\UNSC\UNSC_TECH_RESEARCH.xml</File>
+	<File>HaloFiles\UNSC\UNSC_DEFENSE_PLATFORMS.xml</File>
 	<File>HaloFiles\Covenant\COVN_Station.xml</File>
 	<File>HaloFiles\Covenant\COVN_FIGHTERS.XML</File>
 	<File>HaloFiles\Covenant\COVN_FRIGATES.xml</File>

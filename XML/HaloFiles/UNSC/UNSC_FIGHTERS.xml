@@ -29,7 +29,7 @@
 		<Strafe_Distance>950.0</Strafe_Distance>
 		<Max_Rate_Of_Roll>1.2</Max_Rate_Of_Roll>
 		<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
@@ -351,7 +351,7 @@
 		<Strafe_Distance>1050.0</Strafe_Distance>
 		<Max_Rate_Of_Roll>1.45</Max_Rate_Of_Roll>
 		<Begin_Turn_Towards_Distance>1200.0</Begin_Turn_Towards_Distance>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
@@ -641,7 +641,7 @@
 		<Max_Rate_Of_Roll>1.9</Max_Rate_Of_Roll>
 		<Begin_Turn_Towards_Distance>750.0</Begin_Turn_Towards_Distance>
 		<Bank_Turn_Angle>70</Bank_Turn_Angle>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
@@ -890,7 +890,7 @@
 		<Max_Rate_Of_Roll>1.9</Max_Rate_Of_Roll>
 		<Begin_Turn_Towards_Distance>750.0</Begin_Turn_Towards_Distance>
 		<Bank_Turn_Angle>70</Bank_Turn_Angle>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
@@ -1199,7 +1199,7 @@
 		<Max_Rate_Of_Roll>2.2</Max_Rate_Of_Roll>
 		<Begin_Turn_Towards_Distance>750.0</Begin_Turn_Towards_Distance>
 		<Bank_Turn_Angle>85</Bank_Turn_Angle>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>

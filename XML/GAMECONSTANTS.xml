@@ -130,10 +130,10 @@
 	
 	<!-- GMC - Galactic Mode camera 3D galaxy map settings -->
 	<GMC_InitialPitchAngleDegrees>-40.0</GMC_InitialPitchAngleDegrees>
-    <GMC_ZoomedPitchAngleDegrees>-35.0</GMC_ZoomedPitchAngleDegrees>
-    <GMC_InitialPullbackDistance>900.0</GMC_InitialPullbackDistance>
-    <GMC_ZoomedPullbackPlanetRadiusFraction>1.0</GMC_ZoomedPullbackPlanetRadiusFraction>
-    <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.0, -2.0, 2.05</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
+    <GMC_ZoomedPitchAngleDegrees>-38.0</GMC_ZoomedPitchAngleDegrees>
+    <GMC_InitialPullbackDistance>700.0</GMC_InitialPullbackDistance>
+    <GMC_ZoomedPullbackPlanetRadiusFraction>12.0</GMC_ZoomedPullbackPlanetRadiusFraction>
+    <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.0, -1.0, 1.25</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
     <GMC_ZoomTime>0.65</GMC_ZoomTime>
     <GMC_Battle_Zoom_Time>1.0</GMC_Battle_Zoom_Time>
     <GMC_Battle_Fade_Time>0.75</GMC_Battle_Fade_Time>
@@ -564,13 +564,13 @@
 	<Ships_Per_Stack>5</Ships_Per_Stack>
 
 	<Encyclopedia_Population_Offset>11</Encyclopedia_Population_Offset>
-	<Encyclopedia_Name_Offset>68</Encyclopedia_Name_Offset>
+	<Encyclopedia_Name_Offset>78</Encyclopedia_Name_Offset>
 	<Encyclopedia_Cost_Offset>258</Encyclopedia_Cost_Offset>
-	<Encyclopedia_Icon_X_Offset>39</Encyclopedia_Icon_X_Offset>
-	<Encyclopedia_Icon_Y_Offset>-12</Encyclopedia_Icon_Y_Offset>
-	<Encyclopedia_Class_Y_Offset>5</Encyclopedia_Class_Y_Offset>
-   <Encyclopedia_Fade_Rate>4.0</Encyclopedia_Fade_Rate>
-   <Encyclopedia_Min_Display_Time>1.0</Encyclopedia_Min_Display_Time>
+	<Encyclopedia_Icon_X_Offset>45</Encyclopedia_Icon_X_Offset>
+	<Encyclopedia_Icon_Y_Offset>-15</Encyclopedia_Icon_Y_Offset>
+	<Encyclopedia_Class_Y_Offset>4.5</Encyclopedia_Class_Y_Offset>
+	<Encyclopedia_Fade_Rate>4.0</Encyclopedia_Fade_Rate>
+	<Encyclopedia_Min_Display_Time>1.0</Encyclopedia_Min_Display_Time>
 
    <Min_Accuracy_For_Icon> 0.4 </Min_Accuracy_For_Icon>
    <Min_Sight_Range_For_Icon> 0.5 </Min_Sight_Range_For_Icon>
@@ -593,11 +593,11 @@
 
 	<GUI_Tactical_Countdown_Timers_Screen_X> 0.005 </GUI_Tactical_Countdown_Timers_Screen_X>
 	<GUI_Tactical_Countdown_Timers_Screen_Y> 0.10 </GUI_Tactical_Countdown_Timers_Screen_Y>
-	<GUI_Tactical_Countdown_Timers_Screen_Spacing> 0.08 </GUI_Tactical_Countdown_Timers_Screen_Spacing>
+	<GUI_Tactical_Countdown_Timers_Screen_Spacing> 0.03 </GUI_Tactical_Countdown_Timers_Screen_Spacing>
 
 	<GUI_Strategic_Countdown_Timers_Screen_X> 0.005 </GUI_Strategic_Countdown_Timers_Screen_X>
-	<GUI_Strategic_Countdown_Timers_Screen_Y> 0.02 </GUI_Strategic_Countdown_Timers_Screen_Y>
-	<GUI_Strategic_Countdown_Timers_Screen_Spacing> 0.08 </GUI_Strategic_Countdown_Timers_Screen_Spacing>
+	<GUI_Strategic_Countdown_Timers_Screen_Y> 0.1 </GUI_Strategic_Countdown_Timers_Screen_Y>
+	<GUI_Strategic_Countdown_Timers_Screen_Spacing> 0.03 </GUI_Strategic_Countdown_Timers_Screen_Spacing>
 
     <BeaconPlaceDelay>5000</BeaconPlaceDelay>
 
@@ -704,7 +704,7 @@
 
 	<Map_Preview_Image_Size> 1024 </Map_Preview_Image_Size>
 	<Countdowns_Font_Name>EmpireAtWar-Medium</Countdowns_Font_Name>
-	<Countdowns_Font_Size>12</Countdowns_Font_Size>
+	<Countdowns_Font_Size>8</Countdowns_Font_Size>
 	<In_Game_Message_Default_Font_Name>EmpireAtWar-Medium</In_Game_Message_Default_Font_Name>
 	<In_Game_Message_Default_Font_Size>8</In_Game_Message_Default_Font_Size>
 	<Event_Message_Default_Font_Name>EmpireAtWar-Medium</Event_Message_Default_Font_Name>
@@ -838,7 +838,7 @@
 	<Land_Collidable_Grid_Cull_Size>64.0f</Land_Collidable_Grid_Cull_Size>
 	
 	<!-- Settings to define a "Raid Force" (ie. a land combat force that can bypass space combat) -->
-	<Raid_Force_Required_Faction> Rebel </Raid_Force_Required_Faction>
+	<Raid_Force_Required_Faction> Neutral </Raid_Force_Required_Faction>
 	<Raid_Force_Limited_Object_Category_Mask> Infantry | Vehicle </Raid_Force_Limited_Object_Category_Mask>
 	<Raid_Force_Max_Limited_Objects> 3 </Raid_Force_Max_Limited_Objects>
     <Raid_Force_Max_Heros> 1 </Raid_Force_Max_Heros>
@@ -5198,10 +5198,14 @@
 		
 
 		COVN_CAS, Data\ship_nicknames_capital_covies.txt,
+		COVN_ORS, Data\ship_nicknames_capital_covies.txt,
+		COVN_DDS, Data\ship_nicknames_capital_covies.txt,
 		COVN_CCS, Data\ship_nicknames_capital_covies.txt,
 		COVN_CRS, Data\ship_nicknames_capital_covies.txt,
 		COVN_CPV, Data\ship_nicknames_capital_covies.txt,
 		COVN_CRS, Data\ship_nicknames_frigate_covies.txt,
+		COVN_SDV, Data\ship_nicknames_frigate_covies.txt,
+		COVN_CAR, Data\ship_nicknames_frigate_covies.txt,
 
 	</ShipNameTextFiles>
 

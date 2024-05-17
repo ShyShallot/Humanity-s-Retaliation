@@ -70,9 +70,11 @@ function Definitions()
 
     last_artifact_researched = 0
 
-    artifact_dig_cooldown = 6
+    artifact_dig_cooldown = 1
 
     on_cooldown = false
+
+    next_tech_researched = false
 
 end
 
@@ -137,18 +139,22 @@ function State_Research(message)
 
         dig_up_unit_type = Find_Object_Type("ARTIFACT_DIG_UP")
 
-        Lock_Unit_Type(player,research_unit_type,true)
+        player.Lock_Tech(research_unit_type)
 
-        Lock_Unit_Type(player,dig_up_unit_type,true)
+        player.Lock_Tech(dig_up_unit_type)
 
         for _, tech_up in pairs(tech_level_object_types) do
             DebugMessage("Locking: %s", tostring(tech_up))
-            Lock_Unit_Type(player,tech_up,true)
+            player.Lock_Tech(tech_up)
         end
 
     end
 
     if message == OnUpdate then
+
+        if player.Get_Tech_Level() == 5 then
+            ScriptExit()
+        end
 
         if GlobalValue.Get("Global_Artifact_Cooldown") == 1 then
 
@@ -160,7 +166,7 @@ function State_Research(message)
 
             on_cooldown = true
 
-            Lock_Unit_Type(player,dig_up_unit_type,true)
+            player.Lock_Tech(dig_up_unit_type)
         end
 
         DebugMessage("Current Week: %s, Last time an Artifact was Dug up: %s, Length of Cooldown: %s, and Are we on cooldown: %s", tostring(Get_Current_Week()), tostring(last_artifact_researched), tostring(artifact_dig_cooldown), tostring(on_cooldown))
@@ -185,14 +191,14 @@ function State_Research(message)
         if selected_planet ~= nil and not on_cooldown then 
             if not Is_Planet_On_Cooldown(selected_planet.Get_Type().Get_Name()) then
                 DebugMessage("%s is not on cooldown, unlocked Dig Up", tostring(selected_planet.Get_Type().Get_Name()))
-                Lock_Unit_Type(player,dig_up_unit_type)
+                player.Unlock_Tech(dig_up_unit_type)
             else 
                 DebugMessage("Selected Planet is either not on cooldown or isnt an artifact planet, locking")
-                Lock_Unit_Type(player,dig_up_unit_type,true)
+                player.Lock_Tech(dig_up_unit_type)
             end
         else
             DebugMessage("Selected Planet is either not on cooldown or isnt an artifact planet, locking")
-            Lock_Unit_Type(player,dig_up_unit_type,true)
+            player.Lock_Tech(dig_up_unit_type)
         end
 
         dig_up_unit = Find_First_Object("ARTIFACT_DIG_UP")
@@ -208,16 +214,16 @@ function State_Research(message)
                 decided_planet = nil
             end
 
-            Lock_Unit_Type(player,dig_up_unit_type,true)
+            player.Lock_Tech(dig_up_unit_type)
         else 
             decided_planet = nil
         end
 
 
         if selected_planet == decided_planet then
-            Lock_Unit_Type(player,research_unit_type)
+            player.Unlock_Tech(research_unit_type)
         else 
-            Lock_Unit_Type(player,research_unit_type,true)
+            player.Lock_Tech(research_unit_type)
         end
 
         DebugMessage("Latest Planet for cooldown: %s", tostring(GlobalValue.Get("Last_Planet")))
@@ -234,6 +240,10 @@ function State_Research(message)
         event.Clear_Dialog_Text()
 
         event.Add_Dialog_Text("Artifacts Needed for Tech Level " .. tostring(player.Get_Tech_Level() + 1) .. ": " .. tostring(GlobalValue.Get("Artifacts_Dug")) .. "/" .. tostring(Artifacts_Needed()))
+
+        if dig_up_unit ~= nil and TestValid(decided_planet) then
+            event.Add_Dialog_Text("Location to Research the Dug Up Artifact: " .. tostring(Capital_First_Letter(decided_planet.Get_Type().Get_Name())))
+        end
 
         event.Add_Dialog_Text("Planets with Known Artifacts: ")
 
@@ -266,21 +276,38 @@ function State_Research(message)
 
         next_tech_upgrade = tech_level_object_types[player.Get_Tech_Level()]
 
-        if GlobalValue.Get("Artifacts_Dug") >= Artifacts_Needed() then
-            Lock_Unit_Type(player,next_tech_upgrade,false)
+        if GlobalValue.Get("Artifacts_Dug") >= Artifacts_Needed() and (not next_tech_researched) then
+
+            valid_unlock = true
+
+            if player.Get_Tech_Level() == 4 then
+                hwd = Find_First_Object("Covenant_Heavy_Weapons")
+                
+                if hwd == nil then
+                    valid_unlock = false
+                end
+            end
+
+            if valid_unlock then
+
+                player.Unlock_Tech(next_tech_upgrade)
+
+            end
 
             event.Clear_Dialog_Text()
 
-            event.Add_Dialog_Text("Artifacts Needed for Tech Level: " .. tostring(player.Get_Tech_Level() + 1) .. ": All Researched, Check any planet with a Research Facility!")
-
-            event.Add_Dialog_Text("")
-
-            event.Add_Dialog_Text("Location to Research Artifact: " .. tostring(Capital_First_Letter(decided_planet.Get_Type().Get_Name()))) 
+            event.Add_Dialog_Text("Artifacts Needed for Tech Level: " .. tostring(player.Get_Tech_Level() + 1) .. ": All Researched, Check any planet with a Research Facility to Research the Next Tech!")
 
             GlobalValue.Set("Artifacts_Dug", 0)
 
             Game_Message("Artifact Researched, Check Artifact Display")
             return
+        end
+
+        next_Tech = Find_First_Object(next_tech_upgrade.Get_Name())
+
+        if next_Tech ~= nil then
+            next_tech_researched = true
         end
 
     end
@@ -289,7 +316,7 @@ end
 function Artifacts_Needed()
     tech_level = player.Get_Tech_Level()
 
-    req_table = {2,3,3,4,5}
+    req_table = {2,3,4,5}
 
     return req_table[tech_level]
 end

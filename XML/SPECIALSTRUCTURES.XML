@@ -661,6 +661,92 @@
 
 	</SpecialStructure>
 
+	<SpecialStructure Name="Covenant_Heavy_Weapons">
+		<Text_ID>TEXT_HALO_HWD</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Space_Model_Name>COVN_STATION_TIER1.ALO</Space_Model_Name>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>7250</Build_Cost_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds> <!-- was 480 -->
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> TEXT_TECH_COVN_HWD_TIMER </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 73, 116, 191, 255 </Build_Countdown_Text_RGBA>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>30</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Tech_Level>4</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Special_Structures>COVN_Research_Facility</Required_Special_Structures>
+		<Required_Planets />
+		<Shield_Points>1000</Shield_Points>
+		<Tactical_Health>5000</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI</SpaceBehavior>
+		<Space_FOW_Reveal_Range>950.0</Space_FOW_Reveal_Range>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Icon_Name>I_BUTTON_HWD.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<GUI_Model_Name>COVN_STATION_TIER1.ALO</GUI_Model_Name>
+		<GUI_Distance>1000</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<HardPoints>
+			HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04
+		</HardPoints>
+
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>Banshee_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Banshee_Squadron, 2</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Cerastes_Squadron, 1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
+
+		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
+		
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Armor_Type> Armor_Station </Armor_Type>
+		<Shield_Armor_Type>Shield_COVN_Station</Shield_Armor_Type>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Encyclopedia_Text> TEXT_HALO_HWD_ENC </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+	</SpecialStructure>
+
 	<SpecialStructure Name="Covenant_Mining_Facility">
 		<Text_ID>TEXT_ASTEROID_MINING_FACILITY</Text_ID>
 		<GUI_Row> 0 </GUI_Row>

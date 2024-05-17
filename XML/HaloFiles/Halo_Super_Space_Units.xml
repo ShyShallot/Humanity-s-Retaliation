@@ -154,7 +154,7 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.2  0.3</Radar_Icon_Size>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_INFINITY.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
@@ -362,7 +362,7 @@
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
         
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.2</Radar_Icon_Size>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_SOF.tga</Radar_Icon_Name>
 		
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
@@ -592,7 +592,7 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.2  0.28</Radar_Icon_Size>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>I_RADAR_CAS.tga</Radar_Icon_Name>
 		
 
@@ -609,7 +609,7 @@
 		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+		<!--<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
@@ -626,13 +626,13 @@
 		<Population_Value>30</Population_Value>
 		<Reinforcement_Prevention_Radius> 900 </Reinforcement_Prevention_Radius>
 
-		<Tech_Level>5</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Build_Cost_Credits>19500</Build_Cost_Credits>
-		<Build_Time_Seconds>300</Build_Time_Seconds>
+		<Build_Time_Seconds>300</Build_Time_Seconds> <!-- was 300 -->
 
 		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
 		<Build_Countdown_Text_ID> TEXT_TECH_COVN_COUNTDOWN_TIMER_CAS </Build_Countdown_Text_ID>
@@ -729,7 +729,7 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.4f</Mod_Multiplier>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<GUI_Activated_Ability_Name> CAS_PLASMA_LANCE </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Recharge_Seconds>200</Recharge_Seconds>
+				<Recharge_Seconds>240</Recharge_Seconds>
 				<Expiration_Seconds>4</Expiration_Seconds>
 				<SFXEvent_Target_Ability> EHD_Death_Star_2_Activate </SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Death_Star_2_Fire </SFXEvent_Special_Ability_Loop>

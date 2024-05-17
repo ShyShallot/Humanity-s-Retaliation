@@ -94,9 +94,21 @@ function Spawn_Starting_Units(faction, units, locations, heros)
         spawned_units[unit_name] = 0
     end
 
+    diff_multi_table = {
+        ["Easy"] = 1.5,
+        ["Normal"] = 1.0,
+        ["Hard"] = 0.75
+    }
+
+    diff_multi = diff_multi_table[player.Get_Difficulty()]
+
+    if not player.Is_Human() then
+        diff_multi = 1
+    end
+
     DebugMessage("Total Max Number of Units: %s, Number of Controlled Planets: %s", tostring(total_max), tostring(tableLength(locations)))
 
-    planet_max = tonumber(Dirty_Floor(total_max / (tableLength(locations) / 1.5))) -- the reason for using tableLength is that using table.getn doesnt give the actual amount of elements in the array, for reasons beyond my knowledge 
+    planet_max = tonumber(Dirty_Floor((total_max / (tableLength(locations) / 1.5)) * diff_multi)) -- the reason for using tableLength is that using table.getn doesnt give the actual amount of elements in the array, for reasons beyond my knowledge 
     
     DebugMessage("Planet Max: %s", planet_max)
 
