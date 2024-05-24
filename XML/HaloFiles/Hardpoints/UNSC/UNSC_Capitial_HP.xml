@@ -3269,7 +3269,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_01.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3306,7 +3306,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_02.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3371,7 +3371,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_15.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3408,7 +3408,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_16.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3549,7 +3549,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_05.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3586,7 +3586,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_06.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3651,7 +3651,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_07.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3688,7 +3688,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_08.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3753,7 +3753,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_09.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3790,7 +3790,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_10.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3855,7 +3855,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_11.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>
@@ -3892,7 +3892,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
         <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
+        <Is_Destroyable>No</Is_Destroyable>
         <Health>1250.0</Health>
         <Model_To_Attach>UNSC_VINDICATION_MK33_SINGLE_12.ALO</Model_To_Attach>
         <Is_Turret> Yes </Is_Turret>

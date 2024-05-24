@@ -32,6 +32,8 @@ function State_Init(message)
     planets = FindPlanet.Get_All_Planets()
 
     if  message == OnEnter then 
+        GlobalValue.Set("CSO_UNLOCKED", 0)
+
         for _, planet in pairs(planets) do
             DebugMessage("Planet: %s, Owner: %s", tostring(planet.Get_Type().Get_Name()), tostring(planet.Get_Owner()))
             planet_owners[planet.Get_Type().Get_Name()] = planet.Get_Owner()
@@ -84,6 +86,8 @@ function State_Init(message)
 
         if cso_cas_req_met then
             Lock_Unit_Type(covenant, Find_Object_Type("COVN_CSO"), false)
+
+            GlobalValue.Set("CSO_UNLOCKED", 1)
         else
             Lock_Unit_Type(covenant, Find_Object_Type("COVN_CSO"), true)
         end

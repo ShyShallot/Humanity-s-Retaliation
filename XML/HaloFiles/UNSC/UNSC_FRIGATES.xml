@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <FrigateUnits>
-    <SpaceUnit Name="UNSC_GLADIUS">
+	<SpaceUnit Name="UNSC_GLADIUS">
 		<Text_ID>TEXT_UNSC_GLADIUS</Text_ID>
 		<Encyclopedia_Good_Against> Seraph Tarasque Cerastes</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Vengeance_Frigate </Encyclopedia_Vulnerable_To>
@@ -18,7 +18,7 @@
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
-        <Ranking_In_Category>6</Ranking_In_Category>
+		<Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>3.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
 		<Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
@@ -30,7 +30,7 @@
 
 		<Damage_Type> Damage_UNSC_Corvette</Damage_Type>
 		<Armor_Type> Armor_UNSC_Corvette </Armor_Type>
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Max_Thrust>1.9</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Select_Box_Scale>70</Select_Box_Scale>
@@ -75,10 +75,12 @@
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 		<Death_Clone>Damage_Normal, Gladius_Death_Clone</Death_Clone>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-		
+
 		<HardPoints>
 			UNSC_GLAD_01, UNSC_GLAD_02, UNSC_GLAD_03, UNSC_GLAD_04, UNSC_GLAD_05, UNSC_GLAD_06
 		</HardPoints>
+
+		
 
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -131,7 +133,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		
+
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -146,7 +148,7 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
-		
+
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNSC_GLADIUS TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CORVETTE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
@@ -157,13 +159,13 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>5</Population_Value>
 	</SpaceUnit>
 
-   
-    <SpaceUnit Name="Gladius_Death_Clone">
+
+	<SpaceUnit Name="Gladius_Death_Clone">
 		<Text_ID>TEXT_UNSC_GLADIUS</Text_ID>
 		<Space_Model_Name>UNSC_Gladius.ALO</Space_Model_Name>
 		<xxxSpace_Model_Name>UNSC_Gladius.ALO</xxxSpace_Model_Name>
@@ -194,7 +196,7 @@
 		<Scale_Factor>2.5</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-        <Ranking_In_Category>6</Ranking_In_Category>
+		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>2.7</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
@@ -206,7 +208,7 @@
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
-		
+
 		<Max_Thrust>2.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -214,12 +216,12 @@
 
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_UNSC_Assault </Armor_Type>
-        <Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>5500</Tactical_Health> <!-- was 2800 -->
-		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
+		<Tactical_Health>5500</Tactical_Health>		<!-- was 2800 -->
+		<Shield_Refresh_Rate>63</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -315,7 +317,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		
+
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -330,12 +332,12 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
-		
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>TURBO</Type>
-			
+
 				<Expiration_Seconds>10</Expiration_Seconds>
 				<Recharge_Seconds>80</Recharge_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.5f</Mod_Multiplier>
@@ -344,7 +346,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Name_Text>HALO_ENGINE_POWER</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
+				<Alternate_Description_Text>HALO_ENGINE_POWER_ENC</Alternate_Description_Text>
 			</Unit_Ability>
 
 			<Unit_Ability>
@@ -354,18 +356,18 @@
 				<Supports_Autofire>True</Supports_Autofire>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.65f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>				<!-- make it faster to recharge -->
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
 				<Alternate_Name_Text>HALO_LAST_DEFENSE</Alternate_Name_Text>
 				<Alternate_Description_Text>HALO_LAST_DEFENSE_ENC</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_SPREAD_OUT.TGA</Alternate_Icon_Name>
-				
+
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
-			
+
 		</Unit_Abilities_Data>
-		
+
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_HALBERD TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DESTROYER </Encyclopedia_Unit_Class>
@@ -377,12 +379,12 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>14</Population_Value>
 	</SpaceUnit>
 
-    <SpaceUnit Name="Halberd_Death_Clone">
+	<SpaceUnit Name="Halberd_Death_Clone">
 		<Text_ID>TEXT_UNSC_HALBERD</Text_ID>
 		<Space_Model_Name>UNSC_Halberd.ALO</Space_Model_Name>
 		<xxxSpace_Model_Name>UNSC_Halberd.ALO</xxxSpace_Model_Name>
@@ -413,7 +415,7 @@
 		<Scale_Factor>0.35</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-        <Ranking_In_Category>3</Ranking_In_Category>
+		<Ranking_In_Category>3</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>4.2</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
@@ -425,7 +427,7 @@
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
-		
+
 		<Max_Thrust>2.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -433,12 +435,12 @@
 
 		<Damage_Type> Damage_UNSC_Corvette</Damage_Type>
 		<Armor_Type> Armor_UNSC_Corvette </Armor_Type>
-        <Shield_Armor_Type>Shield_UNSC_Corvette</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Corvette</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>1750</Tactical_Health> <!-- was 2800 then 1150 -->
-		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
+		<Tactical_Health>1750</Tactical_Health>		<!-- was 2800 then 1150 -->
+		<Shield_Refresh_Rate>63</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -484,7 +486,37 @@
 			UNSC_MAKO_M66_01, UNSC_MAKO_M66_02, UNSC_MAKO_M870_01, UNSC_MAKO_M870_02, UNSC_MAKO_M870_03, UNSC_MAKO_M870_04, UNSC_MAKO_AP_01, UNSC_MAKO_AP_02, UNSC_MAKO_AP_03, UNSC_MAKO_AP_04
 		</HardPoints>
 
+		<Unit_Abilities_Data SubObjectList="Yes">
 
+			<Unit_Ability>
+				<Type>LASER_DEFENSE</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Mako_Point_Defense </GUI_Activated_Ability_Name>
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Laser_Defense_On_Crusader </SFXEvent_GUI_Unit_Ability_Activated>				<!--(by pressing the activate button)-->
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Laser_Defense_Off_Crusader </SFXEvent_GUI_Unit_Ability_Deactivated>				<!--(by pressing deactivate)-->
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Laser_Defense_Ability Name="Mako_Point_Defense">
+				<Activation_Style> User_Input </Activation_Style>
+				<Defense_Duration_In_Secs> 35.0 </Defense_Duration_In_Secs>
+				<Laser_Color>255, 255, 255, 255</Laser_Color>
+				<Bone_Names>HP_MAKO_ARCHER_01,HP_MAKO_ARCHER_02,HP_MAKO_ARCHER_03,HP_MAKO_ARCHER_04</Bone_Names>
+				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
+				<Protection_Radius>500.0</Protection_Radius>
+				<Laser_Beam_Frames>2</Laser_Beam_Frames>
+				<Laser_Beam_Width>4</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+				<Laser_Beam_Texture>MACParticle.dds</Laser_Beam_Texture>
+				<Recharge_Time_In_Secs>.2</Recharge_Time_In_Secs>
+				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+			</Laser_Defense_Ability>
+		</Abilities>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>I_BUTTON_MAKO.tga</Icon_Name>
@@ -536,7 +568,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		
+
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -551,7 +583,7 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
-		
+
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_MAKO TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CORVETTE </Encyclopedia_Unit_Class>
@@ -563,12 +595,12 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 	</SpaceUnit>
 
-	
+
 
 	<SpaceUnit Name="UNSC_IROQUOIS">
 
@@ -584,7 +616,7 @@
 		<Scale_Factor>2.5</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-        <Ranking_In_Category>6</Ranking_In_Category>
+		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>2.3</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
@@ -596,7 +628,7 @@
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
-		
+
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -604,12 +636,12 @@
 
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_UNSC_Assault </Armor_Type>
-        <Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>5500</Tactical_Health> <!-- was 2800 -->
-		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
+		<Tactical_Health>5500</Tactical_Health>		<!-- was 2800 -->
+		<Shield_Refresh_Rate>63</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -705,7 +737,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		
+
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -720,34 +752,34 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
-		
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>BLAST</Type>
 				<Recharge_Seconds>140.0</Recharge_Seconds>
 				<Alternate_Name_Text>HALO_FIRE_SHIVAS</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_SHIVAS_ENC</Alternate_Description_Text>
+				<Alternate_Description_Text>HALO_FIRE_SHIVAS_ENC</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_CONTAMINATE.TGA</Alternate_Icon_Name>
 				<GUI_Activated_Ability_Name> Fire_Shiva_Nuke </GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-		
 
-		</Unit_Abilities_Data> 
-		
+
+		</Unit_Abilities_Data>
+
 		<Abilities SubObjectList="Yes">
 			<Blast_Ability Name="Fire_Shiva_Nuke">
 				<Activation_Style> User_Input </Activation_Style>
-                <Charge_Up_Seconds>0</Charge_Up_Seconds>
-                <Damage_Multiplier>1</Damage_Multiplier>
-                <Charging_Effect />
-                <Charged_Effect />
+				<Charge_Up_Seconds>0</Charge_Up_Seconds>
+				<Damage_Multiplier>1</Damage_Multiplier>
+				<Charging_Effect />
+				<Charged_Effect />
 				<SFXEvent_Activate />
 			</Blast_Ability>
 		</Abilities>
 
-		
+
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_IROQUOIS TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DESTROYER </Encyclopedia_Unit_Class>
@@ -759,10 +791,10 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>16</Population_Value>
-		
+
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_STRIDENT">
@@ -777,7 +809,7 @@
 		<Scale_Factor>2.8</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-        <Ranking_In_Category>6</Ranking_In_Category>
+		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>2.6</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
@@ -789,20 +821,20 @@
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
-		
+
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
-		
+
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_UNSC_Assault </Armor_Type>
-        <Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>3000</Shield_Points>
-		<Tactical_Health>4950</Tactical_Health> 
-		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> 
+		<Tactical_Health>4950</Tactical_Health>
+		<Shield_Refresh_Rate>63</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -898,7 +930,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		
+
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -913,21 +945,21 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
-		
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>BLAST</Type>
 				<Recharge_Seconds>120.0</Recharge_Seconds>
 				<Alternate_Name_Text>HALO_FIRE_SHIVAS</Alternate_Name_Text>
-                <Alternate_Description_Text>HALO_FIRE_SHIVAS_ENC</Alternate_Description_Text>
+				<Alternate_Description_Text>HALO_FIRE_SHIVAS_ENC</Alternate_Description_Text>
 				<Alternate_Icon_Name>I_SA_CONTAMINATE.TGA</Alternate_Icon_Name>
 				<GUI_Activated_Ability_Name> Fire_Shiva_Nuke </GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-		
-			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
-				<!--<Type>INTERDICT</Type>
+
+			<!--<Unit_Ability>-->			<!-- Reactor Ability stuff-->
+			<!--<Type>INTERDICT</Type>
 				<Disable_Movement>No</Disable_Movement>
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
@@ -936,19 +968,19 @@
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>-->
 
-		</Unit_Abilities_Data> 
-		
+		</Unit_Abilities_Data>
+
 		<Abilities SubObjectList="Yes">
 			<Blast_Ability Name="Fire_Shiva_Nuke">
 				<Activation_Style> User_Input </Activation_Style>
-                <Charge_Up_Seconds>0</Charge_Up_Seconds>
-                <Damage_Multiplier>1</Damage_Multiplier>
-                <Charging_Effect />
-                <Charged_Effect />
+				<Charge_Up_Seconds>0</Charge_Up_Seconds>
+				<Damage_Multiplier>1</Damage_Multiplier>
+				<Charging_Effect />
+				<Charged_Effect />
 				<SFXEvent_Activate />
 			</Blast_Ability>
 		</Abilities>
-		
+
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_STRIDENT TEXT_SPACE HALO_ARMOR_LEVEL_3 HALO_SHIELD_LEVEL_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE </Encyclopedia_Unit_Class>
@@ -960,10 +992,10 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>18</Population_Value>
-		
+
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_PARIS">
@@ -978,7 +1010,7 @@
 		<Scale_Factor>2.85</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-        <Ranking_In_Category>6</Ranking_In_Category>
+		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>2.8</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
@@ -990,7 +1022,7 @@
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
-		
+
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -998,12 +1030,12 @@
 
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_UNSC_Assault </Armor_Type>
-        <Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>4500</Tactical_Health> <!-- was 3200 -->
-		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
+		<Tactical_Health>4500</Tactical_Health>		<!-- was 3200 -->
+		<Shield_Refresh_Rate>63</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -1099,7 +1131,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		
+
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -1119,7 +1151,7 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-			
+
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
@@ -1130,13 +1162,13 @@
 				<Expiration_Seconds>7</Expiration_Seconds>
 				<Alternate_Name_Text>HALO_WEAPON_OVERIDE</Alternate_Name_Text>
 				<Alternate_Description_Text>HALO_WEAPON_OVERIDE_ENC</Alternate_Description_Text>
-				
+
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
-			
+
 		<Abilities SubObjectList="Yes">
 
 		</Abilities>
@@ -1152,10 +1184,10 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>15</Population_Value>
-		
+
 	</SpaceUnit>
 
 	<SpaceUnit Name="Paris_Death_Clone">
@@ -1189,7 +1221,7 @@
 		<Scale_Factor>2.45</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
-        <Ranking_In_Category>6</Ranking_In_Category>
+		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
@@ -1201,7 +1233,7 @@
 		<Bank_Turn_Angle>30</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
-		
+
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -1209,12 +1241,12 @@
 
 		<Damage_Type> Damage_UNSC_Frigate</Damage_Type>
 		<Armor_Type> Armor_UNSC_Frigate </Armor_Type>
-        <Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_UNSC_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>3600</Tactical_Health> <!-- was 2800 -->
-		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
+		<Tactical_Health>3600</Tactical_Health>		<!-- was 2800 -->
+		<Shield_Refresh_Rate>63</Shield_Refresh_Rate>		<!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -1257,7 +1289,9 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<HardPoints>
-			UNSC_STALWART_MK33_01, UNSC_STALWART_MK33_02, UNSC_STALWART_MK33_03, UNSC_STALWART_MK33_04, UNSC_STALWART_MK33_05, UNSC_STALWART_MK33_06, UNSC_STALWART_AP_01, UNSC_STALWART_AP_02, UNSC_STALWART_AP_03, UNSC_STALWART_MAC
+			UNSC_STALWART_MK33_01, UNSC_STALWART_MK33_02, UNSC_STALWART_MK33_03, UNSC_STALWART_MK33_04, UNSC_STALWART_MK33_05, UNSC_STALWART_MK33_06, 
+			UNSC_STALWART_FLAK_01, UNSC_STALWART_FLAK_02, UNSC_STALWART_FLAK_03, UNSC_STALWART_FLAK_04, UNSC_STALWART_FLAK_05, UNSC_STALWART_FLAK_06,
+			UNSC_STALWART_AP_01, UNSC_STALWART_AP_02, UNSC_STALWART_AP_03, UNSC_STALWART_MAC
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -1310,12 +1344,12 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		
+
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			
+
 
 		</Unit_Abilities_Data>
 
@@ -1343,10 +1377,10 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>8</Population_Value>
-		
+
 	</SpaceUnit>
 
 </FrigateUnits>

@@ -108,7 +108,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -297,6 +297,7 @@
 		<Build_Cost_Credits>3650</Build_Cost_Credits>
 		<AI_Combat_Power>2950</AI_Combat_Power>
 		<Build_Time_Seconds>95</Build_Time_Seconds>
+		<Tech_Level>99</Tech_Level>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="UNSC_Space_Commander_Combat_Bonus">
@@ -327,6 +328,7 @@
 		<Build_Time_Seconds>110</Build_Time_Seconds>
 		<Icon_Name>I_BUTTON_HOOD.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Tech_Level>99</Tech_Level>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="UNSC_Space_Commander_Combat_Bonus">

@@ -406,6 +406,18 @@
         <Behavior>PARTICLE</Behavior>
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+		<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
+    </Particle>
+
+	<Particle Name="Medium_Damage_Space_Covie">
+        <Land_Model_Name>p_damage_small_covie.alo</Land_Model_Name>
+        <Space_Model_Name>p_damage_small_covie.alo</Space_Model_Name>
+        <Scale_Factor>2.5</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+		<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
     </Particle>
 
     <Particle Name="Medium_Damage_Space">

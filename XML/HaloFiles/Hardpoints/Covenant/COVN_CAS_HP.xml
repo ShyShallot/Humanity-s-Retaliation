@@ -42,13 +42,7 @@
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
        <Health>750</Health>
-       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_01.ALO </Model_To_Attach>
-       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
-       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
-       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
-       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       
        <Attachment_Bone>HP_CAS_MT_01_BONE</Attachment_Bone>
        <Collision_Mesh>HP_CAS_MT_01_BONE</Collision_Mesh>
        <Damage_Particles>HP_CAS_MT_01_BONE_EMIT</Damage_Particles>
@@ -77,13 +71,7 @@
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
        <Health>750</Health>
-       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_02.ALO </Model_To_Attach>
-       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
-       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
-       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
-       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       
        <Attachment_Bone>HP_CAS_MT_02_BONE</Attachment_Bone>
        <Collision_Mesh>HP_CAS_MT_02_BONE</Collision_Mesh>
        <Damage_Particles>HP_CAS_MT_02_BONE_EMIT</Damage_Particles>
@@ -112,13 +100,7 @@
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
        <Health>750</Health>
-       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_03.ALO </Model_To_Attach>
-       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
-       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
-       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
-       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       
        <Attachment_Bone>HP_CAS_MT_03_BONE</Attachment_Bone>
        <Collision_Mesh>HP_CAS_MT_03_BONE</Collision_Mesh>
        <Damage_Particles>HP_CAS_MT_03_BONE_EMIT</Damage_Particles>
@@ -147,13 +129,7 @@
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
        <Health>750</Health>
-       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_04.ALO </Model_To_Attach>
-       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
-       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
-       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
-       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       
        <Attachment_Bone>HP_CAS_MT_04_BONE</Attachment_Bone>
        <Collision_Mesh>HP_CAS_MT_04_BONE</Collision_Mesh>
        <Damage_Particles>HP_CAS_MT_04_BONE_EMIT</Damage_Particles>
@@ -182,13 +158,7 @@
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
        <Health>750</Health>
-       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_05.ALO </Model_To_Attach>
-       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
-       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
-       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
-       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       
        <Attachment_Bone>HP_CAS_MT_05_BONE</Attachment_Bone>
        <Collision_Mesh>HP_CAS_MT_05_BONE</Collision_Mesh>
        <Damage_Particles>HP_CAS_MT_05_BONE_EMIT</Damage_Particles>
@@ -217,13 +187,7 @@
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
        <Health>750</Health>
-       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_06.ALO </Model_To_Attach>
-       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
-       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
-       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
-       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       
        <Attachment_Bone>HP_CAS_MT_06_BONE</Attachment_Bone>
        <Collision_Mesh>HP_CAS_MT_06_BONE</Collision_Mesh>
        <Damage_Particles>HP_CAS_MT_06_BONE_EMIT</Damage_Particles>
@@ -252,13 +216,7 @@
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
        <Health>750</Health>
-       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_07.ALO </Model_To_Attach>
-       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
-       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
-       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
-       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       
        <Attachment_Bone>HP_CAS_MT_07_BONE</Attachment_Bone>
        <Collision_Mesh>HP_CAS_MT_07_BONE</Collision_Mesh>
        <Damage_Particles>HP_CAS_MT_07_BONE_EMIT</Damage_Particles>
@@ -287,13 +245,7 @@
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
        <Health>750</Health>
-       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_08.ALO </Model_To_Attach>
-       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
-       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
-       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
-       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       
        <Attachment_Bone>HP_CAS_MT_08_BONE</Attachment_Bone>
        <Collision_Mesh>HP_CAS_MT_08_BONE</Collision_Mesh>
        <Damage_Particles>HP_CAS_MT_08_BONE_EMIT</Damage_Particles>
@@ -322,13 +274,7 @@
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
        <Health>750</Health>
-       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_09.ALO </Model_To_Attach>
-       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
-       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
-       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
-       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       
        <Attachment_Bone>HP_CAS_MT_09_BONE</Attachment_Bone>
        <Collision_Mesh>HP_CAS_MT_09_BONE</Collision_Mesh>
        <Damage_Particles>HP_CAS_MT_09_BONE_EMIT</Damage_Particles>
@@ -357,13 +303,7 @@
        <Is_Targetable>Yes</Is_Targetable>
        <Is_Destroyable>Yes</Is_Destroyable>
        <Health>750</Health>
-       <Model_To_Attach> COVN_CAS_HEAVYPLASMA_10.ALO </Model_To_Attach>
-       <Turret_Rest_Angle>0.0,0.0,0.0</Turret_Rest_Angle>
-       <Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-       <Turret_Rotate_Extent_Degrees>150</Turret_Rotate_Extent_Degrees>
-       <Turret_Elevate_Extent_Degrees>180</Turret_Elevate_Extent_Degrees>
-       <Turret_Bone_Name>TURRET</Turret_Bone_Name>
-       <Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+       
        <Attachment_Bone>HP_CAS_MT_10_BONE</Attachment_Bone>
        <Collision_Mesh>HP_CAS_MT_10_BONE</Collision_Mesh>
        <Damage_Particles>HP_CAS_MT_10_BONE_EMIT</Damage_Particles>
@@ -407,9 +347,9 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 2.8 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.4 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.2 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 0 </Fire_Inaccuracy_Distance>
@@ -436,9 +376,9 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 2.8 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.4 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.2 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 0 </Fire_Inaccuracy_Distance>
@@ -465,9 +405,9 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 2.8 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.4 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.2 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 0 </Fire_Inaccuracy_Distance>
@@ -494,9 +434,9 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 2.8 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.4 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.2 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 0 </Fire_Inaccuracy_Distance>
@@ -523,9 +463,9 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 2.8 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.4 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.2 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 0 </Fire_Inaccuracy_Distance>
@@ -552,9 +492,9 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 2.8 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.4 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.2 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 0 </Fire_Inaccuracy_Distance>
@@ -581,9 +521,9 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 2.8 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.4 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.2 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 0 </Fire_Inaccuracy_Distance>
@@ -610,9 +550,9 @@
             <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-            <Fire_Inaccuracy_Distance> Fighter, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 2.8 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.4 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.2 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Corvette, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Frigate, 0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 0 </Fire_Inaccuracy_Distance>

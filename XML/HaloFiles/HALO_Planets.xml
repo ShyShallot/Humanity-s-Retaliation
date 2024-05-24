@@ -2118,9 +2118,9 @@
     <Text_ID>HALO_PLANET_BALAHO</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>W_PLANET_BALAHO.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>W_PLANET_BALAHO.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
     <Scale_Factor>0.6</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>

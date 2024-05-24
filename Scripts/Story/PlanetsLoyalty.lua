@@ -22,6 +22,8 @@ end
 function State_Init(message)
     if message == OnEnter then
 
+        GlobalValue.Set("Farms_Unlocked", 0)
+
         human = Find_Human_Player()
 
         planets = FindPlanet.Get_All_Planets()
@@ -339,6 +341,8 @@ function Unlock_Farms()
     if Farms_Active(rebel) then
         rebel.Unlock_Tech(Find_Object_Type("UNSC_FARM"))
         Story_Event("Farms_Unlocked")
+
+        GlobalValue.Set("Farms_Unlocked", 1)
     end
 end
 

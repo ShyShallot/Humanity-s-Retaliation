@@ -17,6 +17,7 @@
 				UC_Rebel_Defense_Satellite_Laser,
 				UC_Rebel_Defense_Satellite_Missile,
 				UC_Rebel_Defense_Satellite_Repair,
+				UC_Rebel_Defense_Satellite_MAC,
 			Underworld,
 				UC_Underworld_Defense_Satellite_Plasma,
 				UC_Underworld_Defense_Satellite_DBM, 

@@ -1280,6 +1280,10 @@
 		<AI_Combat_Power>60</AI_Combat_Power>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Guard_Chase_Range>300.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1000.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1000.0</Attack_Move_Response_Range>
 		
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
