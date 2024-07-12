@@ -51,7 +51,7 @@
 		<Required_Planets/>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>4000</Shield_Points>
+		<Shield_Points>5500</Shield_Points>
 		<Tactical_Health>3000</Tactical_Health>
 		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>

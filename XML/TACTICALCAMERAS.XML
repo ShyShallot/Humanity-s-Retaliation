@@ -175,6 +175,10 @@
         <Object_Fade_Begin>10000.0f</Object_Fade_Begin>
         <Object_Fade_End>11000.0f</Object_Fade_End>
 
+		<Side_Bounds_Buffer>-10000.0f</Side_Bounds_Buffer>
+        <Top_Bounds_Buffer>-10000.0f</Top_Bounds_Buffer>
+        <Bottom_Bounds_Buffer>-10000.0f</Bottom_Bounds_Buffer>
+
 	</TacticalCamera>
 	
 </TacticalCameras>	  

@@ -33,6 +33,7 @@
 		<Story_Dialog>DIALOG_UNSC_TECH</Story_Dialog>
         <Story_Chapter>2</Story_Chapter>
         <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Shield_Explanation</Story_Tag>
 	</Event>
 
     

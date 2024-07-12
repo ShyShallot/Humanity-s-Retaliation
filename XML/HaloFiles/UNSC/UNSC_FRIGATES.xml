@@ -80,8 +80,17 @@
 			UNSC_GLAD_01, UNSC_GLAD_02, UNSC_GLAD_03, UNSC_GLAD_04, UNSC_GLAD_05, UNSC_GLAD_06
 		</HardPoints>
 
-		
-
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Space_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 2850.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 600.0 </Area_Effect_Decal_Distance> 
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 		<Icon_Name>I_BUTTON_GLADIUS.tga</Icon_Name>
@@ -495,7 +504,7 @@
 				<Effective_Radius> 500.0 </Effective_Radius>
 				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Laser_Defense_On_Crusader </SFXEvent_GUI_Unit_Ability_Activated>				<!--(by pressing the activate button)-->
 				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Laser_Defense_Off_Crusader </SFXEvent_GUI_Unit_Ability_Deactivated>				<!--(by pressing deactivate)-->
-				<Supports_Autofire>False</Supports_Autofire>
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>

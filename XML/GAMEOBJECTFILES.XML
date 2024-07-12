@@ -9,6 +9,7 @@
 
 	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
 	<File>TechBuilding_REBELS.xml</File>
+	<File>HaloFiles\Terrorists\TECHBUILDING_TERROR.xml</File>
 	<File>GroundBases.xml</File>
 	<File>GroundStructures.xml</File>
 	<File>GroundTurrets.xml</File>

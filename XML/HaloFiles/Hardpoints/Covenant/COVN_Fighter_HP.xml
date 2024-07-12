@@ -16,7 +16,7 @@
             <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>900.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
     </HardPoint>
@@ -38,10 +38,11 @@
 		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
         <Fire_Category_Restrictions>Fighter,Bomber</Fire_Category_Restrictions>
     </HardPoint>
+    
 
     <!-- Tarasque Hardpoints-->
     <HardPoint Name="COVN_TARA_01">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
@@ -54,7 +55,7 @@
             <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>900.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
     </HardPoint>
 
@@ -91,7 +92,7 @@
             <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>900.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
     </HardPoint>
 
@@ -106,12 +107,11 @@
             <Fire_Cone_Width>110.0</Fire_Cone_Width>
             <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Covie_Fighter</Fire_Projectile_Type>
-            <Projectile_Damage>7.5</Projectile_Damage>
             <Fire_Min_Recharge_Seconds>1.9</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>900.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
     </HardPoint>
     

@@ -5,7 +5,7 @@
 		<Point_B>Reach</Point_B>
 		<HS_Speed_Factor>0.75</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -14,7 +14,7 @@
 		<Point_B>Mars</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -23,7 +23,7 @@
 		<Point_B>Harmony</Point_B>
 		<HS_Speed_Factor>0.9</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -32,7 +32,7 @@
 		<Point_B>Harmony</Point_B>
 		<HS_Speed_Factor>0.9</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -41,7 +41,7 @@
 		<Point_B>Harmony</Point_B>
 		<HS_Speed_Factor>0.85</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -50,7 +50,7 @@
 		<Point_B>Tantalus</Point_B>
 		<HS_Speed_Factor>0.7</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -59,7 +59,7 @@
 		<Point_B>Tantalus</Point_B>
 		<HS_Speed_Factor>0.65</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -68,7 +68,7 @@
 		<Point_B>Charybdis_IX</Point_B>
 		<HS_Speed_Factor>0.8</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -77,7 +77,7 @@
 		<Point_B>Falaknuma</Point_B>
 		<HS_Speed_Factor>0.4</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -86,7 +86,7 @@
 		<Point_B>Reach</Point_B>
 		<HS_Speed_Factor>0.55</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -95,7 +95,7 @@
 		<Point_B>Falaknuma</Point_B>
 		<HS_Speed_Factor>0.4</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -104,7 +104,7 @@
 		<Point_B>Falaknuma</Point_B>
 		<HS_Speed_Factor>0.5</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -113,7 +113,7 @@
 		<Point_B>Meridian</Point_B>
 		<HS_Speed_Factor>0.65</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -122,7 +122,7 @@
 		<Point_B>Meridian</Point_B>
 		<HS_Speed_Factor>0.8</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 	
@@ -131,7 +131,7 @@
 		<Point_B>New_Jerusalem</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -140,7 +140,7 @@
 		<Point_B>Chi_Ceti_IV</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -149,7 +149,7 @@
 		<Point_B>Chi_Ceti_IV</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -158,7 +158,7 @@
 		<Point_B>Installation_05</Point_B>
 		<HS_Speed_Factor>0.5</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -167,7 +167,7 @@
 		<Point_B>Chi_Ceti_IV</Point_B>
 		<HS_Speed_Factor>0.75</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -176,7 +176,7 @@
 		<Point_B>Yonhe</Point_B>
 		<HS_Speed_Factor>0.4</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -185,7 +185,7 @@
 		<Point_B>Installation_05</Point_B>
 		<HS_Speed_Factor>0.5</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -194,7 +194,7 @@
 		<Point_B>Netherop</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -203,7 +203,7 @@
 		<Point_B>Netherop</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -212,7 +212,7 @@
 		<Point_B>Doisac</Point_B>
 		<HS_Speed_Factor>0.75</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -221,7 +221,7 @@
 		<Point_B>Doisac</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -230,7 +230,7 @@
 		<Point_B>Tvao</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -239,7 +239,7 @@
 		<Point_B>Tvao</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -248,7 +248,7 @@
 		<Point_B>Codisfold</Point_B>
 		<HS_Speed_Factor>0.5</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -257,7 +257,7 @@
 		<Point_B>Karava</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -266,7 +266,7 @@
 		<Point_B>Karava</Point_B>
 		<HS_Speed_Factor>0.6</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -275,7 +275,7 @@
 		<Point_B>Nefoluzo</Point_B>
 		<HS_Speed_Factor>0.8</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -284,7 +284,7 @@
 		<Point_B>Nefoluzo</Point_B>
 		<HS_Speed_Factor>0.7</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -293,7 +293,7 @@
 		<Point_B>Kamchatka</Point_B>
 		<HS_Speed_Factor>0.7</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -302,7 +302,7 @@
 		<Point_B>Kamchatka</Point_B>
 		<HS_Speed_Factor>0.7</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -311,7 +311,7 @@
 		<Point_B>Taram</Point_B>
 		<HS_Speed_Factor>0.7</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -320,7 +320,7 @@
 		<Point_B>Taram</Point_B>
 		<HS_Speed_Factor>0.8</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -329,7 +329,7 @@
 		<Point_B>Palamok</Point_B>
 		<HS_Speed_Factor>0.8</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -338,7 +338,7 @@
 		<Point_B>Palamok</Point_B>
 		<HS_Speed_Factor>0.75</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -347,7 +347,7 @@
 		<Point_B>Ulgethon</Point_B>
 		<HS_Speed_Factor>0.45</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 	
@@ -356,7 +356,7 @@
 		<Point_B>Eayn</Point_B>
 		<HS_Speed_Factor>0.75</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -365,7 +365,7 @@
 		<Point_B>Victors_Truth</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -374,7 +374,7 @@
 		<Point_B>Eayn</Point_B>
 		<HS_Speed_Factor>0.95</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -383,7 +383,7 @@
 		<Point_B>Feldokra</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -392,7 +392,7 @@
 		<Point_B>Victors_Truth</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -401,7 +401,7 @@
 		<Point_B>Feldokra</Point_B>
 		<HS_Speed_Factor>0.4</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -410,7 +410,7 @@
 		<Point_B>Threshold</Point_B>
 		<HS_Speed_Factor>0.75</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -419,7 +419,7 @@
 		<Point_B>Arcadia</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -428,7 +428,7 @@
 		<Point_B>Arcadia</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -437,7 +437,7 @@
 		<Point_B>Alluvion</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -446,7 +446,7 @@
 		<Point_B>Alluvion</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -455,7 +455,7 @@
 		<Point_B>Aleria</Point_B>
 		<HS_Speed_Factor>0.5</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -464,7 +464,7 @@
 		<Point_B>Madrigal</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -473,7 +473,7 @@
 		<Point_B>Madrigal</Point_B>
 		<HS_Speed_Factor>0.65</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -482,7 +482,7 @@
 		<Point_B>Sanghelios</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -491,7 +491,7 @@
 		<Point_B>Sanghelios</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -500,7 +500,7 @@
 		<Point_B>Sanghelios</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -509,7 +509,7 @@
 		<Point_B>Bhedalon</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 
@@ -518,7 +518,7 @@
 		<Point_B>Ulgethon</Point_B>
 		<HS_Speed_Factor>1.0</HS_Speed_Factor>
 		<Political_Control_Gain>0.0</Political_Control_Gain>
-		<Credit_Gain_Factor>0.25</Credit_Gain_Factor>
+		<Credit_Gain_Factor>0</Credit_Gain_Factor>
         <Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
 

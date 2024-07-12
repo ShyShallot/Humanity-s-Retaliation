@@ -1,4 +1,41 @@
 local unit_table = {
+        UNSC_Tech_Shield = {
+            Category = "Structure",
+            Special = "Shield_Tech_Available"
+        },
+        DS_Primary_Hyperdrive = {
+            Category = "Structure"
+        },
+        DS_Shield_Gen = {
+            Category = "Structure"
+        },
+        DS_Superlaser_Core = {
+            Category = "Structure"
+        },
+        DS_Durasteel = {
+            Category = "Structure"
+        },
+        UNSC_TECH_2 = {
+            Category = "Structure"
+        },
+        UNSC_TECH_3 = {
+            Category = "Structure"
+        },
+        UNSC_TECH_4 = {
+            Category = "Structure"
+        },
+        UNSC_TECH_5 = {
+            Category = "Structure",
+            Special = "UNSC_Tech_Shield"
+        },
+        ARTIFACT_DIG_UP = {
+            Category = "Structure",
+            Special = "Artifact_Enabled"
+        },
+        ARTIFACT_RESEARCH = {
+            Category = "Structure",
+            Special = "Artifact_Enabled"
+        },
         UNSC_INFINITY = {
             Category = "Super",
             Special = "UNSC_Tech_Shield"

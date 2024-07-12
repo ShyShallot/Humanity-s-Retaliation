@@ -85,11 +85,11 @@ function State_Init(message)
         end
 
         if cso_cas_req_met then
-            Lock_Unit_Type(covenant, Find_Object_Type("COVN_CSO"), false)
+            Lock_Unit("COVN_CSO", covenant, false)
 
             GlobalValue.Set("CSO_UNLOCKED", 1)
         else
-            Lock_Unit_Type(covenant, Find_Object_Type("COVN_CSO"), true)
+            Lock_Unit("COVN_CSO", covenant)
         end
 
         if covenant.Get_Tech_Level() == 4 then
@@ -124,9 +124,9 @@ function Lock_HWD_UNITS(player,lock_or_unlock)
 
     for _, unit in pairs(hwd_units) do
         if lock_or_unlock then
-            player.Lock_Tech(Find_Object_Type(unit))
+            Lock_Unit(unit,player)
         else
-            player.Unlock_Tech(Find_Object_Type(unit))
+            Lock_Unit(unit,player,false)
         end
     end
 end

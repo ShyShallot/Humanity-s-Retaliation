@@ -51,7 +51,7 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>7500</Shield_Points>
+		<Shield_Points>10500</Shield_Points>
 		<Tactical_Health>5000</Tactical_Health>
 		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -271,7 +271,7 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>5250</Shield_Points>
+		<Shield_Points>9550</Shield_Points>
 		<Tactical_Health>3500</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -458,7 +458,7 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>6500</Shield_Points>
+		<Shield_Points>14500</Shield_Points>
 		<Tactical_Health>4000</Tactical_Health>
 		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -638,7 +638,7 @@
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>10500</Shield_Points>
+		<Shield_Points>12500</Shield_Points>
 		<Tactical_Health>5000</Tactical_Health>
 		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>

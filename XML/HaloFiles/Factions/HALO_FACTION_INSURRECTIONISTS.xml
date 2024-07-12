@@ -27,10 +27,10 @@
 		<Force_Alignment>Dark</Force_Alignment>
 		<Minimum_Visible_Base_Level>1</Minimum_Visible_Base_Level>
 		<Basic_AI>BasicRebel</Basic_AI>
-		<Can_Win_By_Destroying_Super_Weapon>Yes</Can_Win_By_Destroying_Super_Weapon>
+		<Can_Win_By_Destroying_Super_Weapon>No</Can_Win_By_Destroying_Super_Weapon>
 		<Faction_Super_Weapon>  </Faction_Super_Weapon>
 		<Skirmish_Land_Bomber> Y-Wing_Bombing_Run </Skirmish_Land_Bomber>
-		<Space_Tactical_Unit_Cap>200</Space_Tactical_Unit_Cap>
+		<Space_Tactical_Unit_Cap>95</Space_Tactical_Unit_Cap>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 		

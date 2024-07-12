@@ -202,6 +202,7 @@
 	
 	<SpaceUnit Name="UNSC_MUSASHI_2">
 		<Variant_Of_Existing_Type>UNSC_MUSASHI</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNSC_MUSASHI_2</Text_ID>
 		<Starting_Spawned_Units_Tech_0>Longsword_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Broadsword_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>

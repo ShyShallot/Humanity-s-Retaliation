@@ -616,7 +616,7 @@
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+		<Targeting_Priority_Set>MAC_PLATFORM</Targeting_Priority_Set>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>

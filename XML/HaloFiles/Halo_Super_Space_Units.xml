@@ -227,7 +227,7 @@
 		<Ranking_In_Category>5</Ranking_In_Category>
 		<Max_Speed>1.45</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.08</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
@@ -371,6 +371,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<!--<Unit_Ability>--> <!-- Reactor Ability stuff-->
@@ -382,6 +383,16 @@
 				<Alternate_Name_Text>TEXT_SECRET</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_SECRET_ENC</Alternate_Description_Text>
 			</Unit_Ability>-->
+
+			<Unit_Ability>
+				<Type>CONCENTRATE_FIRE</Type>
+				<Effective_Radius>2000</Effective_Radius>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
+				<GUI_Activated_Ability_Name>FLEET_COMMAND_CONCENTRATE</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Barrage_Ackbar </SFXEvent_Target_Ability>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -412,6 +423,17 @@
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
+
+			<Concentrate_Fire_Attack_Ability Name="FLEET_COMMAND_CONCENTRATE">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Damage_Increase_Percent>0.25</Target_Damage_Increase_Percent>
+				<Target_Speed_Decrease_Percent>0.15</Target_Speed_Decrease_Percent>
+				<Stacking_Category>0</Stacking_Category>
+			</Concentrate_Fire_Attack_Ability>
 		</Abilities>
        
 		<Encyclopedia_Text> TEXT_TOOLTIP_SOF HALO_FIGHTERS_SOF HALO_SHIP_REPAIR_BIG HALO_SHIP_HEAL_RATE_SOF TEXT_SPACE HALO_ARMOR_LEVEL_5 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
@@ -424,7 +446,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>25</Population_Value>
 	</SpaceUnit>
@@ -691,6 +713,8 @@
 
 		</Abilities>
 		<Lua_Script>CASAI</Lua_Script>
+
+		
 	</SpaceUnit>
 
 

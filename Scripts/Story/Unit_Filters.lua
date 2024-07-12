@@ -16,6 +16,7 @@ function Definitions()
     unit_table = {}
 
     active_filter = nil
+    
 end
 
 function State_Init(message)
@@ -67,6 +68,8 @@ function State_Init(message)
             DebugMessage("Event Name: %s", event)
             plot.Get_Event(event).Set_Reward_Parameter(1, human.Get_Faction_Name())
         end
+
+        GlobalValue.Set("Filter_Active", 0)
     end
 
     if message == OnUpdate then
@@ -107,6 +110,8 @@ function State_Init(message)
                 active_filter = event
 
                 DebugMessage("Active Filter: %s", event)
+
+                GlobalValue.Set("Filter_Active", 1)
             end
         end
 
@@ -120,11 +125,16 @@ function State_Init(message)
 
         if all_false == tableLength(filters) then
             active_filter = nil
+
+            GlobalValue.Set("Filter_Active", 0)
         end
 
         if active_filter == nil then
-            for unit_name, _ in pairs(unit_table) do
-                human.Unlock_Tech(Find_Object_Type(unit_name))
+            for unit_name, unit in pairs(unit_table) do
+
+                DebugMessage("Unit: %s, Special: %s", tostring(unit_name), tostring(unit.Special))
+
+                Lock_Tree(unit, unit_name, human)
             end
         else
             for unit_name, unit in pairs(unit_table) do
@@ -137,11 +147,13 @@ function State_Init(message)
                     human.Lock_Tech(Find_Object_Type(unit_name))
                 else
                     if unit.Special ~= nil then
-                        if Find_First_Object(unit.Special) ~= nil then
-                            human.Unlock_Tech(Find_Object_Type(unit_name))
+                        special_object = Find_First_Object(unit.Special)
 
+                        if TestValid(special_object) then
                             if unit.Special_Inverted then
                                 human.Lock_Tech(Find_Object_Type(unit_name))
+                            else
+                                human.Unlock_Tech(Find_Object_Type(unit_name))
                             end
                         else
                             if GlobalValue.Get(unit.Special) == 1 then
@@ -158,6 +170,42 @@ function State_Init(message)
                 end
             end
         end
+    end
+end
+
+function Lock_Tree(unit, unit_name, faction)
+    if unit.Special ~= nil then
+        special_object = Find_First_Object(unit.Special)
+
+        if TestValid(special_object) then
+            if unit.Special_Inverted then
+                faction.Lock_Tech(Find_Object_Type(unit_name))
+            else
+                faction.Unlock_Tech(Find_Object_Type(unit_name))
+            end
+        else
+            if GlobalValue.Get(unit.Special) == 1 then
+                if unit.Special_Inverted then
+                    faction.Lock_Tech(Find_Object_Type(unit_name))
+                else
+                    faction.Unlock_Tech(Find_Object_Type(unit_name))
+                end
+            else
+                if GlobalValue.Get(unit.Special) == 0 then
+                    faction.Lock_Tech(Find_Object_Type(unit_name))
+                end
+
+                if GlobalValue.Get(unit.Special) == nil then
+                    if unit.Special_Inverted then
+                        faction.Unlock_Tech(Find_Object_Type(unit_name))
+                    else
+                        faction.Lock_Tech(Find_Object_Type(unit_name))
+                    end
+                end
+            end
+        end
+    else
+        faction.Unlock_Tech(Find_Object_Type(unit_name))
     end
 end
 

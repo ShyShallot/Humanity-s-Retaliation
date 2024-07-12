@@ -16,4 +16,6 @@
 	<CanContainGarrison>	0x00001000	</CanContainGarrison>
 	<GarrisonCanFire>		0x00002000	</GarrisonCanFire>
 
+	<Freighter>             0x00055000  </Freighter>
+
 </EnumDefinition>

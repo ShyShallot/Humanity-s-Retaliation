@@ -356,6 +356,10 @@ function Lock_Unit_Type(player,unit_type, lock) -- true = lock, false or unprovi
         lock = false
     end
 
+    if GlobalValue.Get("Filter_Active") == 1 then
+        return
+    end
+
     if unit_type.Is_Build_Locked(player) and lock then
         return
     end
@@ -390,4 +394,18 @@ function Map_Value(value, iMin, iMax, oMin, oMax)
 
     return ((value - iMin) / (iMax - iMin)) * (oMax - oMin) + oMin
 
+end
+
+function Lock_Unit(unit_name,player, lock)
+    if GlobalValue.Get("Filter_Active") == 1 then
+        return
+    end
+
+    if lock == nil then
+        player.Lock_Tech(Find_Object_Type(unit_name))
+    end
+
+    if lock == false then
+        player.Unlock_Tech(Find_Object_Type(unit_name))
+    end
 end

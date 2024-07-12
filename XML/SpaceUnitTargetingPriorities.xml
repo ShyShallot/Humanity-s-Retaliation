@@ -72,7 +72,7 @@
 			Frigate, 7.0,
 			Cruiser, 8.0,
 			Capital, 9.0,
-			SpaceStructure, 10.0,
+			Structure, 10.0,
 		</Attack_Priorities>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
@@ -94,7 +94,7 @@
 			Bomber, 4.0,
 			Fighter, 5.0,
 			Transport, 8.0,
-			SpaceStructure, 9.0,
+			Structure, 9.0,
 		</Attack_Priorities>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
@@ -105,12 +105,31 @@
 		</Unit_Exclusions>
 	</Priority_Set>
 
+	<Priority_Set Name="MAC_PLATFORM">
+		<Attack_Priorities>
+			Cruiser, 1.0,
+			Capital, 2.0,
+			Structure, 3.0,
+            SpaceHero, 4.0,
+            Frigate, 5.0,
+			Corvette, 6.0,
+            Gunship, 7.0,
+			Transport, 8.0,
+			Bomber, 9.0,
+			Fighter, 10.0,
+		</Attack_Priorities>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+		<Category_Exclusions>
+			Fighter, Bomber, Transport
+		</Category_Exclusions>
+	</Priority_Set>
+
     <Priority_Set Name="Cruiser">
         <Attack_Priorities>
             Frigate, 1.0,
             Cruiser, 2.0,
             Capital, 3.0,
-			SpaceStructure, 4.0,
+			Structure, 4.0,
             SpaceHero, 5.0,
             Gunship, 7.0,
             Corvette, 6.0,
@@ -131,7 +150,7 @@
 		<Attack_Priorities>
 			Cruiser, 1.0,
 			Capital, 2.0,
-			SpaceStructure, 3.0,
+			Structure, 3.0,
             SpaceHero, 4.0,
             Frigate, 5.0,
 			Corvette, 6.0,

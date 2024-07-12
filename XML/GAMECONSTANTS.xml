@@ -99,7 +99,7 @@
 
 	 
 
-	<Political_Income_Curve>0,1, 1,1.15, 2,1.5, 3,1.75, 4,1.95, 5,2</Political_Income_Curve>
+	<Political_Income_Curve>0,0, 1,0, 2,0, 3,0, 4,0, 5,0</Political_Income_Curve>
 	<Progressive_Taxation>1,0, 2,0, 5,0, 10,0, 20,0, 30,0</Progressive_Taxation>
 	<Income_Redistribution>0.2</Income_Redistribution>
 	
@@ -5120,17 +5120,17 @@
 
 	<!-- Localized main menu background overlay asset names -->
 	<Localized_Menu_Overlay> ENGLISH, 	Menuback_Overlay.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> GERMAN, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> FRENCH, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> SPANISH, 	Menuback_Overlay_spanish.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> ITALIAN, 	Menuback_Overlay_italian.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> JAPANESE, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> KOREAN, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> CHINESE, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> RUSSIAN, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> POLISH, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> THAI, 		Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-
+	<Localized_Menu_Overlay> GERMAN, 	Menuback_Overlay.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> FRENCH, 	Menuback_Overlay.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> SPANISH, 	Menuback_Overlay.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> ITALIAN, 	Menuback_Overlay.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> JAPANESE, 	Menuback_Overlay.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> KOREAN, 	Menuback_Overlay.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> CHINESE, 	Menuback_Overlay.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> RUSSIAN, 	Menuback_Overlay.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> POLISH, 	Menuback_Overlay.TGA</Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> THAI, 		Menuback_Overlay.TGA</Localized_Menu_Overlay>
+	
 	<!-- Preferred choice of pathfinder for invading. Non-hero units are always preferred -->
 	<Preferred_Pathfinder_Types>
 		Imperial_Stormtrooper_Squad,

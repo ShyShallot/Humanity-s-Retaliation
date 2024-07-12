@@ -28,11 +28,17 @@ function Global_Story(message)
 
         swordsPlanets = {}
 
+        terrorplanets = {}
+
         for i, planet in pairs(planets) do
             if planet.Get_Owner().Get_Faction_Name() == "REBEL" then
                 rebelPlanets[i] = planet
             elseif planet.Get_Owner().Get_Faction_Name() == "EMPIRE" then 
                 empirePlanets[i] = planet
+            elseif planet.Get_Owner().Get_Faction_Name() == "TERRORISTS" then
+                terrorplanets[i]  = planet
+            elseif planet.Get_Owner().Get_Faction_Name() == "SWORDS" then
+                swordsPlanets[i] = planet
             end
         end
 
@@ -69,10 +75,31 @@ function Global_Story(message)
 
         }
 
+        starting_units_swords = {
+            ["SWORDS_CCS"] = 3,
+            ["SWORDS_CRS"] = 10,
+            ["SWORDS_CRS"] = 8,
+            ["SWORDS_SDV"] = 10,
+            ["SWORDS_Banshee_Squadron"] = 20,
+            ["SWORDS_Cerastes_Squadron"] = 18
+        }
+
+        starting_units_terror = {
+            ["TERROR_HALCYON"] = 2,
+            ["TERROR_STALWART"] = 10,
+            ["TERROR_MAKO"] = 12,
+            ["TERROR_GLADIUS"] = 8,
+            ["TERROR_Baselard_Squadron"] = 20,
+            ["TERROR_SHORTSWORD_Squadron"] = 12
+        }
+
         Spawn_Starting_Units("Rebel",starting_units_rebel,rebelPlanets, unsc_heros)
 
         Spawn_Starting_Units("Empire",starting_units_empire,empirePlanets, covenant_heros)
 
+        Spawn_Starting_Units("Terrorists",starting_units_terror,terrorplanets)
+
+        Spawn_Starting_Units("Swords",starting_units_swords,swordsPlanets)
 
         Lock_Vanilla_Units()
 
@@ -82,6 +109,18 @@ end
 function Spawn_Starting_Units(faction, units, locations, heros)
 
     player = Find_Player(faction)
+
+    if (not player.Is_Human()) and faction == "Empire" then
+        GlobalValue.Set("Artifact_Enabled", 0)
+        player.Lock_Tech(Find_Object_Type("ARTIFACT_DIG_UP"))
+        player.Lock_Tech(Find_Object_Type("ARTIFACT_RESEARCH"))
+    elseif faction == "EMPIRE" and player.Is_Human() then
+        GlobalValue.Set("Artifact_Enabled", 1)
+    end
+
+    if tableLength(locations) == 0 then
+        return
+    end
 
     shield_tech = Find_First_Object("UNSC_Tech_Shield")
 
@@ -117,7 +156,7 @@ function Spawn_Starting_Units(faction, units, locations, heros)
             Spawn_Unit(Find_Object_Type("UNSC_Tech_Shield"),planet,player)
         end
 
-        if Return_Chance(0.4) then 
+        if Return_Chance(0.4) and heros ~= nil then 
             tech_level = player.Get_Tech_Level()
 
             if faction == "Rebel" then
@@ -125,8 +164,6 @@ function Spawn_Starting_Units(faction, units, locations, heros)
             end
 
             DebugMessage("Tech Level: %s, Faction: %s", tostring(tech_level), tostring(faction))
-
-            PrintTable(heros[tech_level])
 
             if heros[tech_level] ~= nil or tableLength(heros[tech_level]) > 0 then
 
@@ -272,9 +309,6 @@ function Diff_Multiplier(value, player)
 end
 
 function Get_Units_At_Planet(planet_name, player)
-    if not player.Get_Faction_Name() == "REBEL" or not player.Get_Faction_Name() == "EMPIRE" then
-        return nil
-    end
     local all_player_units = Find_All_Objects_Of_Type(player, "Fighter | Bomber | Corvette | Frigate | Capital | Super")
     planet_units = {}
     for _, unit in ipairs(all_player_units) do

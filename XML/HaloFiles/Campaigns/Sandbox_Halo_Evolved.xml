@@ -26,6 +26,7 @@
 		Charybdis_IX,
 		Meridian,
 		Gao,
+		Aktis_IV,
 		Harvest,
 		Harmony,
 		New_Carthage,
@@ -62,7 +63,8 @@
 		Kostroda,
 		Khaelmothka,
 		Tvao,
-        Sanghelios
+        Sanghelios,
+		Ulgethon
 		</Locations>
 
 		<Trade_Routes> 
@@ -166,7 +168,7 @@
 
 		<!-- Rebel Starting Forces -->
 
-		<Starting_Credits> Rebel,  7500 </Starting_Credits>
+		<Starting_Credits> Rebel,  12000 </Starting_Credits>
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 
@@ -320,7 +322,8 @@
 		Kostroda,
 		Khaelmothka,
 		Tvao,
-        Sanghelios
+        Sanghelios,
+		Ulgethon
 		</Locations>
 
 		<Trade_Routes> 
@@ -424,7 +427,7 @@
 
 		<!-- Rebel Starting Forces -->
 
-		<Starting_Credits> Rebel,  7500 </Starting_Credits>
+		<Starting_Credits> Rebel,  12000 </Starting_Credits>
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 

@@ -28,6 +28,7 @@
 		</Abilities>
 
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 
 	</SpaceUnit>
 
@@ -58,6 +59,7 @@
 		</Abilities>
 
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 
 	</SpaceUnit>
 
@@ -88,6 +90,7 @@
 		</Abilities>
 
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 
 	</SpaceUnit>
 
@@ -118,6 +121,7 @@
 		</Abilities>
 
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 
 	</SpaceUnit>
 

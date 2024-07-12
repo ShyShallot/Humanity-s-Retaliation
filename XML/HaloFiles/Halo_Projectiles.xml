@@ -7,7 +7,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Covn_Light </Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>1.5</Projectile_Damage>
+		<Projectile_Damage>5.65</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -33,7 +33,7 @@
 		<Scale_Factor>0.5</Scale_Factor>
 		<Damage_Type> Damage_Covn_Fighter </Damage_Type>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>2.0</Projectile_Damage>
+		<Projectile_Damage>4.25</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -58,7 +58,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>50.0</Max_Speed>
-		<Projectile_Damage>18.5</Projectile_Damage>
+		<Projectile_Damage>26.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Normal </Damage_Type>
@@ -93,7 +93,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>29.0</Projectile_Damage>
+		<Projectile_Damage>35.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Heavy </Damage_Type>
@@ -179,7 +179,7 @@
 
 	<Projectile Name="Proj_UNSC_Fighter_Missile_Light">	<!-- Normal Missiles used by Fighters and not bombers -->
 		<Variant_Of_Existing_Type>Proj_UNSC_Fighter_Missile</Variant_Of_Existing_Type>
-		<Projectile_Damage>40.0</Projectile_Damage>
+		<Projectile_Damage>8.0</Projectile_Damage>
 		<Max_Speed>15.0</Max_Speed>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Max_Rate_Of_Turn>200.0</Max_Rate_Of_Turn>
@@ -413,10 +413,9 @@
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Blast_Area_Damage> 2000 </Projectile_Blast_Area_Damage>
-		<Projectile_Blast_Area_Range> 2000 </Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage> 1500 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 1200 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
 		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
 
@@ -445,7 +444,6 @@
 		<Projectile_Blast_Area_Damage> 700 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 850 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-		<Projectile_Blast_Area_Max_Victims>1.0</Projectile_Blast_Area_Max_Victims>
 		<AI_Combat_Power>2000</AI_Combat_Power>
 	</Projectile>
 
@@ -506,7 +504,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_UNSC_Bullet.alo</Space_Model_Name>
 		<Projectile_Width>1.0</Projectile_Width>
-		<Projectile_Length>6.0</Projectile_Length>
+		<Projectile_Length>9.0</Projectile_Length>
 		<Scale_Factor>15.0</Scale_Factor>
 		<Max_Speed>38.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -528,7 +526,7 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 
 		<Projectile_Blast_Area_Range>35</Projectile_Blast_Area_Range>
-		<Projectile_Blast_Area_Damage>12.5</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Damage>13.5</Projectile_Blast_Area_Damage>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_Bullet_Fighter">
@@ -568,7 +566,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
-		<Projectile_Damage>32.0</Projectile_Damage>
+		<Projectile_Damage>40.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -595,7 +593,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
-		<Projectile_Damage>25.5</Projectile_Damage>
+		<Projectile_Damage>35.5</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -620,7 +618,7 @@
 		<Scale_Factor>25.0</Scale_Factor>
 		<Max_Speed>39.0</Max_Speed>
 		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
-		<Projectile_Damage>22</Projectile_Damage>
+		<Projectile_Damage>30.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
@@ -738,6 +736,13 @@
         <Projectile_Rocket_Curve_Offset>30</Projectile_Rocket_Curve_Offset>
         <Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance> 
 		<Explode_When_Reached_Target_Radius> False </Explode_When_Reached_Target_Radius>
+	</Projectile>
+
+	<Projectile Name="Proj_COV_Plasma_Missile_Heavy">
+		<Variant_Of_Existing_Type>Proj_COV_Plasma_Missile</Variant_Of_Existing_Type>
+		<Projectile_Damage>80.0</Projectile_Damage>
+
+		<Max_Speed>50</Max_Speed>
 	</Projectile>
 
 	<Projectile Name="Reduce_Ship_Firespeed_40">

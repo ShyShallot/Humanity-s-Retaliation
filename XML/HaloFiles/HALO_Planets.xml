@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Planets>
-  <!-- Reach -->
   <Planet Name="Reach">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_REACH</Text_ID>
@@ -20,7 +19,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>425</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
     <Galactic_Position>25.0, -194.0, 10.0</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
@@ -30,12 +29,12 @@
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
     <Space_Tactical_Map>GC_Reach.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_REACH_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_REACH_INFO_WL</Describe_Wildlife>
@@ -52,30 +51,27 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>55</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Reach_Tech_Boost">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> UNSC_HALCYON, Sabre_Squadron</Applicable_Unit_Types>
-				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Price_Ability>
-
+      <Reduce_Production_Price_Ability Name="Reach_Tech_Boost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types> UNSC_HALCYON, Sabre_Squadron</Applicable_Unit_Types>
+        <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Reach_Tech_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> UNSC_HALCYON, Sabre_Squadron</Applicable_Unit_Types>
-				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-		</Abilities>
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types> UNSC_HALCYON, Sabre_Squadron</Applicable_Unit_Types>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
   <Planet Name="Reach_Custom">
-    <!-- For Skrimish Only -->
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_REACH</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
@@ -94,7 +90,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>85</Planet_Credit_Value>
+    <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
     <Galactic_Position>432.0, 407.0, 10.0</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
@@ -103,13 +99,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_REACH_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_REACH_INFO_WL</Describe_Wildlife>
@@ -126,8 +122,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes"/>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
@@ -152,7 +147,6 @@
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  <!-- Aktis 4-->
   <Planet Name="Aktis_IV">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_AKTIS_4</Text_ID>
@@ -172,7 +166,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-154.0, -268.0, 10.0</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
@@ -181,13 +175,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_AKTIS_4_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_AKTIS_4_INFO_WL</Describe_Wildlife>
@@ -204,8 +198,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes"/>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
@@ -230,7 +223,6 @@
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  <!-- Aleria-->
   <Planet Name="Aleria">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_ALERIA</Text_ID>
@@ -250,7 +242,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>550</Planet_Credit_Value>
+    <Planet_Credit_Value>288</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-55.0, -286.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -259,13 +251,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_ALERIA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_ALERIA_INFO_WL</Describe_Wildlife>
@@ -283,23 +275,18 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Time_Ability Name="Aleria_Tech_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
-				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.25</Time_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-
-		</Abilities>
-
-
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.25</Time_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
-  <!-- Alluvion-->
   <Planet Name="Alluvion">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_ALLUVION</Text_ID>
@@ -319,7 +306,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>500</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-207.0, -222.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -328,13 +315,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_ALLUVION_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_ALLUVION_INFO_WL</Describe_Wildlife>
@@ -351,30 +338,26 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>55</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Alluvion_Tech_Boost">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> UNSC_Tech_Shield, UNSC_TECH_2, UNSC_TECH_3, UNSC_TECH_4, UNSC_TECH_5, DS_Primary_Hyperdrive, DS_Shield_Gen, DS_Superlaser_Core, DS_Durasteel</Applicable_Unit_Types>
-				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Price_Ability>
-
+      <Reduce_Production_Price_Ability Name="Alluvion_Tech_Boost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types> UNSC_Tech_Shield, UNSC_TECH_2, UNSC_TECH_3, UNSC_TECH_4, UNSC_TECH_5, DS_Primary_Hyperdrive, DS_Shield_Gen, DS_Superlaser_Core, DS_Durasteel</Applicable_Unit_Types>
+        <Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Alluvion_Tech_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> UNSC_Tech_Shield, UNSC_TECH_2, UNSC_TECH_3, UNSC_TECH_4, UNSC_TECH_5, DS_Primary_Hyperdrive, DS_Shield_Gen, DS_Superlaser_Core, DS_Durasteel</Applicable_Unit_Types>
-				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-		</Abilities>
-
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types> UNSC_Tech_Shield, UNSC_TECH_2, UNSC_TECH_3, UNSC_TECH_4, UNSC_TECH_5, DS_Primary_Hyperdrive, DS_Shield_Gen, DS_Superlaser_Core, DS_Durasteel</Applicable_Unit_Types>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
-  <!-- Arcadia -->
   <Planet Name="Arcadia">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_ARCADIA</Text_ID>
@@ -394,7 +377,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>500</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-237.0, -102.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -403,13 +386,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_ARCADIA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_ARCADIA_INFO_WL</Describe_Wildlife>
@@ -426,11 +409,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>45</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Chi Ceti 4-->
   <Planet Name="Chi_Ceti_IV">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_CHI_CETI_IV</Text_ID>
@@ -450,7 +430,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>305</Planet_Credit_Value>
+    <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>202.0, 40.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -459,13 +439,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_CHI_CETI_IV_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_CHI_CETI_IV_INFO_WL</Describe_Wildlife>
@@ -482,9 +462,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- ERIDANUS 2-->
   <Planet Name="Eridanus_2">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_ERIDANUS_2</Text_ID>
@@ -504,7 +482,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-203.0, -156.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -513,13 +491,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_ERIDANUS_2_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_ERIDANUS_2_INFO_WL</Describe_Wildlife>
@@ -536,11 +514,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>30</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Madrigal-->
   <Planet Name="Madrigal">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_MADRIGAL</Text_ID>
@@ -560,7 +535,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-138.0, -139.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -569,13 +544,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_MADRIGAL_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_MADRIGAL_INFO_WL</Describe_Wildlife>
@@ -592,9 +567,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Charybdis_9-->
   <Planet Name="Charybdis_IX">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_CHARYBDIS_IX</Text_ID>
@@ -614,7 +587,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>435</Planet_Credit_Value>
+    <Planet_Credit_Value>230</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>102.0, -326.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -623,13 +596,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_CHARYBDIS_IX_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_CHARYBDIS_IX_INFO_WL</Describe_Wildlife>
@@ -647,20 +620,17 @@
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
     <Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
-
     <Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Chary_Econ_Boost">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
-				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Price_Ability>
-		</Abilities>
-
+      <Reduce_Production_Price_Ability Name="Chary_Econ_Boost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
+        <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
+    </Abilities>
   </Planet>
-  <!-- Meridian-->
   <Planet Name="Meridian">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_MERIDIAN</Text_ID>
@@ -680,7 +650,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>142.0, -80.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -689,13 +659,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_MERIDIAN_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_MERIDIAN_INFO_WL</Describe_Wildlife>
@@ -712,11 +682,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Gao -->
   <Planet Name="Gao">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_GAO</Text_ID>
@@ -736,7 +703,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>74.0, -274.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -745,13 +712,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_GAO_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_GAO_INFO_WL</Describe_Wildlife>
@@ -768,11 +735,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Harvest -->
   <Planet Name="Harvest">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_HARVEST</Text_ID>
@@ -792,7 +756,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>315</Planet_Credit_Value>
+    <Planet_Credit_Value>240</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-281.0, -65.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -801,13 +765,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_HARVEST_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_HARVEST_INFO_WL</Describe_Wildlife>
@@ -824,11 +788,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>25</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Earth -->
   <Planet Name="Earth">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_EARTH</Text_ID>
@@ -848,7 +809,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>500</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-56.0, -169.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -857,13 +818,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_EARTH_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_EARTH_INFO_WL</Describe_Wildlife>
@@ -880,30 +841,26 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>65</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Earth_Capital_Boost">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Price_Ability>
-
+      <Reduce_Production_Price_Ability Name="Earth_Capital_Boost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Earth_Capital_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-		</Abilities>
-
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
-  <!-- Falaknuma -->
   <Planet Name="Falaknuma">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_FALAKNUMA</Text_ID>
@@ -923,7 +880,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>144.0, -185.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -932,13 +889,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_FALAKNUMA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_FALAKNUMA_INFO_WL</Describe_Wildlife>
@@ -955,9 +912,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Harmony-->
   <Planet Name="Harmony">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_HARMONY</Text_ID>
@@ -986,13 +941,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_HARMONY_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_HARMONY_INFO_WL</Describe_Wildlife>
@@ -1009,9 +964,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
- 
   </Planet>
-  <!-- New Carthage-->
   <Planet Name="New_Carthage">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_NEW_CARTHAGE</Text_ID>
@@ -1031,7 +984,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>305</Planet_Credit_Value>
+    <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>281.0, 98.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
@@ -1040,13 +993,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_NEW_CARTHAGE_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_NEW_CARTHAGE_INFO_WL</Describe_Wildlife>
@@ -1063,9 +1016,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>35</Additional_Population_Capacity>
-
   </Planet>
-  <!-- New Jerusalem-->
   <Planet Name="New_Jerusalem">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_NEW_JERUSALEM</Text_ID>
@@ -1085,7 +1036,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>243.0, -41.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -1094,13 +1045,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_NEW_JERUSALEM_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_NEW_JERUSALEM_INFO_WL</Describe_Wildlife>
@@ -1118,7 +1069,6 @@
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
   </Planet>
-  <!-- Tantalus-->
   <Planet Name="Tantalus">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TANTALUS</Text_ID>
@@ -1138,7 +1088,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>10.0, -325.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
@@ -1147,13 +1097,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_TANTALUS_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_TANTALUS_INFO_WL</Describe_Wildlife>
@@ -1170,9 +1120,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Terra Nova-->
   <Planet Name="Terra_Nova">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TERRA_NOVA</Text_ID>
@@ -1192,7 +1140,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>305</Planet_Credit_Value>
+    <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>154.0, 59.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -1201,13 +1149,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_TERRA_NOVA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_TERRA_NOVA_INFO_WL</Describe_Wildlife>
@@ -1224,9 +1172,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Mars -->
   <Planet Name="Mars">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_MARS</Text_ID>
@@ -1246,7 +1192,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>500</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-83.0, -201.0, 10.0</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
@@ -1255,13 +1201,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_MARS_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_MARS_INFO_WL</Describe_Wildlife>
@@ -1278,30 +1224,26 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>50</Additional_Population_Capacity>
-
     <Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Mars_Military_Boost">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories>Frigate, Fighter</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Price_Ability>
-
+      <Reduce_Production_Price_Ability Name="Mars_Military_Boost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>Frigate, Fighter</Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Mars_Military_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories>Frigate, Fighter</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-		</Abilities>
-
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>Frigate, Fighter</Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
-  <!-- Miridem -->
   <Planet Name="Miridem">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_MIRIDEM</Text_ID>
@@ -1321,7 +1263,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>305</Planet_Credit_Value>
+    <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>189.0, -24.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -1330,13 +1272,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_MIRIDEM_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_MIRIDEM_INFO_WL</Describe_Wildlife>
@@ -1353,11 +1295,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>50</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Netherop -->
   <Planet Name="Netherop">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_NETHEROP</Text_ID>
@@ -1386,13 +1325,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_NETHEROP_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_NETHEROP_INFO_WL</Describe_Wildlife>
@@ -1409,9 +1348,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Far Isle -->
   <Planet Name="Far_Isle">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_FAR_ISLE</Text_ID>
@@ -1431,7 +1368,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>202.0, -215.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -1440,13 +1377,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_FAR_ISLE_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_FAR_ISLE_INFO_WL</Describe_Wildlife>
@@ -1463,9 +1400,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Threshold -->
   <Planet Name="Threshold">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_THRESHOLD</Text_ID>
@@ -1485,7 +1420,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>550</Planet_Credit_Value>
+    <Planet_Credit_Value>288</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-321.0, -115.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -1494,13 +1429,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_THRESHOLD_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_THRESHOLD_INFO_WL</Describe_Wildlife>
@@ -1518,10 +1453,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
-
-
   </Planet>
-  <!-- Yonhe -->
   <Planet Name="Yonhe">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_YONHE</Text_ID>
@@ -1541,7 +1473,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>247.0, 169.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -1550,13 +1482,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_YONHE_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_YONHE_INFO_WL</Describe_Wildlife>
@@ -1573,9 +1505,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Kamchatka -->
   <Planet Name="Kamchatka">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_KAMCHATKA</Text_ID>
@@ -1595,7 +1525,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-157.0, 322.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
@@ -1604,13 +1534,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_KAMCHATKA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_KAMCHATKA_INFO_WL</Describe_Wildlife>
@@ -1627,20 +1557,17 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
     <Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Kamchatka_Tech_Boost">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>ARTIFACT_DIG_UP</Applicable_Unit_Types>
-				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Price_Ability>
+      <Reduce_Production_Price_Ability Name="Kamchatka_Tech_Boost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types>ARTIFACT_DIG_UP</Applicable_Unit_Types>
+        <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
     </Abilities>
-
   </Planet>
-  <!-- Taram -->
   <Planet Name="Taram">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TARAM</Text_ID>
@@ -1660,7 +1587,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-268.0, 292.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -1669,13 +1596,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_TARAM_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_TARAM_INFO_WL</Describe_Wildlife>
@@ -1692,9 +1619,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Trove -->
   <Planet Name="Trove">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TROVE</Text_ID>
@@ -1723,13 +1648,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_TROVE_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_TROVE_INFO_WL</Describe_Wildlife>
@@ -1747,7 +1672,6 @@
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>20</Additional_Population_Capacity>
   </Planet>
-  <!-- Installation 05 -->
   <Planet Name="Installation_05">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_INSTALLATION_05</Text_ID>
@@ -1767,7 +1691,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>315</Planet_Credit_Value>
+    <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>137.0, 137.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -1776,13 +1700,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_INSTALLATION_05_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_INSTALLATION_05_INFO_WL</Describe_Wildlife>
@@ -1799,11 +1723,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
     <Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
-
   </Planet>
-  <!-- Nefoluzo -->
   <Planet Name="Nefoluzo">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_NEFOLUZO</Text_ID>
@@ -1823,7 +1744,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-45.0, 377.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -1832,13 +1753,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_NEFOLUZO_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_NEFOLUZO_INFO_WL</Describe_Wildlife>
@@ -1855,10 +1776,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Thua -->
   <Planet Name="Thua">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_THUA</Text_ID>
@@ -1878,7 +1797,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>230</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>89.0, 277.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -1887,13 +1806,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_THUA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_THUA_INFO_WL</Describe_Wildlife>
@@ -1911,20 +1830,17 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
     <Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Thua_Tech_Boost">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
-				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Price_Ability>
-
-		</Abilities>
+      <Reduce_Production_Price_Ability Name="Thua_Tech_Boost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types> UNSC_Mining_Facility, Covenant_Mining_Facility</Applicable_Unit_Types>
+        <Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
+    </Abilities>
   </Planet>
-  <!-- Glyke -->
   <Planet Name="Glyke">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_GLYKE</Text_ID>
@@ -1944,7 +1860,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>500</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-3.0, 335.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -1953,13 +1869,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_GLYKE_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_GLYKE_INFO_WL</Describe_Wildlife>
@@ -1970,39 +1886,34 @@
     <Describe_History>TEXT_PLANET_GLYKE_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-
     <Encyclopedia_Text>HALO_PLANET_GLYKE_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_4 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_SHIPYARDS HALO_TEXT_PLANET_CAPITAL</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-
     <Additional_Population_Capacity>55</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Glyke_Slave_Boost">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories>Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Price_Ability>
-
+      <Reduce_Production_Price_Ability Name="Glyke_Slave_Boost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Glyke_Slave_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories><Applicable_Unit_Categories>Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories></Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-		</Abilities>
-
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>
+          <Applicable_Unit_Categories>Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories>
+        </Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
-  <!-- Karava -->
   <Planet Name="Karava">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_KARAVA</Text_ID>
@@ -2022,7 +1933,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-64.0, 268.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
@@ -2031,13 +1942,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_KARAVA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_KARAVA_INFO_WL</Describe_Wildlife>
@@ -2054,11 +1965,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Victors' Truth -->
   <Planet Name="Victors_Truth">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_VICTORS_TRUTH</Text_ID>
@@ -2078,7 +1986,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-195.0, 145.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -2087,13 +1995,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_VICTORS_TRUTH_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_VICTORS_TRUTH_INFO_WL</Describe_Wildlife>
@@ -2110,9 +2018,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Balaho -->
   <Planet Name="Balaho">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_BALAHO</Text_ID>
@@ -2132,7 +2038,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>305</Planet_Credit_Value>
+    <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-251.0, 152.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
@@ -2141,13 +2047,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_BALAHO_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_BALAHO_INFO_WL</Describe_Wildlife>
@@ -2164,21 +2070,17 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Balaho_Fighter_Boost">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Price_Ability>
-
-		</Abilities>
-
+      <Reduce_Production_Price_Ability Name="Balaho_Fighter_Boost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
+    </Abilities>
   </Planet>
-  <!-- Te -->
   <Planet Name="Te">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TE</Text_ID>
@@ -2198,7 +2100,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>305</Planet_Credit_Value>
+    <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-26.0, 210.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -2208,12 +2110,12 @@
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
     <Space_Tactical_Map>GC_TE.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_TE_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_TE_INFO_WL</Describe_Wildlife>
@@ -2230,21 +2132,18 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Time_Ability Name="Te_Tech_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories> Frigate, Corvette </Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-		</Abilities>
-
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories> Frigate, Corvette </Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
-  <!-- Doisac -->
   <Planet Name="Doisac">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_DOISAC</Text_ID>
@@ -2264,7 +2163,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>500</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>101.0, 329.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -2273,13 +2172,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_DOISAC_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_DOISAC_INFO_WL</Describe_Wildlife>
@@ -2296,11 +2195,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>55</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Sanghelios -->
   <Planet Name="Sanghelios">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_SANGHELIOS</Text_ID>
@@ -2320,7 +2216,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>500</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-144.0, 135.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
@@ -2329,13 +2225,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_SANGHELIOS_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_SANGHELIOS_INFO_WL</Describe_Wildlife>
@@ -2352,20 +2248,17 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>35</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
-			<Reduce_Production_Price_Ability Name="Sanghelios_Tech_Boost">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories>Capital, Super</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Price_Ability>
-		</Abilities>
-
+      <Reduce_Production_Price_Ability Name="Sanghelios_Tech_Boost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>Capital, Super</Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
+    </Abilities>
   </Planet>
-  <!-- Rhanelo -->
   <Planet Name="Rhanelo">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_RHANELO</Text_ID>
@@ -2385,7 +2278,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-212.0, 340.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
@@ -2394,13 +2287,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_RHANELO_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_RHANELO_INFO_WL</Describe_Wildlife>
@@ -2417,9 +2310,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Song of Victory -->
   <Planet Name="Song_Of_Victory">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_SONG_OF_VICTORY</Text_ID>
@@ -2439,7 +2330,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>315</Planet_Credit_Value>
+    <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-161.0, 221.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -2448,13 +2339,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_SONG_OF_VICTORY_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_SONG_OF_VICTORY_INFO_WL</Describe_Wildlife>
@@ -2471,21 +2362,18 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>20</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Time_Ability Name="Song_Tech_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> COVN_CAS </Applicable_Unit_Types>
-				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-		</Abilities>
-
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types> COVN_CAS </Applicable_Unit_Types>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
-  <!-- Eayn -->
   <Planet Name="Eayn">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_EAYN</Text_ID>
@@ -2505,7 +2393,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>305</Planet_Credit_Value>
+    <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-294.0, 96.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -2514,13 +2402,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_EAYN_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_EAYN_INFO_WL</Describe_Wildlife>
@@ -2537,11 +2425,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>50</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Bhedalon -->
   <Planet Name="Bhedalon">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_BHEDALON</Text_ID>
@@ -2561,7 +2446,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>315</Planet_Credit_Value>
+    <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-161.0, 181.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -2570,13 +2455,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_BHEDALON_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_BHEDALON_INFO_WL</Describe_Wildlife>
@@ -2593,21 +2478,18 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Time_Ability Name="Bhedalon_Station_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Rebel_Star_Base_1</Applicable_Unit_Types>
-				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-		</Abilities>
-
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types> Rebel_Star_Base_1</Applicable_Unit_Types>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.20</Time_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
-  <!-- Codisfold -->
   <Planet Name="Codisfold">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_CODISFOLD</Text_ID>
@@ -2627,7 +2509,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-96.0, 175.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
@@ -2636,13 +2518,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_CODISFOLD_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_CODISFOLD_INFO_WL</Describe_Wildlife>
@@ -2659,9 +2541,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Feldokra -->
   <Planet Name="Feldokra">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_FELDOKRA</Text_ID>
@@ -2681,7 +2561,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>185</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-213.0, 41.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
@@ -2690,13 +2570,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_FELDOKRA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_FELDOKRA_INFO_WL</Describe_Wildlife>
@@ -2713,9 +2593,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Ulgethon -->
   <Planet Name="Ulgethon">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_ULGETHON</Text_ID>
@@ -2744,13 +2622,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_ULGETHON_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_ULGETHON_INFO_WL</Describe_Wildlife>
@@ -2767,9 +2645,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Palamok -->
   <Planet Name="Palamok">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_PALAMOK</Text_ID>
@@ -2789,7 +2665,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>305</Planet_Credit_Value>
+    <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-310.0, 199.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
@@ -2798,13 +2674,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_PALAMOK_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_PALAMOK_INFO_WL</Describe_Wildlife>
@@ -2821,10 +2697,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>50</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Ven_III -->
   <Planet Name="Ven_III">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_VEN_3</Text_ID>
@@ -2844,7 +2718,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>205</Planet_Credit_Value>
+    <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-303.0, 251.0, 10.0</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
@@ -2853,13 +2727,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_VEN_3_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_VEN_3_INFO_WL</Describe_Wildlife>
@@ -2876,21 +2750,18 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
     <Abilities SubObjectList="Yes">
       <Reduce_Production_Time_Ability Name="Ven_Tech_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
-				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
-				<Stacking_Category>9</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
-			</Reduce_Production_Time_Ability>
-		</Abilities>
-
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
+        <Applicable_Unit_Types/>
+        <Excluded_Unit_Types/>
+        <Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Time_Ability>
+    </Abilities>
   </Planet>
-  <!-- Kostroda -->
   <Planet Name="Kostroda">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_KOSTRODA</Text_ID>
@@ -2910,7 +2781,7 @@
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>315</Planet_Credit_Value>
+    <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-104.0, 356.0, 10.0</Galactic_Position>
     <Special_Structures_Land>1</Special_Structures_Land>
@@ -2919,13 +2790,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_KOSTRODA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_KOSTRODA_INFO_WL</Describe_Wildlife>
@@ -2942,11 +2813,8 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
-    <!-- InterceptorIV and MC30 Frigates do 20% more damage -->
-    <Abilities SubObjectList="Yes"></Abilities>
-
+    <Abilities SubObjectList="Yes"/>
   </Planet>
-  <!-- Khael'mothka -->
   <Planet Name="Khaelmothka">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_KHAELMOTHKA</Text_ID>
@@ -2975,13 +2843,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_KHAELMOTHKA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_KHAELMOTHKA_INFO_WL</Describe_Wildlife>
@@ -2998,9 +2866,7 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
-
   </Planet>
-  <!-- Tvao -->
   <Planet Name="Tvao">
     <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TVAO</Text_ID>
@@ -3029,13 +2895,13 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
+    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
+    <Planet_Slice_Affinity_Types/>
     <Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_TVAO_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_TVAO_INFO_WL</Describe_Wildlife>
@@ -3052,6 +2918,5 @@
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
   </Planet>
 </Planets>

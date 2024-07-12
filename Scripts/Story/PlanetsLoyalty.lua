@@ -339,7 +339,7 @@ end
 function Unlock_Farms()
     rebel = Find_Player("REBEL")
     if Farms_Active(rebel) then
-        rebel.Unlock_Tech(Find_Object_Type("UNSC_FARM"))
+        Lock_Unit("UNSC_FARM",rebel,false)
         Story_Event("Farms_Unlocked")
 
         GlobalValue.Set("Farms_Unlocked", 1)

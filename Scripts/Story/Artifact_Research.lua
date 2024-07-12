@@ -81,6 +81,8 @@ end
 function State_Init(message)
     if message == OnEnter then
 
+        covenant = Find_Player("EMPIRE")
+
         DebugMessage("Setting Default Values")
 
         GlobalValue.Set("Artifacts_Dug", 0)
