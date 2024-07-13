@@ -19,6 +19,8 @@
 		<Galactic_Model_Name>COVN_STATION_TIER1_GUI.ALO</Galactic_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -152,6 +154,8 @@
 		<Space_Model_Name>COVN_STATION_TIER2.ALO</Space_Model_Name>
 		<Galactic_Model_Name>COVN_STATION_TIER2_GUI.ALO</Galactic_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
+
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 
 		<Select_Box_Scale>900</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -294,6 +298,8 @@
 		<Space_Model_Name>COVN_STATION_TIER3.ALO</Space_Model_Name>
 		<Galactic_Model_Name>COVN_STATION_TIER3_GUI.ALO</Galactic_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
+
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
