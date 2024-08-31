@@ -134,7 +134,7 @@
     <GMC_InitialPullbackDistance>900.0</GMC_InitialPullbackDistance>
     <GMC_ZoomedPullbackPlanetRadiusFraction>12.0</GMC_ZoomedPullbackPlanetRadiusFraction>
     <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.0, -1.0, 1.25</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
-    <GMC_ZoomTime>0.65</GMC_ZoomTime>
+    <GMC_ZoomTime>0.85</GMC_ZoomTime>
     <GMC_Battle_Zoom_Time>1.0</GMC_Battle_Zoom_Time>
     <GMC_Battle_Fade_Time>0.75</GMC_Battle_Fade_Time>
 
@@ -867,11 +867,7 @@
 
 	<Damage_Types> 
 		Damage_Default, 
-		Damage_ATST,
-		Damage_ATAT,
 		Damage_Fighter,
-		Damage_Assault_Frigate,
-		Damage_Diamond_Missile, 
 		Damage_IonCannon, 
 		Damage_IonCannon_LRG, 
 		Damage_Proton_Torp, 
@@ -887,21 +883,6 @@
 		Damage_Turbolaser_Light,
 		Damage_Turbolaser_Heavy,
 		Damage_Blaster_Hand, 
-		Damage_PLEX, 
-		Damage_Sniper, 
-		Damage_Lightning, 
-		Damage_Lightsaber, 
-		Damage_ThermDet, 
-		Damage_Wookiee, 
-		Damage_Jawa, 
-		Damage_StickyBomb,
-		Damage_Hero_StickyBomb,
-		Damage_Blaster_Cannon, 
-		Damage_Flak_Pod, 
-		Damage_AI_Turret, 
-		Damage_AV_Turret,
-		Damage_TIE_Mauler,
-		Damage_2M_Repulsortank,
 		Damage_Laser_GRND, 
 		Damage_Proton_GRND, 
 		Damage_Con_Missile_GRND, 
@@ -911,7 +892,6 @@
 		Damage_Bomb, 
 		Damage_Hyper_Gun, 
 		Damage_Ion_Planet,
-		Damage_Rancor, 
 		Damage_Laser_T4B,
 		Damage_Blaster_T2B,
 		Damage_COVIE_Capital,
@@ -925,7 +905,6 @@
 		Damage_Interdictor,
 		Damage_COVIE_Frigate,
 		Damage_COVIE_Corvette,
-		Damage_IPV,
 		Damage_UNSC_Frigate,
 		Damage_UNSC_Corvette,
 		Damage_Tartan_Cruiser,
@@ -934,11 +913,7 @@
 		Damage_Turbo_GRND,
 		Damage_Wall_Destruction,
 		Damage_Self_Destruct,
-        Damage_AWing,
-		Damage_Force_Pike,
-		Damage_BugBite,
 		Damage_StarBase_Self_Destruct,
-		Damage_Sonic_Blaster,
 		Damage_Airspeeder,
 		Damage_Disruptor_Hand,
 		Damage_Pulse_Cannon,

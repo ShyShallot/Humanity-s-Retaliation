@@ -93,7 +93,23 @@ local unit_table = {
         UNSC_Mining_Facility = {
             Category = "Structure"
         },
+        UNSC_Trade_Platform = {
+            Category = "Structure"
+        },
+        UNSC_GOODS_TRANSPORT = {
+            Category = "Structure"
+        },
         DELETE_UNSC_Mining_Facility = {
+            Category = "Structure"
+            
+        },
+        UNSC_Light_Shipyard = {
+            Category = "Structure"
+        },
+        UNSC_Medium_Shipyard = {
+            Category = "Structure"
+        },
+        UNSC_Heavy_Shipyard = {
             Category = "Structure"
         },
         DELETE_COVN_Mining_Facility = {

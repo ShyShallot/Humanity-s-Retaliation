@@ -9,7 +9,7 @@ function Definitions()
 	Define_State("State_Init", State_Init);
     Define_State("State_Loyalty", State_Loyalty)
 
-    planet_loyaltly_table = { --[[ 1 means its fully loyal to UNSC/Covenant, 0 means its loyal to Rebels/Banished --]]
+    planet_loyalty_table = { --[[ 1 means its fully loyal to UNSC/Covenant, 0 means its loyal to Rebels/Banished --]]
         
     }
 
@@ -26,10 +26,6 @@ function State_Init(message)
 
         human = Find_Human_Player()
 
-        planets = FindPlanet.Get_All_Planets()
-
-        local planets = FindPlanet.Get_All_Planets()
-
         local planets = FindPlanet.Get_All_Planets()
 
         plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Loyalty_Display.xml")
@@ -40,7 +36,7 @@ function State_Init(message)
 
             select_event.Set_Reward_Parameter(1, human.Get_Faction_Name())
 
-            planet_loyaltly_table[planet.Get_Type().Get_Name()] = {
+            planet_loyalty_table[planet.Get_Type().Get_Name()] = {
                 ["Owner"] = planet.Get_Owner().Get_Faction_Name(),
                 ["LastOwner"] = nil,
                 ["Loyalty"] = 100,
@@ -57,11 +53,16 @@ function State_Init(message)
 end
 
 function Get_Loyalty_Table()
-    return planet_loyaltly_table
+    return planet_loyalty_table
 end
 
 function Is_Valid_Entry(planet_name)
-    local loyalty = planet_loyaltly_table[planet_name]["Loyalty"]
+
+    if planet_name == nil or planet_loyalty_table[planet_name] == nil then
+        return false
+    end
+
+    local loyalty = planet_loyalty_table[planet_name]["Loyalty"]
     if loyalty == nil then
         return false
     end
@@ -69,7 +70,11 @@ function Is_Valid_Entry(planet_name)
 end
 
 function Get_Planet_Loyalty(planet_name)
-    loyalty = planet_loyaltly_table[planet_name]["Loyalty"]
+    if planet_name == nil or planet_loyalty_table[planet_name] == nil then
+        return false
+    end
+
+    loyalty = planet_loyalty_table[planet_name]["Loyalty"]
     if loyalty == nil then
         return -1
     end
@@ -87,7 +92,7 @@ function Modify_Planet_Loyalty(planet_name, positive_or_negative, multiplier)
         amount = -10 * abs(multiplier)
     end
     if Is_Valid_Entry(planet_name) then
-        planet_entry = planet_loyaltly_table[planet_name]
+        planet_entry = planet_loyalty_table[planet_name]
         next_loyalty = planet_entry["Loyalty"] + amount
 
         if (next_loyalty > 100) then
@@ -96,16 +101,19 @@ function Modify_Planet_Loyalty(planet_name, positive_or_negative, multiplier)
         if (next_loyalty < 0) then
             next_loyalty = 0
         end
-        planet_loyaltly_table[planet_name]["PrevLoyalty"] = planet_entry["Loyalty"]
-        planet_loyaltly_table[planet_name]["Loyalty"] = next_loyalty
+        planet_loyalty_table[planet_name]["PrevLoyalty"] = planet_entry["Loyalty"]
+        planet_loyalty_table[planet_name]["Loyalty"] = next_loyalty
     end
 end
 
 
 function Change_Planet(planet_name)
+    if not Is_Valid_Entry(planet_name) then
+        return
+    end
     local terrorists = Find_Player("TERRORISTS")
     local swords = Find_Player("SWORDS")
-    local planet_owner = planet_loyaltly_table[planet_name]["Owner"]
+    local planet_owner = planet_loyalty_table[planet_name]["Owner"]
     local planet = Find_First_Object(planet_name)
     if not TestValid(planet) then
         return
@@ -143,14 +151,17 @@ function Change_Planet(planet_name)
         Change_Planet_Owner(planet_name,swords.Get_Faction_Name())
     end
 
-    planet_loyaltly_table["Loyalty"] = 100
-    planet_loyaltly_table["PrevLoyalty"] = 100
+    planet_loyalty_table[planet_name]["Loyalty"] = 100
+    planet_loyalty_table[planet_name]["PrevLoyalty"] = 100
     
 end
 
 function Spawn_UnitList(faction, units, location)
     for unit_name, amount in pairs(units) do
         DebugMessage("Unit: %s, Amount %s for Faction: %s", tostring(unit_name),tostring(amount), tostring(faction.Get_Faction_Name()))
+        if amount < 1 then
+            break
+        end
         for x=amount, 1, -1 do
             new_units = Spawn_Unit(Find_Object_Type(unit_name),location,faction)
             if new_units ~= nil then
@@ -177,8 +188,8 @@ function State_Loyalty(message)
 
         if selected_planet ~= nil then
             local planet_name = selected_planet.Get_Type().Get_Name()
-            local planet_loyalty = planet_loyaltly_table[planet_name]
-            if TestValid(selected_planet) and (last_selected_planet ~= selected_planet) then
+            local planet_loyalty = planet_loyalty_table[planet_name]
+            if TestValid(selected_planet) and (last_selected_planet ~= selected_planet) and Is_Valid_Entry(planet_name) then
                 local planet_units = Get_Units_At_Planet(planet_name, selected_planet.Get_Owner())
                 if not (planet_units == nil) then
                     if Has_Custom_Name(planet_name) then
@@ -208,7 +219,7 @@ function State_Loyalty(message)
             --
             --for i,planet in ipairs(planets) do
             --    local planet_name = planet.Get_Type().Get_Name()
-            --    local planet_loyalty = planet_loyaltly_table[planet_name]
+            --    local planet_loyalty = planet_loyalty_table[planet_name]
             --    if planet.Get_Owner().Is_Human() then
             --        local planet_units = Get_Units_At_Planet(planet_name, planet.Get_Owner())
             --        if not (planet_units == nil) then
@@ -227,16 +238,17 @@ function State_Loyalty(message)
         local planets = FindPlanet.Get_All_Planets()
 
         for i,planet in ipairs(planets) do
-            local planet_name = planet.Get_Type().Get_Name()
-            local planet_loyalty = planet_loyaltly_table[planet_name]
-            last_owner = Change_Planet_Owner(planet.Get_Owner().Get_Faction_Name(), planet_name) -- make sure planet owner is up to date
-            if last_owner ~= planet_loyaltly_table[planet_name]["Owner"] then -- reset loyalty on owner change
-                planet_loyaltly_table[planet_name]["Loyalty"] = 100
-                planet_loyaltly_table[planet_name]["PrevLoyalty"] = 100
-            end
-            planet_loyalty = planet_loyaltly_table[planet_name]
-
+            planet_name = planet.Get_Type().Get_Name()
+            planet_loyalty = planet_loyalty_table[planet_name]
             if not (planet_loyalty == nil) then
+
+                last_owner = Change_Planet_Owner(planet.Get_Owner().Get_Faction_Name(), planet_name) -- make sure planet owner is up to date
+
+                if last_owner ~= planet_loyalty_table[planet_name]["Owner"] then -- reset loyalty on owner change
+                    planet_loyalty_table[planet_name]["Loyalty"] = 100
+                    planet_loyalty_table[planet_name]["PrevLoyalty"] = 100
+                end
+
                 if planet_loyalty["Owner"] == "REBEL" or planet_loyalty["Owner"] == "EMPIRE" then
                     if planet_loyalty["Owner"] == "REBEL" then
                         Does_Planet_Have_Farm = Find_Farm_On_Planet(planet_name)
@@ -254,9 +266,15 @@ function State_Loyalty(message)
                     local planet_units = Get_Units_At_Planet(planet_name, planet.Get_Owner())
                     if not (planet_units == nil) then
                         DebugMessage("Power: %s, Upkeep: %s", tostring(Combat_Power_From_List(planet_units)), tostring(Tech_Power_Upkeep(planet.Get_Owner())))
-                        if Combat_Power_From_List(planet_units) < (Tech_Power_Upkeep(planet.Get_Owner())) then
+
+                        planet_combat_power = Combat_Power_From_List(planet_units)
+                        if planet_combat_power < (Tech_Power_Upkeep(planet.Get_Owner())) then
                             DebugMessage("Combat Power is less than Upkeep for planet: %s", tostring(planet_name))
-                            Modify_Planet_Loyalty(planet_name, false, 0.5)
+                            if planet_combat_power == 0 then
+                                Modify_Planet_Loyalty(planet_name, false, 1.5)
+                            else
+                                Modify_Planet_Loyalty(planet_name, false, 0.5)
+                            end
                         else 
                             Modify_Planet_Loyalty(planet_name, true, 0.5)
                         end
@@ -267,7 +285,9 @@ function State_Loyalty(message)
                     end
                     if planet_loyalty["Loyalty"] <= 0 then
                         Planet_Lost_Sound(planet_loyalty["Owner"])
-                        Game_Message("We Lost " .. planet_name .. " due to a lack of Loyalty!")
+                        if planet.Get_Owner().Is_Human() then
+                            Game_Message("We Lost " .. planet_name .. " due to a lack of Loyalty!")
+                        end
                         Change_Planet(planet_name)
                     end
                 end
@@ -337,7 +357,7 @@ function Farms_Active(player)
 end
 
 function Unlock_Farms()
-    rebel = Find_Player("REBEL")
+    local rebel = Find_Player("REBEL")
     if Farms_Active(rebel) then
         Lock_Unit("UNSC_FARM",rebel,false)
         Story_Event("Farms_Unlocked")
@@ -347,9 +367,9 @@ function Unlock_Farms()
 end
 
 function Get_Path_To_Target_Planet(target_planet) -- Only checks for neighbor, could rename but meh
-    target_planet_name = target_planet.Get_Type().Get_Name()
+    local target_planet_name = target_planet.Get_Type().Get_Name()
 
-    all_planets = FindPlanet.Get_All_Planets()
+    local all_planets = FindPlanet.Get_All_Planets()
 
     for _,planet in pairs(all_planets) do
         planet_name = planet.Get_Type().Get_Name()
@@ -365,11 +385,11 @@ function Get_Path_To_Target_Planet(target_planet) -- Only checks for neighbor, c
 end
 
 function Get_Neighbors(target_planet)
-    target_planet_name = target_planet.Get_Type().Get_Name()
+    local target_planet_name = target_planet.Get_Type().Get_Name()
 
-    all_planets = FindPlanet.Get_All_Planets()
+    local all_planets = FindPlanet.Get_All_Planets()
 
-    neighbors = {}
+    local neighbors = {}
 
     for _,planet in pairs(all_planets) do
         planet_name = planet.Get_Type().Get_Name()
@@ -387,9 +407,9 @@ end
 
 function Get_Neighbor_Faction_Average(target_planet) -- the closer to 1 this value is, the more empire controlled neighbors there are
     -- so 0.5 is even, 0 is fully rebel neighbors, 1 is full empire neighbos, we are ignoring sub factions on purpose
-    neighbors = Get_Neighbors(target_planet)
+    local neighbors = Get_Neighbors(target_planet)
 
-    neighbor_statistics = {
+    local neighbor_statistics = {
         ["EMPIRE"] = 0,
         ["REBEL"] = 0
     }
@@ -405,14 +425,14 @@ function Get_Neighbor_Faction_Average(target_planet) -- the closer to 1 this val
         return 0
     end
 
-    proportion = neighbor_statistics["EMPIRE"] / (neighbor_statistics["REBEL"] + neighbor_statistics["EMPIRE"])
+    local proportion = neighbor_statistics["EMPIRE"] / (neighbor_statistics["REBEL"] + neighbor_statistics["EMPIRE"])
 
     return proportion
 
 end
 
 function Are_Neighbors_Majority_Enemy(faction_name, target_planet)
-    neighbor_average = Get_Neighbor_Faction_Average(target_planet)
+    local neighbor_average = Get_Neighbor_Faction_Average(target_planet)
 
     if (faction_name == "REBEL" and neighbor_average <= 0.5) then
         return false
@@ -435,22 +455,22 @@ function Planet_Lost_Sound(faction_name)
 end
 
 function Change_Planet_Owner(faction_name, planet_name)
-    planet_loyaltly_table[planet_name]["LastOwner"] = planet_loyaltly_table[planet_name]["Owner"]
-    planet_loyaltly_table[planet_name]["Owner"] = faction_name
+    planet_loyalty_table[planet_name]["LastOwner"] = planet_loyalty_table[planet_name]["Owner"]
+    planet_loyalty_table[planet_name]["Owner"] = faction_name
 
-    return planet_loyaltly_table[planet_name]["LastOwner"]
+    return planet_loyalty_table[planet_name]["LastOwner"]
 end
 
 function Show_Screen_Text(text, time_to_show, color, teletype) -- inspired by the Thrawns Revenge Team but slightly modified to fit our purpose
     local plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Loyalty_Display.xml")
     local text_event = plot.Get_Event("Show_Screen_Text")
 
-    colorstring = ""
+    local colorstring = ""
     if color then
-        colorstring = color.r .. " " .. color.g " " .. color.b 
+        colorstring = color.r .. " " .. color.g .. " " .. color.b 
     end
 
-    use_teletype = 1
+    local use_teletype = 1
     if teletype == false then
         use_teletype = 0
     end
@@ -466,7 +486,7 @@ end
 
 function Get_Selected_Planet()
 
-    player = Find_Human_Player()
+    local player = Find_Human_Player()
 
     local planets = FindPlanet.Get_All_Planets()
 
@@ -479,5 +499,7 @@ function Get_Selected_Planet()
             return planet
         end
     end
+
+    return nil
 
 end

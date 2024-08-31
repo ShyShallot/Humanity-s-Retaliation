@@ -11,7 +11,7 @@
 		<Aggressiveness> 0 </Aggressiveness>
 	</Personality>
 
-    <GalacticFreeStoreScript>HumanFreeStore</GalacticFreeStoreScript>
+    <GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>
 	<GoalSetExtensionSize>1</GoalSetExtensionSize>
 	
 	<GoalProposalFunctionSets>

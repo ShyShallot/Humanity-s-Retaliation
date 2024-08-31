@@ -12,4 +12,6 @@
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Far_Isle_Rebellion.xml</Active_Plot>
     <Lua_Script>Unit_Filters</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Unit_Filters.xml</Active_Plot>
+    <Lua_Script>FreightManager</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Freighter_Display.xml</Active_Plot>
 </Story_Mode_Plots>

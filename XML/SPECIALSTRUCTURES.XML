@@ -860,7 +860,7 @@
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>2150</Build_Cost_Credits>
+		<Build_Cost_Credits>2875</Build_Cost_Credits>
 		<Build_Time_Seconds>40</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>30</Size_Value>
@@ -908,7 +908,7 @@
 			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
 				<Specific_Mod_Source_Text>TEXT_ECONOMY_TRADE_PLATFORM</Specific_Mod_Source_Text>
 				<!-- 15% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.05</Percentage_Income_Modifier>
+				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
 				<!-- plus an absolute 215 credits to planetary income -->
 				<Absolute_Income_Modifier>145</Absolute_Income_Modifier>
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
@@ -941,7 +941,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Encyclopedia_Text> TEXT_MINING_FACILITY_CAMPAIGN TEXT_MINING_FACILITY_CAMPAIGN_INCOME</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TRADE_PLATFORM_ENC TEXT_TRADE_PLATFORM_BONUS</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
@@ -949,7 +949,6 @@
 		<Space_Layer> StaticObject </Space_Layer>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
 	</SpecialStructure>
 
 	<SpecialStructure Name="UNSC_Mining_Facility">

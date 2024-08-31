@@ -162,6 +162,19 @@
 
 	<Marker Name="Orbital Special Structure Position">
 		<Text_ID>TEXT_ORBITAL_SS_POSITION</Text_ID>
+		<Marker_For_Specific_Object_Type>
+            Covenant_Mining_Facility,
+			Covenant_Heavy_Weapons,
+			UNSC_Trade_Platform,
+			UNSC_Mining_Facility,
+			UNSC_FARM,
+			UNSC_RESEARCH_FACILITY,
+			COVN_RESEARCH_FACILITY,
+			UNSC_MAC_PLATFORM,
+			UNSC_Light_Shipyard,
+			UNSC_Medium_Shipyard,
+			UNSC_Heavy_Shipyard
+        </Marker_For_Specific_Object_Type>
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name />
 		<Space_Model_Name>NV_LRS.ALO</Space_Model_Name>
@@ -1507,4 +1520,3 @@
 
 
 </Markers>
-

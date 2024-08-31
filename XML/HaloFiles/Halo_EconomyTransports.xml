@@ -582,7 +582,7 @@
 		
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>0.35</Hyperspace_Speed> <!-- Set to 0.35 -->
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
 		<Armor_Type> Armor_UNSC_Fighter </Armor_Type>
@@ -599,7 +599,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -613,7 +613,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>3250</Build_Cost_Credits>
+		<Build_Cost_Credits>975</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2500</AI_Combat_Power>
 		<Build_Time_Seconds>55</Build_Time_Seconds>
@@ -728,7 +728,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_ALBATROSS</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_ALBATROSS TEXT_TOOLTIP_ALBATROSS_INCOME</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECON_TRANSPORT </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 

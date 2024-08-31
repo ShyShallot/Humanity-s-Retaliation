@@ -206,6 +206,8 @@
 	<File>HaloFiles\Swords\SWORDS_STARBASES.xml</File>
 	<File>HaloFiles\Terrorists\TERROR_STARBASES.xml</File>
 	<File>HaloFiles\Terrorists\TERROR_SPACE_UNITS.xml</File>
+	<File>HaloFiles\UNSC\UNSC_Shipyards.xml</File>
+	<File>SpaceProps_Planets.xml</File>
 
 
 

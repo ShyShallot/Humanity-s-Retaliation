@@ -3,7 +3,7 @@
 	<SpaceUnit Name="UNSC_GLADIUS">
 		<Text_ID>TEXT_UNSC_GLADIUS</Text_ID>
 		<Encyclopedia_Good_Against> Seraph Tarasque Cerastes</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Vengeance_Frigate </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To> Cerastes COVN_CAR COVN_SDV </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_Gladius.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -46,7 +46,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
@@ -195,8 +195,8 @@
 
 	<SpaceUnit Name="UNSC_HALBERD">
 		<Text_ID>TEXT_UNSC_HALBERD</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship Broadside_Class_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> COVN_SDV COVN_CAR COVN_CRS </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Cerastes COVN_CRS COVN_RCS</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_Halberd.ALO</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -242,7 +242,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets/>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
@@ -414,8 +414,8 @@
 
 	<SpaceUnit Name="UNSC_MAKO">
 		<Text_ID>TEXT_UNSC_MAKO</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship Broadside_Class_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> Seraph Banshee Cerastes </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Cerastes COVN_SDV COVN_CAR</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_MAKO.ALO</Space_Model_Name>
 		<Select_Box_Scale>450</Select_Box_Scale>
@@ -426,9 +426,9 @@
 
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>4.2</Max_Speed>
+		<Max_Speed>4.85</Max_Speed>
 		<Min_Speed>0.1</Min_Speed>
-		<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.95</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
@@ -461,7 +461,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
@@ -614,8 +614,8 @@
 	<SpaceUnit Name="UNSC_IROQUOIS">
 
 		<Text_ID>TEXT_UNSC_IROQUOIS</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship Broadside_Class_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> COVN_SDV COVN_CAR COVN_CRS </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Cerastes COVN_CRS COVN_RCS</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_IROQUOIS.ALO</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -662,7 +662,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets/>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
@@ -808,8 +808,8 @@
 
 	<SpaceUnit Name="UNSC_STRIDENT">
 		<Text_ID>TEXT_UNSC_STRIDENT</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship Broadside_Class_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> COVN_CRS COVN_CAR COVN_SDV </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> COVN_CCS COVN_RCS COVN_CRS</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_STRIDENT.ALO</Space_Model_Name>
 		<Select_Box_Scale>165</Select_Box_Scale>
@@ -855,7 +855,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets/>
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
@@ -1009,8 +1009,8 @@
 
 	<SpaceUnit Name="UNSC_PARIS">
 		<Text_ID>TEXT_UNSC_PARIS</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship Broadside_Class_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> COVN_SDV COVN_CRS COVN_RCS </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> COVN_CCS Cerastes COVN_CRS</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_PARIS.ALO</Space_Model_Name>
 		<Select_Box_Scale>150</Select_Box_Scale>
@@ -1056,7 +1056,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
@@ -1220,8 +1220,8 @@
 
 	<SpaceUnit Name="UNSC_STALWART">
 		<Text_ID>TEXT_UNSC_STALWART</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship Broadside_Class_Cruiser </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber COVN_CAS Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> Banshee COVN_SDV COVN_CAR </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Cerastes COVN_SDV COVN_CRS</Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UNSC_STALWART.ALO</Space_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -1267,7 +1267,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
 		<Required_Planets />
 		<Ship_Class>frigate</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>

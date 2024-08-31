@@ -28,8 +28,7 @@
 			UNSC_MAC_PLATFORM_01
         </HardPoints>
 
-        <Required_Star_Base_Level>0</Required_Star_Base_Level>
-        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
         <Build_Cost_Credits>7550</Build_Cost_Credits>
 		<Build_Time_Seconds>125</Build_Time_Seconds>
 		<Build_Max_Instances_Per_Planet>2</Build_Max_Instances_Per_Planet>

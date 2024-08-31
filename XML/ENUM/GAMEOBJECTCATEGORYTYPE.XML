@@ -39,6 +39,8 @@
 	<SpaceHero>			0x02000000		</SpaceHero>
 	<NonCombatHero>		0x04000000		</NonCombatHero>
 
+	<SpaceStructure> 	0x05000000		</SpaceStructure>
+
 	<!--
 	<Vehicle>		0x0001		</Vehicle>
 	<Infantry>		0x0002		</Infantry>

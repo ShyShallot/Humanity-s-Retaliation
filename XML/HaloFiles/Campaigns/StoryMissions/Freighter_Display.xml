@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+
+<Story>
+    <Event Name="Prevent_EAW_FUCK_UP">
+		  <Event_Type>STORY_ELAPSED</Event_Type>
+      <Event_Param1>0</Event_Param1>
+	  </Event>
+
+  <Event Name="Freight_Display">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>0</Event_Param1>
+    <Story_Dialog>Freight_Dialog</Story_Dialog>
+    <Story_Chapter>1</Story_Chapter>
+    <Story_Dialog_Popup>False</Story_Dialog_Popup>
+    <Story_Tag>FreighterManager</Story_Tag>
+</Event>
+</Story>

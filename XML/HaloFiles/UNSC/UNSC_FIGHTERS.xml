@@ -34,7 +34,7 @@
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>150</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
@@ -172,8 +172,8 @@
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline />
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>Longsword_Shiva, Longsword, Longsword</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
@@ -356,7 +356,7 @@
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>110</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
@@ -495,7 +495,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>Shortsword, Shortsword,Shortsword_Disable</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
@@ -646,7 +646,7 @@
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>45</Shield_Points>
 		<Tactical_Health>150</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
@@ -784,8 +784,8 @@
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline />
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Required_Planets>Mars</Required_Planets>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>Broadsword, Broadsword, Broadsword</Squadron_Units>
@@ -946,7 +946,7 @@
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>45</Shield_Points>
 		<Tactical_Health>85</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
@@ -1089,7 +1089,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>Baselard, Baselard, Baselard, Baselard, Baselard</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
@@ -1251,7 +1251,7 @@
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>35</Shield_Points>
 		<Tactical_Health>65</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
@@ -1393,8 +1393,8 @@
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Tech_Level>1</Tech_Level>
 		<Required_Timeline />
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Required_Planets>Reach,Mars</Required_Planets>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>Sabre, Sabre, Sabre</Squadron_Units>
@@ -1551,7 +1551,7 @@
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>45</Shield_Points>
 		<Tactical_Health>30</Tactical_Health>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
@@ -1664,7 +1664,7 @@
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>Pelican, Pelican, Pelican</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>

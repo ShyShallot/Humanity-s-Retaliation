@@ -166,8 +166,8 @@
 			  the campaign by defeating Mon Mothma and capturing Alderaan.
 			<Home_Planet>Alderaan</Home_Planet>
 		-->
-		<Faction_Leader>Mon_Mothma</Faction_Leader>
-		<Faction_Leader_Company>Mon_Mothma_Team</Faction_Leader_Company>
+		<Faction_Leader>UNSC_ROMAN_BLUE</Faction_Leader>
+		<Faction_Leader_Company>UNSC_ROMAN_BLUE</Faction_Leader_Company>
 
 
 		<!-- Overlay ring used by Obiwan when targeting with his "force distact" ping ability, this is the ring around the cursor location to show victims in range of click -->

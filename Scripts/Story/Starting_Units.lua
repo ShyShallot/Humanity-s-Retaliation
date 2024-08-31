@@ -148,7 +148,13 @@ function Spawn_Starting_Units(faction, units, locations, heros)
     DebugMessage("Total Max Number of Units: %s, Number of Controlled Planets: %s", tostring(total_max), tostring(tableLength(locations)))
 
     planet_max = tonumber(Dirty_Floor((total_max / (tableLength(locations) / 1.5)) * diff_multi)) -- the reason for using tableLength is that using table.getn doesnt give the actual amount of elements in the array, for reasons beyond my knowledge 
-    
+
+    if player.Is_Human() == false then
+
+        planet_max = tonumber(Dirty_Floor(planet_max * Diff_Multiplier(amount, player)))
+
+    end
+
     DebugMessage("Planet Max: %s", planet_max)
 
     for _, planet in pairs(locations) do
@@ -296,9 +302,9 @@ function Diff_Multiplier(value, player)
     }
 
     ai_multiplier = {
-        ["Hard"] = 1.5,
-        ["Normal"] = 1,
-        ["Easy"] = 0.5
+        ["Hard"] = 2.5,
+        ["Normal"] = 1.5,
+        ["Easy"] = 0.7
     }
 
     if player.Is_Human() then

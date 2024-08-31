@@ -1,0 +1,1126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SpaceProps>
+
+    <SpaceProp Name="alderaan_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_alderaan.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="bespin_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_bespin.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="coruscant_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_coruscant.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="desert_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_desert.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="endor_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_endor.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="eriadu_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_eriadu.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="forest_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_forest.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="gas_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_gas.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="gas_green_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_gas_green.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="gas_red_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_gas_red.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="gas_silver_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_gas_silver.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="geonosis_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_geonosis.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="ice_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_ice.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="kamino_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_kamino.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="moon_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_moon.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="mustafar_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_mustafar.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="mustafar_blue_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_mustafar_blue.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="ocean_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_ocean.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="REACH_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>W_PLANET_REACH.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="REACH_GLASSED_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>W_PLANET_REACH_GLASSED.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="RING_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>W_PLANET_RING.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="saleucami_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_saleucami.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="SNOW_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>W_PLANET_SNOW.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="swamp_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_swamp.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="taris_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_taris.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="tatooine_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_tatooine.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="TE_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>W_PLANET_TE.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="temperate_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_temperate.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="VOLCANIC_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>W_PLANET_VOLCANIC.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="vulcanic_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_vulcanic.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="wayland_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_wayland.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="yavin_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_yavin.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="yavin_iv_Planet_Low_Orbit">
+        <Text_ID />
+        <Space_Model_Name>w_planet_yavin_iv.ALO</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+
+    <SpaceProp Name="alderaan_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_alderaan.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="bespin_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_bespin.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="coruscant_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_coruscant.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="desert_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_desert.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="endor_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_endor.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="eraidu_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_eraidu.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="forest_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_forest.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="gas_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_gas.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="gas_green_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_gas_green.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="gas_red_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_gas_red.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="gas_silver_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_gas_silver.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="geonosis_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_geonosis.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="ice_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_ice.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="kamino_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_kamino.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="moon_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_moon.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="mustafar_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_mustafar.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="mustafar_blue_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_mustafar_blue.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="ocean_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_ocean.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="saleucami_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_saleucami.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="swamp_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_swamp.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="taris_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_taris.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="tatooine_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_tatooine.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="temperate_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_temperate.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="vulcanic_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_vulcanic.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="wayland_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_wayland.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+    <SpaceProp Name="yavin_iv_Planet_Back">
+        <Text_ID />
+        <Space_Model_Name>w_planet_sphere_yavin_iv.alo</Space_Model_Name>
+        <Is_Decoration>No</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+        <Scale_Factor>8.5</Scale_Factor>
+        <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
+        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
+        <In_Background>Yes</In_Background>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
+        <Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+        <Death_Explosions>Tactical_Planet_Explode_300x_Particle</Death_Explosions>
+        <Death_SFXEvent_Start_Die>Planet_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_By_TSW_Replacements>Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2</Death_By_TSW_Replacements>
+    </SpaceProp>
+</SpaceProps>

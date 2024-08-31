@@ -58,7 +58,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILELONG.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>50.0</Max_Speed>
-		<Projectile_Damage>26.5</Projectile_Damage>
+		<Projectile_Damage>28.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Normal </Damage_Type>
@@ -82,7 +82,7 @@
 		
 	</Projectile>
 
-	<Projectile Name="Proj_Covie_Plasma_Beam_Platform"> <!-- Anti Ship-->
+	<Projectile Name="Proj_Covie_Plasma_Beam_Platform">
 		<Variant_Of_Existing_Type>Proj_Covie_Long_Beam</Variant_Of_Existing_Type>
 		<Projectile_Damage>3.5</Projectile_Damage>
 		
@@ -93,7 +93,7 @@
 		<Space_Model_Name>COVN_PLASMAPROJECTILE.ALO</Space_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Max_Speed>45.0</Max_Speed>
-		<Projectile_Damage>35.0</Projectile_Damage>
+		<Projectile_Damage>38.0</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE</Behavior>
 		<Damage_Type> Damage_Covn_Heavy </Damage_Type>
@@ -506,11 +506,11 @@
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>9.0</Projectile_Length>
 		<Scale_Factor>15.0</Scale_Factor>
-		<Max_Speed>38.0</Max_Speed>
+		<Max_Speed>46.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_FLAK </Damage_Type>
-		<Projectile_Damage>13.5</Projectile_Damage>
+		<Projectile_Damage>19.5</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -525,7 +525,7 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 
-		<Projectile_Blast_Area_Range>35</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range>55</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>13.5</Projectile_Blast_Area_Damage>
 	</Projectile>
 

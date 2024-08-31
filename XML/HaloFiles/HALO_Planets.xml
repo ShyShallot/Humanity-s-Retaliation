@@ -5,11 +5,11 @@
     <Text_ID>HALO_PLANET_REACH</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_wayland_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_wayland_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -18,7 +18,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
     <Galactic_Position>25.0, -194.0, 10.0</Galactic_Position>
@@ -80,7 +80,7 @@
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
     <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -152,11 +152,11 @@
     <Text_ID>HALO_PLANET_AKTIS_4</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_kamino_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_kamino_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -165,7 +165,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-154.0, -268.0, 10.0</Galactic_Position>
@@ -175,7 +175,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Aktis_IV.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
@@ -228,11 +228,11 @@
     <Text_ID>HALO_PLANET_ALERIA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_endor_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_endor_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -241,7 +241,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>288</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-55.0, -286.0, 10.0</Galactic_Position>
@@ -292,11 +292,11 @@
     <Text_ID>HALO_PLANET_ALLUVION</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_temperate_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_temperate_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -305,7 +305,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-207.0, -222.0, 10.0</Galactic_Position>
@@ -363,11 +363,11 @@
     <Text_ID>HALO_PLANET_ARCADIA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_forest_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_forest_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -376,7 +376,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-237.0, -102.0, 10.0</Galactic_Position>
@@ -416,11 +416,11 @@
     <Text_ID>HALO_PLANET_CHI_CETI_IV</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_eraidu_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_eraidu_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -429,7 +429,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>202.0, 40.0, 10.0</Galactic_Position>
@@ -468,11 +468,11 @@
     <Text_ID>HALO_PLANET_ERIDANUS_2</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_forest_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_forest_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -481,7 +481,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-203.0, -156.0, 10.0</Galactic_Position>
@@ -521,11 +521,11 @@
     <Text_ID>HALO_PLANET_MADRIGAL</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_desert_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_desert_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -573,11 +573,11 @@
     <Text_ID>HALO_PLANET_CHARYBDIS_IX</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_geonosis_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_geonosis_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -636,11 +636,11 @@
     <Text_ID>HALO_PLANET_MERIDIAN</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_saleucami_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_saleucami_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -649,7 +649,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>142.0, -80.0, 10.0</Galactic_Position>
@@ -689,11 +689,11 @@
     <Text_ID>HALO_PLANET_GAO</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_forest_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_forest_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -702,7 +702,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>74.0, -274.0, 10.0</Galactic_Position>
@@ -742,11 +742,11 @@
     <Text_ID>HALO_PLANET_HARVEST</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_yavin_iv_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_yavin_iv_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -755,7 +755,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>240</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-281.0, -65.0, 10.0</Galactic_Position>
@@ -795,11 +795,11 @@
     <Text_ID>HALO_PLANET_EARTH</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_earth_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_earth_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -808,7 +808,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-56.0, -169.0, 10.0</Galactic_Position>
@@ -866,11 +866,11 @@
     <Text_ID>HALO_PLANET_FALAKNUMA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_yavin_iv_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_yavin_iv_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -879,7 +879,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>144.0, -185.0, 10.0</Galactic_Position>
@@ -918,11 +918,11 @@
     <Text_ID>HALO_PLANET_HARMONY</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_temperate_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_temperate_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -931,7 +931,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>125</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-28.0, -228.0, 10.0</Galactic_Position>
@@ -970,11 +970,11 @@
     <Text_ID>HALO_PLANET_NEW_CARTHAGE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_kamino_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_kamino_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -983,7 +983,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>281.0, 98.0, 10.0</Galactic_Position>
@@ -1022,11 +1022,11 @@
     <Text_ID>HALO_PLANET_NEW_JERUSALEM</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_swamp_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_swamp_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1035,7 +1035,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>243.0, -41.0, 10.0</Galactic_Position>
@@ -1074,11 +1074,11 @@
     <Text_ID>HALO_PLANET_TANTALUS</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_swamp_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_swamp_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1087,7 +1087,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>10.0, -325.0, 10.0</Galactic_Position>
@@ -1126,11 +1126,11 @@
     <Text_ID>HALO_PLANET_TERRA_NOVA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_temperate_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_temperate_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1139,7 +1139,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>154.0, 59.0, 10.0</Galactic_Position>
@@ -1178,11 +1178,11 @@
     <Text_ID>HALO_PLANET_MARS</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_mars_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_mars_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1249,11 +1249,11 @@
     <Text_ID>HALO_PLANET_MIRIDEM</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_endor_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_endor_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1262,7 +1262,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>189.0, -24.0, 10.0</Galactic_Position>
@@ -1302,11 +1302,11 @@
     <Text_ID>HALO_PLANET_NETHEROP</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_eraidu_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_eraidu_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1315,7 +1315,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>125</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>198.0, 219.0, 10.0</Galactic_Position>
@@ -1354,11 +1354,11 @@
     <Text_ID>HALO_PLANET_FAR_ISLE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_saleucami_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_saleucami_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1367,7 +1367,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>202.0, -215.0, 10.0</Galactic_Position>
@@ -1406,11 +1406,11 @@
     <Text_ID>HALO_PLANET_THRESHOLD</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_gas_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_gas_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1459,11 +1459,11 @@
     <Text_ID>HALO_PLANET_YONHE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_moon_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_moon_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1472,7 +1472,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>247.0, 169.0, 10.0</Galactic_Position>
@@ -1511,11 +1511,11 @@
     <Text_ID>HALO_PLANET_KAMCHATKA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_ice_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_ice_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1573,11 +1573,11 @@
     <Text_ID>HALO_PLANET_TARAM</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_moon_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_moon_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1625,11 +1625,11 @@
     <Text_ID>HALO_PLANET_TROVE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_saleucami_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_saleucami_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1730,11 +1730,11 @@
     <Text_ID>HALO_PLANET_NEFOLUZO</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_desert_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_desert_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1783,11 +1783,11 @@
     <Text_ID>HALO_PLANET_THUA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_gas_green_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_gas_green_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1846,9 +1846,9 @@
     <Text_ID>HALO_PLANET_GLYKE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_PLANET_GLYKE.alo</Galactic_Model_Name>
-    <Destroyed_Galactic_Model_Name>W_PLANET_GLYKE.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_PLANET_GLYKE.alo</GUI_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_glyke_gc.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>w_planet_sphere_glyke_gc.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_glyke_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
     <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
@@ -1859,7 +1859,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-3.0, 335.0, 10.0</Galactic_Position>
@@ -1919,11 +1919,11 @@
     <Text_ID>HALO_PLANET_KARAVA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_alderaan_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_alderaan_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1972,11 +1972,11 @@
     <Text_ID>HALO_PLANET_VICTORS_TRUTH</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_forest_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_forest_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2024,11 +2024,11 @@
     <Text_ID>HALO_PLANET_BALAHO</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_PLANET_BALAHO.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_balaho_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_PLANET_BALAHO.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_balaho_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2086,11 +2086,11 @@
     <Text_ID>HALO_PLANET_TE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_PLANET_TE.alo</Galactic_Model_Name>
-    <Destroyed_Galactic_Model_Name>W_PLANET_TE.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_PLANET_TE.alo</GUI_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_gas_blue_gc.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>w_planet_sphere_gas_blue_gc.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_gas_blue_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2149,11 +2149,11 @@
     <Text_ID>HALO_PLANET_DOISAC</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_swamp_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_swamp_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2162,7 +2162,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>101.0, 329.0, 10.0</Galactic_Position>
@@ -2202,11 +2202,11 @@
     <Text_ID>HALO_PLANET_SANGHELIOS</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_eraidu_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_eraidu_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2215,7 +2215,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-144.0, 135.0, 10.0</Galactic_Position>
@@ -2264,11 +2264,11 @@
     <Text_ID>HALO_PLANET_RHANELO</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_ice_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_ice_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2316,11 +2316,11 @@
     <Text_ID>HALO_PLANET_SONG_OF_VICTORY</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_eraidu_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_eraidu_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2379,11 +2379,11 @@
     <Text_ID>HALO_PLANET_EAYN</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_swamp_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_swamp_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2392,7 +2392,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-294.0, 96.0, 10.0</Galactic_Position>
@@ -2432,11 +2432,11 @@
     <Text_ID>HALO_PLANET_BHEDALON</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_ocean_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_ocean_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2495,11 +2495,11 @@
     <Text_ID>HALO_PLANET_CODISFOLD</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_yavin_iv_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_yavin_iv_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2547,11 +2547,11 @@
     <Text_ID>HALO_PLANET_FELDOKRA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_kamino_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_kamino_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2599,11 +2599,11 @@
     <Text_ID>HALO_PLANET_ULGETHON</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_eraidu_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_eraidu_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2651,11 +2651,11 @@
     <Text_ID>HALO_PLANET_PALAMOK</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_temperate_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_temperate_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2664,7 +2664,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-310.0, 199.0, 10.0</Galactic_Position>
@@ -2704,11 +2704,11 @@
     <Text_ID>HALO_PLANET_VEN_3</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_vulcanic_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_vulcanic_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2767,11 +2767,11 @@
     <Text_ID>HALO_PLANET_KOSTRODA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_swamp_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_swamp_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2820,11 +2820,11 @@
     <Text_ID>HALO_PLANET_KHAELMOTHKA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_desert_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_desert_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2872,11 +2872,11 @@
     <Text_ID>HALO_PLANET_TVAO</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_moon_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_moon_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>0.6</Scale_Factor>
+    <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
