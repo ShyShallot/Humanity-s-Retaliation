@@ -3,11 +3,53 @@
     <StarBase Name="SWORDS_STARBASE_1">
         <Variant_Of_Existing_Type>Empire_Star_Base_1</Variant_Of_Existing_Type>
         <Affiliation>Swords</Affiliation>
+
+        <Text_ID>TEXT_SWORDS_STAR_BASE_1</Text_ID>
+		<Encyclopedia_Text>TEXT_SWORDS_STAR_BASE_1_ENC</Encyclopedia_Text>
+
+        <Prev_Level_Base/>
+		<Next_Level_Base>SWORDS_STARBASE_2</Next_Level_Base>
+
+        <Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+
+        <Starting_Spawned_Units_Tech_0>SWORDS_Banshee_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>SWORDS_Banshee_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>SWORDS_Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>SWORDS_Cerastes_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+
+        <HardPoints>
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04
+		</HardPoints>
+
+        <Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
     </StarBase>
 
     <StarBase Name="SWORDS_STARBASE_2">
         <Variant_Of_Existing_Type>Empire_Star_Base_2</Variant_Of_Existing_Type>
         <Affiliation>Swords</Affiliation>
+
+        <Text_ID>TEXT_SWORDS_STAR_BASE_2</Text_ID>
+		<Encyclopedia_Text>TEXT_SWORDS_STAR_BASE_2_ENC</Encyclopedia_Text>
+
+        <Prev_Level_Base>SWORDS_STARBASE_1</Prev_Level_Base>
+		<Next_Level_Base/>
+
+        <Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+
+        <Starting_Spawned_Units_Tech_0>SWORDS_Banshee_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>SWORDS_Banshee_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>SWORDS_Cerastes_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>SWORDS_Cerastes_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+
+        <HardPoints>
+			HP_COVSTATION_T1_SUPPLYDOCK, HP_COVSTATION_T1_COMMS, HP_COVSTATION_T1_SHIELDGEN, HP_COVSTATION_T1_HANGAR_01, HP_COVSTATION_T1_HANGAR_02, HP_COVSTATION_T1_AF_01, HP_COVSTATION_T1_AF_02, HP_COVSTATION_T1_AF_03, HP_COVSTATION_T1_AF_04, HP_COVSTATION_T1_AF_05, HP_COVSTATION_T1_AF_06, HP_COVSTATION_T1_AF_07, HP_COVSTATION_T1_AF_08, HP_COVSTATION_T2_AF_09, HP_COVSTATION_T2_AF_10 HP_COVSTATION_T1_AS_01, HP_COVSTATION_T1_AS_02, HP_COVSTATION_T1_AS_03, HP_COVSTATION_T1_AS_04, HP_COVSTATION_T2_AS_05, HP_COVSTATION_T2_AS_06, HP_COVSTATION_T2_AS_07, HP_COVSTATION_T2_AS_08, HP_COVSTATION_T2_AS_09, HP_COVSTATION_T2_AS_10
+		</HardPoints>
+
+        <Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
     </StarBase>
 
     <SpecialStructure Name="SWORDS_MINING_FACILITY">

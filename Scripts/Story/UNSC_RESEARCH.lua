@@ -31,11 +31,11 @@ end
 
 
 function Forerunner_Artifact_Mission_Check()
-    Rebel_Player = Find_Player("REBEL")
+    local Rebel_Player = Find_Player("REBEL")
 
-    installation_05 = FindPlanet("Installation_05")
+    local installation_05 = FindPlanet("Installation_05")
 
-    shield_research = Find_First_Object("UNSC_Tech_Shield")
+    local shield_research = Find_First_Object("UNSC_Tech_Shield")
 
     if not TestValid(installation_05) then
         DebugMessage("Could not Find Installation 05")

@@ -130,25 +130,23 @@ function Change_Planet(planet_name)
     if planet_owner == "REBEL" then
         planet.Change_Owner(terrorists)
         terror_units = {
-            ["TERROR_STARBASE_2"] = 1,
             ["TERROR_HALCYON"] = 1,
             ["TERROR_STALWART"] = 2,
             ["TERROR_MAKO"] = 2
         }
-
+        Spawn_Unit(Find_Object_Type("Terrorists_Star_Base_2"), planet,terrorists)
         Spawn_UnitList(terrorists, terror_units, planet)
-        Change_Planet_Owner(planet_name,terrorists.Get_Faction_Name())
+        Change_Planet_Owner(terrorists.Get_Faction_Name(),planet_name)
     elseif planet_owner == "EMPIRE" then
         planet.Change_Owner(swords)
         swords_units = {
-            ["SWORDS_STARBASE_2"] = 1,
             ["SWORDS_CCS"] = 1,
             ["SWORDS_CRS"] = 2,
             ["SWORDS_SDV"] = 2
         }
-
+        Spawn_Unit(Find_Object_Type("SWORDS_STARBASE_2"), planet,swords)
         Spawn_UnitList(swords, swords_units, planet)
-        Change_Planet_Owner(planet_name,swords.Get_Faction_Name())
+        Change_Planet_Owner(swords.Get_Faction_Name(), planet_name)
     end
 
     planet_loyalty_table[planet_name]["Loyalty"] = 100
@@ -187,15 +185,15 @@ function State_Loyalty(message)
         DebugMessage("Selected Planet: %s", tostring(selected_planet))
 
         if selected_planet ~= nil then
-            local planet_name = selected_planet.Get_Type().Get_Name()
-            local planet_loyalty = planet_loyalty_table[planet_name]
-            if TestValid(selected_planet) and (last_selected_planet ~= selected_planet) and Is_Valid_Entry(planet_name) then
-                local planet_units = Get_Units_At_Planet(planet_name, selected_planet.Get_Owner())
+            local selected_planet_name = selected_planet.Get_Type().Get_Name()
+            local planet_loyalty = planet_loyalty_table[selected_planet_name]
+            if TestValid(selected_planet) and (last_selected_planet ~= selected_planet) and Is_Valid_Entry(selected_planet_name) then
+                local planet_units = Get_Units_At_Planet(selected_planet_name, selected_planet.Get_Owner())
                 if not (planet_units == nil) then
-                    if Has_Custom_Name(planet_name) then
-                        text = tostring(Get_Cus_Name(planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
+                    if Has_Custom_Name(selected_planet_name) then
+                        text = tostring(Get_Cus_Name(selected_planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
                     else
-                        text = tostring(Capital_First_Letter(planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
+                        text = tostring(Capital_First_Letter(selected_planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
                     end
                     
                     if selected_planet.Get_Owner().Is_Human() then
@@ -238,11 +236,14 @@ function State_Loyalty(message)
         local planets = FindPlanet.Get_All_Planets()
 
         for i,planet in ipairs(planets) do
-            planet_name = planet.Get_Type().Get_Name()
-            planet_loyalty = planet_loyalty_table[planet_name]
+            local planet_name = planet.Get_Type().Get_Name()
+            local planet_loyalty = planet_loyalty_table[planet_name]
+
+            DebugMessage("Current Planet: %s", tostring(planet_name))
+
             if not (planet_loyalty == nil) then
 
-                last_owner = Change_Planet_Owner(planet.Get_Owner().Get_Faction_Name(), planet_name) -- make sure planet owner is up to date
+                local last_owner = Change_Planet_Owner(planet.Get_Owner().Get_Faction_Name(), planet_name) -- make sure planet owner is up to date
 
                 if last_owner ~= planet_loyalty_table[planet_name]["Owner"] then -- reset loyalty on owner change
                     planet_loyalty_table[planet_name]["Loyalty"] = 100
@@ -264,14 +265,15 @@ function State_Loyalty(message)
                         Modify_Planet_Loyalty(planet_name,false,0.5)
                     end
                     local planet_units = Get_Units_At_Planet(planet_name, planet.Get_Owner())
+                    DebugMessage("Planet Name: %s", tostring(planet_name))
                     if not (planet_units == nil) then
-                        DebugMessage("Power: %s, Upkeep: %s", tostring(Combat_Power_From_List(planet_units)), tostring(Tech_Power_Upkeep(planet.Get_Owner())))
+                        DebugMessage("Planet: %s, Power: %s, Upkeep: %s", tostring(planet_name), tostring(Combat_Power_From_List(planet_units)), tostring(Tech_Power_Upkeep(planet.Get_Owner())))
 
-                        planet_combat_power = Combat_Power_From_List(planet_units)
+                        local planet_combat_power = Combat_Power_From_List(planet_units)
                         if planet_combat_power < (Tech_Power_Upkeep(planet.Get_Owner())) then
                             DebugMessage("Combat Power is less than Upkeep for planet: %s", tostring(planet_name))
                             if planet_combat_power == 0 then
-                                Modify_Planet_Loyalty(planet_name, false, 1.5)
+                                Modify_Planet_Loyalty(planet_name, false, 100)
                             else
                                 Modify_Planet_Loyalty(planet_name, false, 0.5)
                             end
@@ -372,7 +374,6 @@ function Get_Path_To_Target_Planet(target_planet) -- Only checks for neighbor, c
     local all_planets = FindPlanet.Get_All_Planets()
 
     for _,planet in pairs(all_planets) do
-        planet_name = planet.Get_Type().Get_Name()
         --DebugMessage("Start Planet: %s, End Planet: %s", tostring(target_planet_name), tostring(planet_name))
 
         found_path = Find_Path(target_planet.Get_Owner(),target_planet,planet) -- Find Planet Table, includes start and end planets at beginning and end respectivly 
@@ -392,7 +393,6 @@ function Get_Neighbors(target_planet)
     local neighbors = {}
 
     for _,planet in pairs(all_planets) do
-        planet_name = planet.Get_Type().Get_Name()
         --DebugMessage("Start Planet: %s, End Planet: %s", tostring(target_planet_name), tostring(planet_name))
 
         found_path = Find_Path(target_planet.Get_Owner(),target_planet,planet) -- Find Planet Table, includes start and end planets at beginning and end respectivly 

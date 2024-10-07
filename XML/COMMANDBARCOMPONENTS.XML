@@ -31,7 +31,7 @@
              <Icon_Texture_Name>i_button_command_bar_options.tga</Icon_Texture_Name>
              <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
              <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
-             <Disabled_Texture_Name>i_button_command_bar_options_disabled.tga</Disabled_Texture_Name>
+             <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
              <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
              <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Selected_Alpha>True</Selected_Alpha>
@@ -735,7 +735,7 @@
     <CommandBarComponent Name="b_droid_help">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_DROID_ADVISOR</Tooltip_Text>
-            <Blank_Texture_Name>i_button_command_bar_help.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_help.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -749,11 +749,11 @@
 
     <CommandBarComponent Name="b_droid_help_tactical">
             <Type>Button</Type>
-            <Blank_Texture_Name>i_button_command_bar_help_disabled.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_help.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_command_bar_help_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_help_press.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_command_bar_help_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Swap_Texture>False</Swap_Texture>
             <Selected_Alpha>True</Selected_Alpha>
             <Click_Shift>True</Click_Shift>
@@ -805,7 +805,7 @@
     <CommandBarComponent Name="b_filters0">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_CREDIT_FILTER</Tooltip_Text>
-            <Blank_Texture_Name>i_button_command_bar_filter1.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_filter1.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -823,7 +823,7 @@
     <CommandBarComponent Name="b_filters1">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_BASE_LEVEL_FILTER</Tooltip_Text>
-            <Blank_Texture_Name>i_button_command_bar_filter2.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_filter2.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -841,7 +841,7 @@
     <CommandBarComponent Name="b_filters2">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_ABILITY_WEATHER_FILTER_02</Tooltip_Text>
-            <Blank_Texture_Name>i_button_command_bar_filter3.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_filter3.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -859,7 +859,7 @@
     <CommandBarComponent Name="b_filters3">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_HERO_FILTER</Tooltip_Text>
-            <Blank_Texture_Name>i_button_command_bar_filter4.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_filter4.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -877,7 +877,7 @@
     <CommandBarComponent Name="b_filters4">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_STRUCT_SUPER_FILTER</Tooltip_Text>
-            <Blank_Texture_Name>i_button_command_bar_filter5.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_filter5.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -895,7 +895,7 @@
     <CommandBarComponent Name="b_filters5">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_CAPITAL_FILTER</Tooltip_Text>
-            <Blank_Texture_Name>i_button_command_bar_filter6.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_filter6.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -913,7 +913,7 @@
     <CommandBarComponent Name="b_filters6">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_FRIGATE_CORVETTE_FILTER</Tooltip_Text>
-            <Blank_Texture_Name>i_button_command_bar_filter7.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_filter7.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -931,7 +931,7 @@
     <CommandBarComponent Name="b_filters7">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_FIGHTER_FILTER</Tooltip_Text>
-            <Blank_Texture_Name>i_button_command_bar_filter8.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_filter8.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -949,7 +949,7 @@
     <CommandBarComponent Name="b_story_arc_g">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_STORY_BUTTON</Tooltip_Text>
-            <Blank_Texture_Name>i_button_command_bar_holocron.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_holocron.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -4092,9 +4092,9 @@
     <CommandBarComponent Name="b_option_t">
             <Type>TextButton</Type>
             <Icon_Texture_Name>i_button_command_bar_options.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_command_bar_options_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_options_press.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_command_bar_options_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Tooltip_Text>TEXT_BUTTON_MAIN_MENU</Tooltip_Text>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
@@ -4131,11 +4131,11 @@
     <CommandBarComponent Name="b_special_weapon">
             <Type>Button</Type>
             <Tooltip_Text />
-            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
-            <Icon_Alternate_Texture_Name>i_button_command_bar_ion_cannon.tga i_button_command_bar_hyper_gun.tga i_button_command_bar_station_turret.tga i_button_command_bar_bombing_run.tga </Icon_Alternate_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_heros_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_heros_over.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
+            <Icon_Texture_Name>I_BUTTON_COMMAND_BAR_SPECIAL_ATTACK.TGA</Icon_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_SPECIAL_ATTACK.tga</Disabled_Texture_Name>
             <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
@@ -4149,11 +4149,11 @@
     <CommandBarComponent Name="b_special_weapon2">
             <Type>Button</Type>
             <Tooltip_Text />
-            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>i_blank.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_ping.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_heros_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_heros_over.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Disabled>True</Disabled>
@@ -4166,11 +4166,11 @@
     <CommandBarComponent Name="b_reinforcement">
             <Type>Button</Type>
             <Tooltip_Text />
-            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Alternate_Texture_Name>i_button_command_bar_reinforcements.tga i_button_command_bar_reinforcements.tga i_button_command_bar_hyper_gun.tga</Icon_Alternate_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_heros_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_heros_over.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Flash_Texture_Name>i_button_r_flash.tga</Flash_Texture_Name>
             <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
@@ -4184,11 +4184,11 @@
 
     <CommandBarComponent Name="b_retreat">
             <Type>Button</Type>
-            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Alternate_Texture_Name>i_button_command_bar_retreat.tga i_button_command_bar_retreat.tga</Icon_Alternate_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_heros_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_heros_over.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
@@ -4199,12 +4199,12 @@
 
     <CommandBarComponent Name="b_story_arc_t">
             <Type>Button</Type>
-            <Blank_Texture_Name>i_button_command_bar_holocron.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_holocron.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_command_bar_holocron_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_holocron_press.tga</Selected_Texture_Name>
-            <Flash_Texture_Name>i_button_command_bar_holocron_flash.tga</Flash_Texture_Name>
-            <Disabled_Texture_Name>i_button_command_bar_holocron_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Flash_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Flash_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Swap_Texture>False</Swap_Texture>
             <Group>Story_Tab</Group>
             <Selected_Alpha>True</Selected_Alpha>
@@ -4231,11 +4231,11 @@
     <CommandBarComponent Name="c_button00">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_ATTACK TEXT_TOOLTIP_ATTACK_01</Tooltip_Text>
-            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>i_blank.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_attack.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_heros_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_pressed.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Scale>1.0</Scale>
@@ -4245,11 +4245,11 @@
     <CommandBarComponent Name="c_button01">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_ATTACK_MOVE TEXT_TOOLTIP_ATTACK_MOVE_01</Tooltip_Text>
-            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>i_blank.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_attack_move.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_heros_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_pressed.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Scale>1.0</Scale>
@@ -4259,11 +4259,11 @@
     <CommandBarComponent Name="c_button02">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_MOVE TEXT_TOOLTIP_MOVE_01</Tooltip_Text>
-            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>i_blank.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_move.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_heros_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_pressed.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Scale>1.0</Scale>
@@ -4273,11 +4273,11 @@
     <CommandBarComponent Name="c_button03">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_WAYPOINT TEXT_TOOLTIP_WAYPOINT_01</Tooltip_Text>
-            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>i_blank.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_waypoint.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_heros_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_pressed.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Scale>1.0</Scale>
@@ -4287,11 +4287,11 @@
     <CommandBarComponent Name="c_button04">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_FULL_STOP TEXT_TOOLTIP_FULL_STOP_01</Tooltip_Text>
-            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>i_blank.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_stop.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_heros_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_pressed.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Scale>1.0</Scale>
@@ -4301,11 +4301,11 @@
     <CommandBarComponent Name="c_button05">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_GUARD TEXT_TOOLTIP_GUARD_BUTTON_01</Tooltip_Text>
-            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>i_blank.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_guard.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_heros_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_pressed.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Scale>1.0</Scale>
@@ -8610,7 +8610,7 @@
 		<Swap_Texture>False</Swap_Texture>
             <Tooltip_Text>TEXT_TOOLTIP_PAUSE_PLAY</Tooltip_Text>
             <Type>Button</Type>
-            <Blank_Texture_Name>i_button_command_bar_play.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_play.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
@@ -8630,7 +8630,7 @@
             <Tooltip_Text>TEXT_TOOLTIP_SPEED_TIME</Tooltip_Text>
 	    <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
             <Type>Button</Type>
-            <Blank_Texture_Name>i_button_command_bar_ff.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>I_BLANK.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_ff.tga</Icon_Texture_Name>
 	    <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
 	    <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
@@ -8649,11 +8649,11 @@
 		<Swap_Texture>False</Swap_Texture>
             <Tooltip_Text>TEXT_TOOLTIP_PAUSE_PLAY</Tooltip_Text>
             <Type>Button</Type>
-            <Blank_Texture_Name>i_button_command_bar_play.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>i_blank.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_play.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_command_bar_play_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_play_press.tga</Selected_Texture_Name>
-			<Disabled_Texture_Name>i_button_command_bar_play_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Selected_Alpha>True</Selected_Alpha>
@@ -8667,13 +8667,12 @@
 
     <CommandBarComponent Name="b_fast_forward_t">
             <Tooltip_Text>TEXT_TOOLTIP_SPEED_TIME</Tooltip_Text>
-			<Mouse_Over_Texture_Name>i_button_command_bar_ff_over.tga</Mouse_Over_Texture_Name>
             <Type>Button</Type>
-            <Blank_Texture_Name>i_button_command_bar_ff.tga</Blank_Texture_Name>
+            <Blank_Texture_Name>i_blank.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_ff.tga</Icon_Texture_Name>
-			<Disabled_Texture_Name>i_button_command_bar_ff_disabled.tga</Disabled_Texture_Name>
-			<Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-		<Selected_Texture_Name>i_button_command_bar_ff_press.tga</Selected_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Selected_Alpha>True</Selected_Alpha>
             <Click_Shift>True</Click_Shift>
@@ -9697,9 +9696,9 @@
    <CommandBarComponent Name="c_option_g">
             <Type>TextButton</Type>
             <Icon_Texture_Name>i_button_command_bar_options.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_command_bar_options_over.tga</Mouse_Over_Texture_Name>
-            <Selected_Texture_Name>i_button_command_bar_options_press.tga</Selected_Texture_Name>
-            <Disabled_Texture_Name>i_button_command_bar_options_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_COMMAND_BAR_CAMERA_DISABLED.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Selected_Alpha>True</Selected_Alpha>

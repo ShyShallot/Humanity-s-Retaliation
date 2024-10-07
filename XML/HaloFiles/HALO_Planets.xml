@@ -251,7 +251,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Aleria.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -315,7 +315,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Alluvion.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -386,7 +386,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Arcadia.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -439,7 +439,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Chi_Ceti_IV.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -491,7 +491,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Eridanus_2.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -544,7 +544,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Madrigal.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -596,7 +596,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Charybdis_IX.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -1524,7 +1524,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Arctic</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-157.0, 322.0, 10.0</Galactic_Position>
@@ -1586,7 +1586,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-268.0, 292.0, 10.0</Galactic_Position>
@@ -1638,7 +1638,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>125</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-223.0, 92.0, 10.0</Galactic_Position>
@@ -1690,7 +1690,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>137.0, 137.0, 10.0</Galactic_Position>
@@ -1796,7 +1796,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>230</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>89.0, 277.0, 10.0</Galactic_Position>
@@ -1932,7 +1932,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-64.0, 268.0, 10.0</Galactic_Position>
@@ -2037,7 +2037,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Swamp</Terrain>
     <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-251.0, 152.0, 10.0</Galactic_Position>
@@ -2099,7 +2099,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-26.0, 210.0, 10.0</Galactic_Position>
@@ -2508,7 +2508,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-96.0, 175.0, 10.0</Galactic_Position>
@@ -2612,7 +2612,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Forest</Terrain>
     <Planet_Credit_Value>125</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-209.0, 216.0, 10.0</Galactic_Position>
@@ -2780,7 +2780,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Swamp</Terrain>
     <Planet_Credit_Value>250</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-104.0, 356.0, 10.0</Galactic_Position>
@@ -2885,7 +2885,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>125</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>44.0, 234.0, 10.0</Galactic_Position>

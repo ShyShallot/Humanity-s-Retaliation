@@ -7,20 +7,10 @@
 		<GameMode> Space </GameMode>
 		<Category> Tactical_Targeted </Category>
 		<Reachability> Any </Reachability>
-		<Time_Limit> 80.0 </Time_Limit>
+		<Time_Limit> 120.0 </Time_Limit>
 		<Activation_Tracking_Duration>20</Activation_Tracking_Duration>
 		<Per_Activation_Failure_Desire_Adjust>-15.0</Per_Activation_Failure_Desire_Adjust>
 	</Destroy_Unit>
-
-	<Destroy_Unit_Minimal>
-		<AIGoalApplicationFlags> Enemy_Unit | Enemy_Structure </AIGoalApplicationFlags>
-		<GameMode> Space </GameMode>
-		<Category> Tactical_Targeted </Category>
-		<Reachability> Any </Reachability>
-		<Time_Limit> 30.0 </Time_Limit>
-		<Activation_Tracking_Duration>20</Activation_Tracking_Duration>
-		<Per_Activation_Failure_Desire_Adjust>-15.0</Per_Activation_Failure_Desire_Adjust>
-	</Destroy_Unit_Minimal>
 
 	<Disable_Unit>
 		<AIGoalApplicationFlags> Enemy_Unit | Enemy_Structure </AIGoalApplicationFlags>
@@ -151,7 +141,7 @@
 	<Turbo_Attack_Location>
 		<AIGoalApplicationFlags> Tactical_Location </AIGoalApplicationFlags>
 		<GameMode> Space </GameMode>
-		<Category> Med_Priority </Category>
+		<Category> Tactical_Targeted </Category>
 		<Reachability> Any </Reachability>
 		<Time_Limit> 30.0 </Time_Limit>
 		<Activation_Tracking_Duration>20</Activation_Tracking_Duration>
@@ -161,7 +151,7 @@
 	<Turbo_Attack_Unit>
 		<AIGoalApplicationFlags> Enemy_Unit </AIGoalApplicationFlags>
 		<GameMode> Space </GameMode>
-		<Category> Med_Priority </Category>
+		<Category> Tactical_Targeted </Category>
 		<Reachability> Any </Reachability>
 		<Time_Limit> 30.0 </Time_Limit>
 		<Activation_Tracking_Duration>20</Activation_Tracking_Duration>

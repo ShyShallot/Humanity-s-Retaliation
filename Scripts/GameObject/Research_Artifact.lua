@@ -22,9 +22,13 @@ function State_Init(message)
     if message == OnEnter then
         if Get_Game_Mode() == "Galactic" then
 
-            GlobalValue.Set("Artifacts_Dug", GlobalValue.Get("Artifacts_Dug") + 1)
+            local artifacts_dug = GlobalValue.Get("Artifacts_Dug")
+
+            artifacts_dug = artifacts_dug + 1
+
+            GlobalValue.Set("Artifacts_Dug", artifacts_dug)
             
-            dig_up_unit = Find_First_Object("ARTIFACT_DIG_UP")
+            local dig_up_unit = Find_First_Object("ARTIFACT_DIG_UP")
 
             if dig_up_unit ~= nil then
                 dig_up_unit.Despawn()

@@ -90,7 +90,7 @@ function Spawn_Player_Terrorists()
             ["TERROR_SHORTSWORD"] = {1,3}
         }
     }
-    Spawn_Subfaction_Starting(player,{},terrorist_start_units,"TERROR_STARBASE_2")
+    Spawn_Subfaction_Starting(player,{},terrorist_start_units,"Terrorists_Star_Base_2")
 end
 
 function Spawn_Player_Swords()

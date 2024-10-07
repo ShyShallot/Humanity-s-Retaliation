@@ -531,7 +531,7 @@
 	Note that this serves for Land threat decay as well.-->
 	<AI_SpaceThreatDecayStep>0.05</AI_SpaceThreatDecayStep>
 
-	<AI_BuildTaskReservationSeconds>25.0</AI_BuildTaskReservationSeconds>
+	<AI_BuildTaskReservationSeconds>15.0</AI_BuildTaskReservationSeconds>
 	
 	<MinimumDragSelectDistance> 100.0 </MinimumDragSelectDistance>
 	<MinimumDragDistance> 4.0 </MinimumDragDistance>
@@ -771,11 +771,11 @@
 	<Earthquake_Shake_Magnitude> 0.0, 0.0, 0.7 </Earthquake_Shake_Magnitude>
 
 	<!-- AI threat tolerances for the discrete land mode reachability levels -->
-	<Low_Threat_Reachability_Tolerance>1000.0</Low_Threat_Reachability_Tolerance>
-	<Medium_Threat_Reachability_Tolerance>3000.0</Medium_Threat_Reachability_Tolerance>
-	<High_Threat_Reachability_Tolerance>5000.0</High_Threat_Reachability_Tolerance>
+	<Low_Threat_Reachability_Tolerance>100.0</Low_Threat_Reachability_Tolerance>
+	<Medium_Threat_Reachability_Tolerance>250.0</Medium_Threat_Reachability_Tolerance>
+	<High_Threat_Reachability_Tolerance>1000.0</High_Threat_Reachability_Tolerance>
 
-	<Auto_Rotate_For_Space_Targeting>True</Auto_Rotate_For_Space_Targeting>
+	<Auto_Rotate_For_Space_Targeting>False</Auto_Rotate_For_Space_Targeting>
 
 	<In_Game_Cinematics>True</In_Game_Cinematics>	
 	<Display_Bink_Movie_Frames>False</Display_Bink_Movie_Frames>  

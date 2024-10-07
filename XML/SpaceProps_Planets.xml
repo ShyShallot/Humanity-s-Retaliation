@@ -8,7 +8,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -27,7 +27,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -46,7 +46,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -65,7 +65,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -84,7 +84,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -103,7 +103,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -122,7 +122,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -141,7 +141,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -160,7 +160,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -179,7 +179,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -198,7 +198,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -217,7 +217,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -236,7 +236,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -255,7 +255,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -274,7 +274,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -293,7 +293,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -312,7 +312,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -331,7 +331,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -350,7 +350,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -369,7 +369,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -388,7 +388,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -407,7 +407,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -426,7 +426,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -445,7 +445,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -464,7 +464,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -483,7 +483,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -502,7 +502,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -521,7 +521,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -540,7 +540,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -559,7 +559,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -578,7 +578,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -597,7 +597,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>
@@ -616,7 +616,7 @@
         <Is_Discardable>No</Is_Discardable>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
         <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>8.0</Scale_Factor>
+        <Scale_Factor>29.0</Scale_Factor>
         <Behavior>IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET</Behavior>
         <Sort_Order_Adjust>-1</Sort_Order_Adjust>
         <In_Background>Yes</In_Background>

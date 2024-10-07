@@ -178,7 +178,7 @@ function Get_Units_At_Planet(planet_name, player)
 end
 
 function Opposite_Faction()
-    human = Find_Human_Player()
+    local human = Find_Human_Player()
 
     if human.Get_Faction_Name() == "REBEL" then
         return "EMPIRE"

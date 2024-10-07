@@ -5,6 +5,9 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>UNSC_SHIPYARD_01_A.ALO</Space_Model_Name>
+
+		<Scale_Factor>5.25</Scale_Factor>
+
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -27,7 +30,7 @@
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Icon_Name>I_BUTTON_ASTEROIDMINING.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_SHIPYARD_LIGHT.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<GUI_Model_Name>N_FORERUNNERMINE.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -82,6 +85,10 @@
         <Text_ID>HALO_SHIPYARD_MEDIUM</Text_ID>
         <Encyclopedia_Text> HALO_SHIPYARD_MEDIUM_ENC </Encyclopedia_Text>
 
+		<Space_Model_Name>UNSC_SHIPYARD_02_A.ALO</Space_Model_Name>
+
+		<Icon_Name>I_BUTTON_SHIPYARD_MEDIUM.tga</Icon_Name>
+
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 
         <Build_Cost_Credits>5500</Build_Cost_Credits>
@@ -93,7 +100,7 @@
 				<!-- 15% bonus to base planetary income -->
 				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
 				<!-- plus an absolute 215 credits to planetary income -->
-				<Absolute_Income_Modifier>-185</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>-115</Absolute_Income_Modifier>
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>
@@ -105,6 +112,10 @@
 
         <Text_ID>HALO_SHIPYARD_HEAVY</Text_ID>
         <Encyclopedia_Text> HALO_SHIPYARD_HEAVY_ENC </Encyclopedia_Text>
+
+		<Space_Model_Name>UNSC_SHIPYARD_03_A.ALO</Space_Model_Name>
+
+		<Icon_Name>I_BUTTON_SHIPYARD_HEAVY.tga</Icon_Name>
 
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 
@@ -119,7 +130,7 @@
 				<!-- 15% bonus to base planetary income -->
 				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
 				<!-- plus an absolute 215 credits to planetary income -->
-				<Absolute_Income_Modifier>-185</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>-135</Absolute_Income_Modifier>
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>

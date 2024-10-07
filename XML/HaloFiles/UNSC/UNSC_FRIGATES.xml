@@ -1202,7 +1202,6 @@
 	<SpaceUnit Name="Paris_Death_Clone">
 		<Text_ID>TEXT_UNSC_GLADIUS</Text_ID>
 		<Space_Model_Name>UNSC_PARIS_DEATH.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>UNSC_PARIS_DEATH.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>UNIT_STAR_DESTROYER_DEATH_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Scale_Factor>2.85</Scale_Factor>

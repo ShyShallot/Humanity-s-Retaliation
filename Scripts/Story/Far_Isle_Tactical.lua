@@ -62,6 +62,8 @@ function State_Init(message)
             longsword.Play_SFX_Event("SFX_Concussion_Missile_Detonation")
             
             Story_Event("Nuke_Activated")
+
+            ScriptExit()
     
         end
 	end

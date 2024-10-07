@@ -267,7 +267,7 @@ function State_Research(message)
         if on_cooldown then
             event.Clear_Dialog_Text()
 
-            event.Add_Dialog_Text("Artifact Discoveries are currently on not available.")
+            event.Add_Dialog_Text("Artifact Discoveries are currently are not available.")
 
             event.Add_Dialog_Text("Day when Artifact Discoveries are available: " .. tostring(last_artifact_researched + artifact_dig_cooldown))
 
@@ -300,16 +300,15 @@ function State_Research(message)
 
             event.Add_Dialog_Text("Artifacts Needed for Tech Level: " .. tostring(player.Get_Tech_Level() + 1) .. ": All Researched, Check any planet with a Research Facility to Research the Next Tech!")
 
-            GlobalValue.Set("Artifacts_Dug", 0)
-
             Game_Message("Artifact Researched, Check Artifact Display")
-            return
         end
 
         next_Tech = Find_First_Object(next_tech_upgrade.Get_Name())
 
         if next_Tech ~= nil then
             next_tech_researched = true
+
+            GlobalValue.Set("Artifacts_Dug", 0)
         end
 
     end
@@ -346,7 +345,7 @@ function Set_Planet_On_Cooldown(planet)
 end
 
 function Remove_Planets_From_Cooldown()
-    local cooldown_time = 10 -- how many days/weeks
+    local cooldown_time = 1 -- how many days/weeks
 
     for planet, cooldown_info in pairs(planet_cooldown_table) do
         if cooldown_info["cooldown"] then

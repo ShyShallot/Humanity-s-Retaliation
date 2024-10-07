@@ -43,6 +43,10 @@ function State_Init(message)
     end
     if message == OnUpdate then
 
+        if covenant.Get_Tech_Level() < 4 then
+            return
+        end
+
         for _, planet in pairs(planets) do
             planet_name = planet.Get_Type().Get_Name()
             DebugMessage("Planet: %s, Planet Array Owner: %s, Planet Current Owner: %s", tostring(planet_name), tostring(planet_owners[planet_name].Get_Faction_Name()), tostring(planet.Get_Owner().Get_Faction_Name()))

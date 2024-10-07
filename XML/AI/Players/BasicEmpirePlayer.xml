@@ -5,7 +5,7 @@
 	
 	<Personality>
 		<Focus> .6 </Focus>
-		<Aggressiveness> 1.0 </Aggressiveness>
+		<Aggressiveness> 0.8 </Aggressiveness>
 	</Personality>
 
     <GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>

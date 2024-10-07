@@ -71,7 +71,10 @@
 																Parameter_Type = "Skirmish_Empire_Star_Base_2",
 																Parameter_Type = "Skirmish_Empire_Star_Base_3",
 																Parameter_Type = "Skirmish_Empire_Star_Base_4",
-																Parameter_Type = "Skirmish_Empire_Star_Base_5"}
+																Parameter_Type = "Skirmish_Empire_Star_Base_5",
+																Parameter_Type = "Terrorists_Star_Base_1",
+																Parameter_Type = "Terrorists_Star_Base_2",
+																Parameter_Type = "Terrorists_Star_Base_3"}
 	</Is_Starbase>
 
 	<!-- Certain plans are disallowed as a defender.  These plans are allowed if

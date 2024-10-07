@@ -3140,7 +3140,7 @@
 		<Next_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_rebel_station2.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ANCHOR_9_TWO.tga</Icon_Name>
 		
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_TWO_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
@@ -3170,7 +3170,7 @@
 		<Next_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_rebel_station3.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ANCHOR_9_THREE.tga</Icon_Name>
 		
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_THREE_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
@@ -3200,7 +3200,7 @@
 		<Next_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_rebel_station4.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ANCHOR_9_FOUR.tga</Icon_Name>
 		
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FOUR_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
@@ -3230,7 +3230,7 @@
 		<Next_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_rebel_station5.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ANCHOR_9_FIVE.tga</Icon_Name>
 		
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FIVE_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
@@ -3261,7 +3261,7 @@
 		<Next_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_imperial_station2.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_STATION_2.tga</Icon_Name>
 		
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_TWO_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
@@ -3291,7 +3291,7 @@
 		<Next_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_imperial_station3.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_STATION_3.tga</Icon_Name>
 		
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_THREE_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
@@ -3321,7 +3321,7 @@
 		<Next_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_imperial_station4.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_STATION_4.tga</Icon_Name>
 		
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FOUR_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
@@ -3351,7 +3351,7 @@
 		<Next_Upgrade_Level_Type />
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_imperial_station5.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_COVN_STATION_5.tga</Icon_Name>
 		
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FIVE_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>

@@ -413,7 +413,7 @@
 	-->
 
 	<Should_Conquer_Opponent_Planet> <!-- Credit to AOTR Team-->
-		(0.5 + (0.75 * Variable_Target.IsHumanControlled) - (0.4 * (1.0 - Variable_Target.IsHumanControlled) * Variable_Self.AnyCurrentThreats))
+		(0.5 + (0.5 * Variable_Target.IsHumanControlled) - (0.4 * (1.0 - Variable_Target.IsHumanControlled) * Variable_Self.AnyCurrentThreats))
         *
         Function_Is_Connected_To_Me.Evaluate
 		*

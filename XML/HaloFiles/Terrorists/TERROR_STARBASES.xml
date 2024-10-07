@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
-<TerrorUnits>
+<StarBases>
 
-    <StarBase Name="TERROR_STARBASE_1">
+    <StarBase Name="Terrorists_Star_Base_1">
         <GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Text_ID>TEXT_TERROR_STAR_BASE_1</Text_ID>
 		<Encyclopedia_Text>TEXT_TERROR_STAR_BASE_1_ENC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+
+		<Affiliation>Terrorists</Affiliation>
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>UNSC_HALCYON.ALO</Space_Model_Name>
@@ -39,11 +41,11 @@
 		<Damage_Type> Damage_UNSC_Capital</Damage_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_0>Baselard_Squadron, 3</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>TERROR_Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TERROR_Baselard_Squadron, 3</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Shortsword_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
-		<Reserve_Spawned_Units_Tech_0>Shortsword_Squadron, 2</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>TERROR_Shortsword_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TERROR_Shortsword_Squadron, 2</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -133,33 +135,74 @@
     </StarBase>
 
 
-    <StarBase Name="TERROR_STARBASE_2">
+    <StarBase Name="Terrorists_Star_Base_2">
         <Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
         <Text_ID>TEXT_TERROR_STAR_BASE_2</Text_ID>
 		<Encyclopedia_Text>TEXT_TERROR_STAR_BASE_2_ENC</Encyclopedia_Text>
-        <Affiliation>Terrorist</Affiliation>
+        <Affiliation>Terrorists</Affiliation>
         <Prev_Level_Base>TERROR_STARBASE_1</Prev_Level_Base>
 		<Next_Level_Base>TERROR_STARBASE_3</Next_Level_Base>
         <Tech_Level>2</Tech_Level>
 		<Base_Level>2</Base_Level>
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
         <Icon_Name>I_BUTTON_TERROR_BASE_TWO.tga</Icon_Name>
+
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+
+		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+
+		<Damage>35</Damage>
+
+		<HardPoints>
+			CANNON_M33_01, CANNON_M33_02, CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, 
+			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06,
+			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08,
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04
+		</HardPoints>
+
+		<Starting_Spawned_Units_Tech_0>TERROR_Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TERROR_Baselard_Squadron, 3</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>TERROR_Shortsword_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TERROR_Shortsword_Squadron, 2</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
     </StarBase>
 
-    <StarBase Name="TERROR_STARBASE_3">
+    <StarBase Name="Terrorists_Star_Base_3">
         <Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
         <Text_ID>TEXT_TERROR_STAR_BASE_3</Text_ID>
 		<Encyclopedia_Text>TEXT_TERROR_STAR_BASE_3_ENC</Encyclopedia_Text>
-        <Prev_Level_Base>TERROR_STARBASE_1</Prev_Level_Base>
-        <Affiliation>Terrorist</Affiliation>
+        <Prev_Level_Base>TERROR_STARBASE_2</Prev_Level_Base>
+		<Next_Level_Base/>
+        <Affiliation>Terrorists</Affiliation>
         <Tech_Level>3</Tech_Level>
 		<Base_Level>3</Base_Level>
         <Required_Star_Base_Level>2</Required_Star_Base_Level>
         <Icon_Name>I_BUTTON_TERROR_BASE_THREE.tga</Icon_Name>
+
+		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+
+		<HardPoints>
+			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
+			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08,
+			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12,
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05
+		</HardPoints>
+
+		<Damage>35</Damage>
+
+		<Starting_Spawned_Units_Tech_0>TERROR_Baselard_Squadron, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TERROR_Baselard_Squadron, 3</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>TERROR_Shortsword_Squadron, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+		<Reserve_Spawned_Units_Tech_0>TERROR_Shortsword_Squadron, 2</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
     </StarBase>
 
     <SpecialStructure Name="TERROR_MINING_FACILITY">
         <Variant_Of_Existing_Type>UNSC_Mining_Facility</Variant_Of_Existing_Type>
         <Affiliation>Terrorist</Affiliation>
     </SpecialStructure>
-</TerrorUnits>
+</StarBases>

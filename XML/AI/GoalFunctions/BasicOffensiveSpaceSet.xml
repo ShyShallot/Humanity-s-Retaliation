@@ -5,12 +5,6 @@
 		<Function>Unit_Needs_To_Be_Destroyed</Function>
 	</Destroy_Unit>
 
-
-	<Destroy_Unit_Minimal>
-		<Goal>Destroy_Unit_Minimal</Goal>
-		<Function>Unit_Needs_To_Be_Destroyed_Low_Desire</Function>
-	</Destroy_Unit_Minimal>
-
 	<Disable_Unit>
 		<Goal>Disable_Unit</Goal>
 		<Function>Unit_Needs_To_Be_Disabled</Function>

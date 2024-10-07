@@ -15,7 +15,7 @@
         <Required_Planets>Alluvion, Arcadia, Meridian, Harvest, Mars, Netherop, Threshold, Kamchatka, Trove, Installation_05, Sanghelios, Palamok</Required_Planets>
 
 	    <Build_Cost_Credits>2550</Build_Cost_Credits>
-	    <Build_Time_Seconds>180</Build_Time_Seconds> <!-- was 180-->
+	    <Build_Time_Seconds>1</Build_Time_Seconds> <!-- was 180-->
 	    <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
         <Lua_Script>Dig_Up_Artifact</Lua_Script>
@@ -50,7 +50,7 @@
         <Required_Planets/>
 
 	    <Build_Cost_Credits>5450</Build_Cost_Credits>
-	    <Build_Time_Seconds>300</Build_Time_Seconds> <!-- was 300-->
+	    <Build_Time_Seconds>1</Build_Time_Seconds> <!-- was 300-->
 	    <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
         <Lua_Script>Research_Artifact</Lua_Script>

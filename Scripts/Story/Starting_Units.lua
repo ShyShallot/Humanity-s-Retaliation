@@ -151,7 +151,7 @@ function Spawn_Starting_Units(faction, units, locations, heros)
 
     if player.Is_Human() == false then
 
-        planet_max = tonumber(Dirty_Floor(planet_max * Diff_Multiplier(amount, player)))
+        planet_max = tonumber(Dirty_Floor(planet_max * Diff_Multiplier(planet_max, player)))
 
     end
 
