@@ -76,6 +76,8 @@ function Definitions()
 
     next_tech_researched = false
 
+    tech_up_available = false
+
 end
 
 function State_Init(message)
@@ -278,7 +280,7 @@ function State_Research(message)
 
         next_tech_upgrade = tech_level_object_types[player.Get_Tech_Level()]
 
-        if GlobalValue.Get("Artifacts_Dug") >= Artifacts_Needed() and (not next_tech_researched) then
+        if GlobalValue.Get("Artifacts_Dug") >= Artifacts_Needed() and (not next_tech_researched) and not tech_up_available then
 
             valid_unlock = true
 
@@ -301,6 +303,15 @@ function State_Research(message)
             event.Add_Dialog_Text("Artifacts Needed for Tech Level: " .. tostring(player.Get_Tech_Level() + 1) .. ": All Researched, Check any planet with a Research Facility to Research the Next Tech!")
 
             Game_Message("Artifact Researched, Check Artifact Display")
+
+            tech_up_available = true
+        end
+
+        if tech_up_available then
+            event.Clear_Dialog_Text()
+
+            event.Add_Dialog_Text("Artifacts Needed for Tech Level: " .. tostring(player.Get_Tech_Level() + 1) .. ": All Researched, Check any planet with a Research Facility to Research the Next Tech!")
+
         end
 
         next_Tech = Find_First_Object(next_tech_upgrade.Get_Name())
@@ -309,6 +320,8 @@ function State_Research(message)
             next_tech_researched = true
 
             GlobalValue.Set("Artifacts_Dug", 0)
+
+            tech_up_available = false
         end
 
     end

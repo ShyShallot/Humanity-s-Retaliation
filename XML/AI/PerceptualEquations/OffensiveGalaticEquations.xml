@@ -394,7 +394,9 @@
 	</Opens_New_Front>
 
 	<Should_Conquer_Pirate_Planet>
-		0.0
+		Function_Is_Connected_To_Me.Evaluate
+		*
+		(Variable_Self.SpaceTotalUnnormalized > Variable_Target.EnemyForce.SpaceTotalUnnormalized)
 	</Should_Conquer_Pirate_Planet>
 
 	<!-- 

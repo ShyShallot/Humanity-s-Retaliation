@@ -889,7 +889,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Falaknuma.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -1377,7 +1377,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Far_Isle.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -2172,7 +2172,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Doisac.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -2402,7 +2402,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Eayn.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -2455,7 +2455,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Bhedalon.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -2518,7 +2518,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Codisfold.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -2570,7 +2570,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Feldokra.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>

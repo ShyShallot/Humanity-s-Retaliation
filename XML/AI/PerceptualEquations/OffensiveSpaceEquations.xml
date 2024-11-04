@@ -716,16 +716,12 @@
 		50.0 
 		*
 		(
-			10 * (2 > Function_Number_Resource_Structures_Space.Evaluate)
-			+
 			0.1 >
 			(
-				Variable_Target.Location.EnemyForce / 
-				(Variable_Target.Location.EnemyForce + Variable_Target.Location.FriendlyForce)
+				Variable_Target.Location.EnemyForce /
+				(Variable_Target.Location.EnemyForce + Variable_Target.Location.FriendlyForce )
 			)
 		)
-		*
-		(Function_Distance_To_Nearest_Enemy_Starbase.Evaluate > 2500)
 	</Need_To_Build_Refinery_Space>
 
 	<!-- Save cash
@@ -862,17 +858,16 @@
 		*
 		(Function_Number_Resource_Structures_Space.Evaluate >= 1.0)
 		*
-		((Game.Age > 30.0) * (Variable_Self.BaseLevel == 1.0)
+		((Game.Age > 30.0) * (Variable_Self.BaseLevel == 0.0)
 		+
-		(Game.Age > 90.0) * (Variable_Self.BaseLevel == 2.0)
+		(Game.Age > 30.0) * (Variable_Self.BaseLevel == 1.0)
+		+
+		(Game.Age > 120.0) * (Variable_Self.BaseLevel == 2.0)
 		+
 		(Game.Age > 300.0) * (Variable_Self.BaseLevel == 3.0)
 		+
-		(Game.Age > 800.0) * (Variable_Self.BaseLevel == 4.0)
-		+
-		(5.0 > Variable_Self.BaseLevel) * (Variable_Self.FriendlyForce > (1.5 * Variable_Self.EnemyForce))
-		+
-		(5.0 > Variable_Self.BaseLevel) * (Variable_Self.EnemyForce > (1.5 * Variable_Self.FriendlyForce)))
+		(Game.Age > 800.0) * (Variable_Self.BaseLevel == 4.0))
+
 	</Skirmish_Needs_New_Space_Station>
 
 	<Skirmish_Needs_New_Space_Station_With_Multiplier>

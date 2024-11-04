@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+
+    <SFXEvent Name="Corvette_Target_Archers">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Archers_Select.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Archers_Destroyed">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Archers_Des.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Move_Asteroids">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Asteroid_1.wav,Data\Audio\SFX\Corvette_Asteroid_2.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1,TEXT_SFX_COR_SELECT_2</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Attack">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Attack_1.wav,Data\Audio\SFX\Corvette_Attack_2.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1,TEXT_SFX_COR_SELECT_2</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Cannons_Target">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Cannons_Target.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Cannons_Destroy">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Cannons_Des.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Death">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Corvette_Death_1.wav, Corvette_Death_2.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Engines_Target">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Engines_Target.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Engines_Destroy">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Engines_Des.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Guard">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Guard_1.wav,Data\Audio\SFX\Corvette_Guard_2.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1,TEXT_SFX_COR_SELECT_2</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Hangers_Target">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Hangers_Target.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Hangers_Destroy">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Hangers_Des.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Shields_Target">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Shields_Target.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Shields_Destroy">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Shields_Des.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Torpedos_Target">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Torpedos_Target.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Torpedos_Destroy">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Torpedos_Des_1.wav,Data\Audio\SFX\Corvette_Torpedos_Des_2.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Low_Health">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Low_Health_1.wav,Data\Audio\SFX\Corvette_Low_Health_2.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1,TEXT_SFX_COR_SELECT_2</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Move">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Move_1.wav,Data\Audio\SFX\Corvette_Move_2.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1,TEXT_SFX_COR_SELECT_2</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Move_Nebula">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Nebula_1.wav,Data\Audio\SFX\Corvette_Nebula_2.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1,TEXT_SFX_COR_SELECT_2</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Select_1.wav,
+            Data\Audio\SFX\Corvette_Select_2.wav</Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1,TEXT_SFX_COR_SELECT_2</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Stop">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Stop_1.wav,Data\Audio\SFX\Corvette_Stop_2.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1,TEXT_SFX_COR_SELECT_2</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Corvette_Built">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\SFX\Corvette_Unit_Built.wav</Samples>
+        <Localize> No </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID>TEXT_SFX_COR_SELECT_1,TEXT_SFX_COR_SELECT_2</Text_ID>
+        <Overlap_Test> Unit_Corvette </Overlap_Test>
+    </SFXEvent>
+
+
+</SFXEvents>

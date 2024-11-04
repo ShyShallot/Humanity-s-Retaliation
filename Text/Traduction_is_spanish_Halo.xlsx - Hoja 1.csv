@@ -1,0 +1,605 @@
+﻿_MP_SPACE_REACH;Batalla sobre Reach
+_MP_SPACE_REACH_CUSTOM;Batalla por el modo económico de transporte Reach
+_MP_SPACE_REACH_GLASSED;Después de la batalla de Reach
+CONV_AF_TURRET;Batería de plasma Anti-Caza
+CONV_AS_TURRET;Batería de torreta de plasma
+CONV_TORP;Lanzador Torpedos de Plasma
+CONV_TORP_CAP;Lanzador de Torpedos de Plasma Capital
+COVN_BFG;Lanzador de Plasma
+COVN_HEAVY_PLASMACANNON;Batería pesada de cañones de plasma
+HALO_ARMOR_LEVEL_1;Nivel de armadura: [=]
+HALO_ARMOR_LEVEL_2;Nivel de armadura: [==]
+HALO_ARMOR_LEVEL_3;Nivel de armadura: [===]
+HALO_ARMOR_LEVEL_4;Nivel de armadura: [====]
+HALO_ARMOR_LEVEL_5;Nivel de armadura: [=====]
+HALO_BETA_RELEASE_BUILD;Ten en cuenta que Humanity's Retaliation aún está en fase beta, infórmanos de cualquier error o problema que encuentres, ¡gracias por jugar!
+HALO_BOARD;Abordar el barco
+HALO_BOARD_ENC;Abordar un barco enemigo infligiendo daños
+HALO_BOARDING_ACTIVE;Abordando: Empezado, Abriéndose paso por el barco
+HALO_BOARDING_FAIL;Abordaje fallido, reúna al siguiente equipo para el próximo ciclo de incursión.
+HALO_BOARDING_TAKEOVER;El abordaje fue exitoso y se obtuvo el control del barco enemigo.
+HALO_BOARDING_THRESH;Barco abordado tiene muy poca salud para ser útil, desguace.
+HALO_BOMBERAI;Búsqueda del objetivo de los bombardeos
+HALO_BOMBERAI_ENC;Hará que el Escuadrón de Bombarderos busque objetivos para bombardear automáticamente, activará automáticamente habilidades y volverá a naves cercanas si tiene poca salud o no hay enemigos a su alcance.
+HALO_CLUSTERBOMB;Bomba de racimo Anti-Caza
+HALO_CLUSTERBOMB_ENC;La Shortsword lanzará una pequeña bomba de racimo de uso antiaéreo que aturde a las naves enemigas cercanas al impactar.
+HALO_COVN_ARDO_MORE;Ardo 'Moretumee
+HALO_COVN_ARDO_MORE_BUFF;Bonificación de batalla de Maestro de Nave: Se aplica a fragatas, naves de clase Corbeta, cazas y bombarderos: 10% de bonificación a la salud, 5% de bonificación a todos los daños y 5% de bonificación a los escudos.
+HALO_COVN_ARDO_MORE_ENC;El general Ardo 'Moretumee, un líder tranquilo y de palabras muy eficientes, se abrió camino ascendiendo en los rangos del Ministerio de Intercesión Fervorosa del Covenant, hasta encontrarse en la categoría de Capitan de Nave. Su flota se dedicaba sobre todo a recuperar artefactos de los Forerunner.
+HALO_COVN_JUL_MDAMA;Jul 'Mdama
+HALO_COVN_JUL_MDAMA_BUFF;Bonificación de batalla de Maestro de Nave: se aplica a las naves de clase Capitales, Fragatas y Corbetas: 15 % de bonificación a la salud, 10 % de bonificación a todos los daños, 10 % de bonificación a los escudos, con una bonificación del 15 % al movimiento.
+HALO_COVN_JUL_MDAMA_ENC;Conocido como la «Mano del Didacta», Jul era un Maestro de Nave Sanhelili. Jul fue un gran guerrero del Pacto que ascendió en las Fuerzas Armadas del Pacto hasta llegar al mando del «Brillante de los Profanos».
+HALO_COVN_MACCABEUS;Maccabeus
+HALO_COVN_MACCABEUS_BUFF;Bonificación de batalla de Maestro de Nave: se aplica a capitales, fragatas, corbetas, cazas y bombarderos: 10% de bonificación a la salud, 10% de bonificación a todos los daños, 25% de bonificación a los escudos y 15% de bonificación al movimiento.
+HALO_COVN_MACCABEUS_ENC;Maccabeus, un Jefe de Guerra Jirlhanae, también era un Maestro de Nave Covenant, al mando de un Crucero de Batalla clase CCS. La forma en que todos los Jiralhanae ascendieron en la cadena de mando, una batalla a muerte contra su Jefe, quien en ese momento era su propio padre, quien estaba feliz de morir a manos de alguien a quien amaba. Dada la relación entre los Sangheili y los Jiralhanae, le dieron a Maccabeus un CCS varios degradados, lo que no impidió que Maccabeus fuera un gran luchador.
+HALO_COVN_NIZAT_KVAROSEE;Nizat 'Kvarosee
+HALO_COVN_NIZAT_KVAROSEE_BUFF;Bonificación de batalla de Maestro de flota: se aplica a capitales, fragatas y naves de clase corbeta: 35% de bonificación a la salud, 30% de bonificación a todos los daños, 25% de bonificación a los escudos, con un 30% de bonificación al movimiento.
+HALO_COVN_NIZAT_KVAROSEE_ENC;"Nizat 'Kvarosee, un oficial Sangheili de la Flota Covenant, era el capitán del Pious Rampage, un Carguero de Asalto clase CAS. Después de varios años de demostrar su gran habilidad como táctico naval, rápidamente ascendió de rango hasta convertirse en el Maestro de Flota de la ""Flota de la Obediencia Inexorable""."
+HALO_DASH;------------------------------
+HALO_ENGINE_POWER;Potencia máxima del motor
+HALO_ENGINE_POWER_ENC;Aumenta la potencia del motor durante un breve periodo.
+HALO_FIGHTERS_MUSASHI;Esta Nave Transporta: 1/3 Escuadras Shortsword, 3/3 Escuadras Baselard
+HALO_FIGHTERS_POSEIDON;Este barco lleva: 1/3 Escuadras de Longsword, 1/4 Escuadras de Sábre.
+HALO_FIGHTERS_SOF;Este barco transporta: 2/12 escuadrones de Sabre, 2/210 escuadrones de Longswords y 1/12 escuadrones de Broadswords.
+HALO_FIRE_MAC;Alternar Fuego a MAC(s)
+HALO_FIRE_MAC_ENC;Dispara todos los MAC posibles a un objetivo
+HALO_FIRE_PLASMA_LANCE;Lanza de Plasma de Fuego
+HALO_FIRE_PLASMA_LANCE_EFFECTS;Efectos de la habilidad de lanza
+HALO_FIRE_PLASMA_LANCE_EFFECTS_ENC;"Después de disparar la lanza de plasma, la velocidad de la nave se reduce en un 40% y el retraso del arma aumenta en un 50%; esto se activa automáticamente."
+HALO_FIRE_PLASMA_LANCE_ENC;Dispara un enorme rayo de plasma concentrado, lo suficientemente potente como para destruir planetas enteros.
+HALO_FIRE_ROCKETS;Alternar cohetes
+HALO_FIRE_ROCKETS_ENC;Cambia entre el Cañón y los Cohetes Anti-Cazas.
+HALO_FIRE_SHIVAS;Disparar Shiva Nuclear
+HALO_FIRE_SHIVAS_ENC;Disparar un Misil Nuclear Shiva
+HALO_HARD_OFFENSIVE;Ofensiva relámpago
+HALO_HARD_OFFENSIVE_ENC;Cuando se activa, la potencia del motor de la nave aumenta un 50% a costa de que las armas disparen un 60% más lento y los escudos se consuman, pero las armas infligen 2,4 veces más daño durante 7 segundos.
+HALO_LAST_DEFENSE;Última defensa
+HALO_LAST_DEFENSE_ENC;Cuando se activa, la nave recibe un 25% menos de daño y dispara sus armas un 35% más rápido, pero se ralentiza un 60% durante 8 segundos.
+HALO_LONGSWORD_SHIVA;Lanzar un Nuclear Shiva
+HALO_LONGSWORD_SHIVA_ENC;El Longsword disparará una carga Nuclear Shiva.
+HALO_MISSILE_JAM;Misiles atascados
+HALO_OBJECTIVES_FAR_ISLE_MOVE_LONGSWORD;Mueva el Longsword al lugar designado.
+HALO_OBJECTIVES_FAR_ISLE_NUKE;Espera a que se active la bomba nuclear y los insurrectores serán erradicados de Far Isle.
+HALO_OBJECTIVES_FAR_ISLE_SPAWN_LONGSWORD;Trae el Longsword de tu Grupo de Refuerzos.
+HALO_OBJECTIVES_FAR_ISLE_WIPE;Destruir todas las Unidades de Insurrectores para permitir el Nuclear.
+HALO_OFFRADAR;Activar Radar Desactivado
+HALO_OFFRADAR_ENC;Cuando se activa, el Baselard desaparece del radar enemigo y se vuelve invisible para las naves enemigas, pero no puede disparar.
+HALO_PLANET_AKTIS_4;Aktis IV
+HALO_PLANET_AKTIS_4_ENC;ESPECIALIDAD DEL PLANETA: Las unidades de exploradores son un 15% más baratas. Desenterrar artefactos Forerunner es un 20% más barato y lleva un 15% menos de tiempo.
+HALO_PLANET_ALERIA;Aleria
+HALO_PLANET_ALERIA_ENC;ESPECIALIDAD PLANETARIA: Las instalaciones mineras se construyen un 25% más rápido.
+HALO_PLANET_ALLUVION;Aluvión
+HALO_PLANET_ALLUVION_ENC;ESPECIALIDAD DE PLANETA: Las mejoras tecnológicas son un 10% más baratas y se investigan un 5% más rápido.
+HALO_PLANET_ARCADIA;Arcadia
+HALO_PLANET_ARCADIA_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_BALAHO;Balaho
+HALO_PLANET_BALAHO_ENC;ESPECIALIDAD PLANETARIA: Los Cazas y Bombarderos son un 15% más baratos de construir.
+HALO_PLANET_BATTLE_OF_REACH;La Batalla por Reach
+HALO_PLANET_BHEDALON;Bhedalon
+HALO_PLANET_BHEDALON_ENC;ESPECIALIDAD DE PLANETA: Las estaciones espaciales tardan un 20% menos en construirse.
+HALO_PLANET_CHARYBDIS_IX;Charybdis IX
+HALO_PLANET_CHARYBDIS_IX_ENC;ESPECIALIDAD PLANETARIA: Las instalaciones mineras son un 15% más baratas de construir.
+HALO_PLANET_CHI_CETI_IV;Chi Ceti IV
+HALO_PLANET_CHI_CETI_IV_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_CODISFOLD;Codisfold
+HALO_PLANET_CODISFOLD_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_DOISAC;Doisac
+HALO_PLANET_DOISAC_ENC;ESPECIALIDAD DEL PLANETA: Ninguno
+HALO_PLANET_EARTH;Tierra
+HALO_PLANET_EARTH_ENC;ESPECIALIDAD PLANETARIA: Las naves capitales cuestan un 15% menos de construir y se construyen un 10% más rápido.
+HALO_PLANET_EAYN;Eayn
+HALO_PLANET_EAYN_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_ERIDANUS_2;Eridanus II
+HALO_PLANET_ERIDANUS_2_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_FALAKNUMA;Falaknuma
+HALO_PLANET_FAR_ISLE;Far Isle
+HALO_PLANET_FAR_ISLE_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_FELDOKRA;Feldokra
+HALO_PLANET_FELDOKRA_ENC;ESPECIALIDAD PLANETARIA: Las fragatas son un 25% más baratas de construir
+HALO_PLANET_GAO;Gao
+HALO_PLANET_GAO_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_GLYKE;#ERROR!
+HALO_PLANET_GLYKE_ENC;ESPECIALIDAD PLANETARIA: Las fragatas, corbetas y cazas son un 10% más baratas y se construyen un 5% más rápido.
+HALO_PLANET_HARMONY;Harmony
+HALO_PLANET_HARVEST;Harvest
+HALO_PLANET_HARVEST_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_HOUSE_RESEARCH;Este planeta puede producir Instalaciones de Investigación.
+HALO_PLANET_INSTALLATION_05;Instalación 05
+HALO_PLANET_INSTALLATION_05_ENC;ESPECIALIDAD PLANETA: Elimina toda masa viviente.
+HALO_PLANET_KAMCHATKA;Kamchatka
+HALO_PLANET_KAMCHATKA_ENC;ESPECIALIDAD PLANETA: Los artefactos Forerunner son un 15 % más baratos de desenterrar
+HALO_PLANET_KARAVA;Karava
+HALO_PLANET_KARAVA_ENC;ESPECIALIDAD PLANETARIA: Se revelan detalles sobre los planetas cercanos
+HALO_PLANET_KHAELMOTHKA;Khael'mothka
+HALO_PLANET_KHAELMOTHKA_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_KOSTRODA;Kostroda
+HALO_PLANET_KOSTRODA_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_MADRIGAL;Madrigal
+HALO_PLANET_MARS;Mars
+HALO_PLANET_MARS_ENC;ESPECIALIDAD PLANETA: Las fragatas y los cazas son un 20 % más baratos y tardan un 5 % menos en construirse.
+HALO_PLANET_MERIDIAN;Meridian
+HALO_PLANET_MERIDIAN_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_MIRIDEM;Miridem
+HALO_PLANET_MIRIDEM_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_NEFOLUZO;Nefoluzo
+HALO_PLANET_NEFOLUZO_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_NETHEROP;Netherop
+HALO_PLANET_NETHEROP_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_NEW_CARTHAGE;Nueva Cartago
+HALO_PLANET_NEW_JERUSALEM;Nueva Jerusalén
+HALO_PLANET_PALAMOK;Palamok
+HALO_PLANET_PALAMOK_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_REACH;Reach
+HALO_PLANET_REACH_ENC;ESPECIALIDAD DEL PLANETA: Las capitales de clase Halcyon, las plataformas orbitales MAC y los cazas de clase Sabre son un 20% más baratos en este planeta y se construyen un 10% más rápido.
+HALO_PLANET_RHANELO;Rhanelo
+HALO_PLANET_RHANELO_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_SANGHELIOS;Sanghelios
+HALO_PLANET_SANGHELIOS_ENC;ESPECIALIDAD PLANETARIA: Las capitales y supernavees son un 15% más baratas
+HALO_PLANET_SONG_OF_VICTORY;Canción de victoria
+HALO_PLANET_SONG_OF_VICTORY_ENC;ESPECIALIDAD PLANETARIA: Las naves de clase CAS tardan un 15% menos en construirse.
+HALO_PLANET_TANTALUS;Tantalus
+HALO_PLANET_TARAM;Taram
+HALO_PLANET_TARAM_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_TE;Te
+HALO_PLANET_TE_ENC;ESPECIALIDAD PLANETARIA: Con la ayuda de los Lekgolo, las fragatas y corbetas se construyen un 10% más rápido.
+HALO_PLANET_TERRA_NOVA;Terra Nova
+HALO_PLANET_TERRA_NOVA_ENC;ESPECIALIDAD PLANETARIA: Las fragatas son un 15% más baratas y se construyen un 10% más rápido.
+HALO_PLANET_THRESHOLD;Threshold
+HALO_PLANET_THRESHOLD_ENC;ESPECIALIDAD PLANETARIA: Los artefactos Forerunner tardan un 10% menos en desenterrarse.
+HALO_PLANET_THUA;Thua
+HALO_PLANET_THUA_ENC;ESPECIALIDAD PLANETARIA: Las instalaciones mineras son un 25% más baratas
+HALO_PLANET_TROVE;Trove
+HALO_PLANET_TROVE_ENC;ESPECIALIDAD PLANETARIA: Los artefactos Forerunner son un 10% más baratos y tardan un 10% menos en construirse.
+HALO_PLANET_TVAO;T'vao
+HALO_PLANET_TVAO_ENC;Ninguno
+HALO_PLANET_ULGETHON;Ulgethon
+HALO_PLANET_ULGETHON_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_VEN_3;Ven III
+HALO_PLANET_VEN_3_ENC;ESPECIALIDAD PLANETARIA: Los Cazas y Bombarderos construyen un 15% más rápido.
+HALO_PLANET_VICTORS_TRUTH;Victors' Truth
+HALO_PLANET_VICTORS_TRUTH_ENC;ESPECIALIDAD DEL PLANETA: Ninguna
+HALO_PLANET_YONHE;Yohne
+HALO_PLANET_YONHE_ENC;ESPECIE DE PLANETA: Ninguna
+HALO_PREPARE_FIRE;Golpe desesperado
+HALO_PREPARE_FIRE_ENC;Prepara la nave para disparos entrantes aumentando la cadencia de fuego en un 35%, reduce la regeneración total del escudo en un 50% pero se recarga un 20% más rápido reduciendo la potencia del motor durante 7 segundos.
+HALO_PROTECTION;Buscar protección
+HALO_PROTECTION_ENC;La nave buscará la nave amiga más cercana para protegerse, al activar esta habilidad hará que la nave no siga órdenes hasta que sea desactivada.
+HALO_SHIELD_LEVEL_1;Nivel de escudo: [=]
+HALO_SHIELD_LEVEL_2;Nivel de escudo: [==]
+HALO_SHIELD_LEVEL_3;Nivel de escudo: [===]
+HALO_SHIELD_LEVEL_4;Nivel de escudo: [====]
+HALO_SHIELD_LEVEL_5;Nivel de escudo: [=====]
+HALO_SHIELD_LEVEL_NONE;Nivel de escudo: [Ninguno]
+HALO_SHIP_HEAL_RATE_POSEIDON;Tasa de curación: 5% cada 2 segundos
+HALO_SHIP_HEAL_RATE_SOF;Tasa de curación: 15% cada 4 segundos
+HALO_SHIP_REPAIR_BIG;Este Nave es capaz de reparar: Cazas, Bombarderos, Corbetas y Fragatas
+HALO_SHIP_REPAIR_SMALL;Esta Nave puede reparar: Cazas, Bombarderos y Corbetas en un área pequeña.
+HALO_SHORTSWORD_DISABLER;Torpedo desactivador
+HALO_SHORTSWORD_DISABLER_ENC;Inutiliza la nave objetivo, reduce la velocidad de la nave, la velocidad de disparo y la capacidad general de combate durante bastante tiempo.
+HALO_SPACE_MAX_STARBASE_1;Nivel máximo de la estación espacial: 1
+HALO_SPACE_MAX_STARBASE_2;Nivel máximo de la estación espacial: 2
+HALO_SPACE_MAX_STARBASE_3;Nivel máximo de la estación espacial: 3
+HALO_SPACE_MAX_STARBASE_4;Nivel máximo de la estación espacial: 4
+HALO_SPACE_MAX_STARBASE_5;Nivel máximo de la estación espacial: 5
+HALO_SPACE_STRUCTURES_1;Cantidad máxima de estructuras espaciales: 1
+HALO_SPACE_STRUCTURES_2;Cantidad máxima de estructuras espaciales: 2
+HALO_SPACE_STRUCTURES_3;Cantidad máxima de estructuras espaciales: 3
+HALO_SPACE_STRUCTURES_4;Cantidad máxima de estructuras espaciales: 4
+HALO_SPACE_STRUCTURES_5;Cantidad máxima de estructuras espaciales: 5
+HALO_SPACE_STRUCTURES_6;Cantidad máxima de estructuras espaciales: 6
+HALO_TEXT_COMMANDS_CAS;Este héroe Comanda un Carguero de asalto de clase CAS
+HALO_TEXT_COMMANDS_CCS;Este héroe Comanda un Crucero de Batalla clase CCS
+HALO_TEXT_COMMANDS_HALCYON;Este Héroe Comanda una Nave Capital de la Clase Halcyon
+HALO_TEXT_COMMANDS_ORS;Este Héroe Comanda un Crucero Pesado Clase ORS
+HALO_TEXT_COMMANDS_SDV;Este Héroe Comanda una Corbeta de Clase SDV
+HALO_TEXT_COMMANDS_STALWART;Este héroe Comanda una Fragata Ligera Clase Stalwart.
+HALO_TEXT_PLANET_ARTIFACTS;ARTEFACTOS FORERUNNER: Artefactos dejados por los Forerunners que necesitan ser desenterrados.
+HALO_TEXT_PLANET_CAPITAL;Naves capitales
+HALO_TEXT_PLANET_HIGH_INCOME;COLONIA MINERA: Aumento de los ingresos planetarios
+HALO_TEXT_PLANET_HIGH_POP;ALTA POBLACIÓN: Los centros urbanos densos permiten poblaciones grandes.
+HALO_TEXT_PLANET_SHIPYARDS;PRODUCCIÓN ESPECIAL DE LOS ASTILLEROS:
+HALO_TEXT_PLANET_SUPER;Naves de la Super Clase
+HALO_TEXT_RESEARCH_SHIELD;Investigación sobre tecnología de escudos
+HALO_TEXT_RESEARCH_SHIELD_ENC;El último avance del UNSC integra tecnología Forerunner de vanguardia para equipar sus naves con escudos de energía avanzados, transformando la flota en una fuerza impenetrable en los vastos confines del espacio. Esta monumental mejora marca una nueva era para las capacidades de exploración y defensa espacial del UNSC.
+HALO_TOGGLE_MAC;Alternar MAC(s)
+HALO_TOGGLE_MAC_ENC;Preparar el MAC para disparar
+HALO_UNSC_ADMIRAL_HOOD;Almirante de Flota Hood
+HALO_UNSC_ADMIRAL_HOOD_BUFF;Bonificación de batalla almirante - Se aplica a las naves de clase Capitales, Fragatas y Corbeta: 20% de bonificación a la salud, 25% de bonificación a todos el daño, con un 15% de bonificación al movimiento.
+HALO_UNSC_ADMIRAL_HOOD_ENC;Lord Terrance Hood es un respetado Almirante de la Flota de la UNSC, conocido por su brillantez estratégica y su inquebrantable compromiso con la supervivencia de la humanidad frente a las amenazas del Covenant y el Flood. Con una presencia imponente y una delicadeza diplomática, inspira esperanza y lidera a las fuerzas de la UNSC en los momentos más oscuros.
+HALO_UNSC_GENERIC_FLEET_COMMANDER;Comandante de la Flota U.N.S.C.
+HALO_UNSC_IN_AMBER_CLAD;U.N.S.C In Amber Clad
+HALO_UNSC_MIRANDA_KEYS;Comandante Miranda Keyes
+HALO_UNSC_MIRANDA_KEYS_BUFF;Bonificación de batalla de comandante - Se aplica a fragatas, corbetas, bombarderos y cazas: Proporciona una bonificación del 5% a la salud, una bonificación del 8% a todos los daños y una bonificación del 2% al movimiento.
+HALO_UNSC_MIRANDA_KEYS_ENC;Miranda Keyes, hija de Jacob Keyes, era la oficial al mando del UNSC en Amber Clad, pero no siempre fue así. Miranda siguió su carrera militar, destacando en su entrenamiento y ascendiendo en el escalafón. A pesar de los intentos iniciales de mantenerla fuera de peligro, Miranda se vio empujada al frente de la guerra contra Covenant, donde destacó por su perspicacia estratégica. Sin embargo, la relación con su madre seguía siendo tensa, marcada por el resentimiento y ocasionales lagunas de comunicación. La carrera de Miranda culminó con su ascenso a Teniente Comandante y la toma del mando de la UNSC en In Amber Clad.
+HALO_WEAPON_OVERIDE;Hombre las armas
+HALO_WEAPON_OVERIDE_ENC;Ordenar a todo el personal de a bordo a las armas. Ralentiza mucho la nave.
+LOZ_REBEL_SLICE_FAIL;Intento de corte fallido.
+LOZ_REBEL_SLICE_WIN;Intento de corte superado.
+MN_MP_SPACE_REACH;Batalla sobre Reach
+MP_HALO_RED;Fuera de la vida
+MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_TORPEDO_COVN;Plataforma de ataque armada con 4 Tubos de Torpedos de Plasma diseñada para ataques devastadores contra naves enemigas.
+TEXT_ARTIFACT_DIG_UP;Equipo de extracción de artefactos
+TEXT_ARTIFACT_DIG_UP_ENC;Extrae un Artefacto Forerunnenr en una Fragata clase CRS en el planeta en que se encuentra. Debe transportarse a un planeta con la tecnología de investigación adecuada.
+TEXT_ARTIFACT_RESEARCH;Investigación de Artefacto Forerunner
+TEXT_ARTIFACT_RESEARCH_ENC;Investiga el artefacto Forerunner almacenado en la nave de los equipos de excavación y, cuando lo hace, lo añade al recuento de artefactos que se muestra en la pantalla de investigación de artefactos.
+TEXT_ASTEROID_MINING_FACILITY_DELTE;Eliminar instalación minera
+TEXT_BANSHEE_SQUADRON;Escuadrón de Patrón-Elsedda Banshee
+TEXT_BASELARD_SQUADRON;Escuadrón Baselard
+TEXT_BROADSWORD_SQUADRON;Escuadrón Broadsword
+TEXT_CAMPAIGN_HALO;Aún no se admite GC.
+TEXT_CAMPAIGN_HALO_DESP;Lo intentaste, GC está en proceso :). Vuelve más tarde, probablemente sea la versión 1.0
+TEXT_CERASTES_SQUADRON;Escuadrón de bombarderos Cerastes
+TEXT_COV_CAS;Supercarguero de clase CAS
+TEXT_ECONOMY_FARM_UPKEEP;Mantenimiento de granjas
+TEXT_ECONOMY_RESEARCH_COST;Costo de mantenimiento de la investigación
+TEXT_ENCYCLOPEDIA_CLASS_ARMORED_CRUISER;Clase: Crucero blindado
+TEXT_ENCYCLOPEDIA_CLASS_ARTIFACT_ACTION;Acción de artefacto
+TEXT_ENCYCLOPEDIA_CLASS_ASSAULT_CARRIER;Clase: Cargueros de Asalto
+TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER;Clase Crucero de Batalla
+TEXT_ENCYCLOPEDIA_CLASS_CARRIER;Clase: Carguero
+TEXT_ENCYCLOPEDIA_CLASS_COLONY;Clase: Nave Colonial
+TEXT_ENCYCLOPEDIA_CLASS_CRUISER;Clase: Crucero
+TEXT_ENCYCLOPEDIA_CLASS_DESTROYER;Clase: Destructor
+TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CARRIER;Clase: Cargueros Pesado
+TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CORVETTE;Clase: Corbeta pesada
+TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER;Clase: Crucero Pesado
+TEXT_ENCYCLOPEDIA_CLASS_HEAVY_DESTROYER;Clase: Destructor Pesado
+TEXT_ENCYCLOPEDIA_CLASS_HEAVY_FRIGATE;Clase: Fragata Pesada
+TEXT_ENCYCLOPEDIA_CLASS_LIGHT_BATTLESHIP;Clase: Acorazado Ligero
+TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CORVETTE;Clase: Corbeta Ligera
+TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER;Clase: Crucero Ligero
+TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER;Clase: Destructor Ligero
+TEXT_ENCYCLOPEDIA_CLASS_LIGHT_FRIGATE;Clase: Fragata Ligera
+TEXT_ENCYCLOPEDIA_CLASS_PUSSY;
+TEXT_ENCYCLOPEDIA_CLASS_RESEARCH_STRUCTURE;Clase: Estructura de la investigación
+TEXT_ENCYCLOPEDIA_CLASS_SUPER_CARRIER;Clase: Supercargueros
+TEXT_ENCYCLOPEDIA_COVN_COMMANDER;Maestro de flota
+TEXT_ENCYCLOPEDIA_UNSC_COMMANDER;Unidad de mando de alto rango
+TEXT_ENCYCLOPEDIA_UNSC_TECH_02;Desbloquea: Cargueros Poseidón, Caza Sabre, Bombardero Longsword, Corbeta Gladius, Nave Capital Halcyon y Fragata París.
+TEXT_ENCYCLOPEDIA_UNSC_TECH_03;Desbloquea el Destructor Iroqouis, el Destructor Halberd, el Carguero Musashi y la Investigación de Tecnología de Escudo.
+TEXT_ENCYCLOPEDIA_UNSC_TECH_04;Desbloquea la Nave Captial Marathon, Pillar of Autumn, y un requerimiento para el Caza Broadsword, y la Fragata Strident.
+TEXT_ENCYCLOPEDIA_UNSC_TECH_05;Desbloquea la Super Capital Infinity, el Destructor Capital Vindication y la Nave Capital Autumn.
+TEXT_EXPL_AI_HEROIC;IA Heroica: Dificultad Media, no se rendirá sin luchar, favorece a los Cazas y Capitales con un ingreso normal. Tiene ligeramente más posibilidades de abordaje.
+TEXT_EXPL_AI_LEGENDARY;IA Legendaria: Sólo los mejores jugadores pueden derrotarla, no elige favoritos, tiene unos ingresos realmente rápidos y enviará spam a cualquier nave de nivel que tenga en sus manos. Tiene más posibilidades cuando aborda naves.
+TEXT_EXPL_AI_NORMAL;IA Normal, Es la más fácil de enfrentar, favorece a las fragatas con bajos ingresos. Tiene algo menos de posibilidades de abordaje al Jugador.
+TEXT_EXPL_AI_SEC;Dificultad AI:
+TEXT_EXPL_BOARDING;Este mod viene con el abordaje que sólo está disponible para las naves de la flota Covenant que son del tamaño de una fragata o más pequeñas, el abordaje funciona por posibilidades, cuando la habilidad se utiliza en un objetivo, hay un 50% de posibilidades de que el abordaje se inicie, cuando una nave es abordada recibirá un 10% de su salud en daño cada 3 segundos, después de 15 segundos 2 cosas pueden suceder, el abordaje puede detenerse que es una probabilidad del 45% o la nave será tomada, que es una probabilidad del 5%. La habilidad de abordaje sólo puede usarse 3 veces.
+TEXT_EXPL_BOARDING_SEC;Mecánico de abordaje:
+TEXT_EXPL_WELCOME;Bienvenido a la Página que Explica: ¡Nuevas Mecánicas y cómo funciona la IA!
+TEXT_FACTION_INSURRECTIONISTS;Insurreccionistas
+TEXT_FACTION_SWORDS;Desterrado
+TEXT_HALO_ARCHER_PLATFORM;Plataforma Cápsula Archer
+TEXT_HALO_ARCHER_PLATFORM_ENC;Plataforma pequeña que dispara cápsulas Archer de nivel medio, cazas de daño ligero a medio contra corbetas y fragatas.
+TEXT_HALO_CAMPAIGN_EVOLVED;Combat Evolved
+TEXT_HALO_CAMPAIGN_EVOLVED_ENC;Campaña Estándar \n Juega como Covenant o U.N.S.C y completa tu dominación a través del Universo Halo \n 50 Planetas \n Sin Opciones
+TEXT_HALO_CAMPAIGN_RANDOM;Campaña de Comienzo aleatorio
+TEXT_HALO_CAMPAIGN_RANDOM_ENC;Comienzo aleatorio \n Juega como el Covenant o la U.N.S.C, ambos comienzan con 1 planeta \n Contiene las Subfacciones Insurrectos y Espada de Sanghelios
+TEXT_HALO_ECONOMY_UPKEEP_95;Mantenimiento: 95 Cr/Día
+TEXT_HALO_FARM_ENC;Proporciona alimentos a los ciudadanos del planeta, sin ellos, pueden llegar a ser infelices.
+TEXT_HALO_FARM_ENC_DELETE;Deconstruir la granja sobre el planeta
+TEXT_HALO_HWD;Investigación sobre el desarrollo de armas pesadas
+TEXT_HALO_HWD_ENC;La investigación del desarrollo de armamento pesado permite la construcción de naves tipo ORS, CPV y CAS, y continúa el progreso hacia la construcción del supercargueros CSO.
+TEXT_HALO_MK33_PLATFORM;Plataforma de defensa MK33
+TEXT_HALO_MK33_PLATFORM_ENC;La plataforma de defensa MK33 es una plataforma pequeña y ligera diseñada para defenderse de naves más ligeras como cazas, corbetas y fragatas. No es resistente, pero tiene potencia de fuego.
+TEXT_HALO_PLASMA_PLATFORM;Plataforma de plasma Covenant
+TEXT_HALO_PLASMA_PLATFORM_ENC;La Plataforma de Plasma dispara una Ráfaga Rápida de Plasma a cualquier objetivo situado a una distancia media.
+TEXT_HALO_PROVIDES_LOYALTY;Proporciona un 5% de lealtad al planeta por día.
+TEXT_HALO_SMAC_PLATFORM;Plataforma SMAC de la U.N.S.C.
+TEXT_HALO_SMAC_PLATFORM_ENC;La Plataforma SMAC dispara un proyectil MAC más pequeño con un radio de ataque largo.
+TEXT_HALO_UNSC_FARM;Granja planetaria
+TEXT_HALO_UNSC_FARM_DELETE;Eliminar estructura de cultivo
+TEXT_LONGSWORD_SQUADRON;Escuadrón Longsword
+TEXT_MINING_FACILITY_CAMPAIGN;Funcionando como un puesto de avanzada atmosférico, esta unidad facilita el intercambio fluido de mercancías, sirviendo de centro neurálgico para las transacciones comerciales y permitiendo un transporte eficiente entre compradores y vendedores.
+TEXT_MINING_FACILITY_CAMPAIGN_DELETE;Eliminar una instalación minera de este planeta
+TEXT_MINING_FACILITY_CAMPAIGN_INCOME;Proporciona créditos en el planeta actual y una bonificación en los planetas ricos en recursos.
+TEXT_ORBITAL_DEFENSE_SATELLITE_TORPEDO_COVN;Plataforma de torpedos de plasma
+TEXT_PLANET_AKTIS_4_INFO_HIS;Aktis IV, etiquetado provisionalmente, es un planeta situado más allá de las Colonias Exteriores humanas dentro del sistema Aktis, hasta ahora no descubierto por el Gobierno Unificado de la Tierra. Con unas condiciones superficiales propicias para la habitación humana, Aktis IV presenta un intrigante paisaje dominado por vastas extensiones de océano adornadas con islas continentales dispersas. Sin embargo, la enigmática naturaleza de los océanos del planeta, caracterizados por una sustancia opaca y espumosa de composición no identificada, plantea un desafío para el análisis por radar, envolviendo sus misterios en el secreto.
+TEXT_PLANET_ALERIA_INFO_ADV;Sin ventaja planetaria
+TEXT_PLANET_ALERIA_INFO_HIS;Aleria, también llamada Elduros II, ocupa la órbita más exterior del sistema Elduros y funciona como una colonia exterior empobrecida en los márgenes de la expansión humana. Antiguamente conocida por sus abundantes reservas de mineral y su floreciente economía, Aleria ha caído en la desesperación debido al deterioro del clima y a la mala gestión gubernamental, lo que ha culminado en un colapso económico.
+TEXT_PLANET_ALERIA_INFO_POP;Mundo exterior de colonias humanas
+TEXT_PLANET_ALERIA_INFO_TAC;Sin ventaja táctica
+TEXT_PLANET_ALERIA_INFO_TER;Mundo seco y desolado
+TEXT_PLANET_ALERIA_INFO_WEA;Seco y caluroso
+TEXT_PLANET_ALERIA_INFO_WL;Ninguna
+TEXT_PLANET_ALLUVION_INFO_ADV;Producción de naves de mayor tamaño
+TEXT_PLANET_ALLUVION_INFO_HIS;Alluvion, también conocido como Bhaakto III, es el tercer cuerpo celeste del sistema Bhaakto y funciona como una colonia exterior humana gobernada por el Gobierno Unificado de la Tierra. Alrededor de Alluvion orbitan los satélites naturales Fallow y Falgo. Inicialmente repleta de millones de habitantes, Alluvion sufrió la devastación durante la Guerra Humano-Covenant en 2543, cuando fue sometida al acristalamiento por parte del Covenant. Sin embargo, en 2554, Alluvion se sometió a los esfuerzos de recolonización, marcando un testimonio de la resistencia de la humanidad frente a la adversidad.
+TEXT_PLANET_ALLUVION_INFO_POP;Mundo humano densamente poblado
+TEXT_PLANET_ALLUVION_INFO_TAC;Mundo densamente poblado y estrechamente vinculado al UNSC.
+TEXT_PLANET_ALLUVION_INFO_TER;Un mundo tropical con vastos océanos.
+TEXT_PLANET_ALLUVION_INFO_WEA;Clima tropical
+TEXT_PLANET_ALLUVION_INFO_WL;No se sabe mucho
+TEXT_PLANET_ARCADIA_INFO_ADV;Combate urbano
+TEXT_PLANET_ARCADIA_INFO_HIS;Arcadia, el cuarto planeta del sistema Procyon, cuenta con dos satélites naturales conocidos como Gihon y Pishon. Colonizada en el año 2429, Arcadia emergió como una vibrante colonia exterior bajo la gobernanza del Gobierno Unificado de la Tierra, albergando una población cercana a los tres millones de almas. Conocida por sus exuberantes selvas y verdes bosques, Arcadia se convirtió en un codiciado destino turístico, cautivando a los visitantes con su esplendor y encanto natural.
+TEXT_PLANET_ARCADIA_INFO_POP;Colonia mundial próspera
+TEXT_PLANET_ARCADIA_INFO_TAC;Grandes centros urbanos, con varios complejos militares.
+TEXT_PLANET_ARCADIA_INFO_TER;Tropical, con frondosos bosques y una Jungla que controla la mayor parte de la superficie.
+TEXT_PLANET_ARCADIA_INFO_WEA;Despejado
+TEXT_PLANET_ARCADIA_INFO_WL;Sin describir
+TEXT_PLANET_BALAHO_INFO_ADV;Ninguno
+TEXT_PLANET_BALAHO_INFO_HIS;Balaho, alternativamente reconocido como Tala IV, es el planeta nativo de la especie Unggoy, situado como cuarto cuerpo celeste que gira alrededor de la estrella azul Tala. Caracterizado por una atmósfera abundante en metano, Balaho está acompañado en su órbita por dos satélites naturales, Buwan y Padpad. A pesar de su hostilidad y frigidez inherentes, el planeta cuenta con marismas salobres y numerosos pantanos, aunque su hospitalidad disminuye con el tiempo debido a la degradación medioambiental.
+TEXT_PLANET_BALAHO_INFO_POP;Mundo natal de los Unggoy
+TEXT_PLANET_BALAHO_INFO_TAC;Los Unggoy son de bajo nivel en el Covenant y se utilizan como grunts.
+TEXT_PLANET_BALAHO_INFO_TER;La mayor parte del planeta está cubierta de hielo, con algunas zonas de mareas, marismas y cadenas montañosas.
+TEXT_PLANET_BALAHO_INFO_WEA;Vientos helados
+TEXT_PLANET_BALAHO_INFO_WL;Hogar de varios artrópodos, otros invertebrados y depredadores mortales para los Unggoy.
+TEXT_PLANET_BHEDALON_INFO_HIS;Bhedalon, un formidable mundo fortaleza de los Sangheili, fue utilizado por el Covenant como una importante sede de poder. Sin embargo, con el estallido del Gran Cisma y la consiguiente disolución del Covenant, la confusión se apoderó de Bhedalon. El conflicto que siguió dejó un rastro de devastación por todo el planeta, que provocó una gran destrucción y vastos campos de escombros por toda su superficie. Gran parte del valor inherente de Bhedalon se perdió tras el Gran Cisma, ya que importantes bienes y recursos se hundieron en las profundidades de sus océanos, haciéndolos inaccesibles.
+TEXT_PLANET_CHARYBDIS_IX_INFO_HIS;Charybdis IX, una valiosa colonia exterior humana situada en el sistema Charybdis, dependía del Gobierno Unificado de la Tierra. En su centro se encontraba la capital, Scyllion, que servía de bullicioso centro de gobierno y comercio para los habitantes del planeta.
+TEXT_PLANET_CHI_CETI_IV_INFO_HIS;Chi Ceti IV, reconocido por el Covenant como Chelav, es una colonia exterior humana ubicada en el sistema Chi Ceti, con un par de satélites naturales en órbita. Dentro del sistema, una lejana nebulosa roja se suma al paisaje celeste. En particular, el planeta alberga una instalación encubierta en su superficie conocida como el Centro de Pruebas de Materiales de Damasco, situado en Vhalkem. En esta instalación se lograron avances revolucionarios, como el desarrollo del armadura Mark IV MJOLNIR y la variante MJOLNIR EOD.
+TEXT_PLANET_CODISFOLD_INFO_HIS;Codisfold, que en su día fue una próspera colonia Sangheili, fue testigo de un capítulo desgarrador durante la Guerra de los Comienzos. Descubierto por los reformistas San'Shyuum, el planeta sufrió un destino devastador cuando su población de millones de Sangheili fue erradicada sistemáticamente.
+TEXT_PLANET_DOISAC_INFO_ADV;Con las duras condiciones del planeta, sólo los jiralhanae son los más adecuados.
+TEXT_PLANET_DOISAC_INFO_HIS;Doisac, designado como CE-75-2113 c en los registros Forerunner, ocupaba la tercera posición orbital dentro del sistema Oth Sonin, sirviendo como hogar ancestral de la especie Jiralhanae. Este formidable planeta contaba con tres satélites naturales: Warial, Soirapt y Teash.
+TEXT_PLANET_DOISAC_INFO_POP;Mundo natal de los Jiralhanae
+TEXT_PLANET_DOISAC_INFO_TAC;Los jiralhanae son guerreros fuertes, con muchos en el planeta.
+TEXT_PLANET_DOISAC_INFO_TER;Cubierto de rocas, bosques y desiertos, con poca agua repartida por todo el planeta.
+TEXT_PLANET_DOISAC_INFO_WEA;Alta temperatura
+TEXT_PLANET_DOISAC_INFO_WL;Varios depredadores a los jiralhanae
+TEXT_PLANET_EARTH_ENC;"La Tierra, también conocida como Sol III, reconocida en la era Forerunner como ""Erde-Tyrene"" es el tercer planeta y uno de los cuatro mundos terrestres del sistema Sol. Es el mundo natal de la especie humana, la actual capital del Gobierno Unificado de la Tierra y la sede del Mando Espacial de las Naciones Unidas (UNSC)."
+TEXT_PLANET_EARTH_INFO_ADV;Cantidades masivas de bases militares del UNSC.
+TEXT_PLANET_EARTH_INFO_HIS;"La Tierra, también conocida como Sol III, reconocida en la era Forerunner como ""Erde-Tyrene"" es el tercer planeta y uno de los cuatro mundos terrestres del sistema Sol. Es el mundo natal de la especie humana, la actual capital del Gobierno Unificado de la Tierra y la sede del Mando Espacial de las Naciones Unidas (UNSC)."
+TEXT_PLANET_EARTH_INFO_POP;Anfitrión masivo de una población humana.
+TEXT_PLANET_EARTH_INFO_TAC;Mundo anfitrión para los humanos
+TEXT_PLANET_EARTH_INFO_TER;Desde playas hasta montañas.
+TEXT_PLANET_EARTH_INFO_WEA;Despejado, Lluvia.
+TEXT_PLANET_EARTH_INFO_WL;Grandes cantidades de flora y fauna diversas.
+TEXT_PLANET_EAYN_INFO_HIS;Eayn, el principal satélite natural que rodea Chu'ot, que a su vez es el tercer planeta del sistema Y'Deio, es el mundo ancestral de la especie Kig-Yar. Situado en la región interior del vasto cinturón de asteroides del sistema Y'Deio, Eayn se encuentra en medio de una plétora de planetoides, lunas y asteroides que muchos Kig-Yar llaman hogar.
+TEXT_PLANET_ERIDANUS_2_INFO_HIS;Eridanus II, situado dentro del sistema Eridanus, surgió como un sereno mundo de colonias exteriores caracterizado por sus paisajes rurales, libres de contaminación y hacinamiento, y unas condiciones meteorológicas meticulosamente reguladas. Conocido por sus pintorescos paisajes y sus prestigiosas instituciones de enseñanza superior, Eridanus II atraía a personas en busca de tranquilidad y conocimiento. En particular, el planeta albergaba las ciudades de Luxor y Elysium City, que sirvieron de lugar de crianza para figuras notables como John-117, que más tarde fue reclutado para el programa SPARTAN-II en 2517. Emile-A239 procedía de Luxor, su lugar de nacimiento en el año 2523.
+TEXT_PLANET_FALAKNUMA_ENC;Falaknuma es un planeta del sistema 18 Scorpii y una colonia interior humana del Gobierno Unificado de la Tierra.
+TEXT_PLANET_FALAKNUMA_INFO_HIS;Falaknuma es un planeta del sistema 18 Scorpii y una colonia interior humana del Gobierno Unificado de la Tierra.
+TEXT_PLANET_FALAKNUMA_INFO_POP;Colonia humana interior
+TEXT_PLANET_FALAKNUMA_INFO_WL;No se sabe mucho
+TEXT_PLANET_FAR_ISLE_INFO_ADV;Mundo Colonia
+TEXT_PLANET_FAR_ISLE_INFO_HIS;Far Isle, situada como planeta colonia humana dentro del territorio del Gobierno Unificado de la Tierra, lleva el trágico legado de una de las atrocidades más infames del Mando Espacial de las Naciones Unidas (UNSC). Tras una rebelión en 2492 que desafió los esfuerzos de supresión, el UNSC recurrió a medidas drásticas, aniquilando la colonia con armas nucleares, lo que provocó la pérdida de todos sus habitantes y no dejó supervivientes.
+TEXT_PLANET_FAR_ISLE_INFO_POP;Hogar de humanos, sin embargo, un gran grupo no es fanático del UNSC.
+TEXT_PLANET_FAR_ISLE_INFO_TAC;Sistema exterior
+TEXT_PLANET_FAR_ISLE_INFO_TER;Una superficie Terra normal.
+TEXT_PLANET_FAR_ISLE_INFO_WEA;Lluvia.
+TEXT_PLANET_FAR_ISLE_INFO_WL;No descrito
+TEXT_PLANET_FELDOKRA_INFO_HIS;Feldokra fue colonizada por los grandes clanes marinos del pasado Sangheili, liderados por incondicionales kaidons que construyeron sus hogares sobre las aguas. Los habitantes de Feldokra son Sangheili fuertes y rudos, que prefieren la aventura y la belleza del mar abierto a la mundanidad de la vida terrestre. Con el tiempo, el Covenant desarrolló estructuras enermas por toda la superficie del mundo, ciudadelas militares que servirían al más alto escalón del personal militar, sólo superadas por las propias torres de la Alta Caridad. Durante la construcción, las investigaciones de los San'Shyuum revelaron lo que los Sangheili no habían descubierto
+TEXT_PLANET_GAO_INFO_HIS;Gao presenta un paisaje pintoresco, envuelto en exuberantes selvas que dominan su terreno. Cuando se observa desde el espacio, el planeta muestra un tono verde moteado, que va cambiando gradualmente a gris en sus polos, caracterizados por vastos desiertos. En las verdes selvas y cavernas de Gao prospera un ecosistema diverso y vibrante, repleto de una plétora de especies autóctonas como saurios, salamandras, idjoms, jungaloons, serpientes de lazo, caracoles sin concha, dragones de la selva moteados y peces brillantes. Mientras tanto, las regiones polares del planeta son el hogar de los imponentes grandes simios grises, que se suman a la riqueza y diversidad del mundo natural de Gao.
+TEXT_PLANET_GLYKE_INFO_HIS;Glyke, venerado como la Esfera de la Alabanza por los Profetas, sirvió como mundo colonia Sangheili hasta su trágica desaparición a manos de los Spartan-II del Equipo Gris. Este catastrófico suceso ocurrió pocos días después de la formalización del tratado entre el Gobierno Unificado de la Tierra y la Flota de la Retribución.
+TEXT_PLANET_GLYKE_INFO_POP;Hogar de grandes cantidades de Sangheili
+TEXT_PLANET_GLYKE_INFO_TAC;Aunque Glyke tiene una población civil Sangheili, fue un importante planeta de construcción naval para el Covenant, que alberga una importante población militar.
+TEXT_PLANET_GLYKE_INFO_TER;Se dice que contiene ríos fuertes y fortalezas arenosas. Las fortalezas arenosas son los hogares ancestrales de los Sangheili y se representan como casas talladas en las laderas de rocas altas.
+TEXT_PLANET_GLYKE_INFO_WEA;Fuertes vientos atronadores.
+TEXT_PLANET_GLYKE_INFO_WL;Aunque es el hogar de los Sangheili, no se sabe que haya mucho más que viva entre ellos.
+TEXT_PLANET_HARMONY_ENC;Harmony era una colonia humana situada entre las Colonias Internas. El planeta fue acristalado por el Covenant en 2552. No está relacionado con Nueva Harmony, otra colonia humana.
+TEXT_PLANET_HARMONY_INFO_HIS;Harmony era una colonia humana situada entre las Colonias Internas. El planeta fue acristalado por el Covenant en 2552. No está relacionado con Nueva Harmony, otra colonia humana.
+TEXT_PLANET_HARVEST_INFO_HIS;Harvest, también identificada como Epsilon Indi IV y designada CE-309-8 d por los Forerunners, tuvo importancia como Colonia Exterior humana fundamental, establecida inicialmente como un mundo crucial «granero». Su colonización en 2468 por el Skidbladnir de la UNSC marcó un hito, ya que se convirtió en la colonia más remota de la época. Situada en el sistema Epsilon Indi, Harvest desgraciadamente se ganó la triste distinción de ser el primer planeta humano descubierto y devastado por el Covenant. Tras un primer encuentro catastrófico, el planeta fue víctima del acristalamiento del Covenant, aunque la mayoría de su población consiguió escapar a bordo de cargueros.
+TEXT_PLANET_INSTALLATION_05_INFO_HIS;La Instalación 05, comúnmente conocida como Delta Halo, se erige como uno de los colosales mundos fortaleza de Halo construidos meticulosamente por los Forerunners. Inicialmente supervisado por el monitor 2401 Penitent Tangent, el anillo enfrentó un punto de inflexión crítico cuando su negligencia permitió que el Flood violara su contención. Ubicada dentro del sistema Coelest, la Instalación 05 orbita alrededor de Substance, un gigante de hielo que ocupa la cuarta posición orbital dentro del sistema. Situada dentro del Brazo Norma de la galaxia de la Vía Láctea, la Instalación 05 tiene un papel fundamental en la intrincada red de construcciones Forerunner.
+TEXT_PLANET_KAMCHATKA_INFO_HIS;Kamchatka, también designado como Caspar V, ocupa la quinta posición orbital dentro del sistema Caspar. Originalmente creado por los Forerunners, este mundo remoto desempeñó una doble función como complejo de rehabilitación para los Trabajadores de la Vida y como nodo central del Dominio para la ecumene. Sin embargo, tras la activación del Halo Array, Kamchatka cayó en el olvido y permaneció en las afueras de la civilización hasta su redescubrimiento en 2558.
+TEXT_PLANET_KARAVA_INFO_ADV;Bosques frondosos
+TEXT_PLANET_KARAVA_INFO_HIS;En algún momento de su historia, Karava fue el hogar de una civilización no identificada. Esta especie fue descubierta por el Covenant, que exigió a la civilización que se sometiera al imperio. Ante su negativa, el Covenant desplegó trescientos bombarderos Gigas de patrón-N'weo para aniquilar por completo a la especie en el planeta, genocidándola por completo. Posteriormente, el planeta fue colonizado y se convirtió en uno de los mundos diezmados del imperio.
+TEXT_PLANET_KARAVA_INFO_POP;Con su población nativa aniquilada, se convirtió en un pequeño planeta colonia Sangheili.
+TEXT_PLANET_KARAVA_INFO_TAC;El planeta se encuentra entre el espacio en disputa
+TEXT_PLANET_KARAVA_INFO_TER;Plantas exuberantes y otra flora verde cubren sus Montañas
+TEXT_PLANET_KARAVA_INFO_WEA;Despejado
+TEXT_PLANET_KARAVA_INFO_WL;Desconocido
+TEXT_PLANET_KHAELMOTHKA_INFO_HIS;"Khael'mothka, descrita como una colonia fronteriza Sangheili ""agresiva"", se encuentra en las afueras del complejo de mundos primarios Sangheili, simbolizando un límite entre las regiones conocidas y desconocidas del territorio Sangheili."
+TEXT_PLANET_KOSTRODA_INFO_HIS;Kostroda, conocida como Servicio Duradero en la lengua común, es una luna pantanosa ubicada en el sistema Mis'Fah, perteneciente al Covenant. Envuelta en niebla y misterio, alberga un próspero ecosistema entre sus turbios pantanos y enmarañados bosques.
+TEXT_PLANET_MADRIGAL_INFO_HIS;Madrigal floreció como una vibrante colonia exterior humana ubicada dentro del sistema 23 Librae, disfrutando de la distinción de ser el único planeta dentro de la zona habitable de la estrella. En cuanto a proximidad, ocupó la posición más cercana a Harvest en 2525. Trágicamente, en 2528, Madrigal sufrió el mismo destino que Harvest, convirtiéndose en otra víctima más en la lista de colonias humanas sometidas a la cristalización por parte del Covenant.
+TEXT_PLANET_MARS_ENC;Marte, alternativamente conocido como Sol IV y reconocido como Edom en la antigua era de los Forerunner, orbita como el cuarto mundo terrestre dentro del sistema Sol. Pionero en la era de la colonización interplanetaria humana, Marte se erige como piedra angular de la destreza industrial, presumiendo de ser uno de los mayores centros industriales del sistema Solar. Marte, principal astillero de la Armada de la UNSC y cuartel general de las Tropas de Choque Orbitales en la ciudad de Kenosha (Tanais), personifica la ambición de la humanidad más allá de los límites de la Tierra.
+TEXT_PLANET_MARS_INFO_HIS;Marte, alternativamente conocido como Sol IV y reconocido como Edom en la antigua era de los Forerunner, orbita como el cuarto mundo terrestre dentro del sistema Sol. Pionero en la era de la colonización interplanetaria humana, Marte se erige como piedra angular de la destreza industrial, presumiendo de ser uno de los mayores centros industriales del sistema Solar. Marte, principal astillero de la Armada de la UNSC y cuartel general de las Tropas de Choque Orbitales en la ciudad de Kenosha (Tanais), personifica la ambición de la humanidad más allá de los límites de la Tierra.
+TEXT_PLANET_MERIDIAN_INFO_HIS;Meridian, conocida por los Forerunners como Pridarea Libatoa, surgió como una dinámica colonia exterior humana, ubicada como séptimo satélite natural en órbita alrededor del gigante gaseoso Hestia V, dentro del sistema de Hestia. A pesar de su posición al margen del territorio explorado por los humanos, Meridian prosperó como una colonia próspera y bulliciosa, con una economía floreciente y una población considerable. Entre las industrias más destacadas de la luna se encontraban la minería y la producción militar, que satisfacían las necesidades del Mando Espacial de las Naciones Unidas (UNSC). Caracterizada inicialmente por su exuberante vegetación, Meridian gozaba de un clima templado y tierras fértiles, lo que aumentaba su atractivo como hábitat deseable dentro del cosmos.
+TEXT_PLANET_MIRIDEM_ENC;Miridem, una preciada Colonia Interior bajo el estandarte del Gobierno Unificado de la Tierra, se erigió como testamento de la resistencia humana en el cosmos. A pesar de su tamaño relativamente modesto en comparación con las colonias del sistema Solar y Epsilon Eridani, Miridem prosperó como un mundo central robusto y densamente poblado, encarnando la fuerza y el espíritu de la expansión de la humanidad hacia las estrellas.
+TEXT_PLANET_MIRIDEM_INFO_HIS;Miridem, una preciada Colonia Interior bajo el estandarte del Gobierno Unificado de la Tierra, se erigió como testamento de la resistencia humana en el cosmos. A pesar de su tamaño relativamente modesto en comparación con las colonias del sistema Solar y Epsilon Eridani, Miridem prosperó como un mundo central robusto y densamente poblado, encarnando la fuerza y el espíritu de la expansión de la humanidad hacia las estrellas.
+TEXT_PLANET_NEFOLUZO_INFO_ADV;Ninguno
+TEXT_PLANET_NEFOLUZO_INFO_HIS;Nefoluzo, un supuesto planeta situado en la vasta extensión de la Vía Láctea, se caracteriza por sus extensos páramos desérticos. Se cuenta que, en un momento dado, el Jiralhanae Castor se encontró varado en el planeta, amenazado de deshidratación por la aridez del terreno. Sin embargo, el destino intervino cuando las tierras desérticas se inundaron de repente con un diluvio de lluvia, ofreciendo un salvavidas a Castor y solidificando su creencia en la benevolencia y providencia de los Forerunners.
+TEXT_PLANET_NEFOLUZO_INFO_POP;Ninguno
+TEXT_PLANET_NEFOLUZO_INFO_TAC;No hay cobertura, salvo las vastas colinas de dunas de arena.
+TEXT_PLANET_NEFOLUZO_INFO_TER;Vsat Páramos Desérticos
+TEXT_PLANET_NEFOLUZO_INFO_WEA;Árido
+TEXT_PLANET_NEFOLUZO_INFO_WL;Ninguno
+TEXT_PLANET_NETHEROP_INFO_ADV;Ninguno
+TEXT_PLANET_NETHEROP_INFO_HIS;Netherop, reconocido por el Covenant como Neska y N'ba, es un planeta invernadero situado dentro del sistema Ephyra. Situado entre el sector Polona de la humanidad y los sectores exteriores de los Sangheili, Netherop alberga los restos de una antigua civilización que alguna vez floreció en su superficie, pero que desde entonces ha permanecido deshabitada durante siglos.
+TEXT_PLANET_NETHEROP_INFO_POP;Hogar de una población nativa ya extinguida.
+TEXT_PLANET_NETHEROP_INFO_TAC;Ninguno
+TEXT_PLANET_NETHEROP_INFO_TER;Desiertos desnudos.
+TEXT_PLANET_NETHEROP_INFO_WEA;Ninguno
+TEXT_PLANET_NETHEROP_INFO_WL;Plantas vela, arbustos florero.
+TEXT_PLANET_NEW_CARTHAGE_ENC;zafiro radiante, Nueva Cartago presume de vastos océanos azules que ocultan multitud de especies peligrosas, entre ellas el formidable gran tiburón rojo. A diferencia de muchas colonias, Nueva Cartago no requirió terraformación para acomodar la habitación humana. A pesar de que ha pasado más de un siglo desde la colonización, una parte significativa de los hostiles entornos alienígenas del planeta sigue siendo desconocida. Su terreno comprende montañas de pizarra erosionadas, altas llanuras alpinas y extensiones de praderas semiáridas y desiertos.
+TEXT_PLANET_NEW_CARTHAGE_INFO_HIS;zafiro radiante, Nueva Cartago presume de vastos océanos azules que ocultan multitud de especies peligrosas, entre ellas el formidable gran tiburón rojo. A diferencia de muchas colonias, Nueva Cartago no requirió terraformación para acomodar la habitación humana. A pesar de que ha pasado más de un siglo desde la colonización, una parte significativa de los hostiles entornos alienígenas del planeta sigue siendo desconocida. Su terreno comprende montañas de pizarra erosionadas, altas llanuras alpinas y extensiones de praderas semiáridas y desiertos.
+TEXT_PLANET_NEW_JERUSALEM_ENC;Nueva Jerusalén, antes conocida como Cygnus III, ocupaba la tercera posición orbital en el sistema Cygnus, sirviendo como Colonia Exterior fundamental dentro del espacio humano. Considerada un importante bastión del Gobierno Unificado de la Tierra, Nueva Jerusalén se erigió junto a Cygnus como uno de los asentamientos humanos del sistema. La capital, que comparte su nombre con el planeta, personificaba el corazón de la civilización de Nueva Jerusalén.
+TEXT_PLANET_NEW_JERUSALEM_INFO_HIS;Nueva Jerusalén, antes conocida como Cygnus III, ocupaba la tercera posición orbital en el sistema Cygnus, sirviendo como Colonia Exterior fundamental dentro del espacio humano. Considerada un importante bastión del Gobierno Unificado de la Tierra, Nueva Jerusalén se erigió junto a Cygnus como uno de los asentamientos humanos del sistema. La capital, que comparte su nombre con el planeta, personificaba el corazón de la civilización de Nueva Jerusalén.
+TEXT_PLANET_PALAMOK_INFO_HIS;Palamok, el tercer planeta del sistema Napret, es el hogar ancestral de la especie Yanme'e. En su órbita hay cuatro lunas: Naxook, Oquiu, Ka'amoti y Kami.
+TEXT_PLANET_REACH_CUSTOM_INFO_HIS;El modo de juego de transporte económico cambia la forma de ganar dinero durante una batalla de escaramuzas. Cuando construyes una instalación minera, aparece un transporte en la instalación y carga suministros. Cuando los suministros están completamente cargados, el transporte se dirige a tu estación espacial. Cuando llega a tu estación, el transporte descarga los suministros y ganas créditos. La cantidad de créditos que usted gana se basa en sus mejoras económicas. Y el tiempo que se tarda en cargar y descargar los suministros también se basa en las mejoras económicas. Ten cuidado porque tu transporte puede ser eliminado, cuando tu transporte es destruido, tu instalación minera empezará a construir otro, pero mientras construye el nuevo transporte eliminará créditos de tu presupuesto. Recuerda proteger tus transportes ya que son muy vulnerables.
+TEXT_PLANET_REACH_ENC;Reach, también conocido como Epsilon Eridani II, es una colonia humana situada en el sistema Epsilon Eridani, dentro de las Colonias Internas, y es el planeta hermano de la Tierra. Situado a 10,5 años luz del sistema Sol, se encuentra a las puertas metafóricas de la Tierra. Reach es el cuarto planeta más grande del sistema Epsilon Eridani y el segundo más cercano a la estrella Epsilon Eridani.
+TEXT_PLANET_REACH_INFO_ADV;Producción de Naves Capitales de la U.N.S.C.
+TEXT_PLANET_REACH_INFO_HIS;Reach, también conocido como Epsilon Eridani II, es un mundo colonia humano del sistema Epsilon Eridani, situado dentro de las Colonias Internas y es el planeta hermano de la propia Tierra. A 10,5 años luz del sistema Sol, se encuentra a las puertas metafóricas de la Tierra. Reach es el cuarto planeta más grande del sistema Epsilon Eridani, y el segundo más cercano a la estrella Epsilon Eridani. Antaño hogar de una presencia Forerunner, Reach tuvo una importancia considerable para el Mando Espacial de las Naciones Unidas (UNSC) como nexo de su ejército y sede de numerosas instalaciones militares-industriales, como astilleros. También era importante por ser uno de los mayores productores de titanio, que abunda en el planeta. Aunque es más conocido por su condición de mundo militar, Reach fue también la segunda colonia más poblada de la humanidad.
+TEXT_PLANET_REACH_INFO_POP;Humanos
+TEXT_PLANET_REACH_INFO_TAC;Reach tiene muchas bases y puestos avanzados de la UNSC.
+TEXT_PLANET_REACH_INFO_TER;Montañas y bosques densos
+TEXT_PLANET_REACH_INFO_WEA;Tormentas extremas (anteriormente) Tormentas ligeras
+TEXT_PLANET_REACH_INFO_WL;No se sabe mucho sobre la fauna de Reach.
+TEXT_PLANET_RHANELO_INFO_HIS;Rahnelo es una colonia fronteriza de los Sangheili que encarna el espíritu de exploración y expansión hacia lo desconocido. Como fiel aliado de las Espadas de Sanghelios, Rahnelo desempeña un papel fundamental en la defensa de los valores y objetivos de la alianza Sangheili.
+TEXT_PLANET_SANGHELIOS_INFO_HIS;Sanghelios, también conocido como Urs IV y designado CE-80-9012 d por los Forerunners, es la patria ancestral de la especie Sangheili. Ubicado como el cuarto cuerpo celeste dentro del sistema Urs, Sanghelios reside en un sistema estelar triple que alberga a Urs, Fied y Joori. El planeta cuenta con dos satélites naturales, Qikost y Suban, que lo orbitan. Caracterizado por una sociedad militarista y feudal profundamente arraigada, Sanghelios refleja la naturaleza severa de su entorno, dando forma a la cultura y las tradiciones de sus habitantes.
+TEXT_PLANET_SONG_OF_VICTORY_INFO_HIS;La Canción de la Victoria era un mundo colonia del Covenant. Fue el hogar del Torno de los Iluminados, una planta de construcción naval que construyó el carguero de asalto clase CAS Sombra de Intención durante la Tercera Era del Descubrimiento
+TEXT_PLANET_TANTALUS_ENC;Tantalus, ubicada en el sistema Epsilon Eridani, prospera como una colonia interior fundamental bajo la jurisdicción del Gobierno Unificado de la Tierra. Salvaguardada por una modesta flota de naves de guerra de la UNSC estacionadas en órbita, la colonia representa un faro de la presencia humana en el cosmos.
+TEXT_PLANET_TANTALUS_INFO_HIS;Tantalus, ubicada en el sistema Epsilon Eridani, prospera como una colonia interior fundamental bajo la jurisdicción del Gobierno Unificado de la Tierra. Salvaguardada por una modesta flota de naves de guerra de la UNSC estacionadas en órbita, la colonia representa un faro de la presencia humana en el cosmos.
+TEXT_PLANET_TARAM_INFO_HIS;Taram, reconocido por los Forerunners como Rijaal Suluhu y por los Guardianes de la Única Libertad como el Reducto de los Fieles, orbita alrededor del planeta Pydoryn dentro del sistema Shaps. Esta luna, con su distintivo tono amarillo cuando se ve desde lejos, tiene un significado en las diferentes culturas y facciones de la galaxia.
+TEXT_PLANET_TE_INFO_ADV;Alta gravedad
+TEXT_PLANET_TE_INFO_HIS;Te, es un gigante gaseoso y el quinto planeta en órbita alrededor de la estrella Svir. Es el mundo natal de la especie Lekgolo.
+TEXT_PLANET_TE_INFO_POP;Hogar de un billón de Lekgolo
+TEXT_PLANET_TE_INFO_TAC;Los Lekgolo son utilizados por el Covenant para la construcción de Orgánicos Militares.
+TEXT_PLANET_TE_INFO_WEA;Ninguno
+TEXT_PLANET_TE_INFO_WL;Ninguno
+TEXT_PLANET_TERRA_NOVA_ENC;"Terra Nova es un mundo colonial del Gobierno Unificado de la Tierra. Su nombre significa ""Nueva Tierra"" en latín. Terra Nova figura como ""hogar de registro"" en un irónico documento de alistamiento para las fuerzas armadas del UNSC."
+TEXT_PLANET_TERRA_NOVA_INFO_HIS;"Terra Nova es un mundo colonial del Gobierno Unificado de la Tierra. Su nombre significa ""Nueva Tierra"" en latín. Terra Nova figura como ""hogar de registro"" en un irónico documento de alistamiento para las fuerzas armadas del UNSC."
+TEXT_PLANET_THRESHOLD_INFO_HIS;Threshold, también conocido como Soell VII, es un colosal gigante gaseoso del sistema Soell, que ocupa la séptima y más amplia posición entre los planetas del sistema. Sirviendo como ancla gravitatoria de la Instalación 04, Threshold desempeñó un papel crítico en la estabilización de la instalación, estratégicamente posicionado en el punto L1 Lagrange situado entre el propio gigante gaseoso y su mayor satélite natural, Basis.
+TEXT_PLANET_THUA_INFO_HIS;Thua, agraciada por al menos un satélite natural, se distingue por su inmensa gravedad, que orquesta un oleaje de marea conocido como el Mar de la Luna Ut'hua, que barre las Planicies de Forever.
+TEXT_PLANET_TROVE_INFO_HIS;Trove, también conocido como Mundo Escudo 0459, era una notable instalación de escudos creada por los Precursores y situada en el sistema Korinth Prior. Conocido formalmente como el Puerto de Etran, Trove albergaba el Sitio Apex, que servía como puerto crucial para una flota de acorazados de clase Sojourner junto con sus estaciones de acoplamiento de batalla. Más allá de su papel militar, Trove funcionaba como una esfera de conservación, diseñada con el noble propósito de salvaguardar las formas de vida sensibles de las devastadoras repercusiones del Halo Array y la insidiosa amenaza que suponía el Flood.
+TEXT_PLANET_TVAO_INFO_HIS;T'vao, un asteroide del sistema Y'Deio, es el hogar de la colonia Kig-Yar conocida como Ciudad Myur. Sus condiciones ambientales más duras, que incluyen una mayor gravedad y cambios atmosféricos, han provocado considerables diferencias evolutivas en los t'vaoanos, también conocidos como skirmishers por los humanos, en comparación con otros subtipos de Kig-Yar.
+TEXT_PLANET_ULGETHON_INFO_HIS;Ulgethon fue visitada en su día por los Forerunner, que dejaron tecnología y diversas estructuras ocultas en sus cadenas montañosas. Antes del 938 a.C., Ulgethon fue colonizada por los Sangheili, que establecieron al menos un asentamiento entre las estructuras construidas por los Forerunner, a los que adoraban como dioses.
+TEXT_PLANET_VEN_3_INFO_HIS;Durante la Guerra entre los Humanos y el Covenant, Palamok sirvió como área de preparación esporádica para grandes ofensivas del Covenant. Sin embargo, tras la conclusión de la guerra, el planeta Ven III permaneció sin reclamar. Una de sus cavernas subterráneas se convirtió en un centro de actividades criminales, atrayendo a piratas Kig-Yar, contrabandistas, traficantes de armas y esclavistas. Preocupada por la escalada de la situación, la Oficina de Inteligencia Naval (ONI) envió informes al Alto Mando del UNSC, instando a tomar medidas contra los piratas. Cuando el UNSC no actuó, la ONI recurrió a la contratación de un mercenario sangheili para orquestar un plan. El plan consistía en crear una falsa historia de amenaza biológica que condujera al UNSC al planeta para eliminar a los piratas. El plan fracasó cuando el arma biológica mató a los Kig-Yar, permitiendo a los Sangheili escapar con la peligrosa sustancia.
+TEXT_PLANET_VICTORS_TRUTH_INFO_ADV;Ninguno
+TEXT_PLANET_VICTORS_TRUTH_INFO_HIS;No se sabe mucho sobre la historia de este planeta.
+TEXT_PLANET_VICTORS_TRUTH_INFO_POP;Desconocido
+TEXT_PLANET_VICTORS_TRUTH_INFO_TAC;Un arsenal de Jiralhanae
+TEXT_PLANET_VICTORS_TRUTH_INFO_TER;Sin describir
+TEXT_PLANET_VICTORS_TRUTH_INFO_WEA;Sin describir
+TEXT_PLANET_VICTORS_TRUTH_INFO_WL;Desconocido
+TEXT_PLANET_YONHE_INFO_HIS;Yonhe, una diminuta luna situada en el Brazo de Orión, estuvo una vez bajo el dominio del Imperio del Covenant. Hogar ancestral de la especie Yonhet, este cuerpo celeste es portador de la rica historia y cultura de sus habitantes.
+TEXT_REACTOR_HARDPOINT;Reactor principal
+TEXT_RESEARCH_FACILITY_COVN;Centro de Investigación Covenant
+TEXT_RESEARCH_FACILITY_UNSC;Centro de Investigación de la U.N.S.C.
+TEXT_RESEARCH_FACILITY_UNSC_ENC;Centro de investigación militar de vanguardia en el espacio profundo. Modificada a partir de una plataforma Anchor 9 de nivel 2, esta instalación alberga equipos multinacionales que llevan a cabo experimentos de alto secreto en armamento avanzado, inteligencia artificial y análisis de amenazas extraterrestres. Al disfrutar de una ventaja orbital, garantiza una mayor seguridad y fomenta la colaboración internacional, lo que la convierte en un activo fundamental en la búsqueda de la supremacía tecnológica del UNSC.
+TEXT_SABRE_SQUADRON;Escuadrón de Clase Sabre
+TEXT_SECRET;Espera un minuto
+TEXT_SECRET_ENC;Si ves esto, lo más probable es que se deba a alguna solución extraña. Ignóralo :)
+TEXT_SERAPH_SQUADRON;Escuadrón de Clase Seraph
+TEXT_SHORTSWORD_SQUADRON;Escuadrón Shortsword de la UNSC
+TEXT_SKIRMISH_LOAD_TEXT;Cargando Simulación de Batalla ONI...
+TEXT_SPACE;
+TEXT_STORY_COVN_ARTIFACTS_BODY;Bienvenido a la Pantalla de Investigación de Artefactos. Esto se utiliza para realizar un seguimiento de su progreso para el número de artefactos Forerunner que ha desenterrado, y cuántos le falta para la mejora de tecnología, Sí, has oído bien, la excavación de artefactos Forerunner y la investigación de ellos es necesario para avanzar en su nivel de tecnología.
+TEXT_STORY_COVN_ARTIFACTS_HOW_TO_BODY;Algunos planetas están marcados con artefactos Forerunner, cuando usted tiene el control sobre ese planeta, usted tendrá la capacidad de desenterrar un artefacto Forerunner que tomará algún tiempo. Después de hacerlo, obtendrás una nave con el artefacto, entonces tendrás que transportar esa nave a un planeta con una instalación de investigación, después de lo cual podrás investigar el artefacto.
+TEXT_STORY_COVN_ARTIFACTS_HOW_TO_TITLE;Como
+TEXT_STORY_COVN_ARTIFACTS_INFO;Información transmitida:
+TEXT_STORY_COVN_ARTIFACTS_TITLE;Investigación de artefactos Forerunner
+TEXT_STORY_COVN_HWD_BODY;El desarrollo de armas pesadas es necesario para la construcción de las naves capitales ORS, CPV y CAS, y eventualmente la CSO. Cuando se haya investigado, la construcción de las naves mencionadas podrá ponerse en marcha. Sin embargo, para la CSO, no sólo se necesita el Desarrollo de Armas Pesadas, sino que también será necesario construir la cantidad de naves CAS que se indican a continuación, así como la Tecnología 5. A continuación se muestra el progreso de la CSO.
+TEXT_STORY_COVN_HWD_TITLE;Desarrollo de Armas Pesadas
+TEXT_STORY_GC_EVOLVED_BODY_COVN;Bienvenido a la Campaña de Combat Evolved. Esta es la historia principal que seguirá desde el año 2400 hasta finales del 2500. Lucharás contra la UNSC, los Insurrecionistas y los Desterrados. No será fácil, ya que habrá muchas cosas que se interpondrán en tu camino. Elimina a todas las fuerzas enemigas y no habrá nada que se interponga en el camino del Covenant.
+TEXT_STORY_GC_EVOLVED_BODY_UNSC;Bienvenido a la Campaña de Combat Evolved. Esta es la historia principal que se desarrollará desde el año 2400 hasta finales del 2500. Lucharás contra el Covenant, los Insurrecionistas y los Desterrados. No será fácil, ya que habrá muchas cosas que se interpondrán en tu camino. Elimina a todas las fuerzas enemigas y no habrá nada que se interponga en el camino de la UNSC.
+TEXT_STORY_GC_EVOLVED_TITLE;Combat Evolved
+TEXT_STORY_GC_FAR_ISLE_REBELLION_BODY;Tenemos informes de una creciente rebelión en Far Isle, por mucho que lo intentemos no podemos calmarlos. Puede que tengamos que recurrir a lo peor. Se le han dado planes para lo que llamamos Código: BANDERSNATCH. Limpia a los Insureccionistas del Planeta, y traeremos un Escuadrón Longsword portando un arma nuclear especial, el equipo la activará y abandonará el sistema, tú también deberías hacerlo.
+TEXT_STORY_GC_FAR_ISLE_REBELLION_TITLE;La Caida de Far Isle
+TEXT_STORY_GC_FAR_ISLE_REBELLION_WARNING_BODY;Los insurrecionistas en la Isla Lejana están empezando a alborotarse, estamos intentando todo lo posible sin embargo no quieren calmarse. Esto puede convertirse en algo mucho peor. Y cada vez que intentamos ayudarles, se enfadan más. Espera que Far Isle caiga pronto en sus manos.
+TEXT_STORY_GC_FAR_ISLE_REBELLION_WARNING_TITLE;Advertencia: Incremento creciente de los insurreccionistas en Far Isle
+TEXT_STORY_HERO_RESCUE_BODY;¡Hemos perdido a un héroe en la batalla! Sin embargo, la lucha no ha terminado. A continuación se detallan los nombres de los capturados y el lugar al que fueron llevados. Toma el control del planeta objetivo y rescatarás al héroe.
+TEXT_STORY_HERO_RESCUE_TITLE;IMPORTANTE!! Rescata al héroe principal
+TEXT_STORY_LOYALTY_DISPLAY_BODY;La lealtad del planeta es muy importante, si no miras esto con atención, perderás el control de tu planeta. Recibirás la lealtad de tu planeta una vez al día. Hay dos factores principales: el poder de las unidades en un planeta (cuantas menos unidades haya en un planeta, más preocupados estarán tus ciudadanos) y si tu planeta es vecino de un enemigo.
+TEXT_STORY_LOYALTY_DISPLAY_FARMS_BODY;Otro factor importante para la Lealtad de tu Planeta son las Granjas, tener 1 es suficiente para evitar que la lealtad de tu población disminuya. Sólo puedes construir granjas una vez que alcances el Nivel Tecnológico 2. Si eres capaz de construir una granja pero no tienes una en un planeta, ¡tus ciudadanos se volverán infelices!
+TEXT_STORY_LOYALTY_DISPLAY_FARMS_TITLE;Estructuras agrícolas - Sólo UNSC
+TEXT_STORY_LOYALTY_DISPLAY_NEIGHBOR_BODY;Asegúrate de observar quién controla el planeta, si las personas equivocadas controlan un planeta junto al tuyo, tus ciudadanos pueden volverse infelices y, por tanto, menos leales, sin embargo, tu planeta tardará más en caer sólo por eso.
+TEXT_STORY_LOYALTY_DISPLAY_NEIGHBOR_TITLE;Planetas vecinos
+TEXT_STORY_LOYALTY_DISPLAY_TITLE;Lealtad del planeta
+TEXT_STORY_UNSC_INSTALLATION_CAPTURE_BODY;Actualmente, la Instalación 05 no está bajo su control. La necesitamos para el avance militar de la UNSC. Contiene artefactos Forerunner necesarios para equipar nuevas naves con escudos. Captúrela, luego investigue la tecnología de los escudos. Pero ten cuidado, si esa tecnología es destruida, tendremos que investigarla de nuevo. ¡Ten cuidado!
+TEXT_STORY_UNSC_INSTALLATION_CAPTURE_TITLE;Capturar la instalación 05
+TEXT_STORY_UNSC_SHIELD_TECH_BODY1;Necesitará control sobre la Instalación 05, cuando lo haga,
+TEXT_STORY_UNSC_SHIELD_TECH_H1;¿Cómo se construye?
+TEXT_STORY_UNSC_SHIELD_TECH_TITLE;Información técnica sobre el escudo
+TEXT_TARASQUE_SQUADRON;Escuadrón de clase Tarasque
+TEXT_TECH_COVN_COUNTDOWN_TIMER_CAS;Tiempo hasta que se complete el Carguero de Asalto clase CAS:
+TEXT_TECH_COVN_DIG_UP_ARTIFACT;Tiempo hasta que el artefacto es desenterrado:
+TEXT_TECH_COVN_RESEARCH_ARTIFACT;Tiempo hasta que se investigue el artefacto:
+TEXT_TECH_E_COUNTDOWN_TIMER_FIVE;Tiempo hasta que el Covenant alcance la tecnología 5:
+TEXT_TECH_E_COUNTDOWN_TIMER_FOUR;Tiempo hasta que el Covenant alcance la tecnología 4:
+TEXT_TECH_E_COUNTDOWN_TIMER_THREE;Tiempo hasta que el Covenant alcance la tecnología 3:
+TEXT_TECH_E_COUNTDOWN_TIMER_TWO;Tiempo hasta que el Covenant alcance la tecnología 2:
+TEXT_TECH_UNSC_COUNTDOWN_TIMER_ARTIFACT;Ubicación del artefacto y hora de extracción:
+TEXT_TECH_UNSC_COUNTDOWN_TIMER_FIVE;Tiempo hasta que la UNSC avance a nivel tecnológico 5:
+TEXT_TECH_UNSC_COUNTDOWN_TIMER_FOUR;Tiempo hasta que la UNSC avance a nivel tecnológico 4:
+TEXT_TECH_UNSC_COUNTDOWN_TIMER_INFINITY;Tiempo hasta que se complete el U.N.S.C Infinity:
+TEXT_TECH_UNSC_COUNTDOWN_TIMER_SHIELD;Investigación Tecnológica del Escudo de la U.N.S.C:
+TEXT_TECH_UNSC_COUNTDOWN_TIMER_THREE;Tiempo hasta que la UNSC avance a nivel tecnológico 3:
+TEXT_TECH_UNSC_COUNTDOWN_TIMER_TWO;Tiempo hasta que la UNSC avance a nivel tecnológico 2:
+TEXT_TOOLTIP_AUTUMN_CLASS;La primera nave capital de la UNSC construida durante el programa naval de posguerra, la clase Autumn, es una nave de combate de última generación. Utilizando tecnología de ingeniería inversa de los artefactos Covenant y Forerunner, estas naves utilizan escudos de energía y motores increíblemente eficientes. El diseño de las Autumns se inspiró directamente en la remodelación única del Pillar of Autumn, así como en los cruceros Marathon. Es una nave de vanguardia y más que capaz de combatir contra las naves capitales del Covenant.
+TEXT_TOOLTIP_BANSEE;Esta variante sellada al vacío del Is'belox Banshee es el interceptor estándar de la armada Covenant. Los canards están barridos hacia delante, lo que permite una maniobrabilidad superior para los motores de impulso. Los Banshees Elsedda están equipados con dos cañones de plasma anti-caza. Son los cazas más rápidos de la flota del Covenant, superando fácilmente a los cazas humanos. Los Elsedda Banshees suelen desplegarse en enjambres, pilotados por Sangheilli con un celo suicida.
+TEXT_TOOLTIP_BASELARD;El caza estelar más prolífico del Comando Espacial de las Naciones Unidas(UNSC) en el siglo XXV. Considerados obsoletos en la época de la Insurrección en la década de 2490, los Baselards son completamente superados por los cazas estelares Covenant. Los Baselard llevan un modesto armamento de cañones giratorios gemelos de 30 mm y misiles M42 Archer.
+TEXT_TOOLTIP_BROAD;El Broadsword es un caza multirol equipado con misiles más ligeros en comparación con el Longsword, pero está mejor armado contra cazas.
+TEXT_TOOLTIP_BROADSWORD;Los primeros F-41 se desarrollaron ya en 2535 en respuesta a los superiores Seraphs de Covenant. Aunque se produjeron miles durante la guerra, los impresionantes paquetes de mejoras sólo estaban disponibles en la economía de posguerra. Utilizando la gran variedad de naves Covenant capturadas para su estudio, Misriah Armory desarrolló un escudo de plasma lo suficientemente pequeño como para equiparlo en el Broadsword. El reactor de fusión se mejoró para alimentar los nuevos escudos, mientras que el fuselaje recibió un mayor revestimiento de Titanio-A. El F-41E se considera inigualable entre los cazas estelares humanos y es más que capaz de desafiar a las naves del Covenant.
+TEXT_TOOLTIP_CERASTES;El principal bombardero del Covenant, el Cerastes comenzó su servicio como un submodelo del Seraph. A diferencia del Seraph, el Cerastes cuenta con un blindaje más fuerte pero es significativamente más lento. Es capaz de una gran destrucción gracias a su capacidad para transportar torpedos de plasma y otras armas devastadoras.
+TEXT_TOOLTIP_COV_CAR;La fragata clase CAR es un buque de guerra ligero de escolta de alta velocidad capaz de contener pequeños grupos de ataque de la U.N.S.C.. La CAR está equipada con 7 baterías de combate y 2 baterías antibuque. Aunque es pequeño, está bien blindado, pero no tan bien acorazado.
+TEXT_TOOLTIP_COV_CAS;Uno de los mayores buques de guerra de la armada del Covenant, el carguero de asalto con diseño Kerel es una enorme nave de guerra de 5,3 km de eslora. El patrón de su casco comparte rasgos con los diseños Ket y Varrick, al tiempo que adopta una proa bulbosa única. Los Cargueros de Asalto Kerel cuentan con las armas más potentes, con un enorme arsenal de lanzas de plasma pesadas, cañones de plasma y muchos láseres de pulso. Estas naves están reservadas únicamente a los comandantes Sangheili y Jilrahane más condecorados, e infunden temor a todos los que se oponen a los Jerarcas.
+TEXT_TOOLTIP_COV_CCS;El crucero de batalla modelo Ket es la columna vertebral de la Armada del Covenant, y sustituye a los obsoletos cruceros Maugen. El Ket comparte el mismo estilo básico de casco que los cruceros Zanar más pequeños, pero mejorado significativamente. El patrón Ket se ha convertido en el diseño omnipresente de cualquier nave capital de la flota, sirviendo en una amplia gama de roles, desde acorazado, ocupación planetaria, hasta acristalamiento. Estas naves logran un delicado equilibrio entre armamento, blindaje y velocidad, y son más que capaces de aniquilar naves de guerra humanas de igual tonelaje.
+TEXT_TOOLTIP_COV_CPV;"Común en las flotas del Covenant, el Sinaris es un destructor fuertemente armado. Estas naves, que forman parte de la categoría de naves ""ejecutoras"", suelen estar tripuladas por desleales o revoltosos a los que aún se considera con potencial de redención. Estas naves suelen emplearse en maniobras muy agresivas, y sacrifican la durabilidad y los escudos más resistentes para dar prioridad a la potencia de las armas. Están equipadas con una gran variedad de cañones de plasma pesados, láseres de pulso y un rayo de excavación para operaciones de acristalamiento."
+TEXT_TOOLTIP_COV_CRS;Aunque la humanidad lo considera un crucero ligero, el Zanar sirve al Covenant como cúter, y originalmente se utilizaba para hacer cumplir los decretos de guerra en el espacio Covenant. A medida que la guerra con la humanidad se prolongó, más cruceros de tipo Zanar fueron retirados de sus funciones y colocados en funciones de combate específicas. Los cruceros de tipo Zanar son menos especializados que los cruceros más grandes y están equipados para una variedad de funciones, desde escoltar naves más grandes hasta patrullas independientes.
+TEXT_TOOLTIP_COV_CSO;Una nave de mando de extraordinaria magnitud, el supercarguero Sh'wada se considera la nave más grande y poderosa conocida por la civilización. Con una silueta casi idéntica a la de los cargueros Kerel, el Sh'wada ha aumentado su tamaño hasta alcanzar la colosal longitud de 29 kilómetros. Sólo se han construido unos pocos, y su función principal es el mando de flotas y la invasión de planetas. Los Supercargueros están equipados con cientos de sistemas de armamento, desde los más pequeños láseres de pulso hasta las enormes lanzas de plasma que sólo se encuentran en naves tan enormes. Los sh'wada son capaces de combatir contra grupos de combate enteros sin ayuda, y sin duda superan a cualquier nave humana.
+TEXT_TOOLTIP_COV_DDS;El modelo Ruma, de 3.000 metros de eslora, es menos común pero más especializado que los grandes cargueros de asalto. El papel principal de estas naves es el apoyo a la flota, así como el transporte para operaciones en las que se requiere una invasión terrestre. El casco de la nave está notablemente blindado para los estándares del Covenant, con algunas partes del casco con un blindaje de hasta 30 metros de grosor. A pesar de su gran tamaño, está modestamente armada con una serie de cañones de plasma ligeros y láseres de pulso.
+TEXT_TOOLTIP_COV_DDS_HOLD;Escuadrones Seraph: 4/20. Escuadrones Ceresates: 3/12.
+TEXT_TOOLTIP_COV_ORS;Los cruceros de batalla Varric son considerablemente más poderosos que cualquier otro modelo de crucero de la flota del Covenant. Encargados por primera vez durante los Años de Sangre del Covenant, cada Varric se considera un símbolo de honor ancestral.
+TEXT_TOOLTIP_COV_RCS;El modelo Maugen es un crucero acorazado que solía ser la columna vertebral de las flotas del Covenant, supuestamente en servicio desde los primeros viajes oceánicos de larga distancia de la Humanidad. La mayoría de esta clase ha sido desguazada debido a su antigüedad, y las naves restantes se han destinado a flotas de reserva. Sigue siendo potente en comparación con sus contemporáneos humanos, pero es mucho más vulnerable a los daños debido a su blindaje arcaico.
+TEXT_TOOLTIP_COV_SDV;"Ensamblada en masa por los Maestros Forjadores de Tanus y la Bóveda de Ensamblaje de Gorgonas, la Ceudar es la principal corbeta de la armada del Covenant. El conjunto de ""doble casco"" es bastante único entre los diseños Covenant, ya que el casco exterior alberga conductos de energía que alimentan el reactor principal. Los láseres de pulso de las Ceudars pueden proteger eficazmente contra cazas estelares enemigos, al tiempo que son capaces de enfrentarse a naves capitales más grandes gracias a sus cañones de plasma pesados."
+TEXT_TOOLTIP_HALBERD;El destructor más común de la Armada UNSC, la clase Halberd se introdujo después de 2500 para combatir las naves CMA robadas por los Insurrecionistas. Puesta apresuradamente en primera línea contra la embestida del Covenant, es la clase de destructor más producida en serie de la armada. Aunque no puede resistir el fuego de plasma sostenido, es una nave de guerra rápida y está bien armada para su tamaño.
+TEXT_TOOLTIP_HALCYON;La clase Halcyon fue diseñada y construida por primera vez en 2510 por los astilleros Reyes-McLees de Marte. Los Halcyons tuvieron una vida útil notablemente corta debido a una serie de problemas
+TEXT_TOOLTIP_INFINITY;La clase Infinity fue concebida originalmente como un bote salvavidas para la humanidad en caso de que la Tierra cayera ante el Covenant. La construcción comenzó en 2544 y la nave líder de la clase UNSC Infinity estaba equipada con todas las formas utilizables de tecnología Covenant y Forerunner que estaban disponibles. La Infinity cuenta con 5 metros del revestimiento de titanio-A3 más grueso y el primer sistema de escudo de energía alimentado por un prototipo de sistema de reactor Forerunner. El armamento supera al de cualquier buque de guerra anterior con 4 prototipos de cañones MAC y miles de misiles Archer y baterías de cañones. Considerada la cumbre de los logros humanos, la clase Infinity marca una nueva era en el avance tecnológico humano.
+TEXT_TOOLTIP_IROQUOIS;"El UNSC Iroquois es una variante del destructor de clase Halberd, famoso por su exitoso uso de la maniobra ""Keyes Loop"" contra las fuerzas del Covenant en Sigma Octanus IV."
+TEXT_TOOLTIP_LONGSWORD;El Longsword es el principal caza de ataque de la UNSC. El diseño de la nave es el de un ala voladora, lo que le permite volar en la atmósfera gracias a su aerodinámica. Aunque carece de escudos, como casi todos los vehículos UNSC, está sorprendentemente bien blindado con una gruesa chapa de Titanio-A. Sacrifica velocidad en comparación con sus homólogos del Covenant, pero está equipado con numerosas armas, desde cañones giratorios de alto calibre hasta armas nucleares devastadoras. Gracias a su variada carga útil, es capaz de desempeñar diversas funciones, desde caza de uso general hasta bombardero cuando es necesario.
+TEXT_TOOLTIP_LONGSWORD_SQUAD;El Longsword es el principal caza de ataque de la UNSC. El diseño de la nave es el de un ala voladora, lo que le permite volar en la atmósfera gracias a su aerodinámica. Aunque carece de escudos, como casi todos los vehículos UNSC, está sorprendentemente bien blindado con una gruesa chapa de Titanio-A. Sacrifica velocidad en comparación con sus homólogos del Covenant, pero está equipado con numerosas armas, desde cañones giratorios de alto calibre hasta armas nucleares devastadoras. Gracias a su variada carga útil, es capaz de desempeñar diversas funciones, desde caza de uso general hasta bombardero cuando es necesario.
+TEXT_TOOLTIP_MAKO;El Mako, uno de los buques de guerra más pequeños de la Armada del UNSC, tiene más de 150 años. A pesar de su escasez de armamento y de su antigüedad, sus tripulaciones lo siguen apreciando. Durante la guerra, los Makos fueron relegados a patrullas de segunda línea hasta que fueron sustituidos por naves más modernas. Está ligeramente armado con torretas y algunas cápsulas de misiles Archer.
+TEXT_TOOLTIP_MARATHON_CLASS;La columna vertebral de la flota de la UNSC, los cruceros Marathon son los sucesores de la envejecida clase Halcyon. Las naves están equipadas con motores sub-ligeros significativamente más potentes, pero conservan el esquema de blindaje increíblemente duradero. También estaban mucho más armados que cualquier diseño de crucero anterior, con docenas de vainas de misiles arqueros, torretas de cañones de alto calibre y dos MAC de alto grado. Los Marathon lucharon valientemente desde el Asedio de las Colonias Exteriores hasta la Batalla de la Tierra, aunque casi todas las unidades de esta clase fueron destruidas durante la guerra.
+TEXT_TOOLTIP_PARIS;Construida por SinoViet Heavy Engineering, la fragata París fue diseñada con un mayor énfasis en el combate entre naves. Superior a la anterior Stalwart en armamento, la Paris también contaba con potentes motores que la hacían increíblemente maniobrable. La clase ha servido con distinción en casi todas las batallas importantes, y sigue sirviendo bien en la flota UNSC de posguerra. Se utiliza mejor en manadas de lobos para contrarrestar naves Covenant tecnológicamente superiores.
+TEXT_TOOLTIP_POA;El Pillar of Autumn fue el crucero Halcyon más exitoso. Construido según las especificaciones originales de los Astilleros Reyes-McLees, recibió una remodelación espectacular cerca del final de la guerra en Reach en anticipación de la Operación: BANDERA ROJA. Contaba con un impresionante reactor de fusión con dos reactores secundarios capaces de aumentar la potencia del motor al 300%. También recibió un armamento sustancialmente más pesado diseñado para el combate directo con las naves capitales Covenant. Una nave impresionante con una vida útil decorada.
+TEXT_TOOLTIP_SABRE;El caza de clase Sabre es un caza versátil y rápido destinado a funciones de interceptor. Aunque no está bien blindado, lo compensa con su potencia de fuego, con 2 cañones y 1 cápsula de cohetes.
+TEXT_TOOLTIP_SERAPH;"Los Seraph de Morsam son mucho más rápidos y están mejor blindados que los antiguos Tarrasque, aunque sacrifican niveles significativos de protección de blindaje para conseguirlo. El Serafín presenta un elegante casco en forma de lágrima con ""colas"" que ayudan en la propulsión del escape. Estas naves se han convertido en los principales cazas de ataque del Covenant y son capaces de realizar una amplia variedad de misiones, desde combates aéreos hasta misiones de bombardeo."
+TEXT_TOOLTIP_SHORTSWORD;Similar en diseño al Longsword, el B-65 Shortsword es otro producto de Misriah Armory. Bastante lento en comparación con los cazas del UNSC, el Shortsword está especializado en su papel de bombardero. Dispone de cañones de 30 mm para autodefensa y de una carga pesada que incluye bombas de racimo, armas criogénicas y mortíferas armas nucleares.
+TEXT_TOOLTIP_SOF;Puesta en servicio por primera vez en la década de 2360, la pionera clase Phoenix era originalmente naves colonia, utilizadas en viajes de larga distancia para colonizar mundos inexplorados. A medida que aumentaban las tensiones en las colonias exteriores, varias naves fueron confiscadas por el UNSC y convertidas en naves de guerra. Se soldó blindaje adicional a las extremidades de las naves y se eliminaron las comodidades coloniales para sustituirlas por vainas de misiles y baterías de cañones. Aunque todavía superadas por las naves de guerra del Covenant, las naves de la clase Phoenix siguen siendo naves de apoyo capaces y equipadas con instalaciones para reparar naves.
+TEXT_TOOLTIP_STALWART;Las fragatas ligeras de clase Stalwart fueron utilizadas originalmente por la Autoridad Militar Colonial para combatir a los piratas. Las fragatas Stalwart son lo suficientemente rápidas para tareas de escolta y se utilizan principalmente como un robusto apoyo anti-caza. Aunque con poca potencia y escaso blindaje, las Stalwarts eran baratas de producir y su perfil de diseño se convirtió en la base de las siguientes clases de fragatas.
+TEXT_TOOLTIP_STRIDENT;La primera línea de diseños de fragatas de posguerra, los Stridents, se introdujeron durante una época de gran inestabilidad. El diseño enfatizaba el retorno a la pacificación y el mantenimiento de la paz, especialmente en las devastadas colonias exteriores. Los Stridents son algunos de los diseños de naves blindadas más comunes de la UNSC.
+TEXT_TOOLTIP_TARASQUE;"El Keljiric-patrón Tarrasque es un caza estelar pesado utilizado por el Covenant durante siglos. Era el principal enviado de las flotas de ""conversión"" y a menudo se empleaba como primera línea de ataque contra las especies herejes que cuestionaban la voluntad de los Profetas. Su durabilidad garantizó su larga vida útil, aunque está obsoleta en comparación con las naves más modernas. Está armado con 2 cañones de plasma anti-caza."
+TEXT_TOOLTIP_UNSC_FLEET_COMMANDER;Nave de combate principal de un comandante de alto rango. Aumenta un 5% la salud y el daño con un aumento del 10% de la velocidad. Pila de bonificación. Construcción máxima de 3.
+TEXT_TOOLTIP_UNSC_GLADIUS;Clase de corbeta principal de la UNSC desarrollada a partir del diseño del casco de la nave de exploración Carl Sagan. Su versátil casco está equipado con potentes sensores útiles para rastrear cazas enemigos. La clase Gladius está sustancialmente superada en armamento incluso por las corbetas Covenant y, como tal, se utiliza mejor en tareas anti cazas. Sin embargo, está mucho mejor armada que la obsoleta Makos.
+TEXT_TOOLTIP_UNSC_MUSASHI;Aunque la doctrina naval del UNSC negaba históricamente el combate con cazas, los enjambres de cazas del Covenant obligaron al NAVCOM a explorar opciones de cargueros específicos. La clase Musashi se desarrolló con una gran parte del casco dedicada a hangares y misiles Archer para bombardeos de largo alcance. El casco presentaba una protección débil incluso para los estándares de la UNSC y era especialmente vulnerable al armamento de plasma Covenant. Es capaz de desplegar varios escuadrones de cazas y bombarderos nucleares.
+TEXT_TOOLTIP_UNSC_POSEIDON;La clase Poseidón se desarrolló como un carguero especializado más pequeño y maniobrable que los antiguos Musashis. El diseño incluye un complemento de cazas y bombarderos. Sin embargo, como carguero dedicado, está ligeramente armado, principalmente con cañones de defensa puntual y pocas cápsulas de misiles.
+TEXT_TOOLTIP_VINDICATION;La clase Vindicación es un acorazado construido inmediatamente después de la Guerra entre Humanos y Gobernantes. Se diseñaron para cubrir la brecha entre los enormes supercargueros y cruceros, al tiempo que poseían suficiente potencia de fuego para enfrentarse a los grandes cargueros del Covenant. El Vindication incorpora todos los avances tecnológicos de los años de posguerra, en especial escudos de energía. El Vindication es lento pero está bien blindado y armado.
+TEXT_UNIT_COVN_BANSEE;Patrón-Elsedda Banshee
+TEXT_UNIT_COVN_CAR;Fragata clase CAR
+TEXT_UNIT_COVN_CAS;Nave Captial Clase CAS
+TEXT_UNIT_COVN_CCS;Crucero de Batalla Clase CCS
+TEXT_UNIT_COVN_CERASTES;Bombardero clase Cerastes
+TEXT_UNIT_COVN_CPV;Destructor Clase CPV
+TEXT_UNIT_COVN_CRS;Crucero clase CRS
+TEXT_UNIT_COVN_CSO;Supercarguero clase CSO
+TEXT_UNIT_COVN_DDS;Carguero Pesado Clase DDS
+TEXT_UNIT_COVN_ORS;Crucero Pesado clase ORS
+TEXT_UNIT_COVN_RCS;Crucero Clase RCS
+TEXT_UNIT_COVN_SDV;Corbeta Clase SDV
+TEXT_UNIT_COVN_SERAPH;Caza de Clase Seraph Avanzada
+TEXT_UNIT_COVN_TARASQUE;Caza Clase Tarasca
+TEXT_UNIT_LONGSWORD;Bombardero Longsword
+TEXT_UNIT_UNSC_AUTUMN;Clase Autumn
+TEXT_UNIT_UNSC_BASELARD;Caza de clase Baselard
+TEXT_UNIT_UNSC_BROADSWORD;Caza Broadsword
+TEXT_UNIT_UNSC_HALCYON;Clase Halcyon
+TEXT_UNIT_UNSC_INFINITY;La Infinity
+TEXT_UNIT_UNSC_LONGSWORD;Bombardero Longsword
+TEXT_UNIT_UNSC_MARATHON;Crucero pesado clase Marathon
+TEXT_UNIT_UNSC_POA;Pillar of Autumn
+TEXT_UNIT_UNSC_SABRE;Caza de clase Sabre
+TEXT_UNIT_UNSC_SHORTSWORD;Bombardero de clase Shortsword UNSC
+TEXT_UNIT_UNSC_SOF;The Spirit Of Fire
+TEXT_UNSC_BROAD;Caza Broadsword
+TEXT_UNSC_BROAD_SQUADRON;Escuadrón Broadsword
+TEXT_UNSC_GLADIUS;Corbeta Pesada clase Gladius
+TEXT_UNSC_HALBERD;Destructor clase Halberd
+TEXT_UNSC_IROQUOIS;UNSC Iroquois
+TEXT_UNSC_MAKO;Corbeta clase Mako
+TEXT_UNSC_MUSASHI;Carguero clase Musashi
+TEXT_UNSC_PARIS;Fragata Pesada clase París
+TEXT_UNSC_POA;El Pillar of Autumn
+TEXT_UNSC_POSEIDON;Carguero ligero de clase Poseidón
+TEXT_UNSC_STALWART;Fragata ligera clase Stalwart
+TEXT_UNSC_STRIDENT;Fragata pesada clase Strident
+TEXT_UNSC_TECH_2;U.N.S.C. Tecnología Mejorada 2
+TEXT_UNSC_TECH_3;U.N.S.C. Tecnología Mejorada 3
+TEXT_UNSC_TECH_4;U.N.S.C. Tecnología Mejorada 4
+TEXT_UNSC_TECH_5;U.N.S.C. Tecnología Mejorada 5
+TEXT_UNSC_VINDICATION;Crucero de Batalla Ligero Vindication
+TEXT_UPGRADE_ES_ENHANCED_SHIELDING_L1;Potencia de escudo mejorada Nivel 1
+TEXT_UPGRADE_ES_INCREASED_SUPPLIES_L3;Aumento de la eficiencia minera Nivel 3
+TEXT_UPGRADE_ES_INCREASED_SUPPLIES_L4;Aumento de la eficiencia minera Nivel 4
+TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L3;Aumento de la eficiencia minera Nivel 3
+TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L4;Aumento de la eficiencia minera Nivel 4
+TEXT_UPGRADE_RS_PROTECTION_UPGRADE;Plan de protección del transporte
+TEXT_UPGRADE_SELF_DESTRUCT;Autodestrucción de la estación
+TEXT_UPGRADE_SELF_DESTRUCT_ENC;"Sé un cobarde y termina el juego antes de tiempo, porque eres malo. De todos modos, construir esto hará estallar tu estación una vez que la ""mejora"" esté terminada."
+TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_SHIELDING_L1;La mejora de escudos equipa a todos los cazas y bombarderos con escudos más modernos, que aumentan los escudos un 20% pero reducen la potencia de las armas un 5%.
+TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_SHIELDING_L2;La mejora de escudos de nivel 2 equipa a todos los cazas, bombarderos y corbetas con los escudos de más alta tecnología, aumentando los escudos un 40% pero disminuyendo la potencia de las armas un 15%.
+TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L3;Aumenta los ingresos por créditos de la Instalación Forunner en un 80% más 125 cR/sec. adicionales. Sin embargo, aumenta el tiempo para obtener créditos en un 15%.
+TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L4;Aumenta los Ingresos de Créditos de la Instalación Forunner en un 150% más 200 cR/sec. adicionales. Pero aumenta el tiempo para obtener créditos en un 20%.
+TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L3;Aumenta los Ingresos de Créditos de la Instalación Forunner en un 40% más 60 cR/sec. adicionales. Y reduce el tiempo de obtención de créditos en un 10%.
+TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L4;Aumenta los Ingresos de Créditos de la Instalación Forunner en un 65% más 100 cR/sec. adicionales. Y reduce el tiempo para ganar créditos en un 20%.
+TEXT_UPGRADE_TOOLTIP_RS_PROTECTION_UPGRADE;El plan de protección del transporte equipa al transporte de la instalación minera con una corbeta como protección. Cuando la mejora está activa, el transporte no puede ser destruido a menos que la corbeta proporcionada sea destruida. Este plan debe volver a comprarse cuando la corbeta muere.
+TEXT_WEAPON_ARCHERPOD_25;2 5x Lanzador de cápsulas Archer
+TEXT_WEAPON_ARCHERPOD_6;6x Lanzador de cápsulas Archer
+TEXT_WEAPON_CANON_33;Batería Spitfire MK33
+TEXT_WEAPON_COV_AF;Batería de Plasma Anti Caza
+TEXT_WEAPON_MAC_3;3 Cañones de disparo Mac
+UNSC_ARCHER_POD_2_5;2 - 5x Cápsulas Archers
+UNSC_ARCHER_POD_5;5x Cápsulas Archers
+UNSC_ARCHER_TURRET;10x Torreta de cápsulas Archers
+UNSC_LAR_TURRET;Torreta 11A2R1
+UNSC_M33_TURRET;Cañón M33
+UNSC_M55_TURRET;Torreta de bobinas M55
+UNSC_MAC_CANNON;MAC
+UNSC_MK33_TURRET;Torreta MK33
+UNSC_MK44_TURRET;Torreta MK44
+UNSC_WATER_TURRET;Cañón Breakwater

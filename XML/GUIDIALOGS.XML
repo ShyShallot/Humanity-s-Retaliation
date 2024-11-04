@@ -1303,21 +1303,21 @@
 			<!--Default fonts by gadget type -->
 			<Push_Button>
 				<Name>EmpireAtWar-Bold</Name>
-				<Character_Padding>0</Character_Padding>
-				<Stretch_Factor>1</Stretch_Factor>
+				<Character_Padding>1</Character_Padding>
+				<Stretch_Factor>1.2</Stretch_Factor>
 				<Size>8</Size>
-				<Bottom_Color>253,248,212,255</Bottom_Color>
-				<Top_Color>253,248,212,255</Top_Color>
+				<Bottom_Color>255,255,255,255</Bottom_Color>
+				<Top_Color>175,175,175,255</Top_Color>
 				<Emboss>Yes</Emboss>
 				<Outline>No</Outline>
 			</Push_Button>
 
 			<List_Box>
 				<!-- Oksana: need a unicode font here -->
-				<Name>Arial Unicode MS</Name>
+				<Name>EmpireAtWar-Medium</Name>
 				<Character_Padding>0</Character_Padding>
-				<Stretch_Factor>1</Stretch_Factor>
-				<Size>8</Size>
+				<Stretch_Factor>1.15</Stretch_Factor>
+				<Size>7</Size>
 				<Top_Color>255,255,255,255</Top_Color>
 				<Bottom_Color>255,255,255,255</Bottom_Color>
 				<Emboss>No</Emboss>

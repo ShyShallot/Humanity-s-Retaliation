@@ -6,21 +6,14 @@ function Return_Chance(value_to_check, factor) -- Returns true or false
     if not factor then
         factor = 0.8
     end
-    if value_to_check <= 1 then
-        chance = GameRandom.Get_Float(0, 1) 
-        chance = chance / factor
-        DebugMessage("%s -- Generated Chance: %s", tostring(Script), tostring(chance))
-        if chance <= value_to_check then -- the value to check is the threshold to our chance, so if you input 0.65 as long as its greater than or equal to it succeeds
-            DebugMessage("%s -- %s was Smaller or Equal to: %s", tostring(Script), tostring(value_to_check), tostring(value_to_check))
-            return true 
-        end
-    elseif value_to_check <= 100 and value_to_check >= 1 then
-        chance = EvenMoreRandom(0, 100) 
-        chance = chance / factor
-        if chance <= value_to_check then 
-            return true
-        end
+    if value_to_check < 1 then
+        value_to_check = value_to_check * 100
     end
+    local randomValue = EvenMoreRandom(0,100)
+    if value_to_check <= randomValue then
+        return true
+    end
+    return false
 end
 
 function Deal_Unit_Damage(object, damage_to_deal, hardpoint_to_damage, sfx_event_to_play) -- Already a function but this looks better
@@ -134,10 +127,10 @@ function EvenMoreRandom(min,max,count) -- the GameRandom tends to be consistant 
     --DebugMessage("%s -- Min: %s, Max: %s, Count: %s", tostring(Script),min,max,count)
     local values = {}
     for i = 1, count, 1 do
-        values[i] = GameRandom(min,max)
+        values[i] = GameRandom.Free_Random(min,max)
         --DebugMessage("%s -- Random Num: %s", tostring(Script),values[i])
     end
-    return values[GameRandom(1,count)]
+    return values[GameRandom.Free_Random(1,count)]
 end
 
 function EvenMoreRandomFloat(min,max,count)

@@ -273,7 +273,7 @@ function State_Loyalty(message)
                         if planet_combat_power < (Tech_Power_Upkeep(planet.Get_Owner())) then
                             DebugMessage("Combat Power is less than Upkeep for planet: %s", tostring(planet_name))
                             if planet_combat_power == 0 then
-                                Modify_Planet_Loyalty(planet_name, false, 100)
+                                Modify_Planet_Loyalty(planet_name, false, 1)
                             else
                                 Modify_Planet_Loyalty(planet_name, false, 0.5)
                             end
@@ -322,14 +322,14 @@ function Find_Farm_On_Planet(planet)
 end
 
 function Get_Units_At_Planet(planet_name, player)
-    if not player.Get_Faction_Name() == "REBEL" or not player.Get_Faction_Name() == "EMPIRE" then
+    if not player.Get_Faction_Name() == "REBEL" or not player.Get_Faction_Name() == "EMPIRE" then -- this is kinda pointless but we dont want to support minor factions so its just a percaution
         return nil
     end
-    local all_player_units = Find_All_Objects_Of_Type(player, "Fighter | Bomber | Corvette | Frigate | Capital | Super")
+    local all_player_units = Find_All_Objects_Of_Type(player, "Fighter | Bomber | Corvette | Frigate | Capital | Super") -- get any meaningful unit owned by the input'd player
     planet_units = {}
     for _, unit in ipairs(all_player_units) do
         if TestValid(unit) then
-            if TestValid(unit.Get_Planet_Location()) then
+            if TestValid(unit.Get_Planet_Location()) then -- make sure the unit isnt moving pretty much
                 if unit.Get_Planet_Location().Get_Type().Get_Name() == planet_name then
                     table.insert(planet_units,unit)
                 end
@@ -397,7 +397,7 @@ function Get_Neighbors(target_planet)
 
         found_path = Find_Path(target_planet.Get_Owner(),target_planet,planet) -- Find Planet Table, includes start and end planets at beginning and end respectivly 
         --PrintTable(found_path)
-        if table.getn(found_path) == 2 then
+        if table.getn(found_path) == 2 then -- planet is not a neighbor if there are than 2 planets (start and end) in the list
             table.insert(neighbors,found_path[2])
         end
     end
@@ -476,11 +476,11 @@ function Show_Screen_Text(text, time_to_show, color, teletype) -- inspired by th
     end
 
     text_event.Set_Reward_Parameter(0,text)
-    text_event.Set_Reward_Parameter(1,tostring(time_to_show))
-    text_event.Set_Reward_Parameter(2, "")
+    text_event.Set_Reward_Parameter(1,tostring(time_to_show)) -- time in seconds
+    text_event.Set_Reward_Parameter(2, "") -- parameter we dont care about
     text_event.Set_Reward_Parameter(3, "")
-    text_event.Set_Reward_Parameter(4, use_teletype)
-    text_event.Set_Reward_Parameter(5, colorstring)
+    text_event.Set_Reward_Parameter(4, use_teletype) -- whether or not the text is slowly typed out or is just shown
+    text_event.Set_Reward_Parameter(5, colorstring) -- for color
     Story_Event("SHOW_SCREEN_TEXT")
 end
 

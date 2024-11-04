@@ -34,7 +34,5 @@ function State_Init(message)
         DebugMessage("Resetting Select Plot")
 
         plot.Reset()
-
-        Sleep(1)
     end
 end

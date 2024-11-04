@@ -50,7 +50,7 @@
 	<Elevated_Vulnerability_Duration>3.0</Elevated_Vulnerability_Duration> 
 	<Elevated_Vulnerability_Factor>-2.0</Elevated_Vulnerability_Factor>
     <Space_Elevated_Vulnerability_Duration>5.0</Space_Elevated_Vulnerability_Duration> 
-    <Space_Elevated_Vulnerability_Factor>-3.0</Space_Elevated_Vulnerability_Factor>
+    <Space_Elevated_Vulnerability_Factor>-2.25</Space_Elevated_Vulnerability_Factor>
 
 	<Fleet_Movement_Line_Texture_Name>w_galaxy_line.tga</Fleet_Movement_Line_Texture_Name>
 	<Fleet_Hyperspace_Band_Texture_Name>w_galaxy_line.tga</Fleet_Hyperspace_Band_Texture_Name>
@@ -131,10 +131,10 @@
 	<!-- GMC - Galactic Mode camera 3D galaxy map settings -->
 	<GMC_InitialPitchAngleDegrees>-40.0</GMC_InitialPitchAngleDegrees>
     <GMC_ZoomedPitchAngleDegrees>-38.0</GMC_ZoomedPitchAngleDegrees>
-    <GMC_InitialPullbackDistance>900.0</GMC_InitialPullbackDistance>
-    <GMC_ZoomedPullbackPlanetRadiusFraction>12.0</GMC_ZoomedPullbackPlanetRadiusFraction>
-    <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.0, -1.0, 1.25</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
-    <GMC_ZoomTime>0.85</GMC_ZoomTime>
+    <GMC_InitialPullbackDistance>700.0</GMC_InitialPullbackDistance>
+    <GMC_ZoomedPullbackPlanetRadiusFraction>9.0</GMC_ZoomedPullbackPlanetRadiusFraction>
+    <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.5, 0.5, -0.4</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
+    <GMC_ZoomTime>1.0</GMC_ZoomTime>
     <GMC_Battle_Zoom_Time>1.0</GMC_Battle_Zoom_Time>
     <GMC_Battle_Fade_Time>0.75</GMC_Battle_Fade_Time>
 
@@ -220,10 +220,10 @@
 	<Min_Galactic_Zoom_Speed>400</Min_Galactic_Zoom_Speed>
 	<Max_Galactic_Zoom_Speed>3000</Max_Galactic_Zoom_Speed>
 	<Galactic_Zoom_Acceleration>3000</Galactic_Zoom_Acceleration>
-	<Galactic_Zoom_Light_Level>0.5</Galactic_Zoom_Light_Level>
-	<Galactic_Zoom_In_Light_Angle>0 235 18</Galactic_Zoom_In_Light_Angle>
-	<Galactic_Zoom_Out_Light_Angle>0 160 58</Galactic_Zoom_Out_Light_Angle>
-	<Galactic_Zoom_In_Station_Offset>-2.51 -9.11 14.93</Galactic_Zoom_In_Station_Offset>
+	<Galactic_Zoom_Light_Level>0.75</Galactic_Zoom_Light_Level>
+	<Galactic_Zoom_In_Light_Angle>0 45 18</Galactic_Zoom_In_Light_Angle>
+	<Galactic_Zoom_Out_Light_Angle>0 45 18</Galactic_Zoom_Out_Light_Angle>
+	<Galactic_Zoom_In_Station_Offset>-2.51 -9.11 0</Galactic_Zoom_In_Station_Offset>
 	<Galactic_Zoom_In_Station_Rotation>0.04</Galactic_Zoom_In_Station_Rotation>
 
 	<Starting_Galactic_Camera_Position>0.0, 0.0, 0.0</Starting_Galactic_Camera_Position>
@@ -5283,7 +5283,7 @@
 	<Radar_Selected_Units_Color>209, 255, 209, 255</Radar_Selected_Units_Color>
 
 	<Radar_Colorize_Multiplayer_Enemy>Yes</Radar_Colorize_Multiplayer_Enemy>
-	<Radar_Multiplayer_Enemy_Color>255, 0, 0</Radar_Multiplayer_Enemy_Color>
+	<Radar_Multiplayer_Enemy_Color>255, 0, 0, 255</Radar_Multiplayer_Enemy_Color>
 
     <Animate_During_Galactic_Mode_Pause>yes</Animate_During_Galactic_Mode_Pause>
     

@@ -707,7 +707,7 @@
 		<Space_Model_Name>UNSC_TURRET_PLATFORM.ALO</Space_Model_Name>
 		<Scale_Factor>9.5</Scale_Factor>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>1800</Tactical_Health>
+		<Tactical_Health>3250</Tactical_Health>
 		<Select_Box_Scale>10</Select_Box_Scale>
 		<Hardpoints>
 			UNSC_TURRET_PLATFORM_01, UNSC_TURRET_PLATFORM_02, UNSC_TURRET_PLATFORM_03, UNSC_TURRET_PLATFORM_04
@@ -1150,7 +1150,7 @@
 		<Space_Model_Name>UNSC_ARCHER_PLATFORM.ALO</Space_Model_Name>
 		<Scale_Factor>9.5</Scale_Factor>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>1500</Tactical_Health>
+		<Tactical_Health>4250</Tactical_Health>
 		<HardPoints>
 			UNSC_ARCHER_PLATFORM_01,UNSC_ARCHER_PLATFORM_02,UNSC_ARCHER_PLATFORM_03,UNSC_ARCHER_PLATFORM_04
 		</HardPoints>

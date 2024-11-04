@@ -79,6 +79,9 @@ end
 
 function Spawn_Player_Terrorists()
     local player = Find_Player("Terrorists")
+
+    player.Enable_As_Actor()
+
     Despawn_Starting_Structure(player)
     DebugMessage("%s -- Despawning pirate structure", tostring(Script))
     terrorist_start_units = {
@@ -95,6 +98,9 @@ end
 
 function Spawn_Player_Swords()
     local player = Find_Player("Swords")
+
+    player.Enable_As_Actor()
+    
     Despawn_Starting_Structure(player)
     DebugMessage("%s -- Despawning pirate structure", tostring(Script))
     swords_start_units = {

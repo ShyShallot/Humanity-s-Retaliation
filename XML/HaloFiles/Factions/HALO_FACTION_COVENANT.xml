@@ -34,7 +34,7 @@
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 
 		<!-- Gameplay effects of planetary corruption on this faction. -->
-		<Benefits_From_Corruption> No </Benefits_From_Corruption>
+		<Benefits_From_Corruption> Yes </Benefits_From_Corruption>
 		<Corruption_Galactic_Production_Time_Multipliers> 1.0, .95 </Corruption_Galactic_Production_Time_Multipliers>
 		<Corruption_Galactic_Production_Price_Multipliers> 1.0, .9 </Corruption_Galactic_Production_Price_Multipliers>
 		<Corruption_Tactical_Production_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Time_Multipliers>
@@ -194,7 +194,7 @@
 		<SFXEvent_Tactical_Unit_Cap_Reached> EHD_Unit_Cap_Reached </SFXEvent_Tactical_Unit_Cap_Reached> <!-- Tactical: When you cant drag in anymore tactical units from the reinforcement palette -->
 		<SFXEvent_Arrive_From_Hyperspace> Unit_Ship_Hyperspace_Enter </SFXEvent_Arrive_From_Hyperspace>
 		<SFXEvent_Exit_Into_Hyperspace> Unit_Ship_Hyperspace_Exit </SFXEvent_Exit_Into_Hyperspace>
-		<SFXEvent_Space_Base_Under_Attack_Announcement> EHD_Space_Station_Under_Attack </SFXEvent_Space_Base_Under_Attack_Announcement>
+		<SFXEvent_Space_Base_Under_Attack_Announcement> EHD_Base_Under_Attack </SFXEvent_Space_Base_Under_Attack_Announcement>
 		<SFXEvent_Land_Base_Under_Attack_Announcement> EHD_Base_Under_Attack </SFXEvent_Land_Base_Under_Attack_Announcement>
 		<SFXEvent_Enemy_Fleet_Approaching_Planet> EHD_Enemy_Fleet_Approaching</SFXEvent_Enemy_Fleet_Approaching_Planet>
 		<SFXEvent_Strategic_Pop_Cap_Reached> EHD_Unit_Cap_Reached </SFXEvent_Strategic_Pop_Cap_Reached>

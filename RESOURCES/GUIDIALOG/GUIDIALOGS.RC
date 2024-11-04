@@ -4384,31 +4384,22 @@ BEGIN
     LTEXT           "TEXT_TECH_TREE",IDC_PLANET_REFERENCE_TITLE,39,45,268,19
     CONTROL         "",IDC_RIGHT_ARROW21,"PETROGLYPH_DIALOG_IMAGE",
                     WS_TABSTOP,18,68,845,14
-    CONTROL         "",IDC_TECHTREE_Corellian_Corvette,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,321,180,62,62
-    CONTROL         "",IDC_TECHTREE_Y_Wing_Squadron,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,361,103,50,50
-    CONTROL         "",IDC_TECHTREE_Rebel_X_Wing_Squadron,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,292,103,50,50
-    CONTROL         "",IDC_TECHTREE_Nebulon_B_Frigate,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,321,256,62,62
-    CONTROL         "",IDC_TECHTREE_Rebel_Orbital_Long_Range_Scanner,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,321,335,62,62
-    CONTROL         "",IDC_TECHTREE_Corellian_Gunboat,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,445,98,62,62
-    CONTROL         "",IDC_TECHTREE_Marauder_Missile_Cruiser,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,445,174,62,62
-    CONTROL         "",IDC_TECHTREE_Alliance_Assault_Frigate,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,553,98,62,62
-    CONTROL         "",IDC_TECHTREE_Calamari_Cruiser,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,667,98,62,62
-    CONTROL         "",IDC_TECHTREE_A_Wing_Squadron,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,668,174,62,62
     CTEXT           "TEXT_TECH_LEVEL_1",IDC_STATIC_TECH,291,81,125,8
+    GROUPBOX        "Static",IDC_STATIC,280,74,146,485
+
+    CONTROL         "",IDC_TECHTREE_UNSC_Light_Shipyard,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,328,103,50,48
+    CONTROL         "",IDC_DOWN_ARROW5,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
+                    346,152,14,30
+    GROUPBOX        "Static",IDC_STATIC,304,178,100,100
+
+    CONTROL         "",IDC_TECHTREE_Baselard_Squadron,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,305,179,32,31
+
     CTEXT           "TEXT_TECH_LEVEL_2",IDC_STATIC_TECH2,414,81,124,8
     CTEXT           "TEXT_TECH_LEVEL_3",IDC_STATIC_TECH3,520,81,124,8
     CTEXT           "TEXT_TECH_LEVEL_4",IDC_STATIC_TECH4,636,81,124,8
-    GROUPBOX        "Static",IDC_STATIC,280,74,146,485
+    
     GROUPBOX        "Static",IDC_STATIC,529,74,113,485
     CONTROL         "TEXT_GAME_TYPE_TEAM_LAND",IDC_TECH_TREE_LAND,"Button",
                     BS_AUTORADIOBUTTON,57,265,141,10

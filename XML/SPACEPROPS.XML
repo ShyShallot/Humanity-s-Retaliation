@@ -1245,11 +1245,11 @@
 	
 	<SpaceProp Name="Asteroid Field Large">
 		<Text_ID />
-		<Space_Model_Name>w_asteroid_mass.alo</Space_Model_Name>
+		<Space_Model_Name>W_ASTEROID_FIELD_LARGE.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
         <Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Idle_Anim_00_Rate_Mod>0.2</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Behavior>SPACE_OBSTACLE, IDLE, UNIT_AI</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1257,7 +1257,7 @@
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
 		
 		<Is_Asteroid_Field> Yes </Is_Asteroid_Field>
-		<Space_Obstacle_Radius> 700 </Space_Obstacle_Radius>
+		<Space_Obstacle_Radius> 900 </Space_Obstacle_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
