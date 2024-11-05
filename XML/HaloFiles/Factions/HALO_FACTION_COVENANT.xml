@@ -34,7 +34,7 @@
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 
 		<!-- Gameplay effects of planetary corruption on this faction. -->
-		<Benefits_From_Corruption> Yes </Benefits_From_Corruption>
+		<Benefits_From_Corruption> No </Benefits_From_Corruption>
 		<Corruption_Galactic_Production_Time_Multipliers> 1.0, .95 </Corruption_Galactic_Production_Time_Multipliers>
 		<Corruption_Galactic_Production_Price_Multipliers> 1.0, .9 </Corruption_Galactic_Production_Price_Multipliers>
 		<Corruption_Tactical_Production_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Time_Multipliers>
