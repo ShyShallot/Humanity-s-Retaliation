@@ -490,7 +490,7 @@
 	<Allow_Reinforcement_Percentage_Normalized> 50.0 </Allow_Reinforcement_Percentage_Normalized> 
 	<Default_Hero_Respawn_Time>-1.0</Default_Hero_Respawn_Time>
 	<LandFOWColor>130,130,130,0</LandFOWColor>
-	<SpaceFOWColor>255,255,255,255</SpaceFOWColor>
+	<SpaceFOWColor>175,175,175,255</SpaceFOWColor>
     <SpaceReinforceFOWColor>255,0,0,254</SpaceReinforceFOWColor>
 	<SetupPhaseFOWColor>0,130,130,130</SetupPhaseFOWColor>
 	<SetupPhaseInvalidDragColor>200,0,0,0</SetupPhaseInvalidDragColor>
@@ -1047,7 +1047,7 @@
 		Armor_UNSC_Corvette,
 		Armor_UNSC_Frigate,
 		Armor_UNSC_Assault,
-		Armor_UNSC_Capitial,
+		Armor_UNSC_Capital,
 		Armor_UNSC_Destroyer,
 		Armor_UNSC_Super,
 		Armor_COVN_Fighter,
@@ -4089,7 +4089,7 @@
 	<Damage_To_Armor_Mod>Damage_Covn_Light, Armor_UNSC_Corvette, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Light, Armor_UNSC_Frigate, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Light, Armor_UNSC_Assault, 0.85</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covn_Light, Armor_UNSC_Capitial, 0.75</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covn_Light, Armor_UNSC_Capital, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Light, Armor_UNSC_Destroyer, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Light, Armor_UNSC_Super, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Light, Armor_COVN_Fighter, 1.5</Damage_To_Armor_Mod>
@@ -4120,7 +4120,7 @@
 	<Damage_To_Armor_Mod>Damage_Covn_Fighter, Armor_UNSC_Corvette, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Fighter, Armor_UNSC_Frigate, 0.85</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Fighter, Armor_UNSC_Assault, 0.75</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covn_Fighter, Armor_UNSC_Capitial, 0.6</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covn_Fighter, Armor_UNSC_Capital, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Fighter, Armor_UNSC_Destroyer, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Fighter, Armor_UNSC_Super, 0.45</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Fighter, Armor_COVN_Fighter, 1</Damage_To_Armor_Mod>
@@ -4151,7 +4151,7 @@
 	<Damage_To_Armor_Mod>Damage_Covn_Normal, Armor_UNSC_Corvette, 1.2</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Normal, Armor_UNSC_Frigate, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Normal, Armor_UNSC_Assault, 0.85</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covn_Normal, Armor_UNSC_Capitial, 0.75</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covn_Normal, Armor_UNSC_Capital, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Normal, Armor_UNSC_Destroyer, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Normal, Armor_UNSC_Super, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Normal, Armor_COVN_Fighter, 1.5</Damage_To_Armor_Mod>
@@ -4182,7 +4182,7 @@
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Corvette, 3.0</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Frigate, 2.0</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Assault, 1.85</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Capitial, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Capital, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Destroyer, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_UNSC_Super, 0.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Heavy, Armor_COVN_Fighter, 1.8</Damage_To_Armor_Mod>
@@ -4213,7 +4213,7 @@
 	<Damage_To_Armor_Mod>Damage_Covn_Torpedo, Armor_UNSC_Corvette, 1.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Torpedo, Armor_UNSC_Frigate, 1.3</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Torpedo, Armor_UNSC_Assault, 1.15</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covn_Torpedo, Armor_UNSC_Capitial, 0.9</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covn_Torpedo, Armor_UNSC_Capital, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Torpedo, Armor_UNSC_Destroyer, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Torpedo, Armor_UNSC_Super, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covn_Torpedo, Armor_COVN_Fighter, 1.2</Damage_To_Armor_Mod>
@@ -4244,7 +4244,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Light, Armor_UNSC_Corvette, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Light, Armor_UNSC_Frigate, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Light, Armor_UNSC_Assault, 0.85</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Light, Armor_UNSC_Capitial, 0.75</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Light, Armor_UNSC_Capital, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Light, Armor_UNSC_Destroyer, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Light, Armor_UNSC_Super, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Light, Armor_COVN_Fighter, 1</Damage_To_Armor_Mod>
@@ -4275,7 +4275,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Armor_UNSC_Corvette, 0.85</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Armor_UNSC_Frigate, 0.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Armor_UNSC_Assault, 0.75</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Armor_UNSC_Capitial, 0.55</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Armor_UNSC_Capital, 0.55</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Armor_UNSC_Destroyer, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Armor_UNSC_Super, 0.45</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Fighter, Armor_COVN_Fighter, 0.95</Damage_To_Armor_Mod>
@@ -4306,7 +4306,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Corvette, 0.45</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Frigate, 0.35</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Assault, 0.28</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Capitial, 0.1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Capital, 0.1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Destroyer, 0.0</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_UNSC_Super, 0.0</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_FLAK, Armor_COVN_Fighter, 1.0</Damage_To_Armor_Mod>
@@ -4337,7 +4337,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Normal, Armor_UNSC_Corvette, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Normal, Armor_UNSC_Frigate, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Normal, Armor_UNSC_Assault, 0.85</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Normal, Armor_UNSC_Capitial, 0.75</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Normal, Armor_UNSC_Capital, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Normal, Armor_UNSC_Destroyer, 0.7</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Normal, Armor_UNSC_Super, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Normal, Armor_COVN_Fighter, 1.2</Damage_To_Armor_Mod>
@@ -4368,7 +4368,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Heavy, Armor_UNSC_Corvette, 1.3</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Heavy, Armor_UNSC_Frigate, 1.2</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Heavy, Armor_UNSC_Assault, 1.15</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Heavy, Armor_UNSC_Capitial, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Heavy, Armor_UNSC_Capital, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Heavy, Armor_UNSC_Destroyer, 0.95</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Heavy, Armor_UNSC_Super, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Heavy, Armor_COVN_Fighter, 1.5</Damage_To_Armor_Mod>
@@ -4399,7 +4399,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Light, Armor_UNSC_Corvette, 1.3</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Light, Armor_UNSC_Frigate, 1.2</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Light, Armor_UNSC_Assault, 1.15</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Light, Armor_UNSC_Capitial, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Light, Armor_UNSC_Capital, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Light, Armor_UNSC_Destroyer, 0.95</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Light, Armor_UNSC_Super, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Light, Armor_COVN_Fighter, 1.5</Damage_To_Armor_Mod>
@@ -4430,7 +4430,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Normal, Armor_UNSC_Corvette, 1.35</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Normal, Armor_UNSC_Frigate, 1.25</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Normal, Armor_UNSC_Assault, 1.15</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Normal, Armor_UNSC_Capitial, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Normal, Armor_UNSC_Capital, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Normal, Armor_UNSC_Destroyer, 0.85</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Normal, Armor_UNSC_Super, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Normal, Armor_COVN_Fighter, 1.8</Damage_To_Armor_Mod>
@@ -4461,7 +4461,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Fighter, Armor_UNSC_Corvette, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Fighter, Armor_UNSC_Frigate, 0.95</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Fighter, Armor_UNSC_Assault, 0.9</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Fighter, Armor_UNSC_Capitial, 0.85</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Fighter, Armor_UNSC_Capital, 0.85</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Fighter, Armor_UNSC_Destroyer, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Fighter, Armor_UNSC_Super, 0.7</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Fighter, Armor_COVN_Fighter, 1.15</Damage_To_Armor_Mod>
@@ -4492,7 +4492,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Heavy, Armor_UNSC_Corvette, 1.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Heavy, Armor_UNSC_Frigate, 1.35</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Heavy, Armor_UNSC_Assault, 1.2</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Heavy, Armor_UNSC_Capitial, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Heavy, Armor_UNSC_Capital, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Heavy, Armor_UNSC_Destroyer, 0.95</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Heavy, Armor_UNSC_Super, 0.85</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Missile_Heavy, Armor_COVN_Fighter, 2</Damage_To_Armor_Mod>
@@ -4523,7 +4523,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Torpedo, Armor_UNSC_Corvette, 1.15</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Torpedo, Armor_UNSC_Frigate, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Torpedo, Armor_UNSC_Assault, 0.95</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Torpedo, Armor_UNSC_Capitial, 0.9</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Torpedo, Armor_UNSC_Capital, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Torpedo, Armor_UNSC_Destroyer, 0.85</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Torpedo, Armor_UNSC_Super, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Torpedo, Armor_COVN_Fighter, 1.4</Damage_To_Armor_Mod>
@@ -4554,7 +4554,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Nuke, Armor_UNSC_Corvette, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Nuke, Armor_UNSC_Frigate, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Nuke, Armor_UNSC_Assault, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Nuke, Armor_UNSC_Capitial, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Nuke, Armor_UNSC_Capital, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Nuke, Armor_UNSC_Destroyer, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Nuke, Armor_UNSC_Super, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Nuke, Armor_COVN_Fighter, 1</Damage_To_Armor_Mod>
@@ -4585,7 +4585,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC, Armor_UNSC_Corvette, 2.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC, Armor_UNSC_Frigate, 2.25</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC, Armor_UNSC_Assault, 2</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_MAC, Armor_UNSC_Capitial, 1.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_MAC, Armor_UNSC_Capital, 1.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC, Armor_UNSC_Destroyer, 1.25</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC, Armor_UNSC_Super, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC, Armor_COVN_Fighter, 3</Damage_To_Armor_Mod>
@@ -4616,7 +4616,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC_Light, Armor_UNSC_Corvette, 2.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC_Light, Armor_UNSC_Frigate, 2.25</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC_Light, Armor_UNSC_Assault, 2</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_MAC_Light, Armor_UNSC_Capitial, 1.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_MAC_Light, Armor_UNSC_Capital, 1.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC_Light, Armor_UNSC_Destroyer, 1.25</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC_Light, Armor_UNSC_Super, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_MAC_Light, Armor_COVN_Fighter, 3</Damage_To_Armor_Mod>
@@ -4647,7 +4647,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Corvette, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Frigate, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Assault, 0.85</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Capitial, 0.75</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Capital, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Destroyer, 0.7</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Super, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_COVN_Fighter, 1.35</Damage_To_Armor_Mod>
@@ -4678,7 +4678,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Corvette, 0.85</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Frigate, 0.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Assault, 0.75</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Capitial, 0.65</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Capital, 0.65</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Destroyer, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_UNSC_Super, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Corvette, Armor_COVN_Fighter, 0.95</Damage_To_Armor_Mod>
@@ -4709,7 +4709,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Frigate, Armor_UNSC_Corvette, 1.3</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Frigate, Armor_UNSC_Frigate, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Frigate, Armor_UNSC_Assault, 0.85</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Frigate, Armor_UNSC_Capitial, 0.75</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Frigate, Armor_UNSC_Capital, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Frigate, Armor_UNSC_Destroyer, 0.7</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Frigate, Armor_UNSC_Super, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Frigate, Armor_COVN_Fighter, 1.4</Damage_To_Armor_Mod>
@@ -4740,7 +4740,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Capital, Armor_UNSC_Corvette, 1.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Capital, Armor_UNSC_Frigate, 1.35</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Capital, Armor_UNSC_Assault, 1.15</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Capital, Armor_UNSC_Capitial, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Capital, Armor_UNSC_Capital, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Capital, Armor_UNSC_Destroyer, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Capital, Armor_UNSC_Super, 0.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Capital, Armor_COVN_Fighter, 1.85</Damage_To_Armor_Mod>
@@ -4771,7 +4771,7 @@
 	<Damage_To_Armor_Mod>Damage_UNSC_Super, Armor_UNSC_Corvette, 2</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Super, Armor_UNSC_Frigate, 1.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Super, Armor_UNSC_Assault, 1.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_UNSC_Super, Armor_UNSC_Capitial, 1.35</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_UNSC_Super, Armor_UNSC_Capital, 1.35</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Super, Armor_UNSC_Destroyer, 1.15</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Super, Armor_UNSC_Super, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_UNSC_Super, Armor_COVN_Fighter, 2.35</Damage_To_Armor_Mod>
@@ -4802,7 +4802,7 @@
 	<Damage_To_Armor_Mod>Damage_Covie_Corvette, Armor_UNSC_Corvette, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Corvette, Armor_UNSC_Frigate, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Corvette, Armor_UNSC_Assault, 0.85</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covie_Corvette, Armor_UNSC_Capitial, 0.75</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covie_Corvette, Armor_UNSC_Capital, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Corvette, Armor_UNSC_Destroyer, 0.7</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Corvette, Armor_UNSC_Super, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Corvette, Armor_COVN_Fighter, 1.35</Damage_To_Armor_Mod>
@@ -4833,7 +4833,7 @@
 	<Damage_To_Armor_Mod>Damage_Covie_Fighter, Armor_UNSC_Corvette, 0.85</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Fighter, Armor_UNSC_Frigate, 0.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Fighter, Armor_UNSC_Assault, 0.75</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covie_Fighter, Armor_UNSC_Capitial, 0.65</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covie_Fighter, Armor_UNSC_Capital, 0.65</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Fighter, Armor_UNSC_Destroyer, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Fighter, Armor_UNSC_Super, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Fighter, Armor_COVN_Fighter, 0.95</Damage_To_Armor_Mod>
@@ -4864,7 +4864,7 @@
 	<Damage_To_Armor_Mod>Damage_Covie_Frigate, Armor_UNSC_Corvette, 1.3</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Frigate, Armor_UNSC_Frigate, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Frigate, Armor_UNSC_Assault, 0.85</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covie_Frigate, Armor_UNSC_Capitial, 0.75</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covie_Frigate, Armor_UNSC_Capital, 0.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Frigate, Armor_UNSC_Destroyer, 0.7</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Frigate, Armor_UNSC_Super, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Frigate, Armor_COVN_Fighter, 1.4</Damage_To_Armor_Mod>
@@ -4895,7 +4895,7 @@
 	<Damage_To_Armor_Mod>Damage_Covie_Capital, Armor_UNSC_Corvette, 1.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Capital, Armor_UNSC_Frigate, 1.35</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Capital, Armor_UNSC_Assault, 1.15</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covie_Capital, Armor_UNSC_Capitial, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covie_Capital, Armor_UNSC_Capital, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Capital, Armor_UNSC_Destroyer, 0.9</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Capital, Armor_UNSC_Super, 0.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Capital, Armor_COVN_Fighter, 1.85</Damage_To_Armor_Mod>
@@ -4926,7 +4926,7 @@
 	<Damage_To_Armor_Mod>Damage_Covie_Super, Armor_UNSC_Corvette, 2</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Super, Armor_UNSC_Frigate, 1.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Super, Armor_UNSC_Assault, 1.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Covie_Super, Armor_UNSC_Capitial, 1.35</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Covie_Super, Armor_UNSC_Capital, 1.35</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Super, Armor_UNSC_Destroyer, 1.15</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Super, Armor_UNSC_Super, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Covie_Super, Armor_COVN_Fighter, 2.35</Damage_To_Armor_Mod>
@@ -4963,7 +4963,7 @@
 
 	
 	<!-- Demo_Attract_Maps>Demo_Attract_Kamino.ted, Demo_Attract_Korriban.ted</Demo_Attract_Maps -->
-	<Demo_Attract_Maps>Demo_Attract_Kamino.ted</Demo_Attract_Maps>
+	<Demo_Attract_Maps>Demo_Attract_Halo.ted</Demo_Attract_Maps>
 	<Demo_Attract_Start_Timeout_Seconds>3600</Demo_Attract_Start_Timeout_Seconds>
 	<!-- Demo_Attract_Map_Cycle_Delay_Seconds>1000000, 1000, 1000</Demo_Attract_Map_Cycle_Delay_Seconds -->
 	<Demo_Attract_Map_Cycle_Delay_Seconds>1200</Demo_Attract_Map_Cycle_Delay_Seconds>

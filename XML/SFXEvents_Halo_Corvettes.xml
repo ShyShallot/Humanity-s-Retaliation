@@ -4,7 +4,7 @@
 
     <SFXEvent Name="Corvette_Target_Archers">
         <Use_Preset>Preset_UR</Use_Preset>
-        <Samples>Data\Audio\SFX\Corvette_Archers_Select.wav</Samples>
+        <Samples>Data\Audio\SFX\Corvette_Archers_Target.wav</Samples>
         <Localize> No </Localize>
         <Play_Sequentially> Yes </Play_Sequentially>
         <Text_ID>TEXT_SFX_COR_SELECT_1</Text_ID>

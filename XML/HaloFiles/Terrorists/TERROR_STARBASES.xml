@@ -27,7 +27,7 @@
 		<Tech_Level>1</Tech_Level>
 		<Base_Level>1</Base_Level>
 		<Prev_Level_Base />
-		<Next_Level_Base>TERROR_STARBASE_2</Next_Level_Base>
+		<Next_Level_Base>Terrorists_Star_Base_2</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<CategoryMask> SpaceStructure </CategoryMask>
@@ -140,8 +140,8 @@
         <Text_ID>TEXT_TERROR_STAR_BASE_2</Text_ID>
 		<Encyclopedia_Text>TEXT_TERROR_STAR_BASE_2_ENC</Encyclopedia_Text>
         <Affiliation>Terrorists</Affiliation>
-        <Prev_Level_Base>TERROR_STARBASE_1</Prev_Level_Base>
-		<Next_Level_Base>TERROR_STARBASE_3</Next_Level_Base>
+        <Prev_Level_Base>Terrorists_Star_Base_1</Prev_Level_Base>
+		<Next_Level_Base>Terrorists_Star_Base_3</Next_Level_Base>
         <Tech_Level>2</Tech_Level>
 		<Base_Level>2</Base_Level>
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -172,7 +172,7 @@
         <Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
         <Text_ID>TEXT_TERROR_STAR_BASE_3</Text_ID>
 		<Encyclopedia_Text>TEXT_TERROR_STAR_BASE_3_ENC</Encyclopedia_Text>
-        <Prev_Level_Base>TERROR_STARBASE_2</Prev_Level_Base>
+        <Prev_Level_Base>Terrorists_Star_Base_2</Prev_Level_Base>
 		<Next_Level_Base/>
         <Affiliation>Terrorists</Affiliation>
         <Tech_Level>3</Tech_Level>

@@ -63,7 +63,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA</SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA, SELF_DESTRUCT</SpaceBehavior>
 
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1050.0</Targeting_Max_Attack_Distance>
@@ -88,6 +88,17 @@
 				<Spawned_Object_Type> Proj_Special_Space_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
 				<Effective_Radius> 2850.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
 				<Area_Effect_Decal_Distance> 600.0 </Area_Effect_Decal_Distance> 
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
+				<Spawned_Object_Type> UNSC_Frigate_Self_Destruct </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Name_Text>HALO_COLE_PROTOCOL</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_COLE_PROTOCOL_ENC</Alternate_Description_Text>
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
@@ -481,7 +492,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, STUNNABLE,  NEBULA, SELF_DESTRUCT </SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
@@ -504,10 +515,21 @@
 				<Type>LASER_DEFENSE</Type>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Mako_Point_Defense </GUI_Activated_Ability_Name>
-				<Effective_Radius> 500.0 </Effective_Radius>
+				<Effective_Radius> 1000.0 </Effective_Radius>
 				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Laser_Defense_On_Crusader </SFXEvent_GUI_Unit_Ability_Activated>				<!--(by pressing the activate button)-->
 				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Laser_Defense_Off_Crusader </SFXEvent_GUI_Unit_Ability_Deactivated>				<!--(by pressing deactivate)-->
 				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
+				<Spawned_Object_Type> UNSC_Frigate_Self_Destruct </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Name_Text>HALO_COLE_PROTOCOL</Alternate_Name_Text>
+				<Alternate_Description_Text>HALO_COLE_PROTOCOL_ENC</Alternate_Description_Text>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -519,15 +541,35 @@
 				<Laser_Color>255, 255, 255, 255</Laser_Color>
 				<Bone_Names>HP_MAKO_ARCHER_01,HP_MAKO_ARCHER_02,HP_MAKO_ARCHER_03,HP_MAKO_ARCHER_04</Bone_Names>
 				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-				<Protection_Radius>500.0</Protection_Radius>
+				<Protection_Radius>1000.0</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
 				<Laser_Beam_Width>4</Laser_Beam_Width>
 				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
 				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
 				<Laser_Beam_Texture>MACParticle.dds</Laser_Beam_Texture>
-				<Recharge_Time_In_Secs>.2</Recharge_Time_In_Secs>
+				<Recharge_Time_In_Secs>.1</Recharge_Time_In_Secs>
 				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
 			</Laser_Defense_Ability>
+
+			<System_Spy_Ability Name="Mako_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Activated</Activation_Style>
+				<Causes_Despawn>Yes</Causes_Despawn>
+				<Duration_In_Secs>60.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>Yes</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
 		</Abilities>
 
 		<CategoryMask> Corvette | AntiFighter</CategoryMask>

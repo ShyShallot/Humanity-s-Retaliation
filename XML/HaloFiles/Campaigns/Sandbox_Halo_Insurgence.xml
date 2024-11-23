@@ -145,31 +145,31 @@
 		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Terrorists, 3 </Max_Tech_Level>
 
-		<Starting_Forces> Terrorists, Threshold, TERROR_STARBASE_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_1 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Harvest, TERROR_STARBASE_2 </Starting_Forces>
+		<Starting_Forces> Terrorists, Harvest, Terrorists_Star_Base_2 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Arcadia, TERROR_STARBASE_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Arcadia, Terrorists_Star_Base_1 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Eridanus_2, TERROR_STARBASE_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Aktis_IV, TERROR_STARBASE_2 </Starting_Forces>
+		<Starting_Forces> Terrorists, Aktis_IV, Terrorists_Star_Base_2 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Aleria, TERROR_STARBASE_2 </Starting_Forces>
+		<Starting_Forces> Terrorists, Aleria, Terrorists_Star_Base_2 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Harmony, TERROR_STARBASE_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Harmony, Terrorists_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Reach, TERROR_STARBASE_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Reach, Terrorists_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Gao, TERROR_STARBASE_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Gao, Terrorists_Star_Base_1 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Charybdis_IX, TERROR_STARBASE_2 </Starting_Forces>
+		<Starting_Forces> Terrorists, Charybdis_IX, Terrorists_Star_Base_2 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Far_Isle, TERROR_STARBASE_2 </Starting_Forces>
+		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_2 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Meridian, TERROR_STARBASE_3 </Starting_Forces>
+		<Starting_Forces> Terrorists, Meridian, Terrorists_Star_Base_3 </Starting_Forces>
 
-		<Starting_Forces> Terrorists, Terra_Nova, TERROR_STARBASE_2 </Starting_Forces>
+		<Starting_Forces> Terrorists, Terra_Nova, Terrorists_Star_Base_2 </Starting_Forces>
 
 	</Campaign>
 

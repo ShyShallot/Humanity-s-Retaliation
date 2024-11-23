@@ -52,19 +52,21 @@
 <!-- START GALACTIC THEMES -->
 
 	<MusicEvent Name="Galactic_Map_Rebel_Music_Event">
-		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3</Files>
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3, halo3battlemusicfinaleffort.mp3, halo3battlemusicfinaleffort8bit.mp3, halo3battlemusicfinaleffortremix.mp3, halo3battlemusicfinishfight.mp3, halo3battlemusicgravemind.mp3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3, reach_package_battle.mp3, reach_sword_base_battle.mp3, reach_tip_spear_battle.mp3, reach_winter_contingency_battle.mp3, reach_ashes_ambient.mp3, reach_at_any_cost_ambient.mp3, reach_ghosts_glass_ambient.mp3, reach_new_alexandria_ambient.mp3, reach_nightfall_ambient.mp3, reach_overture_ambient.mp3, reach_poa_ambient.mp3, reach_remember_ambient.mp3, reach_sword_base_ambient.mp3, reach_vault_ambient.mp3, reach_walking_away_ambient.mp3, reach_winter_contingency_ambient.mp3</Files>
         <Volume_Percent>60</Volume_Percent>
         <Fade_In_Seconds>2.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
         <Loop> Yes </Loop>
+        <Play_Sequentially> No </Play_Sequentially>
     </MusicEvent>
 
 	<MusicEvent Name="Galactic_Map_Empire_Music_Event">
-		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3, halo3battlemusicfinaleffort.mp3, halo3battlemusicfinaleffort8bit.mp3, halo3battlemusicfinaleffortremix.mp3, halo3battlemusicfinishfight.mp3, halo3battlemusicgravemind.mp3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3, reach_package_battle.mp3, reach_sword_base_battle.mp3, reach_tip_spear_battle.mp3, reach_winter_contingency_battle.mp3, reach_ashes_ambient.mp3, reach_at_any_cost_ambient.mp3, reach_ghosts_glass_ambient.mp3, reach_new_alexandria_ambient.mp3, reach_nightfall_ambient.mp3, reach_overture_ambient.mp3, reach_poa_ambient.mp3, reach_remember_ambient.mp3, reach_sword_base_ambient.mp3, reach_vault_ambient.mp3, reach_walking_away_ambient.mp3, reach_winter_contingency_ambient.mp3 </Files>
         <Volume_Percent>60</Volume_Percent>
         <Fade_In_Seconds>2.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
         <Loop> Yes </Loop>
+        <Play_Sequentially> No </Play_Sequentially>
     </MusicEvent>
 
 
@@ -385,19 +387,21 @@
 
 
 	<MusicEvent Name="Space_Map_Rebel_Ambient_Music_Event">
-		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3, reach_ashes_ambient.mp3, reach_at_any_cost_ambient.mp3, reach_ghosts_glass_ambient.mp3, reach_new_alexandria_ambient.mp3, reach_nightfall_ambient.mp3, reach_overture_ambient.mp3, reach_poa_ambient.mp3, reach_remember_ambient.mp3, reach_sword_base_ambient.mp3, reach_vault_ambient.mp3, reach_walking_away_ambient.mp3, reach_winter_contingency_ambient.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
 		<Fade_In_Seconds>2.0</Fade_In_Seconds>
 		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
 		<Loop>Yes</Loop>
+        <Play_Sequentially> No </Play_Sequentially>
 	</MusicEvent>
 
 	<MusicEvent Name="Space_Map_Empire_Ambient_Music_Event">
-		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3, reach_ashes_ambient.mp3, reach_at_any_cost_ambient.mp3, reach_ghosts_glass_ambient.mp3, reach_new_alexandria_ambient.mp3, reach_nightfall_ambient.mp3, reach_overture_ambient.mp3, reach_poa_ambient.mp3, reach_remember_ambient.mp3, reach_sword_base_ambient.mp3, reach_vault_ambient.mp3, reach_walking_away_ambient.mp3, reach_winter_contingency_ambient.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
 		<Fade_In_Seconds>2.0</Fade_In_Seconds>
 		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
 		<Loop>Yes</Loop>
+        <Play_Sequentially> No </Play_Sequentially>
 	</MusicEvent>
 
 
@@ -405,19 +409,21 @@
 
 
 	<MusicEvent Name="Space_Map_Rebel_Battle_Music_Event">
-		<Files> halo3battlemusicfinaleffort.mp3, halo3battlemusicfinaleffort8bit.mp3, halo3battlemusicfinaleffortremix.mp3, halo3battlemusicfinishfight.mp3, halo3battlemusicgravemind.mp3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+		<Files> halo3battlemusicfinaleffort.mp3, halo3battlemusicfinaleffort8bit.mp3, halo3battlemusicfinaleffortremix.mp3, halo3battlemusicfinishfight.mp3, halo3battlemusicgravemind.mp3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3, reach_package_battle.mp3, reach_sword_base_battle.mp3, reach_tip_spear_battle.mp3, reach_winter_contingency_battle.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
 		<Fade_In_Seconds>2.0</Fade_In_Seconds>
 		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
 		<Loop>Yes</Loop>
+        <Play_Sequentially> No </Play_Sequentially>
 	</MusicEvent>
 
 	<MusicEvent Name="Space_Map_Empire_Battle_Music_Event">
-		<Files> halo3battlemusicfinaleffort.mp3, halo3battlemusicfinaleffort8bit.mp3, halo3battlemusicfinaleffortremix.mp3, halo3battlemusicfinishfight.mp3, halo3battlemusicgravemind.mp3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+		<Files> halo3battlemusicfinaleffort.mp3, halo3battlemusicfinaleffort8bit.mp3, halo3battlemusicfinaleffortremix.mp3, halo3battlemusicfinishfight.mp3, halo3battlemusicgravemind.mp3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3, reach_package_battle.mp3, reach_sword_base_battle.mp3, reach_tip_spear_battle.mp3, reach_winter_contingency_battle.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
 		<Fade_In_Seconds>2.0</Fade_In_Seconds>
 		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
 		<Loop>Yes</Loop>
+        <Play_Sequentially> No </Play_Sequentially>
 	</MusicEvent>
 
 

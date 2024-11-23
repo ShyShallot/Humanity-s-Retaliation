@@ -246,6 +246,37 @@
 		<Max_Speed>20.0</Max_Speed>
 		
 	</Projectile>
+
+	<Projectile Name="UNSC_Frigate_Self_Destruct">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.3</Scale_Factor>
+		<Max_Speed>6.0</Max_Speed>
+		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		
+		<!-- Instant explosion -->
+		<Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance>
+		
+		<!-- Not used - area_blast damage override this -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		
+		<!-- Ask artists to adjust detonation particle to be the same size as area blast range for correct visual effect -->
+		<Projectile_Blast_Area_Range>500.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>1650.0</Projectile_Blast_Area_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Damage_Type>Damage_Self_Destruct</Damage_Type>
+		
+		<Projectile_SFXEvent_Detonate>Nuke_Explode_Space</Projectile_SFXEvent_Detonate>
+		
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		
+		
+		<!-- Ask artists to adjust detonation particle to be the same size as area blast range for correct visual effect -->
+		<Projectile_Lifetime_Detonation_Particle>Nuke_Explode_Space</Projectile_Lifetime_Detonation_Particle>
+	</Projectile>	
 	
 	<Projectile Name="Proj_UNSC_Disable_Torpedo">
 		<Text_ID>TEXT_NONE</Text_ID>

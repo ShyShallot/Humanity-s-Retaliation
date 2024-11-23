@@ -41,7 +41,6 @@
 
 require("pgcommands")
 require("GalacticHeroFreeStore")
-require("PlanetsLoyalty")
 require("HALOFunctions")
 
 function Base_Definitions()

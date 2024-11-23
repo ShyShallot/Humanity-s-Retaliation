@@ -6,6 +6,10 @@
 		<Movie_File>Data\Art\Movies\Binked\HRIntroVideo.bik</Movie_File>
         <Cannot_Skip>false</Cannot_Skip>
 	</Movie>
+
+	<Movie Name="Background">
+		<Movie_File>Data\Art\Movies\Binked\Halo3Background.bik</Movie_File>
+	</Movie>
 	
 	<Movie Name="Default_Incoming_Transmission">
 		<Movie_File>Data\Art\Movies\Binked\incoming_transmission.bik</Movie_File>

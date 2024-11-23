@@ -1903,9 +1903,7 @@
       </Reduce_Production_Price_Ability>
       <Reduce_Production_Time_Ability Name="Glyke_Slave_Reduction">
         <Unit_Strength_Category/>
-        <Applicable_Unit_Categories>
-          <Applicable_Unit_Categories>Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories>
-        </Applicable_Unit_Categories>
+        <Applicable_Unit_Categories>Frigate, Corvette, Fighter, Bomber</Applicable_Unit_Categories>
         <Applicable_Unit_Types/>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
