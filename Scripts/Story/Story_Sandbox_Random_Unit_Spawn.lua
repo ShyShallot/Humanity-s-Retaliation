@@ -26,5 +26,7 @@ function Global_Story(message)
         end
         Story_Event("Spawning_Done")
         DebugMessage("%s -- All Done", tostring(Script))
+
+        ScriptExit()
     end
 end

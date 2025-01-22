@@ -262,7 +262,7 @@
 		
 		<!-- Ask artists to adjust detonation particle to be the same size as area blast range for correct visual effect -->
 		<Projectile_Blast_Area_Range>500.0</Projectile_Blast_Area_Range>
-		<Projectile_Blast_Area_Damage>1650.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Damage>2150.0</Projectile_Blast_Area_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Damage_Type>Damage_Self_Destruct</Damage_Type>
 		
@@ -366,7 +366,7 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>300.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>25</Projectile_Damage>
+		<Projectile_Damage>40</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -399,7 +399,7 @@
 		<Projectile_Category>ROCKET</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>300.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>40.5</Projectile_Damage>
+		<Projectile_Damage>70.5</Projectile_Damage>
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -515,7 +515,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Normal </Damage_Type>
-		<Projectile_Damage>18</Projectile_Damage>
+		<Projectile_Damage>20.5</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -597,7 +597,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
-		<Projectile_Damage>48.0</Projectile_Damage>
+		<Projectile_Damage>58.0</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -624,7 +624,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
-		<Projectile_Damage>35.5</Projectile_Damage>
+		<Projectile_Damage>40.5</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -649,7 +649,7 @@
 		<Scale_Factor>25.0</Scale_Factor>
 		<Max_Speed>39.0</Max_Speed>
 		<Damage_Type> Damage_UNSC_Heavy </Damage_Type>
-		<Projectile_Damage>33.5</Projectile_Damage>
+		<Projectile_Damage>28.5</Projectile_Damage>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>

@@ -258,7 +258,7 @@
 		<Required_Special_Structures />
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
-		<Tactical_Health>30000</Tactical_Health>
+		<Tactical_Health>11500</Tactical_Health>
 		<Shield_Points>11500</Shield_Points>
 		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>

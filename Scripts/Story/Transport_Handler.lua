@@ -22,6 +22,7 @@ function State_Init(message)
         for _, planet in pairs(planets) do
             if planet.Get_Owner() == human then
                 table.insert(human_planets,planet)
+            end
         end
     end
 

@@ -48,7 +48,7 @@
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
-		<Tactical_Health>16500</Tactical_Health>
+		<Tactical_Health>12000</Tactical_Health>
 		<Shield_Points>11500</Shield_Points>
 		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -396,7 +396,7 @@
 		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
 		<Required_Planets>Mars, Earth, Reach, Alluvion, Glyke, Sanghelios, Kostroda</Required_Planets>
 		<Autoresolve_Health>8500</Autoresolve_Health>
-		<Tactical_Health>8500</Tactical_Health>
+		<Tactical_Health>9850</Tactical_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
@@ -565,7 +565,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>4000</Shield_Points>
-		<Tactical_Health>11000</Tactical_Health> <!-- was 2800 -->
+		<Tactical_Health>14500</Tactical_Health> <!-- was 2800 -->
 		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>

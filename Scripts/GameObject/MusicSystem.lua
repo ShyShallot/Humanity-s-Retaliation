@@ -154,7 +154,7 @@ function Start_Music_Timer(song_length)
     is_song_playing = true;
     startTime = GetCurrentTime();
     while (is_song_playing) do
-        if(GetCurrentTime() >= startTime+song_length)
+        if(GetCurrentTime() >= startTime+song_length) then
             is_song_playing = false;
             if not Is_Player_In_Combat(player) then
                 is_combat_song = false

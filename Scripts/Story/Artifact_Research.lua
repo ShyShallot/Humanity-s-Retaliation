@@ -302,6 +302,10 @@ function State_Research(message)
 
             event.Add_Dialog_Text("Artifacts Needed for Tech Level: " .. tostring(player.Get_Tech_Level() + 1) .. ": All Researched, Check any planet with a Research Facility to Research the Next Tech!")
 
+            player.Lock_Tech(dig_up_unit_type)
+
+            player.Lock_Tech(research_unit_type)
+
             Game_Message("Artifact Researched, Check Artifact Display")
 
             tech_up_available = true
@@ -312,6 +316,9 @@ function State_Research(message)
 
             event.Add_Dialog_Text("Artifacts Needed for Tech Level: " .. tostring(player.Get_Tech_Level() + 1) .. ": All Researched, Check any planet with a Research Facility to Research the Next Tech!")
 
+            player.Lock_Tech(dig_up_unit_type)
+
+            player.Lock_Tech(research_unit_type)
         end
 
         next_Tech = Find_First_Object(next_tech_upgrade.Get_Name())

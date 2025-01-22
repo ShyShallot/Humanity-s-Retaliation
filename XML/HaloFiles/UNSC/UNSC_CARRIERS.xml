@@ -228,7 +228,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>3250</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>3250</Tactical_Health>
+		<Tactical_Health>4500</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
