@@ -64,7 +64,7 @@ function State_Init(message)
 
         active_filter = nil
 
-        for event, trigger in pairs(filters) do
+        for event, _ in pairs(filters) do
             DebugMessage("Event Name: %s", event)
             plot.Get_Event(event).Set_Reward_Parameter(1, human.Get_Faction_Name())
         end

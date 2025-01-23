@@ -301,7 +301,7 @@ function Sub_Faction_Planet_Master()
 
     local Max_Terror_Units_By_Type = {}
 
-    Max_Terror_Units_By_Type.Capital = {0,1}
+    Max_Terror_Units_By_Type.Capital = {0,1} -- Min, Max
 
     Max_Terror_Units_By_Type.Frigate = {0,5}
 
@@ -352,9 +352,9 @@ function Spawn_Sub_Faction_Units(Planet_List, Max_Table, Faction, Units, Starbas
 
             local finalAmount = EvenMoreRandom(min,max,8)
             
-            local randomZero = EvenMoreRandom(0,1)
+            local randomPercent = tonumber(Dirty_Floor(EvenMoreRandom(0,100) / 100))
 
-            finalAmount = finalAmount * randomZero
+            finalAmount = tonumber(Dirty_Floor(finalAmount * randomPercent))
 
             for i=1, finalAmount do
                 local randomUnitIndex = EvenMoreRandom(1, tableLength(Units[Category]))

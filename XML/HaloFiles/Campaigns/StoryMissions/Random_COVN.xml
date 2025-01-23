@@ -24,8 +24,8 @@
     <Event Name="Galactic_Conquest_Started">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
         <Event_Param2>Spawning_Done</Event_Param2>
-		<Story_Dialog>Custom\Dialog_Random_Start_GC</Story_Dialog>
-		<Story_Chapter>21</Story_Chapter>
+		<Story_Dialog>DIALOG_RANDOM</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
 		<Story_Tag>Intro_Tag</Story_Tag>
     </Event>
 
