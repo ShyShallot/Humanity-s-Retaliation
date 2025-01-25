@@ -24,6 +24,7 @@ end
 
 function State_Freighter(message)
     if message == OnUpdate then
+
 		plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Freighter_Display.xml") -- Plot file so we can a list of the freighters and their desitnation
 
 		event = plot.Get_Event("Freight_Display")
@@ -31,6 +32,18 @@ function State_Freighter(message)
 		
         freighter_list = Find_All_Objects_Of_Type("UNSC_GOODS_TRANSPORT")
 	    FreighterCount = tableLength(freighter_list)
+
+		if tableLength(All_UNSC_Planets()) < 2 then
+			return
+		end
+
+		if FreighterCount >= Max_Freighters() then
+			local UNSC = Find_Player("Rebel")
+
+			UNSC.Lock_Tech(Find_Object_Type("UNSC_GOODS_TRANSPORT"))
+		else
+			UNSC.Unlock_Tech(Find_Object_Type("UNSC_GOODS_TRANSPORT"))
+		end
 
 	    DebugMessage("Found %s Freighters", tostring(FreighterCount))
 	    if FreighterCount > 0 then
@@ -245,4 +258,29 @@ function Reset_Freighter(freighter, freighter_entry, inital_planet)
 	freighter_entry.Movement = nil
 
 	Move_Unit(freighter)
+end
+
+function All_UNSC_Planets()
+	local planets = FindPlanet.Get_All_Planets()
+
+	local unsc_planets = {}
+
+	local unsc = Find_Player("Rebel")
+
+	for _, planet in pairs(planets) do
+		if planet.Get_Owner() == unsc then
+			table.insert(unsc_planets, unsc)
+		end
+	end
+
+	return unsc_planets
+end
+
+function Max_Freighters()
+
+	local Trade_Platform_Count = tableLength(Find_All_Objects_Of_Type("UNSC_Trade_Platform"))
+
+	local Base_Max = 2
+
+	return Base_Max * Trade_Platform_Count
 end

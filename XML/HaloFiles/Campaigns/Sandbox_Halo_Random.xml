@@ -380,7 +380,8 @@
 		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 
-		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Earth, UNSC_HALCYON </Starting_Forces>
+
 
 
 		<!-- Empire Starting Forces -->
@@ -389,7 +390,7 @@
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
-		<Starting_Forces> Empire, Sanghelios, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Sanghelios, COVN_CCS </Starting_Forces>
 
 		<!-- Banished Starting Forces -->
 
@@ -397,7 +398,7 @@
 		<Starting_Tech_Level> Swords, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Swords, 5 </Max_Tech_Level>
 
-		<Starting_Forces> Swords, Te, SWORDS_STARBASE_1 </Starting_Forces>
+		<Starting_Forces> Swords, Te, SWORDS_CCS </Starting_Forces>
 
 		<!-- Terror Starting Forces -->
 
@@ -405,7 +406,7 @@
 		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Terrorists, 5 </Max_Tech_Level>
 
-		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Terrorists, Far_Isle, TERROR_HALCYON </Starting_Forces>
 
 
 	</Campaign>

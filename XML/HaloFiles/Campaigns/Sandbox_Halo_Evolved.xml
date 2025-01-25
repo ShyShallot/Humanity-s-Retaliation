@@ -3,7 +3,7 @@
 	<Campaign Name="Sandbox_Halo_Evolved_UNSC">
 
 		<Campaign_Set> Sandbox_Halo_Evolved </Campaign_Set>
-		<Sort_Order>7</Sort_Order>
+		<Sort_Order>2</Sort_Order>
 
 		<Text_ID> TEXT_HALO_CAMPAIGN_EVOLVED </Text_ID>
 		<Description_Text> TEXT_HALO_CAMPAIGN_EVOLVED_ENC </Description_Text>

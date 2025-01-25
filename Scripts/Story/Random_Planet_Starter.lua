@@ -42,7 +42,7 @@ function Despawn_Starting_Structure(player, starting_unit)
     end
 end
 
-empire_structures = {}
+empire_structures = {"Covenant_Mining_Facility_Starting"}
 empire_starbase = "Empire_Star_Base_5"
 empire_units = {
     ["COVN_CCS"] = 1, 
@@ -53,7 +53,7 @@ empire_units = {
     ["Cerastes_Squadron"] = 2, 
     ["Banshee_Squadron"] = 4
 }
-rebel_structures = {}
+rebel_structures = {"UNSC_Mining_Facility_Starting"}
 rebel_starbase = "Rebel_Star_Base_4"
 rebel_units = {
     ["UNSC_Halcyon"] = 3,
@@ -146,7 +146,7 @@ end
 function Random_Planet_Select()
     DebugMessage("%s -- Selecting Random Planet", tostring(Script))
     local planets = FindPlanet.Get_All_Planets()
-    local totalplanets = table.getn(planets)
+    local totalplanets = tableLength(planets)
     DebugMessage("%s -- Number of Planets", tostring(totalplanets))
     local selectRandom = EvenMoreRandom(1, totalplanets,20) -- Lua starts index at 1 cause why not
     DebugMessage("%s -- Random Selected Index", tostring(selectRandom))
@@ -192,7 +192,7 @@ end
 
 
 function Spawn_Structure_List(struct_list, planet,player)
-    for i=table.getn(struct_list),1,-1 do
+    for i=tableLength(struct_list),1,-1 do
         local struct = Find_Object_Type(struct_list[i])
         Spawn_Unit(struct,planet,player)
     end
