@@ -58,7 +58,7 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>4500</Build_Cost_Credits>
+		<Build_Cost_Credits>3000</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2500</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
@@ -201,7 +201,8 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>10</Population_Value>
+		<Population_Value>5</Population_Value>
+
 	</SpaceUnit>
 	
 	<SpaceUnit Name="UNSC_MUSASHI_2">
@@ -273,7 +274,7 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>7500</Build_Cost_Credits>
+		<Build_Cost_Credits>3550</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>50</Build_Time_Seconds>
@@ -441,7 +442,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>13</Population_Value>
+		<Population_Value>7</Population_Value>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_POSEIDON_2">

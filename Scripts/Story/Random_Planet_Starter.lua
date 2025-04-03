@@ -53,7 +53,10 @@ empire_units = {
     ["Cerastes_Squadron"] = 2, 
     ["Banshee_Squadron"] = 4
 }
-rebel_structures = {"UNSC_Mining_Facility_Starting"}
+empire_heroes = {"COVN_ARDO"}
+
+
+rebel_structures = {"UNSC_Mining_Facility_Starting","UNSC_Medium_Shipyard"}
 rebel_starbase = "Rebel_Star_Base_4"
 rebel_units = {
     ["UNSC_Halcyon"] = 3,
@@ -63,14 +66,15 @@ rebel_units = {
     ["Shortsword_Squadron"] = 2,
     ["Baselard_Squadron"] = 3
 }
+rebel_heroes = {"UNSC_SOF","UNSC_IAC","UNSC_ROMAN_BLUE"}
 
 function Spawn_Random_Units()
     DebugMessage("%s -- Function called spawning starting units", tostring(Script))
     --Planet_List() This is only used for Debugging, do not renable unless needed
     local empire = Find_Player("EMPIRE")
     local rebel = Find_Player("REBEL")
-    Spawn_Faction_Starting(empire, empire_structures, empire_units,empire_starbase, "COVN_CCS")
-    Spawn_Faction_Starting(rebel, rebel_structures, rebel_units,rebel_starbase, "UNSC_HALCYON")
+    Spawn_Faction_Starting(empire, empire_structures, empire_units,empire_heroes,empire_starbase, "COVN_CCS")
+    Spawn_Faction_Starting(rebel, rebel_structures, rebel_units,rebel_heroes,rebel_starbase, "UNSC_HALCYON")
     --Spawn_Player_Pirates() -- Always spawn pirates last, as they fill in the gaps
     Sub_Faction_Planet_Master()
     Sleep(5)
@@ -117,7 +121,7 @@ function Spawn_Player_Swords()
     
 end
 
-function Spawn_Faction_Starting(faction, structures, units, starbase, starting_unit)
+function Spawn_Faction_Starting(faction, structures, units, heroes, starbase, starting_unit)
     Despawn_Starting_Structure(faction,starting_unit)
     DebugMessage("%s -- Despawning %s Structure", tostring(Script), tostring(faction.Get_Faction_Name()))
     local planet_start = Random_Planet_Select()
@@ -134,6 +138,8 @@ function Spawn_Faction_Starting(faction, structures, units, starbase, starting_u
     Spawn_Unit_List(units, planet_start, faction)
     Sleep(1)
     Spawn_Structure_List(structures, planet_start, faction)
+    Sleep(1)
+    Spawn_Structure_List(heroes, planet_start, faction) -- structure list is the same as heroes so we just reuse the same function
     Sleep(1)
     Spawn_Unit(Find_Object_Type(starbase),planet_start,faction)
 end
@@ -255,7 +261,7 @@ function Sub_Faction_Planet_Master()
 
                 local max_distance = 3 -- x planet max influence
 
-                if closest_planet ~= nil and distance < (max_distance + 2) then
+                if closest_planet ~= nil and distance < (max_distance + 2) and Return_Chance(0.7, 1) then
                     DebugMessage(tostring(closest_planet) .. " was within margin, Owner: " .. tostring(closest_planet.Get_Owner().Get_Name()))
                     if closest_planet.Get_Owner() == Terror or closest_planet.Get_Owner() == Find_Player("Rebel")then
                         DebugMessage("Changed Owner")
@@ -305,9 +311,9 @@ function Sub_Faction_Planet_Master()
 
     Max_Terror_Units_By_Type.Frigate = {0,5}
 
-    Max_Terror_Units_By_Type.Corvette = {2,6}
+    Max_Terror_Units_By_Type.Corvette = {1,4}
 
-    Max_Terror_Units_By_Type.Fighter = {4,8}
+    Max_Terror_Units_By_Type.Fighter = {2,4}
 
     DebugPrintTable(Max_Terror_Units_By_Type)
 
@@ -315,11 +321,11 @@ function Sub_Faction_Planet_Master()
 
     Max_Swords_Units_By_Type.Capital = {0,1}
 
-    Max_Swords_Units_By_Type.Frigate = {0,4}
+    Max_Swords_Units_By_Type.Frigate = {0,2}
 
-    Max_Swords_Units_By_Type.Corvette = {0,5}
+    Max_Swords_Units_By_Type.Corvette = {0,3}
 
-    Max_Swords_Units_By_Type.Fighter = {3,10}
+    Max_Swords_Units_By_Type.Fighter = {2,5}
 
     DebugPrintTable(Max_Swords_Units_By_Type)
   

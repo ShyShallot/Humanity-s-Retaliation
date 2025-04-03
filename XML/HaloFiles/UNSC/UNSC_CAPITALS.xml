@@ -57,7 +57,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>13500</Build_Cost_Credits>
+		<Build_Cost_Credits>11000</Build_Cost_Credits>
 		<AI_Combat_Power>7000</AI_Combat_Power>
 		<Build_Time_Seconds>275</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -171,7 +171,8 @@
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>26</Population_Value>
+		<Population_Value>14</Population_Value>
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_MARATHON">
@@ -231,7 +232,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>10500</Build_Cost_Credits>
+		<Build_Cost_Credits>9500</Build_Cost_Credits>
 		<AI_Combat_Power>7500</AI_Combat_Power>
 		<Build_Time_Seconds>195</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -345,7 +346,8 @@
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>24</Population_Value>
+		<Population_Value>16</Population_Value>
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_HALCYON">
@@ -405,7 +407,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>6500</Build_Cost_Credits>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
 		<AI_Combat_Power>6000</AI_Combat_Power>
 		<Build_Time_Seconds>95</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -525,7 +527,9 @@
 		<!--<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>12</Population_Value>
+		<Population_Value>8</Population_Value>
+
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="UNSC_VINDICATION">
@@ -588,7 +592,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>15000</Build_Cost_Credits>
+		<Build_Cost_Credits>12500</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>9000</AI_Combat_Power>
 		<Build_Time_Seconds>315</Build_Time_Seconds>
@@ -722,6 +726,6 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>28</Population_Value>
+		<Population_Value>20</Population_Value>
 	</SpaceUnit>
 </CapitalShips>

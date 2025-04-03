@@ -69,7 +69,7 @@ end
 function Combat_Power_From_List(list)
     local combat_power = 0
     if list == nil then
-        return
+        return 0
     end
     for k, unit in pairs(list) do
         if TestValid(unit) then
@@ -120,7 +120,7 @@ function getRandomStringKey(Table)
     end
 end
 
-function EvenMoreRandom(min,max,count) -- the GameRandom tends to be consistant despite being random, usual min max value, with the count being the amount of random numbers generated to then be randomly chosen
+function EvenMoreRandom(min,max,count) 
     if count == 0 or count == nil then
         count = 20
     end

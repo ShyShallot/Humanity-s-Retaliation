@@ -16,7 +16,7 @@
 		</Is_Like>
 	</Upgrade_Starbase>
 
-	<Defend_Empty_Planet>
+	<!--<Defend_Empty_Planet>
 		<AIGoalApplicationFlags>Friendly</AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
 		<Category> Infrastructure </Category>
@@ -28,7 +28,7 @@
 			HR_Build_Initial_Starbase_Only,
 			Build_Jamming_Station
 		</Is_Like>
-	</Defend_Empty_Planet>
+	</Defend_Empty_Planet>-->
 
 	
 	<Advance_Tech_Empire>

@@ -47,14 +47,18 @@ function Base_Definitions()
 	DebugMessage("%s -- In Base_Definitions", tostring(Script))
 
 	-- how often does this script get serviced?
-	ServiceRate = 8
-	UnitServciceRate = 8
+	ServiceRate = 45
+	UnitServiceRate = 45
 	
 	Common_Base_Definitions()
 	
 	-- Percentage of units to move on each service.
-	SpaceMovePercent = 0.8
-	GroundMovePercent = 0.8
+	SpaceMovePercent = 0.5
+	GroundMovePercent = 0.25
+
+	Global_Unit_List = {}
+
+	Global_Unit_List_Active = false
 
 	if Definitions then
 		Definitions()
@@ -77,21 +81,15 @@ end
 
 function MoveUnit(object)
 
-	dest_target = nil
-	object_type = object.Get_Type()
-	if object_type.Is_Hero() then
-		dest_target = Find_Custom_Target(object)
-	end
-	
+	local dest_target = nil
+
 	if not TestValid(dest_target) then
-		if object.Is_Transport() then
-			dest_target = Find_Ground_Unit_Target(object)
-		else
-			dest_target = Find_Space_Unit_Target(object)
-		end
+		dest_target = Find_Target_Planet(object)
 	end
 
 	if dest_target then
+		DebugMessage("%s -- Moving %s to %s", tostring(Script), tostring(object), tostring(dest_target))
+		Modify_Global_Unit_List(object,dest_target)
 		FreeStore.Move_Object(object, dest_target)
 		return true
 	else
@@ -158,6 +156,8 @@ function FreeStoreService()
 		leader_object = Find_First_Object("EMPEROR_PALPATINE")
 	end
 
+	Calculate_Unit_List()
+
 	MovedUnitsThisService = 0
 	GroundUnitsMoved = 0
 	GroundUnitsToMove = 0
@@ -184,145 +184,198 @@ function FreeStoreService()
 
 end
 
+function Calculate_Unit_List()
+	local units = Find_All_Objects_Of_Type("Fighter | Bomber | Transport | Corvette | Frigate | Capital | Super")
 
+	DebugMessage("%s -- Total Units Found: %s", tostring(Script), tostring(tableLength(units)))
 
-function Find_Ground_Unit_Target(object)
+	Global_Unit_List = {}
 
-	my_planet = object.Get_Planet_Location()
+	for _, unit in pairs (units) do
+		if TestValid(unit) then
+			--DebugMessage("%s -- Creating Global List for %s, Owner: %s, Planet: %s", tostring(Script), tostring(unit), tostring(unit.Get_Owner()), tostring(unit.Get_Planet_Location()))
+			if TestValid(unit.Get_Owner()) and TestValid(unit.Get_Planet_Location()) then
+				local unit_owner_name = unit.Get_Owner().Get_Faction_Name()
 
-	if FreeStore.Is_Unit_Safe(object) == false then
-		my_planet = nil
-	end	
-	
-	if leader_object then
-		leader_planet = leader_object.Get_Planet_Location()
-	end	
-	
-	max_force_target = 1000 * (PlayerObject.Get_Tech_Level() + 1)
-	force_target = EvaluatePerception("Friendly_Global_Land_Unit_Raw_Total", PlayerObject)
-	if not force_target then
-		return nil
-	end
-	force_target = force_target / 4.0
-	if force_target > max_force_target then
-		force_target = max_force_target
-	end	
-		
-	if leader_planet then
-		if leader_planet == my_planet then
-			return nil	
-		elseif leader_planet.Get_Is_Planet_AI_Usable() and object.Can_Land_On_Planet(leader_planet) then
-			if EvaluatePerception("Friendly_Land_Unit_Raw_Total", PlayerObject, leader_planet) < force_target then
-				return leader_planet
+				local unit_planet_name = unit.Get_Planet_Location().Get_Type().Get_Name()
+				if Global_Unit_List[unit_owner_name] == nil then
+					Global_Unit_List[unit_owner_name] = {}
+				end
+
+				if Global_Unit_List[unit_owner_name][unit_planet_name] == nil then
+					Global_Unit_List[unit_owner_name][unit_planet_name] = {}
+				end
+
+				if Global_Unit_List[unit_owner_name][unit_planet_name] ~= nil then
+					table.insert(Global_Unit_List[unit_owner_name][unit_planet_name], unit)
+				end
 			end
 		end
 	end
-	
-	priority_planet = FindTarget.Reachable_Target(PlayerObject, "Ground_Priority_Defense_Score", "Friendly", "Friendly_Only", 0.1, object)
-	if priority_planet then
-		priority_planet = priority_planet.Get_Game_Object()
+
+	if tableLength(Global_Unit_List) > 1 then
+		Global_Unit_List_Active = true
 	end
-		
-	if priority_planet then
-		if priority_planet == my_planet then
-			return nil
-		elseif priority_planet.Get_Is_Planet_AI_Usable() and object.Can_Land_On_Planet(priority_planet)	then
-			if EvaluatePerception("Friendly_Land_Unit_Raw_Total", PlayerObject, priority_planet) < force_target then
-				return priority_planet
-			end
-		end
-	end
-	
-	if my_planet and EvaluatePerception("Low_Ground_Defense_Score", PlayerObject, my_planet) > 0.5 then
-		return nil
-	end
-	
-	poorly_defended_planet = FindTarget.Reachable_Target(PlayerObject, "Low_Ground_Defense_Score", "Friendly", "Friendly_Only", 1.0, object)
-	if poorly_defended_planet then
-		poorly_defended_planet = poorly_defended_planet.Get_Game_Object()
-	end
-	
-	if poorly_defended_planet and poorly_defended_planet.Get_Is_Planet_AI_Usable() and object.Can_Land_On_Planet(poorly_defended_planet) then
-		return poorly_defended_planet
-	end	
-	
-	if not my_planet then
-		fallback_planet = FindTarget.Reachable_Target(PlayerObject, "One", "Friendly", "Friendly_Only", 0.1, object)
-		if fallback_planet then
-			return fallback_planet.Get_Game_Object()
-		end
-	end
-	
-	return nil
 end
 
-function Find_Space_Unit_Target(object)
+function Find_Target_Planet(object)
 
-	my_planet = object.Get_Planet_Location()
+	if Global_Unit_List_Active == false then
+		DebugMessage("%s -- Global_Unit_List Not Active", tostring(Script))
+		return nil
+	end
 
-	if not my_planet then
-		return nil
-	end		
-	
-	if leader_object then
-		leader_planet = leader_object.Get_Planet_Location()
-	end
-		
-	max_force_target = 3000 * (PlayerObject.Get_Tech_Level() + 1)
-	force_target = EvaluatePerception("Friendly_Global_Space_Unit_Raw_Total", PlayerObject)
-	if not force_target then
-		return nil
-	end
-	force_target = force_target / 4.0
-	if force_target > max_force_target then
-		force_target = max_force_target
-	end
-		
-	if leader_planet and leader_planet.Get_Is_Planet_AI_Usable() then
-		if leader_planet == my_planet then
-			if EvaluatePerception("Friendly_Space_Unit_Raw_Total", PlayerObject, leader_planet) < 1.5 * force_target then
-				return leader_planet
-			end		
-		elseif EvaluatePerception("Friendly_Space_Unit_Raw_Total", PlayerObject, leader_planet) < force_target then
-			if EvaluatePerception("Enemy_Present", PlayerObject, leader_planet) == 0.0 then
-				return leader_planet
-			end
+	local planet_list = FindPlanet.Get_All_Planets()
+
+	local controlled_planets = {}
+
+	local enemy_planets = {}
+
+	local vunurable_planets = {}
+
+	for _, planet in pairs(planet_list) do
+		if planet.Get_Owner() == PlayerObject then
+			DebugMessage("%s -- Adding %s to Our Planets", tostring(Script), tostring(planet))
+			table.insert(controlled_planets, planet)
+		elseif planet.Get_Owner() ~= PlayerObject and planet.Get_Owner() ~= Find_Player("Neutral") then
+			DebugMessage("%s -- Adding %s to Enemy Planets", tostring(Script), tostring(planet))
+			table.insert(enemy_planets, planet)
 		end
 	end
-	
-	priority_planet = FindTarget.Reachable_Target(PlayerObject, "Space_Priority_Defense_Score", "Friendly", "Friendly_Only", 0.1, object)
-	if priority_planet then
-		priority_planet = priority_planet.Get_Game_Object()
-	end
-	
-	if priority_planet and priority_planet.Get_Is_Planet_AI_Usable() then
-		if priority_planet == my_planet then
-			if EvaluatePerception("Friendly_Space_Unit_Raw_Total", PlayerObject, priority_planet) < 1.5 * force_target then
-				return priority_planet
-			end				
-		elseif EvaluatePerception("Friendly_Space_Unit_Raw_Total", PlayerObject, priority_planet) < force_target then
-			if EvaluatePerception("Enemy_Present", PlayerObject, priority_planet) == 0.0 then
-				return priority_planet
+
+	local lowest_combat_power = 100000000
+	local target_planet = nil
+
+	for _, planet in pairs(controlled_planets) do
+
+		local planet_combat_power = 0
+
+		local Planet_Unit_List = Get_Planet_Unit_List(planet.Get_Owner(),planet)
+
+		local is_vunurable = false
+
+		if tableLength(Planet_Unit_List) > 0 then
+			for _, unit in pairs(Planet_Unit_List) do
+				planet_combat_power = planet_combat_power + unit.Get_Type().Get_Combat_Rating()
 			end
 		end
-	end
-	
-	if my_planet and EvaluatePerception("Low_Space_Defense_Score", PlayerObject, my_planet) > 0.5 then
-		return nil
-	end	
-	
-	poorly_defended_planet = FindTarget.Reachable_Target(PlayerObject, "Low_Space_Defense_Score", "Friendly", "Friendly_Only", 1.0, object)
-	if poorly_defended_planet then
-		poorly_defended_planet = poorly_defended_planet.Get_Game_Object()
-	end
-	
-	if poorly_defended_planet and poorly_defended_planet.Get_Is_Planet_AI_Usable() then
-		if EvaluatePerception("Friendly_Space_Unit_Raw_Total", PlayerObject, poorly_defended_planet) < force_target then
-			if EvaluatePerception("Enemy_Present", PlayerObject, poorly_defended_planet) == 0.0 then
-				return poorly_defended_planet
+
+		DebugMessage("%s -- Combat Power for Planet %s: %s", tostring(Script), tostring(planet), tostring(planet_combat_power))
+
+		if planet_combat_power < Tech_Power_Upkeep() then
+			DebugMessage("%s -- Adding %s to Vunurable Planets", tostring(Script), tostring(planet))
+			table.insert(vunurable_planets, planet)
+			is_vunurable = true
+		end
+
+		for _, enemy_planet in pairs(enemy_planets) do
+			if tableLength(Find_Path(PlayerObject, planet, enemy_planet)) == 2 then
+				local enemy_planet_combat_power = 0
+
+				local Enemy_Planet_Unit_list = Get_Planet_Unit_List(enemy_planet.Get_Owner(),enemy_planet)
+
+				if tableLength(Enemy_Planet_Unit_list) > 0 then
+					for _, unit in pairs(Enemy_Planet_Unit_list) do
+						enemy_planet_combat_power = enemy_planet_combat_power + unit.Get_Type().Get_Combat_Rating()
+					end
+				end
+
+				DebugMessage("%s -- Enemy Planet Combat Power for Planet %s: %s", tostring(Script), tostring(enemy_planet), tostring(enemy_planet_combat_power))
+
+				if enemy_planet_combat_power > planet_combat_power then
+					if not is_vunurable then
+						DebugMessage("%s -- Adding %s to Vunurable Planets", tostring(Script), tostring(planet))
+						table.insert(vunurable_planets, planet)
+					end
+				end
 			end
 		end
-	end	
+
+
+	end
+
+	local is_target_planet_vunurable = false
+
+	for _, planet in pairs(vunurable_planets) do
+		if target_planet == planet then
+			is_target_planet_vunurable = true
+		end
+	end
+
+	if not is_target_planet_vunurable then
+		target_planet = vunurable_planets[EvenMoreRandom(1,tableLength(vunurable_planets))]
+	end
+
+	DebugMessage("%s -- Final Target Planet %s", tostring(Script), tostring(target_planet))
+
+	local Path_To_Target = Find_Path(PlayerObject, object.Get_Planet_Location(), target_planet)
+
+	local Is_Valid_Path = false
+
+	local Valid_Path_Check_Count = 0
+
+	while not Is_Valid_Path and Valid_Path_Check_Count < 10 do
+		local valid_planets = 0
+		for _, planet in pairs(Path_To_Target) do
+			if planet.Get_Owner() == object.Get_Owner() then
+				valid_planets = valid_planets + 1
+			end
+		end
+
+		if valid_planets < tableLength(Path_To_Target) then
+			target_planet = vunurable_planets[EvenMoreRandom(1,tableLength(vunurable_planets))]
+		else
+			Is_Valid_Path = true
+		end
+
+		Valid_Path_Check_Count = Valid_Path_Check_Count + 1
+	end
+
+	return target_planet
+end
+
+function Get_Planet_Unit_List(owner, planet)
+	if not TestValid(owner) and not TestValid(planet) then
+		return {}
+	end
+
+	if Global_Unit_List[owner.Get_Faction_Name()] == nil then
+		return {}
+	end
+
+	if Global_Unit_List[owner.Get_Faction_Name()][planet.Get_Type().Get_Name()] == nil then
+		return {}
+	end
+
+	return Global_Unit_List[owner.Get_Faction_Name()][planet.Get_Type().Get_Name()]
 	
-	return nil
+end
+
+function Modify_Global_Unit_List(unit, new_planet)
+
+	if not TestValid(new_planet) then
+		return
+	end
+
+	local planet_list = Get_Planet_Unit_List(unit.Get_Owner(),unit.Get_Planet_Location())
+	if tableLength(planet_list) <= 0 then
+		return 
+	end
+
+	for _, planet_unit in pairs(planet_list) do
+		if planet_unit == unit then
+			table.remove(Global_Unit_List[unit.Get_Owner().Get_Faction_Name()][unit.Get_Planet_Location().Get_Type().Get_Name()])
+		end
+	end
+
+	table.insert(Global_Unit_List[unit.Get_Owner().Get_Faction_Name()][new_planet.Get_Type().Get_Name()],unit)
+end
+
+
+function Tech_Power_Upkeep()
+    if PlayerObject.Get_Faction_Name() == "REBEL" then
+        return 3000 * (PlayerObject.Get_Tech_Level() + 1)
+    else 
+        return 3000 * PlayerObject.Get_Tech_Level()
+    end
 end

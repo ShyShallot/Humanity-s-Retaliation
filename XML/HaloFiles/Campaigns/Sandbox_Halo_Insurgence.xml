@@ -6,7 +6,7 @@
 		<Sort_Order>6</Sort_Order>
 
 		<Text_ID> TEXT_HALO_CAMPAIGN_INSURGENCE </Text_ID>
-		<Description_Text> TEXT_HALO_CAMPAIGN_INSURGENCE_ENC </Description_Text>
+		<Description_Text> TEXT_HALO_CAMPAIGN_INSURGENCE_ENC_UNSC </Description_Text>
 
 		<Camera_Shift_X> 40.0 </Camera_Shift_X>
 		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>

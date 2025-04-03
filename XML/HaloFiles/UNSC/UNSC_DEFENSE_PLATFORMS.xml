@@ -5,7 +5,7 @@
 
         <Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
 
-        <SpaceBehavior> SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
+        <SpaceBehavior> SPACE_OBSTACLE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
 
 
         <Text_ID>TEXT_UNSC_MAC_PLATFORM</Text_ID>
@@ -28,13 +28,13 @@
 			UNSC_MAC_PLATFORM_01
         </HardPoints>
 
-        <Required_Star_Base_Level>3</Required_Star_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
         <Build_Cost_Credits>7550</Build_Cost_Credits>
 		<Build_Time_Seconds>125</Build_Time_Seconds>
 		<Build_Max_Instances_Per_Planet>2</Build_Max_Instances_Per_Planet>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Base_Position>Orbital</Base_Position>
-        <Tech_Level>1</Tech_Level>
+        <Tech_Level>0</Tech_Level>
 
 
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>

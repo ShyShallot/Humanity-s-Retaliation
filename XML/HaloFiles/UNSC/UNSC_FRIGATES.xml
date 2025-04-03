@@ -56,7 +56,7 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>1950</Build_Cost_Credits>
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2000</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
@@ -184,7 +184,8 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>5</Population_Value>
+		<Population_Value>4</Population_Value>
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	</SpaceUnit>
 
 
@@ -266,7 +267,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>4250</Build_Cost_Credits>
+		<Build_Cost_Credits>3250</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>4500</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
@@ -404,7 +405,8 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>14</Population_Value>
+		<Population_Value>8</Population_Value>
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Halberd_Death_Clone">
@@ -485,7 +487,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>1350</Build_Cost_Credits>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>1550</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
@@ -550,26 +552,6 @@
 				<Recharge_Time_In_Secs>.1</Recharge_Time_In_Secs>
 				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
 			</Laser_Defense_Ability>
-
-			<System_Spy_Ability Name="Mako_System_Spy">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Ground_Activated</Activation_Style>
-				<Causes_Despawn>Yes</Causes_Despawn>
-				<Duration_In_Secs>60.0</Duration_In_Secs>
-				<See_Base_Levels>Yes</See_Base_Levels>
-				<See_Credit_Income>No</See_Credit_Income>
-				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
-				<See_Num_Fleets>Yes</See_Num_Fleets>
-				<See_Fleet_Contents>Yes</See_Fleet_Contents>
-				<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
-				<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
-				<See_Special_Structures>Yes</See_Special_Structures>
-				<See_Political_Control>Yes</See_Political_Control>
-				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
-				<See_Current_Production>Yes</See_Current_Production>
-				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
-				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
-			</System_Spy_Ability>
 		</Abilities>
 
 		<CategoryMask> Corvette | AntiFighter</CategoryMask>
@@ -656,6 +638,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	</SpaceUnit>
 
 
@@ -721,7 +704,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>4250</Build_Cost_Credits>
+		<Build_Cost_Credits>3250</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>5000</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
@@ -851,7 +834,8 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>16</Population_Value>
+		<Population_Value>8</Population_Value>
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 	</SpaceUnit>
 
@@ -914,7 +898,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>4150</Build_Cost_Credits>
+		<Build_Cost_Credits>3700</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>5500</AI_Combat_Power>
 		<Build_Time_Seconds>45</Build_Time_Seconds>
@@ -1052,7 +1036,8 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>18</Population_Value>
+		<Population_Value>12</Population_Value>
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 	</SpaceUnit>
 
@@ -1115,7 +1100,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>3250</Build_Cost_Credits>
+		<Build_Cost_Credits>2525</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>32</Build_Time_Seconds>
@@ -1244,7 +1229,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>15</Population_Value>
+		<Population_Value>7</Population_Value>
 
 	</SpaceUnit>
 
@@ -1325,7 +1310,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>2450</Build_Cost_Credits>
+		<Build_Cost_Credits>1450</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>2500</AI_Combat_Power>
 		<Build_Time_Seconds>26</Build_Time_Seconds>
@@ -1436,7 +1421,8 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>8</Population_Value>
+		<Population_Value>4</Population_Value>
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 
 	</SpaceUnit>
 

@@ -537,11 +537,11 @@
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>9.0</Projectile_Length>
 		<Scale_Factor>15.0</Scale_Factor>
-		<Max_Speed>46.0</Max_Speed>
+		<Max_Speed>60.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Damage_Type> Damage_UNSC_FLAK </Damage_Type>
-		<Projectile_Damage>19.5</Projectile_Damage>
+		<Projectile_Damage>22.5</Projectile_Damage>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -557,7 +557,7 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 
 		<Projectile_Blast_Area_Range>55</Projectile_Blast_Area_Range>
-		<Projectile_Blast_Area_Damage>13.5</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Damage>19.5</Projectile_Blast_Area_Damage>
 	</Projectile>
 
 	<Projectile Name="Proj_UNSC_Bullet_Fighter">

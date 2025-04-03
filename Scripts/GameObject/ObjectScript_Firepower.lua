@@ -17,6 +17,8 @@ end
 
 function State_Init(message)
 	if message == OnEnter then
+		layer_manager = require("eaw-layerz/layermanager")
+		layer_manager:update_unit_layer(Object,true)
         ability_name = "POWER_TO_WEAPONS"
 		-- prevent this from doing anything in galactic mode
 		if Get_Game_Mode() == "Galactic" then

@@ -9,7 +9,7 @@ Configuration = {
             ---@return integer l_min minimum offset
             ---@return integer l_max maximum offset
             ---**TODO:** Update to desired range.
-            get_range = function() return 0, 0 end
+            get_range = function() return -200, 150 end
         },
         {
             -- @type string
@@ -17,7 +17,7 @@ Configuration = {
             ---@return integer l_min minimum offset
             ---@return integer l_max maximum offset
             ---**TODO:** Update to desired range.
-            get_range = function() return 0, 0 end
+            get_range = function() return -200, 150 end
 
         },
         {
@@ -26,13 +26,13 @@ Configuration = {
             ---@return integer l_min minimum offset
             ---@return integer l_max maximum offset
             ---**TODO:** Update to desired range.
-            get_range = function() return 0, 0 end
+            get_range = function() return -200, 150 end
 
         },
         ---@return integer l_min minimum offset
         ---@return integer l_max maximum offset
         ---**TODO:** Update to desired range.
-        default = function() return 0, 0 end
+        default = function() return -200, 150 end
     }
 }
 

@@ -22,6 +22,8 @@ end
 function State_Init(message)
     if message == OnEnter then
         DebugMessage("%s -- In Init", tostring(Script))
+        layer_manager = require("eaw-layerz/layermanager")
+		layer_manager:update_unit_layer(Object,true)
         ability_name = "DEFEND" -- Check if the object calling the script has the ability in the first place
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
     elseif message == OnUpdate then

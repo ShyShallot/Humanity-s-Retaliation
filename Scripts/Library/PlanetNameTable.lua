@@ -7,7 +7,13 @@ function Get_Name_Table()
         ["TVAO"] = "T'vao",
         ["VEN_3"] = "Ven III",
         ["VICTORS_TRUTH"] = "Victor's Truth",
-        ["Installation_05"] = "Installation 05"
+        ["INSTALLATION_05"] = "Installation 05",
+        ["CHI_CETI_IV"] = "Chi Ceti IV",
+        ["CHARYBDIS_IX"] = "Charybdis IX",
+        ["NEW_CARTHAGE"] = "New Carthage",
+        ["NEW_JERUSALEM"] = "New Jerusalem",
+        ["TERRA_NOVA"] = "Terra Nova"
+
     }
 
     return names

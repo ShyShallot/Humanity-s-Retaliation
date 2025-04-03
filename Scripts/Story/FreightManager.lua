@@ -29,29 +29,48 @@ function State_Freighter(message)
 
 		event = plot.Get_Event("Freight_Display")
         event.Clear_Dialog_Text() -- Clears all added Text
+
+		event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_CURRENT_LIMIT", tostring(Max_Freighters()))
 		
-        freighter_list = Find_All_Objects_Of_Type("UNSC_GOODS_TRANSPORT")
-	    FreighterCount = tableLength(freighter_list)
+        local freighter_list = Find_All_Objects_Of_Type("UNSC_GOODS_TRANSPORT")
+	    local FreighterCount = tableLength(freighter_list)
 
 		if tableLength(All_UNSC_Planets()) < 2 then
 			return
 		end
 
-		if FreighterCount >= Max_Freighters() then
-			local UNSC = Find_Player("Rebel")
+		local UNSC = Find_Player("REBEL")
 
+		DebugMessage("%s -- Current Freighter Count: %s, Max Freighter Count: %s", tostring(Script), tostring(FreighterCount), tostring(Max_Freighters()))
+
+		if FreighterCount >= Max_Freighters() then
 			UNSC.Lock_Tech(Find_Object_Type("UNSC_GOODS_TRANSPORT"))
+			GlobalValue.Set("Max_Freighters", 1)
+			
 		else
 			UNSC.Unlock_Tech(Find_Object_Type("UNSC_GOODS_TRANSPORT"))
+			GlobalValue.Set("Max_Freighters", 0)
 		end
 
-	    DebugMessage("Found %s Freighters", tostring(FreighterCount))
+		local freighters_to_be_removed = FreighterCount - Max_Freighters()
+
+		local removed_freighter_count = 0
+
+	    DebugMessage("Found %s Freighters, Freighters To Be Removed: %s", tostring(FreighterCount), tostring(freighters_to_be_removed))
 	    if FreighterCount > 0 then
 	    	for i = 1, FreighterCount, 1 do -- start I at 1, add 1 until we reach the amount of Freighters
 	    		local freighter_to_move = freighter_list[i]
+				
                 DebugMessage("Does Freighter have entry: %s", tostring(freighter_table[freighter_to_move]))
 	    		if freighter_table[freighter_to_move] == nil then -- Check if a freighter has been added to the table or not
-	    			if Return_Chance(0.55, 1) then -- Add some delay to the inital movement of the Freighter
+					local freighter_removed = false
+					if removed_freighter_count < freighters_to_be_removed and freighters_to_be_removed > 0 then
+						Game_Message("TEXT_STORY_FREIGHT_MANAGER_LIMIT")
+						freighter_to_move.Despawn()
+						removed_freighter_count = removed_freighter_count + 1
+						freighter_removed = true
+					end
+	    			if Return_Chance(0.55, 1) and freighter_removed == false then -- Add some delay to the inital movement of the Freighter
 						local dest = Find_Target(freighter_to_move)
 						local starting = freighter_to_move.Get_Planet_Location()
 	    				freighter_table[freighter_to_move] = {
@@ -92,7 +111,9 @@ function State_Freighter(message)
 				if freighter_table[freighter_to_move] ~= nil then
 					local freighter_entry = freighter_table[freighter_to_move]
 
-					event.Add_Dialog_Text("Freighter #" .. freighter_entry.Number .. ", Freight Path: " .. freighter_entry.Start.Get_Type().Get_Name() .. " ---> " .. freighter_entry.Destination.Get_Type().Get_Name() .. ", Estimated Income: ".. tostring(Calculate_Reward_Income(freighter_to_move, freighter_entry)) .. " Credits")
+					event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_01", tostring(freighter_entry.Number)) 
+					event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_02", freighter_entry.Start.Get_Type().Get_Name(), freighter_entry.Destination.Get_Type().Get_Name())
+					event.Add_Dialog_Text("TEXT_STORY_FREIGHT_MANAGER_FREIGHTER_03", tostring(Calculate_Reward_Income(freighter_to_move, freighter_entry)))
 					event.Add_Dialog_Text(" ")
 				end
 			end

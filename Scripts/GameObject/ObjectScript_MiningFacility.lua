@@ -113,29 +113,31 @@ function Skirmish_Econ_Line(transport)
 end
 
 function Credits_To_Give(player)
-    if(player.Get_Faction_Name() == "REBEL"){
+    if(player.Get_Faction_Name() == "REBEL") then
         faction = "RS"
-    } else {faction = "ES"}
+    else faction = "ES" end
     upgrade_l1 = Find_First_Object(faction.."_Increased_Supplies_L1_Upgrade")
     upgrade_l2 = Find_First_Object(faction.."_Increased_Supplies_L2_Upgrade")
     upgrade_l3 = Find_First_Object(faction.."_Increased_Supplies_L3_Upgrade")
     upgrade_l4 = Find_First_Object(faction.."_Increased_Supplies_L4_Upgrade")
     credits_to_give = 1000
     sleepTime = 15
-    if(TestValid(upgrade_l4)){
+    if(TestValid(upgrade_l4)) then
         credits_to_give = 2000
         sleepTime = 7
         return credits_to_give, sleepTime
-    }
-    if(TestValid(upgrade_l3)){
+    end
+
+    if(TestValid(upgrade_l3)) then
         credits_to_give = 1650
         sleepTime = 9
         return credits_to_give, sleepTime
-    }
-    if(TestValid(upgrade_l2)){
+    end 
+
+    if(TestValid(upgrade_l2)) then
         credits_to_give = 1350
         sleepTime = 12
-    }
+    end
     return credits_to_give, sleepTime
 end
 

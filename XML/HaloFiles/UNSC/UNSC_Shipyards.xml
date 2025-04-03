@@ -69,7 +69,7 @@
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Encyclopedia_Text> HALO_SHIPYARD_LIGHT_ENC </Encyclopedia_Text>
+		<Encyclopedia_Text> HALO_SHIPYARD_LIGHT_ENC TEXT_NONE HALO_SHIPYARD_LIGHT_EXPENSES</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
@@ -79,11 +79,25 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 	</SpecialStructure>
 
+	<SpecialStructure Name="DELETE_UNSC_Light_Shipyard">
+		<Variant_Of_Existing_Type>UNSC_Light_Shipyard</Variant_Of_Existing_Type>
+		<Required_Special_Structures>UNSC_Light_Shipyard</Required_Special_Structures>
+		<Text_ID>HALO_SHIPYARD_LIGHT_DELETE</Text_ID>
+		<Encyclopedia_Text> HALO_SHIPYARD_LIGHT_DELETE_ENC </Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ASTEROIDMINING_DELETE.tga</Icon_Name>
+		<Lua_Script>Delete_Object</Lua_Script>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+	</SpecialStructure>
+
     <SpecialStructure Name="UNSC_Medium_Shipyard">
         <Variant_Of_Existing_Type>UNSC_Light_Shipyard</Variant_Of_Existing_Type>
 
         <Text_ID>HALO_SHIPYARD_MEDIUM</Text_ID>
-        <Encyclopedia_Text> HALO_SHIPYARD_MEDIUM_ENC </Encyclopedia_Text>
+        <Encyclopedia_Text> HALO_SHIPYARD_MEDIUM_ENC TEXT_NONE HALO_SHIPYARD_MEDIUM_EXPENSES</Encyclopedia_Text>
 
 		<Space_Model_Name>UNSC_SHIPYARD_02_A.ALO</Space_Model_Name>
 
@@ -100,18 +114,32 @@
 				<!-- 15% bonus to base planetary income -->
 				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
 				<!-- plus an absolute 215 credits to planetary income -->
-				<Absolute_Income_Modifier>-115</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>-175</Absolute_Income_Modifier>
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
     </SpecialStructure>
 
+	<SpecialStructure Name="DELETE_UNSC_Medium_Shipyard">
+		<Variant_Of_Existing_Type>UNSC_Medium_Shipyard</Variant_Of_Existing_Type>
+		<Required_Special_Structures>UNSC_Medium_Shipyard</Required_Special_Structures>
+		<Text_ID>HALO_SHIPYARD_Medium_DELETE</Text_ID>
+		<Encyclopedia_Text> HALO_SHIPYARD_Medium_DELETE_ENC </Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ASTEROIDMINING_DELETE.tga</Icon_Name>
+		<Lua_Script>Delete_Object</Lua_Script>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+	</SpecialStructure>
+
     <SpecialStructure Name="UNSC_Heavy_Shipyard">
         <Variant_Of_Existing_Type>UNSC_Light_Shipyard</Variant_Of_Existing_Type>
 
         <Text_ID>HALO_SHIPYARD_HEAVY</Text_ID>
-        <Encyclopedia_Text> HALO_SHIPYARD_HEAVY_ENC </Encyclopedia_Text>
+        <Encyclopedia_Text> HALO_SHIPYARD_HEAVY_ENC TEXT_NONE HALO_SHIPYARD_HEAVY_EXPENSES</Encyclopedia_Text>
 
 		<Space_Model_Name>UNSC_SHIPYARD_03_A.ALO</Space_Model_Name>
 
@@ -130,11 +158,25 @@
 				<!-- 15% bonus to base planetary income -->
 				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier>
 				<!-- plus an absolute 215 credits to planetary income -->
-				<Absolute_Income_Modifier>-135</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>-215</Absolute_Income_Modifier>
 				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>
 		</Abilities>
     </SpecialStructure>
+
+	<SpecialStructure Name="DELETE_UNSC_Heavy_Shipyard">
+		<Variant_Of_Existing_Type>UNSC_Heavy_Shipyard</Variant_Of_Existing_Type>
+		<Required_Special_Structures>UNSC_Heavy_Shipyard</Required_Special_Structures>
+		<Text_ID>HALO_SHIPYARD_Heavy_DELETE</Text_ID>
+		<Encyclopedia_Text> HALO_SHIPYARD_Heavy_DELETE_ENC </Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ASTEROIDMINING_DELETE.tga</Icon_Name>
+		<Lua_Script>Delete_Object</Lua_Script>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+	</SpecialStructure>
 
 </Shipyards>

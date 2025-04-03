@@ -807,7 +807,7 @@
 				<!-- 10% bonus to base planetary income -->
 				<Percentage_Income_Modifier>0.15</Percentage_Income_Modifier>
 				<!-- plus an absolute 0 credits to planetary income -->
-				<Absolute_Income_Modifier>215</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>495</Absolute_Income_Modifier>
 				<!-- net effect of +( (base income * 0%) + 20) credits -->
 				<Additional_Multiplier_On_Mining_Colonies>1.35</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
@@ -1054,7 +1054,7 @@
 				<!-- 15% bonus to base planetary income -->
 				<Percentage_Income_Modifier>0.15</Percentage_Income_Modifier>
 				<!-- plus an absolute 215 credits to planetary income -->
-				<Absolute_Income_Modifier>215</Absolute_Income_Modifier>
+				<Absolute_Income_Modifier>515</Absolute_Income_Modifier>
 				<Additional_Multiplier_On_Mining_Colonies>1.35</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 1.35 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>

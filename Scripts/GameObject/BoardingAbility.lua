@@ -31,6 +31,8 @@ function State_Init(message)
     if message == OnEnter then
         DebugMessage("%s -- In Init", tostring(Script))
         player = Object.Get_Owner() -- Since we cant Use PlayerObject directly, get the player from the Object calling this script
+        layer_manager = require("eaw-layerz/layermanager")
+		layer_manager:update_unit_layer(Object,true)
     elseif message == OnUpdate then
         if Get_Game_Mode() == "Space" then
             DebugMessage("%s -- In OnEnter", tostring(Script))

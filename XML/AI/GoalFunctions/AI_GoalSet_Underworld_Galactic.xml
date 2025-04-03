@@ -42,11 +42,6 @@
 		<Function>Should_Build_Underworld_Droid_Works</Function>
 	</Build_Underworld_Droid_Works>
 
-	<HR_Build_Initial_Starbase_Only>
-		<Goal>HR_Build_Initial_Starbase_Only</Goal>
-		<Function>Needs_Initial_Starbase</Function>
-	</HR_Build_Initial_Starbase_Only>
-
 	<Build_Initial_Groundbase_Only>
 		<Goal>Build_Initial_Groundbase_Only</Goal>
 		<Function>Needs_Initial_Groundbase</Function>

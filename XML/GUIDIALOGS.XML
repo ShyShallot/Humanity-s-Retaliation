@@ -6,22 +6,22 @@
 		<Default>
 			<!-- Dialog frame -->
 			<!-- Clockwise from top left -->
-			<Frame_Top_Left>i_dialogue_00.tga</Frame_Top_Left>
-			<Frame_Top_Transition_Left>i_dialogue_01.tga</Frame_Top_Transition_Left>
-			<Frame_Top>i_dialogue_02.tga</Frame_Top>
-			<Frame_Top_Transition_Right>i_dialogue_03.tga</Frame_Top_Transition_Right>
-			<Frame_Top_Right>i_dialogue_04.tga</Frame_Top_Right>
-			<Frame_Right_Transition_Top>i_dialogue_05.tga</Frame_Right_Transition_Top>
-			<Frame_Right>i_dialogue_06.tga</Frame_Right>
-			<Frame_Right_Transition_Bottom>i_dialogue_07.tga</Frame_Right_Transition_Bottom>
-			<Frame_Bottom_Right>i_dialogue_08.tga</Frame_Bottom_Right>
-			<Frame_Bottom_Transition_Right>i_dialogue_09.tga</Frame_Bottom_Transition_Right>
-			<Frame_Bottom>i_dialogue_10.tga</Frame_Bottom>
-			<Frame_Bottom_Transition_Left>i_dialogue_11.tga</Frame_Bottom_Transition_Left>
-			<Frame_Bottom_Left>i_dialogue_12.tga</Frame_Bottom_Left>
-			<Frame_Left_Transition_Bottom>i_dialogue_13.tga</Frame_Left_Transition_Bottom>
-			<Frame_Left>i_dialogue_14.tga</Frame_Left>
-			<Frame_Left_Transition_Top>i_dialogue_15.tga</Frame_Left_Transition_Top>
+			<Frame_Top_Left>I_DIALOGUE_BORDER_TEST.tga</Frame_Top_Left>
+			<Frame_Top_Transition_Left>I_DIALOGUE_BORDER_TEST.tga</Frame_Top_Transition_Left>
+			<Frame_Top>I_DIALOGUE_BORDER_TEST.tga</Frame_Top>
+			<Frame_Top_Transition_Right>I_DIALOGUE_BORDER_TEST.tga</Frame_Top_Transition_Right>
+			<Frame_Top_Right>I_DIALOGUE_BORDER_TEST.tga</Frame_Top_Right>
+			<Frame_Right_Transition_Top>I_DIALOGUE_BORDER_TEST.tga</Frame_Right_Transition_Top>
+			<Frame_Right>I_DIALOGUE_BORDER_TEST.tga</Frame_Right>
+			<Frame_Right_Transition_Bottom>I_DIALOGUE_BORDER_TEST.tga</Frame_Right_Transition_Bottom>
+			<Frame_Bottom_Right>I_DIALOGUE_BORDER_TEST.tga</Frame_Bottom_Right>
+			<Frame_Bottom_Transition_Right>I_DIALOGUE_BORDER_TEST.tga</Frame_Bottom_Transition_Right>
+			<Frame_Bottom>I_DIALOGUE_BORDER_TEST.tga</Frame_Bottom>
+			<Frame_Bottom_Transition_Left>I_DIALOGUE_BORDER_TEST.tga</Frame_Bottom_Transition_Left>
+			<Frame_Bottom_Left>I_DIALOGUE_BORDER_TEST.tga</Frame_Bottom_Left>
+			<Frame_Left_Transition_Bottom>I_DIALOGUE_BORDER_TEST.tga</Frame_Left_Transition_Bottom>
+			<Frame_Left>I_DIALOGUE_BORDER_TEST.tga</Frame_Left>
+			<Frame_Left_Transition_Top>I_DIALOGUE_BORDER_TEST.tga</Frame_Left_Transition_Top>
 			<Frame_Background>i_dialogue_frame_middle_thick.tga</Frame_Background>
 			
 			<!-- Gadget frame -->
@@ -1174,21 +1174,21 @@
 		</IDC_RADIO_HARD>
 
 		<IDC_RADIO_CUSTOM_EASY>
-			<Radio_On>i_button_difficulty.tga</Radio_On>
-			<Radio_Off>i_button_difficulty_off.tga</Radio_Off>
-			<Radio_Mouse_Over>i_button_difficulty_over.tga</Radio_Mouse_Over>
+			<Radio_On>i_button_difficulty_normal.tga</Radio_On>
+			<Radio_Off>i_button_difficulty_normal_off.tga</Radio_Off>
+			<Radio_Mouse_Over>i_button_difficulty_normal_over.tga</Radio_Mouse_Over>
 		</IDC_RADIO_CUSTOM_EASY>
 		
 		<IDC_RADIO_CUSTOM_MEDIUM>
-			<Radio_On>i_button_difficulty.tga</Radio_On>
-			<Radio_Off>i_button_difficulty_off.tga</Radio_Off>
-			<Radio_Mouse_Over>i_button_difficulty_over.tga</Radio_Mouse_Over>
+			<Radio_On>i_button_difficulty_heroic.tga</Radio_On>
+			<Radio_Off>i_button_difficulty_heroic_off.tga</Radio_Off>
+			<Radio_Mouse_Over>i_button_difficulty_heroic_over.tga</Radio_Mouse_Over>
 		</IDC_RADIO_CUSTOM_MEDIUM>
 		
 		<IDC_RADIO_CUSTOM_HARD>
-			<Radio_On>i_button_difficulty.tga</Radio_On>
-			<Radio_Off>i_button_difficulty_off.tga</Radio_Off>
-			<Radio_Mouse_Over>i_button_difficulty_over.tga</Radio_Mouse_Over>
+			<Radio_On>i_button_difficulty_legendary.tga</Radio_On>
+			<Radio_Off>i_button_difficulty_legendary_off.tga</Radio_Off>
+			<Radio_Mouse_Over>i_button_difficulty_legendary_over.tga</Radio_Mouse_Over>
 		</IDC_RADIO_CUSTOM_HARD>
 		
 
@@ -2837,6 +2837,17 @@
 			<Emboss>Yes</Emboss>
 			<Outline>No</Outline>			
 		</IDC_STORY_DIALOG_CLOSE_BUTTON>
+
+		<IDC_STORY_RECAP>
+			<Name>Arial Unicode MS</Name>
+			<Character_Padding>1.0</Character_Padding>
+			<Stretch_Factor>0.95</Stretch_Factor>
+			<Size>8</Size>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>185,185,185,255</Bottom_Color>
+			<Emboss>No</Emboss>
+			<Outline>No</Outline>
+		</IDC_STORY_RECAP>
 
 
 		<IDC_STATIC_BIG>

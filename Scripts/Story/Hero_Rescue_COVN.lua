@@ -45,15 +45,15 @@ function State_Rescue(message)
 
             Sleep(respawn_time)
 
-            player = Find_Human_Player()
+            local player = Find_Human_Player()
 
-            is_hero_alive = EvaluatePerception(hero.."_Alive", player)
+            local is_hero_alive = EvaluatePerception(hero.."_Alive", player)
 
             DebugMessage("Perception: " .. tostring(hero) .. "_Alive" .. " Result: " .. tostring(is_hero_alive) .. ", Table Value: " .. tostring(isAlive) .. ", Is Mission Active: " .. tostring(mission.active))
 
             if is_hero_alive == 0 and isAlive and mission.active == false and Get_Current_Week_Raw() > 0.2 then
 
-                prison_planet = Select_Prison_Planet()
+                local prison_planet = Select_Prison_Planet()
 
                 DebugMessage("Prison Planet is: %s", tostring(prison_planet.Get_Type().Get_Name()))
 
@@ -68,9 +68,9 @@ function State_Rescue(message)
                 mission.active = true
                 mission.unit = hero
 
-                plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Rescue_Hero.xml")
+                local plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\Rescue_Hero.xml")
 
-                event = plot.Get_Event("Rescue_Major_Hero_Dialog")
+                local event = plot.Get_Event("Rescue_Major_Hero_Dialog")
 
                 event.Clear_Dialog_Text()
 
@@ -101,25 +101,25 @@ function State_Rescue(message)
 end
 
 function Select_Prison_Planet()
-    all_planets = FindPlanet.Get_All_Planets()
+    local all_planets = FindPlanet.Get_All_Planets()
 
-    planet_power_table = {}
+    local planet_power_table = {}
 
 
     for _, planet in pairs(all_planets) do
 
         if planet.Get_Owner().Get_Faction_Name() == Opposite_Faction() then
-            planet_units = Get_Units_At_Planet(planet.Get_Type().Get_Name(), planet.Get_Owner())
+            local planet_units = Get_Units_At_Planet(planet.Get_Type().Get_Name(), planet.Get_Owner())
 
             if table.getn(planet_units) > 0 then
-                combat_power = Combat_Power_From_List(planet_units)
+                local combat_power = Combat_Power_From_List(planet_units)
                 DebugMessage("Combat Power On Planet %s: %s", tostring(planet.Get_Type().Get_Name()), tostring(combat_power))
                 planet_power_table[planet] = combat_power
             end
         end
     end
 
-    power_table_sum = 0
+    local power_table_sum = 0
 
     for planet, power in pairs(planet_power_table) do
         power_table_sum = power_table_sum + power
@@ -131,13 +131,13 @@ function Select_Prison_Planet()
         return
     end
 
-    num_of_entries = tableLength(planet_power_table)
+    local num_of_entries = tableLength(planet_power_table)
 
-    power_table_avg = power_table_sum/num_of_entries
+    local power_table_avg = power_table_sum/num_of_entries
 
     DebugMessage("Power Table Avg: %s, Num of Entries: %s", tostring(power_table_avg),tostring(num_of_entries))
 
-    smallestDif = {}
+    local smallestDif = {}
     smallestDif.planet = nil
     smallestDif.value = 1000000
 
@@ -164,7 +164,7 @@ function Get_Units_At_Planet(planet_name, player)
     end
 
     local all_player_units = Find_All_Objects_Of_Type(player, "Fighter | Bomber | Corvette | Frigate | Capital | Super")
-    planet_units = {}
+    local planet_units = {}
     for _, unit in ipairs(all_player_units) do
         if TestValid(unit) then
             if TestValid(unit.Get_Planet_Location()) then

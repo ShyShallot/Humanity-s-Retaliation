@@ -1,0 +1,406 @@
+<?xml version="1.0" ?>
+<Story>
+    <!-- PLAYER_ZOOMED Planets Event-->
+
+
+    <Event Name="ZOOM_GLYKE">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Glyke</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_GLYKE</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_KARAVA">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Karava</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_KARAVA</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_ARCADIA">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Arcadia</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_ARCADIA</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_EARTH">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Earth</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_EARTH</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_NETHEROP">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Netherop</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_NETHEROP</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_BALAHO">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Balaho</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_BALAHO</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_VICTORS_TRUTH">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Victors_Truth</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_VICTORS_TRUTH</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_ALERIA">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Aleria</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_ALERIA</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_REACH">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Reach</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_REACH</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_FAR_ISLE">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Far_Isle</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_FAR_ISLE</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_TE">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Te</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_TE</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_DOISAC">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Doisac</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_DOISAC</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_ALLUVION">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Alluvion</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_ALLUVION</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_FALAKNUMA">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Falaknuma</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_FALAKNUMA</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_AKTIS_IV">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Aktis_IV</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_AKTIS_IV</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_SANGHELIOS">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Sanghelios</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_SANGHELIOS</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_RHANELO">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Rhanelo</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_RHANELO</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_CHI_CETI_IV">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Chi_Ceti_IV</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_CHI_CETI_IV</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_HARMONY">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Harmony</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_HARMONY</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_THRESHOLD">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Threshold</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_THRESHOLD</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_SONG_OF_VICTORY">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Song_of_Victory</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_SONG_OF_VICTORY</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_PALAMOK">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Palamok</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_PALAMOK</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_ERIDANUS_2">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Eridanus_2</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_ERIDANUS_2</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_NEW_CARTHAGE">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>New_Carthage</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_NEW_CARTHAGE</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_YONHE">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Yonhe</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_YONHE</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_EAYN">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Eayn</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_EAYN</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_VEN_III">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Ven_III</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_VEN_III</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_MADRIGAL">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Madrigal</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_MADRIGAL</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_NEW_JERUSALEM">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>New_Jerusalem</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_NEW_JERUSALEM</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_KAMCHATKA">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Kamchatka</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_KAMCHATKA</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_BHEDALON">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Bhedalon</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_BHEDALON</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_KOSTRODA">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Kostroda</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_KOSTRODA</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_CHARYBDIS_IX">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Charybdis_IX</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_CHARYBDIS_IX</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_TANTALUS">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Tantalus</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_TANTALUS</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_TARAM">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Taram</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_TARAM</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_CODISFOLD">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Codisfold</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_CODISFOLD</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_KHAELMOTHKA">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Khaelmothka</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_KHAELMOTHKA</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_MERIDIAN">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Meridian</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_MERIDIAN</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_TERRA_NOVA">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Terra_Nova</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_TERRA_NOVA</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_TROVE">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Trove</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_TROVE</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_FELDOKRA">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Feldokra</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_FELDOKRA</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_TVAO">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Tvao</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_TVAO</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_GAO">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Gao</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_GAO</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_MARS">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Mars</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_MARS</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_ULGETHON">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Ulgethon</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_ULGETHON</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_THUA">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Thua</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_THUA</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_HARVEST">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Harvest</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_HARVEST</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_MIRIDEM">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Miridem</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_MIRIDEM</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_NEFOLUZO">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Nefoluzo</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_NEFOLUZO</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ZOOM_INSTALLATION_05">
+        <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+        <Event_Param1>Installation_05</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>PLAYER_ZOOMED_INSTALLATION_05</Reward_Param1>
+        <Reward_Param2></Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+</Story>

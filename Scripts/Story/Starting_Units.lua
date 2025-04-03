@@ -295,13 +295,13 @@ function Diff_Multiplier(value, player)
 
     diff = player.Get_Difficulty()
 
-    human_multiplier = {
+    local human_multiplier = {
         ["Easy"] = 1.5,
         ["Normal"] = 1,
         ["Hard"] = 0.5
     }
 
-    ai_multiplier = {
+    local ai_multiplier = {
         ["Hard"] = 2.5,
         ["Normal"] = 1.5,
         ["Easy"] = 0.7

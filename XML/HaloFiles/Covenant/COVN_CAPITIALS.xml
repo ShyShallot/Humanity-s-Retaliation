@@ -201,6 +201,8 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		
 	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_CCS_DEATH">
@@ -404,7 +406,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_CPV">
@@ -585,6 +587,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="COVN_ORS">
@@ -786,6 +789,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 	</SpaceUnit>
 
 	

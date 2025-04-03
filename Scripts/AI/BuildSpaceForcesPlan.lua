@@ -46,7 +46,7 @@ require("HALOFunctions")
 ScriptPoolCount = 4
 
 function Definitions()
-	Category = "Build_Space_Forces | Defend_Empty_Planet"
+	Category = "Build_Space_Forces"
 	IgnoreTarget = true
 	
 	--Fighters are omitted deliberately.  Since they're cheap, build fast and are quickly killed it's typically better

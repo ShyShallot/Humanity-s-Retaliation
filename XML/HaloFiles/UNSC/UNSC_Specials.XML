@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Special_Units>
+    <SpaceUnit Name="UNSC_Scout_Corvette">
+        <Variant_Of_Existing_Type>UNSC_MAKO</Variant_Of_Existing_Type>
+		<Text_ID>HALO_UNSC_SCOUT_SHIP</Text_ID>
+        <Encyclopedia_Text> HALO_UNSC_SCOUT_SHIP_ENC TEXT_SPACE TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_UNSC_SCOUT </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_UNSC_SCOUT.tga</Icon_Name>
+		<Autoresolve_Health>3750</Autoresolve_Health>
+		<Tactical_Health>3750</Tactical_Health>
+		<Political_Faction>Rebel</Political_Faction>
+		<Build_Cost_Credits>1350</Build_Cost_Credits>
+		<AI_Combat_Power>2500</AI_Combat_Power>
+		<Build_Time_Seconds>45</Build_Time_Seconds>
+        <Max_Speed>5.0</Max_Speed>
+        <Hyperspace_Speed>1.95</Hyperspace_Speed>
+
+		<Neutralization_Cost>20.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+
+		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+
+        <HardPoints>
+			UNSC_MAKO_M66_01, UNSC_MAKO_M66_02, UNSC_MAKO_M870_01, UNSC_MAKO_M870_02, UNSC_MAKO_M870_03, UNSC_MAKO_M870_04
+		</HardPoints>
+
+		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Probe_Droid_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+        	<System_Spy_Ability Name="Mako_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>Yes</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>Yes</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+		</Abilities>
+
+		<Lua_Script>ObjectScript_Scout_GC</Lua_Script>
+    </SpaceUnit>
+</Special_Units>

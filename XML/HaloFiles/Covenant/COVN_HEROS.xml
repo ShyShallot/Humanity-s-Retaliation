@@ -72,6 +72,7 @@
 		<Icon_Name>I_BUTTON_ARDO.tga</Icon_Name>
         <Build_Cost_Credits>3500</Build_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
+		<Tactical_Health>5000</Tactical_Health>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="COVN_Space_Commander_Combat_Bonus">

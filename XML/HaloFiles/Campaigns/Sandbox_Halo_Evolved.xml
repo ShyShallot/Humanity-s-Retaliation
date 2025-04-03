@@ -57,7 +57,7 @@
 		Bhedalon,
 		Codisfold,
 		Feldokra,
-		Ulhethon,
+		Ulgethon,
 		Palamok,
 		Ven_III,
 		Kostroda,
@@ -334,7 +334,7 @@
 		Bhedalon,
 		Codisfold,
 		Feldokra,
-		Ulhethon,
+		Ulgethon,
 		Palamok,
 		Ven_III,
 		Kostroda,
@@ -488,7 +488,8 @@
 		<Starting_Forces> Rebel, Gao, Rebel_Star_Base_1 </Starting_Forces>
 
 		<Starting_Forces> Rebel, Harvest, Rebel_Star_Base_2 </Starting_Forces>
-
+		
+		<Starting_Forces> Rebel, Harvest, UNSC_Medium_Shipyard </Starting_Forces>
 		<!-- Empire Starting Forces -->
 
 		<Starting_Credits> Empire,  6500 </Starting_Credits>

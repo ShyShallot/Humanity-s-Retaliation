@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Planets>
   <Planet Name="Reach">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_REACH</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -148,7 +148,7 @@
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
   <Planet Name="Aktis_IV">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>9</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_AKTIS_4</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -224,7 +224,7 @@
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
   <Planet Name="Aleria">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>12</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_ALERIA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -288,7 +288,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Alluvion">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_ALLUVION</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -359,7 +359,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Arcadia">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_ARCADIA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -382,7 +382,7 @@
     <Galactic_Position>-237.0, -102.0, 10.0</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
+    <Max_Space_Base>3</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -403,16 +403,16 @@
     <Describe_History>TEXT_PLANET_ARCADIA_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC </Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_ARCADIA_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_2 HALO_TEXT_PLANET_HIGH_POP HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ARCADIA_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_5 HALO_SPACE_STRUCTURES_2 HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
-    <Additional_Population_Capacity>45</Additional_Population_Capacity>
+    <Additional_Population_Capacity>25</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Chi_Ceti_IV">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_CHI_CETI_IV</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -464,7 +464,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Eridanus_2">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_ERIDANUS_2</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -487,7 +487,7 @@
     <Galactic_Position>-203.0, -156.0, 10.0</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>3</Max_Space_Base>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
@@ -508,7 +508,7 @@
     <Describe_History>TEXT_PLANET_ERIDANUS_2_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_ERIDANUS_2_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_ERIDANUS_2_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_4 HALO_SPACE_STRUCTURES_2</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -517,7 +517,7 @@
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Madrigal">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>9</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_MADRIGAL</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -569,7 +569,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Charybdis_IX">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>10</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_CHARYBDIS_IX</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -632,7 +632,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Meridian">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_MERIDIAN</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -659,7 +659,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Meridian.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -676,7 +676,7 @@
     <Describe_History>TEXT_PLANET_MERIDIAN_INFO_HIS</Describe_History>
     <Planet_Ability_Name>TEXT_PLANET_SALEUCAMI_INFO_ADV</Planet_Ability_Name>
     <Planet_Ability_Description>TEXT_PLANET_SALEUCAMI_ENC</Planet_Ability_Description>
-    <Encyclopedia_Text>HALO_PLANET_MERIDIAN_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2 HALO_TEXT_PLANET_ARTIFACTS</Encyclopedia_Text>
+    <Encyclopedia_Text>HALO_PLANET_MERIDIAN_ENC TEXT_SPACE HALO_SPACE_MAX_STARBASE_3 HALO_SPACE_STRUCTURES_2 HALO_TEXT_PLANET_ARTIFACTS HALO_TEXT_PLANET_HIGH_INCOME</Encyclopedia_Text>
     <Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
@@ -685,7 +685,7 @@
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Gao">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_GAO</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -712,7 +712,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Gao.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -738,7 +738,7 @@
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Harvest">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_HARVEST</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -791,7 +791,7 @@
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Earth">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_EARTH</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -818,7 +818,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Earth.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -842,27 +842,27 @@
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>65</Additional_Population_Capacity>
     <Abilities SubObjectList="Yes">
-      <Reduce_Production_Price_Ability Name="Earth_Capital_Boost">
+      <Reduce_Production_Time_Ability Name="Earth_Research_Production">
         <Unit_Strength_Category/>
-        <Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
-        <Applicable_Unit_Types/>
-        <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-        <Stacking_Category>9</Stacking_Category>
-        <Galaxy_Wide> No </Galaxy_Wide>
-      </Reduce_Production_Price_Ability>
-      <Reduce_Production_Time_Ability Name="Earth_Capital_Reduction">
-        <Unit_Strength_Category/>
-        <Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
-        <Applicable_Unit_Types/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types>UNSC_TECH_2, UNSC_TECH_3, UNSC_TECH_4, UNSC_TECH_5</Applicable_Unit_Types>
         <Excluded_Unit_Types/>
         <Time_Reduction_Percentage>0.10</Time_Reduction_Percentage>
         <Stacking_Category>9</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
       </Reduce_Production_Time_Ability>
+      <Reduce_Production_Price_Ability Name="Earth_Research_Cost">
+        <Unit_Strength_Category/>
+        <Applicable_Unit_Categories/>
+        <Applicable_Unit_Types>UNSC_TECH_2, UNSC_TECH_3, UNSC_TECH_4, UNSC_TECH_5</Applicable_Unit_Types>
+        <Price_Reduction_Percentage>0.5</Price_Reduction_Percentage>
+        <Stacking_Category>9</Stacking_Category>
+        <Galaxy_Wide> No </Galaxy_Wide>
+      </Reduce_Production_Price_Ability>
     </Abilities>
   </Planet>
   <Planet Name="Falaknuma">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_FALAKNUMA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -914,7 +914,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Harmony">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_HARMONY</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -941,7 +941,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Harmony.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -966,7 +966,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="New_Carthage">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_NEW_CARTHAGE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1018,7 +1018,7 @@
     <Additional_Population_Capacity>35</Additional_Population_Capacity>
   </Planet>
   <Planet Name="New_Jerusalem">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_NEW_JERUSALEM</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1070,7 +1070,7 @@
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Tantalus">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TANTALUS</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1122,7 +1122,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Terra_Nova">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TERRA_NOVA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1174,7 +1174,7 @@
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Mars">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>9</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_MARS</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1201,7 +1201,7 @@
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Land_Tactical_Map> _Land_Planet_Saleucami_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>GC_Placeholder_Space.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>GC_Mars.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map/>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 400 </Planet_Capture_Bonus_Reward>
@@ -1245,7 +1245,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Miridem">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_MIRIDEM</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1298,7 +1298,7 @@
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Netherop">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_NETHEROP</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1350,7 +1350,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Far_Isle">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_FAR_ISLE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1402,7 +1402,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Threshold">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_THRESHOLD</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1419,7 +1419,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Desert</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>288</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>-321.0, -115.0, 10.0</Galactic_Position>
@@ -1455,7 +1455,7 @@
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Yonhe">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_YONHE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1472,7 +1472,7 @@
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Temperate</Terrain>
+    <Terrain>Urban</Terrain>
     <Planet_Credit_Value>200</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
     <Galactic_Position>247.0, 169.0, 10.0</Galactic_Position>
@@ -1507,7 +1507,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Kamchatka">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_KAMCHATKA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1569,7 +1569,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Taram">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TARAM</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1621,7 +1621,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Trove">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TROVE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1673,7 +1673,7 @@
     <Additional_Population_Capacity>20</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Installation_05">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_INSTALLATION_05</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1779,7 +1779,7 @@
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Thua">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_THUA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1842,7 +1842,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Glyke">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_GLYKE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1913,7 +1913,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Karava">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_KARAVA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1966,7 +1966,7 @@
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Victors_Truth">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_VICTORS_TRUTH</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2018,13 +2018,13 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Balaho">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_BALAHO</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>w_planet_sphere_balaho_gc.alo</Galactic_Model_Name>
+    <Galactic_Model_Name>w_planet_sphere_forest_gc.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>w_planet_sphere_balaho_gc.alo</GUI_Model_Name>
+    <GUI_Model_Name>w_planet_sphere_forest_gc.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
     <Scale_Factor>0.75</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
@@ -2080,7 +2080,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Te">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2143,7 +2143,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Doisac">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_DOISAC</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2196,7 +2196,7 @@
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Sanghelios">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_SANGHELIOS</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2258,7 +2258,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Rhanelo">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>4</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_RHANELO</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2310,7 +2310,7 @@
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Song_Of_Victory">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_SONG_OF_VICTORY</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2373,7 +2373,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Eayn">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_EAYN</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2426,7 +2426,7 @@
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Bhedalon">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_BHEDALON</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2489,7 +2489,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Codisfold">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_CODISFOLD</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2541,7 +2541,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Feldokra">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_FELDOKRA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2593,7 +2593,7 @@
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Ulgethon">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_ULGETHON</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2645,7 +2645,7 @@
     <Additional_Population_Capacity>5</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Palamok">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_PALAMOK</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2698,7 +2698,7 @@
     <Abilities SubObjectList="Yes"/>
   </Planet>
   <Planet Name="Ven_III">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_VEN_3</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2761,7 +2761,7 @@
     </Abilities>
   </Planet>
   <Planet Name="Kostroda">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_KOSTRODA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2866,7 +2866,7 @@
     <Additional_Population_Capacity>10</Additional_Population_Capacity>
   </Planet>
   <Planet Name="Tvao">
-    <Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
+    <Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
     <Text_ID>HALO_PLANET_TVAO</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>

@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by GUIDialogs.rc
+// Used by GUIDIALOGS.RC
 //
 #define IDD_MAIN_MENU_DIALOG            5
 #define IDD_DIALOG_MIKE_2               102
@@ -2245,7 +2245,9 @@
 #define IDC_EXIT_BUY_BUTTON             1917
 #define IDC_DIFFICULT_HEADER3           1917
 #define IDC_STATIC_TEXT                 1917
+#define IDC_DIFFICULT_HEADER4           1919
 #define IDC_YOUR_SCROLLBAR              1920
+#define IDC_DIFFICULT_HEADER5           1920
 #define IDC_YOUR_SCROLLBAR2             1921
 #define IDC_ENEMY_SCROLLBAR             1921
 #define IDC_RESULTS_TEXT                1921
@@ -2329,17 +2331,31 @@
 #define IDC_EXIT_AND_DOWNLOAD_EAW_BUTTON 1986
 #define IDC_START_DEMO_EXIT_AND_DOWNLOAD_EAW_DEMO_BUTTON 1986
 #define IDC_START_DEMO_PLAY_NOW_BUTTON  1987
-#define IDC_MAIN_MENU_NOTICE 2000
-#define IDC_MEC_WELCOME 2001
-#define IDC_MEC_AINORM 20002
+#define IDC_TECHTREE_UNSC_MAKO          1988
+#define IDC_TECHTREE_Baselard           1989
+#define IDC_TECHTREE_Shortsword         1993
+#define IDC_TECHTREE_UNSC_STALWART      1994
+#define IDC_TECHTREE_UNSC_Light_Shipyard 1995
+#define IDC_TECHTREE_UNSC_Medium_Shipyard 1996
+#define IDC_TECHTREE_UNSC_HALCYON       1997
+#define IDC_TECHTREE_UNSC_Heavy_Shipyard 1998
+#define IDC_MAIN_MENU_NOTICE            2000
+#define IDC_MEC_WELCOME                 2001
+#define IDC_BOARDING_EXP                2003
+#define IDC_BOARDING_EXP_BODY           2004
+#define IDC_AI_SELC                     2005
+#define IDC_AI_NORM                     2006
+#define IDC_AI_HER                      2007
+#define IDC_AI_LEG                      2008
+#define IDC_MEC_AINORM                  20002
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        216
+#define _APS_NEXT_RESOURCE_VALUE        219
 #define _APS_NEXT_COMMAND_VALUE         40001
-#define _APS_NEXT_CONTROL_VALUE         1987
+#define _APS_NEXT_CONTROL_VALUE         1989
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

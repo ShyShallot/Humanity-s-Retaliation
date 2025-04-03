@@ -191,7 +191,9 @@ function Lock_Tree(unit, unit_name, faction)
                     faction.Unlock_Tech(Find_Object_Type(unit_name))
                 end
             else
-                if GlobalValue.Get(unit.Special) == 0 then
+                if unit.Special_Inverted then
+                    faction.Unlock_Tech(Find_Object_Type(unit_name))
+                else
                     faction.Lock_Tech(Find_Object_Type(unit_name))
                 end
 

@@ -27,6 +27,18 @@
 	 </Turn_Off>
 </None_Template>	
 
+<Disable_Interventions_Template>
+	<Priority>2</Priority>
+	<Trigger>One</Trigger>
+
+	<Turn_Off>
+		<Goals>
+			<Category>Interventions</Category>
+		</Goals>
+	</Turn_Off>
+
+</Disable_Interventions_Template>
+
 
 <Test_Space>
 	<Priority>1</Priority>

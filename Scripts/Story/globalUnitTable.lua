@@ -81,9 +81,6 @@ local unit_table = {
         Rebel_Star_Base_5 = {
             Category = "Structure"
         },
-        UNSC_Tech_Shield = {
-            Category = "Structure"
-        },
         Covenant_Heavy_Weapons = {
             Category = "Structure"
         },
@@ -97,7 +94,9 @@ local unit_table = {
             Category = "Structure"
         },
         UNSC_GOODS_TRANSPORT = {
-            Category = "Structure"
+            Category = "Structure",
+            Special = "Max_Freighters",
+            Special_Inverted = true
         },
         DELETE_UNSC_Mining_Facility = {
             Category = "Structure"
@@ -129,12 +128,6 @@ local unit_table = {
             Category = "Structure"
         },
         UNSC_MAC_PLATFORM = {
-            Category = "Structure"
-        },
-        ARTIFACT_DIG_UP = {
-            Category = "Structure"
-        },
-        ARTIFACT_RESEARCH = {
             Category = "Structure"
         },
         COVN_CCS = {

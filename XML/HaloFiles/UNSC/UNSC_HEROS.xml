@@ -265,6 +265,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>18</Population_Value>
+		<Lua_Script>ObjectScript_RandomZLayer</Lua_Script>
 		
 	</SpaceUnit>
 
@@ -328,7 +329,7 @@
 	<SpaceUnit Name="UNSC_ROMAN_BLUE">
 		<Variant_Of_Existing_Type>UNSC_HALCYON</Variant_Of_Existing_Type>
 		<Text_ID>HALO_UNSC_ADMIRAL_HOOD</Text_ID>
-        <Encyclopedia_Text>HALO_TEXT_COMMANDS_HALCYON HALO_UNSC_ADMIRAL_HOOD_ENC HALO_UNSC_ADMIRAL_HOOD_BUFF TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
+        <Encyclopedia_Text>HALO_TEXT_COMMANDS_HALCYON HALO_UNSC_ADMIRAL_HOOD_ENC TEXT_SPACE HALO_UNSC_ADMIRAL_HOOD_BUFF TEXT_SPACE HALO_UNSC_ADMIRAL_HOOD_BUFF_GC TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_NONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_UNSC_COMMANDER </Encyclopedia_Unit_Class>
 		<Build_Cost_Credits>8500</Build_Cost_Credits>
 		<Build_Time_Seconds>110</Build_Time_Seconds>
@@ -350,6 +351,14 @@
 				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
+
+			<Reduce_Production_Price_Ability Name="Admiral_Hood_Reduction_Bonus">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Frigate | Corvette | Fighter | Bomber</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Reduce_Production_Price_Ability>
 		</Abilities>
 
 		<Tactical_Build_Cost_Multiplayer>6150</Tactical_Build_Cost_Multiplayer>

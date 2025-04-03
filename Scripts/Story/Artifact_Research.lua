@@ -278,11 +278,11 @@ function State_Research(message)
             event.Add_Dialog_Text("Artifacts Needed for Tech Level " .. tostring(player.Get_Tech_Level() + 1) .. ": " .. tostring(GlobalValue.Get("Artifacts_Dug")) .. "/" .. tostring(Artifacts_Needed()))
         end
 
-        next_tech_upgrade = tech_level_object_types[player.Get_Tech_Level()]
+        local next_tech_upgrade = tech_level_object_types[player.Get_Tech_Level()]
 
         if GlobalValue.Get("Artifacts_Dug") >= Artifacts_Needed() and (not next_tech_researched) and not tech_up_available then
 
-            valid_unlock = true
+            local valid_unlock = true
 
             if player.Get_Tech_Level() == 4 then
                 hwd = Find_First_Object("Covenant_Heavy_Weapons")
@@ -321,7 +321,7 @@ function State_Research(message)
             player.Lock_Tech(research_unit_type)
         end
 
-        next_Tech = Find_First_Object(next_tech_upgrade.Get_Name())
+        local next_Tech = Find_First_Object(next_tech_upgrade.Get_Name())
 
         if next_Tech ~= nil then
             next_tech_researched = true
@@ -335,9 +335,9 @@ function State_Research(message)
 end
 
 function Artifacts_Needed()
-    tech_level = player.Get_Tech_Level()
+    local tech_level = player.Get_Tech_Level()
 
-    req_table = {2,3,4,5}
+    local req_table = {2,3,4,5}
 
     return req_table[tech_level]
 end
@@ -350,7 +350,7 @@ function Is_Planet_On_Cooldown(planet_name)
 end
 
 function Set_Planet_On_Cooldown(planet)
-    input_planet_name = string.lower(planet.Get_Type().Get_Name())
+    local input_planet_name = string.lower(planet.Get_Type().Get_Name())
 
     DebugMessage("Planet for cooldown: %s", tostring(input_planet_name))
 
@@ -379,7 +379,7 @@ function Remove_Planets_From_Cooldown()
 end
 
 function Find_Research_Faciltiy_on_Planet(planet)
-    all_research_stations = Find_All_Objects_Of_Type("COVN_RESEARCH_FACILITY")
+    local all_research_stations = Find_All_Objects_Of_Type("COVN_RESEARCH_FACILITY")
 
     for _, station in pairs(all_research_stations) do
         if station.Get_Planet_Location() == planet then
@@ -392,13 +392,13 @@ end
 
 function Get_Selected_Planet()
 
-    player = Find_Human_Player()
+    local player = Find_Human_Player()
 
     local planets = FindPlanet.Get_All_Planets()
 
     for _,planet in pairs(planets) do
 
-        flag_name = "ARTIFACT_PLAYER_SELECTED_" .. string.upper(planet.Get_Type().Get_Name())
+        local flag_name = "ARTIFACT_PLAYER_SELECTED_" .. string.upper(planet.Get_Type().Get_Name())
         --DebugMessage("Checking Planet: %s", flag_name)
         if Check_Story_Flag(player, flag_name, nil, true) then
             DebugMessage("Found Selected Planet: %s", planet.Get_Type().Get_Name())

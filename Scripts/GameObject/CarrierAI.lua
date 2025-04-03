@@ -17,6 +17,11 @@ end
 
 function State_Init(message)
 
+    if message == OnEnter then
+        layer_manager = require("eaw-layerz/layermanager")
+		layer_manager:update_unit_layer(Object,true)
+    end
+
     if message == OnUpdate then
 		if Object.Get_Owner().Is_Human() then
 			if Object.Is_Ability_Active(ability_name) then

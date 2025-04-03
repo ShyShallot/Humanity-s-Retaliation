@@ -43,11 +43,4 @@
 		<Prereq>Galactic_Conquest_Started</Prereq>
 	</Event>
 
-	<Event Name="Spawn_Ardo">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>COVN_ARDO</Reward_Param1>
-		<Reward_Param2>Sanghelios</Reward_Param2>
-		<Prereq>Galactic_Conquest_Started</Prereq>
-	</Event>
 </Story>
