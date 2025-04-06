@@ -339,6 +339,8 @@ function GameService()
 	Print_Build_Stats_Table(TacticalBuildStatsTable)
 
 	Debug_Print_Score_Vals()
+
+	Update_Galactic_Stat_Display()
 end
 
 --
@@ -1109,3 +1111,13 @@ function Get_Current_Winner_By_Score()
 	return WinnerID
 end
 
+function Update_Galactic_Stat_Display()
+	
+	if Get_Game_Mode() ~= "Galactic" then
+		return
+	end
+
+	for owner_id, player_entry in pairs(GalacticBuildStatsTable) do
+		DebugMessage("%s -- Owner ID: %s", tostring(Script), tostring(owner_id))
+	end
+end

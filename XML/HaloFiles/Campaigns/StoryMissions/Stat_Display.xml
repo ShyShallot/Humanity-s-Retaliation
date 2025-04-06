@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<Story>
+    <Event Name="Stat_Display_Screen">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
+		<Story_Dialog>DIALOG_STATS</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+
+
+</Story>

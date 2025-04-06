@@ -37,7 +37,7 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>

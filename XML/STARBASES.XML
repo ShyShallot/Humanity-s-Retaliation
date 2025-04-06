@@ -1259,7 +1259,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -1417,7 +1417,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -1586,7 +1586,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
