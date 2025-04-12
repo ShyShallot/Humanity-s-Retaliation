@@ -68,6 +68,9 @@ LayerManager = {
     ---Moves the units to a randomised Z-coordinate based on its category masks and the configurations made.
     ---@see Configuration
     update_unit_layer = function(self, game_object, spawns_fighters)
+        if Is_Multiplayer_Mode() then
+            return
+        end
         if not spawns_fighters then spawns_fighters = false end
         self:__disable_game_object(game_object, spawns_fighters)
         game_object.Cancel_Hyperspace()
