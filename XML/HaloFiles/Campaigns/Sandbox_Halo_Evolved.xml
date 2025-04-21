@@ -63,8 +63,7 @@
 		Kostroda,
 		Khaelmothka,
 		Tvao,
-        Sanghelios,
-		Ulgethon
+        Sanghelios
 		</Locations>
 
 		<Trade_Routes> 
@@ -341,7 +340,6 @@
 		Khaelmothka,
 		Tvao,
         Sanghelios,
-		Ulgethon
 		</Locations>
 
 		<Trade_Routes> 
