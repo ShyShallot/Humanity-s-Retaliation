@@ -190,7 +190,7 @@ function Main_Artifact_Loop(message)
                 local selected_planet_entry = planet_cooldown_table[selected_planet_entry_name]
 
                 if selected_planet_entry ~= nil then
-                    if selected_planet_entry["cooldown"] == false then
+                    if selected_planet_entry["cooldown"] == false and (Get_Current_Week() >= on_cooldown) then
                         GlobalValue.Set("Artifact_Dig_Up_Not_Allowed", 0)
                     else
                         GlobalValue.Set("Artifact_Dig_Up_Not_Allowed", 1)
