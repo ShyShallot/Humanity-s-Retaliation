@@ -3,6 +3,7 @@ require("HALOFunctions")
 require("PGBaseDefinitions")
 require("PlanetNameTable")
 
+
 function Definitions()
     ServiceRate = 0.5
 	Define_State("State_Init", State_Init);
@@ -44,11 +45,10 @@ function State_Freighter(message)
 		DebugMessage("%s -- Current Freighter Count: %s, Max Freighter Count: %s", tostring(Script), tostring(FreighterCount), tostring(Max_Freighters()))
 
 		if FreighterCount >= Max_Freighters() then
-			UNSC.Lock_Tech(Find_Object_Type("UNSC_GOODS_TRANSPORT"))
+
 			GlobalValue.Set("Max_Freighters", 1)
 			
 		else
-			UNSC.Unlock_Tech(Find_Object_Type("UNSC_GOODS_TRANSPORT"))
 			GlobalValue.Set("Max_Freighters", 0)
 		end
 

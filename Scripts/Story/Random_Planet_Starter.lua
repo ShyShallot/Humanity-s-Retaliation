@@ -33,8 +33,8 @@ function Despawn_Starting_Structure(player, starting_unit)
     local player_planet = Find_First_Object(starting_unit).Get_Planet_Location()
     if TestValid(player_planet) then
         DebugMessage("%s -- Resetting that planet", tostring(Script))
-        player_planet.Change_Owner(Find_Player("NEUTRAL"))
         Find_First_Object(starting_unit).Despawn()
+        player_planet.Change_Owner(Find_Player("NEUTRAL"))
         DebugMessage("%s -- All done", tostring(Script))
     else
         DebugMessage("%s -- Could not find Planet", tostring(Script))
@@ -144,10 +144,6 @@ function Spawn_Faction_Starting(faction, structures, units, heroes, starbase, st
     Spawn_Unit(Find_Object_Type(starbase),planet_start,faction)
 end
 
-
-function Spawn_Subfaction_Starting(faction, structures, units, starbase)
-    
-end
 
 function Random_Planet_Select()
     DebugMessage("%s -- Selecting Random Planet", tostring(Script))

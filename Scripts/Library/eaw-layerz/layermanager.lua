@@ -34,7 +34,7 @@ LayerManager = {
         game_object.Make_Invulnerable(false)
         game_object.Set_Selectable(true)
         game_object.Prevent_All_Fire(false)
-        game_object.Prevent_AI_Usage(false)
+        self:__enable_ai_for_object(game_object)
         if l_spawns_fighters then game_object.Set_Garrison_Spawn(true) end
     end,
     ---@private
@@ -61,6 +61,11 @@ LayerManager = {
             end
         end
         return self.CONFIG.CATEGORY_MAP.default()
+    end,
+    __enable_ai_for_object = function (self, game_object)
+        if game_object.Get_Owner().Is_Human() == false then
+            game_object.Prevent_AI_Usage(false)
+        end
     end,
     ---@param self LayerManager
     ---@param game_object GameObject

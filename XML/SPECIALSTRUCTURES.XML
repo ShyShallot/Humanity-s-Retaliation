@@ -994,6 +994,20 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 	</SpecialStructure>
 
+	<SpecialStructure Name="DELETE_UNSC_Mining_Facility">
+		<Variant_Of_Existing_Type>UNSC_Trade_Platform</Variant_Of_Existing_Type>
+		<Required_Special_Structures>UNSC_Trade_Platform</Required_Special_Structures>
+		<Text_ID>TEXT_ASTEROID_TRADE_PLATFORM_DELTE</Text_ID>
+		<Encyclopedia_Text> TEXT_ASTEROID_TRADE_PLATFORM_DELTE_ENC </Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ASTEROIDMINING_DELETE.tga</Icon_Name>
+		<Lua_Script>Delete_Object</Lua_Script>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+
+		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
+	</SpecialStructure>
+
 	<SpecialStructure Name="UNSC_Mining_Facility">
 		<Text_ID>TEXT_ASTEROID_MINING_FACILITY</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
@@ -1304,7 +1318,7 @@
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets>Harvest, Reach, Far_Isle, Madrigal, Earth, Installation_05</Required_Planets>
 		<Tactical_Health>12000</Tactical_Health>
@@ -1416,7 +1430,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>5600</Build_Cost_Credits>
-		<Build_Time_Seconds>65</Build_Time_Seconds>
+		<Build_Time_Seconds>1</Build_Time_Seconds> <!-- was 65 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
 		<Scale_Factor>3.5</Scale_Factor>
@@ -1424,7 +1438,7 @@
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets>Installation_05, Sanghelios, Te, Balaho</Required_Planets>
 		<Tactical_Health>12000</Tactical_Health>

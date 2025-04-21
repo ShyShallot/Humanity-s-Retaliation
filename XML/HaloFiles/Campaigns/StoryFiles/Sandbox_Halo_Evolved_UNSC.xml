@@ -2,6 +2,8 @@
 <Story_Mode_Plots>
     <Lua_Script>Starting_Units</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Setup_UNSC.xml</Active_Plot>
+    <Lua_Script>Unit_Filters</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Unit_Filters.xml</Active_Plot>
     <Lua_Script>UNSC_RESEARCH</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\UNSC_Shield_Tech.xml</Active_Plot>
     <Lua_Script>PlanetsLoyalty</Lua_Script>
@@ -10,8 +12,5 @@
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Rescue_Hero.xml</Active_Plot>
     <Lua_Script>Far_Isle_Rebellion</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Far_Isle_Rebellion.xml</Active_Plot>
-    <Lua_Script>Unit_Filters</Lua_Script>
-    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Unit_Filters.xml</Active_Plot>
-    <Lua_Script>FreightManager</Lua_Script>
     <Active_Plot>HaloFiles\Campaigns\StoryMissions\Freighter_Display.xml</Active_Plot>
 </Story_Mode_Plots>

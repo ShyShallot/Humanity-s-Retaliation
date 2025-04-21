@@ -110,13 +110,6 @@ function Spawn_Starting_Units(faction, units, locations, heros)
 
     player = Find_Player(faction)
 
-    if (not player.Is_Human()) and faction == "Empire" then
-        GlobalValue.Set("Artifact_Enabled", 0)
-        player.Lock_Tech(Find_Object_Type("ARTIFACT_DIG_UP"))
-        player.Lock_Tech(Find_Object_Type("ARTIFACT_RESEARCH"))
-    elseif faction == "EMPIRE" and player.Is_Human() then
-        GlobalValue.Set("Artifact_Enabled", 1)
-    end
 
     if tableLength(locations) == 0 then
         return

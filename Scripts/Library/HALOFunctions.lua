@@ -344,29 +344,6 @@ function square_root(n)
     return guess
 end
 
-function Lock_Unit_Type(player,unit_type, lock) -- true = lock, false or unprovided is unlock
-    if lock == nil or lock ~= true then
-        lock = false
-    end
-
-    if GlobalValue.Get("Filter_Active") == 1 then
-        return
-    end
-
-    if unit_type.Is_Build_Locked(player) and lock then
-        return
-    end
-
-    if unit_type.Is_Build_Locked(player) ~= true then
-        if lock then 
-            player.Lock_Tech(unit_type)
-        end
-
-        if not lock then
-            return
-        end
-    end
-end
 
 function Map_Value(value, iMin, iMax, oMin, oMax)
     if iMin == nil then
@@ -389,17 +366,22 @@ function Map_Value(value, iMin, iMax, oMin, oMax)
 
 end
 
-function Lock_Unit(unit_name,player, lock)
-    if GlobalValue.Get("Filter_Active") == 1 then
-        return
+
+function Progress_Bar(progress, total, length)
+
+    if not progress and not total and not length then
+        return ""
     end
 
-    if lock == nil then
-        player.Lock_Tech(Find_Object_Type(unit_name))
-    end
+    local start = "["
+    local finish = "]"
+    local fill = "#"
+    local empty = "."
 
-    if lock == false then
-        player.Unlock_Tech(Find_Object_Type(unit_name))
-    end
+    local bar_length = length - string.len(start) - string.len(finish)
+    local filled_length = tonumber(Dirty_Floor(bar_length * progress / total))
+    local empty_length = bar_length - filled_length
+
+    local bar = string.rep(fill, filled_length) .. string.rep(empty, empty_length)
+    return start .. bar .. finish
 end
-

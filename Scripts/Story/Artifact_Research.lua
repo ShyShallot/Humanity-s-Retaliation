@@ -1,13 +1,27 @@
 require("PGStateMachine")
-require("HALOFunctions")
 require("PGBaseDefinitions")
 require("HALOFunctions") 
 require("PlanetNameTable")
+require("PGStoryMode")
 
 function Definitions()
-    ServiceRate = 0.5
-	Define_State("State_Init", State_Init);
-    Define_State("State_Artifact", State_Research)
+
+    ServiceRate = 1
+
+    StoryModeEvents = 
+    {
+        ARTIFACT_DISPLAY = Init_Artifact_System,
+        Artifact_Researched = Increment_Artifact_Count,
+        Loop = Main_Artifact_Loop,
+        Flush = Flush,
+        Artifact_Dug_Up = Artifact_Dug_Up,
+        Artifacts_Needed_To_Tech_2 = Reset_Artifact_Count,
+        Artifacts_Needed_To_Tech_3 = Reset_Artifact_Count,
+        Artifacts_Needed_To_Tech_4 = Reset_Artifact_Count,
+        Artifacts_Needed_To_Tech_5 = Reset_Artifact_Count,
+        Artifacts_Completed = End_Artifact_Research,
+        Tech_Level_Advanced = Player_Advanced_Tech,
+    }
 
     planet_cooldown_table = {
         ["alluvion"] = {
@@ -64,345 +78,317 @@ function Definitions()
         Find_Object_Type("DS_Primary_Hyperdrive"), Find_Object_Type("DS_Shield_Gen"), Find_Object_Type("DS_Superlaser_Core"), Find_Object_Type("DS_Durasteel")
     }
 
-    decided_planet = nil
+    on_cooldown = 0
 
-    last_selected_planet = nil
+    cooldown_time = 1 -- weeks
 
-    last_artifact_researched = 0
+    planet_cooldown_time = 6
 
-    artifact_dig_cooldown = 1
+    artifacts_researched = 0
 
-    on_cooldown = false
+    selected_planet = nil
 
-    next_tech_researched = false
+    artifact_has_been_dug_up = false
 
-    tech_up_available = false
-
+    waiting_for_tech_up = false
 end
 
-function State_Init(message)
-    if message == OnEnter then
 
-        covenant = Find_Player("EMPIRE")
+function Init_Artifact_System(message)
 
-        DebugMessage("Setting Default Values")
-
-        GlobalValue.Set("Artifacts_Dug", 0)
-
-        GlobalValue.Set("Last_Planet", 0)
-
-        GlobalValue.Set("Global_Artifact_Cooldown", 0)
-
-        Set_Next_State("State_Artifact")
-    end
-end
-
-function State_Research(message)
-
-    player = Find_Human_Player()
+    DebugMessage("%s -- Entering Init_Artifact_System -- Message: %s", tostring(Script), tostring(message))
 
     if message == OnEnter then
-
-        DebugMessage("Entered State_Research")
-
-        plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\COVN_Artifacts.xml")
-
-        event = plot.Get_Event("ARTIFACT_DISPLAY")
-
-        event.Clear_Dialog_Text()
-
-        event.Add_Dialog_Text("Artifacts Needed for Tech Level " .. tostring(player.Get_Tech_Level() + 1) .. ": " .. tostring(GlobalValue.Get("Artifacts_Dug")) .. "/" .. tostring(Artifacts_Needed()))
-
-        event.Add_Dialog_Text("Planets with Known Artifacts: ")
-
-        event.Add_Dialog_Text("") 
-
-        local planets = FindPlanet.Get_All_Planets()
-
-        for i,planet in ipairs(planets) do
-
-            select_event = plot.Get_Event("ARTIFACT_SELECT_"..planet.Get_Type().Get_Name())
-
-            select_event.Set_Reward_Parameter(1, player.Get_Faction_Name())
-        end
         
-        for planet, cooldown in pairs(planet_cooldown_table) do
+        GlobalValue.Set("Artifact_Research_Not_Allowed", 1)
 
-            yes_or_no = "Yes"
+        GlobalValue.Set("Artifact_Dig_Up_Not_Allowed", 1)
 
-            if cooldown["cooldown"] then
+        GlobalValue.Set("Covenant_Main_Tech_Locked", 1)
 
-                DebugMessage("Planet: %s is on Cooldown: %s", tostring(planet), tostring(cooldown["cooldown"]))
-                yes_or_no = "No"
-            end
+        Move_To_Flush()
 
-            event.Add_Dialog_Text(Capital_First_Letter(planet) .. ": " .. yes_or_no)
-        end
-         
-        research_unit_type = Find_Object_Type("ARTIFACT_RESEARCH")
-
-        dig_up_unit_type = Find_Object_Type("ARTIFACT_DIG_UP")
-
-        player.Lock_Tech(research_unit_type)
-
-        player.Lock_Tech(dig_up_unit_type)
-
-        for _, tech_up in pairs(tech_level_object_types) do
-            DebugMessage("Locking: %s", tostring(tech_up))
-            player.Lock_Tech(tech_up)
-        end
-
+        Set_Next_State("Flush")
     end
+end
+
+function Main_Artifact_Loop(message)
+    
+    DebugMessage("%s -- Entering Main_Artifact_Loop -- Message: %s", tostring(Script), tostring(message))
 
     if message == OnUpdate then
 
-        if player.Get_Tech_Level() == 5 then
-            ScriptExit()
+        Update_Selected_Planet()
+        
+        if Has_Artifact_Requirement_Been_Met() then
+            Set_Next_State("Artifacts_Needed_To_Tech_2")
         end
 
-        if GlobalValue.Get("Global_Artifact_Cooldown") == 1 then
+        local player = Find_Player("EMPIRE")
 
-            DebugMessage("Artifact Dig up is on cooldown")
+        local plot = Get_Story_Plot("HaloFiles\\Campaigns\\StoryMissions\\COVN_Artifacts.xml")
 
-            last_artifact_researched = Get_Current_Week()
+        local Artifact_Display = plot.Get_Event("ARTIFACT_DISPLAY")
 
-            GlobalValue.Set("Global_Artifact_Cooldown", 0)
+        Artifact_Display.Clear_Dialog_Text()
 
-            on_cooldown = true
+        local Artifacts_Required = Artifact_Research_Requirement()
 
-            player.Lock_Tech(dig_up_unit_type)
+        Artifact_Display.Add_Dialog_Text("HALO_ARTIFACT_NEEDED", tostring(player.Get_Tech_Level() + 1), tostring(tostring(artifacts_researched) .. "/" .. tostring(Artifacts_Required)))
+
+        Artifact_Display.Add_Dialog_Text(" ")
+
+        if Get_Current_Week() < on_cooldown then
+
+            Artifact_Display.Add_Dialog_Text("HALO_ARTIFACT_ON_COOLDOWN", on_cooldown)
+
+            GlobalValue.Set("Artifact_Dig_Up_Not_Allowed", 1)
+
+            GlobalValue.Set("Artifact_Research_Not_Allowed", 1)
+
         end
 
-        DebugMessage("Current Week: %s, Last time an Artifact was Dug up: %s, Length of Cooldown: %s, and Are we on cooldown: %s", tostring(Get_Current_Week()), tostring(last_artifact_researched), tostring(artifact_dig_cooldown), tostring(on_cooldown))
+        DebugMessage("%s -- Has Artifact Been Dug Up: %s", tostring(Script), tostring(artifact_has_been_dug_up))
 
-        if Get_Current_Week() >= (last_artifact_researched + artifact_dig_cooldown) and on_cooldown then
-            DebugMessage("Off Cooldown")
-            on_cooldown = false
-        end
+        if artifact_has_been_dug_up then
 
-        selected_planet = Get_Selected_Planet()
+            local current_artifact = Find_First_Object("ARTIFACT_DIG_UP")
 
-        if selected_planet ~= nil then
-            last_selected_planet = selected_planet
-        end
+            DebugMessage("%s -- Current Artifact: %s", tostring(Script), tostring(current_artifact))
 
-        if selected_planet == nil and last_selected_planet ~= nil then
-            selected_planet = last_selected_planet
-        end
+            DebugMessage("%s -- Selected Planet: %s", tostring(Script), tostring(selected_planet))
 
-        DebugMessage("Artifact -- Selected Planet: %s", tostring(selected_planet))
+            if selected_planet ~= nil and TestValid(current_artifact) and TestValid(current_artifact.Get_Planet_Location()) then
 
-        if selected_planet ~= nil and not on_cooldown then 
-            if not Is_Planet_On_Cooldown(selected_planet.Get_Type().Get_Name()) then
-                DebugMessage("%s is not on cooldown, unlocked Dig Up", tostring(selected_planet.Get_Type().Get_Name()))
-                player.Unlock_Tech(dig_up_unit_type)
-            else 
-                DebugMessage("Selected Planet is either not on cooldown or isnt an artifact planet, locking")
-                player.Lock_Tech(dig_up_unit_type)
+                DebugMessage("%s -- Valid Selected Planet and Artifact", tostring(Script))
+
+                local Research_Facility_At_Planet = Does_Planet_Have_Research_Facility(current_artifact.Get_Planet_Location())
+
+                DebugMessage("%s -- Current Artifact Planet: %s, Does Planet have Research Facility: %s", tostring(Script), tostring(current_artifact.Get_Planet_Location()), tostring(Research_Facility_At_Planet))
+
+                if Research_Facility_At_Planet and selected_planet == current_artifact.Get_Planet_Location() then
+                    DebugMessage("%s -- Artifact Location has a research facility and is the current selected planet", tostring(Script))
+                    GlobalValue.Set("Artifact_Research_Not_Allowed", 0)
+                else
+                    DebugMessage("%s -- Conditions for Researching the artifact not met, locking", tostring(Script))
+                    GlobalValue.Set("Artifact_Research_Not_Allowed", 1)
+                end
+            end
+
+            if selected_planet == nil then
+                DebugMessage("%s -- Selected Planet is nil, locking research", tostring(Script))
+                GlobalValue.Set("Artifact_Research_Not_Allowed", 1)
             end
         else
-            DebugMessage("Selected Planet is either not on cooldown or isnt an artifact planet, locking")
-            player.Lock_Tech(dig_up_unit_type)
+
+            DebugMessage("%s -- Artifact Has Not Been Dug Up, Selected Planet: %s", tostring(Script), tostring(selected_planet))
+
+            if selected_planet ~= nil then
+
+                local selected_planet_entry_name = string.lower(selected_planet.Get_Type().Get_Name())
+
+                local selected_planet_entry = planet_cooldown_table[selected_planet_entry_name]
+
+                if selected_planet_entry ~= nil then
+                    if selected_planet_entry["cooldown"] == false then
+                        GlobalValue.Set("Artifact_Dig_Up_Not_Allowed", 0)
+                    else
+                        GlobalValue.Set("Artifact_Dig_Up_Not_Allowed", 1)
+                    end
+                end
+            else
+                GlobalValue.Set("Artifact_Dig_Up_Not_Allowed", 1)
+            end
+
+            GlobalValue.Set("Artifact_Research_Not_Allowed", 1)
         end
 
-        dig_up_unit = Find_First_Object("ARTIFACT_DIG_UP")
+        if waiting_for_tech_up then
+            Artifact_Display.Clear_Dialog_Text()
+            Artifact_Display.Add_Dialog_Text("HALO_ARTIFACT_WAITING_FOR_TECH_UP")
+        end
 
-        if dig_up_unit ~= nil then
-            if dig_up_unit.Get_Planet_Location() == selected_planet then
-                if Find_Research_Faciltiy_on_Planet(selected_planet) ~= nil then
-                    decided_planet = selected_planet
+        for planet_name, cooldown_info in pairs(planet_cooldown_table) do
+
+            local planet_on_cooldown = cooldown_info["cooldown"]
+            local cooldown_ends = cooldown_info["cooldown_week"]
+
+            if planet_on_cooldown then
+                if Get_Current_Week() >= cooldown_ends then
+                    planet_cooldown_table[planet]["cooldown"] = false
                 end
             end
 
-            if dig_up_unit.Get_Planet_Location() ~= decided_planet then
-                decided_planet = nil
-            end
-
-            player.Lock_Tech(dig_up_unit_type)
-        else 
-            decided_planet = nil
+            Artifact_Display.Add_Dialog_Text(" ")
+            Artifact_Display.Add_Dialog_Text(string.upper(planet_name))
+            Artifact_Display.Add_Dialog_Text("HALO_ARTIFACT_PLANET_01", tostring(cooldown_info["cooldown"]))
+            Artifact_Display.Add_Dialog_Text("HALO_ARTIFACT_PLANET_02", tostring(cooldown_info["cooldown_week"]))
         end
 
+    end
+end
 
-        if selected_planet == decided_planet then
-            player.Unlock_Tech(research_unit_type)
-        else 
-            player.Lock_Tech(research_unit_type)
-        end
+function Flush(message)
 
-        DebugMessage("Latest Planet for cooldown: %s", tostring(GlobalValue.Get("Last_Planet")))
+    DebugMessage("%s -- Entering Flush -- Message: %s", tostring(Script), tostring(message))
 
-        if GlobalValue.Get("Last_Planet") ~= 0 then
+    Set_Next_State("Loop")
+    
+end
 
-            Set_Planet_On_Cooldown(Find_First_Object(GlobalValue.Get("Last_Planet")))
+function Artifact_Dug_Up(message)
 
-            GlobalValue.Set("Last_Planet", 0)
-        end
+    DebugMessage("%s -- Entering Artifact_Dug_Up -- Message: %s", tostring(Script), tostring(message))
 
-        Remove_Planets_From_Cooldown()
-
-        event.Clear_Dialog_Text()
-
-        event.Add_Dialog_Text("Artifacts Needed for Tech Level " .. tostring(player.Get_Tech_Level() + 1) .. ": " .. tostring(GlobalValue.Get("Artifacts_Dug")) .. "/" .. tostring(Artifacts_Needed()))
-
-        if dig_up_unit ~= nil and TestValid(decided_planet) then
-            event.Add_Dialog_Text("Location to Research the Dug Up Artifact: " .. tostring(Capital_First_Letter(decided_planet.Get_Type().Get_Name())))
-        end
-
-        event.Add_Dialog_Text("Planets with Known Artifacts: ")
-
-        event.Add_Dialog_Text("") 
+    if message == OnEnter then
         
-        for planet, cooldown in pairs(planet_cooldown_table) do
+        local artifact = Find_First_Object("ARTIFACT_DIG_UP")
 
-            yes_or_no = "Yes"
+        if TestValid(artifact) then
+            artifact_has_been_dug_up = true
 
-            DebugMessage("Planet cooldown: %s, %s", tostring(planet), tostring(cooldown["cooldown"]))
+            local inital_artifact_location = string.lower(artifact.Get_Planet_Location().Get_Type().Get_Name())
 
-            if cooldown["cooldown"] then
-                yes_or_no = "No"
-            end
-
-            event.Add_Dialog_Text(Capital_First_Letter(planet) .. ": " .. yes_or_no)
-        end
-
-        if on_cooldown then
-            event.Clear_Dialog_Text()
-
-            event.Add_Dialog_Text("Artifact Discoveries are currently are not available.")
-
-            event.Add_Dialog_Text("Day when Artifact Discoveries are available: " .. tostring(last_artifact_researched + artifact_dig_cooldown))
-
-            event.Add_Dialog_Text("")
-
-            event.Add_Dialog_Text("Artifacts Needed for Tech Level " .. tostring(player.Get_Tech_Level() + 1) .. ": " .. tostring(GlobalValue.Get("Artifacts_Dug")) .. "/" .. tostring(Artifacts_Needed()))
-        end
-
-        local next_tech_upgrade = tech_level_object_types[player.Get_Tech_Level()]
-
-        if GlobalValue.Get("Artifacts_Dug") >= Artifacts_Needed() and (not next_tech_researched) and not tech_up_available then
-
-            local valid_unlock = true
-
-            if player.Get_Tech_Level() == 4 then
-                hwd = Find_First_Object("Covenant_Heavy_Weapons")
-                
-                if hwd == nil then
-                    valid_unlock = false
-                end
-            end
-
-            if valid_unlock then
-
-                player.Unlock_Tech(next_tech_upgrade)
-
-            end
-
-            event.Clear_Dialog_Text()
-
-            event.Add_Dialog_Text("Artifacts Needed for Tech Level: " .. tostring(player.Get_Tech_Level() + 1) .. ": All Researched, Check any planet with a Research Facility to Research the Next Tech!")
-
-            player.Lock_Tech(dig_up_unit_type)
-
-            player.Lock_Tech(research_unit_type)
-
-            Game_Message("Artifact Researched, Check Artifact Display")
-
-            tech_up_available = true
-        end
-
-        if tech_up_available then
-            event.Clear_Dialog_Text()
-
-            event.Add_Dialog_Text("Artifacts Needed for Tech Level: " .. tostring(player.Get_Tech_Level() + 1) .. ": All Researched, Check any planet with a Research Facility to Research the Next Tech!")
-
-            player.Lock_Tech(dig_up_unit_type)
-
-            player.Lock_Tech(research_unit_type)
-        end
-
-        local next_Tech = Find_First_Object(next_tech_upgrade.Get_Name())
-
-        if next_Tech ~= nil then
-            next_tech_researched = true
-
-            GlobalValue.Set("Artifacts_Dug", 0)
-
-            tech_up_available = false
-        end
-
-    end
-end
-
-function Artifacts_Needed()
-    local tech_level = player.Get_Tech_Level()
-
-    local req_table = {2,3,4,5}
-
-    return req_table[tech_level]
-end
-
-function Is_Planet_On_Cooldown(planet_name)
-    if planet_cooldown_table[string.lower(planet_name)] ~= nil then
-        DebugMessage("Planet: %s is on cooldown: %s", tostring(planet_name), tostring(planet_cooldown_table[string.lower(planet_name)]["cooldown"]))
-        return planet_cooldown_table[string.lower(planet_name)]["cooldown"]
-    end
-end
-
-function Set_Planet_On_Cooldown(planet)
-    local input_planet_name = string.lower(planet.Get_Type().Get_Name())
-
-    DebugMessage("Planet for cooldown: %s", tostring(input_planet_name))
-
-    for planet_to_check, _ in pairs(planet_cooldown_table) do
-        if string.lower(planet_to_check) == input_planet_name then
-            DebugMessage("Planet is on cooldown, Week for cooldown: %s", tostring(Get_Current_Week()))
-            planet_cooldown_table[planet_to_check]["cooldown"] = true
-            planet_cooldown_table[planet_to_check]["cooldown_week"] = Get_Current_Week()
-            return cooldown
-        end
-    end
-end
-
-function Remove_Planets_From_Cooldown()
-    local cooldown_time = 1 -- how many days/weeks
-
-    for planet, cooldown_info in pairs(planet_cooldown_table) do
-        if cooldown_info["cooldown"] then
-            DebugMessage("%s Cooldown Start: %s, End Time: %s, Current Week: %s", tostring(planet), tostring(cooldown_info["cooldown_week"]), tostring(cooldown_info["cooldown_week"] + cooldown_time), tostring(Get_Current_Week()))
-            if (cooldown_info["cooldown_week"] + cooldown_time) <= Get_Current_Week() then
-                DebugMessage("%s is no longer on cooldown", tostring(planet))
-                planet_cooldown_table[planet]["cooldown"] = false
+            if planet_cooldown_table[inital_artifact_location] ~= nil then
+                planet_cooldown_table[inital_artifact_location]["cooldown"] = true
+                planet_cooldown_table[inital_artifact_location]["cooldown_week"] = Get_Current_Week() + planet_cooldown_time
             end
         end
+
+        Move_To_Flush()
     end
 end
 
-function Find_Research_Faciltiy_on_Planet(planet)
-    local all_research_stations = Find_All_Objects_Of_Type("COVN_RESEARCH_FACILITY")
+function Increment_Artifact_Count(message)
 
-    for _, station in pairs(all_research_stations) do
-        if station.Get_Planet_Location() == planet then
-            return station
+    DebugMessage("%s -- Entering Increment_Artifact_Count -- Message: %s", tostring(Script), tostring(message))
+
+    if message == OnEnter then
+        artifacts_researched = artifacts_researched + 1
+
+        on_cooldown = Get_Current_Week() + cooldown_time
+
+        artifact_has_been_dug_up = false
+
+        Move_To_Flush()
+    end
+end
+
+function Reset_Artifact_Count(message)
+
+    DebugMessage("%s -- Entering Reset_Artifact_Count -- Message: %s", tostring(Script), tostring(message))
+
+    if message == OnEnter then
+        artifacts_researched = 0
+
+        GlobalValue.Set("Covenant_Main_Tech_Locked", 0)
+
+        waiting_for_tech_up = true
+
+        Move_To_Flush()
+    end
+end
+
+function End_Artifact_Research(message)
+
+    DebugMessage("%s -- Entering End_Artifact_Research -- Message: %s", tostring(Script), tostring(message))
+
+    if message == OnEnter then
+        ScriptExit()
+    end
+end
+
+function Does_Planet_Have_Research_Facility(planet)
+    local covenant_research_platforms = Find_All_Objects_Of_Type("COVN_RESEARCH_FACILITY")
+
+    for _, platform in pairs(covenant_research_platforms) do
+        if platform.Get_Planet_Location() == planet then
+            return true
         end
     end
 
-    return nil
+    return false
 end
 
-function Get_Selected_Planet()
+function Artifact_Research_Requirement()
+    local player = Find_Player("EMPIRE")
 
-    local player = Find_Human_Player()
+    if player.Get_Tech_Level() == 5 then
+        return 0
+    end
+
+    local req_per_tech = {2,3,4,5}
+
+    return req_per_tech[player.Get_Tech_Level()]
+end
+
+function Artifact_Planet_Selected(message)
+    if message == OnEnter then
+
+        Update_Selected_Planet()
+
+        Move_To_Flush()
+    end
+end
+
+
+function Update_Selected_Planet()
+    local player = Find_Player("EMPIRE")
 
     local planets = FindPlanet.Get_All_Planets()
 
     for _,planet in pairs(planets) do
 
-        local flag_name = "ARTIFACT_PLAYER_SELECTED_" .. string.upper(planet.Get_Type().Get_Name())
-        --DebugMessage("Checking Planet: %s", flag_name)
+        flag_name = "ARTIFACT_PLAYER_SELECTED_" .. string.upper(planet.Get_Type().Get_Name())
+        DebugMessage("Checking Planet: %s", flag_name)
+
         if Check_Story_Flag(player, flag_name, nil, true) then
             DebugMessage("Found Selected Planet: %s", planet.Get_Type().Get_Name())
-            return planet
+            selected_planet = planet
         end
     end
+end
+
+function Player_Advanced_Tech(message)
+    if message == OnEnter then
+        GlobalValue.Set("Covenant_Main_Tech_Locked", 1)
+
+        waiting_for_tech_up = false
+
+        Move_To_Flush()
+    end
+end
+
+function Move_To_Flush()
+    DebugMessage("%s -- Next State: %s, Current State: %s", tostring(Script), tostring(Get_Next_State()), tostring(Get_Current_State()))
+
+    if Get_Next_State() == Get_Current_State() then
+
+        DebugMessage("%s -- Next State is the same as current state, moving to Flush", tostring(Script))
+
+        Set_Next_State("Flush")
+    end
+end
+
+function Has_Artifact_Requirement_Been_Met()
+
+    local player = Find_Player("EMPIRE")
+
+    if player.Get_Tech_Level() > 4 then
+        return false
+    end
+
+    local triggers = {"Artifact_Requirement_Met_Tech_2", "Artifact_Requirement_Met_Tech_3", "Artifact_Requirement_Met_Tech_4", "Artifact_Requirement_Met_Tech_5"}
+
+    local trigger = triggers[player.Get_Tech_Level()]
+    
+    if trigger == nil then
+        return false
+    end
+
+    if Check_Story_Flag(player, trigger, nil, true) then
+        return true
+    end
+
+    return false
 end

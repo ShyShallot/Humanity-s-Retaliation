@@ -42,7 +42,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Terrorists</Affiliation>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>2</Tech_Level>

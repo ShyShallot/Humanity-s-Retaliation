@@ -1,243 +1,258 @@
 local unit_table = {
-        UNSC_Tech_Shield = {
-            Category = "Structure",
-            Special = "Shield_Tech_Available"
-        },
-        DS_Primary_Hyperdrive = {
-            Category = "Structure"
-        },
-        DS_Shield_Gen = {
-            Category = "Structure"
-        },
-        DS_Superlaser_Core = {
-            Category = "Structure"
-        },
-        DS_Durasteel = {
-            Category = "Structure"
-        },
-        UNSC_TECH_2 = {
-            Category = "Structure"
-        },
-        UNSC_TECH_3 = {
-            Category = "Structure"
-        },
-        UNSC_TECH_4 = {
-            Category = "Structure"
-        },
-        UNSC_TECH_5 = {
-            Category = "Structure",
-            Special = "UNSC_Tech_Shield"
-        },
-        ARTIFACT_DIG_UP = {
-            Category = "Structure",
-            Special = "Artifact_Enabled"
-        },
-        ARTIFACT_RESEARCH = {
-            Category = "Structure",
-            Special = "Artifact_Enabled"
-        },
-        UNSC_INFINITY = {
-            Category = "Super",
-            Special = "UNSC_Tech_Shield"
-        },
-        UNSC_SOF = {
-            Category = "Super"
-        },
-        COVN_CAS = {
-            Category = "Super",
-            Special = "Covenant_Heavy_Weapons"
-        },
-        COVN_CSO = {
-            Category = "Super",
-            Special = "CSO_UNLOCKED"
-        },
-        Empire_Star_Base_1 = {
-            Category = "Structure"
-        },
-        Empire_Star_Base_2 = {
-            Category = "Structure"
-        },
-        Empire_Star_Base_3 = {
-            Category = "Structure"
-        },
-        Empire_Star_Base_4 = {
-            Category = "Structure"
-        },
-        Empire_Star_Base_5 = {
-            Category = "Structure"
-        },
-        Rebel_Star_Base_1 = {
-            Category = "Structure"
-        },
-        Rebel_Star_Base_2 = {
-            Category = "Structure"
-        },
-        Rebel_Star_Base_3 = {
-            Category = "Structure"
-        },
-        Rebel_Star_Base_4 = {
-            Category = "Structure"
-        },
-        Rebel_Star_Base_5 = {
-            Category = "Structure"
-        },
-        Covenant_Heavy_Weapons = {
-            Category = "Structure"
-        },
-        Covenant_Mining_Facility = {
-            Category = "Structure"
-        },
-        UNSC_Mining_Facility = {
-            Category = "Structure"
-        },
-        UNSC_Trade_Platform = {
-            Category = "Structure"
-        },
-        UNSC_GOODS_TRANSPORT = {
-            Category = "Structure",
-            Special = "Max_Freighters",
-            Special_Inverted = true
-        },
-        DELETE_UNSC_Mining_Facility = {
-            Category = "Structure"
-            
-        },
-        UNSC_Light_Shipyard = {
-            Category = "Structure"
-        },
-        UNSC_Medium_Shipyard = {
-            Category = "Structure"
-        },
-        UNSC_Heavy_Shipyard = {
-            Category = "Structure"
-        },
-        DELETE_COVN_Mining_Facility = {
-            Category = "Structure"
-        },
-        UNSC_FARM = {
-            Category = "Structure",
-            Special = "Farms_Unlocked"
-        },
-        DELETE_UNSC_Farm = {
-            Category = "Structure"
-        },
-        UNSC_RESEARCH_FACILITY = {
-            Category = "Structure"
-        },
-        COVN_RESEARCH_FACILITY = {
-            Category = "Structure"
-        },
-        UNSC_MAC_PLATFORM = {
-            Category = "Structure"
-        },
-        COVN_CCS = {
-            Category = "Capital"
-        },
-        COVN_RCS = {
-            Category = "Capital"
-        },
-        COVN_CPV = {
-            Category = "Capital",
-            Special = "Covenant_Heavy_Weapons"
-        },
-        COVN_ORS = {
-            Category = "Capital",
-            Special = "Covenant_Heavy_Weapons"
-        },
-        COVN_DDS = {
-            Category = "Frigate"
-        },
-        COVN_CRS = {
-            Category = "Frigate"
-        },
-        COVN_CAR = {
-            Category = "Corvette"
-        },
-        COVN_SDV = {
-            Category = "Corvette"
-        },
-        Seraph_Squadron = {
-            Category = "Fighter"
-        },
-        Tarasque_Squadron = {
-            Category = "Fighter"
-        },
-        Cerastes_Squadron = {
-            Category = "Fighter"
-        },
-        Banshee_Squadron = {
-            Category = "Fighter"
-        },
-        UNSC_AUTUMN = {
-            Category = "Capital",
-            Special = "UNSC_Tech_Shield"
-        },
-        UNSC_MARATHON = {
-            Category = "Capital"
-        },
-        UNSC_HALCYON = {
-            Category = "Capital"
-        },
-        UNSC_VINDICATION = {
-            Category = "Capital",
-            Special = "UNSC_Tech_Shield"
-        },
-        UNSC_MUSASHI = {
-            Category = "Frigate",
-            Special = "UNSC_Tech_Shield",
-            Special_Inverted = true
-        },
-        UNSC_MUSASHI_2 = {
-            Category = "Frigate",
-            Special = "UNSC_Tech_Shield"
-        },
-        UNSC_POSEIDON = {
-            Category = "Frigate",
-            Special = "UNSC_Tech_Shield",
-            Special_Inverted = true
-        },
-        UNSC_POSEIDON_2 = {
-            Category = "Frigate",
-            Special = "UNSC_Tech_Shield"
-        },
-        UNSC_HALBERD = {
-            Category = "Frigate"
-        },
-        UNSC_IROQUOIS = {
-            Category = "Frigate"
-        },
-        UNSC_STRIDENT = {
-            Category = "Frigate",
-            Special = "UNSC_Tech_Shield"
-        },
-        UNSC_PARIS = {
-            Category = "Frigate"
-        },
-        UNSC_STALWART = {
-            Category = "Frigate"
-        },
-        UNSC_GLADIUS = {
-            Category = "Corvette"
-        },
-        UNSC_MAKO = {
-            Category = "Corvette"
-        },
-        Longsword_Squadron = {
-            Category = "Fighter"
-        },
-        Shortsword_Squadron = {
-            Category = "Fighter"
-        },
-        Broadsword_Squadron = {
-            Category = "Fighter",
-            Special = "UNSC_Tech_Shield"
-        },
-        Baselard_Squadron = {
-            Category = "Fighter"
-        },
-        Sabre_Squadron = {
-            Category = "Fighter"
-        }
+    UNSC_TECH_SHIELD = {
+        Category = "Structure",
+        Global_Value_Check = "Is_Shield_Tech_Not_Available",
+    },
+    DS_PRIMARY_HYPERDRIVE = {
+        Category = "Structure",
+        Global_Value_Check = "Covenant_Main_Tech_Locked"
+    },
+    DS_SHIELD_GEN = {
+        Category = "Structure",
+        Global_Value_Check = "Covenant_Main_Tech_Locked"
+    },
+    DS_SUPERLASER_CORE = {
+        Category = "Structure",
+        Global_Value_Check = "Covenant_Main_Tech_Locked"
+    },
+    DS_DURASTEEL = {
+        Category = "Structure",
+        Global_Value_Check = "Covenant_Main_Tech_Locked"
+    },
+    UNSC_TECH_2 = {
+        Category = "Structure"
+    },
+    UNSC_TECH_3 = {
+        Category = "Structure"
+    },
+    UNSC_TECH_4 = {
+        Category = "Structure"
+    },
+    UNSC_TECH_5 = {
+        Category = "Structure",
+        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
+    },
+    ARTIFACT_DIG_UP = {
+        Category = "Structure",
+        Global_Value_Check = "Artifact_Dig_Up_Not_Allowed"
+    },
+    ARTIFACT_RESEARCH = {
+        Category = "Structure",
+        Global_Value_Check = "Artifact_Research_Not_Allowed"
+    },
+    UNSC_INFINITY = {
+        Category = "Super",
+        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
+    },
+    UNSC_SOF = {
+        Category = "Super"
+    },
+    COVN_CAS = {
+        Category = "Super",
+        Global_Value_Check = "Covenant_Heavy_Weapons_Not_Researched"
+    },
+    COVN_CSO = {
+        Category = "Super",
+        Global_Value_Check = "CSO_LOCKED"
+    },
+    EMPIRE_STAR_BASE_1 = {
+        Category = "Structure"
+    },
+    EMPIRE_STAR_BASE_2 = {
+        Category = "Structure"
+    },
+    EMPIRE_STAR_BASE_3 = {
+        Category = "Structure"
+    },
+    EMPIRE_STAR_BASE_4 = {
+        Category = "Structure"
+    },
+    EMPIRE_STAR_BASE_5 = {
+        Category = "Structure"
+    },
+    REBEL_STAR_BASE_1 = {
+        Category = "Structure"
+    },
+    REBEL_STAR_BASE_2 = {
+        Category = "Structure"
+    },
+    REBEL_STAR_BASE_3 = {
+        Category = "Structure"
+    },
+    REBEL_STAR_BASE_4 = {
+        Category = "Structure"
+    },
+    REBEL_STAR_BASE_5 = {
+        Category = "Structure"
+    },
+    COVENANT_HEAVY_WEAPONS = {
+        Category = "Structure"
+    },
+    COVENANT_MINING_FACILITY = {
+        Category = "Structure"
+    },
+    UNSC_MINING_FACILITY = {
+        Category = "Structure"
+    },
+    UNSC_TRADE_PLATFORM = {
+        Category = "Structure"
+    },
+    DELETE_UNSC_TRADE_PLATFORM = {
+        Category = "Structure"
+    },
+    UNSC_GOODS_TRANSPORT = {
+        Category = "Structure",
+        Global_Value_Check = "Max_Freighters"
+    },
+    DELETE_UNSC_MINING_FACILITY = {
+        Category = "Structure"
+    },
+    UNSC_LIGHT_SHIPYARD = {
+        Category = "Structure"
+    },
+    UNSC_MEDIUM_SHIPYARD = {
+        Category = "Structure"
+    },
+    UNSC_HEAVY_SHIPYARD = {
+        Category = "Structure"
+    },
+    DELETE_COVN_MINING_FACILITY = {
+        Category = "Structure"
+    },
+    UNSC_FARM = {
+        Category = "Structure",
+        Global_Value_Check = "Farm_Tech_Not_Reached"
+    },
+    DELETE_UNSC_FARM = {
+        Category = "Structure"
+    },
+    UNSC_RESEARCH_FACILITY = {
+        Category = "Structure"
+    },
+    COVN_RESEARCH_FACILITY = {
+        Category = "Structure"
+    },
+    UNSC_MAC_PLATFORM = {
+        Category = "Structure"
+    },
+    COVN_CCS = {
+        Category = "Capital"
+    },
+    COVN_RCS = {
+        Category = "Capital"
+    },
+    COVN_CPV = {
+        Category = "Capital",
+        Global_Value_Check = "Covenant_Heavy_Weapons_Not_Researched"
+    },
+    COVN_ORS = {
+        Category = "Capital",
+        Global_Value_Check = "Covenant_Heavy_Weapons_Not_Researched"
+    },
+    COVN_DDS = {
+        Category = "Frigate"
+    },
+    COVN_CRS = {
+        Category = "Frigate"
+    },
+    COVN_CAR = {
+        Category = "Corvette"
+    },
+    COVN_SDV = {
+        Category = "Corvette"
+    },
+    SERAPH_SQUADRON = {
+        Category = "Fighter"
+    },
+    TARASQUE_SQUADRON = {
+        Category = "Fighter"
+    },
+    CERASTES_SQUADRON = {
+        Category = "Fighter"
+    },
+    BANSHEE_SQUADRON = {
+        Category = "Fighter"
+    },
+    UNSC_AUTUMN = {
+        Category = "Capital",
+        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
+    },
+    UNSC_MARATHON = {
+        Category = "Capital"
+    },
+    UNSC_HALCYON = {
+        Category = "Capital"
+    },
+    UNSC_VINDICATION = {
+        Category = "Capital",
+        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
+    },
+    UNSC_MUSASHI = {
+        Category = "Frigate",
+        Global_Value_Check = "Is_Shield_Tech_Researched"
+    },
+    UNSC_MUSASHI_2 = {
+        Category = "Frigate",
+        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
+    },
+    UNSC_POSEIDON = {
+        Category = "Frigate",
+        Global_Value_Check = "Is_Shield_Tech_Researched"
+    },
+    UNSC_POSEIDON_2 = {
+        Category = "Frigate",
+        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
+    },
+    UNSC_HALBERD = {
+        Category = "Frigate"
+    },
+    UNSC_IROQUOIS = {
+        Category = "Frigate"
+    },
+    UNSC_STRIDENT = {
+        Category = "Frigate",
+        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
+    },
+    UNSC_PARIS = {
+        Category = "Frigate"
+    },
+    UNSC_STALWART = {
+        Category = "Frigate"
+    },
+    UNSC_GLADIUS = {
+        Category = "Corvette"
+    },
+    UNSC_MAKO = {
+        Category = "Corvette"
+    },
+    LONGSWORD_SQUADRON = {
+        Category = "Fighter"
+    },
+    SHORTSWORD_SQUADRON = {
+        Category = "Fighter"
+    },
+    BROADSWORD_SQUADRON = {
+        Category = "Fighter",
+        Global_Value_Check = "Is_Shield_Tech_Not_Researched"
+    },
+    BASELARD_SQUADRON = {
+        Category = "Fighter"
+    },
+    SABRE_SQUADRON = {
+        Category = "Fighter"
+    },
+    UNSC_SCOUT_CORVETTE = {
+        Category = "Frigate"
+    },
+    UNSC_DELETE_LIGHT_SHIPYARD = {
+        Category = "Structure"
+    },
+    UNSC_DELETE_MEDIUM_SHIPYARD = {
+        Category = "Structure"
+    },
+    UNSC_DELETE_HEAVY_SHIPYARD = {
+        Category = "Structure"
     }
+}
 
 return unit_table

@@ -882,7 +882,7 @@
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
             <Disabled_Texture_Name>i_button_command_bar_filter1.tga</Disabled_Texture_Name>
-            <Group>Filter_Tab_4</Group>
+            <Group>Filter_Units</Group>
             <Swap_Texture>False</Swap_Texture>
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>
@@ -900,7 +900,7 @@
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
             <Disabled_Texture_Name>i_button_command_bar_filter2.tga</Disabled_Texture_Name>
-            <Group>Filter_Tab_5</Group>
+            <Group>Filter_Units</Group>
             <Swap_Texture>False</Swap_Texture>
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>
@@ -918,7 +918,7 @@
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
             <Disabled_Texture_Name>i_button_command_bar_filter3.tga</Disabled_Texture_Name>
-            <Group>Filter_Tab_6</Group>
+            <Group>Filter_Units</Group>
             <Swap_Texture>False</Swap_Texture>
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>
@@ -936,7 +936,7 @@
             <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>I_BUTTON_COMMAND_BAR_FILTER_OVER.tga</Selected_Texture_Name>
             <Disabled_Texture_Name>i_button_command_bar_filter4.tga</Disabled_Texture_Name>
-            <Group>Filter_Tab_7</Group>
+            <Group>Filter_Units</Group>
             <Swap_Texture>False</Swap_Texture>
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>

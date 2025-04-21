@@ -40,6 +40,7 @@
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("pgcommands")
+require("HALOFunctions")
 
 -- Don't pool...
 ScriptPoolCount = 0
@@ -338,9 +339,6 @@ function GameService()
 	Print_Build_Stats_Table(GalacticBuildStatsTable)
 	Print_Build_Stats_Table(TacticalBuildStatsTable)
 
-	Debug_Print_Score_Vals()
-
-	Update_Galactic_Stat_Display()
 end
 
 --
@@ -851,6 +849,7 @@ function Get_Conquest_Efficiency(player)
 end
 
 function Calc_Score_For_Efficiency(eff_val)
+
 	if eff_val > 1.0 then
 		return 40000
 	elseif eff_val > 0.98 then
@@ -1109,15 +1108,4 @@ end
 
 function Get_Current_Winner_By_Score()
 	return WinnerID
-end
-
-function Update_Galactic_Stat_Display()
-	
-	if Get_Game_Mode() ~= "Galactic" then
-		return
-	end
-
-	for owner_id, player_entry in pairs(GalacticBuildStatsTable) do
-		DebugMessage("%s -- Owner ID: %s", tostring(Script), tostring(owner_id))
-	end
 end

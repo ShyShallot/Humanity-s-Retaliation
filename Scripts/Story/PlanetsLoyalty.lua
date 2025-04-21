@@ -3,6 +3,7 @@ require("HALOFunctions")
 require("PGBaseDefinitions")
 require("PlanetNameTable")
 
+
 function Definitions()
     ServiceRate = 0.5
 	Define_State("State_Init", State_Init);
@@ -28,8 +29,6 @@ function State_Init(message)
     if message == OnEnter then
         
         Sleep(5)
-
-        GlobalValue.Set("Farms_Unlocked", 0)
 
         local human = Find_Human_Player()
 
@@ -75,17 +74,26 @@ function State_Init(message)
                 real_starting_loyalty = starting_loyalty
             end
 
+            local home_planet_for = nil
+
+            if planet.Get_Owner() ~= Find_Player("NEUTRAL") then
+                if EvaluatePerception("Is_Home_Planet", planet.Get_Owner(), planet) == 1 then
+                    home_planet_for = planet.Get_Owner().Get_Faction_Name()
+                end
+            end
+            
             planet_loyalty_table[planet.Get_Type().Get_Name()] = {
                 ["Owner"] = planet.Get_Owner().Get_Faction_Name(),
                 ["LastOwner"] = nil,
                 ["Loyalty"] = real_starting_loyalty,
                 ["PrevLoyalty"] = real_starting_loyalty,
-                ["Farm"] = false
+                ["Farm"] = false,
+                ["Home_For"] = home_planet_for
             }
         end
         Story_Event("ACTIVATE_LOYALTY_DISPLAY")
         local unsc = Find_Player("REBEL")
-        unsc.Lock_Tech(Find_Object_Type("UNSC_FARM"))
+        
 
         Set_Next_State("State_Loyalty")
     end
@@ -131,6 +139,12 @@ function Modify_Planet_Loyalty(planet_name, positive_or_negative, multiplier)
         amount = -10 * abs(multiplier)
     end
     if Is_Valid_Entry(planet_name) then
+
+        if planet_loyalty_table[planet_name]["Owner"] == planet_loyalty_table[planet_name]["Home_For"] then
+            DebugMessage("%s -- %s is a Home Planet for %s", tostring(Script), tostring(planet_name), tostring(planet_loyalty_table[planet_name][owner]))
+            return
+        end
+
         planet_entry = planet_loyalty_table[planet_name]
         next_loyalty = planet_entry["Loyalty"] + amount
 
@@ -230,12 +244,14 @@ function State_Loyalty(message)
             if TestValid(selected_planet) and (last_selected_planet ~= selected_planet) and Is_Valid_Entry(selected_planet_name) then
                 local planet_units = Get_Units_At_Planet(selected_planet_name, selected_planet.Get_Owner())
                 if not (planet_units == nil) then
-                    local text = nil
+
+                    local new_planet_Name = Capital_First_Letter(selected_planet_name)
+
                     if Has_Custom_Name(selected_planet_name) then
-                        text = tostring(Get_Cus_Name(selected_planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
-                    else
-                        text = tostring(Capital_First_Letter(selected_planet_name)) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
+                        new_planet_Name = Get_Cus_Name(selected_planet_name)
                     end
+
+                    text = tostring(new_planet_Name) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
                     
                     if selected_planet.Get_Owner().Is_Human() then
                         text = text .. ", Power: " .. tostring(formatNumberWithCommas(Combat_Power_From_List(planet_units))) .. " / " .. tostring(formatNumberWithCommas(Tech_Power_Upkeep(Find_Human_Player())))
@@ -466,16 +482,16 @@ function Farms_Active(player)
     if player.Get_Tech_Level() >= (2 - offset) and player.Get_Faction_Name() == "REBEL" then
         return true
     end
+    GlobalValue.Set("Farm_Tech_Not_Reached", 1)
     return false
 end
 
 function Unlock_Farms()
     local rebel = Find_Player("REBEL")
     if Farms_Active(rebel) then
-        Lock_Unit("UNSC_FARM",rebel,false)
         Story_Event("Farms_Unlocked")
 
-        GlobalValue.Set("Farms_Unlocked", 1)
+        GlobalValue.Set("Farm_Tech_Not_Reached", 0)
     end
 end
 

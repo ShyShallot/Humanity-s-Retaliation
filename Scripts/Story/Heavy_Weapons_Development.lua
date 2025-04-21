@@ -1,6 +1,7 @@
 require("PGStoryMode")
 require("PGStateMachine")
 require("HALOFunctions")
+
 function Definitions()
     DebugMessage("%s -- In Definitions", tostring(Script))
     Define_State("State_Init", State_Init)
@@ -32,7 +33,7 @@ function State_Init(message)
     planets = FindPlanet.Get_All_Planets()
 
     if  message == OnEnter then 
-        GlobalValue.Set("CSO_UNLOCKED", 0)
+        GlobalValue.Set("CSO_LOCKED", 0)
 
         for _, planet in pairs(planets) do
             DebugMessage("Planet: %s, Owner: %s", tostring(planet.Get_Type().Get_Name()), tostring(planet.Get_Owner()))
@@ -89,11 +90,10 @@ function State_Init(message)
         end
 
         if cso_cas_req_met then
-            Lock_Unit("COVN_CSO", covenant, false)
 
-            GlobalValue.Set("CSO_UNLOCKED", 1)
+            GlobalValue.Set("CSO_LOCKED", 0)
         else
-            Lock_Unit("COVN_CSO", covenant)
+            GlobalValue.Set("CSO_LOCKED", 1)
         end
 
         if covenant.Get_Tech_Level() == 4 then
@@ -126,11 +126,9 @@ function Lock_HWD_UNITS(player,lock_or_unlock)
         lock_or_unlock = false
     end
 
-    for _, unit in pairs(hwd_units) do
-        if lock_or_unlock then
-            Lock_Unit(unit,player)
-        else
-            Lock_Unit(unit,player,false)
-        end
+    if lock_or_unlock then
+        GlobalValue.Set("COVENANT_HEAVY_WEAPONS_NOT_RESEARCHED", 1)
+    else
+        GlobalValue.Set("COVENANT_HEAVY_WEAPONS_NOT_RESEARCHED", 0)
     end
 end
