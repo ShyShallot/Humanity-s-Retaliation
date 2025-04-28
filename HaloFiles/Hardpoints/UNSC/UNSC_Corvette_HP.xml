@@ -1,0 +1,585 @@
+<?xml version="1.0"?>
+<HardPoints>
+    <!-- Mako Frigate Class-->
+    <HardPoint Name="UNSC_MAKO_M66_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>550.0</Health>
+
+        <Model_To_Attach>UNSC_MAKO_M66_01.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>HP_MAKO_M66_01</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_M66_01</Collision_Mesh>
+        <Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_02</Fire_Bone_B>
+        <Fire_Cone_Width>60.0</Fire_Cone_Width>
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.2</Fire_Max_Recharge_Seconds>
+       <Fire_Pulse_Count>16</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        
+        <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+        
+        
+        
+        
+
+    </HardPoint>
+
+
+
+    <HardPoint Name="UNSC_MAKO_M66_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>550.0</Health>
+
+        <Model_To_Attach>UNSC_MAKO_M66_02.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>HP_MAKO_M66_02</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_M66_02</Collision_Mesh>
+        <Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_02</Fire_Bone_B>
+        <Fire_Cone_Width>60.0</Fire_Cone_Width>
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.2</Fire_Max_Recharge_Seconds>
+       <Fire_Pulse_Count>16</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        
+        <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+        
+        
+        
+        
+    </HardPoint>
+
+
+
+    <HardPoint Name="UNSC_MAKO_M870_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>550.0</Health>
+
+        <Model_To_Attach>UNSC_MAKO_M870_01.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>HP_MAKO_M870_01</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_M870_01</Collision_Mesh>
+        <Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_02</Fire_Bone_B>
+        <Fire_Cone_Width>60.0</Fire_Cone_Width>
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FIGHTER</Fire_SFXEvent>
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+       
+        
+      
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_MAKO_M870_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>550.0</Health>
+
+        <Model_To_Attach>UNSC_MAKO_M870_02.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>HP_MAKO_M870_02</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_M870_02</Collision_Mesh>
+        <Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_02</Fire_Bone_B>
+        <Fire_Cone_Width>60.0</Fire_Cone_Width>
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FIGHTER</Fire_SFXEvent>
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+       
+        
+      
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_MAKO_M870_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>550.0</Health>
+
+        <Model_To_Attach>UNSC_MAKO_M870_03.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>HP_MAKO_M870_03</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_M870_03</Collision_Mesh>
+        <Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_02</Fire_Bone_B>
+        <Fire_Cone_Width>60.0</Fire_Cone_Width>
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>9.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>10.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FIGHTER</Fire_SFXEvent>
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+       
+        
+      
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_MAKO_M870_04">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>UNSC_MK33_TURRET</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>550.0</Health>
+
+        <Model_To_Attach>UNSC_MAKO_M870_04.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>HP_MAKO_M870_04</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_M870_04</Collision_Mesh>
+        <Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_02</Fire_Bone_B>
+        <Fire_Cone_Width>60.0</Fire_Cone_Width>
+        <Fire_Cone_Height>140.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>9.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>10.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_UNSC_BULLET_FIGHTER</Fire_SFXEvent>
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+       
+        
+      
+
+    </HardPoint>
+
+    <HardPoint Name="UNSC_MAKO_AP_01">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>450.0</Health>
+
+        <Attachment_Bone>HP_MAKO_ARCHER_01</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_ARCHER_01</Collision_Mesh>
+        <Fire_Bone_A>HP_MAKO_ARCHER_01</Fire_Bone_A>
+        <Fire_Bone_B>HP_MAKO_ARCHER_01</Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>9.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>10.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.7</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2800.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Transport </Fire_Category_Restrictions>
+		
+		
+		
+		
+    </HardPoint>
+
+    <HardPoint Name="UNSC_MAKO_AP_02">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>450.0</Health>
+
+        <Attachment_Bone>HP_MAKO_ARCHER_02</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_ARCHER_02</Collision_Mesh>
+        <Fire_Bone_A>HP_MAKO_ARCHER_02</Fire_Bone_A>
+        <Fire_Bone_B>HP_MAKO_ARCHER_02</Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>9.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>10.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.7</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2800.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Transport </Fire_Category_Restrictions>
+		
+		
+		
+		
+    </HardPoint>
+
+    <HardPoint Name="UNSC_MAKO_AP_03">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>450.0</Health>
+
+        <Attachment_Bone>HP_MAKO_ARCHER_03</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_ARCHER_03</Collision_Mesh>
+        <Fire_Bone_A>HP_MAKO_ARCHER_03</Fire_Bone_A>
+        <Fire_Bone_B>HP_MAKO_ARCHER_03</Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>12.2</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>13.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>160</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2800.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Transport </Fire_Category_Restrictions>
+		
+		
+		
+		
+    </HardPoint>
+
+    <HardPoint Name="UNSC_MAKO_AP_04">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Tooltip_Text>UNSC_ARCHER_POD_5</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>450.0</Health>
+
+        <Attachment_Bone>HP_MAKO_ARCHER_04</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_ARCHER_04</Collision_Mesh>
+        <Fire_Bone_A>HP_MAKO_ARCHER_04</Fire_Bone_A>
+        <Fire_Bone_B>HP_MAKO_ARCHER_04</Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>12.2</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>13.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>160</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2800.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Transport </Fire_Category_Restrictions>
+		
+		
+		
+		
+    </HardPoint>
+
+    <HardPoint Name="HP_MAKO_HANGER_01">
+        <Type> HARD_POINT_FIGHTER_BAY </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health> 3750 </Health>
+        <Attachment_Bone>HP_MAKO_HANGAR</Attachment_Bone>
+        <Collision_Mesh>HP_MAKO_HANGAR</Collision_Mesh>
+        <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>        <!-- STUBBED PLACEHOLDER -->
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>        <!-- STUBBED PLACEHOLDER -->
+    </HardPoint>
+
+    <!--Gladius Class Hardpoints-->
+	
+	<HardPoint Name="UNSC_GLAD_Gauss">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+		<Health>4600.0</Health>
+        <Attachment_Bone>ROOT</Attachment_Bone>
+        <Collision_Mesh>ROOT</Collision_Mesh>
+        <Fire_Bone_A>ROOT</Fire_Bone_A>
+        <Fire_Bone_B>ROOT</Fire_Bone_B>
+        <Fire_Cone_Width>360.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_COIL</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>6.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2800.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_GAUSS</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		
+		
+		
+		
+    </HardPoint>
+	
+    <HardPoint Name="UNSC_GLAD_01">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+
+        <Attachment_Bone>HP_UNSC_ARCHERPOD_01_Bone</Attachment_Bone>
+        <Collision_Mesh>HP_UNSC_ARCHERPOD_01_Bone</Collision_Mesh>
+        <Fire_Bone_A>HP_UNSC_ARCHERPOD_FB_01</Fire_Bone_A>
+        <Fire_Bone_B>HP_UNSC_ARCHERPOD_FB_01</Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>9.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>10.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2800.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+		<Fire_Category_Restrictions>  Transport </Fire_Category_Restrictions>
+		
+		
+		
+		
+    </HardPoint>
+
+    <HardPoint Name="UNSC_GLAD_02">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+
+        <Attachment_Bone>HP_UNSC_ARCHERPOD_02_Bone</Attachment_Bone>
+        <Collision_Mesh>HP_UNSC_ARCHERPOD_02_Bone</Collision_Mesh>
+        <Fire_Bone_A>HP_UNSC_ARCHERPOD_FB_02</Fire_Bone_A>
+        <Fire_Bone_B>HP_UNSC_ARCHERPOD_FB_02</Fire_Bone_B>
+        <Fire_Cone_Width>165.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Archer_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>9.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>10.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2800.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_MISSILE</Fire_SFXEvent>
+		<Fire_Category_Restrictions>  Transport </Fire_Category_Restrictions>
+		
+		
+		
+		
+    </HardPoint>
+
+    <HardPoint Name="UNSC_GLAD_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>500.0</Health>
+
+        <Model_To_Attach>UNSC_GladiusTurretLeftF.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>M870_TURRET_BONE</Attachment_Bone>
+        <Collision_Mesh>M870_TURRET_BONE</Collision_Mesh>
+        <Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_02</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>12.2</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>13.5</Fire_Max_Recharge_Seconds>
+       <Fire_Pulse_Count>160</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        
+        <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+       
+        
+      
+    </HardPoint>
+
+    <HardPoint Name="UNSC_GLAD_04">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>500.0</Health>
+
+        <Model_To_Attach>UNSC_GladiusTurretLeftB.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>M870_TURRET_BONE_02</Attachment_Bone>
+        <Collision_Mesh>M870_TURRET_BONE_02</Collision_Mesh>
+        <Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_02</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>12.2</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>13.5</Fire_Max_Recharge_Seconds>
+       <Fire_Pulse_Count>160</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.00</Fire_Pulse_Delay_Seconds>
+        
+        <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+       
+        
+      
+    </HardPoint>
+
+    <HardPoint Name="UNSC_GLAD_05">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>500.0</Health>
+
+        <Model_To_Attach>UNSC_GladiusTurretRightF.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 179.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>M870_TURRET_BONE_03</Attachment_Bone>
+        <Collision_Mesh>M870_TURRET_BONE_03</Collision_Mesh>
+        <Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_02</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>12.2</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>13.5</Fire_Max_Recharge_Seconds>
+       <Fire_Pulse_Count>160</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+        
+        <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+       
+        
+      
+    </HardPoint>
+
+    <HardPoint Name="UNSC_GLAD_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>500.0</Health>
+
+        <Model_To_Attach>UNSC_GladiusTurretRightB.ALO</Model_To_Attach>
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 80.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARRELS </Barrel_Bone_Name>
+        <Attachment_Bone>M870_TURRET_BONE_04</Attachment_Bone>
+        <Collision_Mesh>M870_TURRET_BONE_04</Collision_Mesh>
+        <Fire_Bone_A>FP_01</Fire_Bone_A>
+        <Fire_Bone_B>FP_02</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_UNSC_Bullet_Rampart</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>12.2</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>13.5</Fire_Max_Recharge_Seconds>
+       <Fire_Pulse_Count>160</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+        
+        <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+       
+        
+      
+    </HardPoint>
+	
+	<HardPoint Name="UNSC_GLADIUS_MAC">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>UNSC_MAC_CANNON</Tooltip_Text>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health> 2000 </Health>
+		<Attachment_Bone>HP_MAC</Attachment_Bone>
+		<Fire_Bone_A>HP_MAC</Fire_Bone_A>
+		<Fire_Bone_B>HP_MAC</Fire_Bone_B>
+		<Fire_Cone_Width>10.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_UNSC_ONAGER</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>10.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>10.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>3200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_UNSC_BULLET_ONAGER</Fire_SFXEvent>
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+		<AI_Combat_Power>4500</AI_Combat_Power>
+		
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+    </HardPoint>
+
+
+</HardPoints>

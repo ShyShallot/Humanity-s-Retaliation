@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Campaigns>
+	<Campaign Name="Sandbox_Halo_Insurgence_UNSC">
+
+		<Campaign_Set> Sandbox_Halo_Insurgence </Campaign_Set>
+		<Sort_Order>6</Sort_Order>
+
+		<Text_ID> TEXT_HALO_CAMPAIGN_INSURGENCE </Text_ID>
+		<Description_Text> TEXT_HALO_CAMPAIGN_INSURGENCE_ENC </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations> 
+		Galaxy_Core_Art_Model, 
+		Arcadia,
+		Aleria,
+		Alluvion,
+		Chi_Ceti_IV,
+		Eridanus_2,
+		Madrigal,
+		Charybdis_IX,
+		Meridian,
+		Gao,
+		Harvest,
+		Earth,
+		Reach,
+		Falaknuma,
+		Harmony,
+		New_Carthage,
+		New_Jerusalem,
+		Tantalus,
+		Mars,
+		Miridem,
+		Installation_05,
+		Far_Isle,
+		Aktis_IV,
+		Kamchatka,
+		Terra_Nova
+		</Locations>
+
+		<Trade_Routes> 
+			Earth_Reach, 
+			Earth_Mars, 
+			Mars_Harmony, 
+			Harmony_Reach, 
+			Harmony_Aleria, 
+			Aleria_Tantalus, 
+			Tantalus_Gao, 
+			Gao_Charybdis_IX, 
+			Gao_Falaknuma, 
+			Gao_Reach, 
+			Reach_Falaknuma, 
+			Falaknuma_Far_Isle, 
+			Falaknuma_Meridian, 
+			Meridian_Miridem, 
+			Miridem_New_Jerusalem, 
+			Miridem_Chi_Ceti_IV, 
+			Chi_Ceti_IV_Terra_Nova, 
+			Terra_Nova_Installation_05, 
+			Chi_Ceti_IV_New_Carthage, 
+			New_Carthage_Yonhe, 
+			Yonhe_Installation_05, 
+			Kostroda_Kamchatka, 
+			Kamchatka_Rhanelo, 
+			Feldokra_Harvest, 
+			Harvest_Threshold, 
+			Harvest_Arcadia, 
+			Arcadia_Eridanus_2, 
+			Eridanus_2_Alluvion, 
+			Alluvion_Aktis_IV, 
+			Aktis_IV_Aleria, 
+			Eridanus_2_Madrigal, 
+			Madrigal_Earth
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Earth </Home_Location>
+
+		<Home_Location> Terrorists, Far_Isle </Home_Location>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Empire_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_Covenant_AI.xml</Empire_Story_Name>
+		<Rebel_Story_Name>HaloFiles\Campaigns\StoryFiles\Sandbox_Halo_Evolved_UNSC.xml</Rebel_Story_Name>
+
+		<AI_Player_Control> Rebel, SandboxHuman</AI_Player_Control>
+
+		<AI_Player_Control> Empire, None</AI_Player_Control>
+
+		<AI_Player_Control> Terrorists,  BasicEmpire</AI_Player_Control>
+
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
+
+
+		<!-- Starting Forces Do not matter, keep it like this as they get despawned when the GC loads-->
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  12000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 2 </Max_Tech_Level>
+
+		<Starting_Forces> Rebel, Earth, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Reach, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Madrigal, Rebel_Star_Base_1 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Alluvion, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Mars, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Tantalus, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Falaknuma, Rebel_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Chi_Ceti_IV, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, Miridem, Rebel_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Rebel, New_Jerusalem, Rebel_Star_Base_1 </Starting_Forces>
+
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Terrorists,  6500 </Starting_Credits>
+		<Starting_Tech_Level> Terrorists, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Terrorists, 3 </Max_Tech_Level>
+
+		<Starting_Forces> Terrorists, Threshold, Terrorists_Star_Base_1 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Harvest, Terrorists_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Arcadia, Terrorists_Star_Base_1 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Eridanus_2, Terrorists_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Aktis_IV, Terrorists_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Aleria, Terrorists_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Harmony, Terrorists_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Reach, Terrorists_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Gao, Terrorists_Star_Base_1 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Charybdis_IX, Terrorists_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Far_Isle, Terrorists_Star_Base_2 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Meridian, Terrorists_Star_Base_3 </Starting_Forces>
+
+		<Starting_Forces> Terrorists, Terra_Nova, Terrorists_Star_Base_2 </Starting_Forces>
+
+	</Campaign>
+
+	
+</Campaigns>

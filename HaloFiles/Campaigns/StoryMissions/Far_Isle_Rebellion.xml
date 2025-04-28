@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<Story>
+
+    <Event Name="Far_Isle_Rebellion_Warning">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Start_Far_Isle_Warning</Event_Param2>
+        <Story_Dialog>Far_Isle_Dialog</Story_Dialog>
+        <Story_Chapter>2</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Far_Isle_Rebellion_First</Story_Tag>
+    </Event>
+
+    <Event Name="Far_Isle_Rebellion_Start">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Start_Far_Isle_Fall</Event_Param2>
+        <Story_Dialog>Far_Isle_Dialog</Story_Dialog>
+        <Story_Chapter>1</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Far_Isle_Rebellion</Story_Tag>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>Far_Isle_Rebellion_Start</Reward_Param1>
+    </Event>
+
+    <Event Name="Far_Isle_Rebellion_Warning_End">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+        <Reward_Param1>Far_Isle_Rebellion_First</Reward_Param1>
+        <Prereq>Far_Isle_Rebellion_Start</Prereq>
+    </Event>
+
+    <Event Name="Trigger_Far_Isle_Mission">
+        <Event_Type>STORY_ENTER</Event_Type>
+        <Event_Param2>FILTER_FRIENDLY_ONLY</Event_Param2>
+        <Event_Param1>Far_Isle</Event_Param1>
+        <Prereq>Far_Isle_Rebellion_Warning_End</Prereq>
+    </Event>
+
+    <Event Name="Link_Far_Isle_Mission_Mission">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1>Far_Isle</Reward_Param1>
+		<Reward_Param2>SPACE</Reward_Param2>
+		<Reward_Param3>REBEL</Reward_Param3>
+		<Reward_Param4>GC_Far_Isle_Rebel.TED</Reward_Param4>
+		<Reward_Param5>TERRORISTS</Reward_Param5>
+		<Reward_Param6></Reward_Param6>
+		<Reward_Param7>HaloFiles\Campaigns\StoryFiles\Space_Far_Isle_Rebel.xml</Reward_Param7>
+		<Reward_Param8>1</Reward_Param8>
+		<Reward_Param9>1</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Reward_Param11>0</Reward_Param11>
+        <Reward_Param12>0</Reward_Param12>
+		<Reward_Param13>1</Reward_Param13>
+        <Prereq>Trigger_Far_Isle_Mission</Prereq>
+    </Event>
+
+    <Event Name="Far_Isle_Rebellion_End">
+        <Event_Type>STORY_CONQUER</Event_Type>
+        <Event_Param1>Far_Isle</Event_Param1>
+        <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+        <Reward_Param1>Far_Isle_Rebellion</Reward_Param1>
+        <Prereq>Far_Isle_Rebellion_Start</Prereq>
+    </Event>
+
+</Story>

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<SpecialBuildings>
+
+    <SpecialStructure Name="UNSC_MAC_PLATFORM">
+
+        <Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+
+        <SpaceBehavior> SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, DAMAGE_TRACKING, ION_STUN_EFFECT</SpaceBehavior>
+
+
+        <Text_ID>TEXT_UNSC_MAC_PLATFORM</Text_ID>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Space_Model_Name>UNSC_MAC_PLATFORM_PARENT.ALO</Space_Model_Name>
+        <Scale_Factor>2.25</Scale_Factor>
+        <Icon_Name>i_button_lds.tga</Icon_Name>
+        <Select_Box_Scale>300</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Affiliation>Rebel</Affiliation>
+        <Size_Value>30</Size_Value>
+        <Shield_Points>0</Shield_Points>
+        <Tactical_Health>15000</Tactical_Health>
+        <Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+        <Energy_Capacity>10000</Energy_Capacity>
+        <Energy_Refresh_Rate>20</Energy_Refresh_Rate>
+        <Damage>12</Damage>
+        <HardPoints>
+			UNSC_MAC_PLATFORM_01
+        </HardPoints>
+
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
+        <Build_Cost_Credits>2550</Build_Cost_Credits>
+		<Build_Time_Seconds>125</Build_Time_Seconds>
+		<Build_Max_Instances_Per_Planet>2</Build_Max_Instances_Per_Planet>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Base_Position>Orbital</Base_Position>
+        <Tech_Level>1</Tech_Level>
+
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Icon_Name>i_button_lds.tga</Icon_Name>
+        <GUI_Model_Name>NV_LDS.ALO</GUI_Model_Name>
+        <GUI_Distance>1000</GUI_Distance>
+        <GUI_Offset>0 0 0</GUI_Offset>
+        <GUI_Velocity>45</GUI_Velocity>
+        <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+        <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+        <SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+        <Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+
+
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+
+        <CategoryMask> Structure </CategoryMask>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+        <Armor_Type> Armor_Satellite </Armor_Type>
+        <GUI_Bracket_Size>1</GUI_Bracket_Size>
+        <Encyclopedia_Text> TEXT_UNSC_MAC_PLATFORM_ENC </Encyclopedia_Text>
+        <MP_Encyclopedia_Text> TEXT_UNSC_MAC_PLATFORM_ENC </MP_Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+        <Score_Cost_Credits> 25000 </Score_Cost_Credits>
+        <Custom_Soft_Footprint_Radius> 0 </Custom_Soft_Footprint_Radius>
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+        <Space_Layer> StaticObject </Space_Layer>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Targeting_Priority_Set>MAC_PLATFORM</Targeting_Priority_Set>
+
+        <Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+        <Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+        <Influences_Capture_Point> False </Influences_Capture_Point>
+        <Victory_Relevant>No</Victory_Relevant>
+        <Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
+    </SpecialStructure>
+
+</SpecialBuildings>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<Story>
+
+  <Event Name="Universal_Story_Start">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+    <Event_Param1>0</Event_Param1>
+  </Event>
+
+  <Event Name="Structures_Super_Filter">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_filters4</Event_Param1>
+    <Reward_Type>TRIGGER_AI</Reward_Type>
+    <Reward_Param1>Structures_Super_Filter_Clicked</Reward_Param1>
+    <Perpetual>true</Perpetual>
+  </Event>
+
+  <Event Name="Capitals_Filter">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_filters5</Event_Param1>
+    <Reward_Type>TRIGGER_AI</Reward_Type>
+    <Reward_Param1>Capitals_Filter_Clicked</Reward_Param1>
+    <Perpetual>true</Perpetual>
+  </Event>
+
+  <Event Name="Frigate_Corvette_Filter">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_filters6</Event_Param1>
+    <Reward_Type>TRIGGER_AI</Reward_Type>
+    <Reward_Param1>Frigate_Corvette_Filter_Clicked</Reward_Param1>
+    <Perpetual>true</Perpetual>
+  </Event>
+
+  <Event Name="Fighter_Filter">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_filters7</Event_Param1>
+    <Reward_Type>TRIGGER_AI</Reward_Type>
+    <Reward_Param1>Fighter_Filter_Clicked</Reward_Param1>
+    <Perpetual>true</Perpetual>
+  </Event>
+
+  <Event Name="Force_Click_Filter">
+    <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+    <Event_Param2>Force_Click_Element</Event_Param2>
+    <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+    <Reward_Param1 />
+    <Perpetual>true</Perpetual>
+  </Event>
+
+  <Evnet Name="Click_Space_Tab">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_space_tab</Event_Param1>
+    <Reward_Type>TRIGGER_AI</Reward_Type>
+    <Reward_Param1>Click_Space_Tab</Reward_Param1>
+    <Perpetual>true</Perpetual>
+  </Evnet>
+
+  <Event Name="Reset_Filter">
+    <Event_Type>STORY_AI_NOTIFCATION</Event_Type>
+    <Event_Param2>Reset_Filter</Event_Param2>
+    <Reward_Type>RESET_EVENT</Reward_Type>
+    <Reward_Param1 />
+    <Perpetual>true</Perpetual>
+  </Event>
+
+</Story>

@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<HeroUnits>
+    <SpaceUnit Name="COVN_PIOUS">
+		<Variant_Of_Existing_Type>COVN_CAS</Variant_Of_Existing_Type>
+		<Text_ID>HALO_COVN_NIZAT_KVAROSEE</Text_ID>
+        <Encyclopedia_Text> HALO_TEXT_COMMANDS_CAS HALO_COVN_NIZAT_KVAROSEE_ENC HALO_COVN_NIZAT_KVAROSEE_BUFF TEXT_SPACE HALO_ARMOR_LEVEL_5 HALO_SHIELD_LEVEL_5 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_COVN_COMMANDER </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>I_BUTTON_PIOUS.tga</Icon_Name>
+        <Build_Cost_Credits>23500</Build_Cost_Credits>
+        <Required_Planets>Sanghelios</Required_Planets>
+		<Tech_Level>99</Tech_Level>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="COVN_Space_Commander_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate </Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.35</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.35</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+	</SpaceUnit>
+
+    <SpaceUnit Name="COVN_JUL">
+		<Variant_Of_Existing_Type>COVN_ORS</Variant_Of_Existing_Type>
+		<Text_ID>HALO_COVN_JUL_MDAMA</Text_ID>
+        <Encyclopedia_Text> HALO_TEXT_COMMANDS_ORS HALO_COVN_JUL_MDAMA_ENC HALO_COVN_JUL_MDAMA_BUFF TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_4 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_COVN_COMMANDER </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>I_BUTTON_JUL.tga</Icon_Name>
+        <Build_Cost_Credits>18500</Build_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="COVN_Space_Commander_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate </Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.10</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+	</SpaceUnit>
+
+    <SpaceUnit Name="COVN_ARDO">
+		<Variant_Of_Existing_Type>COVN_SDV</Variant_Of_Existing_Type>
+		<Text_ID>HALO_COVN_ARDO_MORE</Text_ID>
+        <Encyclopedia_Text> HALO_TEXT_COMMANDS_SDV HALO_COVN_ARDO_MORE_ENC HALO_COVN_ARDO_MORE_BUFF TEXT_SPACE HALO_ARMOR_LEVEL_2 HALO_SHIELD_LEVEL_2 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_COVN_COMMANDER </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>I_BUTTON_ARDO.tga</Icon_Name>
+        <Build_Cost_Credits>3500</Build_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="COVN_Space_Commander_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Corvette | Frigate | Fighter | Bomber </Unit_Strength_Category>
+				<Applicable_Unit_Categories>Corvette | Frigate | Fighter | Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.5</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.5</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+	</SpaceUnit>
+
+    <SpaceUnit Name="COVN_MACCABEUS">
+		<Variant_Of_Existing_Type>COVN_CCS</Variant_Of_Existing_Type>
+		<Text_ID>HALO_COVN_MACCABEUS</Text_ID>
+        <Encyclopedia_Text> HALO_TEXT_COMMANDS_CCS HALO_COVN_MACCABEUS_ENC HALO_COVN_MACCABEUS_BUFF TEXT_SPACE HALO_ARMOR_LEVEL_4 HALO_SHIELD_LEVEL_4 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_COVN_COMMANDER </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>I_BUTTON_MACCABEUS.TGA</Icon_Name>
+        <Build_Cost_Credits>13550</Build_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="COVN_Space_Commander_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter | Bomber </Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+	</SpaceUnit>
+
+</HeroUnits>

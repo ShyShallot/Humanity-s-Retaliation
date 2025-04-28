@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<StarBases>
+	<!-- UNSC Skirmish Starbases -->
+	<StarBase Name="Skirmish_Rebel_Star_Base_1">
+		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>20000</Tactical_Health>
+
+		<!-- Replacement List of Hardpoints -->
+		<HardPoints>
+			CANNON_M33_01, CANNON_M33_02, CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, 
+			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06,
+			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08,
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04,
+			STATION_COMMS
+		</HardPoints>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+		<!-- Tactical Production Options -->
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Pelican_Squadron,
+				Shortsword_Squadron,
+				Baselard_Squadron,
+				UNSC_MAKO,
+				UNSC_BUCKLER,
+				UNSC_GLADIUS,
+				UNSC_PHOENIX,
+				RS_Improved_Weapons_L1_Upgrade,
+				RS_Level_Two_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<!-- Data to prevent this from being buildable in galactic mode -->
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<!-- Base upgrade sequence -->
+		<Prev_Level_Base />
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_2</Next_Level_Base>
+		
+		<!-- Special Abilities unique to Skirmish mode -->
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>750</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>20</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_1</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+ 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+ 				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+ 				<Affects_All_Allies>True</Affects_All_Allies>
+ 			</Enable_Radar_Ability>
+			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>1.0</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+		<SFXEvent_Select>Unit_Select_UNSC_Space_Station</SFXEvent_Select>
+		
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_2">
+		<Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>50000</Tactical_Health>
+
+		<!-- Replacement List of Hardpoints -->
+		<HardPoints>
+			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
+			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08,
+			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12,
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05,
+			STATION_COMMS
+		</HardPoints>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<!-- Tactical Production Options -->
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Pelican_Squadron,
+				Shortsword_Squadron,
+				Baselard_Squadron,
+				Broadsword_Squadron,
+				UNSC_MAKO,
+				UNSC_BUCKLER,
+				UNSC_PHOENIX,
+				UNSC_GLADIUS,
+				UNSC_CHARON,
+				UNSC_STALWART,
+				UNSC_PARIS,
+				UNSC_IAC,
+				RS_Improved_Weapons_L1_Upgrade,
+				RS_Improved_Weapons_L2_Upgrade,
+				RS_Level_Three_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+	
+		<!-- Data to prevent this from being buildable in galactic mode -->
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<!-- Base upgrade sequence -->
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_1</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_3</Next_Level_Base>
+			
+		<!-- Special Abilities unique to Skirmish mode -->
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>800.0</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>25.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_2</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+ 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+ 				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+ 				<Affects_All_Allies>True</Affects_All_Allies>
+ 			</Enable_Radar_Ability>
+			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>10.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+		<SFXEvent_Select>Unit_Select_UNSC_Space_Station</SFXEvent_Select>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_3">
+		<Variant_Of_Existing_Type>Rebel_Star_Base_3</Variant_Of_Existing_Type>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>84000</Tactical_Health>
+
+		<!-- Replacement List of Hardpoints -->
+		<HardPoints>
+			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
+			CANNON_M33_13, CANNON_M33_14, CANNON_M33_15, CANNON_M33_16, CANNON_M33_17, CANNON_M33_18, CANNON_M33_19, CANNON_M33_20, CANNON_M33_21, CANNON_M33_22, CANNON_M33_23, CANNON_M33_24,
+			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08,
+			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12,
+			ARCHER_HP_13, ARCHER_HP_14, ARCHER_HP_15, ARCHER_HP_16, ARCHER_HP_17, ARCHER_HP_18, ARCHER_HP_19, ARCHER_HP_20,
+			CANNON_BREAKWATER_01, CANNON_BREAKWATER_02, CANNON_BREAKWATER_03, CANNON_BREAKWATER_04, 
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05,
+			STATION_COMMS
+		</HardPoints>
+		
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<!-- Tactical Production Options -->
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Pelican_Squadron,
+				Shortsword_Squadron,
+				Baselard_Squadron,
+				Broadsword_Squadron,
+				Longsword_Squadron,
+				UNSC_MAKO,
+				UNSC_BUCKLER,
+				UNSC_PHOENIX,
+				UNSC_GLADIUS,
+				UNSC_CHARON,
+				UNSC_STALWART,
+				UNSC_PARIS,
+				UNSC_IAC,
+				UNSC_MUSASHI,
+				UNSC_HALBERD,
+				UNSC_IROQUOIS,
+				RS_Improved_Weapons_L1_Upgrade,
+				RS_Improved_Weapons_L2_Upgrade,
+				RS_Improved_Weapons_L3_Upgrade,
+				RS_Improved_Defenses_L1_Upgrade,
+				RS_Level_Four_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+	
+		<!-- Data to prevent this from being buildable in galactic mode -->
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<!-- Base upgrade sequence -->
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_2</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_4</Next_Level_Base>
+		
+		<!-- Special Abilities unique to Skirmish mode -->
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>850.0</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>30</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_3</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+ 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+ 				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+ 				<Affects_All_Allies>True</Affects_All_Allies>
+ 			</Enable_Radar_Ability>
+			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>10.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+		<SFXEvent_Select>Unit_Select_UNSC_Space_Station</SFXEvent_Select>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_4">
+		<Variant_Of_Existing_Type>Rebel_Star_Base_4</Variant_Of_Existing_Type>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>110000</Tactical_Health>
+
+		<!-- Replacement List of Hardpoints -->
+		<HardPoints>
+			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
+			CANNON_M33_13, CANNON_M33_14,CANNON_M33_15,CANNON_M33_16,CANNON_M33_17,CANNON_M33_18,CANNON_M33_19,CANNON_M33_20, CANNON_M33_21, CANNON_M33_22, CANNON_M33_23, CANNON_M33_24,
+			CANNON_M33_25, CANNON_M33_26, CANNON_M33_27, CANNON_M33_28, CANNON_M33_29, CANNON_M33_30, CANNON_M33_31, CANNON_M33_32,
+			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08, CANNON_M66_09, CANNON_M66_10, CANNON_M66_11, CANNON_M66_12,
+			CANNON_BREAKWATER_01, CANNON_BREAKWATER_02, CANNON_BREAKWATER_03, CANNON_BREAKWATER_04, CANNON_BREAKWATER_05, CANNON_BREAKWATER_06, CANNON_BREAKWATER_07, CANNON_BREAKWATER_08,
+			CANNON_BREAKWATER_09, CANNON_BREAKWATER_10, CANNON_BREAKWATER_11, CANNON_BREAKWATER_12, CANNON_BREAKWATER_13, CANNON_BREAKWATER_14,
+			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12, ARCHER_HP_13, ARCHER_HP_14, ARCHER_HP_15, ARCHER_HP_16,
+			ARCHER_HP_17, ARCHER_HP_18, ARCHER_HP_19, ARCHER_HP_20,
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05,
+			STATION_COMMS
+		</HardPoints>
+
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<!-- Tactical Production Options -->
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Pelican_Squadron,
+				Shortsword_Squadron,
+				Longsword_Squadron,
+				Broadsword_Squadron,
+				Baselard_Squadron,
+				UNSC_MAKO,
+				UNSC_BUCKLER,
+				UNSC_PHOENIX,
+				UNSC_GLADIUS,
+				UNSC_CHARON,
+				UNSC_STALWART,
+				UNSC_IAC,
+				UNSC_HALBERD,
+				UNSC_IROQUOIS,
+				UNSC_PARIS,
+				UNSC_MUSASHI,
+				UNSC_POSEIDON,
+				UNSC_HALCYON,
+				UNSC_MARATHON,
+				UNSC_ROMAN_BLUE,
+				UNSC_POA,
+				UNSC_SOF,
+				RS_Improved_Weapons_L1_Upgrade,
+				RS_Improved_Weapons_L2_Upgrade,
+				RS_Improved_Weapons_L3_Upgrade,
+				RS_Improved_Defenses_L1_Upgrade,
+				RS_Improved_Defenses_L2_Upgrade,
+				RS_Level_Five_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+	
+		<!-- Data to prevent this from being buildable in galactic mode -->
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<!-- Base upgrade sequence -->
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_3</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_5</Next_Level_Base>
+			
+		<!-- Special Abilities unique to Skirmish mode -->
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>900.0</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>35</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_4</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+ 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+ 				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+ 				<Affects_All_Allies>True</Affects_All_Allies>
+ 			</Enable_Radar_Ability>
+
+			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>10.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+		<SFXEvent_Select>Unit_Select_UNSC_Space_Station</SFXEvent_Select>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_5">
+		<Variant_Of_Existing_Type>Rebel_Star_Base_5</Variant_Of_Existing_Type>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Shield_Points>88000</Shield_Points>
+		<Tactical_Health>85000</Tactical_Health>
+
+		<!-- Replacement List of Hardpoints -->
+		<HardPoints>
+			CANNON_M33_01, CANNON_M33_02,CANNON_M33_03,CANNON_M33_04,CANNON_M33_05,CANNON_M33_06,CANNON_M33_07,CANNON_M33_08, CANNON_M33_09, CANNON_M33_10, CANNON_M33_11, CANNON_M33_12,
+			CANNON_M33_13, CANNON_M33_14,CANNON_M33_15,CANNON_M33_16,CANNON_M33_17,CANNON_M33_18,CANNON_M33_19,CANNON_M33_20, CANNON_M33_21, CANNON_M33_22, CANNON_M33_23, CANNON_M33_24,
+			CANNON_M33_25, CANNON_M33_26, CANNON_M33_27, CANNON_M33_28, CANNON_M33_29, CANNON_M33_30, CANNON_M33_31, CANNON_M33_32, CANNON_M33_33, CANNON_M33_34, CANNON_M33_35, CANNON_M33_36,
+			CANNON_M33_37, CANNON_M33_38,
+			CANNON_M66_01, CANNON_M66_02,CANNON_M66_03,CANNON_M66_04,CANNON_M66_05,CANNON_M66_06, CANNON_M66_07, CANNON_M66_08, CANNON_M66_09, CANNON_M66_10, CANNON_M66_11, CANNON_M66_12,
+			CANNON_M66_13, CANNON_M66_14, CANNON_M66_15, CANNON_M66_16, CANNON_M66_17, CANNON_M66_18, CANNON_M66_19, CANNON_M66_20, CANNON_M66_21, CANNON_M66_22, CANNON_M66_23,
+			CANNON_BREAKWATER_01, CANNON_BREAKWATER_02, CANNON_BREAKWATER_03, CANNON_BREAKWATER_04, CANNON_BREAKWATER_05, CANNON_BREAKWATER_06, CANNON_BREAKWATER_07, CANNON_BREAKWATER_08,
+			CANNON_BREAKWATER_09, CANNON_BREAKWATER_10, CANNON_BREAKWATER_11, CANNON_BREAKWATER_12, CANNON_BREAKWATER_13, CANNON_BREAKWATER_14,
+			ARCHER_HP_01, ARCHER_HP_02, ARCHER_HP_03, ARCHER_HP_04, ARCHER_HP_05, ARCHER_HP_06, ARCHER_HP_07, ARCHER_HP_08, ARCHER_HP_09, ARCHER_HP_10, ARCHER_HP_11, ARCHER_HP_12, ARCHER_HP_13, ARCHER_HP_14, ARCHER_HP_15, ARCHER_HP_16,
+			ARCHER_HP_17, ARCHER_HP_18, ARCHER_HP_19, ARCHER_HP_20, ARCHER_HP_21, ARCHER_HP_22, ARCHER_HP_23, ARCHER_HP_24, ARCHER_HP_25, ARCHER_HP_26,
+			STATION_HANGAR_01, STATION_HANGAR_02, STATION_HANGAR_03, STATION_HANGAR_04, STATION_HANGAR_05, STATION_HANGAR_06, STATION_HANGAR_07, STATION_HANGAR_08,
+			STATION_COMMS
+		</HardPoints>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<!-- Tactical Production Options -->
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Pelican_Squadron,
+				Shortsword_Squadron,
+				Baselard_Squadron,
+				Broadsword_Squadron,
+			    Longsword_Squadron,
+				Sabre_Squadron,
+				UNSC_MAKO,
+				UNSC_BUCKLER,
+				UNSC_PHOENIX,
+				UNSC_GLADIUS,
+				UNSC_CHARON,
+				UNSC_STALWART,
+				UNSC_PARIS,
+				UNSC_IAC,
+				UNSC_HALBERD,
+				UNSC_IROQUOIS,
+				UNSC_MUSASHI,
+				UNSC_POSEIDON,
+				UNSC_HALCYON,
+				UNSC_MARATHON,
+				UNSC_STRIDENT,
+				UNSC_ROMAN_BLUE,
+				UNSC_POA,
+				UNSC_AUTUMN,
+				UNSC_VINDICATION,
+				UNSC_SOF,
+				UNSC_INFINITY,
+				RS_Improved_Weapons_L1_Upgrade,
+				RS_Improved_Weapons_L2_Upgrade,
+				RS_Improved_Weapons_L3_Upgrade,
+				RS_Improved_Defenses_L1_Upgrade,
+				RS_Improved_Defenses_L2_Upgrade,
+				RS_Improved_Defenses_L3_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+	
+		<!-- Data to prevent this from being buildable in galactic mode -->
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<!-- Base upgrade sequence -->
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_4</Prev_Level_Base>
+		<Next_Level_Base />
+		
+		<!-- Special Abilities unique to Skirmish mode -->
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>950</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>45</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_5</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+ 			<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+ 				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+ 				<Affects_All_Allies>True</Affects_All_Allies>
+ 			</Enable_Radar_Ability>
+
+			<Force_Healing_Ability Name="R_Starbase_Self_Heal">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.0</Heal_Percent>
+				<Heal_Amount>10.0</Heal_Amount>
+				<Heal_Interval_In_Secs>10.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+		<SFXEvent_Select>Unit_Select_UNSC_Space_Station</SFXEvent_Select>
+	</StarBase>
+</StarBases>

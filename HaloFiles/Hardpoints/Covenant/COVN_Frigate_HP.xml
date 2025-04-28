@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+<!-- CRS Class Hardpoints-->
+
+    <HardPoint Name="HP_CRS_AF_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>350.0</Health>
+            <Attachment_Bone>HP_AF_01</Attachment_Bone>
+            <Collision_Mesh>HP_AF_01</Collision_Mesh>
+			<Fire_Bone_A>HP_AF_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_01</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
+            
+			
+			
+
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_AF_02">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>350.0</Health>
+            <Attachment_Bone>HP_AF_02</Attachment_Bone>
+            <Collision_Mesh>HP_AF_02</Collision_Mesh>
+			<Fire_Bone_A>HP_AF_02</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_02</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
+            
+			
+			
+
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_AF_03">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>350.0</Health>
+            <Attachment_Bone>HP_AF_03</Attachment_Bone>
+            <Collision_Mesh>HP_AF_03</Collision_Mesh>
+			<Fire_Bone_A>HP_AF_03</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_03</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
+            
+			
+			
+
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_AF_04">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>350.0</Health>
+            <Attachment_Bone>HP_AF_04</Attachment_Bone>
+            <Collision_Mesh>HP_AF_04</Collision_Mesh>
+			<Fire_Bone_A>HP_AF_04</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_04</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser_Corvette</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>4.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_AFBEAM</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Capital, Super</Fire_Category_Restrictions>
+            
+			
+			
+
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_AF_05">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>350.0</Health>
+            <Attachment_Bone>HP_AF_05</Attachment_Bone>
+            <Collision_Mesh>HP_AF_05</Collision_Mesh>
+			<Fire_Bone_A>HP_AF_05</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_05</Fire_Bone_B>
+            <Fire_Cone_Width>360.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_COV_TORPEDO_AF</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>10.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>15.2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Super </Fire_Category_Restrictions>
+            
+			
+			
+
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_AF_06">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>350.0</Health>
+            <Attachment_Bone>HP_AF_06</Attachment_Bone>
+            <Collision_Mesh>HP_AF_06</Collision_Mesh>
+			<Fire_Bone_A>HP_AF_06</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_06</Fire_Bone_B>
+            <Fire_Cone_Width>360.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_COV_TORPEDO_AF</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>10.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>15.2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_PLASMA_TORP</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Super </Fire_Category_Restrictions>
+            
+			
+			
+
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_AS_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>1250.0</Health>
+            <Attachment_Bone>HP_AS_01</Attachment_Bone>
+            <Collision_Mesh>HP_AS_01</Collision_Mesh>
+            <Damage_Particles>HP_AS_01</Damage_Particles>
+			<Fire_Bone_A>HP_AS_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_01</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>5.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>7</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1850</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
+             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+			
+			
+			
+			
+           
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_AS_02">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>1250.0</Health>
+            <Attachment_Bone>HP_AS_02</Attachment_Bone>
+            <Collision_Mesh>HP_AS_02</Collision_Mesh>
+            <Damage_Particles>HP_AS_02</Damage_Particles>
+			<Fire_Bone_A>HP_AS_02</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_02</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>5.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>7</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1850</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
+             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+			
+			
+			
+			
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_AS_03">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>1250.0</Health>
+            <Attachment_Bone>HP_AS_03</Attachment_Bone>
+            <Collision_Mesh>HP_AS_03</Collision_Mesh>
+            <Damage_Particles>HP_AS_03</Damage_Particles>
+			<Fire_Bone_A>HP_AS_03</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_03</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>5.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>7</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1850</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
+             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+			
+			
+			
+			
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_AS_04">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>1250.0</Health>
+            <Attachment_Bone>HP_AS_04</Attachment_Bone>
+            <Collision_Mesh>HP_AS_04</Collision_Mesh>
+            <Damage_Particles>HP_AS_04</Damage_Particles>
+			<Fire_Bone_A>HP_AS_04</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_04</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam_Corvette</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>5.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>6.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>7</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1850</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_PBEAM</Fire_SFXEvent>
+             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+			
+			
+			
+			
+    </HardPoint>
+
+    <!--<HardPoint Name="HP_CRS_REACTOR"> 
+			<Type>HARD_POINT_GRAVITY_WELL</Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>Yes</Is_Destroyable>
+			<Model_To_Attach/>
+			<Attachment_Bone>HP_REACTOR</Attachment_Bone>
+			<Collision_Mesh>HP_REACTOR</Collision_Mesh>
+            <Health>4000.0</Health>
+            <Tooltip_Text>TEXT_REACTOR_HARDPOINT</Tooltip_Text>
+            
+     </HardPoint>-->
+
+    <HardPoint Name="HP_CRS_ENGINES">
+			<Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>600.0</Health>            
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_ENGINES</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>HP_ENGINES</Collision_Mesh>
+            <Damage_Decal />
+            <Engine_Particles>HP_ENGINES</Engine_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_CRS_HANGAR_01">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+        <Health>750.0</Health>		
+        <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>             
+		<Collision_Mesh>HP_HANGAR_01</Collision_Mesh>
+        <Damage_Particles>HP_HANGAR_01_EMIT</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	</HardPoint>
+    
+    <HardPoint Name="HP_CRS_HANGAR_02">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+        <Health>750.0</Health>		
+        <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>             
+		<Collision_Mesh>HP_HANGAR_02</Collision_Mesh>
+        <Damage_Particles>HP_HANGAR_02_EMIT</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	</HardPoint>
+
+    <HardPoint Name="HP_CRS_SHIELD">
+			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>600.0</Health>            
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+			
+
+            <Attachment_Bone>HP_SHIELDGEN</Attachment_Bone>
+            <Collision_Mesh>HP_SHIELDGEN</Collision_Mesh>
+    </HardPoint>
+</HardPoints>

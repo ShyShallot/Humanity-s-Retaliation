@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+
+<Hard_Point_Files>
+	<!-- Global Hardpoints -->
+	<File>HardPoints.xml</File>
+	<File>CIN_HardPoints.xml</File>
+	<File>HardPoints_Underworld.xml</File>
+	
+	<File>HaloFiles\Halo_Hardpoints.xml</File>
+	
+	<!-- UNSC Hardpoints -->
+	<File>HaloFiles\Hardpoints\UNSC\UNSC_Capitial_HP.xml</File>
+	<File>HaloFiles\Hardpoints\UNSC\UNSC_Frigate_HP.xml</File>
+	<File>HaloFiles\Hardpoints\UNSC\UNSC_Corvette_HP.xml</File>
+	<File>HaloFiles\Hardpoints\UNSC\UNSC_Fighter_HP.xml</File>
+	<File>HaloFiles\Hardpoints\UNSC\UNSC_INFINITY_HP.xml</File>
+	<File>HaloFiles\Hardpoints\UNSC\UNSC_SOF_HP.xml</File>
+	<File>HaloFiles\Hardpoints\UNSC\UNSC_Station_Hardpoints.xml</File>
+	<File>HaloFiles\Hardpoints\UNSC\UNSC_BUILDINGS.xml</File>
+	<!-- Covenant Hardpoints-->
+	<File>HaloFiles\Hardpoints\Covenant\COVN_Capital_HP.xml</File>
+	<File>HaloFiles\Hardpoints\Covenant\COVN_CAS_HP.xml</File>
+	<File>HaloFiles\Hardpoints\Covenant\COVN_CSO_HP.xml</File>
+	<File>HaloFiles\Hardpoints\Covenant\COVN_Corvette_HP.xml</File>
+	<File>HaloFiles\Hardpoints\Covenant\COVN_Fighter_HP.xml</File>
+	<File>HaloFiles\Hardpoints\Covenant\COVN_Frigate_HP.xml</File>
+	<File>HaloFiles\Hardpoints\Covenant\COVIE_Station_Hardpoints.xml</File>
+	<File>HaloFiles\Hardpoints\Covenant\COVN_PLATFORM.xml</File>
+</Hard_Point_Files>
+ 

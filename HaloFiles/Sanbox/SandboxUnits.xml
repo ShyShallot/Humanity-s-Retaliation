@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<Sandbox_Units>
+    <SpaceUnit Name="UNSC_MAKO_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_MAKO</Variant_Of_Existing_Type>
+        <Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>1</Population_Value>
+    </SpaceUnit>
+
+    <SpaceUnit Name="UNSC_GLADIUS_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_GLADIUS</Variant_Of_Existing_Type>
+        <Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>1</Population_Value>
+    </SpaceUnit>
+
+    <SpaceUnit Name="UNSC_STALWART_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_STALWART</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+
+    <SpaceUnit Name="UNSC_PARIS_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_PARIS</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_HALBERD_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_HALBERD</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_IROQUOIS_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_IROQUOIS</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_STRIDENT_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_STRIDENT</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_MUSASHI_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_MUSASHI</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_POSEIDON_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_POSEIDON</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_HALCYON_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_HALCYON</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_MARATHON_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_MARATHON</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_AUTUMN_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_AUTUMN</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_POA_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_POA</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_VINDICATION_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_VINDICATION</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+        <SpaceUnit Name="UNSC_INFINITY_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_INFINITY</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="UNSC_SOF_SANDBOX">
+        <Variant_Of_Existing_Type>UNSC_SOF</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="COVN_SDV_SANDBOX">
+        <Variant_Of_Existing_Type>COVN_SDV</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="COVN_CAR_SANDBOX">
+        <Variant_Of_Existing_Type>COVN_CAR</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="COVN_CRS_SANDBOX">
+        <Variant_Of_Existing_Type>COVN_CRS</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="COVN_DDS_SANDBOX">
+        <Variant_Of_Existing_Type>COVN_DDS</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="COVN_RCS_SANDBOX">
+        <Variant_Of_Existing_Type>COVN_RCS</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="COVN_CCS_SANDBOX">
+        <Variant_Of_Existing_Type>COVN_CCS</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="COVN_CPV_SANDBOX">
+        <Variant_Of_Existing_Type>COVN_CPV</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+    <SpaceUnit Name="COVN_CAS_SANDBOX">
+        <Variant_Of_Existing_Type>COVN_CAS</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </SpaceUnit>
+
+    <Squadron Name="Shortsword_Squadron_SANDBOX">
+        <Variant_Of_Existing_Type>Shortsword_Squadron</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </Squadron>
+    <Squadron Name="Longsword_Squadron_SANDBOX">
+        <Variant_Of_Existing_Type>Longsword_Squadron</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </Squadron>
+
+    <Squadron Name="Sabre_Squadron_SANDBOX">
+        <Variant_Of_Existing_Type>Sabre_Squadron</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </Squadron>
+    <Squadron Name="Baselard_Squadron_SANDBOX">
+        <Variant_Of_Existing_Type>Baselard_Squadron</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </Squadron>
+    <Squadron Name="Broadsword_Squadron_SANDBOX">
+        <Variant_Of_Existing_Type>Broadsword_Squadron</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </Squadron>
+    <Squadron Name="Banshee_Squadron_SANDBOX">
+        <Variant_Of_Existing_Type>Banshee_Squadron</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </Squadron>
+    <Squadron Name="Tarasque_Squadron_SANDBOX">
+        <Variant_Of_Existing_Type>Tarasque_Squadron</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </Squadron>
+    <Squadron Name="Seraph_Squadron_SANDBOX">
+        <Variant_Of_Existing_Type>Seraph_Squadron</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </Squadron>
+    <Squadron Name="Cerastes_Squadron_SANDBOX">
+        <Variant_Of_Existing_Type>Cerastes_Squadron</Variant_Of_Existing_Type>
+        <Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>1</Population_Value>
+    </Squadron>
+</Sandbox_Units>

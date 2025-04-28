@@ -1,0 +1,754 @@
+<?xml version="1.0"?>
+
+<MusicEvents>
+
+	<MusicEvent Name="Main_Menu_Music_Event">
+		<Files>halo3menumuisc.MP3</Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+
+
+
+
+
+<!--	<MusicEvent Name="Cinematic_Empire_Intro_Music_Event">
+		<Files> CIN_ROTJ_Approaching_The_Death_Star.mp3 </Files>
+        <Volume_Percent>70</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>       -->
+
+
+
+
+<!-- START INTRO CINEMATIC THEMES -->
+
+	<MusicEvent Name="Cinematic_Empire_Intro_Music_Event_2">	  
+		<Files> Empire_Intro_3_Mix.mp3 </Files>
+        <Volume_Percent>70</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Cinematic_Rebel_Intro_Music_Event_1">	  
+		<Files> REBEL_Intro_1_Mix.mp3 </Files>
+        <Volume_Percent>70</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+<!-- END INTRO CINEMATIC THEMES -->
+
+
+
+	
+<!-- START GALACTIC THEMES -->
+
+	<MusicEvent Name="Galactic_Map_Rebel_Music_Event">
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3, halo3battlemusicfinaleffort.mp3, halo3battlemusicfinaleffort8bit.mp3, halo3battlemusicfinaleffortremix.mp3, halo3battlemusicfinishfight.mp3, halo3battlemusicgravemind.mp3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3, reach_package_battle.mp3, reach_sword_base_battle.mp3, reach_tip_spear_battle.mp3, reach_winter_contingency_battle.mp3, reach_ashes_ambient.mp3, reach_at_any_cost_ambient.mp3, reach_ghosts_glass_ambient.mp3, reach_new_alexandria_ambient.mp3, reach_nightfall_ambient.mp3, reach_overture_ambient.mp3, reach_poa_ambient.mp3, reach_remember_ambient.mp3, reach_sword_base_ambient.mp3, reach_vault_ambient.mp3, reach_walking_away_ambient.mp3, reach_winter_contingency_ambient.mp3</Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+        <Play_Sequentially> No </Play_Sequentially>
+    </MusicEvent>
+
+	<MusicEvent Name="Galactic_Map_Empire_Music_Event">
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3, halo3battlemusicfinaleffort.mp3, halo3battlemusicfinaleffort8bit.mp3, halo3battlemusicfinaleffortremix.mp3, halo3battlemusicfinishfight.mp3, halo3battlemusicgravemind.mp3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3, reach_package_battle.mp3, reach_sword_base_battle.mp3, reach_tip_spear_battle.mp3, reach_winter_contingency_battle.mp3, reach_ashes_ambient.mp3, reach_at_any_cost_ambient.mp3, reach_ghosts_glass_ambient.mp3, reach_new_alexandria_ambient.mp3, reach_nightfall_ambient.mp3, reach_overture_ambient.mp3, reach_poa_ambient.mp3, reach_remember_ambient.mp3, reach_sword_base_ambient.mp3, reach_vault_ambient.mp3, reach_walking_away_ambient.mp3, reach_winter_contingency_ambient.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+        <Play_Sequentially> No </Play_Sequentially>
+    </MusicEvent>
+
+
+<!-- END GALACTIC THEMES -->
+
+
+
+
+
+	<MusicEvent Name="Galactic_Death_Star_Complete_Music_Event">
+		<Files> halomusicspeicalevent.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+
+
+
+
+<!-- Note: Combining Galactic_Battle_Pending_Music_Event and Tactical_Battle_Load_Screen_Music_Event into one event
+		since we want the galactic battle pending loop to smoothly transition and keep playing during the Battle Load
+		Dialog screen. Also the event needs to internally loop the first sample by MSS, due to the long data load that
+		occurs where the MusicEventManager is not sewrviced -->
+
+	<MusicEvent Name="Tactical_Battle_Loading_Loop_Event">
+		<Files> halo3battlemusicinfiltrate.mp3 </Files>
+		<Volume_Percent> 55 </Volume_Percent>
+		<Fade_In_Seconds> 0.0 </Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds> 2.0 </Fade_Out_Previous_Seconds>
+		<Loop> Yes </Loop>
+		<MSS_Internal_Loop> Yes </MSS_Internal_Loop> <!-- Required for long load where MSS handles the loop -->
+    </MusicEvent>
+
+<!-- 
+	<MusicEvent Name="Galactic_Battle_Pending_Music_Event">
+		<Files> Battle_Pending_1.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+-->
+<!-- 
+	Note MSS_Internal_Loop required due to event manager not processing during long data loads
+
+	<MusicEvent Name="Tactical_Battle_Load_Screen_Music_Event">
+		<Files> Battle_Pending_1.mp3 </Files>
+		<Volume_Percent>55</Volume_Percent>
+		<Fade_In_Seconds>0.0</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+		<MSS_Internal_Loop>Yes</MSS_Internal_Loop> 
+    </MusicEvent>
+-->
+
+
+
+
+<!-- START CANTINA / HUTT PALACE THEMES -->
+
+	<MusicEvent Name="Structure_Cantina_Music_Event">
+		 <Files>Cantina_1.MP3, Cantina_2.MP3</Files>
+		 <Volume_Percent>70</Volume_Percent>
+		 <Fade_In_Seconds>0.0</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>No</Loop>
+	</MusicEvent>
+
+	<MusicEvent Name="Structure_Hutt_Palace_Music_Event">
+		 <Files>Hutt_Palace_Jedi_Rocks.MP3, Hutt_Palace_Lapti_Nek.MP3</Files>
+		 <Volume_Percent>70</Volume_Percent>
+		 <Fade_In_Seconds>0.0</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>No</Loop>
+	</MusicEvent>
+
+<!-- END CANTINA / HUTT PALACE THEMES -->
+
+
+
+
+
+
+	<!-- ======================================= -->
+	<!-- REBEL LAND MAPS MUSIC EVENTS - AMBIENT  -->
+	<!-- ======================================= -->
+
+	<MusicEvent Name="Desert_Land_Rebel_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Ice_Land_Rebel_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Swamp_Land_Rebel_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Volcanic_Land_Rebel_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Temperate_Land_Rebel_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Urban_Land_Rebel_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+<!-- END REBEL LAND AMBIENT THEMES -->
+
+
+
+
+	<!-- ======================================= -->
+	<!-- EMPIRE LAND MAPS MUSIC EVENTS - AMBIENT -->
+	<!-- ======================================= -->
+
+	<MusicEvent Name="Desert_Land_Empire_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Ice_Land_Empire_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Swamp_Land_Empire_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Volcanic_Land_Empire_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Temperate_Land_Empire_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Urban_Land_Empire_Ambient_Music_Event">
+        <Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+<!-- END EMPIRE LAND AMBIENT THEMES -->
+
+
+
+
+	<!-- ====================================== -->
+	<!-- REBEL LAND MAPS MUSIC EVENTS - BATTLE  -->
+	<!-- ===================================== -->
+
+	<MusicEvent Name="Desert_Land_Rebel_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Ice_Land_Rebel_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Swamp_Land_Rebel_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Volcanic_Land_Rebel_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Temperate_Land_Rebel_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Urban_Land_Rebel_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+<!-- END REBEL LAND BATTLE THEMES -->
+
+
+
+
+
+	<!-- ======================================= -->
+	<!-- EMPIRE LAND MAPS MUSIC EVENTS - BATTLE  -->
+	<!-- ======================================= -->
+
+	<MusicEvent Name="Desert_Land_Empire_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Ice_Land_Empire_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.5</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Swamp_Land_Empire_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Volcanic_Land_Empire_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Temperate_Land_Empire_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Urban_Land_Empire_Battle_Music_Event">
+        <Files> halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicfinishfight.MP3, halo3battlemusicgravemind.MP3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+<!-- END EMPIRE LAND BATTLE THEMES -->
+
+
+
+
+
+
+<!-- START SPACE THEMES -->
+
+
+	<MusicEvent Name="Space_Map_Rebel_Ambient_Music_Event">
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3, reach_ashes_ambient.mp3, reach_at_any_cost_ambient.mp3, reach_ghosts_glass_ambient.mp3, reach_new_alexandria_ambient.mp3, reach_nightfall_ambient.mp3, reach_overture_ambient.mp3, reach_poa_ambient.mp3, reach_remember_ambient.mp3, reach_sword_base_ambient.mp3, reach_vault_ambient.mp3, reach_walking_away_ambient.mp3, reach_winter_contingency_ambient.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+		<Fade_In_Seconds>2.0</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+        <Play_Sequentially> No </Play_Sequentially>
+	</MusicEvent>
+
+	<MusicEvent Name="Space_Map_Empire_Ambient_Music_Event">
+		<Files> halo3ambientmusicblacktower.mp3, halo3ambientmusicedge.mp3, halo3ambientmusichonrable.mp3, halo3ambientmusicluck.mp3, halo3ambientmusicreborn.mp3, halo3ambientmusicreleased.mp3, halo3ambientmusicrollcall.mp3, halo3ambientmusicsteal.mp3, halo3ambientmusictribute.mp3, reach_ashes_ambient.mp3, reach_at_any_cost_ambient.mp3, reach_ghosts_glass_ambient.mp3, reach_new_alexandria_ambient.mp3, reach_nightfall_ambient.mp3, reach_overture_ambient.mp3, reach_poa_ambient.mp3, reach_remember_ambient.mp3, reach_sword_base_ambient.mp3, reach_vault_ambient.mp3, reach_walking_away_ambient.mp3, reach_winter_contingency_ambient.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+		<Fade_In_Seconds>2.0</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+        <Play_Sequentially> No </Play_Sequentially>
+	</MusicEvent>
+
+
+
+
+
+	<MusicEvent Name="Space_Map_Rebel_Battle_Music_Event">
+		<Files> halo3battlemusicfinaleffort.mp3, halo3battlemusicfinaleffort8bit.mp3, halo3battlemusicfinaleffortremix.mp3, halo3battlemusicfinishfight.mp3, halo3battlemusicgravemind.mp3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3, reach_package_battle.mp3, reach_sword_base_battle.mp3, reach_tip_spear_battle.mp3, reach_winter_contingency_battle.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+		<Fade_In_Seconds>2.0</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+        <Play_Sequentially> No </Play_Sequentially>
+	</MusicEvent>
+
+	<MusicEvent Name="Space_Map_Empire_Battle_Music_Event">
+		<Files> halo3battlemusicfinaleffort.mp3, halo3battlemusicfinaleffort8bit.mp3, halo3battlemusicfinaleffortremix.mp3, halo3battlemusicfinishfight.mp3, halo3battlemusicgravemind.mp3, halo3battlemusicinfiltrate.mp3, halo3battlemusicintrusion.mp3, halo3battlemusicjourney.mp3, halo3battlemusickillademon.mp3, halo3battlemusicpalehorse.mp3, halo3battlemusicthebrave.mp3, halo3battlemusicthehour.mp3, halo3battlemusicthreegates.mp3, reach_package_battle.mp3, reach_sword_base_battle.mp3, reach_tip_spear_battle.mp3, reach_winter_contingency_battle.mp3 </Files>
+        <Volume_Percent>55</Volume_Percent>
+		<Fade_In_Seconds>2.0</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+        <Play_Sequentially> No </Play_Sequentially>
+	</MusicEvent>
+
+
+
+<!-- END SPACE THEMES -->
+
+
+
+
+<!-- START WIN / LOSE THEMES -->
+
+    <MusicEvent Name="Rebel_Win_Tactical_Event">
+        <Files>halo3ambientmusichonrable.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Rebel_Win_Strategic_Event">
+        <Files>halo3ambientmusichonrable.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Rebel_Lose_Tactical_Event">
+        <Files>halo3ambientmusictribute.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Rebel_Lose_Strategic_Event">
+        <Files>halo3ambientmusictribute.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+
+
+
+
+
+
+
+
+    <MusicEvent Name="Empire_Win_Tactical_Event">
+        <Files>halo3ambientmusichonrable.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Empire_Win_Strategic_Event">
+        <Files>halo3ambientmusichonrable.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Empire_Lose_Tactical_Event">
+        <Files>halo3ambientmusictribute.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Empire_Lose_Strategic_Event">
+        <Files>halo3ambientmusictribute.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+ 
+
+
+
+
+
+
+
+
+
+
+    <MusicEvent Name="Lose_To_Empire_Event">
+        <Files>halo3ambientmusictribute.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Lose_To_Rebel_Event">
+        <Files>halo3ambientmusictribute.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+
+
+
+<!-- END WIN / LOSE THEMES -->
+
+
+
+
+
+	 <MusicEvent Name="Game_Credits_Music_Event">
+		 <Files>halo3battlemusicfinaleffort.MP3, halo3battlemusicfinaleffort8bit.MP3, halo3battlemusicfinaleffortremix.MP3, halo3battlemusicthreegates.MP3, halo3menumuisc.MP3 </Files>
+		  <Volume_Percent> 100 </Volume_Percent>
+		  <Fade_In_Seconds> 0.0 </Fade_In_Seconds>
+		  <Fade_Out_Previous_Seconds> 0.0 </Fade_Out_Previous_Seconds>
+		  <Loop> Yes </Loop>
+	 </MusicEvent>
+
+     
+
+    <!-- Songs List for Script Use-->
+    <!-- Idle/Background-->
+    <!-- Idle Template
+     <MusicEvent Name="Idle_">
+        <Files> halo3ambientmusic.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+    -->
+    <MusicEvent Name="Idle_Black_Tower">
+        <Files> halo3ambientmusicblacktower.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+    
+    <MusicEvent Name="Idle_Edge">
+        <Files> halo3ambientmusicedge.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Idle_Honorable">
+        <Files> halo3ambientmusichonrable.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Idle_Luck">
+        <Files> halo3ambientmusicluck.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Idle_Reborn">
+        <Files> halo3ambientmusicreborn.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Idle_Released">
+        <Files> halo3ambientmusicreleased.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Idle_Roll_Call">
+        <Files> halo3ambientmusicrollcall.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Idle_Steal">
+        <Files> halo3ambientmusicsteal.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Idle_Tribute">
+        <Files> halo3ambientmusictribute.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <!-- Battle Music-->
+    <!-- Battle Music Template
+    <MusicEvent Name="Battle_">
+        <Files> halo3battlemusic.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+    -->
+
+    <MusicEvent Name="Battle_Final_Effort">
+        <Files> halo3battlemusicfinaleffort.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_Final_Effort_8_Bit">
+        <Files> halo3battlemusicfinaleffort8bit.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_Final_Effort_Remix">
+        <Files> halo3battlemusicfinaleffortremix.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_Finish_Fight">
+        <Files> halo3battlemusicfinishfight.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_Grave_Mind">
+        <Files> halo3battlemusicgravemind.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_Infiltrate">
+        <Files> halo3battlemusicinfiltrate.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_Intrusion">
+        <Files> halo3battlemusicintrusion.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_Journey">
+        <Files> halo3battlemusicjourney.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_Kill_A_Demon">
+        <Files> halo3battlemusickillademon.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_Pale_Horse">
+        <Files> halo3battlemusicpalehorse.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_The_Brave">
+        <Files> halo3battlemusicthebrave.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_The_Hour">
+        <Files> halo3battlemusicthehour.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Battle_Three_Gates">
+        <Files> halo3battlemusicthreegates.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.6</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+</MusicEvents>

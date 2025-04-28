@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+    <!-- Seraph Hardpoints-->
+    <HardPoint Name="COVN_SER_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+			<Fire_Bone_A>HP_PLASMA_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_PLASMA_02</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>60.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Fighter</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.7</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>900.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_BULLET</Fire_SFXEvent>
+			<Fire_Category_Restrictions>  Super </Fire_Category_Restrictions>
+
+    </HardPoint>
+
+    <HardPoint Name="COVN_SER_02">
+        <Type> HARD_POINT_WEAPON_TORPEDO</Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Fire_Bone_A>HP_TORP</Fire_Bone_A>
+        <Fire_Bone_B>HP_TORP</Fire_Bone_B>
+        <Fire_Projectile_Type>Proj_COV_TORPEDO_Bomber</Fire_Projectile_Type>
+        <Fire_Cone_Width>20.0</Fire_Cone_Width>
+        <Fire_Cone_Height>60.0</Fire_Cone_Height>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>12</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1300.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter,Bomber</Fire_Category_Restrictions>
+    </HardPoint>
+    
+
+    <!-- Tarasque Hardpoints-->
+    <HardPoint Name="COVN_TARA_01">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+			<Fire_Bone_A>AF_01</Fire_Bone_A>
+            <Fire_Bone_B>AF_02</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>60.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Fighter</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.7</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>900.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_BULLET</Fire_SFXEvent>
+			<Fire_Category_Restrictions>  Super </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <!-- Cerastes Hardpoints -->
+    <HardPoint Name="COVN_CER_01">
+        <Type> HARD_POINT_WEAPON_TORPEDO</Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Fire_Bone_A>TORP_00</Fire_Bone_A>
+        <Fire_Bone_B>TORP_01</Fire_Bone_B>
+        <Fire_Projectile_Type>Proj_COV_TORPEDO_Bomber</Fire_Projectile_Type>
+        <Fire_Cone_Width>20.0</Fire_Cone_Width>
+        <Fire_Cone_Height>60.0</Fire_Cone_Height>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>12</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1100.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter,Bomber</Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="COVN_CER_02">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+			<Fire_Bone_A>AF_00</Fire_Bone_A>
+            <Fire_Bone_B>AF_01</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>60.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Fighter</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.7</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>900.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_BULLET</Fire_SFXEvent>
+			<Fire_Category_Restrictions>  Super </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <!-- Banshee Hardpoints-->
+    <HardPoint Name="BANSHEE_HP_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+			<Fire_Bone_A>FB_01</Fire_Bone_A>
+            <Fire_Bone_B>FB_02</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>60.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Fighter</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.9</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>900.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_COVN_BULLET</Fire_SFXEvent>
+			<Fire_Category_Restrictions>  Super </Fire_Category_Restrictions>
+    </HardPoint>
+	
+	<HardPoint Name="Banshee_HP_02">
+        <Type> HARD_POINT_WEAPON_TORPEDO</Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Fire_Bone_A>ROOT</Fire_Bone_A>
+        <Fire_Bone_B>ROOT</Fire_Bone_B>
+        <Fire_Projectile_Type>Proj_COV_TORPEDO_Bomber</Fire_Projectile_Type>
+        <Fire_Cone_Width>20.0</Fire_Cone_Width>
+        <Fire_Cone_Height>60.0</Fire_Cone_Height>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>12</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1300.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter,Bomber</Fire_Category_Restrictions>
+    </HardPoint>
+	
+	 <HardPoint Name="COVN_SER_02">
+        <Type> HARD_POINT_WEAPON_TORPEDO</Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Fire_Bone_A>ROOT</Fire_Bone_A>
+        <Fire_Bone_B>ROOT</Fire_Bone_B>
+        <Fire_Projectile_Type>Proj_COV_TORPEDO_Bomber</Fire_Projectile_Type>
+        <Fire_Cone_Width>20.0</Fire_Cone_Width>
+        <Fire_Cone_Height>60.0</Fire_Cone_Height>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>12</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1300.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+        <Fire_Category_Restrictions>Fighter,Bomber</Fire_Category_Restrictions>
+    </HardPoint>
+    
+</HardPoints>

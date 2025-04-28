@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+
+<Story>
+    <Event Name="Rescue_Major_Hero_Dialog">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Rescue_Major_Hero_Activate</Event_Param2>
+        <Story_Dialog>DIALOG_RESCUE</Story_Dialog>
+        <Story_Chapter>1</Story_Chapter>
+        <Story_Dialog_Popup>False</Story_Dialog_Popup>
+        <Story_Tag>Rescue_Major_Hero_Dialog</Story_Tag>
+        <Branch>Rescue_Major_Hero_Branch</Branch>
+    </Event>
+    <Event Name="Rescue_Majar_Hero_Mission">
+        <Event_Type>STORY_CONQUER</Event_Type>
+        <Event_Param1/>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1/>
+        <Reward_Param2/>
+        <Reward_Param3>1</Reward_Param3>
+        <Branch>Rescue_Major_Hero_Branch</Branch>
+        <Prereq>Rescue_Major_Hero_Dialog</Prereq>
+    </Event>
+    <Event Name="Rescue_Major_Hero_Dialog_End">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>1</Event_Param1>
+        <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+        <Reward_Param1>Rescue_Major_Hero_Dialog</Reward_Param1>
+        <Branch>Rescue_Major_Hero_Branch</Branch>
+        <Prereq>Rescue_Majar_Hero_Mission</Prereq>
+    </Event>
+    <Event Name="Rescue_Major_Hero_Reset">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>2</Event_Param1>
+        <Reward_Type>RESET_BRANCH</Reward_Type>
+        <Reward_Param1>Rescue_Major_Hero_Branch</Reward_Param1>
+        <Branch>Rescue_Major_Hero_Branch</Branch>
+        <Prereq>Rescue_Major_Hero_Dialog_End</Prereq>
+    </Event>
+
+</Story>

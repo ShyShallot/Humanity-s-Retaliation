@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Story_Mode_Plots>
+    <Lua_Script>Story_Sandbox_Random_Unit_Spawn</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Random_UNSC.xml</Active_Plot>
+    <Lua_Script>Unit_Filters</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Unit_Filters.xml</Active_Plot>
+    <Lua_Script>UNSC_RESEARCH</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\UNSC_Shield_Tech.xml</Active_Plot>
+    <Lua_Script>Hero_Rescue_UNSC</Lua_Script>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Rescue_Hero.xml</Active_Plot>
+    <Active_Plot>HaloFiles\Campaigns\StoryMissions\Freighter_Display.xml</Active_Plot>
+</Story_Mode_Plots>

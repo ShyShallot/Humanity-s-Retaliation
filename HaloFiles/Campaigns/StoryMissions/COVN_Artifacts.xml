@@ -1,0 +1,627 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+    <Event Name="Artifact_Flag_Init">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
+        <Reward_Type>SET_FLAG</Reward_Type>
+        <Reward_Param1>ARTIFACTS_RESEARCHED</Reward_Param1>
+        <Reward_Param2>0</Reward_Param2>
+    </Event>
+
+    <Event Name="ARTIFACT_SELECT_GLYKE">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Glyke</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_GLYKE</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_KARAVA">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Karava</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_KARAVA</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_ARCADIA">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Arcadia</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_ARCADIA</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_EARTH">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Earth</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_EARTH</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_NETHEROP">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Netherop</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_NETHEROP</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_BALAHO">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Balaho</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_BALAHO</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_VICTORS_TRUTH">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Victors_Truth</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_VICTORS_TRUTH</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_ALERIA">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Aleria</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_ALERIA</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_REACH">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Reach</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_REACH</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_FAR_ISLE">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Far_Isle</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_FAR_ISLE</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_TE">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Te</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_TE</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_DOISAC">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Doisac</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_DOISAC</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_ALLUVION">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Alluvion</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_ALLUVION</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_FALAKNUMA">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Falaknuma</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_FALAKNUMA</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_AKTIS_IV">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Aktis_IV</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_AKTIS_IV</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_SANGHELIOS">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Sanghelios</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_SANGHELIOS</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_RHANELO">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Rhanelo</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_RHANELO</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_CHI_CETI_IV">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Chi_Ceti_IV</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_CHI_CETI_IV</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_HARMONY">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Harmony</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_HARMONY</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_THRESHOLD">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Threshold</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_THRESHOLD</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_SONG_OF_VICTORY">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Song_of_Victory</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_SONG_OF_VICTORY</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_PALAMOK">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Palamok</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_PALAMOK</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_ERIDANUS_2">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Eridanus_2</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_ERIDANUS_2</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_NEW_CARTHAGE">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>New_Carthage</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_NEW_CARTHAGE</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_YONHE">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Yonhe</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_YONHE</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_EAYN">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Eayn</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_EAYN</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_VEN_III">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Ven_III</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_VEN_III</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_MADRIGAL">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Madrigal</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_MADRIGAL</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_NEW_JERUSALEM">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>New_Jerusalem</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_NEW_JERUSALEM</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_KAMCHATKA">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Kamchatka</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_KAMCHATKA</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_BHEDALON">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Bhedalon</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_BHEDALON</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_KOSTRODA">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Kostroda</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_KOSTRODA</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_CHARYBDIS_IX">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Charybdis_IX</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_CHARYBDIS_IX</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_TANTALUS">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Tantalus</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_TANTALUS</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_TARAM">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Taram</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_TARAM</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_CODISFOLD">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Codisfold</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_CODISFOLD</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_KHAELMOTHKA">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Khaelmothka</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_KHAELMOTHKA</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_MERIDIAN">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Meridian</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_MERIDIAN</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_TERRA_NOVA">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Terra_Nova</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_TERRA_NOVA</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_TROVE">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Trove</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_TROVE</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_FELDOKRA">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Feldokra</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_FELDOKRA</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_TVAO">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Tvao</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_TVAO</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_GAO">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Gao</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_GAO</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_MARS">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Mars</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_MARS</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_ULGETHON">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Ulgethon</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_ULGETHON</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_THUA">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Thua</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_THUA</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_HARVEST">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Harvest</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_HARVEST</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_MIRIDEM">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Miridem</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_MIRIDEM</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_NEFOLUZO">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Nefoluzo</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_NEFOLUZO</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+    <Event Name="ARTIFACT_SELECT_INSTALLATION_05">
+        <Event_Type>STORY_SELECT_PLANET</Event_Type>
+        <Event_Param1>Installation_05</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_PLAYER_SELECTED_INSTALLATION_05</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="ARTIFACT_PLANET_SELECTED">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Perpetual>true</Perpetual>
+        <Prereq>ARTIFACT_SELECT_GLYKE</Prereq>
+        <Prereq>ARTIFACT_SELECT_KARAVA</Prereq>
+        <Prereq>ARTIFACT_SELECT_ARCADIA</Prereq>
+        <Prereq>ARTIFACT_SELECT_EARTH</Prereq>
+        <Prereq>ARTIFACT_SELECT_NETHEROP</Prereq>
+        <Prereq>ARTIFACT_SELECT_BALAHO</Prereq>
+        <Prereq>ARTIFACT_SELECT_VICTORS_TRUTH</Prereq>
+        <Prereq>ARTIFACT_SELECT_ALERIA</Prereq>
+        <Prereq>ARTIFACT_SELECT_REACH</Prereq>
+        <Prereq>ARTIFACT_SELECT_FAR_ISLE</Prereq>
+        <Prereq>ARTIFACT_SELECT_TE</Prereq>
+        <Prereq>ARTIFACT_SELECT_DOISAC</Prereq>
+        <Prereq>ARTIFACT_SELECT_ALLUVION</Prereq>
+        <Prereq>ARTIFACT_SELECT_FALAKNUMA</Prereq>
+        <Prereq>ARTIFACT_SELECT_AKTIS_IV</Prereq>
+        <Prereq>ARTIFACT_SELECT_SANGHELIOS</Prereq>
+        <Prereq>ARTIFACT_SELECT_RHANELO</Prereq>
+        <Prereq>ARTIFACT_SELECT_CHI_CETI_IV</Prereq>
+        <Prereq>ARTIFACT_SELECT_HARMONY</Prereq>
+        <Prereq>ARTIFACT_SELECT_THRESHOLD</Prereq>
+        <Prereq>ARTIFACT_SELECT_SONG_OF_VICTORY</Prereq>
+        <Prereq>ARTIFACT_SELECT_PALAMOK</Prereq>
+        <Prereq>ARTIFACT_SELECT_ERIDANUS_2</Prereq>
+        <Prereq>ARTIFACT_SELECT_NEW_CARTHAGE</Prereq>
+        <Prereq>ARTIFACT_SELECT_YONHE</Prereq>
+        <Prereq>ARTIFACT_SELECT_EAYN</Prereq>
+        <Prereq>ARTIFACT_SELECT_VEN_III</Prereq>
+        <Prereq>ARTIFACT_SELECT_MADRIGAL</Prereq>
+        <Prereq>ARTIFACT_SELECT_NEW_JERUSALEM</Prereq>
+        <Prereq>ARTIFACT_SELECT_KAMCHATKA</Prereq>
+        <Prereq>ARTIFACT_SELECT_BHEDALON</Prereq>
+        <Prereq>ARTIFACT_SELECT_KOSTRODA</Prereq>
+        <Prereq>ARTIFACT_SELECT_CHARYBDIS_IX</Prereq>
+        <Prereq>ARTIFACT_SELECT_TANTALUS</Prereq>
+        <Prereq>ARTIFACT_SELECT_TARAM</Prereq>
+        <Prereq>ARTIFACT_SELECT_CODISFOLD</Prereq>
+        <Prereq>ARTIFACT_SELECT_KHAELMOTHKA</Prereq>
+        <Prereq>ARTIFACT_SELECT_MERIDIAN</Prereq>
+        <Prereq>ARTIFACT_SELECT_TERRA_NOVA</Prereq>
+        <Prereq>ARTIFACT_SELECT_TROVE</Prereq>
+        <Prereq>ARTIFACT_SELECT_FELDOKRA</Prereq>
+        <Prereq>ARTIFACT_SELECT_TVAO</Prereq>
+        <Prereq>ARTIFACT_SELECT_GAO</Prereq>
+        <Prereq>ARTIFACT_SELECT_MARS</Prereq>
+        <Prereq>ARTIFACT_SELECT_ULGETHON</Prereq>
+        <Prereq>ARTIFACT_SELECT_THUA</Prereq>
+        <Prereq>ARTIFACT_SELECT_HARVEST</Prereq>
+        <Prereq>ARTIFACT_SELECT_MIRIDEM</Prereq>
+        <Prereq>ARTIFACT_SELECT_NEFOLUZO</Prereq>
+        <Prereq>ARTIFACT_SELECT_INSTALLATION_05</Prereq>
+    </Event>
+    
+    <Event Name="ARTIFACT_DISPLAY">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
+        <Story_Dialog>DIALOG_COVN_ARTIFACTS</Story_Dialog>
+        <Story_Chapter>1</Story_Chapter>
+        <Story_Dialog_Popup>True</Story_Dialog_Popup>
+        <Story_Tag>Artifact_Display</Story_Tag>
+    </Event>
+
+    <Event Name="Artifact_Dug_Up">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>ARTIFACT_DIG_UP</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_DUG_UP</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Artifact_Researched">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>ARTIFACT_RESEARCH</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>ARTIFACT_RESEARCHED</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Remove_Dug_Up_Artifact">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+        <Reward_Param1>ARTIFACT_DIG_UP</Reward_Param1>
+        <Prereq>Artifact_Researched</Prereq>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Remove_Researched_Artifact">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+        <Reward_Param1>ARTIFACT_RESEARCH</Reward_Param1>
+        <Prereq>Remove_Dug_Up_Artifact</Prereq>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="Advance_Researched_Artifacts">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>INCREMENT_FLAG</Reward_Type>
+        <Reward_Param1>ARTIFACTS_RESEARCHED</Reward_Param1>
+        <Reward_Param2>1</Reward_Param2>
+        <Perpetual>true</Perpetual>
+        <Prereq>Remove_Researched_Artifact</Prereq>
+    </Event>
+
+    <Event Name="Covenant_Tech_Level_1">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>1</Event_Param1>
+    </Event>
+
+    <Event Name="Artifacts_Needed_To_Tech_2"> <!-- Tech Level 1 ===> Tech Level 2 -->
+        <Event_Type>STORY_FLAG</Event_Type>
+        <Event_Param1>ARTIFACTS_RESEARCHED</Event_Param1>
+        <Event_Param2>2</Event_Param2>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>Artifact_Requirement_Met_Tech_2</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Prereq>Covenant_Tech_Level_1</Prereq>
+    </Event>
+
+    <Event Name="Reset_Artifact_Flag_1"> 
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SET_FLAG</Reward_Type>
+        <Reward_Param1>ARTIFACTS_RESEARCHED</Reward_Param1>
+        <Reward_Param2>0</Reward_Param2>
+        <Prereq>Artifacts_Needed_To_Tech_2</Prereq>
+    </Event>
+
+    <Event Name="Covenant_Tech_Level_2">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>2</Event_Param1>
+    </Event>
+
+    <Event Name="Artifacts_Needed_To_Tech_3"> <!-- Tech Level 2 ===> Tech Level 3 -->
+        <Event_Type>STORY_FLAG</Event_Type>
+        <Event_Param1>ARTIFACTS_RESEARCHED</Event_Param1>
+        <Event_Param2>3</Event_Param2>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>Artifact_Requirement_Met_Tech_3</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Prereq>Covenant_Tech_Level_2</Prereq>
+    </Event>
+
+    <Event Name="Reset_Artifact_Flag_2">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SET_FLAG</Reward_Type>
+        <Reward_Param1>ARTIFACTS_RESEARCHED</Reward_Param1>
+        <Reward_Param2>0</Reward_Param2>
+        <Prereq>Artifacts_Needed_To_Tech_3</Prereq>
+    </Event>
+
+    <Event Name="Covenant_Tech_Level_3">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>3</Event_Param1>
+    </Event>
+
+    <Event Name="Artifacts_Needed_To_Tech_4"> <!-- Tech Level 3 ===> Tech Level 4 -->
+        <Event_Type>STORY_FLAG</Event_Type>
+        <Event_Param1>ARTIFACTS_RESEARCHED</Event_Param1>
+        <Event_Param2>4</Event_Param2>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>Artifact_Requirement_Met_Tech_4</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Prereq>Covenant_Tech_Level_3</Prereq>
+    </Event>
+
+    <Event Name="Reset_Artifact_Flag_3">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SET_FLAG</Reward_Type>
+        <Reward_Param1>ARTIFACTS_RESEARCHED</Reward_Param1>
+        <Reward_Param2>0</Reward_Param2>
+        <Prereq>Artifacts_Needed_To_Tech_4</Prereq>
+    </Event>
+
+    <Event Name="Covenant_Tech_Level_4">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>4</Event_Param1>
+    </Event>
+
+    <Event Name="Artifacts_Needed_To_Tech_5"> <!-- Tech Level 4 ===> Tech Level 5 -->
+        <Event_Type>STORY_FLAG</Event_Type>
+        <Event_Param1>ARTIFACTS_RESEARCHED</Event_Param1>
+        <Event_Param2>5</Event_Param2>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>Artifact_Requirement_Met_Tech_5</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Prereq>Covenant_Tech_Level_4</Prereq>
+    </Event>
+
+    <Event Name="Covenant_Tech_Level_5">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>5</Event_Param1>
+    </Event>
+
+    <Event Name="Artifacts_Completed">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+        <Reward_Param1>ARTIFACT_DISPLAY</Reward_Param1>
+        <Prereq>Covenant_Tech_Level_5</Prereq>
+    </Event>
+
+    <Event Name="Tech_Level_Advanced">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>Player_Advanced_Tech_Level</Reward_Param1>
+        <Reward_Param2>EMPIRE</Reward_Param2>
+        <Prereq>Covenant_Tech_Level_2</Prereq>
+        <Prereq>Covenant_Tech_Level_3</Prereq>
+        <Prereq>Covenant_Tech_Level_4</Prereq>
+        <Prereq>Covenant_Tech_Level_5</Prereq>
+    </Event>
+</Story>

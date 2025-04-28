@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+
+<Story>
+    <Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+    <Event Name="Galactic_Conquest_Started_AI">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Spawning_Done</Event_Param2>
+    </Event>
+
+	<Event Name="Spawn_Spirit_Of_Fire">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>UNSC_SOF</Reward_Param1>
+		<Reward_Param2>Earth</Reward_Param2>
+		<Prereq>Galactic_Conquest_Started_AI</Prereq>
+	</Event>
+
+	<Event Name="Spawn_IAC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>UNSC_IAC</Reward_Param1>
+		<Reward_Param2>Earth</Reward_Param2>
+		<Prereq>Galactic_Conquest_Started_AI</Prereq>
+	</Event>
+
+	<Event Name="Spawn_HOOD">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>UNSC_ROMAN_BLUE</Reward_Param1>
+		<Reward_Param2>Earth</Reward_Param2>
+		<Prereq>Galactic_Conquest_Started_AI</Prereq>
+	</Event>
+</Story>

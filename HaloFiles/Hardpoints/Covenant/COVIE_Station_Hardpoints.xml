@@ -1,0 +1,2018 @@
+<?xml version="1.0"?>
+<Hardpoints>
+<!--Anti Fighter Hardpoints-->
+    <Hardpoint Name="HP_COVSTATION_T1_AF_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_01</Attachment_Bone>
+            <Collision_Mesh>HP_AF_01</Collision_Mesh>
+            <Damage_Particles>HP_AF_01_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_01</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_AF_02">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_02</Attachment_Bone>
+            <Collision_Mesh>HP_AF_02</Collision_Mesh>
+            <Damage_Particles>HP_AF_02_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_02</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_02</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_AF_03">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_03</Attachment_Bone>
+            <Collision_Mesh>HP_AF_03</Collision_Mesh>
+            <Damage_Particles>HP_AF_03_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_03</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_03</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_AF_04">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_04</Attachment_Bone>
+            <Collision_Mesh>HP_AF_04</Collision_Mesh>
+            <Damage_Particles>HP_AF_04_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_04</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_04</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_AF_05">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_05</Attachment_Bone>
+            <Collision_Mesh>HP_AF_05</Collision_Mesh>
+            <Damage_Particles>HP_AF_05_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_05</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_05</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_AF_06">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_06</Attachment_Bone>
+            <Collision_Mesh>HP_AF_06</Collision_Mesh>
+            <Damage_Particles>HP_AF_06_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_06</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_06</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_AF_07">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_07</Attachment_Bone>
+            <Collision_Mesh>HP_AF_07</Collision_Mesh>
+            <Damage_Particles>HP_AF_07_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_07</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_07</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_AF_08">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_08</Attachment_Bone>
+            <Collision_Mesh>HP_AF_08</Collision_Mesh>
+            <Damage_Particles>HP_AF_08_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_08</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_08</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T2_AF_09">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_09</Attachment_Bone>
+            <Collision_Mesh>HP_AF_09</Collision_Mesh>
+            <Damage_Particles>HP_AF_09_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_09</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_09</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T2_AF_10">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_10</Attachment_Bone>
+            <Collision_Mesh>HP_AF_10</Collision_Mesh>
+            <Damage_Particles>HP_AF_10_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_10</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_10</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_AF_11">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_011</Attachment_Bone>
+            <Collision_Mesh>HP_AF_011</Collision_Mesh>
+            <Damage_Particles>HP_AF_011_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_011</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_011</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_AF_12">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_012</Attachment_Bone>
+            <Collision_Mesh>HP_AF_012</Collision_Mesh>
+            <Damage_Particles>HP_AF_012_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_012</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_012</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_AF_13">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_013</Attachment_Bone>
+            <Collision_Mesh>HP_AF_013</Collision_Mesh>
+            <Damage_Particles>HP_AF_013_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_013</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_013</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_AF_14">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_014</Attachment_Bone>
+            <Collision_Mesh>HP_AF_014</Collision_Mesh>
+            <Damage_Particles>HP_AF_014_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_014</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_014</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T5_AF_15">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_15</Attachment_Bone>
+            <Collision_Mesh>HP_AF_15</Collision_Mesh>
+            <Damage_Particles>HP_AF_15_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_15</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_15</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T5_AF_16">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_16</Attachment_Bone>
+            <Collision_Mesh>HP_AF_16</Collision_Mesh>
+            <Damage_Particles>HP_AF_16_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_16</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_16</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T5_AF_17">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_17</Attachment_Bone>
+            <Collision_Mesh>HP_AF_17</Collision_Mesh>
+            <Damage_Particles>HP_AF_17_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_17</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_17</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T5_AF_18">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AF_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AF_18</Attachment_Bone>
+            <Collision_Mesh>HP_AF_18</Collision_Mesh>
+            <Damage_Particles>HP_AF_18_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AF_18</Fire_Bone_A>
+            <Fire_Bone_B>HP_AF_18</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Pulse_Laser</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.8</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+<!-- End of Anti Fighter Hardpoints -->
+<!-- Anti Ship Hardpoints -->
+    <Hardpoint Name="HP_COVSTATION_T1_AS_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_01</Attachment_Bone>
+            <Collision_Mesh>HP_AS_01</Collision_Mesh>
+            <Damage_Particles>HP_AS_01_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_01</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_AS_02">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_02</Attachment_Bone>
+            <Collision_Mesh>HP_AS_02</Collision_Mesh>
+            <Damage_Particles>HP_AS_02_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_02</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_02</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_AS_03">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_03</Attachment_Bone>
+            <Collision_Mesh>HP_AS_03</Collision_Mesh>
+            <Damage_Particles>HP_AS_03_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_03</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_03</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_AS_04">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_04</Attachment_Bone>
+            <Collision_Mesh>HP_AS_04</Collision_Mesh>
+            <Damage_Particles>HP_AS_04_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_04</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_04</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T2_AS_05">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_05</Attachment_Bone>
+            <Collision_Mesh>HP_AS_05</Collision_Mesh>
+            <Damage_Particles>HP_AS_05_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_05</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_05</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T2_AS_06">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_06</Attachment_Bone>
+            <Collision_Mesh>HP_AS_06</Collision_Mesh>
+            <Damage_Particles>HP_AS_06_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_06</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_06</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T2_AS_07">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_07</Attachment_Bone>
+            <Collision_Mesh>HP_AS_07</Collision_Mesh>
+            <Damage_Particles>HP_AS_07_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_07</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_07</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T2_AS_08">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_08</Attachment_Bone>
+            <Collision_Mesh>HP_AS_08</Collision_Mesh>
+            <Damage_Particles>HP_AS_08_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_08</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_08</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T2_AS_09">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_09</Attachment_Bone>
+            <Collision_Mesh>HP_AS_09</Collision_Mesh>
+            <Damage_Particles>HP_AS_09_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_09</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_09</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T2_AS_10">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_10</Attachment_Bone>
+            <Collision_Mesh>HP_AS_10</Collision_Mesh>
+            <Damage_Particles>HP_AS_10_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_10</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_10</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_AS_11">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_11</Attachment_Bone>
+            <Collision_Mesh>HP_AS_11</Collision_Mesh>
+            <Damage_Particles>HP_AS_11_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_11</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_11</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_AS_12">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_12</Attachment_Bone>
+            <Collision_Mesh>HP_AS_12</Collision_Mesh>
+            <Damage_Particles>HP_AS_12_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_12</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_12</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_AS_13">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_13</Attachment_Bone>
+            <Collision_Mesh>HP_AS_13</Collision_Mesh>
+            <Damage_Particles>HP_AS_13_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_13</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_13</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+    
+    <Hardpoint Name="HP_COVSTATION_T3_AS_14">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_14</Attachment_Bone>
+            <Collision_Mesh>HP_AS_14</Collision_Mesh>
+            <Damage_Particles>HP_AS_14_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_14</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_14</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T4_AS_15">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_15</Attachment_Bone>
+            <Collision_Mesh>HP_AS_15</Collision_Mesh>
+            <Damage_Particles>HP_AS_15_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_15</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_15</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T4_AS_16">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_16</Attachment_Bone>
+            <Collision_Mesh>HP_AS_16</Collision_Mesh>
+            <Damage_Particles>HP_AS_16_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_16</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_16</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T4_AS_17">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_17</Attachment_Bone>
+            <Collision_Mesh>HP_AS_17</Collision_Mesh>
+            <Damage_Particles>HP_AS_17_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_17</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_17</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T4_AS_18">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_18</Attachment_Bone>
+            <Collision_Mesh>HP_AS_18</Collision_Mesh>
+            <Damage_Particles>HP_AS_18_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_18</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_18</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T5_AS_19">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_19</Attachment_Bone>
+            <Collision_Mesh>HP_AS_19</Collision_Mesh>
+            <Damage_Particles>HP_AS_19_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_19</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_19</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T5_AS_20">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_20</Attachment_Bone>
+            <Collision_Mesh>HP_AS_20</Collision_Mesh>
+            <Damage_Particles>HP_AS_20_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_20</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_20</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T5_AS_21">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_21</Attachment_Bone>
+            <Collision_Mesh>HP_AS_21</Collision_Mesh>
+            <Damage_Particles>HP_AS_21_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_21</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_21</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T5_AS_22">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>CONV_AS_TURRET</Tooltip_Text>
+            
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>500.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_AS_22</Attachment_Bone>
+            <Collision_Mesh>HP_AS_22</Collision_Mesh>
+            <Damage_Particles>HP_AS_22_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_AS_22</Fire_Bone_A>
+            <Fire_Bone_B>HP_AS_22</Fire_Bone_B>
+            <Fire_Cone_Width>110.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Covie_Plasma_Beam</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.4</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.7</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+            
+			
+			
+			
+			
+			
+			
+
+        
+</Hardpoint>
+<!-- Anti Ship Hardpoints -->
+<!-- Heavy Plasma Cannons -->
+    <Hardpoint Name="HP_COVSTATION_T3_HC_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+
+            <Attachment_Bone>HP_HEAVYPLASMA_01</Attachment_Bone>
+            <Collision_Mesh>HP_HEAVYPLASMA_01</Collision_Mesh>
+            <Damage_Particles>HP_HEAVYPLASMA_01_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_HEAVYPLASMA_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_HEAVYPLASMA_01</Fire_Bone_B>
+            <Fire_Cone_Width>140.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+            
+			
+			
+			
+			
+			
+			
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_HC_02">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+
+            <Attachment_Bone>HP_HEAVYPLASMA_02</Attachment_Bone>
+            <Collision_Mesh>HP_HEAVYPLASMA_02</Collision_Mesh>
+            <Damage_Particles>HP_HEAVYPLASMA_02_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_HEAVYPLASMA_02</Fire_Bone_A>
+            <Fire_Bone_B>HP_HEAVYPLASMA_02</Fire_Bone_B>
+            <Fire_Cone_Width>140.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+            
+			
+			
+			
+			
+			
+			
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_HC_03">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+
+            <Attachment_Bone>HP_HEAVYPLASMA_03</Attachment_Bone>
+            <Collision_Mesh>HP_HEAVYPLASMA_03</Collision_Mesh>
+            <Damage_Particles>HP_HEAVYPLASMA_03_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_HEAVYPLASMA_03</Fire_Bone_A>
+            <Fire_Bone_B>HP_HEAVYPLASMA_03</Fire_Bone_B>
+            <Fire_Cone_Width>140.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+            
+			
+			
+			
+			
+			
+			
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_HC_04">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+
+            <Attachment_Bone>HP_HEAVYPLASMA_04</Attachment_Bone>
+            <Collision_Mesh>HP_HEAVYPLASMA_04</Collision_Mesh>
+            <Damage_Particles>HP_HEAVYPLASMA_04_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_HEAVYPLASMA_04</Fire_Bone_A>
+            <Fire_Bone_B>HP_HEAVYPLASMA_04</Fire_Bone_B>
+            <Fire_Cone_Width>140.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+            
+			
+			
+			
+			
+			
+			
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T4_HC_05">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+
+            <Attachment_Bone>HP_HEAVYPLASMA_05</Attachment_Bone>
+            <Collision_Mesh>HP_HEAVYPLASMA_05</Collision_Mesh>
+            <Damage_Particles>HP_HEAVYPLASMA_05_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_HEAVYPLASMA_05</Fire_Bone_A>
+            <Fire_Bone_B>HP_HEAVYPLASMA_05</Fire_Bone_B>
+            <Fire_Cone_Width>140.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+            
+			
+			
+			
+			
+			
+			
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T4_HC_06">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+
+            <Attachment_Bone>HP_HEAVYPLASMA_06</Attachment_Bone>
+            <Collision_Mesh>HP_HEAVYPLASMA_06</Collision_Mesh>
+            <Damage_Particles>HP_HEAVYPLASMA_06_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_HEAVYPLASMA_06</Fire_Bone_A>
+            <Fire_Bone_B>HP_HEAVYPLASMA_06</Fire_Bone_B>
+            <Fire_Cone_Width>140.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+            
+			
+			
+			
+			
+			
+			
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T4_HC_07">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+
+            <Attachment_Bone>HP_HEAVYPLASMA_07</Attachment_Bone>
+            <Collision_Mesh>HP_HEAVYPLASMA_07</Collision_Mesh>
+            <Damage_Particles>HP_HEAVYPLASMA_07_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_HEAVYPLASMA_07</Fire_Bone_A>
+            <Fire_Bone_B>HP_HEAVYPLASMA_07</Fire_Bone_B>
+            <Fire_Cone_Width>140.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+            
+			
+			
+			
+			
+			
+			
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T4_HC_08">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+
+            <Attachment_Bone>HP_HEAVYPLASMA_08</Attachment_Bone>
+            <Collision_Mesh>HP_HEAVYPLASMA_08</Collision_Mesh>
+            <Damage_Particles>HP_HEAVYPLASMA_08_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_HEAVYPLASMA_08</Fire_Bone_A>
+            <Fire_Bone_B>HP_HEAVYPLASMA_08</Fire_Bone_B>
+            <Fire_Cone_Width>140.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+            
+			
+			
+			
+			
+			
+			
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T5_HC_09">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+
+            <Attachment_Bone>HP_HEAVYPLASMA_09</Attachment_Bone>
+            <Collision_Mesh>HP_HEAVYPLASMA_09</Collision_Mesh>
+            <Damage_Particles>HP_HEAVYPLASMA_09_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_HEAVYPLASMA_09</Fire_Bone_A>
+            <Fire_Bone_B>HP_HEAVYPLASMA_09</Fire_Bone_B>
+            <Fire_Cone_Width>140.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+            
+			
+			
+			
+			
+			
+			
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T5_HC_10">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Tooltip_Text>COVN_HEAVY_PLASMACANNON</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+
+            <Attachment_Bone>HP_HEAVYPLASMA_10</Attachment_Bone>
+            <Collision_Mesh>HP_HEAVYPLASMA_10</Collision_Mesh>
+            <Damage_Particles>HP_HEAVYPLASMA_10_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_HEAVYPLASMA_10</Fire_Bone_A>
+            <Fire_Bone_B>HP_HEAVYPLASMA_10</Fire_Bone_B>
+            <Fire_Cone_Width>140.0</Fire_Cone_Width>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_CAS_Heavy_Plasma</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.25</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>9.4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+            
+			
+			
+			
+			
+			
+			
+            <Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+
+        
+</Hardpoint>
+<!-- End of Heavy Plasma Cannons -->
+    <Hardpoint Name="HP_COVSTATION_T3_TP_01">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Tooltip_Text>CONV_TORP</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_TP_01</Attachment_Bone>
+            <Collision_Mesh>HP_TP_01</Collision_Mesh>
+            <Damage_Particles>HP_TP_01_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_TP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_TP_01</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_COV_TORPEDO</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_TP_02">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Tooltip_Text>CONV_TORP</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_TP_02</Attachment_Bone>
+            <Collision_Mesh>HP_TP_02</Collision_Mesh>
+            <Damage_Particles>HP_TP_02_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_TP_02</Fire_Bone_A>
+            <Fire_Bone_B>HP_TP_02</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_COV_TORPEDO</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_TP_03">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Tooltip_Text>CONV_TORP</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_TP_03</Attachment_Bone>
+            <Collision_Mesh>HP_TP_03</Collision_Mesh>
+            <Damage_Particles>HP_TP_03_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_TP_03</Fire_Bone_A>
+            <Fire_Bone_B>HP_TP_03</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_COV_TORPEDO</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_TP_04">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Tooltip_Text>CONV_TORP</Tooltip_Text>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>850.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+            <Attachment_Bone>HP_TP_04</Attachment_Bone>
+            <Collision_Mesh>HP_TP_04</Collision_Mesh>
+            <Damage_Particles>HP_TP_04_EMIT</Damage_Particles>
+			<Fire_Bone_A>HP_TP_04</Fire_Bone_A>
+            <Fire_Bone_B>HP_TP_04</Fire_Bone_B>
+            <Fire_Cone_Width>165.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_COV_TORPEDO</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>10.2</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>15.8</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2850.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+        
+</Hardpoint>
+
+
+    <Hardpoint Name="HP_COVSTATION_T1_HANGAR_01">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
+        <Attachment_Bone>HP_HANGER_01</Attachment_Bone>             
+		<Collision_Mesh>HP_HANGER_01</Collision_Mesh>
+            <Damage_Particles>HP_HANGER_01_EMIT</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+            
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	    
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_HANGAR_02">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
+        <Attachment_Bone>HP_HANGER_02</Attachment_Bone>             
+		<Collision_Mesh>HP_HANGER_02</Collision_Mesh>
+            <Damage_Particles>HP_HANGER_02_EMIT</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+            
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	    
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_HANGAR_03">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
+        <Attachment_Bone>HP_HANGER_03</Attachment_Bone>             
+		<Collision_Mesh>HP_HANGER_03</Collision_Mesh>
+            <Damage_Particles>HP_HANGER_03_EMIT</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+            
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	    
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_HANGAR_04">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
+        <Attachment_Bone>HP_HANGER_04</Attachment_Bone>             
+		<Collision_Mesh>HP_HANGER_04</Collision_Mesh>
+            <Damage_Particles>HP_HANGER_04_EMIT</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+            
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	    
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_HANGAR_05">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
+        <Attachment_Bone>HP_HANGER_05</Attachment_Bone>             
+		<Collision_Mesh>HP_HANGER_05</Collision_Mesh>
+            <Damage_Particles>HP_HANGER_05_EMIT</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+            
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	    
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T3_HANGAR_06">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+        <Health>760.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>		
+        <Attachment_Bone>HP_HANGER_06</Attachment_Bone>             
+		<Collision_Mesh>HP_HANGER_06</Collision_Mesh>
+            <Damage_Particles>HP_HANGER_06_EMIT</Damage_Particles>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+            
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	    
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_SHIELDGEN">
+			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>1400.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>            
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            
+
+			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_SHIELDGEN</Attachment_Bone>
+            <Collision_Mesh>HP_SHIELDGEN</Collision_Mesh>
+            <Damage_Particles>HP_SHIELDGEN_EMIT</Damage_Particles>
+        
+</Hardpoint>
+
+    <Hardpoint Name="HP_COVSTATION_T1_SUPPLYDOCK">
+			<Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
+			<Special_Ability_Name>E_Supply_Dock_Income_Bonus</Special_Ability_Name>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_SUPPLY_DOCK_HARDPOINT</Tooltip_Text>
+            
+
+			<Attachment_Bone>HP_SUPPLYDOCK</Attachment_Bone>
+			<Collision_Mesh>HP_SUPPLYDOCK</Collision_Mesh>
+            <Damage_Particles>HP_SUPPLYDOCK_EMIT</Damage_Particles>
+
+			<Health>700.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+         
+</Hardpoint>
+
+     <Hardpoint Name="HP_COVSTATION_T1_COMMS">
+			<Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
+			<Special_Ability_Name>E_Comm_Array_Enable_Radar</Special_Ability_Name>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_COMM_ARRAY_HARDPOINT</Tooltip_Text>
+            
+			
+			<!-- The Hyper Velocity Cannon will be disabled for all Empire players if this hardpoint is destroyed. -->
+			<Allows_Special_Weapon_Use> True </Allows_Special_Weapon_Use>
+
+			<Attachment_Bone>HP_COMSBAY</Attachment_Bone>
+			<Collision_Mesh>HP_COMSBAY</Collision_Mesh>
+            <Damage_Particles>HP_COMSBAY_EMIT</Damage_Particles>
+
+			<Health>700.0</Health>
+		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+         
+</Hardpoint>
+
+
+</Hardpoints>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<AIPlayerType>
+
+	<Name>SandboxHuman</Name>
+
+	<Personality>
+		<Focus> 0 </Focus>
+		<Aggressiveness> 0 </Aggressiveness>
+	</Personality>
+	
+    <GalacticFreeStoreScript>GalacticHumanStore</GalacticFreeStoreScript>
+	<GoalSetExtensionSize>1</GoalSetExtensionSize>
+	
+	<GoalProposalFunctionSets>
+		InterventionsGoalSet
+	</GoalProposalFunctionSets>
+    <Templates>
+        <Space>
+            Disable_Interventions_Template
+        </Space>
+        <Land>
+            Disable_Interventions_Template
+        </Land>
+        <Galactic>
+            Disable_Interventions_Template
+        </Galactic>
+    </Templates>
+	
+</AIPlayerType>
