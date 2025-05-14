@@ -622,6 +622,5 @@
         <Prereq>Covenant_Tech_Level_2</Prereq>
         <Prereq>Covenant_Tech_Level_3</Prereq>
         <Prereq>Covenant_Tech_Level_4</Prereq>
-        <Prereq>Covenant_Tech_Level_5</Prereq>
     </Event>
 </Story>

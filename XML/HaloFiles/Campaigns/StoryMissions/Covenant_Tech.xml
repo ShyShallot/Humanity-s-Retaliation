@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 
 <Story>
 
@@ -17,11 +17,33 @@
     <Prereq>Covenant_Tech_4</Prereq>
   </Event>
 
-  <Event Name="Planet_Conquered">
-    <Event_Type>STORY_CONQUER</Event_Type>
-    <Event_Param1></Event_Param1>
-    <Reward_Type>CREDITS</Reward_Type>
-    <Reward_Param1>100000</Reward_Param1>
+  <Event Name="HWD_Planets_Conquered">
+    <Event_Type>STORY_WIN_BATTLES</Event_Type>
+    <Event_Param1>5</Event_Param1>
+    <Event_Param2>SPACE</Event_Param2>
+    <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+    <Reward_Type>TRIGGER_AI</Reward_Type>
+    <Reward_Param1>Planets_Conquered</Reward_Param1>
+    <Reward_Param2>EMPIRE</Reward_Param2>
+    <Prereq>Covenant_Tech_4</Prereq>
+  </Event>
+
+  <Event Name="HWD_CAS_BUILT">
+    <Evnet_Type>STORY_CONSTRUCT</Evnet_Type>
+    <Event_Param1>COVN_CAS</Event_Param1>
+    <Event_Param2>3</Event_Param2>
+    <Reward_Type>TRIGGER_AI</Reward_Type>
+    <Reward_Param1>Planets_Conquered</Reward_Param1>
+    <Reward_Param2>EMPIRE</Reward_Param2>
+    <Prereq>Covenant_Tech_4</Prereq>
+  </Event>
+
+  <Event Name="HWD_REQUIREMENTS_MET">
+    <Event_Type>STORY_TRIGGER</Event_Type>
+    <Reward_Type>TRIGGER_AI</Reward_Type>
+    <Reward_Param1>HWD_Requirements_Met</Reward_Param1>
+    <Reward_Param2>EMPIRE</Reward_Param2>
+    <Prereq>HWD_CAS_BUILT, HWD_Planets_Conquered</Prereq>
   </Event>
 
   <Event Name="Covenant_Tech_5">
@@ -31,5 +53,5 @@
     <Reward_Param1>HWD_DISPLAY</Reward_Param1>
   </Event>
 
-  
+
 </Story>

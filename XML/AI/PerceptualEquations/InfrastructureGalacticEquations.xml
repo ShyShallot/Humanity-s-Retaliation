@@ -37,6 +37,20 @@
 		(20000 > Variable_Target.FriendlyForce.SpaceTotalUnnormalized)
 	</Does_Planet_Need_Units>
 
+	<Planet_Force_Strength>
+		(Variable_Target.FriendlyForce.SpaceTotalUnnormalized)
+	</Planet_Force_Strength>
+
+	<Planet_Has_Farm>
+		(Variable_Target.HasStructure{Parameter_Type = "UNSC_FARM", Parameter_Only_Consider_Complete = 1.0})
+	</Planet_Has_Farm>
+
+	<Planet_Has_Research_Facility>
+		(Variable_Target.HasStructure{Parameter_Type = "UNSC_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0})
+		+
+		(Variable_Target.HasStructure{Parameter_Type = "COVN_RESEARCH_FACILITY", Parameter_Only_Consider_Complete = 1.0})
+	</Planet_Has_Research_Facility>
+
 
 	<!-- 
 	Bring this into line with ground base component building (since they share the infrastructure category)

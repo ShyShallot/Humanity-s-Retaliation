@@ -162,7 +162,7 @@ function Main_Artifact_Loop(message)
 
                 DebugMessage("%s -- Valid Selected Planet and Artifact", tostring(Script))
 
-                local Research_Facility_At_Planet = Does_Planet_Have_Research_Facility(current_artifact.Get_Planet_Location())
+                local Research_Facility_At_Planet = Does_Planet_Have_Research_Facility(current_artifact.Get_Planet_Location(), player)
 
                 DebugMessage("%s -- Current Artifact Planet: %s, Does Planet have Research Facility: %s", tostring(Script), tostring(current_artifact.Get_Planet_Location()), tostring(Research_Facility_At_Planet))
 
@@ -206,6 +206,10 @@ function Main_Artifact_Loop(message)
         if waiting_for_tech_up then
             Artifact_Display.Clear_Dialog_Text()
             Artifact_Display.Add_Dialog_Text("HALO_ARTIFACT_WAITING_FOR_TECH_UP")
+
+            GlobalValue.Set("Artifact_Dig_Up_Not_Allowed", 1)
+
+            GlobalValue.Set("Artifact_Research_Not_Allowed", 1)
         end
 
         for planet_name, cooldown_info in pairs(planet_cooldown_table) do
@@ -215,7 +219,7 @@ function Main_Artifact_Loop(message)
 
             if planet_on_cooldown then
                 if Get_Current_Week() >= cooldown_ends then
-                    planet_cooldown_table[planet]["cooldown"] = false
+                    planet_cooldown_table[planet_name]["cooldown"] = false
                 end
             end
 
@@ -298,16 +302,8 @@ function End_Artifact_Research(message)
     end
 end
 
-function Does_Planet_Have_Research_Facility(planet)
-    local covenant_research_platforms = Find_All_Objects_Of_Type("COVN_RESEARCH_FACILITY")
-
-    for _, platform in pairs(covenant_research_platforms) do
-        if platform.Get_Planet_Location() == planet then
-            return true
-        end
-    end
-
-    return false
+function Does_Planet_Have_Research_Facility(planet, player)
+    return EvaluatePerception("Planet_Has_Research_Facility", player, planet) == 1
 end
 
 function Artifact_Research_Requirement()
@@ -351,6 +347,9 @@ end
 
 function Player_Advanced_Tech(message)
     if message == OnEnter then
+
+        DebugMessage("%s -- Player Advanced Tech", tostring(Script))
+
         GlobalValue.Set("Covenant_Main_Tech_Locked", 1)
 
         waiting_for_tech_up = false
