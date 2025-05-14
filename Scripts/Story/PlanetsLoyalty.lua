@@ -236,39 +236,43 @@ function State_Loyalty(message)
 
         selected_planet = Get_Selected_Planet()
 
+        local NEUTRAL = Find_Player("NEUTRAL")
+
         DebugMessage("Selected Planet: %s", tostring(selected_planet))
 
         if selected_planet ~= nil then
             local selected_planet_name = selected_planet.Get_Type().Get_Name()
             local planet_loyalty = planet_loyalty_table[selected_planet_name]
             if TestValid(selected_planet) and (last_selected_planet ~= selected_planet) and Is_Valid_Entry(selected_planet_name) then
-                local planet_units = Get_Units_At_Planet(selected_planet_name, selected_planet.Get_Owner())
-                if not (planet_units == nil) then
+                local planet_combat_power = 0
 
-                    local new_planet_Name = Capital_First_Letter(selected_planet_name)
-
-                    if Has_Custom_Name(selected_planet_name) then
-                        new_planet_Name = Get_Cus_Name(selected_planet_name)
-                    end
-
-                    text = tostring(new_planet_Name) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
-                    
-                    if selected_planet.Get_Owner().Is_Human() then
-                        text = text .. ", Power: " .. tostring(formatNumberWithCommas(Combat_Power_From_List(planet_units))) .. " / " .. tostring(formatNumberWithCommas(Tech_Power_Upkeep(Find_Human_Player())))
-                    else 
-                        text = text .. ", Power: Unknown"
-                    end
-                    local color = {}
-                    color.r = 255
-                    color.g = 255
-                    color.b = 255
-
-                    if planet_loyalty["Loyalty"] < 50 then
-                        color.g =0
-                        color.b = 0
-                    end
-                    Show_Screen_Text(text,3, color, false)
+                if selected_planet.Get_Owner() ~= Find_Player("NEUTRAL") then
+                    planet_combat_power = EvaluatePerception("Planet_Force_Strength", selected_planet.Get_Owner(), selected_planet)
                 end
+
+                local new_planet_Name = Capital_First_Letter(selected_planet_name)
+
+                if Has_Custom_Name(selected_planet_name) then
+                    new_planet_Name = Get_Cus_Name(selected_planet_name)
+                end
+
+                text = tostring(new_planet_Name) .. "'s Loyalty: " .. tostring(planet_loyalty["Loyalty"]) .. tostring("%") .. ", Yesterday's Loyalty: " ..tostring(planet_loyalty["PrevLoyalty"]) .. tostring("%")
+                    
+                if selected_planet.Get_Owner().Is_Human() then
+                    text = text .. ", Power: " .. tostring(formatNumberWithCommas(planet_combat_power)) .. " / " .. tostring(formatNumberWithCommas(Tech_Power_Upkeep(Find_Human_Player())))
+                else 
+                    text = text .. ", Power: Unknown"
+                end
+                local color = {}
+                color.r = 255
+                color.g = 255
+                color.b = 255
+
+                if planet_loyalty["Loyalty"] < 50 then
+                    color.g =0
+                    color.b = 0
+                end
+                Show_Screen_Text(text,3, color, false)
             end
         end
 
@@ -302,47 +306,52 @@ function State_Loyalty(message)
 
             local planet_owner = planet.Get_Owner()
 
-            DebugMessage("Current Planet: %s", tostring(planet_name))
+            DebugMessage("Current Planet: %s, Owner: %s", tostring(planet_name), tostring(planet_owner.Get_Faction_Name()))
 
             if planet_loyalty ~= nil then
 
                 DebugMessage("%s -- %s's Loyalty: %s", tostring(Script), tostring(planet_name), tostring(planet_loyalty["Loyalty"]))
-                
-                
-                local planet_units = Get_Units_At_Planet(planet_name, planet_owner)
 
-                local planet_combat_power = Combat_Power_From_List(planet_units)
+                local planet_combat_power = 0
 
                 local Power_Upkeep = Tech_Power_Upkeep(planet_owner)
 
-                local Does_Planet_Have_Farm = Find_Farm_On_Planet(planet_name)
+                local Does_Planet_Have_Farm = false
 
                 local Are_Farms_Active = Farms_Active(planet_owner)
 
                 local Enemy_Neighbor_Influence = false
 
-                if planet.Get_Owner() ~= Find_Player("NEUTRAL") then
-                    Enemy_Neighbor_Influence = Are_Neighbors_Majority_Enemy(planet_loyalty["Owner"],planet)
+                --DebugMessage("%s -- Is Planet Neutral: %s", tostring(Script), tostring(planet_owner == NEUTRAL))
+    
+                if planet_owner ~= NEUTRAL then
+
+                    --DebugMessage("%s -- %s is not Neutral", tostring(Script), tostring(planet_name))
+
+                    Does_Planet_Have_Farm = Find_Farm_On_Planet(planet, planet_owner)
+
+                    Enemy_Neighbor_Influence = EvaluatePerception("Is_Connected_To_Enemy", planet_owner, planet) == 1
+
+                    planet_combat_power = EvaluatePerception("Planet_Force_Strength", planet_owner, planet)
+
                 end
 
+                DebugMessage("%s -- Planet: %s, Fleet Power: %s, Upkeep: %s, Farm: %s, Farms Active: %s, Enemy Neighbor Influence: %s", tostring(Script), tostring(planet_name), tostring(planet_combat_power), tostring(Power_Upkeep), tostring(Does_Planet_Have_Farm), tostring(Are_Farms_Active), tostring(Enemy_Neighbor_Influence))
+
+                local upkeep_needed = Power_Upkeep - planet_combat_power
 
                 if planet_owner.Is_Human() then
-                    DebugMessage("%s -- %s is Owned by a Human", tostring(Script), tostring(planet))
+                    --DebugMessage("%s -- %s is Owned by a Human", tostring(Script), tostring(planet))
                     
                     local cur_planet_loyalty_value = planet_loyalty["Loyalty"]
                     local prev_planet_loyalty_value = planet_loyalty["PrevLoyalty"]
-                    if cur_planet_loyalty_value <= prev_planet_loyalty_value then
-    
-                        local upkeep_cost = Tech_Power_Upkeep(planet_owner)
-                        local planet_units = Get_Units_At_Planet(planet_name, planet_owner)
-                        local planet_combat_power = Combat_Power_From_List(planet_units)
-                        local upkeep_needed = upkeep_cost - planet_combat_power
+                    if cur_planet_loyalty_value < prev_planet_loyalty_value then
     
                         local upkeep_text = tostring(formatNumberWithCommas(upkeep_needed))
                         if upkeep_needed <= 0 then
                             upkeep_text = "Meeting Upkeep"
                         end
-                        DebugMessage("%s -- Adding Entry in Dialog for %s", tostring(Script), tostring(planet_name))
+                        --DebugMessage("%s -- Adding Entry in Dialog for %s", tostring(Script), tostring(planet_name))
 
                         local override_planet_name = planet_name
 
@@ -394,19 +403,19 @@ function State_Loyalty(message)
                         end
 
                         DebugMessage("Planet Name: %s", tostring(planet_name))
-                        if not (planet_units == nil) then
-                            DebugMessage("Planet: %s, Power: %s, Upkeep: %s", tostring(planet_name), tostring(planet_combat_power), tostring(Power_Upkeep))
+                        DebugMessage("Planet: %s, Power: %s, Upkeep: %s", tostring(planet_name), tostring(planet_combat_power), tostring(Power_Upkeep))
 
-                            if planet_combat_power < Power_Upkeep then
-                                DebugMessage("Combat Power is less than Upkeep for planet: %s", tostring(planet_name))
-                                if planet_combat_power == 0 then
-                                    Modify_Planet_Loyalty(planet_name, false, 1)
-                                else
-                                    Modify_Planet_Loyalty(planet_name, false, 0.5)
-                                end
-                            else 
-                                Modify_Planet_Loyalty(planet_name, true, 0.5)
+                        if planet_combat_power < Power_Upkeep then
+
+                            --DebugMessage("Combat Power is less than Upkeep for planet: %s", tostring(planet_name))
+
+                            if planet_combat_power == 0 then
+                                Modify_Planet_Loyalty(planet_name, false, 1)
+                            else
+                                Modify_Planet_Loyalty(planet_name, false, 0.5)
                             end
+                        else 
+                            Modify_Planet_Loyalty(planet_name, true, 0.5)
                         end
                         if planet_loyalty["Loyalty"] <= 0 then
                             Planet_Lost_Sound(planet_loyalty["Owner"])
@@ -432,44 +441,24 @@ function State_Loyalty(message)
     end
 end
 
-function Find_Farm_On_Planet(planet)
-    local farms = Find_All_Objects_Of_Type("UNSC_FARM")
-    local found_farm = nil
-    for _, farm in ipairs(farms) do
-        if farm.Get_Planet_Location().Get_Type().Get_Name() == planet then
-            found_farm = farm
-            break
-        end 
-    end
-    return found_farm
-end
-
-function Get_Units_At_Planet(planet_name, player)
-    if not player.Get_Faction_Name() == "REBEL" or not player.Get_Faction_Name() == "EMPIRE" then -- this is kinda pointless but we dont want to support minor factions so its just a percaution
-        return nil
-    end
-    local all_player_units = Find_All_Objects_Of_Type(player, "Fighter | Bomber | Corvette | Frigate | Capital | Super") -- get any meaningful unit owned by the input'd player
-    local planet_units = {}
-    for _, unit in ipairs(all_player_units) do
-        if TestValid(unit) then
-            if TestValid(unit.Get_Planet_Location()) then -- make sure the unit isnt moving pretty much
-                if unit.Get_Planet_Location().Get_Type().Get_Name() == planet_name then
-                    table.insert(planet_units,unit)
-                end
-            end
-        end
-    end
-    return planet_units
+function Find_Farm_On_Planet(planet, player)
+    return EvaluatePerception("Planet_Has_Farm", player, planet) == 1
 end
 
 function Tech_Power_Upkeep(player)
     local tech_level = player.Get_Tech_Level()
-    
-    if player.Get_Faction_Name() == "REBEL" then
+
+    --DebugMessage("%s -- Player: %s, Tech Level: %s", tostring(Script), tostring(player), tostring(tech_level))
+
+    if player.Get_Faction_Name() == "REBEL" or player.Get_Faction_Name() == "NEUTRAL" then
         tech_level = tech_level + 1
     end
 
-    local upkeep = {3000, 4500, 5500, 7000, 8500}
+    if tech_level == nil then
+        tech_level = 1
+    end
+
+    local upkeep = {15000, 22500, 26500, 30000, 32500}
 
     return upkeep[tech_level]
 end
@@ -492,82 +481,6 @@ function Unlock_Farms()
         Story_Event("Farms_Unlocked")
 
         GlobalValue.Set("Farm_Tech_Not_Reached", 0)
-    end
-end
-
-function Get_Path_To_Target_Planet(target_planet) -- Only checks for neighbor, could rename but meh
-    local all_planets = FindPlanet.Get_All_Planets()
-
-    for _,planet in pairs(all_planets) do
-        --DebugMessage("Start Planet: %s, End Planet: %s", tostring(target_planet_name), tostring(planet_name))
-
-        local found_path = Find_Path(target_planet.Get_Owner(),target_planet,planet) -- Find Planet Table, includes start and end planets at beginning and end respectivly 
-        --PrintTable(found_path)
-        if table.getn(found_path) == 2 then
-            --DebugMessage("Path is equal to 2")
-            return found_path
-        end
-    end
-end
-
-function Get_Neighbors(target_planet)
-    local all_planets = FindPlanet.Get_All_Planets()
-
-    local neighbors = {}
-
-    for _,planet in pairs(all_planets) do
-        --DebugMessage("Start Planet: %s, End Planet: %s", tostring(target_planet_name), tostring(planet_name))
-
-        local found_path = Find_Path(target_planet.Get_Owner(),target_planet,planet) -- Find Planet Table, includes start and end planets at beginning and end respectivly 
-        --PrintTable(found_path)
-        if table.getn(found_path) == 2 then -- planet is not a neighbor if there are than 2 planets (start and end) in the list
-            table.insert(neighbors,found_path[2])
-        end
-    end
-
-    return neighbors
-end
-
-function Get_Neighbor_Faction_Average(target_planet) -- the closer to 1 this value is, the more empire controlled neighbors there are
-    -- so 0.5 is even, 0 is fully rebel neighbors, 1 is full empire neighbos, we are ignoring sub factions on purpose
-    local neighbors = Get_Neighbors(target_planet)
-
-    local neighbor_statistics = {
-        ["EMPIRE"] = 0,
-        ["REBEL"] = 0
-    }
-
-    for _,neighbor in pairs(neighbors) do 
-        neighbor_owner = neighbor.Get_Owner().Get_Faction_Name()
-        if neighbor_owner == "EMPIRE" or neighbor_owner == "REBEL" then
-            neighbor_statistics[neighbor_owner] = neighbor_statistics[neighbor_owner] + 1
-        end
-    end
-
-    if neighbor_statistics["EMPIRE"] == 0 and neighbor_statistics["REBEL"] == 0 then
-        return 0
-    end
-
-    local proportion = neighbor_statistics["EMPIRE"] / (neighbor_statistics["REBEL"] + neighbor_statistics["EMPIRE"])
-
-    return proportion
-
-end
-
-function Are_Neighbors_Majority_Enemy(faction_name, target_planet)
-
-    local neighbor_average = Get_Neighbor_Faction_Average(target_planet)
-
-    if (faction_name == "REBEL" and neighbor_average <= 0.5) then
-        return false
-    elseif (faction_name == "REBEL" and neighbor_average > 0.5) then
-        return true
-    end
-
-    if (faction_name == "EMPIRE" and neighbor_average >= 0.5) then
-        return false
-    elseif (faction_name == "EMPIRE" and neighbor_average < 0.5) then
-        return true
     end
 end
 
@@ -687,4 +600,48 @@ function Is_Player_On_Cooldown(player_obj)
     DebugMessage("%s -- Is_Player_On_Cooldown, Cooldown Status for Player %s: %s", tostring(Script), tostring(faction_name), tostring(is_cooldown_active))
 
     return is_cooldown_active
+end
+
+function Get_Neighbors(target_planet)
+    local all_planets = FindPlanet.Get_All_Planets()
+
+    local neighbors = {}
+
+    for _,planet in pairs(all_planets) do
+        --DebugMessage("Start Planet: %s, End Planet: %s", tostring(target_planet_name), tostring(planet_name))
+
+        local found_path = Find_Path(target_planet.Get_Owner(),target_planet,planet) -- Find Planet Table, includes start and end planets at beginning and end respectivly 
+        --PrintTable(found_path)
+        if table.getn(found_path) == 2 then -- planet is not a neighbor if there are than 2 planets (start and end) in the list
+            table.insert(neighbors,found_path[2])
+        end
+    end
+
+    return neighbors
+end
+
+function Get_Neighbor_Faction_Average(target_planet) -- the closer to 1 this value is, the more empire controlled neighbors there are
+    -- so 0.5 is even, 0 is fully rebel neighbors, 1 is full empire neighbos, we are ignoring sub factions on purpose
+    local neighbors = Get_Neighbors(target_planet)
+
+    local neighbor_statistics = {
+        ["EMPIRE"] = 0,
+        ["REBEL"] = 0
+    }
+
+    for _,neighbor in pairs(neighbors) do 
+        neighbor_owner = neighbor.Get_Owner().Get_Faction_Name()
+        if neighbor_owner == "EMPIRE" or neighbor_owner == "REBEL" then
+            neighbor_statistics[neighbor_owner] = neighbor_statistics[neighbor_owner] + 1
+        end
+    end
+
+    if neighbor_statistics["EMPIRE"] == 0 and neighbor_statistics["REBEL"] == 0 then
+        return 0
+    end
+
+    local proportion = neighbor_statistics["EMPIRE"] / (neighbor_statistics["REBEL"] + neighbor_statistics["EMPIRE"])
+
+    return proportion
+
 end
